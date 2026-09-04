@@ -1,0 +1,104 @@
+{
+  "max_results_per_page": 100,
+  "max_results_per_query": 1000,
+  "arxiv_categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CV",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "queries": [
+    {
+      "name": "Activation steering",
+      "query": "\"activation steering\" OR \"activation addition\" OR \"steering vector\" OR \"activation intervention\""
+    },
+    {
+      "name": "Representation engineering",
+      "query": "\"representation engineering\" OR \"representation reading\" OR \"representation control\" OR \"control vector\""
+    },
+    {
+      "name": "Steering language models",
+      "query": "(\"steer\" OR \"steering\" OR \"control\") AND (\"large language model\" OR LLM OR \"language model\") AND (activation OR representation OR vector)"
+    },
+    {
+      "name": "Activation editing",
+      "query": "\"activation patching\" OR \"activation editing\" OR \"latent steering\" OR \"feature steering\" OR \"sparse autoencoder\""
+    },
+    {
+      "name": "VLM and multimodal steering",
+      "query": "(\"vision-language model\" OR VLM OR multimodal OR \"large multimodal model\") AND (steering OR activation OR representation OR intervention)"
+    },
+    {
+      "name": "Diffusion language model steering",
+      "query": "(\"diffusion language model\" OR DLLM OR \"diffusion LLM\" OR \"diffusion model\") AND (steering OR activation OR representation OR control)"
+    },
+    {
+      "name": "Model families",
+      "query": "(transformer OR \"foundation model\" OR \"large model\") AND (\"activation steering\" OR \"steering vector\" OR \"representation engineering\" OR \"activation intervention\")"
+    }
+  ],
+  "must_match_any": [
+    "activation steering",
+    "activation addition",
+    "steering vector",
+    "activation intervention",
+    "representation engineering",
+    "representation reading",
+    "representation control",
+    "control vector",
+    "latent steering",
+    "feature steering",
+    "activation patching",
+    "activation editing",
+    "sparse autoencoder",
+    "mechanistic interpretability"
+  ],
+  "strong_topic_terms": [
+    "activation steering",
+    "activation addition",
+    "steering vector",
+    "activation intervention",
+    "representation engineering",
+    "representation control",
+    "control vector",
+    "latent steering",
+    "feature steering",
+    "conditional activation steering",
+    "input-dependent steering",
+    "hidden state steering",
+    "activation editing"
+  ],
+  "weak_topic_terms": [
+    "activation patching",
+    "sparse autoencoder",
+    "mechanistic interpretability",
+    "representation reading",
+    "linear representation",
+    "hidden state",
+    "internal representation"
+  ],
+  "steering_words": [
+    "steer",
+    "steering",
+    "control",
+    "intervention",
+    "intervene",
+    "edit",
+    "editing"
+  ],
+  "model_terms": [
+    "language model",
+    "large language model",
+    "llm",
+    "vision-language model",
+    "vlm",
+    "large multimodal model",
+    "multimodal",
+    "diffusion language model",
+    "dllm",
+    "diffusion llm",
+    "transformer",
+    "foundation model"
+  ]
+}
