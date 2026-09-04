@@ -1,82 +1,153 @@
 {
-  "max_results_per_page": 100,
-  "max_results_per_query": 1000,
+  "max_results_per_page": 50,
+  "max_results_per_query": 500,
+  "providers": {
+    "arxiv": {
+      "enabled": true,
+      "max_results_per_page": 50,
+      "max_results_per_query": 500
+    },
+    "dblp": {
+      "enabled": true,
+      "page_size": 20,
+      "max_results_per_query": 40
+    },
+    "semantic_scholar": {
+      "enabled": true,
+      "limit": 50,
+      "max_results_per_query": 100,
+      "api_key_env": "SEMANTIC_SCHOLAR_API_KEY"
+    },
+    "openalex": {
+      "enabled": true,
+      "per_page": 50,
+      "max_pages_per_query": 1,
+      "mailto": ""
+    },
+    "acl_anthology": {
+      "enabled": true,
+      "max_matches": 500
+    },
+    "openreview": {
+      "enabled": true,
+      "limit": 25,
+      "max_results_per_query": 50
+    }
+  },
   "arxiv_categories": [
     "cs.CL",
     "cs.AI",
     "cs.CV",
     "cs.LG",
+    "cs.CR",
+    "cs.HC",
+    "cs.IR",
+    "cs.MM",
+    "cs.NE",
+    "cs.RO",
+    "cs.SD",
+    "eess.AS",
+    "eess.IV",
     "stat.ML"
   ],
   "queries": [
     {
-      "name": "Activation steering",
-      "query": "\"activation steering\" OR \"activation addition\" OR \"steering vector\" OR \"activation intervention\""
+      "name": "Activation steering exact",
+      "query": "\"activation steering\" OR \"activation addition\" OR \"activation engineering\" OR \"activation control\""
+    },
+    {
+      "name": "Steering vectors",
+      "query": "\"steering vector\" OR \"steering vectors\" OR \"control vector\" OR \"control vectors\" OR \"refusal vector\" OR \"safety vector\""
     },
     {
       "name": "Representation engineering",
-      "query": "\"representation engineering\" OR \"representation reading\" OR \"representation control\" OR \"control vector\""
+      "query": "\"representation engineering\" OR \"representation reading\" OR \"representation control\" OR \"representation steering\""
     },
     {
-      "name": "Steering language models",
-      "query": "(\"steer\" OR \"steering\" OR \"control\") AND (\"large language model\" OR LLM OR \"language model\") AND (activation OR representation OR vector)"
+      "name": "Hidden-state intervention",
+      "query": "\"hidden state\" AND (steering OR intervention OR editing OR control OR patching) AND (\"language model\" OR LLM OR transformer)"
     },
     {
-      "name": "Activation editing",
-      "query": "\"activation patching\" OR \"activation editing\" OR \"latent steering\" OR \"feature steering\" OR \"sparse autoencoder\""
+      "name": "Activation intervention and patching",
+      "query": "\"activation intervention\" OR \"activation patching\" OR \"activation editing\" OR \"activation injection\" OR \"activation manipulation\""
     },
     {
-      "name": "VLM and multimodal steering",
-      "query": "(\"vision-language model\" OR VLM OR multimodal OR \"large multimodal model\") AND (steering OR activation OR representation OR intervention)"
+      "name": "SAE steering",
+      "query": "(\"sparse autoencoder\" OR SAE OR \"dictionary learning\") AND (steering OR control OR intervention OR \"language model\" OR LLM OR transformer)"
+    },
+    {
+      "name": "Feature latent concept steering",
+      "query": "\"feature steering\" OR \"latent steering\" OR \"latent vector steering\" OR \"concept steering\" OR \"concept erasure\""
+    },
+    {
+      "name": "Safety refusal behavior steering",
+      "query": "(refusal OR safety OR alignment OR jailbreak OR sycophancy OR hallucination OR deception OR truthfulness OR toxicity OR bias) AND (\"activation steering\" OR \"steering vector\" OR \"representation steering\" OR \"hidden state\" OR \"activation patching\")"
+    },
+    {
+      "name": "VLM multimodal steering",
+      "query": "(\"vision-language model\" OR VLM OR \"large multimodal model\" OR multimodal OR \"audio-language model\" OR \"speech language model\") AND (\"activation steering\" OR \"steering vector\" OR \"representation steering\" OR \"activation patching\" OR \"feature steering\" OR \"hidden state\")"
     },
     {
       "name": "Diffusion language model steering",
-      "query": "(\"diffusion language model\" OR DLLM OR \"diffusion LLM\" OR \"diffusion model\") AND (steering OR activation OR representation OR control)"
+      "query": "(\"diffusion language model\" OR DLLM OR \"diffusion LLM\" OR \"masked diffusion model\" OR \"diffusion transformer\") AND (steering OR activation OR representation OR control)"
     },
     {
-      "name": "Model families",
-      "query": "(transformer OR \"foundation model\" OR \"large model\") AND (\"activation steering\" OR \"steering vector\" OR \"representation engineering\" OR \"activation intervention\")"
+      "name": "Mechanistic interpretability steering",
+      "query": "\"mechanistic interpretability\" AND (steering OR intervention OR patching OR \"language model\" OR LLM OR transformer)"
+    },
+    {
+      "name": "Model editing internal representations",
+      "query": "(\"model editing\" OR \"knowledge editing\" OR unlearning) AND (activation OR \"hidden state\" OR representation OR vector) AND (\"language model\" OR LLM OR transformer)"
+    },
+    {
+      "name": "Reasoning and CoT steering",
+      "query": "(reasoning OR \"chain-of-thought\" OR CoT) AND (\"activation steering\" OR \"steering vector\" OR \"activation patching\" OR \"hidden state\") AND (\"language model\" OR LLM)"
+    },
+    {
+      "name": "Persona sentiment attribute steering",
+      "query": "(persona OR sentiment OR attribute OR style OR affective) AND (\"activation steering\" OR \"steering vector\" OR \"representation steering\" OR \"latent vector steering\")"
     }
-  ],
-  "must_match_any": [
-    "activation steering",
-    "activation addition",
-    "steering vector",
-    "activation intervention",
-    "representation engineering",
-    "representation reading",
-    "representation control",
-    "control vector",
-    "latent steering",
-    "feature steering",
-    "activation patching",
-    "activation editing",
-    "sparse autoencoder",
-    "mechanistic interpretability"
   ],
   "strong_topic_terms": [
     "activation steering",
     "activation addition",
-    "steering vector",
+    "activation engineering",
+    "activation control",
     "activation intervention",
+    "activation editing",
+    "activation injection",
+    "activation manipulation",
+    "steering vector",
+    "control vector",
+    "refusal vector",
+    "safety vector",
     "representation engineering",
     "representation control",
-    "control vector",
+    "representation steering",
     "latent steering",
+    "latent vector steering",
     "feature steering",
+    "concept steering",
+    "concept erasure",
     "conditional activation steering",
     "input-dependent steering",
-    "hidden state steering",
-    "activation editing"
+    "hidden state steering"
   ],
   "weak_topic_terms": [
     "activation patching",
     "sparse autoencoder",
+    "dictionary learning",
     "mechanistic interpretability",
     "representation reading",
     "linear representation",
     "hidden state",
-    "internal representation"
+    "internal representation",
+    "logit lens",
+    "causal tracing",
+    "path patching",
+    "model editing",
+    "knowledge editing",
+    "unlearning"
   ],
   "steering_words": [
     "steer",
@@ -85,7 +156,15 @@
     "intervention",
     "intervene",
     "edit",
-    "editing"
+    "editing",
+    "patch",
+    "patching",
+    "manipulate",
+    "manipulation",
+    "erase",
+    "erasure",
+    "suppress",
+    "enhance"
   ],
   "model_terms": [
     "language model",
@@ -95,10 +174,35 @@
     "vlm",
     "large multimodal model",
     "multimodal",
+    "audio-language model",
+    "speech language model",
     "diffusion language model",
     "dllm",
     "diffusion llm",
+    "masked diffusion model",
+    "diffusion transformer",
     "transformer",
-    "foundation model"
+    "foundation model",
+    "generative model"
+  ],
+  "adjacent_terms": [
+    "alignment",
+    "refusal",
+    "safety",
+    "jailbreak",
+    "sycophancy",
+    "hallucination",
+    "deception",
+    "truthfulness",
+    "toxicity",
+    "bias",
+    "sentiment",
+    "persona",
+    "chain-of-thought",
+    "reasoning",
+    "multilingual",
+    "cross-lingual",
+    "concept activation",
+    "causal intervention"
   ]
 }
