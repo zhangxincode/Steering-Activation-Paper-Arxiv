@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1848" height="280" viewBox="0 0 1848 280">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+.title{font:700 18px Inter,Arial,sans-serif; fill:#111827;}
+.axis{stroke:#cbd5e1; stroke-width:1;}
+.grid{stroke:#e5e7eb; stroke-width:1;}
+.label{font:12px Inter,Arial,sans-serif; fill:#475569;}
+.count{font:11px Inter,Arial,sans-serif; fill:#334155;}
+.line{fill:none; stroke:#2563eb; stroke-width:3; stroke-linecap:round; stroke-linejoin:round;}
+.point{fill:#ffffff; stroke:#2563eb; stroke-width:2;}
+</style>
+<text x="24" y="34" class="title">Papers per month</text>
+<line x1="56" y1="216.0" x2="1828" y2="216.0" class="grid"/>
+<text x="20" y="220.0" class="label">0</text>
+<line x1="56" y1="168.2" x2="1828" y2="168.2" class="grid"/>
+<text x="20" y="172.2" class="label">63</text>
+<line x1="56" y1="120.4" x2="1828" y2="120.4" class="grid"/>
+<text x="20" y="124.4" class="label">126</text>
+<line x1="56" y1="71.8" x2="1828" y2="71.8" class="grid"/>
+<text x="20" y="75.8" class="label">190</text>
+<line x1="56" y1="24.0" x2="1828" y2="24.0" class="grid"/>
+<text x="20" y="28.0" class="label">253</text>
+<line x1="56" y1="24" x2="56" y2="216" class="axis"/>
+<line x1="56" y1="216" x2="1828" y2="216" class="axis"/>
+<text x="56.0" y="209.2" text-anchor="middle" class="count">1</text>
+<text x="56.0" y="236" text-anchor="middle" class="label" transform="rotate(45 56.0 236)">2020-02</text>
+<text x="85.5" y="207.7" text-anchor="middle" class="count">3</text>
+<text x="115.1" y="209.2" text-anchor="middle" class="count">1</text>
+<text x="144.6" y="208.5" text-anchor="middle" class="count">2</text>
+<text x="174.1" y="209.2" text-anchor="middle" class="count">1</text>
+<text x="203.7" y="209.2" text-anchor="middle" class="count">1</text>
+<text x="203.7" y="236" text-anchor="middle" class="label" transform="rotate(45 203.7 236)">2021-01</text>
+<text x="233.2" y="209.2" text-anchor="middle" class="count">1</text>
+<text x="262.7" y="209.2" text-anchor="middle" class="count">1</text>
+<text x="292.3" y="209.2" text-anchor="middle" class="count">1</text>
+<text x="321.8" y="208.5" text-anchor="middle" class="count">2</text>
+<text x="351.3" y="208.5" text-anchor="middle" class="count">2</text>
+<text x="351.3" y="236" text-anchor="middle" class="label" transform="rotate(45 351.3 236)">2022-02</text>
+<text x="380.9" y="208.5" text-anchor="middle" class="count">2</text>
+<text x="410.4" y="208.5" text-anchor="middle" class="count">2</text>
+<text x="439.9" y="209.2" text-anchor="middle" class="count">1</text>
+<text x="469.5" y="208.5" text-anchor="middle" class="count">2</text>
+<text x="499.0" y="209.2" text-anchor="middle" class="count">1</text>
+<text x="499.0" y="236" text-anchor="middle" class="label" transform="rotate(45 499.0 236)">2022-12</text>
+<text x="528.5" y="207.0" text-anchor="middle" class="count">4</text>
+<text x="558.1" y="208.5" text-anchor="middle" class="count">2</text>
+<text x="587.6" y="208.5" text-anchor="middle" class="count">2</text>
+<text x="617.1" y="207.7" text-anchor="middle" class="count">3</text>
+<text x="646.7" y="207.0" text-anchor="middle" class="count">4</text>
+<text x="646.7" y="236" text-anchor="middle" class="label" transform="rotate(45 646.7 236)">2023-05</text>
+<text x="676.2" y="208.5" text-anchor="middle" class="count">2</text>
+<text x="705.7" y="207.0" text-anchor="middle" class="count">4</text>
+<text x="735.3" y="207.7" text-anchor="middle" class="count">3</text>
+<text x="764.8" y="207.0" text-anchor="middle" class="count">4</text>
+<text x="794.3" y="205.4" text-anchor="middle" class="count">6</text>
+<text x="794.3" y="236" text-anchor="middle" class="label" transform="rotate(45 794.3 236)">2023-10</text>
+<text x="823.9" y="203.2" text-anchor="middle" class="count">9</text>
+<text x="853.4" y="201.7" text-anchor="middle" class="count">11</text>
+<text x="882.9" y="199.4" text-anchor="middle" class="count">14</text>
+<text x="912.5" y="194.8" text-anchor="middle" class="count">20</text>
+<text x="942.0" y="203.2" text-anchor="middle" class="count">9</text>
+<text x="942.0" y="236" text-anchor="middle" class="label" transform="rotate(45 942.0 236)">2024-03</text>
+<text x="971.5" y="201.7" text-anchor="middle" class="count">11</text>
+<text x="1001.1" y="195.6" text-anchor="middle" class="count">19</text>
+<text x="1030.6" y="194.8" text-anchor="middle" class="count">20</text>
+<text x="1060.1" y="202.4" text-anchor="middle" class="count">10</text>
+<text x="1089.7" y="199.4" text-anchor="middle" class="count">14</text>
+<text x="1089.7" y="236" text-anchor="middle" class="label" transform="rotate(45 1089.7 236)">2024-08</text>
+<text x="1119.2" y="200.9" text-anchor="middle" class="count">12</text>
+<text x="1148.7" y="187.2" text-anchor="middle" class="count">30</text>
+<text x="1178.3" y="194.1" text-anchor="middle" class="count">21</text>
+<text x="1207.8" y="202.4" text-anchor="middle" class="count">10</text>
+<text x="1237.3" y="46.1" text-anchor="middle" class="count">216</text>
+<text x="1237.3" y="236" text-anchor="middle" class="label" transform="rotate(45 1237.3 236)">2025-01</text>
+<text x="1266.9" y="171.3" text-anchor="middle" class="count">51</text>
+<text x="1296.4" y="178.9" text-anchor="middle" class="count">41</text>
+<text x="1325.9" y="188.0" text-anchor="middle" class="count">29</text>
+<text x="1355.5" y="149.3" text-anchor="middle" class="count">80</text>
+<text x="1385.0" y="165.2" text-anchor="middle" class="count">59</text>
+<text x="1385.0" y="236" text-anchor="middle" class="label" transform="rotate(45 1385.0 236)">2025-06</text>
+<text x="1414.5" y="172.8" text-anchor="middle" class="count">49</text>
+<text x="1444.1" y="172.8" text-anchor="middle" class="count">49</text>
+<text x="1473.6" y="147.0" text-anchor="middle" class="count">83</text>
+<text x="1503.1" y="156.1" text-anchor="middle" class="count">71</text>
+<text x="1532.7" y="171.3" text-anchor="middle" class="count">51</text>
+<text x="1532.7" y="236" text-anchor="middle" class="label" transform="rotate(45 1532.7 236)">2025-11</text>
+<text x="1562.2" y="164.5" text-anchor="middle" class="count">60</text>
+<text x="1591.7" y="18.0" text-anchor="middle" class="count">253</text>
+<text x="1621.3" y="118.9" text-anchor="middle" class="count">120</text>
+<text x="1650.8" y="120.5" text-anchor="middle" class="count">118</text>
+<text x="1680.3" y="114.4" text-anchor="middle" class="count">126</text>
+<text x="1680.3" y="236" text-anchor="middle" class="label" transform="rotate(45 1680.3 236)">2026-04</text>
+<text x="1709.9" y="30.9" text-anchor="middle" class="count">236</text>
+<text x="1739.4" y="84.0" text-anchor="middle" class="count">166</text>
+<text x="1768.9" y="119.7" text-anchor="middle" class="count">119</text>
+<text x="1798.5" y="99.2" text-anchor="middle" class="count">146</text>
+<text x="1828.0" y="194.8" text-anchor="middle" class="count">20</text>
+<text x="1828.0" y="236" text-anchor="middle" class="label" transform="rotate(45 1828.0 236)">2026-09</text>
+<polyline points="56.0,215.2 85.5,213.7 115.1,215.2 144.6,214.5 174.1,215.2 203.7,215.2 233.2,215.2 262.7,215.2 292.3,215.2 321.8,214.5 351.3,214.5 380.9,214.5 410.4,214.5 439.9,215.2 469.5,214.5 499.0,215.2 528.5,213.0 558.1,214.5 587.6,214.5 617.1,213.7 646.7,213.0 676.2,214.5 705.7,213.0 735.3,213.7 764.8,213.0 794.3,211.4 823.9,209.2 853.4,207.7 882.9,205.4 912.5,200.8 942.0,209.2 971.5,207.7 1001.1,201.6 1030.6,200.8 1060.1,208.4 1089.7,205.4 1119.2,206.9 1148.7,193.2 1178.3,200.1 1207.8,208.4 1237.3,52.1 1266.9,177.3 1296.4,184.9 1325.9,194.0 1355.5,155.3 1385.0,171.2 1414.5,178.8 1444.1,178.8 1473.6,153.0 1503.1,162.1 1532.7,177.3 1562.2,170.5 1591.7,24.0 1621.3,124.9 1650.8,126.5 1680.3,120.4 1709.9,36.9 1739.4,90.0 1768.9,125.7 1798.5,105.2 1828.0,200.8" class="line"/>
+<circle cx="56.0" cy="215.2" r="3.5" class="point"/>
+<circle cx="85.5" cy="213.7" r="3.5" class="point"/>
+<circle cx="115.1" cy="215.2" r="3.5" class="point"/>
+<circle cx="144.6" cy="214.5" r="3.5" class="point"/>
+<circle cx="174.1" cy="215.2" r="3.5" class="point"/>
+<circle cx="203.7" cy="215.2" r="3.5" class="point"/>
+<circle cx="233.2" cy="215.2" r="3.5" class="point"/>
+<circle cx="262.7" cy="215.2" r="3.5" class="point"/>
+<circle cx="292.3" cy="215.2" r="3.5" class="point"/>
+<circle cx="321.8" cy="214.5" r="3.5" class="point"/>
+<circle cx="351.3" cy="214.5" r="3.5" class="point"/>
+<circle cx="380.9" cy="214.5" r="3.5" class="point"/>
+<circle cx="410.4" cy="214.5" r="3.5" class="point"/>
+<circle cx="439.9" cy="215.2" r="3.5" class="point"/>
+<circle cx="469.5" cy="214.5" r="3.5" class="point"/>
+<circle cx="499.0" cy="215.2" r="3.5" class="point"/>
+<circle cx="528.5" cy="213.0" r="3.5" class="point"/>
+<circle cx="558.1" cy="214.5" r="3.5" class="point"/>
+<circle cx="587.6" cy="214.5" r="3.5" class="point"/>
+<circle cx="617.1" cy="213.7" r="3.5" class="point"/>
+<circle cx="646.7" cy="213.0" r="3.5" class="point"/>
+<circle cx="676.2" cy="214.5" r="3.5" class="point"/>
+<circle cx="705.7" cy="213.0" r="3.5" class="point"/>
+<circle cx="735.3" cy="213.7" r="3.5" class="point"/>
+<circle cx="764.8" cy="213.0" r="3.5" class="point"/>
+<circle cx="794.3" cy="211.4" r="3.5" class="point"/>
+<circle cx="823.9" cy="209.2" r="3.5" class="point"/>
+<circle cx="853.4" cy="207.7" r="3.5" class="point"/>
+<circle cx="882.9" cy="205.4" r="3.5" class="point"/>
+<circle cx="912.5" cy="200.8" r="3.5" class="point"/>
+<circle cx="942.0" cy="209.2" r="3.5" class="point"/>
+<circle cx="971.5" cy="207.7" r="3.5" class="point"/>
+<circle cx="1001.1" cy="201.6" r="3.5" class="point"/>
+<circle cx="1030.6" cy="200.8" r="3.5" class="point"/>
+<circle cx="1060.1" cy="208.4" r="3.5" class="point"/>
+<circle cx="1089.7" cy="205.4" r="3.5" class="point"/>
+<circle cx="1119.2" cy="206.9" r="3.5" class="point"/>
+<circle cx="1148.7" cy="193.2" r="3.5" class="point"/>
+<circle cx="1178.3" cy="200.1" r="3.5" class="point"/>
+<circle cx="1207.8" cy="208.4" r="3.5" class="point"/>
+<circle cx="1237.3" cy="52.1" r="3.5" class="point"/>
+<circle cx="1266.9" cy="177.3" r="3.5" class="point"/>
+<circle cx="1296.4" cy="184.9" r="3.5" class="point"/>
+<circle cx="1325.9" cy="194.0" r="3.5" class="point"/>
+<circle cx="1355.5" cy="155.3" r="3.5" class="point"/>
+<circle cx="1385.0" cy="171.2" r="3.5" class="point"/>
+<circle cx="1414.5" cy="178.8" r="3.5" class="point"/>
+<circle cx="1444.1" cy="178.8" r="3.5" class="point"/>
+<circle cx="1473.6" cy="153.0" r="3.5" class="point"/>
+<circle cx="1503.1" cy="162.1" r="3.5" class="point"/>
+<circle cx="1532.7" cy="177.3" r="3.5" class="point"/>
+<circle cx="1562.2" cy="170.5" r="3.5" class="point"/>
+<circle cx="1591.7" cy="24.0" r="3.5" class="point"/>
+<circle cx="1621.3" cy="124.9" r="3.5" class="point"/>
+<circle cx="1650.8" cy="126.5" r="3.5" class="point"/>
+<circle cx="1680.3" cy="120.4" r="3.5" class="point"/>
+<circle cx="1709.9" cy="36.9" r="3.5" class="point"/>
+<circle cx="1739.4" cy="90.0" r="3.5" class="point"/>
+<circle cx="1768.9" cy="125.7" r="3.5" class="point"/>
+<circle cx="1798.5" cy="105.2" r="3.5" class="point"/>
+<circle cx="1828.0" cy="200.8" r="3.5" class="point"/>
+</svg>

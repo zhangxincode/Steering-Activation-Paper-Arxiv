@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config" / "queries.json"
 DATA_PATH = ROOT / "docs" / "arxiv-daily.json"
 README_PATH = ROOT / "README.md"
+MONTHLY_CHART_PATH = ROOT / "imgs" / "monthly-paper-counts.svg"
 
 ARXIV_API = "https://export.arxiv.org/api/query"
 DBLP_API = "https://dblp.org/search/publ/api"
@@ -788,6 +789,112 @@ def source_counts(papers: list[dict[str, Any]]) -> dict[str, int]:
     return dict(sorted(counts.items()))
 
 
+def month_counts(papers: list[dict[str, Any]]) -> list[tuple[str, int]]:
+    counts: dict[str, int] = {}
+    years = sorted(
+        {
+            int(paper.get("published", "")[:4])
+            for paper in papers
+            if len(paper.get("published", "")) >= 4 and paper.get("published", "")[:4].isdigit()
+        }
+    )
+    if not years:
+        return []
+    year_floor = max(years) - 6
+    for paper in papers:
+        published = paper.get("published", "")
+        if len(published) >= 7 and published[:4].isdigit() and int(published[:4]) >= year_floor:
+            month = published[:7]
+            counts[month] = counts.get(month, 0) + 1
+    return sorted(counts.items())
+
+
+def month_label(month: str) -> str:
+    return month
+
+
+def format_tick(value: int) -> str:
+    return f"{value:,}"
+
+
+def y_tick_values(max_count: int) -> list[int]:
+    if max_count <= 5:
+        return list(range(max_count + 1))
+    ticks = {
+        0,
+        max_count,
+        round(max_count * 0.25),
+        round(max_count * 0.5),
+        round(max_count * 0.75),
+    }
+    return sorted(ticks)
+
+
+def generate_monthly_svg(papers: list[dict[str, Any]]) -> str:
+    counts = month_counts(papers)
+    if not counts:
+        return """<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"960\" height=\"220\" viewBox=\"0 0 960 220\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"24\" y=\"48\" font-family=\"Inter,Arial,sans-serif\" font-size=\"20\" fill=\"#111827\">No monthly data yet</text></svg>"""
+
+    width = max(960, 28 * len(counts) + 140)
+    height = 280
+    left = 56
+    right = 20
+    top = 24
+    bottom = 64
+    chart_height = height - top - bottom
+    chart_width = width - left - right
+    max_count = max(count for _, count in counts)
+
+    def y_for(count: int) -> float:
+        return top + chart_height - (count / max_count) * chart_height
+
+    def x_for(index: int) -> float:
+        if len(counts) == 1:
+            return left + chart_width / 2
+        return left + (index * chart_width / (len(counts) - 1))
+
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
+        '<rect width="100%" height="100%" fill="#ffffff"/>',
+        '<style>',
+        '.title{font:700 18px Inter,Arial,sans-serif; fill:#111827;}',
+        '.axis{stroke:#cbd5e1; stroke-width:1;}',
+        '.grid{stroke:#e5e7eb; stroke-width:1;}',
+        '.label{font:12px Inter,Arial,sans-serif; fill:#475569;}',
+        '.count{font:11px Inter,Arial,sans-serif; fill:#334155;}',
+        '.line{fill:none; stroke:#2563eb; stroke-width:3; stroke-linecap:round; stroke-linejoin:round;}',
+        '.point{fill:#ffffff; stroke:#2563eb; stroke-width:2;}',
+        '</style>',
+        '<text x="24" y="34" class="title">Papers per month</text>',
+    ]
+
+    for step in y_tick_values(max_count):
+        y = top + chart_height - (step / max(1, max_count)) * chart_height
+        parts.append(f'<line x1="{left}" y1="{y:.1f}" x2="{width - right}" y2="{y:.1f}" class="grid"/>')
+        parts.append(f'<text x="20" y="{y + 4:.1f}" class="label">{format_tick(step)}</text>')
+
+    parts.append(f'<line x1="{left}" y1="{top}" x2="{left}" y2="{top + chart_height}" class="axis"/>')
+    parts.append(f'<line x1="{left}" y1="{top + chart_height}" x2="{width - right}" y2="{top + chart_height}" class="axis"/>')
+
+    points: list[str] = []
+    for index, (month, count) in enumerate(counts):
+        x = x_for(index)
+        y = y_for(count)
+        points.append(f"{x:.1f},{y:.1f}")
+        if count > 0:
+            parts.append(f'<text x="{x:.1f}" y="{y - 6:.1f}" text-anchor="middle" class="count">{count}</text>')
+        if len(counts) <= 24 or index % max(1, len(counts) // 12) == 0 or index == len(counts) - 1:
+            parts.append(f'<text x="{x:.1f}" y="{top + chart_height + 20}" text-anchor="middle" class="label" transform="rotate(45 {x:.1f} {top + chart_height + 20})">{month_label(month)}</text>')
+
+    parts.append(f'<polyline points="{" ".join(points)}" class="line"/>')
+    for point in points:
+        x_str, y_str = point.split(",")
+        parts.append(f'<circle cx="{x_str}" cy="{y_str}" r="3.5" class="point"/>')
+
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
 def render_readme(papers: list[dict[str, Any]], generated_at: str) -> str:
     years = sorted({paper.get("published", "")[:4] for paper in papers if paper.get("published")}, reverse=True)
     counts = source_counts(papers)
@@ -795,6 +902,8 @@ def render_readme(papers: list[dict[str, Any]], generated_at: str) -> str:
         "# Steering Activation Paper Arxiv",
         "",
         "A broad, additive collector for activation steering and internal-representation control in LLMs, VLMs, diffusion language models, multimodal foundation models, and related language-model systems.",
+        "",
+        f"![Papers per month](imgs/monthly-paper-counts.svg)",
         "",
         f"Last updated: {generated_at}",
         "",
@@ -876,6 +985,8 @@ def main() -> None:
     papers = merge_papers(existing, new_papers)
     generated_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
     save_json(args.data, {"generated_at": generated_at, "papers": papers})
+    MONTHLY_CHART_PATH.parent.mkdir(parents=True, exist_ok=True)
+    MONTHLY_CHART_PATH.write_text(generate_monthly_svg(papers), encoding="utf-8")
     args.readme.write_text(render_readme(papers, generated_at), encoding="utf-8")
     print(f"Saved {len(papers)} papers to {args.data}")
 

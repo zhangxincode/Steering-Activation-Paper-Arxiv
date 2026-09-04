@@ -2,7 +2,9 @@
 
 A broad, additive collector for activation steering and internal-representation control in LLMs, VLMs, diffusion language models, multimodal foundation models, and related language-model systems.
 
-Last updated: 2026-09-04T10:26:48+00:00
+![Papers per month](imgs/monthly-paper-counts.svg)
+
+Last updated: 2026-09-04T12:40:27+00:00
 
 Total papers: **2420**
 
