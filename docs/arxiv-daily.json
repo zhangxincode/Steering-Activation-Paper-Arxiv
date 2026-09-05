@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T03:51:53+00:00",
+  "generated_at": "2026-09-05T07:27:37+00:00",
   "papers": [
     {
       "id": "doi:10.64898/2026.08.29.746924",
@@ -14,10 +14,10 @@
       "published": "2026-09-03",
       "updated": "2026-09-04",
       "categories": [
-        "OpenAlex",
+        "Dentate gyrus",
         "Hippocampal formation",
         "Neurogenesis",
-        "Dentate gyrus",
+        "OpenAlex",
         "Subgranular zone"
       ],
       "abstract": "REV-ERBβ is a transcriptional repressor of nuclear receptors that regulates the circadian rhythm and plays an important role in regulation of the proliferation, differentiation, and maturation of neurons. Dysregulation of the circadian rhythm has been associated with neuropsychiatric disorders, and activation of REV-ERBs can induce anxiolytic behavior in mice. Furthermore, hippocampal neurogenesis is important in the effects of antidepressants. However, the role of REV-ERBβ in adult hippocampal neurogenesis in vivo at the single-cell level is not known. In this study, protein localization of REV-ERBβ in the subgranular zone of the hippocampal dentate gyrus (DG) was mainly shown in NeuN-positive neurons, and the effect of expressing a dominant negative form of REV-ERBβ lacking the C-terminal region on newborn neurons in the hippocampal DG of adult mice was examined to investigate the role of REV-ERBβ in neurogenesis. A retroviral vector containing the dominant negative REV-ERBβ or a control vector was injected into the mouse DG. At 4 weeks after injection, the morphology of dendrites and dendritic spines of newborn neurons labeled by the virus was examined. Expression of the dominant negative form of REV-ERBβ inhibited dendrite outgrowth and branching and decreased dendritic spine formation in newborn neurons in the adult mouse hippocampal DG. This study revealed a new role for REV-ERB&β in adult hippocampal neurogenesis at the single cell level, and the results will provide insight into neurogenesis in the adult brain and its relationship with psychiatric disorders.",
@@ -837,11 +837,11 @@
       "published": "2026-09-01",
       "updated": "2026-09-03",
       "categories": [
-        "OpenAlex",
-        "Erasure",
         "Computer science",
-        "Orthogonality",
-        "Generative grammar"
+        "Erasure",
+        "Generative grammar",
+        "OpenAlex",
+        "Orthogonality"
       ],
       "abstract": "",
       "url": "https://doi.org/10.1016/j.neucom.2026.134994",
@@ -874,11 +874,11 @@
       "published": "2026-09-01",
       "updated": "2026-09-02",
       "categories": [
-        "OpenAlex",
         "Computer science",
+        "Distillation",
+        "OpenAlex",
         "Pipeline (software)",
-        "Standardization",
-        "Distillation"
+        "Standardization"
       ],
       "abstract": "Deploying large language models (LLMs) on-premise for domain-specific industrial applications, such as coordinate measuring machines (CMMs), presents distinct challenges and opportunities. This work presents a practical pipeline for hosting LLMs on-premise, using model distillation to achieve fast inference, data privacy, and in-house control. CMM-specific student models meet the need for offline, near-real-time diagnostic support and error-log interpretation while keeping proprietary measurement routines and quality data on the factory floor, away from cloud-based application programming interface (API) exposure. We describe a five-stage methodology covering teacher/student model selection, domain-specific data curation, knowledge distillation with feature transfer, post-distillation supervised fine-tuning, and model compression via quantization. The feature-transfer step aligns the student’s final-layer hidden states with the teacher’s through a single learnable linear projection P ∈ RdT ×dS , which maps the student hidden dimension dS to the teacher dimension dT and is optimized jointly with the student under a mean-squared-error objective. Training data were curated through a hybrid strategy that combines the parsing of International Organization for Standardization (ISO)-compliant calibration records with 3,900 prompt–response pairs assembled via multi-model teacher guidance. The distillation objective is a multi-objective loss that combines cross-entropy, KL divergence over a shared top-k logit support, and hidden-state alignment. Experimental results show that the distilled 0.5B-parameter student models retain 93.4–96.1% of teacher (7.5B–8B parameter) performance in full precision under our composite evaluation metric, while reaching up to a 32× memory-compression ratio after quantization with an accompanying inference speedup of roughly 1.6×. The final quantized models run at 34–38 ms/token (time to first token) on consumer-grade hardware, indicating that compact specialist models are economically practical for privacy-sensitive manufacturing environments. We position the work as a systems and domain-adaptation contribution rather than a new distillation algorithm, and we discuss its limitations candidly.",
       "url": "https://doi.org/10.20944/preprints202609.0007.v1",
@@ -1130,10 +1130,10 @@
       "published": "2026-08-31",
       "updated": "2026-09-02",
       "categories": [
-        "OpenAlex",
         "Certainty",
         "Confabulation (neural networks)",
         "Epistemology",
+        "OpenAlex",
         "Vignette"
       ],
       "abstract": "Large language models often generate confident but fabricated content, yet whether they maintain internal representations of their own epistemic states is unknown. To address this question, contrastive activation vectors were extracted for 15 epistemic states from five language models, using 100 matched present-neutral vignette pairs per state. A low-dimensional geometry emerged in all five models: a dominant confidence axis groups states by certainty irrespective of category, and a secondary axis distinguishes self-directed from world-directed uncertainty (Fisher combined p = 0.011). Steering and targeted activation patching along these directions causally alter behavior, at times rescuing correct answers on previously confabulated questions. When combined with output-level confidence, the vectors yield a confabulation detector with an ROC-AUC of 0.89-0.92. We anticipate that these vectors will be useful for diagnosing and correcting epistemic failure in deployed language models.",
@@ -1552,11 +1552,11 @@
       "published": "2026-08-30",
       "updated": "2026-08-31",
       "categories": [
-        "OpenAlex",
         "Computer science",
+        "Function (biology)",
+        "OpenAlex",
         "Reinforcement learning",
-        "Value (mathematics)",
-        "Function (biology)"
+        "Value (mathematics)"
       ],
       "abstract": "Reflexive Role Routing (RRR) is an architecture designed to solve the role-execution commitment gap in multi-agent LLM systems. Core Problem: Current multi-agent frameworks assign roles statically or turn-by-turn. If an executing agent diverges or pursues a flawed trajectory, the error is detected only after generation finishes (e.g., during downstream review), wasting wall-clock time and compute. Proposed Mechanism: RRR inserts periodic checkpoints into the generation process where shallow MLP probes inspect the model's internal hidden states to compute two lightweight scalar metrics: a semantic divergence score ($\\delta$) and an acceptance confidence score ($c$). Meta-Controller Actions: A frozen meta-controller monitors these signals at each checkpoint and selects one of three actions: Continue: Proceed to the next checkpoint. Redirect: Preemptively transfer context and execution to a different specialized agent (e.g., routing back to a planning or scientist role). Escalate: Yield control directly back to the central orchestrator with diagnostic context for re-planning. Theoretical Grounding: RRR formalizes multi-agent mid-generation intervention as a semi-Markov decision process (SMDP), generalizing dynamic value-thresholding abstention mechanisms to multi-policy, cross-role environments.",
       "url": "https://arxiv.org/abs/2604.18419",
@@ -2024,11 +2024,11 @@
       "published": "2026-08-28",
       "updated": "2026-08-30",
       "categories": [
-        "OpenAlex",
-        "Hallucinating",
+        "Artificial intelligence",
         "Computer science",
+        "Hallucinating",
         "Noise (video)",
-        "Artificial intelligence"
+        "OpenAlex"
       ],
       "abstract": "Why do fine-tuned language models hallucinate more confidently than their in-context-learning counterparts on the same knowledge? Mechanism. Each backward pass under cross-entropy loss amplifies the winning route asymmetrically and presses alternatives below the noise floor at the substrate-output layer; the depth of this compression scales with how many gradient passes the substrate has absorbed. In-context learning (ICL) preserves the model's calibrated distribution over candidate answers because no weight update has compressed it. Fine-tuning (FT) compresses it as a structural consequence of cumulative gradient pressure, regardless of training-data content. The mechanism generalises a previously RLHF-specific finding to all weight-update training — including plain LoRA fine-tuning on innocuous factual data, and (per the full-parameter ablation) full-parameter FT. Headline empirical findings. Across experiments on a 47-fact invented knowledge domain (Zorbetik), Qwen2.5 base models at 3B and 7B scales: ICL outperforms LoRA-FT on cloze retrieval by 16–28 percentage points across capacity scales; FT-trained models confer no application-accuracy benefit over the no-context baseline despite encoding the facts; the per-token competing-routes signal collapses monotonically with cumulative gradient passes (log(CR_pos0) climbs from 5.46 in ICL to 17.85 in raw-FT 30ep to 21.12 in paraphrase-augmented FT 30ep); entropy at position 0 collapses from 0.32 (ICL) to ≈0.00 (any FT regime). A compute-matched 2×2 shows data-variation buffers calibration loss at matched compute, and a full-parameter vs LoRA ablation confirms the mechanism is not LoRA-specific. An n=300 format-violation test establishes the reactance drop on both FT substrates (paraphrase-FT +18pp, raw-FT +42pp), with paraphrase-FT measurably less reactive than raw-FT. What gates installation at all. A voice × copyability 2×2, replicated on two base models, two disjoint fact sets and two seeds, shows installation is gated by copyability, not voice: any training format that withholds the answer from the input installs the facts (97.5–100 % held-out recall), while any format that makes the answer copyable from the input installs nothing (0 %), whether the user turn is interrogative or declarative. A same-format cloze-control rules out train/test mismatch. Cumulative gradient passes are necessary but not sufficient: the format must force prediction of an answer unavailable from context. This is a concrete dataset-construction rule for practitioners building fact-installing fine-tunes. From installed facts to an installed disposition. A control on Llama-3.3-70B fine-tunes two arms differing only in where the answer-commit falls (answer-first vs reasoning-first), with reasoning text held identical so response length is matched. The installed commit-timing disposition is legible in the same token-level route observable at matched length — fine-tuning installs behavioural dispositions, not only facts. A contradicting in-context pressure cue is demonstrably registered (response length shortens, p < 0.01 in both arms) yet moves the installed commit-timing only marginally and accuracy not detectably: attenuation, not immunity. Reported with its scope limits (n=40 per cell, one domain, one seed). Applied consequences. Why FT-trained models hallucinate more confidently: alternative routes have been compressed beyond reach. Why agentic systems cannot reliably represent uncertainty when built on FT: the substrate-level signal that would carry uncertainty is gone. The substrate-level distinction offers a principled resolution of the RAG-vs-fine-tuning debate — RAG operates in ICL-mode and preserves calibration; FT compresses it as a structural consequence, so the choice is architectural, not merely a deployment-cost trade-off. Long-context agentic conversations inherit ICL's calibration properties for free, and a concrete hybrid ICL+FT architecture combines ICL's calibration-preservation with FT's persistence at bounded context-window cost. Companion papers in the series. Paper 2 — Capacity Scaling of Encoding-Through-Loading (10.5281/zenodo.20013491), the empirical companion. Paper 1 — Friction as the Cost of Probabilistic Computation (10.5281/zenodo.20012655). Paper 6 — Matched Friction Under Hysteresis (10.5281/zenodo.20059863), which develops the cross-substrate working-memory / long-term-memory extension deliberately out of scope here. Paper 4D — Onset-Commitment in Large Language Models (10.5281/zenodo.20562089). Paper 13 — Operational Friction Theory (10.5281/zenodo.20059877). Paper 14 — Logic as Reactance (10.5281/zenodo.20217712). Scope. Silicon substrates only: LoRA and full-parameter fine-tuning of Qwen2.5 base models plus one Llama-3.3-70B control, on controlled invented domains. Cross-substrate and biological extensions are developed in the dedicated companion papers, and no claim here depends on a biological analogue holding. Paper 2B in the Friction Theory paper-series (cite-letter 2026p) — version v4. An applied ML / LLM-mechanism paper; target venue TMLR (COLM / ICLR / NeurIPS as backup). What is new in v4 (changelog, for readers tracking the series). Two additions since v4. (1) Experiment 4 — the voice × copyability 2×2 establishing the installation gate described above, with its cloze-control and replications across two models, two fact sets and two seeds. (2) A disposition-install control on Llama-3.3-70B extending the substrate readout from installed facts to an installed behavioural disposition, with the attenuation-not-immunity result. Both were added after external review; the control's positioning against direct disposition-editing methods (task arithmetic, representation engineering) and the parametric-vs-contextual knowledge-conflict literature was added in the same pass. Acknowledgments and data-availability moved to end-matter. Concept DOI 10.5281/zenodo.20145218 unchanged; v4 archived at 10.5281/zenodo.20472479. v5 (August 2026) — attribution revision. Experiment 4 asks whether training-example format gates whether anything installs, and the section was named after two human-memory effects whose owners it did not cite. Both are now credited: the testing effect, that retrieving an item strengthens it more than restudying does (Roediger & Karpicke, 2006), and the generation effect, that producing an item strengthens it more than reading does (Slamecka & Graf, 1978). The limit is stated with them — a gradient update is not retrieval practice, and nothing here shows the weight change resembles what retrieval does to a human memory trace. The parallel is why the manipulation was worth running, not evidence of a shared mechanism. Editorial pass. Earlier versions remain in the version history.",
       "url": "https://doi.org/10.5281/zenodo.20145218",
@@ -3058,11 +3058,11 @@
       "published": "2026-08-25",
       "updated": "2026-08-27",
       "categories": [
-        "OpenAlex",
-        "Interpretability",
         "Computer science",
+        "Electronic circuit",
+        "Interpretability",
         "Modular design",
-        "Electronic circuit"
+        "OpenAlex"
       ],
       "abstract": "",
       "url": "https://doi.org/10.21203/rs.3.rs-10782868/v1",
@@ -4663,11 +4663,11 @@
       "published": "2026-08-12",
       "updated": "2026-08-29",
       "categories": [
-        "OpenAlex",
-        "Computer science",
         "Artificial intelligence",
+        "Computer science",
         "Entropy (arrow of time)",
-        "Exploit"
+        "Exploit",
+        "OpenAlex"
       ],
       "abstract": "Reinforcement-learning (RL) post-training equips multimodal large reasoning models (MLRMs) with exploratory chains of thought (CoT), substantially improving visual reasoning. However, we find that this capability introduces a distinct privacy vulnerability: even when a sensitive fact is successfully unlearned from the final answer, the model may still reproduce it in its reasoning trace. This leakage is substantially more pronounced in natively RL-trained MLRMs than in their non -reasoning base models, revealing a privacy risk that existing unlearning methods are not designed to address. We show that RL-induced exploration leaves sensitive content with a distinctive token-level entropy signature that is largely absent from base models. Based on this observation, we propose LEMUR, a fully training-free, inference-time unlearning framework for natively RL-trained multimodal models. LEMUR uses entropy dynamics as a control signal to identify when sensitive reasoning begins and when sanitization should stop. During this interval, it redirects the reasoning trajectory through entropy-modulated visual-anchor latent injection, replacing committed tokens with sanitized, probability-weighted embeddings re-grounded in the input image. Across diverse MLRMs, LEMUR consistently outperforms existing unlearning met hods in suppressing both reasoning-trace and answer leakage, while better preserving non-sensitive utility and output fluency. These results demonstrate that RL-induced entropy dynamics provide a distinctive signal for privacy leakage and that exploiting this signal enables effective training-free unlearning for reasoning-capable multimodal models.",
       "url": "https://arxiv.org/abs/2608.11691",
