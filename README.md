@@ -4,11 +4,11 @@ A broad, additive collector for activation steering and internal-representation 
 
 ![Papers per month](imgs/monthly-paper-counts.svg)
 
-Last updated: 2026-09-05T07:27:37+00:00
+Last updated: 2026-09-06T07:40:54+00:00
 
-Total papers: **2438**
+Total papers: **2441**
 
-Sources: acl-anthology (500), arxiv (2054), openalex (72), semantic-scholar (1)
+Sources: acl-anthology (500), arxiv (2054), openalex (80), semantic-scholar (1)
 
 ## Papers By Year
 
@@ -16,22 +16,26 @@ Sources: acl-anthology (500), arxiv (2054), openalex (72), semantic-scholar (1)
 
 | Date | Paper | Authors | Categories |
 | --- | --- | --- | --- |
-| 2026-09-03 | [Ligand-binding/transcriptional repressor domain-deficient REV-ERBβ inhibits dendrite and spine formation of newborn adult hippocampal neurons](https://doi.org/10.64898/2026.08.29.746924) | Koji Shimozaki | Dentate gyrus, Hippocampal formation, Neurogenesis, OpenAlex |
-| 2026-09-03 | [Towards Sparse Causal Features for Zero-shot Mutation Effect Prediction in a Protein Language Model](https://doi.org/10.64898/2026.08.28.747907) | Saishradha Mohanty, Manya Phutela, Anna G. Green | Artificial intelligence, Computer science, Feature (linguistics), Mutation |
-| 2026-09-03 | [Quantum State-Aware Self-Organizing Chaos](https://doi.org/10.5281/zenodo.22280547) | Jincheng Zhang | CHAOS (operating system), Chaotic, Computer science, OpenAlex |
+| 2026-09-04 | [Attention Conservation in Transformers: Testing for Global Flow Invariants Across Softmax, Residual, and MLP Pathways](https://doi.org/10.5281/zenodo.22307955) | Samir Baladi | Interpretability, Normalization (sociology), OpenAlex, Probabilistic logic |
+| 2026-09-04 | [FROM FIBERS TO FLOWS: RESOLVING THE THERMODYNAMICS OF NEURAL OPTIMIZATION IN RELU NETWORKS](https://doi.org/10.5281/zenodo.22307503) | Daniel Solis | Computer science, Metric (unit), OpenAlex, Representation (politics) |
+| 2026-09-03 | [Towards Sparse Causal Features for Zero-shot Mutation Effect Prediction in a Protein Language Model](https://doi.org/10.64898/2026.08.28.747907) / [pdf](https://www.biorxiv.org/content/biorxiv/early/2026/09/02/2026.08.28.747907.full.pdf) | Saishradha Mohanty, Manya Phutela, Anna G. Green | Artificial intelligence, Computer science, Feature (linguistics), Mutation |
 | 2026-09-03 | [RI: Towards a Deeper Understanding of In-Context Learning](https://doi.org/10.48321/d1a142826d) | Mark Crovella | Computer science, Interpretability, OpenAlex, Pace |
-| 2026-09-03 | [A Circuit for Plural Reference: How LLMs Represent and Retrieve Singular and Plural Entities](https://arxiv.org/abs/2609.03687) / [pdf](https://arxiv.org/pdf/2609.03687) | Anh Danh, Rick Nouwen, Massimo Poesio | cs.CL |
+| 2026-09-03 | [A Circuit for Plural Reference: How LLMs Represent and Retrieve Singular and Plural Entities](https://arxiv.org/abs/2609.03687) / [pdf](https://arxiv.org/pdf/2609.03687) | Anh Danh, Rick Nouwen, Massimo Poesio | Coreference, Interpretability, Natural language processing, OpenAlex |
+| 2026-09-03 | [EraseSAE: Surgical Concept Erasure in Text-to-Video Diffusion Models via Sparse Autoencoders](https://arxiv.org/abs/2609.03629) / [pdf](https://arxiv.org/pdf/2609.03629) | Xinghao Wang, Dong Li, Wei Yu, Yingwei Pan, et al. | Artificial intelligence, Computer science, Erasure, Granularity |
+| 2026-09-03 | [Lost in Reordering: Structural Sensitivity of Multilingual LLMs under Semantics-Preserving Perturbations](https://arxiv.org/abs/2609.03511) / [pdf](https://arxiv.org/pdf/2609.03511) | Karthika Nhayakkat, Rajat Verma, Maharaj Brahma, Vetcha Gnana Mahesh, et al. | Artificial intelligence, Computer science, Interpretability, OpenAlex |
+| 2026-09-03 | [Ligand-binding/transcriptional repressor domain-deficient REV-ERBβ inhibits dendrite and spine formation of newborn adult hippocampal neurons](https://doi.org/10.64898/2026.08.29.746924) | Koji Shimozaki | Dentate gyrus, Hippocampal formation, Neurogenesis, OpenAlex |
+| 2026-09-03 | [Quantum State-Aware Self-Organizing Chaos](https://doi.org/10.5281/zenodo.22280547) | Jincheng Zhang | CHAOS (operating system), Chaotic, Computer science, OpenAlex |
 | 2026-09-03 | [Extracting Forgotten Prompts from Targeted Unlearned Models](https://arxiv.org/abs/2609.03662) / [pdf](https://arxiv.org/pdf/2609.03662) | Au Ashley Hoi-Ting, Meghdad Kurmanji, William F. Shen, Nicholas D. Lane, et al. | cs.LG |
-| 2026-09-03 | [EraseSAE: Surgical Concept Erasure in Text-to-Video Diffusion Models via Sparse Autoencoders](https://arxiv.org/abs/2609.03629) / [pdf](https://arxiv.org/pdf/2609.03629) | Xinghao Wang, Dong Li, Wei Yu, Yingwei Pan, et al. | cs.AI, cs.CV |
-| 2026-09-03 | [Lost in Reordering: Structural Sensitivity of Multilingual LLMs under Semantics-Preserving Perturbations](https://arxiv.org/abs/2609.03511) / [pdf](https://arxiv.org/pdf/2609.03511) | Karthika Nhayakkat, Rajat Verma, Maharaj Brahma, Vetcha Gnana Mahesh, et al. | cs.CL |
+| 2026-09-02 | [Optimal control theory for measured quantum Schrödinger bridges](https://doi.org/10.48550/arxiv.2609.03097) | Masayuki Ohzeki, Andrew N. Jordan | OpenAlex, Hamiltonian (control theory), Optimal control, Mathematics |
+| 2026-09-02 | [Large Language Models in Resolving Contextual Knowledge Conflicts](https://arxiv.org/abs/2609.03148) / [pdf](https://arxiv.org/pdf/2609.03148) | Xinye Yang, Zhenyang Liu, Ruisi Li, Yuanyuan Lei | Artificial intelligence, Automatic summarization, Computer science, Interpretability |
+| 2026-09-02 | [Selective Knowledge Edit Reversal via Gated Singular Vector Shrinkage](https://arxiv.org/abs/2609.02091) / [pdf](https://arxiv.org/pdf/2609.02091) | Weifeng Jiang, Ruirui Chen, Qianren Mao, Junnan Liu, et al. | Computer science, Focus (optics), Interrogation, OpenAlex |
 | 2026-09-02 | [Constraint Before Realized Form](https://doi.org/10.5281/zenodo.22257665) | Eric Needham | Audit, Bounded function, Constraint (computer-aided design), OpenAlex |
-| 2026-09-02 | [Large Language Models in Resolving Contextual Knowledge Conflicts](https://arxiv.org/abs/2609.03148) / [pdf](https://arxiv.org/pdf/2609.03148) | Xinye Yang, Zhenyang Liu, Ruisi Li, Yuanyuan Lei | cs.CL |
 | 2026-09-02 | [ObserverBench: Testing Mechanistic Estimates for Intervention and Control](https://arxiv.org/abs/2609.03026) / [pdf](https://arxiv.org/pdf/2609.03026) | Vijay Erramilli | cs.AI, cs.LG |
 | 2026-09-02 | [When Decodability Is Not Enough: Logical Validity Representations, Behavioral Dissociation, and Causal Tests in Language Models](https://arxiv.org/abs/2609.02438) / [pdf](https://arxiv.org/pdf/2609.02438) | Smitha Muthya Sudheendra, Jaideep Srivastava | cs.CL, cs.LG |
 | 2026-09-02 | [What Is Worth Representing? Representational Empowerment for Continual Model Construction](https://arxiv.org/abs/2609.02322) / [pdf](https://arxiv.org/pdf/2609.02322) | Fei Dai, Hanqi Zhou, Alison Gopnik, Charley Wu | cs.AI, cs.LG |
 | 2026-09-02 | [Entangled Representations Amplify Collateral Damage in Unlearning](https://arxiv.org/abs/2609.02285) / [pdf](https://arxiv.org/pdf/2609.02285) | Evžen Wybitul, Tim G. J. Rudner, Christian Schroeder de Witt | cs.CL, cs.LG |
-| 2026-09-02 | [Selective Knowledge Edit Reversal via Gated Singular Vector Shrinkage](https://arxiv.org/abs/2609.02091) / [pdf](https://arxiv.org/pdf/2609.02091) | Weifeng Jiang, Ruirui Chen, Qianren Mao, Junnan Liu, et al. | cs.CL |
 | 2026-09-02 | [IDEEA: training-free Input-Dependent stEEring via Activation cluster matching](https://arxiv.org/abs/2609.02089) / [pdf](https://arxiv.org/pdf/2609.02089) | Zheng Wang, Muchen Li, Renjie Liao, Yan Leng | cs.CL, cs.LG |
+| 2026-09-01 | [NullSCE: Sequential concept erasure in generative video diffusion models via null-space guidance](https://doi.org/10.1016/j.neucom.2026.134994) | Qingxiong Yi, Boyang Li, Bowen Li, Cunkang Wu, et al. | Computer science, Erasure, Generative grammar, OpenAlex |
 | 2026-09-01 | [GAPS: Dimension-Level Gates for Conditional Activation Steering](https://arxiv.org/abs/2609.01878) / [pdf](https://arxiv.org/pdf/2609.01878) | Moghis Fereidouni, Muhammad Umair Haider, Hassan Sajjad, A. B. Siddique | Computer science, Control theory (sociology), OpenAlex, Overhead (engineering) |
 | 2026-09-01 | [Hearing the Whispers: Black-Box Membership Inference Attacks on Finetuned TTS Models](https://arxiv.org/abs/2609.01723) / [pdf](https://arxiv.org/pdf/2609.01723) | Kunlin Cai, Kaiyuan Zhang, Zihang Xiang, Jinghuai Zhang, et al. | Computer science, Inference, OpenAlex, Pipeline (software) |
 | 2026-09-01 | [Gaussian Core LoRA: Distribution-Aware Dynamic Adaptation for Broad Concept Erasure](https://arxiv.org/abs/2609.01433) / [pdf](https://arxiv.org/pdf/2609.01433) | Qinghui Gong, Xunlei Chen, Yu-Xuan Zhang, Hua Meng, et al. | Computer science, Control reconfiguration, Erasure, OpenAlex |
@@ -39,7 +43,6 @@ Sources: acl-anthology (500), arxiv (2054), openalex (72), semantic-scholar (1)
 | 2026-09-01 | [StateSwap: Probing Support-Elimination Hidden States in Multiple-Choice Questions](https://arxiv.org/abs/2609.01081) / [pdf](https://arxiv.org/pdf/2609.01081) | Chao Gao, Haijiang Liu, Qiyuan Li, Caicai Guo, et al. | Cognitive psychology, Computer science, Framing (construction), OpenAlex |
 | 2026-09-01 | [Polished but Unresolved: Identifying Late-Stage Pressure States in Long-Horizon Tool-Use Agents](https://arxiv.org/abs/2609.00823) / [pdf](https://arxiv.org/pdf/2609.00823) | Haoyang Chen, Yi Liu, Jianzhi Shao, Xiaozhou Xu, et al. | Action (physics), CLARITY, Computer science, Context (archaeology) |
 | 2026-09-01 | [RISA: Response Inspection and Selective Actions for Refusal Calibration in Large Language Models](https://arxiv.org/abs/2609.00790) / [pdf](https://arxiv.org/pdf/2609.00790) | Wenhan Chang, Tianqing Zhu, Ping Xiong, Shiyi Liao, et al. | Action (physics), Computer science, Inference, OpenAlex |
-| 2026-09-01 | [NullSCE: Sequential concept erasure in generative video diffusion models via null-space guidance](https://doi.org/10.1016/j.neucom.2026.134994) | Qingxiong Yi, Boyang Li, Bowen Li, Cunkang Wu, et al. | Computer science, Erasure, Generative grammar, OpenAlex |
 | 2026-09-01 | [Distillation of LLM Models to Create Use-Case Specific Student Models with Focus on Manufacturing](https://doi.org/10.20944/preprints202609.0007.v1) | Akshay Paranjape, Mithravardhan P N, Priyanshu Singh, Yelisetti SSR Murthy | Computer science, Distillation, OpenAlex, Pipeline (software) |
 | 2026-09-01 | [Machine Intuition](https://doi.org/10.5281/zenodo.22216465) | Sahir Maharaj | Computer science, Correctness, Deliberation, Intuition |
 | 2026-09-01 | [Sparse Readout Prism: Explaining Logit-Lens Scores in Features Instead of Tokens](https://arxiv.org/abs/2609.01936) / [pdf](https://arxiv.org/pdf/2609.01936) | Matteo He, William F. Shen, Xinchi Qiu, Nicholas D. Lane | cs.AI, cs.CL, cs.LG |

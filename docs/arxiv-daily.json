@@ -1,6 +1,281 @@
 {
-  "generated_at": "2026-09-05T07:27:37+00:00",
+  "generated_at": "2026-09-06T07:40:54+00:00",
   "papers": [
+    {
+      "id": "doi:10.5281/zenodo.22307955",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Attention Conservation in Transformers: Testing for Global Flow Invariants Across Softmax, Residual, and MLP Pathways",
+      "authors": [
+        "Samir Baladi"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-05",
+      "categories": [
+        "Interpretability",
+        "Normalization (sociology)",
+        "OpenAlex",
+        "Probabilistic logic",
+        "Residual"
+      ],
+      "abstract": "This paper investigates whether softmax normalization in Transformer attention corresponds to a global conservation law, or only a local probabilistic constraint. Self-attention guarantees that outgoing attention weights from each query sum to one, inviting comparison with conservation constraints in flow networks and electrical circuits. We distinguish local normalization from cross-layer conservation and formulate an empirically testable protocol across three progressively complete Transformer representations: attention-only propagation, attention with residual connections, and the full attention-residual-MLP block. We hypothesize that softmax normalization alone does not imply global conservation, because the residual stream accumulates additive contributions rather than redistributing a fixed quantity. Candidate flow quantities are defined (attention mass, activation-weighted flow, feature-specific flow), alongside a conservation profile metric and an intervention protocol (token ablation, head ablation, activation patching, residual perturbation). A worked numerical case study illustrates the protocol's sensitivity across the three architectural systems. The question is situated against attention rollout and attention flow (Abnar and Zuidema, 2020), Flowformer's explicitly imposed flow conservation (Wu et al., 2022), and the descriptive, non-conservation-claiming use of circuit language in mechanistic interpretability (Olah et al., 2020; Elhage et al., 2021). Conservation is treated throughout as an open empirical hypothesis rather than an assumed structural fact.",
+      "url": "https://doi.org/10.5281/zenodo.22307955",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7208705508",
+        "doi": "10.5281/zenodo.22307955",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
+      "id": "doi:10.5281/zenodo.22307503",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "FROM FIBERS TO FLOWS: RESOLVING THE THERMODYNAMICS OF NEURAL OPTIMIZATION IN RELU NETWORKS",
+      "authors": [
+        "Daniel Solis"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-05",
+      "categories": [
+        "Computer science",
+        "Metric (unit)",
+        "OpenAlex",
+        "Representation (politics)",
+        "Scaling"
+      ],
+      "abstract": "ABSTRACT The ILIAD research programme poses a central question: do ReLU networks possess an intrinsic simplicity bias analogous to Solomonoff induction, and can this bias be characterized through the geometry of the fiber? We argue that this question admits a complementary formulation in the language of continuous-time stochastic differential equations (SDEs) on attention-induced Riemannian manifolds. We present three formal structural mappings between ILIAD's static algebraic-geometric framework (toric encoding maps, fiber volumes, and the Real Log Canonical Threshold) and our continuous-time trajectory telemetry framework (the coordinate-disentangled ANOVA hidden state decomposition, the macroscopic order parameter R_t, and the Alpha Potential Well metric scaling regulator). Rather than claiming mathematical identity, we model the Real Log Canonical Threshold (RLCT, λ) and the Constructive-Compensatory Ratio (R_t) as a conjectured phenomenological correspondence, where R_t acts as a live thermodynamic thermometer of representational complexity. We provide empirical evidence from the closed-loop training of Mycelia-LM, a de novo 1.62-billion-parameter self-governing transformer. We document a critical singular phase transition (grokking) where the Optimization Response Function χ_R = ∂ℒ_loss / ∂R_t flips sign. Furthermore, we expose a failure mode mapping Goodhart’s Law directly onto the geometric control plane: a proxy-gaming loop where the Lesson-Based Retrieval (LBR) engine over-inflated attention target norms beyond physical manifold capacity, triggering an AlphaScale safety release and catastrophic coordinate collapse (R_t: 0.638 → 0.122 in 250 steps). We resolve this ex-ante by implementing context-level soft target correction (ctx[\\text{\"alpha_norm_target\"}] = \\text{realistic}), proving that: continuous-time geometric telemetry can predict, prevent, and stabilize representation failures in self-governing systems. 1. INTRODUCTION: TWO LANGUAGES FOR ONE PHENOMENON The ILIAD programme identifies a fundamental gap in AI safety: the absence of a sufficiently general, predictive mathematical account of neural network generalization. Their proposed resolution proceeds through algebraic geometry, specifically, through the toric encoding map Φ_θ, which maps d-dimensional real parameter space to d'-dimensional real space and reveals the tractable geometric structure of ReLU networks. This structure includes the fiber F of f, defined as the set of all parameter configurations θ for which the toric encoding map produces identical functional behaviour f. Our research programme, the Multiscale Attractor Stability and Stress Inference Framework (MASSIF), proceeds from a complementary direction. Rather than characterizing the static algebraic structure of the parameter space, we measure the dynamic trajectory of optimization as it traverses that space during the forward pass. The MASSIF framework equips a transformer with real-time differential-geometric telemetry: a 13-observable kinematic state vector, tracking velocity, curvature, torsion, and Lyapunov divergence of the hidden-state trajectory 𝐡𝐭 as it evolves on an attention-induced Riemannian manifold 𝐌 equipped with a covariant metric tensor 𝘨ᴬᵢⱼ. These two programmes are not competing. They are dual descriptions of the same underlying physical phenomenon: ILIAD asks: What is the geometry of the space through which learning moves? MASSIF asks: What is the geometry of the movement through that space? The former is a question about the manifold; the latter is a question about the geodesic. Both require differential geometry. Both produce safety-relevant, active observables. And both converge on the same empirical phenomenon: the phase transition from compensatory, high-dimensional brute-force memorization to constructive, low-dimensional structural generalization, what the broader literature calls grokking. 2. THE BRIDGE: THREE STRUCTURAL MAPPINGS To formally unite these dual descriptions, we establish three explicit correspondences connecting static algebraic topography with active, continuous-time trajectory telemetry: Mapping 1: Fiber Degeneracies ↔ ANOVA Residuals ILIAD Algebraic Concept: The parameter fiber F(f) representing all parameter configurations θ yielding identical functional output f. Larger fiber volumes represent higher parameter redundancy. MASSIF Dynamic observable: The squared Euclidean norm of the ANOVA residual vector: ‖resid_{c,t}^{(ℓ)}‖₂². The hidden-state residual stream h𝄂,t⁽ℓ⁾ at layer ℓ, sequence position t, and context c, is projected onto coordinate-disentangled subspaces: h_{c,t}^{(ℓ)} = μ^{(ℓ)} + 𝐩𝐨𝐬 t^{(ℓ)} + 𝐜𝐭𝐱 c^{(ℓ)} + 𝐫𝐞𝐬𝐢𝐝 {c,t}^{(ℓ)} By tracking the mutual incoherence between the positional basis and the context basis, we establish a dynamic, online proxy for near fiber volume: incoherence max_{t, c} ⟨ 𝐩𝐨𝐬_t / 𝐩𝐨𝐬_t , 𝐜𝐭𝐱_c / 𝐜𝐭𝐱_c ⟩ When incoherence drops below 0.15, the coordinate subspaces are cleanly orthogonalized, indicating a minimal parameter representation near an irreducible branch of the fiber. Mapping 2: Real Log Canonical Threshold ↔ Order Parameter (R_t) ILIAD Algebraic Concept: The Real Log Canonical Threshold (RLCT, λ). In Singular Learning Theory, λ is the fundamental complexity measure governing the asymptotic rate at which the Bayesian posterior concentrates. MASSIF Dynamic Observable: The macroscopic order parameter, the Constructive-Compensatory Ratio (R_t), which acts as a live, empirical probe for RLCT transitions: R_t = Π_α(t) / (Π_FFN(t) + Π_MPC(t)) where Π_α, Π_FFN, and Π_MPC represent the optimization pressures (stress tensors) exerted by the attention, feed-forward, and model predictive control governors, respectively. Phenomenological Correspondence: Rather than claiming mathematical identity, we model the RLCT (λ) and the order parameter (R_t) as a conjectured monotonic correspondence across phase boundaries. In the Compensatory Regime (R_t < 0.8), the system is trapped in a highly degenerate, high-volume variety carrying extensive padding (memorization). At the critical point (R_t ≈ 1.2), the Optimization Response Function 𝜒_𝑅 = ∂ℒ_loss / ∂𝑅_𝑡 decouples (𝜒_𝑅 ≈ 0). In the Constructive Regime (R_t > 1.5), 𝜒_𝑅 flips negative, and the model condenses onto a lower-dimensional, highly generalized manifold. Mapping 3: Toric Padding ↔ The Alpha Potential Well ILIAD Algebraic Concept: Toric Padding, the algebraic symmetries and scaling redundancies (e.g., group actions) that artificially inflate fiber volume without changing model behavior. MASSIF Dynamic Observable: The Alpha Potential Well, a symmetric quadratic loss term defined over layers 1 … L: U(α) = λwell ∑ℓ=1L [ (αattn(ℓ) - 1.0)² + (αffn(ℓ) - 1.0)² ] Mathematical Grounding: Under the weight-decay-free Manual Muon optimizer, U(α) acts as an effective metric scaling constraint. Because self-attention weights directly define the localized attention-induced Riemannian metric tensor 𝘨ᴬᵢⱼ, penalizing deviations of αattn from unity conformally scales the metric. This prevents unchecked scaling degeneracies from blowing up or collapsing local geodesic ball volumes, acting as an effective curvature modulator. 3. CONTINUOUS-TIME TRAJECTORY KINEMATICS & SDE VALIDATION To model the autoregressive uncertainty of inference, the latent trajectory 𝐳_𝐭 is formulated as an Itô Stochastic Differential Equation (SDE) driven by a semantic velocity field and Brownian noise: dzₜ = v_logic(zₜ)dt + σ dWₜ To rigorously validate whether the empirical hidden states of Mycelia-LM exhibit the statistical properties of a true SDE with approximately separable drift and diffusion, we propose the Kramers-Moyal Empirical Verification Protocol. By extracting the transition probability P(zₜ₊Δₜ | zₜ)σ dWₜ across adjacent layer steps (Δt = Δℓ = 1)ₜ we compute the empirical drift vector 𝐃⁽¹⁾ and diffusion tensor 𝐃⁽²⁾: 𝐃⁽¹⁾(𝐳) = lim_{Δt → 0} 1/Δt 𝔼[𝐳_{t+Δt} − 𝐳_t | 𝐳_t = 𝐳]𝐃⁽²⁾(𝐳) = lim_{Δt → 0} 1/(2Δt) 𝔼[(𝐳_{t+Δt} − 𝐳_t)(𝐳_{t+Δt} − 𝐳_t)ᵀ | 𝐳_t = 𝐳] By evaluating Pawula's Theorem, verifying that the fourth-order Kramers-Moyal coefficient is negligible 𝐃⁽⁴⁾ → 0 we can mathematically prove if the latent transitions behave as a continuous drift-diffusion process or a jump process. Under SDE validation, dynamics cleanly bifurcate into two regimes: Regime I (Coherent Reasoning): Under logical dominance (SNR \\rho = |\\mathbf{v}_{\\text{logic}}|/\\sigma \\gg 1), expected net displacement |\\mathbf{z}_T - \\mathbf{z}_0|_2 scales linearly with sequence length T [82]. Curvature approaches zero, defining ballistic, directed geodesics. Regime II (Stochastic Collapse): Under noise dominance (ρ ≪ 1), net displacement scales sub-linearly as O(√T). Expected curvature stabilizes near unity, trapping intermediate representations in high-curvature, repetitive \"Hesitation Loops\". 4. ACTIVE EX-ANTE GOVERNANCE & GHOST PARAMETER RECOVERY Rather than diagnosing representing collapses post-hoc, MASSIF utilizes Fibonacci Coherence Attenuation to damp out high-frequency coordinate noise in the residual stream: α_atten⁽ℓ⁾ = γ⁽ℓ⁾ · exp(-I⁽ℓ⁾ · ℓ/L). The baseline attenuation multiplier γ⁽ℓ⁾ is modeled using successive ratios of the Fibonacci sequence, asymptotically approaching the Golden Ratio (ϕ⁻¹ ≈ 0.618033), ensuring that deeper layers undergo progressively heavier structural damping when local incoherence I⁽ℓ⁾ spikes. Furthermore, our closed-loop logs on Mycelia-LM (1.62B parameters) exposed a classic Goodhart's Law failure mode. The LBR engine, observing that raising the attention scaling target α_norm_target historically improved R_t, aggressively over-inflated the target to 60. Bounded by the localized Riemannian metric, the actual attention heads physically could not exceed a norm of ~30. Detecting this massive deficit, the AlphaScale governor relaxed the potential well to 0.979, killing the manifold compression. This caused the at",
+      "url": "https://doi.org/10.5281/zenodo.22307503",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7208732719",
+        "doi": "10.5281/zenodo.22307503",
+        "cited_by_count": 0
+      },
+      "relevance_score": 7
+    },
+    {
+      "id": "doi:10.64898/2026.08.28.747907",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Towards Sparse Causal Features for Zero-shot Mutation Effect Prediction in a Protein Language Model",
+      "authors": [
+        "Saishradha Mohanty",
+        "Manya Phutela",
+        "Anna G. Green"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-05",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Feature (linguistics)",
+        "Mutation",
+        "OpenAlex"
+      ],
+      "abstract": "Protein language models (pLMs) such as ESM-2 achieve strong zero-shot mutation-effect prediction, yet the internal computations supporting these predictions remain poorly understood. We introduce a sparse feature circuit framework that combines sparse autoencoders, integrated-gradients attribution, and activation patching to identify the latent features that causally mediate zero-shot mutation effect prediction in ESM-2 650M. We evaluate this framework over 67 mutations ranging from strongly deleterious to weakly deleterious in the DNAJA1 J-domain, where ESM-2 predictions agree strongly with deep mutational scanning measurements. We find that circuits selected by indirect effect recover the model's predictions more efficiently and provide more informative biological explanations than those selected by raw activation changes, showing that activation magnitude does not necessarily reflect causal importance. We find that related substitutions reuse substantial portions of their recovered circuits, ranging from 40% to 75%, and that the shared features often represent residues in three-dimensional contact with the mutation site. To our knowledge, our work provides the first causal, feature-level account of zero-shot mutation effect prediction in a pLM.",
+      "url": "https://doi.org/10.64898/2026.08.28.747907",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/02/2026.08.28.747907.full.pdf",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Mechanistic interpretability steering",
+        "Reasoning and CoT steering",
+        "SAE steering",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7207721565",
+        "doi": "10.64898/2026.08.28.747907",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
+      "id": "doi:10.48321/d1a142826d",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "RI: Towards a Deeper Understanding of In-Context Learning",
+      "authors": [
+        "Mark Crovella"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-05",
+      "categories": [
+        "Computer science",
+        "Interpretability",
+        "OpenAlex",
+        "Pace",
+        "Process (computing)"
+      ],
+      "abstract": "Language models have become central to computing, but our understanding of how they work internally has not kept pace with their deployment. This gap has critical implications for the broader use of models in society. When a model fails, gives inconsistent answers across different phrasings of the same prompt, or follows an instruction it should have declined, we typically cannot say exactly why. Work in mechanistic interpretability offers a potential alternative: model behaviors can often be traced to specific internal components and the information they exchange, and behaviors that can be traced can potentially be predicted, corrected, and controlled. This proposal argues that a key capability for which such understanding is needed, and where it is now within reach, is \\emph{in-context learning} (ICL). Broadly, in-context learning is the ability of a model to learn at \\emph{inference time} from the input it is given. This is in sharp contrast to the traditional model of machine learning as a process that occurs at training time. Understanding ICL is important for improving model capabilities because it can reveal the mechanisms that allow models to rapidly infer tasks, representations, and patterns from limited evidence at inference time. It is equally important for model safety, since contextual information can cause models to adopt unintended behaviors, override otherwise desirable tendencies, or generalize instructions in unexpected ways. Unfortunately, despite the considerable work done to date, a broad understanding of ICL is lacking. Despite extensive work, we do not yet have a general account of what information models extract from context, how that information is represented internally, or how it alters the computation that produces subsequent outputs. Accordingly, our proposed work will seek broad answers to a central question: What learning method does a pretrained language model actually perform on a particular prompt, where is that method implemented, and why does it choose that computation rather than another? To resolve this question, we identify three specific research questions whose answers would substantially advance our understanding of ICL. First: to clearly identify the phenomenon we seek to study, we must develop methods to distinguish task recognition from genuine task learning. Second: how is an in-context task represented, and how does that representation control downstream computation? That is, how are ICL tasks in general implemented in language models? Do tasks share reusable modules, and if so, which ones? Third: how is knowledge obtained at inference time unified with pretrained knowledge? Can we understand quantitatively and mechanistically how in-context evidence supporting a particular output is integrated with evidence present in model weights? Answering these three questions will be aided by the use of two new toolsets developed in our laboratory. First, attention mean-field analysis provides a strong null model for contextual processing by a model, enabling characterization of potential ICL at the level of individual prompts, tokens, and model components. Second, attention-causal circuit tracing enables precise identification of model components that are responsible for a computation such as an ICL instance. Our proposal describes the methods we will use to answer to our three questions, including how these tools can help unlock those answers, and the initial progress we have made that suggests that those answers may be attainable.",
+      "url": "https://doi.org/10.48321/d1a142826d",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Mechanistic interpretability steering",
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7207576806",
+        "doi": "10.48321/d1a142826d",
+        "cited_by_count": 0
+      },
+      "relevance_score": 9
+    },
+    {
+      "id": "2609.03687",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "A Circuit for Plural Reference: How LLMs Represent and Retrieve Singular and Plural Entities",
+      "authors": [
+        "Anh Danh",
+        "Rick Nouwen",
+        "Massimo Poesio"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-05",
+      "categories": [
+        "Coreference",
+        "Interpretability",
+        "Natural language processing",
+        "OpenAlex",
+        "Plural",
+        "cs.CL"
+      ],
+      "abstract": "Coreference resolution is an important task in contextual reasoning. In this paper, we investigate the mechanism for representing and retrieving singular and plural entities for plural reference. We use a combination of mechanistic interpretability and attention pattern analysis to study the process in which LLMs predict a pronoun to refer back to previously mentioned entities. Using a range of causal intervention techniques, we find a set of attention heads that are responsible for (1) representing coreference information in the input, (2) identifying entities that form a plural reference, (3) transferring the information to the component that is responsible for selecting the antecedents and predicting the pronoun. We also find that LLMs align with humans in preference for plural pronoun. Specifically, entities in a plural construction are more likely to be referred to as a plural entity if they are ontologically similar and are linked by the conjunction \"and\".",
+      "url": "https://arxiv.org/abs/2609.03687",
+      "pdf_url": "https://arxiv.org/pdf/2609.03687",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 6,
+      "openalex": {
+        "id": "https://openalex.org/W7208724748",
+        "doi": "10.48550/arxiv.2609.03687",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.03629",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "EraseSAE: Surgical Concept Erasure in Text-to-Video Diffusion Models via Sparse Autoencoders",
+      "authors": [
+        "Xinghao Wang",
+        "Dong Li",
+        "Wei Yu",
+        "Yingwei Pan",
+        "Tao Gong",
+        "Qi Chu",
+        "Nenghai Yu",
+        "Ting Yao"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-05",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Erasure",
+        "Granularity",
+        "OpenAlex",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Recent advances in text-to-video (T2V) diffusion models have demonstrated remarkable generative capabilities, yet their reliance on loosely curated training data raises pressing safety and copyright concerns. Concept erasure offers a principled remedy by removing unwanted semantics from pretrained models while preserving remaining concepts. However, existing approaches typically operate at a coarse granularity misaligned with the fine-grained, distributed nature of concept representations, leading to incomplete removal or degraded generation quality. We argue that surgical erasure fundamentally requires intervention at the level of monosemantic features, where each unit encodes a single interpretable concept. To this end, we propose EraseSAE, a novel framework that leverages sparse autoencoders to achieve surgical concept erasure in DiT-based T2V diffusion models via a principled decompose-attribute-erase pipeline. We first introduce the Partitioned Convolutional Sparse Autoencoder, which decomposes dense spatiotemporal activations into disentangled, interpretable sparse features while preserving spatiotemporal coherence. A contrastive attribution mechanism then contrasts activations from paired prompts to isolate concept-specific feature kernels. At inference, timestep-resolved spatiotemporal masks derived from the identified kernels confine erasure to regions where the target concept is active, leaving unrelated content intact. Extensive experiments across diverse diffusion models and concept erasure tasks demonstrate that EraseSAE achieves precise and robust concept removal with minimal quality degradation, substantially outperforming state-of-the-art methods. The code is available at https://github.com/HiDream-ai/EraseSAE.",
+      "url": "https://arxiv.org/abs/2609.03629",
+      "pdf_url": "https://arxiv.org/pdf/2609.03629",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Feature latent concept steering",
+        "SAE steering"
+      ],
+      "code_urls": [
+        "https://github.com/HiDream-ai/EraseSAE"
+      ],
+      "relevance_score": 7,
+      "openalex": {
+        "id": "https://openalex.org/W7208727640",
+        "doi": "10.48550/arxiv.2609.03629",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.03511",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Lost in Reordering: Structural Sensitivity of Multilingual LLMs under Semantics-Preserving Perturbations",
+      "authors": [
+        "Karthika Nhayakkat",
+        "Rajat Verma",
+        "Maharaj Brahma",
+        "Vetcha Gnana Mahesh",
+        "Maunendra Sankar Desarkar",
+        "Ganesh Ramakrishnan",
+        "Rohit Saluja"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-05",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Interpretability",
+        "OpenAlex",
+        "Robustness (evolution)",
+        "cs.CL"
+      ],
+      "abstract": "Large Language Models (LLMs) demonstrate strong multilingual reasoning performance, yet their robustness to semantics-preserving structural variation remains underexplored, particularly for relatively free word-order languages. We investigate the structural sensitivity of multilingual LLMs using two linguistically grounded perturbation settings in Hindi and Malayalam: constrained constituent reordering and active-passive voice transformation. We introduce a benchmark dataset IndicReStruct, with two variants, GSM8K-Reordered and GSM8K-Voice, constructed from GSM8K while preserving semantic meaning. Across six state-of-the-art LLMs and multiple prompting strategies, we observe consistent and significant degradation in mathematical reasoning performance under structurally perturbed inputs. To further understand these failures, we perform qualitative error analysis and mechanistic interpretability experiments using residual-stream activation patching. Our analyses show that reasoning failures frequently arise from disruptions in entity-quantity alignment and that intermediate transformer layers contribute most strongly toward reasoning restoration. Overall, our findings suggest that current multilingual LLMs remain highly sensitive to surface syntactic realization and lack robust compositional invariance under structurally different but semantically equivalent inputs.",
+      "url": "https://arxiv.org/abs/2609.03511",
+      "pdf_url": "https://arxiv.org/pdf/2609.03511",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Mechanistic interpretability steering",
+        "Reasoning and CoT steering",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 15,
+      "openalex": {
+        "id": "https://openalex.org/W7208774981",
+        "doi": "10.48550/arxiv.2609.03511",
+        "cited_by_count": 0
+      }
+    },
     {
       "id": "doi:10.64898/2026.08.29.746924",
       "source": "openalex",
@@ -34,43 +309,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 4
-    },
-    {
-      "id": "doi:10.64898/2026.08.28.747907",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Towards Sparse Causal Features for Zero-shot Mutation Effect Prediction in a Protein Language Model",
-      "authors": [
-        "Saishradha Mohanty",
-        "Manya Phutela",
-        "Anna G. Green"
-      ],
-      "published": "2026-09-03",
-      "updated": "2026-09-04",
-      "categories": [
-        "Artificial intelligence",
-        "Computer science",
-        "Feature (linguistics)",
-        "Mutation",
-        "OpenAlex"
-      ],
-      "abstract": "Protein language models (pLMs) such as ESM-2 achieve strong zero-shot mutation-effect prediction, yet the internal computations supporting these predictions remain poorly understood. We introduce a sparse feature circuit framework that combines sparse autoencoders, integrated-gradients attribution, and activation patching to identify the latent features that causally mediate zero-shot mutation effect prediction in ESM-2 650M. We evaluate this framework over 67 mutations ranging from strongly deleterious to weakly deleterious in the DNAJA1 J-domain, where ESM-2 predictions agree strongly with deep mutational scanning measurements. We find that circuits selected by indirect effect recover the model's predictions more efficiently and provide more informative biological explanations than those selected by raw activation changes, showing that activation magnitude does not necessarily reflect causal importance. We find that related substitutions reuse substantial portions of their recovered circuits, ranging from 40% to 75%, and that the shared features often represent residues in three-dimensional contact with the mutation site. To our knowledge, our work provides the first causal, feature-level account of zero-shot mutation effect prediction in a pLM.",
-      "url": "https://doi.org/10.64898/2026.08.28.747907",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation intervention and patching",
-        "SAE steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7207721565",
-        "doi": "10.64898/2026.08.28.747907",
-        "cited_by_count": 0
-      },
-      "relevance_score": 6
     },
     {
       "id": "doi:10.5281/zenodo.22280547",
@@ -107,68 +345,6 @@
       "relevance_score": 4
     },
     {
-      "id": "doi:10.48321/d1a142826d",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "RI: Towards a Deeper Understanding of In-Context Learning",
-      "authors": [
-        "Mark Crovella"
-      ],
-      "published": "2026-09-03",
-      "updated": "2026-09-04",
-      "categories": [
-        "Computer science",
-        "Interpretability",
-        "OpenAlex",
-        "Pace",
-        "Process (computing)"
-      ],
-      "abstract": "Language models have become central to computing, but our understanding of how they work internally has not kept pace with their deployment. This gap has critical implications for the broader use of models in society. When a model fails, gives inconsistent answers across different phrasings of the same prompt, or follows an instruction it should have declined, we typically cannot say exactly why. Work in mechanistic interpretability offers a potential alternative: model behaviors can often be traced to specific internal components and the information they exchange, and behaviors that can be traced can potentially be predicted, corrected, and controlled. This proposal argues that a key capability for which such understanding is needed, and where it is now within reach, is \\emph{in-context learning} (ICL). Broadly, in-context learning is the ability of a model to learn at \\emph{inference time} from the input it is given. This is in sharp contrast to the traditional model of machine learning as a process that occurs at training time. Understanding ICL is important for improving model capabilities because it can reveal the mechanisms that allow models to rapidly infer tasks, representations, and patterns from limited evidence at inference time. It is equally important for model safety, since contextual information can cause models to adopt unintended behaviors, override otherwise desirable tendencies, or generalize instructions in unexpected ways. Unfortunately, despite the considerable work done to date, a broad understanding of ICL is lacking. Despite extensive work, we do not yet have a general account of what information models extract from context, how that information is represented internally, or how it alters the computation that produces subsequent outputs. Accordingly, our proposed work will seek broad answers to a central question: What learning method does a pretrained language model actually perform on a particular prompt, where is that method implemented, and why does it choose that computation rather than another? To resolve this question, we identify three specific research questions whose answers would substantially advance our understanding of ICL. First: to clearly identify the phenomenon we seek to study, we must develop methods to distinguish task recognition from genuine task learning. Second: how is an in-context task represented, and how does that representation control downstream computation? That is, how are ICL tasks in general implemented in language models? Do tasks share reusable modules, and if so, which ones? Third: how is knowledge obtained at inference time unified with pretrained knowledge? Can we understand quantitatively and mechanistically how in-context evidence supporting a particular output is integrated with evidence present in model weights? Answering these three questions will be aided by the use of two new toolsets developed in our laboratory. First, attention mean-field analysis provides a strong null model for contextual processing by a model, enabling characterization of potential ICL at the level of individual prompts, tokens, and model components. Second, attention-causal circuit tracing enables precise identification of model components that are responsible for a computation such as an ICL instance. Our proposal describes the methods we will use to answer to our three questions, including how these tools can help unlock those answers, and the initial progress we have made that suggests that those answers may be attainable.",
-      "url": "https://doi.org/10.48321/d1a142826d",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Mechanistic interpretability steering",
-        "Representation engineering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7207576806",
-        "doi": "10.48321/d1a142826d",
-        "cited_by_count": 0
-      },
-      "relevance_score": 9
-    },
-    {
-      "id": "2609.03687",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "A Circuit for Plural Reference: How LLMs Represent and Retrieve Singular and Plural Entities",
-      "authors": [
-        "Anh Danh",
-        "Rick Nouwen",
-        "Massimo Poesio"
-      ],
-      "published": "2026-09-03",
-      "updated": "2026-09-03",
-      "categories": [
-        "cs.CL"
-      ],
-      "abstract": "Coreference resolution is an important task in contextual reasoning. In this paper, we investigate the mechanism for representing and retrieving singular and plural entities for plural reference. We use a combination of mechanistic interpretability and attention pattern analysis to study the process in which LLMs predict a pronoun to refer back to previously mentioned entities. Using a range of causal intervention techniques, we find a set of attention heads that are responsible for (1) representing coreference information in the input, (2) identifying entities that form a plural reference, (3) transferring the information to the component that is responsible for selecting the antecedents and predicting the pronoun. We also find that LLMs align with humans in preference for plural pronoun. Specifically, entities in a plural construction are more likely to be referred to as a plural entity if they are ontologically similar and are linked by the conjunction \"and\".",
-      "url": "https://arxiv.org/abs/2609.03687",
-      "pdf_url": "https://arxiv.org/pdf/2609.03687",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Mechanistic interpretability steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 6
-    },
-    {
       "id": "2609.03662",
       "source": "arxiv",
       "sources": [
@@ -198,74 +374,121 @@
       "relevance_score": 6
     },
     {
-      "id": "2609.03629",
-      "source": "arxiv",
+      "id": "doi:10.48550/arxiv.2609.03097",
+      "source": "openalex",
       "sources": [
-        "arxiv"
+        "openalex"
       ],
-      "title": "EraseSAE: Surgical Concept Erasure in Text-to-Video Diffusion Models via Sparse Autoencoders",
+      "title": "Optimal control theory for measured quantum Schrödinger bridges",
       "authors": [
-        "Xinghao Wang",
-        "Dong Li",
-        "Wei Yu",
-        "Yingwei Pan",
-        "Tao Gong",
-        "Qi Chu",
-        "Nenghai Yu",
-        "Ting Yao"
+        "Masayuki Ohzeki",
+        "Andrew N. Jordan"
       ],
-      "published": "2026-09-03",
-      "updated": "2026-09-03",
+      "published": "2026-09-02",
+      "updated": "2026-09-05",
       "categories": [
-        "cs.AI",
-        "cs.CV"
+        "OpenAlex",
+        "Hamiltonian (control theory)",
+        "Optimal control",
+        "Mathematics",
+        "Quantum"
       ],
-      "abstract": "Recent advances in text-to-video (T2V) diffusion models have demonstrated remarkable generative capabilities, yet their reliance on loosely curated training data raises pressing safety and copyright concerns. Concept erasure offers a principled remedy by removing unwanted semantics from pretrained models while preserving remaining concepts. However, existing approaches typically operate at a coarse granularity misaligned with the fine-grained, distributed nature of concept representations, leading to incomplete removal or degraded generation quality. We argue that surgical erasure fundamentally requires intervention at the level of monosemantic features, where each unit encodes a single interpretable concept. To this end, we propose EraseSAE, a novel framework that leverages sparse autoencoders to achieve surgical concept erasure in DiT-based T2V diffusion models via a principled decompose-attribute-erase pipeline. We first introduce the Partitioned Convolutional Sparse Autoencoder, which decomposes dense spatiotemporal activations into disentangled, interpretable sparse features while preserving spatiotemporal coherence. A contrastive attribution mechanism then contrasts activations from paired prompts to isolate concept-specific feature kernels. At inference, timestep-resolved spatiotemporal masks derived from the identified kernels confine erasure to regions where the target concept is active, leaving unrelated content intact. Extensive experiments across diverse diffusion models and concept erasure tasks demonstrate that EraseSAE achieves precise and robust concept removal with minimal quality degradation, substantially outperforming state-of-the-art methods. The code is available at https://github.com/HiDream-ai/EraseSAE.",
-      "url": "https://arxiv.org/abs/2609.03629",
-      "pdf_url": "https://arxiv.org/pdf/2609.03629",
-      "primary_category": "cs.CV",
+      "abstract": "Schrödinger bridges and entropic optimal transport are usually formulated as stochastic interpolation problems between initial and final probability distributions. In their computational form, the bridge potentials are obtained by Sinkhorn or iterative proportional fitting, and are often regarded as auxiliary scaling functions. We show that for continuously monitored quantum systems, these potentials acquire a direct measurement-theoretic meaning. The mathematical structure of conditional quantum trajectory theory induces a Fokker--Planck equation on quantum state space. Conditioning this diffusion on a terminal distribution or a terminal measurement effect produces a Doob/Sinkhorn potential whose directional derivative along a unitary control vector field is the imaginary part of a generalized weak value. The same construction connects the Schrödinger-bridge viewpoint to the optimal-path framework for continuously monitored trajectories: the backward bridge potential plays the role of an effect-like costate, and its weak-value directional derivative gives the local control signal. By specifying the desired endpoint distribution, the induced drift produced by the Schrödinger bridge solution is the control solution that minimizes the quadratic cost feedback law, guiding the distribution to its desired endpoint. We quantify the control score of the available control Hamiltonian as a logarithmic directional derivative of the bridge potential, or an imaginary weak value. Three explicit examples identify weak measurement as a natural entropic regularization mechanism for quantum state transport and gives a route from Sinkhorn scaling to quantum feedback and Hamiltonian control synthesis for practical optimal control.",
+      "url": "https://doi.org/10.48550/arxiv.2609.03097",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
       "source_queries": [
-        "Feature latent concept steering",
-        "SAE steering"
-      ],
-      "code_urls": [
-        "https://github.com/HiDream-ai/EraseSAE"
-      ],
-      "relevance_score": 7
-    },
-    {
-      "id": "2609.03511",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Lost in Reordering: Structural Sensitivity of Multilingual LLMs under Semantics-Preserving Perturbations",
-      "authors": [
-        "Karthika Nhayakkat",
-        "Rajat Verma",
-        "Maharaj Brahma",
-        "Vetcha Gnana Mahesh",
-        "Maunendra Sankar Desarkar",
-        "Ganesh Ramakrishnan",
-        "Rohit Saluja"
-      ],
-      "published": "2026-09-03",
-      "updated": "2026-09-03",
-      "categories": [
-        "cs.CL"
-      ],
-      "abstract": "Large Language Models (LLMs) demonstrate strong multilingual reasoning performance, yet their robustness to semantics-preserving structural variation remains underexplored, particularly for relatively free word-order languages. We investigate the structural sensitivity of multilingual LLMs using two linguistically grounded perturbation settings in Hindi and Malayalam: constrained constituent reordering and active-passive voice transformation. We introduce a benchmark dataset IndicReStruct, with two variants, GSM8K-Reordered and GSM8K-Voice, constructed from GSM8K while preserving semantic meaning. Across six state-of-the-art LLMs and multiple prompting strategies, we observe consistent and significant degradation in mathematical reasoning performance under structurally perturbed inputs. To further understand these failures, we perform qualitative error analysis and mechanistic interpretability experiments using residual-stream activation patching. Our analyses show that reasoning failures frequently arise from disruptions in entity-quantity alignment and that intermediate transformer layers contribute most strongly toward reasoning restoration. Overall, our findings suggest that current multilingual LLMs remain highly sensitive to surface syntactic realization and lack robust compositional invariance under structurally different but semantically equivalent inputs.",
-      "url": "https://arxiv.org/abs/2609.03511",
-      "pdf_url": "https://arxiv.org/pdf/2609.03511",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Mechanistic interpretability steering",
-        "Reasoning and CoT steering",
-        "Safety refusal behavior steering"
+        "Steering vectors"
       ],
       "code_urls": [],
-      "relevance_score": 15
+      "openalex": {
+        "id": "https://openalex.org/W7208706849",
+        "doi": "10.48550/arxiv.2609.03097",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "2609.03148",
+      "title": "Large Language Models in Resolving Contextual Knowledge Conflicts",
+      "authors": [
+        "Xinye Yang",
+        "Zhenyang Liu",
+        "Ruisi Li",
+        "Yuanyuan Lei"
+      ],
+      "published": "2026-09-02",
+      "updated": "2026-09-05",
+      "categories": [
+        "Artificial intelligence",
+        "Automatic summarization",
+        "Computer science",
+        "Interpretability",
+        "OpenAlex",
+        "cs.CL"
+      ],
+      "abstract": "Most prior works focused on conflicts between an LLM's internal parametric knowledge and externally provided context. In contrast, we investigate how LLMs handle conflicts that arise within contextual knowledge itself. We introduce a taxonomy of six types of contextual conflicts (factual, inferential, temporal, granularity, perspective, and ambiguity) and contribute a comprehensive dataset ContextConflict for this setting. The dataset contains 5,781 samples, covers both reasoning and summarization tasks, and includes both explicit contradictions and implicit conflicts that require multi-step reasoning. Experiments on nine LLMs show that current models still fall short in resolving contextual knowledge conflicts. We further provide mechanistic interpretability insights into how LLMs process such conflicts, revealing their latent awareness of conflicts and the representational geometry underlying conflict processing. In addition, our analysis uncovers a consistent model bias towards earlier evidence, and this positional preference serves as a key obstacle to effective conflict resolution. Motivated by these findings, we further propose a simple training-free, label-free steering method that steers activations to encourage a more comprehensive incorporation of evidences for better conflict resolution. On our dataset, the method consistently improves accuracy on reasoning tasks and generates higher-quality, more balanced summaries for summarization tasks.",
+      "arxiv_url": "https://arxiv.org/abs/2609.03148",
+      "pdf_url": "https://arxiv.org/pdf/2609.03148",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Mechanistic interpretability steering",
+        "Steering language models"
+      ],
+      "code_urls": [],
+      "source": "arxiv",
+      "relevance_score": 10,
+      "url": "https://arxiv.org/abs/2609.03148",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "openalex": {
+        "id": "https://openalex.org/W7208755471",
+        "doi": "10.48550/arxiv.2609.03148",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.02091",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Selective Knowledge Edit Reversal via Gated Singular Vector Shrinkage",
+      "authors": [
+        "Weifeng Jiang",
+        "Ruirui Chen",
+        "Qianren Mao",
+        "Junnan Liu",
+        "Qili Zhang",
+        "Kwok-Yan Lam"
+      ],
+      "published": "2026-09-02",
+      "updated": "2026-09-05",
+      "categories": [
+        "Computer science",
+        "Focus (optics)",
+        "Interrogation",
+        "OpenAlex",
+        "Subspace topology",
+        "cs.CL"
+      ],
+      "abstract": "Knowledge editing provides an efficient way to update factual knowledge in large language models. However, malicious edits may introduce safety risks, making it necessary to reverse undesirable editing effects. Existing reversal methods for parameter-modifying edits mainly focus on global removal, which may also erase beneficial edits that should be preserved. In this paper, we study selective reversal of edited knowledge, where the goal is to reverse targeted edited facts while preserving the remaining edited facts. Based on the hypothesis that each edit is sparsely encoded within the dominant subspace of the edited matrix, we propose a spectral-based reversal framework that locates edit-sensitive components within the dominant singular subspace of edited weights. Experiments across multiple settings demonstrate the effectiveness of our method in reversing selected edits while preserving unrelated edited facts. These results suggest that different edits are sparsely encoded within dominant singular components and can be separable when the number of edits is moderate, making selective spectral reversal a promising direction for locating edit-specific components and repairing edited language models.",
+      "url": "https://arxiv.org/abs/2609.02091",
+      "pdf_url": "https://arxiv.org/pdf/2609.02091",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "relevance_score": 7,
+      "openalex": {
+        "id": "https://openalex.org/W7208794502",
+        "doi": "",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "doi:10.5281/zenodo.22257665",
@@ -300,36 +523,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 4
-    },
-    {
-      "id": "2609.03148",
-      "title": "Large Language Models in Resolving Contextual Knowledge Conflicts",
-      "authors": [
-        "Xinye Yang",
-        "Zhenyang Liu",
-        "Ruisi Li",
-        "Yuanyuan Lei"
-      ],
-      "published": "2026-09-02",
-      "updated": "2026-09-02",
-      "categories": [
-        "cs.CL"
-      ],
-      "abstract": "Most prior works focused on conflicts between an LLM's internal parametric knowledge and externally provided context. In contrast, we investigate how LLMs handle conflicts that arise within contextual knowledge itself. We introduce a taxonomy of six types of contextual conflicts (factual, inferential, temporal, granularity, perspective, and ambiguity) and contribute a comprehensive dataset ContextConflict for this setting. The dataset contains 5,781 samples, covers both reasoning and summarization tasks, and includes both explicit contradictions and implicit conflicts that require multi-step reasoning. Experiments on nine LLMs show that current models still fall short in resolving contextual knowledge conflicts. We further provide mechanistic interpretability insights into how LLMs process such conflicts, revealing their latent awareness of conflicts and the representational geometry underlying conflict processing. In addition, our analysis uncovers a consistent model bias towards earlier evidence, and this positional preference serves as a key obstacle to effective conflict resolution. Motivated by these findings, we further propose a simple training-free, label-free steering method that steers activations to encourage a more comprehensive incorporation of evidences for better conflict resolution. On our dataset, the method consistently improves accuracy on reasoning tasks and generates higher-quality, more balanced summaries for summarization tasks.",
-      "arxiv_url": "https://arxiv.org/abs/2609.03148",
-      "pdf_url": "https://arxiv.org/pdf/2609.03148",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Mechanistic interpretability steering",
-        "Steering language models"
-      ],
-      "code_urls": [],
-      "source": "arxiv",
-      "relevance_score": 10,
-      "url": "https://arxiv.org/abs/2609.03148",
-      "sources": [
-        "arxiv"
-      ]
     },
     {
       "id": "2609.03026",
@@ -449,36 +642,6 @@
       "relevance_score": 4
     },
     {
-      "id": "2609.02091",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Selective Knowledge Edit Reversal via Gated Singular Vector Shrinkage",
-      "authors": [
-        "Weifeng Jiang",
-        "Ruirui Chen",
-        "Qianren Mao",
-        "Junnan Liu",
-        "Qili Zhang",
-        "Kwok-Yan Lam"
-      ],
-      "published": "2026-09-02",
-      "updated": "2026-09-02",
-      "categories": [
-        "cs.CL"
-      ],
-      "abstract": "Knowledge editing provides an efficient way to update factual knowledge in large language models. However, malicious edits may introduce safety risks, making it necessary to reverse undesirable editing effects. Existing reversal methods for parameter-modifying edits mainly focus on global removal, which may also erase beneficial edits that should be preserved. In this paper, we study selective reversal of edited knowledge, where the goal is to reverse targeted edited facts while preserving the remaining edited facts. Based on the hypothesis that each edit is sparsely encoded within the dominant subspace of the edited matrix, we propose a spectral-based reversal framework that locates edit-sensitive components within the dominant singular subspace of edited weights. Experiments across multiple settings demonstrate the effectiveness of our method in reversing selected edits while preserving unrelated edited facts. These results suggest that different edits are sparsely encoded within dominant singular components and can be separable when the number of edits is moderate, making selective spectral reversal a promising direction for locating edit-specific components and repairing edited language models.",
-      "url": "https://arxiv.org/abs/2609.02091",
-      "pdf_url": "https://arxiv.org/pdf/2609.02091",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Model editing internal representations"
-      ],
-      "code_urls": [],
-      "relevance_score": 7
-    },
-    {
       "id": "2609.02089",
       "title": "IDEEA: training-free Input-Dependent stEEring via Activation cluster matching",
       "authors": [
@@ -509,6 +672,47 @@
       ]
     },
     {
+      "id": "doi:10.1016/j.neucom.2026.134994",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "NullSCE: Sequential concept erasure in generative video diffusion models via null-space guidance",
+      "authors": [
+        "Qingxiong Yi",
+        "Boyang Li",
+        "Bowen Li",
+        "Cunkang Wu",
+        "Xuyang Teng",
+        "Xiaolong Xu",
+        "Yanchao Tan",
+        "Chaochao Chen"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-05",
+      "categories": [
+        "Computer science",
+        "Erasure",
+        "Generative grammar",
+        "OpenAlex",
+        "Orthogonality"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1016/j.neucom.2026.134994",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Feature latent concept steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7117672593",
+        "doi": "10.1016/j.neucom.2026.134994",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
       "id": "2609.01878",
       "title": "GAPS: Dimension-Level Gates for Conditional Activation Steering",
       "authors": [
@@ -518,7 +722,7 @@
         "A. B. Siddique"
       ],
       "published": "2026-09-01",
-      "updated": "2026-09-04",
+      "updated": "2026-09-05",
       "categories": [
         "Computer science",
         "Control theory (sociology)",
@@ -567,7 +771,7 @@
         "Yuan Tian"
       ],
       "published": "2026-09-01",
-      "updated": "2026-09-04",
+      "updated": "2026-09-05",
       "categories": [
         "Computer science",
         "Inference",
@@ -816,47 +1020,6 @@
         "doi": "10.48550/arxiv.2609.00790",
         "cited_by_count": 0
       }
-    },
-    {
-      "id": "doi:10.1016/j.neucom.2026.134994",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "NullSCE: Sequential concept erasure in generative video diffusion models via null-space guidance",
-      "authors": [
-        "Qingxiong Yi",
-        "Boyang Li",
-        "Bowen Li",
-        "Cunkang Wu",
-        "Xuyang Teng",
-        "Xiaolong Xu",
-        "Yanchao Tan",
-        "Chaochao Chen"
-      ],
-      "published": "2026-09-01",
-      "updated": "2026-09-03",
-      "categories": [
-        "Computer science",
-        "Erasure",
-        "Generative grammar",
-        "OpenAlex",
-        "Orthogonality"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1016/j.neucom.2026.134994",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Feature latent concept steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7117672593",
-        "doi": "10.1016/j.neucom.2026.134994",
-        "cited_by_count": 0
-      },
-      "relevance_score": 4
     },
     {
       "id": "doi:10.20944/preprints202609.0007.v1",
@@ -2475,7 +2638,7 @@
         "Andrey Labunets"
       ],
       "published": "2026-08-26",
-      "updated": "2026-09-03",
+      "updated": "2026-09-05",
       "categories": [
         "Computer science",
         "OpenAlex",
