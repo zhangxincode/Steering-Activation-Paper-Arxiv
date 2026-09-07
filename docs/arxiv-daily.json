@@ -1,6 +1,144 @@
 {
-  "generated_at": "2026-09-06T07:40:54+00:00",
+  "generated_at": "2026-09-07T07:53:16+00:00",
   "papers": [
+    {
+      "id": "doi:10.5281/zenodo.22360026",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "AI Mechanistic Interpretability and Self-Aware Networks: From Neural Decoding to Causal Self-Regulation",
+      "authors": [
+        "Micah Blumberg"
+      ],
+      "published": "2026-09-05",
+      "updated": "2026-09-06",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Interpretability",
+        "Machine learning",
+        "OpenAlex"
+      ],
+      "abstract": "An internal representation can be decodable, causally effective and numerically reconstructable without implementing the operation a user intended. I examine these distinctions through the receiver-relative framework of Self-Aware Networks, connecting a source-recovered neural-decoding and feedback question to explicit transformer interventions. The research combines intervention prediction in controlled learned networks, passive and active feedback controls, GPT-2 activation and cache experiments, and native hybrid-state interventions in a pinned quantized Qwen3.5-0.8B decoder. Complete corrected-state transfer supports all eight tested bidirectional story groups in an initial Qwen assay, while attention-only transfer fails one; a complementary intervention gives identical attention state with different behavior. In a separate learned-correction assay, linear and nonlinear attention-state predictors each obtain five of 32 requested reversed-role answers but no story with both roles correctly reversed. Both preserve the tested color attribute. Lower training loss and partial-state error therefore fail to certify the intended relational change. Formal arguments distinguish observational from causal identification, partial-state from behavioral sufficiency, and output-margin guarantees from reconstruction loss. Earlier failures, nulls and inadequate baselines are retained. The contribution is a bounded experimental account of receiver-dependent intervention and its certification problem, not invention of mechanistic interpretability, evidence of phenomenal consciousness, or demonstrated autonomous self-regulation in frontier models. Preprint v1.0; integrated Draft 10, September 5, 2026. The checksum-linked shared companion, archived with DOI 10.5281/zenodo.22360017, includes the applications, protocols, data, figures, 31 accepted Lean statements under recorded assumptions, and a later full fixed learned-Qwen pipeline reproduction (49 serial steps; 465 original answers and 465 separate-code reconstructions). The same experiments support both AI papers; these are not independent replications. The negative learned-correction result is retained. Authoring-agent checks and same-workflow reconstruction are not independent scientific review. Base-model and runtime binaries and private source originals are not included. License scope: CC BY 4.0 for original manuscript prose, figures, documentation and data. Original code is public for review without a separate reuse license; third-party materials retain their own terms. See the companion LICENSE.md and notices.",
+      "url": "https://doi.org/10.5281/zenodo.22360026",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7208836617",
+        "doi": "10.5281/zenodo.22360026",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
+      "id": "doi:10.5281/zenodo.22315579",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Probabilistic Programming for Reinforcement Learning with Partial Observability",
+      "authors": [
+        "Jincheng Zhang"
+      ],
+      "published": "2026-09-05",
+      "updated": "2026-09-06",
+      "categories": [
+        "Computer science",
+        "Observability",
+        "OpenAlex",
+        "Probabilistic logic",
+        "Reinforcement learning"
+      ],
+      "abstract": "Reinforcement learning (RL) in partially observable environments presents significant challenges due to the difficulty in accurately representing and reasoning about hidden state information. Traditional RL approaches often rely on manually designing state representations and incorporating domain-specific knowledge, a process that can be laborious and prone to error. This paper proposes a novel framework leveraging probabilistic programming to address these challenges. We introduce a probabilistic programming language tailored for RL, allowing researchers and practitioners to directly express probabilistic models of the environment, including uncertainties in state transitions and observations. The core mechanism involves learning a joint probability distribution over states and actions, enabling the agent to effectively handle partial observability. This approach simplifies model development, enhances sample efficiency, and ultimately facilitates the design of more robust and adaptable RL agents for complex, real-world scenarios. The key innovation lies in unifying model specification and learning within a single probabilistic framework, removing the need for explicit state representation engineering.",
+      "url": "https://doi.org/10.5281/zenodo.22315579",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7208820626",
+        "doi": "10.5281/zenodo.22315579",
+        "cited_by_count": 0
+      },
+      "relevance_score": 7
+    },
+    {
+      "id": "doi:10.5281/zenodo.21356270",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "ceceli33/titan-cognitive-core: AkbasCore 1.2 — Damped Resonance Alignment",
+      "authors": [
+        "ceceli33"
+      ],
+      "published": "2026-09-05",
+      "updated": "2026-09-06",
+      "categories": [
+        "Acoustics",
+        "Computer science",
+        "Control theory (sociology)",
+        "OpenAlex",
+        "Physics",
+        "Resonance (particle physics)"
+      ],
+      "abstract": "Inference-time activation steering kernel for transformer models. C++ implementation with critically damped resonance alignment. DOI: 10.5281/zenodo.21356271",
+      "url": "https://doi.org/10.5281/zenodo.21356270",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7168254481",
+        "doi": "10.5281/zenodo.21356270",
+        "cited_by_count": 0
+      },
+      "relevance_score": 7
+    },
+    {
+      "id": "doi:10.17605/osf.io/frsgd",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Freedom Steering POC - Activation Steering for Obligation and Resource",
+      "authors": [
+        "Gabriele Di Cicco"
+      ],
+      "published": "2026-09-05",
+      "updated": "2026-09-06",
+      "categories": [
+        "OpenAlex",
+        "Obligation",
+        "Resource (disambiguation)",
+        "Business",
+        "Risk analysis (engineering)"
+      ],
+      "abstract": "Testing Freedom Available vs Committed with CAA on Qwen2.5 0.5B to 1.5B. Preregistration for trial 005. Trials 001-004 obligation L11 -0.478 p0.008 resource redesign 24 abundant-scarce.",
+      "url": "https://doi.org/10.17605/osf.io/frsgd",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7208822866",
+        "doi": "10.17605/osf.io/frsgd",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
     {
       "id": "doi:10.5281/zenodo.22307955",
       "source": "openalex",
@@ -70,6 +208,226 @@
         "cited_by_count": 0
       },
       "relevance_score": 7
+    },
+    {
+      "id": "2609.04792",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Can Activation Steering Capture Multidimensional Authorship Style?",
+      "authors": [
+        "Hieu Tran",
+        "Calvin Bao",
+        "Marine Carpuat"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Activation steering has shown promise for controlling LLM generation along well-defined attributes, but it remains unclear whether it can handle the multidimensional and hard-to-define nature of authorship style. We ask whether structured contrastive prompting along rhetorically-motivated dimensions can construct rich style representations directly in activation space, bypassing the need for natural language style descriptors or dedicated training. We find that the resulting directions share a common authorship backbone while conflicting on aspect-specific residuals that carry genuine stylistic signal, explaining why naive aggregation fails. We operationalize this in Aspect-Aware Activation Steering (A3S), a training-free framework that merges per-aspect contrastive directions with interference-aware aggregation and tunes steering strength per instance. A3S improves authorship style transfer where it is genuinely multi-aspect, outperforms a trained baseline in preference evaluations on out-of-domain benchmarks, and keeps target-exemplar overlap consistently low.",
+      "url": "https://arxiv.org/abs/2609.04792",
+      "pdf_url": "https://arxiv.org/pdf/2609.04792",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 6
+    },
+    {
+      "id": "2609.04645",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Latent-Aligned Reasoning for Multimodal Recommendation",
+      "authors": [
+        "Jiarui Jin",
+        "Anyang Ji"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "Multimodal Vision-Language Models (VLMs) have demonstrated remarkable capabilities in cross-modal understanding, yet a fundamental challenge persists when applying them to recommendation: as representations propagate through multi-step reasoning, both visual and textual signals progressively attenuate - a phenomenon we term cross-modal dilution. To address this, we propose LARK (Latent-Aligned Reasoning frameworK), a two-stage latent reasoning framework with complementary alignment mechanisms within a single VLM. In the first stage, learnable latent tokens are interleaved with multi-step chain-of-thought (CoT) reasoning and explicitly aligned with a frozen vision encoder, serving as visual checkpoints that preserve perceptual details throughout the reasoning chain. In the second stage, the latent representations are projected via a bridge MLP and trained with item-to-item contrastive learning; to prevent the reasoning semantics from fading, intermediate features are aligned with the CoT hidden states from the first stage, anchoring the final embeddings to the model's own reasoning output. Experiments on three public benchmarks and one industrial dataset show that LARK achieves state-of-the-art performance across multiple recommendation architectures, with controlled ablations confirming the distinct contribution of each component.",
+      "url": "https://arxiv.org/abs/2609.04645",
+      "pdf_url": "https://arxiv.org/pdf/2609.04645",
+      "primary_category": "cs.IR",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Reasoning and CoT steering",
+        "Safety refusal behavior steering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 13
+    },
+    {
+      "id": "2609.04582",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models",
+      "authors": [
+        "Gnaneswar Villuri",
+        "Hashmath Shaik",
+        "Alex Doboli"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-04",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "A 0.6B language model, asked to verify 1,200 logical conclusions (half valid, half corrupted by a single semantic edit), answers YES every time. Judged by behavior it discriminates nothing; linear probes on its hidden states read the correct verdict at 0.96 AUC, transferring to unseen logical structures and separating foils built from exactly the words of the true conclusion (0.90). We ask where the verdict is lost, and find the dominant failure is a single scalar. The verdict survives to the model's own output logits (margin AUC 0.89) along a well-aligned readout direction; a saturated decision threshold, offset by +4.6 sigma, erases it. The diagnosis generalizes: across 90 semantic-label configurations of a five-model, three-family factorial, behavioral accuracy collapses onto a single function of threshold offset (Spearman -0.93) while margin ranking moves far less. Across a 13x scale range, internal knowledge saturates while free-form behavior is non-monotone: an 8B model underperforms its 4B sibling through an answer-channel failure rather than the threshold; forced-choice accuracy is monotone. The diagnosis is actionable: a one-parameter correction, never fit on evaluated structures, repairs behavior from 50% to 81% (0.6B); calibrated margin decoding recovers 94% at 8B; few-shot prompting works the same way, recentering the threshold (+4.6 sigma to 0.0 sigma) while preserving ranking. Comparing probe to margin separates three regimes: concealed, miscalibrated, and undetected. On a maze task built so foils carry no surface cues, the audit correctly reports the third. In the standard generation setting, answer-surface features and heuristic labels reproduce published probing results without any internal access.",
+      "url": "https://arxiv.org/abs/2609.04582",
+      "pdf_url": "https://arxiv.org/pdf/2609.04582",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 4
+    },
+    {
+      "id": "2609.03687",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "A Circuit for Plural Reference: How LLMs Represent and Retrieve Singular and Plural Entities",
+      "authors": [
+        "Anh Danh",
+        "Rick Nouwen",
+        "Massimo Poesio"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-06",
+      "categories": [
+        "Coreference",
+        "Interpretability",
+        "Natural language processing",
+        "OpenAlex",
+        "Plural",
+        "cs.CL"
+      ],
+      "abstract": "Coreference resolution is an important task in contextual reasoning. In this paper, we investigate the mechanism for representing and retrieving singular and plural entities for plural reference. We use a combination of mechanistic interpretability and attention pattern analysis to study the process in which LLMs predict a pronoun to refer back to previously mentioned entities. Using a range of causal intervention techniques, we find a set of attention heads that are responsible for (1) representing coreference information in the input, (2) identifying entities that form a plural reference, (3) transferring the information to the component that is responsible for selecting the antecedents and predicting the pronoun. We also find that LLMs align with humans in preference for plural pronoun. Specifically, entities in a plural construction are more likely to be referred to as a plural entity if they are ontologically similar and are linked by the conjunction \"and\".",
+      "url": "https://arxiv.org/abs/2609.03687",
+      "pdf_url": "https://arxiv.org/pdf/2609.03687",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 6,
+      "openalex": {
+        "id": "https://openalex.org/W7208724748",
+        "doi": "10.48550/arxiv.2609.03687",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.03629",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "EraseSAE: Surgical Concept Erasure in Text-to-Video Diffusion Models via Sparse Autoencoders",
+      "authors": [
+        "Xinghao Wang",
+        "Dong Li",
+        "Wei Yu",
+        "Yingwei Pan",
+        "Tao Gong",
+        "Qi Chu",
+        "Nenghai Yu",
+        "Ting Yao"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-06",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Erasure",
+        "Granularity",
+        "OpenAlex",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Recent advances in text-to-video (T2V) diffusion models have demonstrated remarkable generative capabilities, yet their reliance on loosely curated training data raises pressing safety and copyright concerns. Concept erasure offers a principled remedy by removing unwanted semantics from pretrained models while preserving remaining concepts. However, existing approaches typically operate at a coarse granularity misaligned with the fine-grained, distributed nature of concept representations, leading to incomplete removal or degraded generation quality. We argue that surgical erasure fundamentally requires intervention at the level of monosemantic features, where each unit encodes a single interpretable concept. To this end, we propose EraseSAE, a novel framework that leverages sparse autoencoders to achieve surgical concept erasure in DiT-based T2V diffusion models via a principled decompose-attribute-erase pipeline. We first introduce the Partitioned Convolutional Sparse Autoencoder, which decomposes dense spatiotemporal activations into disentangled, interpretable sparse features while preserving spatiotemporal coherence. A contrastive attribution mechanism then contrasts activations from paired prompts to isolate concept-specific feature kernels. At inference, timestep-resolved spatiotemporal masks derived from the identified kernels confine erasure to regions where the target concept is active, leaving unrelated content intact. Extensive experiments across diverse diffusion models and concept erasure tasks demonstrate that EraseSAE achieves precise and robust concept removal with minimal quality degradation, substantially outperforming state-of-the-art methods. The code is available at https://github.com/HiDream-ai/EraseSAE.",
+      "url": "https://arxiv.org/abs/2609.03629",
+      "pdf_url": "https://arxiv.org/pdf/2609.03629",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Feature latent concept steering",
+        "SAE steering"
+      ],
+      "code_urls": [
+        "https://github.com/HiDream-ai/EraseSAE"
+      ],
+      "relevance_score": 7,
+      "openalex": {
+        "id": "https://openalex.org/W7208727640",
+        "doi": "10.48550/arxiv.2609.03629",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.03511",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Lost in Reordering: Structural Sensitivity of Multilingual LLMs under Semantics-Preserving Perturbations",
+      "authors": [
+        "Karthika Nhayakkat",
+        "Rajat Verma",
+        "Maharaj Brahma",
+        "Vetcha Gnana Mahesh",
+        "Maunendra Sankar Desarkar",
+        "Ganesh Ramakrishnan",
+        "Rohit Saluja"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-06",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Interpretability",
+        "OpenAlex",
+        "Robustness (evolution)",
+        "cs.CL"
+      ],
+      "abstract": "Large Language Models (LLMs) demonstrate strong multilingual reasoning performance, yet their robustness to semantics-preserving structural variation remains underexplored, particularly for relatively free word-order languages. We investigate the structural sensitivity of multilingual LLMs using two linguistically grounded perturbation settings in Hindi and Malayalam: constrained constituent reordering and active-passive voice transformation. We introduce a benchmark dataset IndicReStruct, with two variants, GSM8K-Reordered and GSM8K-Voice, constructed from GSM8K while preserving semantic meaning. Across six state-of-the-art LLMs and multiple prompting strategies, we observe consistent and significant degradation in mathematical reasoning performance under structurally perturbed inputs. To further understand these failures, we perform qualitative error analysis and mechanistic interpretability experiments using residual-stream activation patching. Our analyses show that reasoning failures frequently arise from disruptions in entity-quantity alignment and that intermediate transformer layers contribute most strongly toward reasoning restoration. Overall, our findings suggest that current multilingual LLMs remain highly sensitive to surface syntactic realization and lack robust compositional invariance under structurally different but semantically equivalent inputs.",
+      "url": "https://arxiv.org/abs/2609.03511",
+      "pdf_url": "https://arxiv.org/pdf/2609.03511",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Mechanistic interpretability steering",
+        "Reasoning and CoT steering",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 15,
+      "openalex": {
+        "id": "https://openalex.org/W7208774981",
+        "doi": "10.48550/arxiv.2609.03511",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "doi:10.64898/2026.08.28.747907",
@@ -147,136 +505,6 @@
       "relevance_score": 9
     },
     {
-      "id": "2609.03687",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "A Circuit for Plural Reference: How LLMs Represent and Retrieve Singular and Plural Entities",
-      "authors": [
-        "Anh Danh",
-        "Rick Nouwen",
-        "Massimo Poesio"
-      ],
-      "published": "2026-09-03",
-      "updated": "2026-09-05",
-      "categories": [
-        "Coreference",
-        "Interpretability",
-        "Natural language processing",
-        "OpenAlex",
-        "Plural",
-        "cs.CL"
-      ],
-      "abstract": "Coreference resolution is an important task in contextual reasoning. In this paper, we investigate the mechanism for representing and retrieving singular and plural entities for plural reference. We use a combination of mechanistic interpretability and attention pattern analysis to study the process in which LLMs predict a pronoun to refer back to previously mentioned entities. Using a range of causal intervention techniques, we find a set of attention heads that are responsible for (1) representing coreference information in the input, (2) identifying entities that form a plural reference, (3) transferring the information to the component that is responsible for selecting the antecedents and predicting the pronoun. We also find that LLMs align with humans in preference for plural pronoun. Specifically, entities in a plural construction are more likely to be referred to as a plural entity if they are ontologically similar and are linked by the conjunction \"and\".",
-      "url": "https://arxiv.org/abs/2609.03687",
-      "pdf_url": "https://arxiv.org/pdf/2609.03687",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Mechanistic interpretability steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 6,
-      "openalex": {
-        "id": "https://openalex.org/W7208724748",
-        "doi": "10.48550/arxiv.2609.03687",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2609.03629",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "EraseSAE: Surgical Concept Erasure in Text-to-Video Diffusion Models via Sparse Autoencoders",
-      "authors": [
-        "Xinghao Wang",
-        "Dong Li",
-        "Wei Yu",
-        "Yingwei Pan",
-        "Tao Gong",
-        "Qi Chu",
-        "Nenghai Yu",
-        "Ting Yao"
-      ],
-      "published": "2026-09-03",
-      "updated": "2026-09-05",
-      "categories": [
-        "Artificial intelligence",
-        "Computer science",
-        "Erasure",
-        "Granularity",
-        "OpenAlex",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "abstract": "Recent advances in text-to-video (T2V) diffusion models have demonstrated remarkable generative capabilities, yet their reliance on loosely curated training data raises pressing safety and copyright concerns. Concept erasure offers a principled remedy by removing unwanted semantics from pretrained models while preserving remaining concepts. However, existing approaches typically operate at a coarse granularity misaligned with the fine-grained, distributed nature of concept representations, leading to incomplete removal or degraded generation quality. We argue that surgical erasure fundamentally requires intervention at the level of monosemantic features, where each unit encodes a single interpretable concept. To this end, we propose EraseSAE, a novel framework that leverages sparse autoencoders to achieve surgical concept erasure in DiT-based T2V diffusion models via a principled decompose-attribute-erase pipeline. We first introduce the Partitioned Convolutional Sparse Autoencoder, which decomposes dense spatiotemporal activations into disentangled, interpretable sparse features while preserving spatiotemporal coherence. A contrastive attribution mechanism then contrasts activations from paired prompts to isolate concept-specific feature kernels. At inference, timestep-resolved spatiotemporal masks derived from the identified kernels confine erasure to regions where the target concept is active, leaving unrelated content intact. Extensive experiments across diverse diffusion models and concept erasure tasks demonstrate that EraseSAE achieves precise and robust concept removal with minimal quality degradation, substantially outperforming state-of-the-art methods. The code is available at https://github.com/HiDream-ai/EraseSAE.",
-      "url": "https://arxiv.org/abs/2609.03629",
-      "pdf_url": "https://arxiv.org/pdf/2609.03629",
-      "primary_category": "cs.CV",
-      "source_queries": [
-        "Feature latent concept steering",
-        "SAE steering"
-      ],
-      "code_urls": [
-        "https://github.com/HiDream-ai/EraseSAE"
-      ],
-      "relevance_score": 7,
-      "openalex": {
-        "id": "https://openalex.org/W7208727640",
-        "doi": "10.48550/arxiv.2609.03629",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2609.03511",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Lost in Reordering: Structural Sensitivity of Multilingual LLMs under Semantics-Preserving Perturbations",
-      "authors": [
-        "Karthika Nhayakkat",
-        "Rajat Verma",
-        "Maharaj Brahma",
-        "Vetcha Gnana Mahesh",
-        "Maunendra Sankar Desarkar",
-        "Ganesh Ramakrishnan",
-        "Rohit Saluja"
-      ],
-      "published": "2026-09-03",
-      "updated": "2026-09-05",
-      "categories": [
-        "Artificial intelligence",
-        "Computer science",
-        "Interpretability",
-        "OpenAlex",
-        "Robustness (evolution)",
-        "cs.CL"
-      ],
-      "abstract": "Large Language Models (LLMs) demonstrate strong multilingual reasoning performance, yet their robustness to semantics-preserving structural variation remains underexplored, particularly for relatively free word-order languages. We investigate the structural sensitivity of multilingual LLMs using two linguistically grounded perturbation settings in Hindi and Malayalam: constrained constituent reordering and active-passive voice transformation. We introduce a benchmark dataset IndicReStruct, with two variants, GSM8K-Reordered and GSM8K-Voice, constructed from GSM8K while preserving semantic meaning. Across six state-of-the-art LLMs and multiple prompting strategies, we observe consistent and significant degradation in mathematical reasoning performance under structurally perturbed inputs. To further understand these failures, we perform qualitative error analysis and mechanistic interpretability experiments using residual-stream activation patching. Our analyses show that reasoning failures frequently arise from disruptions in entity-quantity alignment and that intermediate transformer layers contribute most strongly toward reasoning restoration. Overall, our findings suggest that current multilingual LLMs remain highly sensitive to surface syntactic realization and lack robust compositional invariance under structurally different but semantically equivalent inputs.",
-      "url": "https://arxiv.org/abs/2609.03511",
-      "pdf_url": "https://arxiv.org/pdf/2609.03511",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Mechanistic interpretability steering",
-        "Reasoning and CoT steering",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 15,
-      "openalex": {
-        "id": "https://openalex.org/W7208774981",
-        "doi": "10.48550/arxiv.2609.03511",
-        "cited_by_count": 0
-      }
-    },
-    {
       "id": "doi:10.64898/2026.08.29.746924",
       "source": "openalex",
       "sources": [
@@ -345,6 +573,32 @@
       "relevance_score": 4
     },
     {
+      "id": "2609.04561",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Reducing Hallucinated Transcripts in Whisper via Hallucination Space Projection",
+      "authors": [
+        "Maryam Abbasihafshejani",
+        "Murtuza Jadliwala"
+      ],
+      "published": "2026-09-03",
+      "updated": "2026-09-03",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Whisper is a widely used foundation model for automatic speech recognition (ASR), but its generative decoder can produce fluent hallucinated transcripts for inputs containing little or no speech. We propose a training-free, inference-time method to reduce these hallucinations using low-rank projection of decoder activations. A compact hallucination-associated subspace is estimated from non-speech calibration data, and decoder hidden states are projected away from this subspace during inference. We evaluate two variants: always-on, which applies projection to all inputs, and gated, which applies it only when Whisper predicts that an input is likely non-speech. Across non-speech benchmarks, always-on projection reduces average hallucination rate (HR) from 31.31% to 2.44%, a 92.21% relative reduction, while gated projection reduces HR to 3.74%, an 88.05% relative reduction, with lower false rejection of genuine speech. On LibriSpeech, gated projection increases absolute word error rate (WER) by 0.33-4.39 percentage points and yields false-rejection rates (FRR) of 0.41--9.97% across model and split settings. These results show that low-rank activation projection can substantially suppress Whisper hallucinations without retraining, while providing a controllable trade-off between hallucination suppression and speech recognition performance.",
+      "url": "https://arxiv.org/abs/2609.04561",
+      "pdf_url": "https://arxiv.org/pdf/2609.04561",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 5
+    },
+    {
       "id": "2609.03662",
       "source": "arxiv",
       "sources": [
@@ -385,17 +639,17 @@
         "Andrew N. Jordan"
       ],
       "published": "2026-09-02",
-      "updated": "2026-09-05",
+      "updated": "2026-09-06",
       "categories": [
-        "OpenAlex",
         "Hamiltonian (control theory)",
-        "Optimal control",
         "Mathematics",
+        "OpenAlex",
+        "Optimal control",
         "Quantum"
       ],
       "abstract": "Schrödinger bridges and entropic optimal transport are usually formulated as stochastic interpolation problems between initial and final probability distributions. In their computational form, the bridge potentials are obtained by Sinkhorn or iterative proportional fitting, and are often regarded as auxiliary scaling functions. We show that for continuously monitored quantum systems, these potentials acquire a direct measurement-theoretic meaning. The mathematical structure of conditional quantum trajectory theory induces a Fokker--Planck equation on quantum state space. Conditioning this diffusion on a terminal distribution or a terminal measurement effect produces a Doob/Sinkhorn potential whose directional derivative along a unitary control vector field is the imaginary part of a generalized weak value. The same construction connects the Schrödinger-bridge viewpoint to the optimal-path framework for continuously monitored trajectories: the backward bridge potential plays the role of an effect-like costate, and its weak-value directional derivative gives the local control signal. By specifying the desired endpoint distribution, the induced drift produced by the Schrödinger bridge solution is the control solution that minimizes the quadratic cost feedback law, guiding the distribution to its desired endpoint. We quantify the control score of the available control Hamiltonian as a logarithmic directional derivative of the bridge potential, or an imaginary weak value. Three explicit examples identify weak measurement as a natural entropic regularization mechanism for quantum state transport and gives a route from Sinkhorn scaling to quantum feedback and Hamiltonian control synthesis for practical optimal control.",
       "url": "https://doi.org/10.48550/arxiv.2609.03097",
-      "pdf_url": "",
+      "pdf_url": "https://arxiv.org/pdf/2609.03097",
       "primary_category": "OpenAlex",
       "source_queries": [
         "Steering vectors"
@@ -418,7 +672,7 @@
         "Yuanyuan Lei"
       ],
       "published": "2026-09-02",
-      "updated": "2026-09-05",
+      "updated": "2026-09-06",
       "categories": [
         "Artificial intelligence",
         "Automatic summarization",
@@ -523,6 +777,33 @@
         "cited_by_count": 0
       },
       "relevance_score": 4
+    },
+    {
+      "id": "2609.04276",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "FailSAE: Towards Interpretable Failure Prediction for Vision-Language Models via Sparse Autoencoders",
+      "authors": [
+        "Jie Ma",
+        "Zongxi Liu",
+        "Yi Zhu"
+      ],
+      "published": "2026-09-02",
+      "updated": "2026-09-02",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Vision-language models (VLMs), such as CLIP, have achieved strong performance across multimodal tasks by aligning visual and textual representations in a shared embedding space. As VLMs are increasingly used for high-stakes domains, failure prediction becomes critical for risk-aware deployment and human intervention. Existing failure prediction methods typically rely on confidence scores or auxiliary classifiers. Although these methods are effective on predicting VLM failures, they provide limited interpretability. In this work, we investigate the use of Sparse Autoencoders (SAEs) for interpretable failure prediction in VLMs. We formulate failure prediction as a classification task over sparse SAE latent activations and introduce a three-stage failure-aware training pipeline that encourages the learned latent directions to remain interpretable while becoming more informative for failure prediction. Our experiments show that the resulting framework outperforms the evaluated baselines in failure prediction. Further analysis suggests that failure-aware training encourages SAE latent directions to capture more class-specific concepts. We also use the SAE to provide a concept-level analysis of how model representations change during failures, revealing a shift from class-specific concepts toward more ambiguous or style-related concepts. Finally, we explore how the learned SAE latent directions can support runtime failure recovery.",
+      "url": "https://arxiv.org/abs/2609.04276",
+      "pdf_url": "https://arxiv.org/pdf/2609.04276",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 10
     },
     {
       "id": "2609.03026",
@@ -2627,6 +2908,51 @@
       ]
     },
     {
+      "id": "2608.26357",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Cross-lingual Representation Learning via Centroid Intervention Fusion",
+      "authors": [
+        "Wei Sun",
+        "Marie-Francine Moens"
+      ],
+      "published": "2026-08-26",
+      "updated": "2026-09-06",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "OpenAlex",
+        "Pairwise comparison",
+        "Scalability",
+        "cs.CL"
+      ],
+      "abstract": "Large language models (LLMs) exhibit uneven multilingual performance, especially when dealing with low-resource languages. Inference-time intervention offers a lightweight way to improve cross-lingual transfer by modifying the hidden states produced by the LLMs during the forward pass, without updating model parameters. However, existing cross-lingual intervention methods typically learn separate projections from source to target languages, which limits scalability and prevents knowledge sharing across languages. We propose Centroid Intervention Fusion (CIF), a projection fusion framework that consolidates multiple multilingual intervention projections into a single language-shared operator. Across multilingual commonsense reasoning, natural language inference, factual editing, and machine translation benchmarks, CIF outperforms the strongest prior pairwise intervention baseline by up to +3.378 pp on average across four model backbones, while supporting performance gains for low resource languages. The code is available at https://github.com/VRCMF/CIF.git.",
+      "url": "https://arxiv.org/abs/2608.26357",
+      "pdf_url": "https://arxiv.org/pdf/2608.26357",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Feature latent concept steering",
+        "Hidden-state intervention",
+        "Model editing internal representations",
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Representation engineering"
+      ],
+      "code_urls": [
+        "https://github.com/VRCMF/CIF"
+      ],
+      "relevance_score": 11,
+      "openalex": {
+        "id": "https://openalex.org/W7204566911",
+        "doi": "10.48550/arxiv.2608.26357",
+        "cited_by_count": 0
+      }
+    },
+    {
       "id": "2608.25390",
       "source": "arxiv",
       "sources": [
@@ -2663,51 +2989,6 @@
       "openalex": {
         "id": "https://openalex.org/W7204606913",
         "doi": "",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2608.26357",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Cross-lingual Representation Learning via Centroid Intervention Fusion",
-      "authors": [
-        "Wei Sun",
-        "Marie-Francine Moens"
-      ],
-      "published": "2026-08-26",
-      "updated": "2026-09-01",
-      "categories": [
-        "Artificial intelligence",
-        "Computer science",
-        "OpenAlex",
-        "Pairwise comparison",
-        "Scalability",
-        "cs.CL"
-      ],
-      "abstract": "Large language models (LLMs) exhibit uneven multilingual performance, especially when dealing with low-resource languages. Inference-time intervention offers a lightweight way to improve cross-lingual transfer by modifying the hidden states produced by the LLMs during the forward pass, without updating model parameters. However, existing cross-lingual intervention methods typically learn separate projections from source to target languages, which limits scalability and prevents knowledge sharing across languages. We propose Centroid Intervention Fusion (CIF), a projection fusion framework that consolidates multiple multilingual intervention projections into a single language-shared operator. Across multilingual commonsense reasoning, natural language inference, factual editing, and machine translation benchmarks, CIF outperforms the strongest prior pairwise intervention baseline by up to +3.378 pp on average across four model backbones, while supporting performance gains for low resource languages. The code is available at https://github.com/VRCMF/CIF.git.",
-      "url": "https://arxiv.org/abs/2608.26357",
-      "pdf_url": "https://arxiv.org/pdf/2608.26357",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Feature latent concept steering",
-        "Hidden-state intervention",
-        "Model editing internal representations",
-        "Persona sentiment attribute steering",
-        "Reasoning and CoT steering",
-        "Representation engineering"
-      ],
-      "code_urls": [
-        "https://github.com/VRCMF/CIF"
-      ],
-      "relevance_score": 11,
-      "openalex": {
-        "id": "https://openalex.org/W7204566911",
-        "doi": "10.48550/arxiv.2608.26357",
         "cited_by_count": 0
       }
     },
@@ -6004,7 +6285,7 @@
         "Rodrigo C. Barros"
       ],
       "published": "2026-08-05",
-      "updated": "2026-08-12",
+      "updated": "2026-09-03",
       "categories": [
         "cs.CL",
         "cs.LG"
@@ -7639,6 +7920,34 @@
       "relevance_score": 6
     },
     {
+      "id": "2607.23492",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "To Erase, or Not to Erase: Robust Training-Free Concept Erasure with Preservation aware Adaptive Ranked Subspace Expansion",
+      "authors": [
+        "Shaswati Saha",
+        "Rajasekhar Anguluri",
+        "Manas Gaur"
+      ],
+      "published": "2026-07-26",
+      "updated": "2026-09-04",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "Concept erasure techniques (CETs) edit text-to-image diffusion models to erase undesired targets such as NSFW content or copyrighted styles, while preserving model utility on benign concepts. Current CETs face a trade-off between erasure robustness and utility: stronger edits erase the target more reliably but degrade utility on non-target concepts, and vice versa. This stems from how existing methods define what to erase and what to preserve. Many CETs rely on static concept banks specified manually, generated by LLMs, or selected by CLIP image-text similarity. Such banks do not model how prompts steer the model during denoising, leaving it vulnerable to triggers that reintroduce the target while suppressing nearby benign concepts. We present Preservation-aware Adaptive Ranked Subspace Expansion (PARSE), a training-free framework for robust concept erasure in latent diffusion models. Given a target, PARSE queries the diffusion model with classifier-free guidance to dynamically discover target-inducing erase concepts and nearby retain concepts in the model vocabulary. It then edits the cross-attention value space with a preservation-aware projection that removes target directions while leaving retain directions intact. For triggers beyond this vocabulary-indexed space, PARSE iteratively searches for re-emergence triggers by textual inversion and adaptively expands the erased subspace only when a new trigger direction does not conflict with retain semantics. We also introduce the Balanced Erasure Utility Score (BEUS), which combines robustness (ASR under multiple attacks) and utility preservation (FID) via bounded monotone transforms and harmonic mean aggregation. Experiments on NSFW, artistic style, and object erasure, with a large-scale robustness-utility analysis over many CET baselines, show that PARSE erases multiple concepts robustly without sacrificing post-edit utility.",
+      "url": "https://arxiv.org/abs/2607.23492",
+      "pdf_url": "https://arxiv.org/pdf/2607.23492",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Feature latent concept steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 6
+    },
+    {
       "id": "2607.23496",
       "source": "arxiv",
       "sources": [
@@ -7705,34 +8014,6 @@
       ],
       "code_urls": [],
       "relevance_score": 9
-    },
-    {
-      "id": "2607.23492",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "To Erase, or Not to Erase: Robust Training-Free Concept Erasure with Preservation aware Adaptive Ranked Subspace Expansion",
-      "authors": [
-        "Shaswati Saha",
-        "Rajasekhar Anguluri",
-        "Manas Gaur"
-      ],
-      "published": "2026-07-26",
-      "updated": "2026-07-26",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "abstract": "Concept erasure techniques (CETs) edit text-to-image diffusion models to erase undesired targets such as NSFW content or copyrighted styles, while preserving model utility on benign concepts. Current CETs face a trade-off between erasure robustness and utility: stronger edits erase the target more reliably but degrade utility on non-target concepts, and vice versa. This stems from how existing methods define what to erase and what to preserve. Many CETs rely on static concept banks specified manually, generated by LLMs, or selected by CLIP image-text similarity. Such banks do not model how prompts steer the model during denoising, leaving it vulnerable to triggers that reintroduce the target while suppressing nearby benign concepts. We present Preservation-aware Adaptive Ranked Subspace Expansion (PARSE), a training-free framework for robust concept erasure in latent diffusion models. Given a target, PARSE queries the diffusion model with classifier-free guidance to dynamically discover target-inducing erase concepts and nearby retain concepts in the model vocabulary. It then edits the cross-attention value space with a preservation-aware projection that removes target directions while leaving retain directions intact. For triggers beyond this vocabulary-indexed space, PARSE iteratively searches for re-emergence triggers by textual inversion and adaptively expands the erased subspace only when a new trigger direction does not conflict with retain semantics. We also introduce the Balanced Erasure Utility Score (BEUS), which combines robustness (ASR under multiple attacks) and utility preservation (FID) via bounded monotone transforms and harmonic mean aggregation. Experiments on NSFW, artistic style, and object erasure, with a large-scale robustness-utility analysis over many CET baselines, show that PARSE erases multiple concepts robustly without sacrificing post-edit utility.",
-      "url": "https://arxiv.org/abs/2607.23492",
-      "pdf_url": "https://arxiv.org/pdf/2607.23492",
-      "primary_category": "cs.CV",
-      "source_queries": [
-        "Feature latent concept steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 6
     },
     {
       "id": "2607.23175",
@@ -11997,6 +12278,8 @@
       "published": "2026-06-18",
       "updated": "2026-06-18",
       "categories": [
+        "Semantic Scholar",
+        "arXiv.org",
         "cs.AI",
         "cs.CV"
       ],
@@ -12018,8 +12301,19 @@
       "relevance_score": 19,
       "url": "https://arxiv.org/abs/2606.20852",
       "sources": [
-        "arxiv"
-      ]
+        "arxiv",
+        "semantic-scholar"
+      ],
+      "semantic_scholar": {
+        "paper_id": "967f249e08091e13d148e5cd9702504f0f7469f9",
+        "citation_count": 0,
+        "external_ids": {
+          "DBLP": "journals/corr/abs-2606-20852",
+          "ArXiv": "2606.20852",
+          "DOI": "10.48550/arXiv.2606.20852",
+          "CorpusId": 289625604
+        }
+      }
     },
     {
       "id": "2606.19946",
@@ -12066,7 +12360,7 @@
         "Joon Son Chung"
       ],
       "published": "2026-06-17",
-      "updated": "2026-06-17",
+      "updated": "2026-09-04",
       "categories": [
         "cs.SD"
       ],
@@ -29925,6 +30219,37 @@
       "relevance_score": 8
     },
     {
+      "id": "2603.08234",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs",
+      "authors": [
+        "Yonghong Deng",
+        "Zhen Yang",
+        "Ping Jian",
+        "Xinyue Zhang",
+        "Zhongbin Guo",
+        "Chengzhi Li"
+      ],
+      "published": "2026-03-09",
+      "updated": "2026-09-04",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "With the rapid advancement of large language models (LLMs), the safety of LLMs has become a critical concern. Despite significant efforts in safety alignment, current LLMs remain vulnerable to jailbreaking attacks. However, the root causes of such vulnerabilities are still poorly understood, necessitating a rigorous investigation into jailbreak mechanisms across both academic and industrial communities. In this work, we focus on a continuation-triggered jailbreak phenomenon, whereby simply relocating a continuation-triggered instruction suffix can substantially increase jailbreak success rates. To uncover the intrinsic mechanisms of this phenomenon, we conduct a comprehensive mechanistic interpretability analysis at the level of attention heads. Through causal interventions and activation scaling, we show that this jailbreak behavior primarily arises from an inherent competition between the model's intrinsic continuation drive and the safety defenses acquired through alignment training. Furthermore, we perform a detailed behavioral analysis of the identified safety-critical attention heads, revealing notable differences in the functions and behaviors of safety heads across different model architectures. These findings provide a novel mechanistic perspective for understanding and interpreting jailbreak behaviors in LLMs, offering both theoretical insights and practical implications for improving model safety.",
+      "url": "https://arxiv.org/abs/2603.08234",
+      "pdf_url": "https://arxiv.org/pdf/2603.08234",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 13
+    },
+    {
       "id": "2604.00005",
       "source": "arxiv",
       "sources": [
@@ -30045,37 +30370,6 @@
       ],
       "code_urls": [],
       "relevance_score": 6
-    },
-    {
-      "id": "2603.08234",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs",
-      "authors": [
-        "Yonghong Deng",
-        "Zhen Yang",
-        "Ping Jian",
-        "Xinyue Zhang",
-        "Zhongbin Guo",
-        "Chengzhi Li"
-      ],
-      "published": "2026-03-09",
-      "updated": "2026-03-09",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "abstract": "With the rapid advancement of large language models (LLMs), the safety of LLMs has become a critical concern. Despite significant efforts in safety alignment, current LLMs remain vulnerable to jailbreaking attacks. However, the root causes of such vulnerabilities are still poorly understood, necessitating a rigorous investigation into jailbreak mechanisms across both academic and industrial communities. In this work, we focus on a continuation-triggered jailbreak phenomenon, whereby simply relocating a continuation-triggered instruction suffix can substantially increase jailbreak success rates. To uncover the intrinsic mechanisms of this phenomenon, we conduct a comprehensive mechanistic interpretability analysis at the level of attention heads. Through causal interventions and activation scaling, we show that this jailbreak behavior primarily arises from an inherent competition between the model's intrinsic continuation drive and the safety defenses acquired through alignment training. Furthermore, we perform a detailed behavioral analysis of the identified safety-critical attention heads, revealing notable differences in the functions and behaviors of safety heads across different model architectures. These findings provide a novel mechanistic perspective for understanding and interpreting jailbreak behaviors in LLMs, offering both theoretical insights and practical implications for improving model safety.",
-      "url": "https://arxiv.org/abs/2603.08234",
-      "pdf_url": "https://arxiv.org/pdf/2603.08234",
-      "primary_category": "cs.AI",
-      "source_queries": [
-        "Mechanistic interpretability steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 13
     },
     {
       "id": "2603.07529",
@@ -31757,6 +32051,8 @@
       "published": "2026-02-19",
       "updated": "2026-02-23",
       "categories": [
+        "Semantic Scholar",
+        "arXiv.org",
         "cs.AI"
       ],
       "abstract": "Activation steering, or representation engineering, offers a lightweight approach to align large language models (LLMs) by manipulating their internal activations at inference time. However, current methods suffer from two key limitations: (i) the lack of a unified theoretical framework for guiding the design of steering directions, and (ii) an over-reliance on one-step steering that fail to capture complex patterns of activation distributions. In this work, we propose a unified ordinary differential equations (ODEs)-based theoretical framework for activation steering in LLM alignment. We show that conventional activation addition can be interpreted as a first-order approximation to the solution of an ODE. Based on this ODE perspective, identifying a steering direction becomes equivalent to designing a barrier function from control theory. Derived from this framework, we introduce ODESteer, a kind of ODE-based steering guided by barrier functions, which shows empirical advancement in LLM alignment. ODESteer identifies steering directions by defining the barrier function as the log-density ratio between positive and negative activations, and employs it to construct an ODE for multi-step and adaptive steering. Compared to state-of-the-art activation steering methods, ODESteer achieves consistent empirical improvements on diverse LLM alignment benchmarks, a notable $5.7\\%$ improvement over TruthfulQA, $2.5\\%$ over UltraFeedback, and $2.4\\%$ over RealToxicityPrompts. Our work establishes a principled new view of activation steering in LLM alignment by unifying its theoretical foundations via ODEs, and validating it empirically through the proposed ODESteer method.",
@@ -31773,8 +32069,19 @@
       "relevance_score": 20,
       "url": "https://arxiv.org/abs/2602.17560",
       "sources": [
-        "arxiv"
-      ]
+        "arxiv",
+        "semantic-scholar"
+      ],
+      "semantic_scholar": {
+        "paper_id": "66b60c3d964b72341d768924c7a3e31f64702a54",
+        "citation_count": 12,
+        "external_ids": {
+          "DBLP": "journals/corr/abs-2602-17560",
+          "ArXiv": "2602.17560",
+          "DOI": "10.48550/arXiv.2602.17560",
+          "CorpusId": 285787265
+        }
+      }
     },
     {
       "id": "2602.17881",
@@ -34510,6 +34817,8 @@
       "published": "2026-02-02",
       "updated": "2026-02-02",
       "categories": [
+        "Semantic Scholar",
+        "arXiv.org",
         "cs.CL"
       ],
       "abstract": "Activation decomposition methods in language models are tightly coupled to geometric assumptions on how concepts are realized in activation space. Existing approaches search for individual global directions, implicitly assuming linear separability, which overlooks concepts with nonlinear or multi-dimensional structure. In this work, we leverage Mixture of Factor Analyzers (MFA) as a scalable, unsupervised alternative that models the activation space as a collection of Gaussian regions with their local covariance structure. MFA decomposes activations into two compositional geometric objects: the region's centroid in activation space, and the local variation from the centroid. We train large-scale MFAs for Llama-3.1-8B and Gemma-2-2B, and show they capture complex, nonlinear structures in activation space. Moreover, evaluations on localization and steering benchmarks show that MFA outperforms unsupervised baselines, is competitive with supervised localization methods, and often achieves stronger steering performance than sparse autoencoders. Together, our findings position local geometry, expressed through subspaces, as a promising unit of analysis for scalable concept discovery and model control, accounting for complex structures that isolated directions fail to capture.",
@@ -34518,6 +34827,7 @@
       "primary_category": "cs.CL",
       "source_queries": [
         "Activation editing",
+        "Activation steering exact",
         "SAE steering"
       ],
       "code_urls": [],
@@ -34525,8 +34835,19 @@
       "relevance_score": 4,
       "url": "https://arxiv.org/abs/2602.02464",
       "sources": [
-        "arxiv"
-      ]
+        "arxiv",
+        "semantic-scholar"
+      ],
+      "semantic_scholar": {
+        "paper_id": "c14e9e28af1a5916b6ac1712fd2807890de34b05",
+        "citation_count": 7,
+        "external_ids": {
+          "DBLP": "journals/corr/abs-2602-02464",
+          "ArXiv": "2602.02464",
+          "DOI": "10.48550/arXiv.2602.02464",
+          "CorpusId": 285270408
+        }
+      }
     },
     {
       "id": "2602.01982",
@@ -70321,6 +70642,8 @@
       "published": "2024-10-09",
       "updated": "2025-05-12",
       "categories": [
+        "Semantic Scholar",
+        "arXiv.org",
         "cs.LG",
         "cs.NE"
       ],
@@ -70339,8 +70662,19 @@
       "relevance_score": 14,
       "url": "https://arxiv.org/abs/2410.16314",
       "sources": [
-        "arxiv"
-      ]
+        "arxiv",
+        "semantic-scholar"
+      ],
+      "semantic_scholar": {
+        "paper_id": "b4f1ae8de0da281b50b5c80be99ef97e7beb1333",
+        "citation_count": 34,
+        "external_ids": {
+          "DBLP": "journals/corr/abs-2410-16314",
+          "ArXiv": "2410.16314",
+          "DOI": "10.48550/arXiv.2410.16314",
+          "CorpusId": 273507944
+        }
+      }
     },
     {
       "id": "2410.06606",
@@ -75800,6 +76134,7 @@
       "published": "2023-08-20",
       "updated": "2024-10-10",
       "categories": [
+        "Semantic Scholar",
         "cs.CL",
         "cs.LG"
       ],
@@ -75809,6 +76144,7 @@
       "primary_category": "cs.CL",
       "source_queries": [
         "Activation steering",
+        "Activation steering exact",
         "Persona sentiment attribute steering",
         "Steering vectors"
       ],
@@ -75817,8 +76153,17 @@
       "relevance_score": 16,
       "url": "https://arxiv.org/abs/2308.10248",
       "sources": [
-        "arxiv"
-      ]
+        "arxiv",
+        "semantic-scholar"
+      ],
+      "semantic_scholar": {
+        "paper_id": "fe303bbaae47b1b08d0641b41d3288fcd74a3a80",
+        "citation_count": 805,
+        "external_ids": {
+          "ArXiv": "2308.10248",
+          "CorpusId": 261049449
+        }
+      }
     },
     {
       "id": "2308.08742",
