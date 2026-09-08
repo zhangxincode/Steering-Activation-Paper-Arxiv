@@ -4,11 +4,11 @@ A broad, additive collector for activation steering and internal-representation 
 
 ![Papers per month](imgs/monthly-paper-counts.svg)
 
-Last updated: 2026-09-07T07:53:16+00:00
+Last updated: 2026-09-08T07:41:49+00:00
 
-Total papers: **2450**
+Total papers: **2451**
 
-Sources: acl-anthology (500), arxiv (2059), openalex (84), semantic-scholar (6)
+Sources: acl-anthology (500), arxiv (2059), openalex (86), semantic-scholar (6)
 
 ## Papers By Year
 
@@ -19,7 +19,7 @@ Sources: acl-anthology (500), arxiv (2059), openalex (84), semantic-scholar (6)
 | 2026-09-05 | [AI Mechanistic Interpretability and Self-Aware Networks: From Neural Decoding to Causal Self-Regulation](https://doi.org/10.5281/zenodo.22360026) | Micah Blumberg | Artificial intelligence, Computer science, Interpretability, Machine learning |
 | 2026-09-05 | [Probabilistic Programming for Reinforcement Learning with Partial Observability](https://doi.org/10.5281/zenodo.22315579) | Jincheng Zhang | Computer science, Observability, OpenAlex, Probabilistic logic |
 | 2026-09-05 | [ceceli33/titan-cognitive-core: AkbasCore 1.2 — Damped Resonance Alignment](https://doi.org/10.5281/zenodo.21356270) | ceceli33 | Acoustics, Computer science, Control theory (sociology), OpenAlex |
-| 2026-09-05 | [Freedom Steering POC - Activation Steering for Obligation and Resource](https://doi.org/10.17605/osf.io/frsgd) | Gabriele Di Cicco | OpenAlex, Obligation, Resource (disambiguation), Business |
+| 2026-09-05 | [Freedom Steering POC - Activation Steering for Obligation and Resource](https://doi.org/10.17605/osf.io/frsgd) | Gabriele Di Cicco | Business, Obligation, OpenAlex, Resource (disambiguation) |
 | 2026-09-04 | [Attention Conservation in Transformers: Testing for Global Flow Invariants Across Softmax, Residual, and MLP Pathways](https://doi.org/10.5281/zenodo.22307955) | Samir Baladi | Interpretability, Normalization (sociology), OpenAlex, Probabilistic logic |
 | 2026-09-04 | [FROM FIBERS TO FLOWS: RESOLVING THE THERMODYNAMICS OF NEURAL OPTIMIZATION IN RELU NETWORKS](https://doi.org/10.5281/zenodo.22307503) | Daniel Solis | Computer science, Metric (unit), OpenAlex, Representation (politics) |
 | 2026-09-04 | [Can Activation Steering Capture Multidimensional Authorship Style?](https://arxiv.org/abs/2609.04792) / [pdf](https://arxiv.org/pdf/2609.04792) | Hieu Tran, Calvin Bao, Marine Carpuat | cs.AI, cs.CL |
@@ -44,6 +44,7 @@ Sources: acl-anthology (500), arxiv (2059), openalex (84), semantic-scholar (6)
 | 2026-09-02 | [What Is Worth Representing? Representational Empowerment for Continual Model Construction](https://arxiv.org/abs/2609.02322) / [pdf](https://arxiv.org/pdf/2609.02322) | Fei Dai, Hanqi Zhou, Alison Gopnik, Charley Wu | cs.AI, cs.LG |
 | 2026-09-02 | [Entangled Representations Amplify Collateral Damage in Unlearning](https://arxiv.org/abs/2609.02285) / [pdf](https://arxiv.org/pdf/2609.02285) | Evžen Wybitul, Tim G. J. Rudner, Christian Schroeder de Witt | cs.CL, cs.LG |
 | 2026-09-02 | [IDEEA: training-free Input-Dependent stEEring via Activation cluster matching](https://arxiv.org/abs/2609.02089) / [pdf](https://arxiv.org/pdf/2609.02089) | Zheng Wang, Muchen Li, Renjie Liao, Yan Leng | cs.CL, cs.LG |
+| 2026-09-01 | [Multimodal Jailbreak Attack Defense Method with Integrated Steering Vector Detection](https://doaj.org/article/d7198bbfdb104d8c8c588fe9c3a3ef38) | YAO Jiawang, DING Jianwei, PENG Ziming, TIAN Huawei | OpenAlex, Computer science, Construct (python library), Adversarial system |
 | 2026-09-01 | [NullSCE: Sequential concept erasure in generative video diffusion models via null-space guidance](https://doi.org/10.1016/j.neucom.2026.134994) | Qingxiong Yi, Boyang Li, Bowen Li, Cunkang Wu, et al. | Computer science, Erasure, Generative grammar, OpenAlex |
 | 2026-09-01 | [GAPS: Dimension-Level Gates for Conditional Activation Steering](https://arxiv.org/abs/2609.01878) / [pdf](https://arxiv.org/pdf/2609.01878) | Moghis Fereidouni, Muhammad Umair Haider, Hassan Sajjad, A. B. Siddique | Computer science, Control theory (sociology), OpenAlex, Overhead (engineering) |
 | 2026-09-01 | [Hearing the Whispers: Black-Box Membership Inference Attacks on Finetuned TTS Models](https://arxiv.org/abs/2609.01723) / [pdf](https://arxiv.org/pdf/2609.01723) | Kunlin Cai, Kaiyuan Zhang, Zihang Xiang, Jinghuai Zhang, et al. | Computer science, Inference, OpenAlex, Pipeline (software) |
@@ -1952,10 +1953,10 @@ Sources: acl-anthology (500), arxiv (2059), openalex (84), semantic-scholar (6)
 | 2025-02-19 | [Erasing with Precision: Evaluating Specific Concept Erasure from Text-to-Image Generative Models](https://arxiv.org/abs/2502.13989) / [pdf](https://arxiv.org/pdf/2502.13989) | Masane Fuchi, Tomohiro Takagi | cs.AI, cs.CL, cs.CV, cs.LG |
 | 2025-02-18 | [Comprehensive Assessment and Analysis for NSFW Content Erasure in Text-to-Image Diffusion Models](https://arxiv.org/abs/2502.12527) / [pdf](https://arxiv.org/pdf/2502.12527) | Die Chen, Zhiwen Li, Cen Chen, Yuexiang Xie, et al. | cs.CV |
 | 2025-02-18 | [Multi-Attribute Steering of Language Models via Targeted Intervention](https://arxiv.org/abs/2502.12446) / [pdf](https://arxiv.org/pdf/2502.12446) | Duy Nguyen, Archiki Prasad, Elias Stengel-Eskin, Mohit Bansal | ACL Anthology, cs.AI, cs.CL, cs.LG |
+| 2025-02-17 | [SAIF: A Sparse Autoencoder Framework for Interpreting and Steering Instruction Following of Language Models](https://arxiv.org/abs/2502.11356) / [pdf](https://arxiv.org/pdf/2502.11356) | Zirui He, Haiyan Zhao, Yiran Qiao, Fan Yang, et al. | Artificial intelligence, Autoencoder, Computer science, Natural language processing |
 | 2025-02-17 | [Sparse Autoencoder Features for Classifications and Transferability](https://arxiv.org/abs/2502.11367) / [pdf](https://arxiv.org/pdf/2502.11367) | Jack Gallifant, Shan Chen, Kuleen Sasse, Hugo Aerts, et al. | ACL Anthology, cs.AI, cs.CL, cs.LG |
 | 2025-02-17 | [A Comprehensive Survey on Concept Erasure in Text-to-Image Diffusion Models](https://arxiv.org/abs/2502.14896) / [pdf](https://arxiv.org/pdf/2502.14896) | Changhoon Kim, Yanjun Qi | cs.AI, cs.CV |
 | 2025-02-17 | [Designing Role Vectors to Improve LLM Inference Behaviour](https://arxiv.org/abs/2502.12055) / [pdf](https://arxiv.org/pdf/2502.12055) | Daniele Potertì, Andrea Seveso, Fabio Mercorio | cs.CL |
-| 2025-02-17 | [SAIF: A Sparse Autoencoder Framework for Interpreting and Steering Instruction Following of Language Models](https://arxiv.org/abs/2502.11356) / [pdf](https://arxiv.org/pdf/2502.11356) | Zirui He, Haiyan Zhao, Yiran Qiao, Fan Yang, et al. | cs.AI, cs.CL, cs.LG |
 | 2025-02-16 | [Mixture of Tunable Experts -- Behavior Modification of DeepSeek-R1 at Inference Time](https://arxiv.org/abs/2502.11096) / [pdf](https://arxiv.org/pdf/2502.11096) | Robert Dahlke, Henrik Klagges, Dan Zecha, Benjamin Merkel, et al. | cs.AI, cs.CL |
 | 2025-02-14 | [Precise Parameter Localization for Textual Generation in Diffusion Models](https://arxiv.org/abs/2502.09935) / [pdf](https://arxiv.org/pdf/2502.09935) | Łukasz Staniszewski, Bartosz Cywiński, Franziska Boenisch, Kamil Deja, et al. | cs.CV |
 | 2025-02-14 | [Sparse Shift Autoencoders for Identifying Concepts from Large Language Model Activations](https://arxiv.org/abs/2502.12179) / [pdf](https://arxiv.org/pdf/2502.12179) | Shruti Joshi, Andrea Dittadi, Sébastien Lachapelle, Dhanya Sridhar | cs.AI, cs.CL, cs.LG |

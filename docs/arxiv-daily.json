@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T07:53:16+00:00",
+  "generated_at": "2026-09-08T07:41:49+00:00",
   "papers": [
     {
       "id": "doi:10.5281/zenodo.22360026",
@@ -118,10 +118,10 @@
       "published": "2026-09-05",
       "updated": "2026-09-06",
       "categories": [
-        "OpenAlex",
-        "Obligation",
-        "Resource (disambiguation)",
         "Business",
+        "Obligation",
+        "OpenAlex",
+        "Resource (disambiguation)",
         "Risk analysis (engineering)"
       ],
       "abstract": "Testing Freedom Available vs Committed with CAA on Qwen2.5 0.5B to 1.5B. Preregistration for trial 005. Trials 001-004 obligation L11 -0.478 p0.008 resource redesign 24 abundant-scarce.",
@@ -951,6 +951,40 @@
       "sources": [
         "arxiv"
       ]
+    },
+    {
+      "id": "doi:10.3778/j.issn.1673-9418.2509004",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Multimodal Jailbreak Attack Defense Method with Integrated Steering Vector Detection",
+      "authors": [
+        "YAO Jiawang, DING Jianwei, PENG Ziming, TIAN Huawei"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-07",
+      "categories": [
+        "OpenAlex",
+        "Computer science",
+        "Construct (python library)",
+        "Adversarial system",
+        "Focus (optics)"
+      ],
+      "abstract": "With the widespread adoption of large vision-language models in multimodal tasks, their security faces severe challenges. Among them, jailbreak attacks bypass safety mechanisms through adversarial samples and carefully crafted prompts, inducing models to generate harmful content. Existing defense approaches mainly focus on enhancing the safety of model outputs or improving the accuracy of harmful sample detection. However, the former often reduces discriminability and increases computational costs, while the latter usually lacks post-alignment mechanisms and cannot effectively intervene in model outputs. To address these issues, this paper proposes a novel multimodal defense method based on steering vector detection and dual-alignment mechanism. Specifically, the method employs pre-generated steering vectors to detect harmful outputs, thereby improving both detection accuracy and efficiency. A subsequent alignment mechanism is applied to filter the outputs, ensuring response safety. To construct training data, this paper generates adversarial images corres-ponding to harmful queries and responses, paired with the same harmful queries and original images to form a new dataset. The data are fed into the model to extract hidden states under both harmful and benign inputs. By computing the average differences between positive and negative samples, this paper obtains steering vectors and thresholds for jailbreak detection. During inference, model hidden states are projected onto the steering vectors, and inputs are classified as harmful or benign based on the threshold. If deemed harmful, the defense mechanism is triggered, where an external model generates candidate outputs that are scored and filtered to produce safe and useful responses. Experimental results demonstrate that the proposed method achieves higher detection accuracy and robustness against harmful samples across multiple datasets, while significantly improving output safety. Meanwhile, sample detection is conducted without the involvement of external models, effectively reducing computational costs.",
+      "url": "https://doaj.org/article/d7198bbfdb104d8c8c588fe9c3a3ef38",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7210282980",
+        "doi": "10.3778/j.issn.1673-9418.2509004",
+        "cited_by_count": 0
+      },
+      "relevance_score": 15
     },
     {
       "id": "doi:10.1016/j.neucom.2026.134994",
@@ -61828,6 +61862,52 @@
       ]
     },
     {
+      "id": "2502.11356",
+      "title": "SAIF: A Sparse Autoencoder Framework for Interpreting and Steering Instruction Following of Language Models",
+      "authors": [
+        "Zirui He",
+        "Haiyan Zhao",
+        "Yiran Qiao",
+        "Fan Yang",
+        "Ali Payani",
+        "Jing Ma",
+        "Mengnan Du"
+      ],
+      "published": "2025-02-17",
+      "updated": "2026-09-07",
+      "categories": [
+        "Artificial intelligence",
+        "Autoencoder",
+        "Computer science",
+        "Natural language processing",
+        "OpenAlex",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "The ability of large language models (LLMs) to follow instructions is crucial for their practical applications, yet the underlying mechanisms remain poorly understood. This paper presents a novel framework that leverages sparse autoencoders (SAE) to interpret how instruction following works in these models. We demonstrate how the features we identify can effectively steer model outputs to align with given instructions. Through analysis of SAE latent activations, we identify specific latents responsible for instruction following behavior. Our findings reveal that instruction following capabilities are encoded by a distinct set of instruction-relevant SAE latents. These latents both show semantic proximity to relevant instructions and demonstrate causal effects on model behavior. Our research highlights several crucial factors for achieving effective steering performance: precise feature identification, the role of final layer, and optimal instruction positioning. Additionally, we demonstrate that our methodology scales effectively across SAEs and LLMs of varying sizes.",
+      "arxiv_url": "https://arxiv.org/abs/2502.11356",
+      "pdf_url": "https://arxiv.org/pdf/2502.11356",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation editing",
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "source": "arxiv",
+      "relevance_score": 4,
+      "url": "https://arxiv.org/abs/2502.11356",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "openalex": {
+        "id": "https://openalex.org/W4407699659",
+        "doi": "10.1007/978-3-032-37676-3_11",
+        "cited_by_count": 0
+      }
+    },
+    {
       "id": "2502.11367",
       "title": "Sparse Autoencoder Features for Classifications and Transferability",
       "authors": [
@@ -61918,40 +61998,6 @@
       "source": "arxiv",
       "relevance_score": 11,
       "url": "https://arxiv.org/abs/2502.12055",
-      "sources": [
-        "arxiv"
-      ]
-    },
-    {
-      "id": "2502.11356",
-      "title": "SAIF: A Sparse Autoencoder Framework for Interpreting and Steering Instruction Following of Language Models",
-      "authors": [
-        "Zirui He",
-        "Haiyan Zhao",
-        "Yiran Qiao",
-        "Fan Yang",
-        "Ali Payani",
-        "Jing Ma",
-        "Mengnan Du"
-      ],
-      "published": "2025-02-17",
-      "updated": "2025-02-17",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "abstract": "The ability of large language models (LLMs) to follow instructions is crucial for their practical applications, yet the underlying mechanisms remain poorly understood. This paper presents a novel framework that leverages sparse autoencoders (SAE) to interpret how instruction following works in these models. We demonstrate how the features we identify can effectively steer model outputs to align with given instructions. Through analysis of SAE latent activations, we identify specific latents responsible for instruction following behavior. Our findings reveal that instruction following capabilities are encoded by a distinct set of instruction-relevant SAE latents. These latents both show semantic proximity to relevant instructions and demonstrate causal effects on model behavior. Our research highlights several crucial factors for achieving effective steering performance: precise feature identification, the role of final layer, and optimal instruction positioning. Additionally, we demonstrate that our methodology scales effectively across SAEs and LLMs of varying sizes.",
-      "arxiv_url": "https://arxiv.org/abs/2502.11356",
-      "pdf_url": "https://arxiv.org/pdf/2502.11356",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Activation editing"
-      ],
-      "code_urls": [],
-      "source": "arxiv",
-      "relevance_score": 0,
-      "url": "https://arxiv.org/abs/2502.11356",
       "sources": [
         "arxiv"
       ]
