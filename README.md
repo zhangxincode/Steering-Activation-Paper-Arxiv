@@ -4,11 +4,11 @@ A broad, additive collector for activation steering and internal-representation 
 
 ![Papers per month](imgs/monthly-paper-counts.svg)
 
-Last updated: 2026-09-09T07:50:50+00:00
+Last updated: 2026-09-10T07:49:42+00:00
 
-Total papers: **2479**
+Total papers: **2483**
 
-Sources: acl-anthology (500), arxiv (2081), openalex (93), semantic-scholar (6)
+Sources: acl-anthology (500), arxiv (2085), openalex (94), semantic-scholar (6)
 
 ## Papers By Year
 
@@ -16,14 +16,17 @@ Sources: acl-anthology (500), arxiv (2081), openalex (93), semantic-scholar (6)
 
 | Date | Paper | Authors | Categories |
 | --- | --- | --- | --- |
+| 2026-09-09 | [If It's Not Buggy, Don't Fix It: On the Dynamics of Iterative Bug-fixing with LLMs](https://arxiv.org/abs/2609.10123) / [pdf](https://arxiv.org/pdf/2609.10123) | Xietao Wang-Lin, Anton Isopoussu, Louis Mahon | cs.SE, cs.CL |
+| 2026-09-09 | [Contrastive Projection: Reading Transformer Internals by Differencing Logit Lenses](https://arxiv.org/abs/2609.09902) / [pdf](https://arxiv.org/pdf/2609.09902) | Olli Tuomi | Computer science, OpenAlex, Parametric statistics, Residual |
+| 2026-09-09 | [Subgroup Membership Inference Audits of Differentially Private Synthetic Text](https://arxiv.org/abs/2609.09848) / [pdf](https://arxiv.org/pdf/2609.09848) | Yidan Sun, Viktor Schlegel, Srinivasan Nandakumar, Siew Kei Lam, et al. | cs.CR, cs.AI |
 | 2026-09-08 | [Training-Free Task Vectors for LLM Behavioral Control](https://arxiv.org/abs/2609.09054) / [pdf](https://arxiv.org/pdf/2609.09054) | Gabriel J. Perin, Lucas Boscaini, André Araujo, Nina S. T. Hirata | cs.AI, cs.LG |
 | 2026-09-08 | [Compositional Multilingual and Behavioral Attribute Steering](https://arxiv.org/abs/2609.08410) / [pdf](https://arxiv.org/pdf/2609.08410) | Hyun Gu Kang, Daniil Gurgurov, Tanja Baeumel, Josef van Genabith, et al. | cs.CL |
-| 2026-09-08 | [Tracing Stereotypes from Representation to Output in Multilingual LLMs](https://arxiv.org/abs/2609.08322) / [pdf](https://arxiv.org/pdf/2609.08322) | Ariun-Erdene Tumurchuluun, Yusser Al Ghussin, Pinzhen Chen, Josef van Genabith, et al. | cs.CL, cs.AI |
+| 2026-09-08 | [Tracing Stereotypes from Representation to Output in Multilingual LLMs](https://arxiv.org/abs/2609.08322) / [pdf](https://arxiv.org/pdf/2609.08322) | Ariun-Erdene Tumurchuluun, Yusser Al Ghussin, Pinzhen Chen, Josef van Genabith, et al. | cs.AI, cs.CL |
 | 2026-09-08 | [Revisiting Spectral Representations in Generative Diffusion Models](https://arxiv.org/abs/2609.08253) / [pdf](https://arxiv.org/pdf/2609.08253) | Yuehao Wang, Peihao Wang, Hanwen Jiang, Ziyi Yang, et al. | cs.LG |
 | 2026-09-08 | [Key Path Identification for Resolving Knowledge Conflicts via SAE-based Steering](https://arxiv.org/abs/2609.08173) / [pdf](https://arxiv.org/pdf/2609.08173) | Wenbo Zhang, Zhongxiang Sun, Zhiguang Han, Jun Xu | cs.AI |
 | 2026-09-08 | [Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation](https://arxiv.org/abs/2609.08084) / [pdf](https://arxiv.org/pdf/2609.08084) | Igor Pavlovic, Thiemo Wandel, Anton Obukhov, Luca Bartolomei, et al. | cs.CV, cs.LG |
+| 2026-09-07 | [Causal evidence that language models use confidence to drive behaviour](https://doi.org/10.1038/s42256-026-01293-x) / [pdf](https://www.nature.com/articles/s42256-026-01293-x.pdf) | Dharshan Kumaran, Nathaniel D. Daw, Simon Osindero, Petar Veličković, et al. | Boosting (machine learning), Computer science, Confidence interval, Metacognition |
 | 2026-09-07 | [Empirical Validation of Affinity-Aware Steering: Mitigating Degenerative Mode Collapse in Transformer Latent Manifolds via Calibrated Grassmannian Overlap](https://doi.org/10.5281/zenodo.22646650) | César Castro | Grassmannian, Mathematics, OpenAlex, Residual |
-| 2026-09-07 | [Causal evidence that language models use confidence to drive behaviour](https://doi.org/10.1038/s42256-026-01293-x) | Dharshan Kumaran, Nathaniel D. Daw, Simon Osindero, Petar Veličković, et al. | OpenAlex, Confidence interval, Metacognition, Computer science |
 | 2026-09-07 | [MARS: LLM Toxicity Mitigation via Multi-dimensional Adaptive Representation Steering](https://doi.org/10.1007/978-3-032-37274-1_6) | Hongfeng Zhou, Chunhe Xia, Chen Chen, Changnan Jiang, et al. | Computer science, OpenAlex, Perplexity, Representation (politics) |
 | 2026-09-07 | [LLM Layers Immediately Correct Each Other](https://arxiv.org/abs/2609.07876) / [pdf](https://arxiv.org/pdf/2609.07876) | Arjun Patrawala, Jiahai Feng, Erik Jones, Jacob Steinhardt | cs.CL, cs.LG |
 | 2026-09-07 | [LLM Forensics: Where Do Backdoors Hide? Localizing and Controlling Trigger Mechanisms with Sparse Autoencoders](https://arxiv.org/abs/2609.07746) / [pdf](https://arxiv.org/pdf/2609.07746) | Wissam Antoun, Francis Kulumba, Théo Lasnier, Benoît Sagot, et al. | cs.CL |
@@ -43,10 +46,10 @@ Sources: acl-anthology (500), arxiv (2081), openalex (93), semantic-scholar (6)
 | 2026-09-05 | [What Does Animal Re-Identification Learn? Linear Biological Concepts and Their Origins in Visual Representations](https://arxiv.org/abs/2609.06020) / [pdf](https://arxiv.org/pdf/2609.06020) | Robert Nolting, Alexandra Schild, Moritz Weckbecker, Maximilian Schall, et al. | cs.AI, cs.CV |
 | 2026-09-05 | [ModularPhaseNet: Finite-Cyclic Phase Geometry for Computable Semantic Hierarchy, Direction, and Context Consistency in Standard Transformers](https://arxiv.org/abs/2609.06000) / [pdf](https://arxiv.org/pdf/2609.06000) | Kiyotaka Kasubuchi, Kazuo Fukiya | cs.CL, cs.LG |
 | 2026-09-05 | [Spillover-Aware Multi-Value Steering for Pluralistic LLM Alignment](https://arxiv.org/abs/2609.05800) / [pdf](https://arxiv.org/pdf/2609.05800) | Weici Pan, Xander Barron, Jiawei Zhou, Zhenhua Liu | cs.AI |
-| 2026-09-05 | [Bait-and-Recover: Poisoning Internal Refusal Signals to Defend LLMs against White-Box Editing Jailbreaks](https://arxiv.org/abs/2609.05794) / [pdf](https://arxiv.org/pdf/2609.05794) | Tian Gao, Zhipeng Xie, Yuhao Wu, Junhua Liu, et al. | cs.CR, cs.AI, cs.CL |
-| 2026-09-04 | [Near-Field Physical-Layer Authentication Under Impersonation Attacks](https://doi.org/10.48550/arxiv.2609.04879) | Hajar El Hassani, Linda Senigagliesi, Arsenia Chorti | OpenAlex, Computer science, Alice and Bob, Precoding |
-| 2026-09-04 | [Associations Between Pubertal Timing and Activation Control, Attention, and Inhibitory Control in Female Youth](https://doi.org/10.17605/osf.io/mg3ra) | Ellie Nelson, A. Hoffer, Cheri A. Levinson, Sara J. Bufferd | OpenAlex, Psychology, Developmental psychology, Cognition |
+| 2026-09-05 | [Bait-and-Recover: Poisoning Internal Refusal Signals to Defend LLMs against White-Box Editing Jailbreaks](https://arxiv.org/abs/2609.05794) / [pdf](https://arxiv.org/pdf/2609.05794) | Tian Gao, Zhipeng Xie, Yuhao Wu, Junhua Liu, et al. | cs.AI, cs.CL, cs.CR |
+| 2026-09-04 | [Near-Field Physical-Layer Authentication Under Impersonation Attacks](https://doi.org/10.48550/arxiv.2609.04879) / [pdf](https://arxiv.org/pdf/2609.04879) | Hajar El Hassani, Linda Senigagliesi, Arsenia Chorti | Alice and Bob, Computer science, Computer security, OpenAlex |
 | 2026-09-04 | [Can Activation Steering Capture Multidimensional Authorship Style?](https://arxiv.org/abs/2609.04792) / [pdf](https://arxiv.org/pdf/2609.04792) | Hieu Tran, Calvin Bao, Marine Carpuat | Ask price, Computer science, Construct (python library), OpenAlex |
+| 2026-09-04 | [Associations Between Pubertal Timing and Activation Control, Attention, and Inhibitory Control in Female Youth](https://doi.org/10.17605/osf.io/mg3ra) | Ellie Nelson, A. Hoffer, Cheri A. Levinson, Sara J. Bufferd | Cognition, Developmental psychology, Inhibitory control, OpenAlex |
 | 2026-09-04 | [Attention Conservation in Transformers: Testing for Global Flow Invariants Across Softmax, Residual, and MLP Pathways](https://doi.org/10.5281/zenodo.22307955) | Samir Baladi | Interpretability, Normalization (sociology), OpenAlex, Probabilistic logic |
 | 2026-09-04 | [FROM FIBERS TO FLOWS: RESOLVING THE THERMODYNAMICS OF NEURAL OPTIMIZATION IN RELU NETWORKS](https://doi.org/10.5281/zenodo.22307503) | Daniel Solis | Computer science, Metric (unit), OpenAlex, Representation (politics) |
 | 2026-09-04 | [Latent-Aligned Reasoning for Multimodal Recommendation](https://arxiv.org/abs/2609.04645) / [pdf](https://arxiv.org/pdf/2609.04645) | Jiarui Jin, Anyang Ji | cs.CL, cs.CV, cs.IR, cs.LG |
@@ -106,6 +109,7 @@ Sources: acl-anthology (500), arxiv (2081), openalex (93), semantic-scholar (6)
 | 2026-08-29 | [Reference-Grafting Matches Fine-Tuning at Eliciting Sandbagged Capabilities](https://arxiv.org/abs/2608.29458) / [pdf](https://arxiv.org/pdf/2608.29458) | Linh Le, Hong Kiat Tan, David Williams-King | Code (set theory), Computer science, Matching (statistics), OpenAlex |
 | 2026-08-29 | [Selective Disclosure of Hidden Directives in Reasoning Models: Behavioral Asymmetry and Steering](https://arxiv.org/abs/2608.29070) / [pdf](https://arxiv.org/pdf/2608.29070) | Zimo Shi, Xander Tifft, Wen Xing | Artificial intelligence, Computer science, Directive, OpenAlex |
 | 2026-08-29 | [A Unifying Perspective on Language Model Representations: From Filler-Role Structure to Mechanistic Interpretability](https://arxiv.org/abs/2608.29034) / [pdf](https://arxiv.org/pdf/2608.29034) | Zhang Enyan, R. Thomas McCoy | Computer science, Construct (python library), Interpretability, OpenAlex |
+| 2026-08-29 | [Evidence-Order Calibration for Selective Visual Reasoning under Progressive Loss of Question-Critical Evidence](https://arxiv.org/abs/2609.09184) / [pdf](https://arxiv.org/pdf/2609.09184) | Muhamathu Ameer Ali Aacaas Muhamath | cs.CV |
 | 2026-08-28 | [AIM: Anchor Identity Features, Then Match for Multimodal Large Language Model Unlearning](https://arxiv.org/abs/2608.28312) / [pdf](https://arxiv.org/pdf/2608.28312) | Wonjun Lee, Jaehyuk Jang, Kangwook Ko, Hee-Seon Kim, et al. | Computer science, Identity (music), Memorization, OpenAlex |
 | 2026-08-28 | [REINS: Refusal-Enhanced Inhibitory Steering with Sparse Autoencoder Features](https://arxiv.org/abs/2608.28233) / [pdf](https://arxiv.org/pdf/2608.28233) | Kai-Xuan Ding, Hao-Xiang Xu, Ji-Hua Peng, Zi-Qi Chen, et al. | Autoencoder, Computer science, Construct (python library), Continuation |
 | 2026-08-28 | [PersonaEdit: Representative Sample Selection for Personalized Model Editing](https://arxiv.org/abs/2608.27816) / [pdf](https://arxiv.org/pdf/2608.27816) | You-Mei Huang, Chung-Chi Chen, An-Zi Yen | Computer science, OpenAlex, Personalization, Scalability |
@@ -566,8 +570,8 @@ Sources: acl-anthology (500), arxiv (2081), openalex (93), semantic-scholar (6)
 | 2026-05-28 | [Xetrieval: Mechanistically Explaining Dense Retrieval](https://arxiv.org/abs/2605.29507) / [pdf](https://arxiv.org/pdf/2605.29507) | Zhixin Cai, Jun Bai, Yang Liu, Jiaqi Li, et al. | cs.AI, cs.IR |
 | 2026-05-28 | [Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://arxiv.org/abs/2605.29358) / [pdf](https://arxiv.org/pdf/2605.29358) | Adly Templeton, Tom Conerly, Jonathan Marcus, Jack Lindsey, et al. | cs.AI |
 | 2026-05-28 | [DenseSteer: Steering Small Language Models towards Dense Math Reasoning](https://arxiv.org/abs/2605.29247) / [pdf](https://arxiv.org/pdf/2605.29247) | Yang Ouyang, Shuhang Lin, Jung-Eun Kim | cs.AI, cs.CL, cs.LG |
-| 2026-05-27 | [Sign-Aware Gated Sparse Autoencoders: Modeling Anticorrelated Features with Bi-Jump-ReLU Activations](https://arxiv.org/abs/2605.28149) / [pdf](https://arxiv.org/pdf/2605.28149) | Bartosz Wieciech, Zmnako Awrahman, Marcin Czelej, Victor Hugo Jaramillo Velasquez, et al. | cs.LG |
 | 2026-05-27 | [Cultural Binding Heads in Language Models](https://arxiv.org/abs/2605.28543) / [pdf](https://arxiv.org/pdf/2605.28543) | Avrile Floro, Luca Benedetto | cs.AI, cs.CL, cs.LG |
+| 2026-05-27 | [Sign-Aware Gated Sparse Autoencoders: Modeling Anticorrelated Features with Bi-Jump-ReLU Activations](https://arxiv.org/abs/2605.28149) / [pdf](https://arxiv.org/pdf/2605.28149) | Bartosz Wieciech, Zmnako Awrahman, Marcin Czelej, Victor Hugo Jaramillo Velasquez, et al. | cs.LG |
 | 2026-05-27 | [On Compositional Learning Behaviours in Formal Mathematics](https://arxiv.org/abs/2605.28512) / [pdf](https://arxiv.org/pdf/2605.28512) | Kevin Yandoka Denamganaï | cs.CL |
 | 2026-05-27 | [Orthogonal Concept Erasure for Diffusion Models](https://arxiv.org/abs/2605.28902) / [pdf](https://arxiv.org/pdf/2605.28902) | Yuhao Sun, Lingyun Yu, Haoxiang Xu, Fengyuan Miao, et al. | cs.AI |
 | 2026-05-27 | [Activation Steering for Synthetic Data Generation: The Role of Diversity in Downstream Safety Detection](https://arxiv.org/abs/2605.28664) / [pdf](https://arxiv.org/pdf/2605.28664) | Vijeta Deshpande, Tootiya Giyahchi, Veena Padmanabhan, Leman Akoglu, et al. | cs.CL, cs.LG |

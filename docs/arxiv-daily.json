@@ -1,6 +1,102 @@
 {
-  "generated_at": "2026-09-09T07:50:50+00:00",
+  "generated_at": "2026-09-10T07:49:42+00:00",
   "papers": [
+    {
+      "id": "2609.10123",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "If It's Not Buggy, Don't Fix It: On the Dynamics of Iterative Bug-fixing with LLMs",
+      "authors": [
+        "Xietao Wang-Lin",
+        "Anton Isopoussu",
+        "Louis Mahon"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-09",
+      "categories": [
+        "cs.SE",
+        "cs.CL"
+      ],
+      "abstract": "Large language models (LLMs) have become ubiquitous in software development, with LLM-based automated program repair tools increasingly used during code review. In this report, we explore the iterative blind use of LLMs as bug-fixers. Across multiple models and repair environments, we find that LLMs consistently claim to detect bugs in entirely bug-free programs while the rate of repair of buggy programs is less than that of the damage to correct programs. We also explore the long-term dynamics of this iterative process, and find that this frequently reaches a pseudo-bug-fixing cycle where the same changes are added and removed again ad infinitum. Lastly, via mechanistic probing, we unveil the existence of a steering vector which controls the editing propensity, suggesting that LLMs have an internal representation of ``buggy code\", and that this representation is what is falsely activated to induce pseudo-bug fixing. These results provide insight towards the dynamics of fully autonomous bug-fixing systems, as well as stopping conditions under ambiguous goals.",
+      "url": "https://arxiv.org/abs/2609.10123",
+      "pdf_url": "https://arxiv.org/pdf/2609.10123",
+      "primary_category": "cs.SE",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 12
+    },
+    {
+      "id": "2609.09902",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Contrastive Projection: Reading Transformer Internals by Differencing Logit Lenses",
+      "authors": [
+        "Olli Tuomi"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-09",
+      "categories": [
+        "Computer science",
+        "OpenAlex",
+        "Parametric statistics",
+        "Residual",
+        "Security token",
+        "cs.CL"
+      ],
+      "abstract": "Reading a transformer's internal states in token space is easy to do and hard to trust: a logit lens on a single hidden state is dominated, at intermediate layers, by the generic tokens the model would predict for almost any input. We read the difference instead. Subtracting two closely matched prompts' hidden states and projecting through the unembedding cancels the shared component and surfaces what separates them, an operation equivalent to reading a RepE/ActAdd steering vector through a logit lens. Built into a training-free tracer that reads at every position, sub-layer, and head and averages over designed baselines, it traces a compound- noun MLP->attention chain in Phi-2, confirmed there by activation patching, with the same distinction recovered across three architectures by readout and probe rather than by patching; it reads what retrieval surfaces for real versus fictional entities, and reads metaphor as a set of domain-to-domain mappings rather than a single figurativity feature. A cross-seed control marks the boundary: across five networks differing only in initialization, the same distinction surfaces as almost entirely different tokens (top-10 overlap 0.08). What a computation looks like in token space is network-specific; the distinction it draws is not",
+      "url": "https://arxiv.org/abs/2609.09902",
+      "pdf_url": "https://arxiv.org/pdf/2609.09902",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Hidden-state intervention",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 12,
+      "openalex": {
+        "id": "https://openalex.org/W7165896468",
+        "doi": "10.5281/zenodo.20843136",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.09848",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Subgroup Membership Inference Audits of Differentially Private Synthetic Text",
+      "authors": [
+        "Yidan Sun",
+        "Viktor Schlegel",
+        "Srinivasan Nandakumar",
+        "Siew Kei Lam",
+        "Anil Anthony Bharath"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-09",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Synthetic data releases are increasingly proposed in the literature as a means of sharing realistic data replicas in lieu of sensitive private datasets. Even when the worst-case privacy leakage of such releases is bounded by means of differential privacy (DP), in practice a residual risk remains. Membership inference attack (MIA) audits are conducted to empirically quantify this risk. However, existing methods only measure average-case risk for randomly drawn records, which might conceal the risk to vulnerable subgroups. To highlight this issue, we define a subgroup-targeted membership inference game in which the target pool is an explicit parameter, and instantiate it with an audit of 32 proxies under three scenarios with different levels of attacker knowledge, across four datasets, three generators (DP-SGD fine-tuning, API-based prompting, and activation steering), and five privacy budgets. The audit shows that synthetic releases leak subgroup membership and that prior attacks systematically underestimate this leakage. DP is effective at the aggregate level: it substantially reduces average leakage at every budget we test. Three observations temper this picture. First, the remaining leakage is concentrated rather than spread out: under DP, a tenth of the records carries roughly 40% of it. Second, the protection DP delivers in practice is uneven: within its worst-case guarantee, the noise removes more of the measured leakage from random records than from high-risk ones---and a merged-pool audit that scores both record types against shared negatives confirms this at the record level. Third, \\emph{which} records leak proves to be a property of the release mechanism rather than of the record alone, so record-level risk cannot be assessed independently of the release.",
+      "url": "https://arxiv.org/abs/2609.09848",
+      "pdf_url": "https://arxiv.org/pdf/2609.09848",
+      "primary_category": "cs.CR",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "relevance_score": 4
+    },
     {
       "id": "2609.09054",
       "source": "arxiv",
@@ -80,8 +176,8 @@
       "published": "2026-09-08",
       "updated": "2026-09-08",
       "categories": [
-        "cs.CL",
-        "cs.AI"
+        "cs.AI",
+        "cs.CL"
       ],
       "abstract": "Multilingual LLMs show stereotype-related behavior that varies across languages, but behavioral scores do not show where the relevant information is represented or how it affects the output. To investigate these internal mechanisms, we compare linear probing, attribution patching, sparse autoencoders (SAEs) and feature ablation in Llama-3.1-8B, Qwen3-8B, and Gemma-2-9B. Probe performance peaks substantially earlier than attribution in all three models, with a separation of 36-53% of model depth. Retained Llama-Scope features often match the social category on which they were selected and form recurring semantic families, but their lexical alignment and ablation effects vary across SAE suites. Only 6-18% of evaluated residual-stream features have language-agnostic effects under our criterion, and none are category-agnostic. Language-agnostic features have larger mean ablation effects in Llama-Scope, but this pattern does not repeat in the other SAE suites. Decodability, output influence, and cross-lingual ablation effects therefore need to be measured separately.",
       "url": "https://arxiv.org/abs/2609.08322",
@@ -188,6 +284,48 @@
       "relevance_score": 6
     },
     {
+      "id": "doi:10.1038/s42256-026-01293-x",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Causal evidence that language models use confidence to drive behaviour",
+      "authors": [
+        "Dharshan Kumaran",
+        "Nathaniel D. Daw",
+        "Simon Osindero",
+        "Petar Veličković",
+        "Viorica Pătrăucean"
+      ],
+      "published": "2026-09-07",
+      "updated": "2026-09-09",
+      "categories": [
+        "Boosting (machine learning)",
+        "Computer science",
+        "Confidence interval",
+        "Metacognition",
+        "OpenAlex"
+      ],
+      "abstract": "Metacognition—assessing the quality of one’s own cognitive performance—guides adaptive behaviour across species. Confidence signals can be extracted from language model outputs, yet a fundamental question remains: do models actually use these signals to decide whether to answer or abstain? Here we developed a four-phase paradigm. Phase 1 elicited baseline confidence without an abstention option. Phase 2 showed that large language models apply an implicit threshold to internal confidence when abstaining, with confidence effect sizes roughly an order of magnitude larger than alternative mechanisms. Phase 3 provided causal evidence via activation steering: boosting or suppressing confidence correspondingly decreased or increased abstention, with mediation analysis confirming confidence redistribution as the primary mechanism. Phase 4 instructed models to abstain at different confidence levels and showed they adjusted their behaviour accordingly, indicating they read out and act on confidence to set abstention policies. Critically, verbal confidence—an explicit self-evaluation from a separate forward pass—independently predicted abstention across all models despite being less discriminatory of correctness, and activation decoding showed both measures (that is, token log probabilities and verbal confidence) are lossy read-outs of a richer internal representation. Together, these results suggest that abstention is captured by the joint operation of a multidimensional internal confidence representation and threshold-based policies—consistent with structured metacognitive control in large language models—a capacity of growing importance as models transition to autonomous agents that must recognize their own uncertainty. Kumaran et al. show that large language models making decisions on when to answer a question or abstain from answering can be influenced by boosting or suppressing confidence signals in the model.",
+      "url": "https://doi.org/10.1038/s42256-026-01293-x",
+      "pdf_url": "https://www.nature.com/articles/s42256-026-01293-x.pdf",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Safety refusal behavior steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7211901703",
+        "doi": "10.1038/s42256-026-01293-x",
+        "cited_by_count": 0
+      },
+      "relevance_score": 10
+    },
+    {
       "id": "doi:10.5281/zenodo.22646650",
       "source": "openalex",
       "sources": [
@@ -222,44 +360,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 12
-    },
-    {
-      "id": "doi:10.1038/s42256-026-01293-x",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Causal evidence that language models use confidence to drive behaviour",
-      "authors": [
-        "Dharshan Kumaran",
-        "Nathaniel D. Daw",
-        "Simon Osindero",
-        "Petar Veličković",
-        "Viorica Pătrăucean"
-      ],
-      "published": "2026-09-07",
-      "updated": "2026-09-08",
-      "categories": [
-        "OpenAlex",
-        "Confidence interval",
-        "Metacognition",
-        "Computer science",
-        "Boosting (machine learning)"
-      ],
-      "abstract": "Metacognition—assessing the quality of one’s own cognitive performance—guides adaptive behaviour across species. Confidence signals can be extracted from language model outputs, yet a fundamental question remains: do models actually use these signals to decide whether to answer or abstain? Here we developed a four-phase paradigm. Phase 1 elicited baseline confidence without an abstention option. Phase 2 showed that large language models apply an implicit threshold to internal confidence when abstaining, with confidence effect sizes roughly an order of magnitude larger than alternative mechanisms. Phase 3 provided causal evidence via activation steering: boosting or suppressing confidence correspondingly decreased or increased abstention, with mediation analysis confirming confidence redistribution as the primary mechanism. Phase 4 instructed models to abstain at different confidence levels and showed they adjusted their behaviour accordingly, indicating they read out and act on confidence to set abstention policies. Critically, verbal confidence—an explicit self-evaluation from a separate forward pass—independently predicted abstention across all models despite being less discriminatory of correctness, and activation decoding showed both measures (that is, token log probabilities and verbal confidence) are lossy read-outs of a richer internal representation. Together, these results suggest that abstention is captured by the joint operation of a multidimensional internal confidence representation and threshold-based policies—consistent with structured metacognitive control in large language models—a capacity of growing importance as models transition to autonomous agents that must recognize their own uncertainty. Kumaran et al. show that large language models making decisions on when to answer a question or abstain from answering can be influenced by boosting or suppressing confidence signals in the model.",
-      "url": "https://doi.org/10.1038/s42256-026-01293-x",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation steering exact"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7211901703",
-        "doi": "10.1038/s42256-026-01293-x",
-        "cited_by_count": 0
-      },
-      "relevance_score": 10
     },
     {
       "id": "doi:10.1007/978-3-032-37274-1_6",
@@ -893,9 +993,9 @@
       "published": "2026-09-05",
       "updated": "2026-09-05",
       "categories": [
-        "cs.CR",
         "cs.AI",
-        "cs.CL"
+        "cs.CL",
+        "cs.CR"
       ],
       "abstract": "Open-weight large language models face a low-cost white-box threat from representation engineering attacks. Attackers can estimate refusal directions and search for projection-matrix edits that suppress safety alignment while preserving general capabilities, within minutes on a single GPU and without gradient-based training. We propose Bait-and-Recover, a weight-level defense that places a bait adapter where attackers read activations and a paired recovery adapter at the subsequent layer. Trained via gradient routing, this decouples the observation path from the behavior path. By actively poisoning the residual signal used for measurement, Bait-and-Recover disrupts the attacker's edit search, while the recovery layer restores clean downstream computation. Across four open-weight models, our defense raises the minimum refusal rate against white-box edit searches from 16.25% to 71.75% under a strict behavior-preservation budget (KL <= 0.10), with negligible impact on general benchmarks. By invalidating the core measurement assumption of these attacks, observation-path poisoning offers a practical complement to behavior-level safety training.",
       "url": "https://arxiv.org/abs/2609.05794",
@@ -920,17 +1020,17 @@
         "Arsenia Chorti"
       ],
       "published": "2026-09-04",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "categories": [
-        "OpenAlex",
-        "Computer science",
         "Alice and Bob",
-        "Precoding",
-        "Computer security"
+        "Computer science",
+        "Computer security",
+        "OpenAlex",
+        "Precoding"
       ],
       "abstract": "This paper studies physical-layer authentication (PLA) in the near-field regime under impersonation attacks. Unlike the far-field case, where the steering vector depends only on the angle of arrival (AoA), in the near field it depends on both angle and distance. We analyze the attack by minimizing the mean-square error (MSE) between the signal received from a legitimate transmitter Alice and the signal generated by an active attacker Eve. For a single-antenna Eve, we derive the optimal scalar precoder and show that, under the standard second-order Fresnel approximation, perfect impersonation is possible only if Eve has the same angle and the same distance from Bob as Alice. We then extend the analysis to a multi-antenna Eve and derive the optimal precoding vector. In this case, perfect impersonation is possible only if Alice steering vector belongs to the subspace spanned by Eve steering vectors. Simulation results show that, in the near field, a distance difference is sufficient to prevent a successful impersonation attack even when Alice and Eve have the same AoA, and confirm the analytical results.",
       "url": "https://doi.org/10.48550/arxiv.2609.04879",
-      "pdf_url": "",
+      "pdf_url": "https://arxiv.org/pdf/2609.04879",
       "primary_category": "OpenAlex",
       "source_queries": [
         "Steering vectors"
@@ -942,43 +1042,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 5
-    },
-    {
-      "id": "doi:10.17605/osf.io/mg3ra",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Associations Between Pubertal Timing and Activation Control, Attention, and Inhibitory Control in Female Youth",
-      "authors": [
-        "Ellie Nelson",
-        "A. Hoffer",
-        "Cheri A. Levinson",
-        "Sara J. Bufferd"
-      ],
-      "published": "2026-09-04",
-      "updated": "2026-09-08",
-      "categories": [
-        "OpenAlex",
-        "Psychology",
-        "Developmental psychology",
-        "Cognition",
-        "Inhibitory control"
-      ],
-      "abstract": "Puberty is a major developmental transition marking entry into adolescence, characterized by hormone-dependent organization and the development of secondary sex characteristics. The timing of pubertal onset varies considerably across individuals and plays an important role in cognitive development, with potential lasting effects on mental health (Sisk & Zehr, 2005). Early pubertal onset increases the risk of later psychological and behavioral problems, including externalizing behaviors, deviance, early sexual relations, and the development of psychological disorders such as depression (Johansson & Ritzén, 2005; Sisk & Zehr, 2005; Kim & Lee, 2012). Girls, who mature an average of 1-2 years earlier than boys, face additional risks compared to boys going through early puberty, including self-regulatory difficulties, attention problems, risky behaviors, heightened sensitivity to environmental conditions, anxiety, eating disorders, poor academic performance, and substance use (Brooks-Gunn & Warren, 1989; Sisk & Zehr, 2005; Johansson & Ritzén, 2005; Mendle et al., 2007; Kim & Lee, 2012; Chaku & Hoyt, 2019). Self-regulation is defined as the process of flexibly monitoring and adapting one’s behavior, attention, and emotions in response to internal and external cues (Wesarg-Menzel et al., 2023). Self-regulation is an important developmental skill that is heavily improved and shaped throughout adolescence, providing an essential framework to navigate a constantly changing environment. Effortful control (EC), a specific aspect of self-regulation, consists of the ability to voluntarily shift attention and inhibit or activate necessary behaviors used to adapt to the larger social world (Murray & Kochanska, 2002). EC includes three subsets of control: attentional control (the capacity to focus and shift thought when desired or needed), inhibitory control (the capacity to plan and suppress inappropriate responses), and activation control (the capacity to perform actions when unmotivated) (Murray & Kochanska, 2002; Vijayakumar et al., 2014). Often considered the self-regulatory aspect of temperament, low levels of EC are associated with disruptions in academic, social, and emotional functioning and are principally linked to psychopathology, such as Attention-Deficit/Hyperactivity Disorder (ADHD; Nigg et al., 2004; Vijayakumar et al., 2014). Children who are unable to inhibit inappropriate behaviors intentionally and shift or focus their attention toward important tasks tend to show behavioral problems in a wide range of contexts (Liu & Chang, 2018). In contrast, individuals with high levels of EC tend to exhibit better regulation of their attention, emotions, and behavior (Eisenberg & Spinrad, 2004). Biological and social changes associated with puberty may affect self-regulation in adolescents (Nussbaum, 2012; Ng-Knight et al., 2016). The prefrontal cortex (PFC) is one of the last brain structures to mature and is principally involved in attention, impulse control and inhibition, self-regulation, goal-directed behavior, and overall executive functioning (EF). Executive functioning is a term used to describe complex cognitive processes involved in planning, inhibition, and working memory (Nussbaum, 2012; Vijayakumar et al., 2014). In addition, the hormonal changes associated with puberty mediate an increase in limbic system activation, leading to higher levels of reward-seeking behaviors (Ng-Knight et al., 2016). Thus, adolescence is considered as a period of particularly low self-regulatory abilities and higher risk-taking behavior due to the under-developed cognitive control system along with a hyperactive reward system (Sisk & Zehr, 2005; Ng-Knight et al., 2016; Chaku & Hoyt, 2019). Various studies have found links between early pubertal onset and attention problems, lower self-control, and executive dysfunction (Kim & Lee, 2012; Chaku & Hoyt, 2019; Nordine & McAuley, 2025). Other studies have found associations between early pubertal development and aggression (Kim & Lee, 2012; Deater-Deckard et al., 2019), which may partially be explained by the imbalances in adolescent brain activation. Deater-Deckard et al. (2019) found associations between advanced pubertal status and lower inhibitory control in 14-year-olds. Further evidence suggests that earlier pubertal timing and more advanced pubertal status corresponds to faster decreases in self-control over adolescence (Ng-Knight et al., 2016). These studies highlight a growing body of research investigating the relation between puberty and self-regulation. Despite this emerging work, the relation between pubertal development and effortful control facets such as activation control, inhibitory control, and attention have yet to be investigated thoroughly. In summary, early pubertal maturation has been associated with a range of emotional and behavioral outcomes that have long-lasting effects. However, less is known about whether pubertal timing is associated with individual differences in specific self-regulatory capacities including inhibitory control, attention, and activation control. Given additional risks faced by girls with early pubertal onset, research among this population is particularly pertinent. Therefore, the present study will examine associations between pubertal timing, inhibitory control, attention, and activation control in girls ages 6-12.",
-      "url": "https://doi.org/10.17605/osf.io/mg3ra",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation steering exact"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7211874285",
-        "doi": "10.17605/osf.io/mg3ra",
-        "cited_by_count": 0
-      },
-      "relevance_score": 4
     },
     {
       "id": "2609.04792",
@@ -994,7 +1057,7 @@
         "Marine Carpuat"
       ],
       "published": "2026-09-04",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "categories": [
         "Ask price",
         "Computer science",
@@ -1019,6 +1082,43 @@
         "doi": "10.48550/arxiv.2609.04792",
         "cited_by_count": 0
       }
+    },
+    {
+      "id": "doi:10.17605/osf.io/mg3ra",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Associations Between Pubertal Timing and Activation Control, Attention, and Inhibitory Control in Female Youth",
+      "authors": [
+        "Ellie Nelson",
+        "A. Hoffer",
+        "Cheri A. Levinson",
+        "Sara J. Bufferd"
+      ],
+      "published": "2026-09-04",
+      "updated": "2026-09-08",
+      "categories": [
+        "Cognition",
+        "Developmental psychology",
+        "Inhibitory control",
+        "OpenAlex",
+        "Psychology"
+      ],
+      "abstract": "Puberty is a major developmental transition marking entry into adolescence, characterized by hormone-dependent organization and the development of secondary sex characteristics. The timing of pubertal onset varies considerably across individuals and plays an important role in cognitive development, with potential lasting effects on mental health (Sisk & Zehr, 2005). Early pubertal onset increases the risk of later psychological and behavioral problems, including externalizing behaviors, deviance, early sexual relations, and the development of psychological disorders such as depression (Johansson & Ritzén, 2005; Sisk & Zehr, 2005; Kim & Lee, 2012). Girls, who mature an average of 1-2 years earlier than boys, face additional risks compared to boys going through early puberty, including self-regulatory difficulties, attention problems, risky behaviors, heightened sensitivity to environmental conditions, anxiety, eating disorders, poor academic performance, and substance use (Brooks-Gunn & Warren, 1989; Sisk & Zehr, 2005; Johansson & Ritzén, 2005; Mendle et al., 2007; Kim & Lee, 2012; Chaku & Hoyt, 2019). Self-regulation is defined as the process of flexibly monitoring and adapting one’s behavior, attention, and emotions in response to internal and external cues (Wesarg-Menzel et al., 2023). Self-regulation is an important developmental skill that is heavily improved and shaped throughout adolescence, providing an essential framework to navigate a constantly changing environment. Effortful control (EC), a specific aspect of self-regulation, consists of the ability to voluntarily shift attention and inhibit or activate necessary behaviors used to adapt to the larger social world (Murray & Kochanska, 2002). EC includes three subsets of control: attentional control (the capacity to focus and shift thought when desired or needed), inhibitory control (the capacity to plan and suppress inappropriate responses), and activation control (the capacity to perform actions when unmotivated) (Murray & Kochanska, 2002; Vijayakumar et al., 2014). Often considered the self-regulatory aspect of temperament, low levels of EC are associated with disruptions in academic, social, and emotional functioning and are principally linked to psychopathology, such as Attention-Deficit/Hyperactivity Disorder (ADHD; Nigg et al., 2004; Vijayakumar et al., 2014). Children who are unable to inhibit inappropriate behaviors intentionally and shift or focus their attention toward important tasks tend to show behavioral problems in a wide range of contexts (Liu & Chang, 2018). In contrast, individuals with high levels of EC tend to exhibit better regulation of their attention, emotions, and behavior (Eisenberg & Spinrad, 2004). Biological and social changes associated with puberty may affect self-regulation in adolescents (Nussbaum, 2012; Ng-Knight et al., 2016). The prefrontal cortex (PFC) is one of the last brain structures to mature and is principally involved in attention, impulse control and inhibition, self-regulation, goal-directed behavior, and overall executive functioning (EF). Executive functioning is a term used to describe complex cognitive processes involved in planning, inhibition, and working memory (Nussbaum, 2012; Vijayakumar et al., 2014). In addition, the hormonal changes associated with puberty mediate an increase in limbic system activation, leading to higher levels of reward-seeking behaviors (Ng-Knight et al., 2016). Thus, adolescence is considered as a period of particularly low self-regulatory abilities and higher risk-taking behavior due to the under-developed cognitive control system along with a hyperactive reward system (Sisk & Zehr, 2005; Ng-Knight et al., 2016; Chaku & Hoyt, 2019). Various studies have found links between early pubertal onset and attention problems, lower self-control, and executive dysfunction (Kim & Lee, 2012; Chaku & Hoyt, 2019; Nordine & McAuley, 2025). Other studies have found associations between early pubertal development and aggression (Kim & Lee, 2012; Deater-Deckard et al., 2019), which may partially be explained by the imbalances in adolescent brain activation. Deater-Deckard et al. (2019) found associations between advanced pubertal status and lower inhibitory control in 14-year-olds. Further evidence suggests that earlier pubertal timing and more advanced pubertal status corresponds to faster decreases in self-control over adolescence (Ng-Knight et al., 2016). These studies highlight a growing body of research investigating the relation between puberty and self-regulation. Despite this emerging work, the relation between pubertal development and effortful control facets such as activation control, inhibitory control, and attention have yet to be investigated thoroughly. In summary, early pubertal maturation has been associated with a range of emotional and behavioral outcomes that have long-lasting effects. However, less is known about whether pubertal timing is associated with individual differences in specific self-regulatory capacities including inhibitory control, attention, and activation control. Given additional risks faced by girls with early pubertal onset, research among this population is particularly pertinent. Therefore, the present study will examine associations between pubertal timing, inhibitory control, attention, and activation control in girls ages 6-12.",
+      "url": "https://doi.org/10.17605/osf.io/mg3ra",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7211874285",
+        "doi": "10.17605/osf.io/mg3ra",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
     },
     {
       "id": "doi:10.5281/zenodo.22307955",
@@ -3216,6 +3316,33 @@
         "doi": "10.48550/arxiv.2608.29034",
         "cited_by_count": 0
       }
+    },
+    {
+      "id": "2609.09184",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Evidence-Order Calibration for Selective Visual Reasoning under Progressive Loss of Question-Critical Evidence",
+      "authors": [
+        "Muhamathu Ameer Ali Aacaas Muhamath"
+      ],
+      "published": "2026-08-29",
+      "updated": "2026-08-29",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Vision-language model (VLM) confidence may change in aggregate when visual evidence is degraded while remaining structurally inconsistent within individual examples. We study answer-level reliability along five-step, question-conditioned evidence-loss trajectories. Using a frozen Qwen2.5-VL-3B-Instruct model, we construct 176 accepted GQA-derived trajectories (880 masking conditions) by progressively masking scene-graph-localized question-critical regions. Native sequence confidence has an evidence monotonicity violation rate (EMVR) of 0.436, and 92.0% of trajectories contain at least one adjacent violation. A matched non-critical-region control shows that full critical masking reduces accuracy by 28.2 percentage points, compared with 0.6 points for equally sized non-critical masks; the paired difference is 27.6 points (95% CI [20.0, 34.7]). We train a lightweight post-hoc reliability head on frozen hidden states, sequence confidence, and entropy. Adding evidence-order supervision to binary cross-entropy (BCE) reduces masking EMVR from 0.330 to 0.303 (paired difference -0.027, 95% CI [-0.044, -0.010]). The same mask-trained objective reduces EMVR from 0.449 to 0.402 on held-out question IDs under unseen local Gaussian blur (difference -0.0468, 95% CI [-0.0739, -0.0199]). AUROC, Brier, and AURC differences between the two learned heads are statistically inconclusive, and native confidence remains stronger for selective-risk ranking. The results separate evidence-order consistency from conventional correctness discrimination rather than establishing generic confidence superiority.",
+      "url": "https://arxiv.org/abs/2609.09184",
+      "pdf_url": "https://arxiv.org/pdf/2609.09184",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Reasoning and CoT steering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 9
     },
     {
       "id": "2608.28312",
@@ -18255,6 +18382,34 @@
       ]
     },
     {
+      "id": "2605.28543",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Cultural Binding Heads in Language Models",
+      "authors": [
+        "Avrile Floro",
+        "Luca Benedetto"
+      ],
+      "published": "2026-05-27",
+      "updated": "2026-09-09",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "LLMs often default to equal treatment across cultural groups, even though context warrants differentiation: this is a lack of difference awareness. Using mechanistic interpretability and a factorial design on the N4 cultural appropriation benchmark from Wang et al. (2025), we identify 2-3 mid-layer attention heads per model that contribute causally to cultural binding across eight models (four architectures, base and instruct). Cultural binding is the process of associating cultural items with the appropriate identity. Knockout of the identity-to-item edges on these heads lowers the binding strength by 9-23%. The identified heads transfer from instruct to base models, suggesting that cultural binding is created at pre-training. An $α$-scaling shows a graded dose-response and moderate amplification steering at generation ($α= 2-3$) increases cultural differentiation accuracy by 1-3 pp while leaving neutral reasoning mostly intact. A knowledge probing task shows that models know 3-5 times more than they act upon it, indicating that the bottleneck lies in routing and not knowledge.",
+      "url": "https://arxiv.org/abs/2605.28543",
+      "pdf_url": "https://arxiv.org/pdf/2605.28543",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 7
+    },
+    {
       "id": "2605.28149",
       "title": "Sign-Aware Gated Sparse Autoencoders: Modeling Anticorrelated Features with Bi-Jump-ReLU Activations",
       "authors": [
@@ -18284,34 +18439,6 @@
       "sources": [
         "arxiv"
       ]
-    },
-    {
-      "id": "2605.28543",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Cultural Binding Heads in Language Models",
-      "authors": [
-        "Avrile Floro",
-        "Luca Benedetto"
-      ],
-      "published": "2026-05-27",
-      "updated": "2026-07-04",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "abstract": "LLMs often default to equal treatment across cultural groups, even though context warrants differentiation: this is a lack of difference awareness. Using mechanistic interpretability and a factorial design on the N4 cultural appropriation benchmark from Wang et al. (2025), we identify 2-3 mid-layer attention heads per model that contribute causally to cultural binding across eight models (four architectures, base and instruct). Cultural binding is the process of associating cultural items with the appropriate identity. Knockout of the identity-to-item edges on these heads lowers the binding strength by 9-23%. The identified heads transfer from instruct to base models, suggesting that cultural binding is created at pre-training. An $α$-scaling shows a graded dose-response and moderate amplification steering at generation ($α= 2-3$) increases cultural differentiation accuracy by 1-3 pp while leaving neutral reasoning mostly intact. A knowledge probing task shows that models know 3-5 times more than they act upon it, indicating that the bottleneck lies in routing and not knowledge.",
-      "url": "https://arxiv.org/abs/2605.28543",
-      "pdf_url": "https://arxiv.org/pdf/2605.28543",
-      "primary_category": "cs.AI",
-      "source_queries": [
-        "Mechanistic interpretability steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 7
     },
     {
       "id": "2605.28512",
