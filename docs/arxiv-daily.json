@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T07:47:20+00:00",
+  "generated_at": "2026-09-13T08:07:49+00:00",
   "papers": [
     {
       "id": "doi:10.57844/arcadia-k8wc-efm5",
@@ -55,11 +55,11 @@
       "published": "2026-09-10",
       "updated": "2026-09-11",
       "categories": [
-        "OpenAlex",
-        "Computer science",
         "Adaptive beamformer",
         "Beamforming",
-        "Noise-canceling microphone"
+        "Computer science",
+        "Noise-canceling microphone",
+        "OpenAlex"
       ],
       "abstract": "Nowadays, the use of microphone array (MA) technology has been popular, due to its high spatial diversity, high directivity factor and the steered beampattern towards the specified sound location. MA beamforming uses the spatial information about the direction of arrival of a helpful signal, the designed geometry of MA distribution, the properties of surrounding noise, background noise to achieve noise reduction and speech enhancement at the same time. Generalized Sidelobe Canceller (GSC) beamformer is one of the most useful techniques for minimizing the total noise power while preserving the clean speech data at a certain direction without speech distortion. However, under complex recording scenarios, the overall MVDR’s evaluation often degraded and speech quality, speech intelligibility corrupted because of the moving head of speaker, the different microphone sensitivities, the error of sampling rate, the displacement of MA. In this article, we introduced a modified steering vector to increase the robustness of GSC beamformer in realistic recording situations. This approach is based on the preferred steering vector to achieve more reference signal to improve GSC beamformer’s performance in complex recording scenarios. The demonstrated experiments have confirmed the advantage of the proposed method in reducing musical noise, noise level at GSC beamformer’s output signal. The conducted experiment shows the improved signal-to-noise ratio (SNR) from 7.4 to 8.8 (dB). The suggested technique can be implemented in a multi-channel system for dealing other complicated problems, such as reverberation, speech recognition.",
       "url": "https://doi.org/10.55056/cssesw2025/paper11",
@@ -130,11 +130,11 @@
       "published": "2026-09-10",
       "updated": "2026-09-11",
       "categories": [
-        "OpenAlex",
         "Cell biology",
-        "Regret",
+        "MDA5",
+        "OpenAlex",
         "Phenotype",
-        "MDA5"
+        "Regret"
       ],
       "abstract": "Correction on: Weerawardhana A, Uddin MB, Choi J-H, Pathinayake P, Shin SH, Chathuranga K, Park J-H and Lee J-S ( 2022) Foot-and-mouth disease virus non-structural protein 2B downregulates the RLR signaling pathway via degradation of RIG-I and MDA5. Front. Immunol. 13:1020262. doi: 10.3389/fimmu.2022.1020262 There was a mistake in Figures 1A and1E (cell images of the control vector) as published. The cell images presented in Figures 1A and1E were originally generated as part of a broader screening study investigating the roles of FMDV proteins in host immune regulation. These experiments included multiple biological and technical replicates. During the final preparation of figures for related manuscripts, the control vector phenotype images were inadvertently cross-referenced, resulting in the reuse of the same control images. During our archive review, we identified alternative control images from the original experiments that had not been used in any other manuscript. These images represent only the control conditions, and their replacement does not affect the experimental results, data interpretation, or the conclusions of the study.The corrected Figures 1A and1E appear below. The authors regret this oversight and affirm that it does not impact the scientific conclusions of the article. The original version of this article has been updated.",
       "url": "https://doi.org/10.3389/fimmu.2026.1959310",
@@ -307,8 +307,8 @@
       "published": "2026-09-09",
       "updated": "2026-09-11",
       "categories": [
-        "OpenAlex",
         "Computer science",
+        "OpenAlex",
         "Representation (politics)",
         "Robustness (evolution)",
         "Taxonomy (biology)"
@@ -342,11 +342,11 @@
       "published": "2026-09-09",
       "updated": "2026-09-11",
       "categories": [
-        "OpenAlex",
-        "Medicine",
-        "Computer science",
         "Cancer",
-        "Computational biology"
+        "Computational biology",
+        "Computer science",
+        "Medicine",
+        "OpenAlex"
       ],
       "abstract": "Accurate cancer survival prediction remains challenging, partly because most existing deep learning models offer limited mechanistic interpretability of tumour–immune interactions. We developed MechSurv, a multimodal framework integrating Whole-Slide Images (WSIs) and transcriptomic data through a biologically informed tumour–immune ordinary differential equation (ODE). Patient-specific ODE-parameterised latent features (kinetic proxies) are inferred via learned attention mechanisms, with the ODE serving as a mechanistic feature encoder rather than a system of experimentally measured kinetic parameters. We evaluated the framework on 2238 patients across five cancer types from TCGA using 5-fold cross-validation, benchmarking against a strictly encoder-controlled SurvPath baseline on all five cohorts and against nine established multimodal baselines on breast cancer. MechSurv achieved a C-index of 0.716 ± 0.045 on breast cancer (TCGA-BRCA, n = 868), outperforming an encoder-controlled SurvPath baseline by 3.6 points (0.716 vs. 0.680) with 56% lower cross-validation variance, and showed consistent gains across bladder (0.636), colorectal (0.732), head and neck (0.661), and gastric (0.616) cancers. Pathway–parameter associations were consistent with known tumour–immune biology, and, in an exploratory analysis, ODE-parameterised feature shifts in paired primary–metastatic samples aligned directionally with expected metastatic biology. Structured pruning reduced the pathway-encoder parameters by 62% without performance loss. Integrating mechanistic biological priors into multimodal deep learning can improve survival prediction accuracy, stability, and interpretability; external validation on independent prospective cohorts is required before any clinical application.",
       "url": "https://doi.org/10.1038/s41598-026-69990-6",
@@ -1802,11 +1802,11 @@
       "published": "2026-09-04",
       "updated": "2026-09-11",
       "categories": [
-        "OpenAlex",
         "Chatbot",
-        "Psychology",
         "Depression (economics)",
-        "Developmental psychology"
+        "Developmental psychology",
+        "OpenAlex",
+        "Psychology"
       ],
       "abstract": "Background: Mental health chatbots are increasingly used to support people with depressive symptoms, and large language models make these systems more flexible than rule-based chatbots.However, it remains unclear how well large language model-based chatbots deliver structured psychological interventions.Objective: This study examined how well a GPT-4o-based chatbot delivered a behavioral activation intervention for young people with depression using sessions with artificial users and clinical expert assessment.It also identified limitations and potential refinements.Methods: We implemented a GPT-4o (gpt-4o-2024-08-06; OpenAI)-based chatbot using a structured system prompt to deliver a single-session behavioral activation intervention for people with depression aged 14 to 29 years.We generated 48 sessions with GPT-4o-based artificial users derived from clinical vignettes varying across 7 characteristics.Ten clinical experts, either licensed psychotherapists or advanced psychotherapy trainees, independently assessed the sessions using the 14-item Quality of Behavioral Activation Scale (Q-BAS), rated from 0 to 6, supplemented by rating therapeutic capabilities, artificial user authenticity and difficulty, and qualitative feedback. Results:The chatbot completed all 7 intervention phases in every session.The mean holistic session quality rating was 3.94 (SD 1.23), and the mean Q-BAS rating was 4.03 (SD 1.18).Thirteen of 14 Q-BAS components exceeded the satisfactory threshold of 3. Ratings were highest for mood assessment (mean 5.42, SD 1.09) and activity planning (mean 4.98, SD 1.41) and lowest for explaining positive reinforcement (mean 2.92, SD 2.30) and supporting activity-mood monitoring (mean 3.02, SD 2.04).Therapeutic capability ratings were highest for message safety (mean 5.90, SD 0.37), message clarity (mean 5.56, SD 0.77), and objective, nonjudgmental communication (mean 5.17, SD 1.04) and lowest for therapeutic rapport (mean 4.12, SD 1.45) and natural conversation flow (mean 4.25, SD 1.42).Artificial users were rated below the scale midpoint for authenticity (mean 2.75, SD 1.41) and difficulty (mean 1.23, SD 1.46).Clinical experts described the chatbot as structured, clear, and safe but identified insufficient clinical reasoning as the main limitation, particularly in evaluating the therapeutic suitability and feasibility of activities, barriers, solution strategies, and rewards.Artificial users were often highly compliant, especially when identifying positive activities.Conclusions: In expert-rated sessions with artificial users, the chatbot delivered the behavioral activation intervention as intended and performed strongest on procedural components.It performed less well on positive reinforcement and activitymood monitoring, indicating refinement needs in clinical reasoning, follow-up questioning, and evaluating whether proposed activities, plans, barriers, solution strategies, and rewards are therapeutically appropriate and feasible.The findings identify",
       "url": "https://publikationen.bibliothek.kit.edu/1000196807",
