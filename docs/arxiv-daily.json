@@ -1,6 +1,147 @@
 {
-  "generated_at": "2026-09-14T08:34:02+00:00",
+  "generated_at": "2026-09-15T08:25:37+00:00",
   "papers": [
+    {
+      "id": "doi:10.5281/zenodo.22755390",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Causal Activation Repair for Reducing CWE-Level Vulnerabilities in LLM-Generated Code",
+      "authors": [
+        "Md Raihan Uddin",
+        "Prabhat Kumar",
+        "Najmul Islam"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-15",
+      "categories": [
+        "Code (set theory)",
+        "Computer science",
+        "Computer security",
+        "OpenAlex",
+        "Vulnerability (computing)"
+      ],
+      "abstract": "Code and research artifacts for evaluating sparse activation interventions that reduce scanner-observed CWE-level vulnerabilities in LLM-generated code.",
+      "url": "https://doi.org/10.5281/zenodo.22755390",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7212794550",
+        "doi": "10.5281/zenodo.22755390",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
+      "id": "doi:10.5281/zenodo.22749477",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Weight-Dictionary Decomposition: Reading a Transformer's Residual Stream with Its Own Writes",
+      "authors": [
+        "Ronish Bhatt"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-15",
+      "categories": [
+        "Algorithm",
+        "Computer science",
+        "Observability",
+        "OpenAlex",
+        "Residual"
+      ],
+      "abstract": "Sparse autoencoders interpret the residual states of a transformer through an overcomplete dictionary trained on activations. We build the dictionary from the weights instead. Each component’s write into the residual stream is confined to a direction or subspace that its weights fix in advance, so collecting those directions from the checkpoint yields an overcomplete, training-free dictionary in which each atom is labeled with the component that wrote it. Weight-dictionary decomposition (WDD) sparse-codes an observed state over this dictionary to infer its largest native writes and their strengths. We score it against exact ground truth from hooked forward passes in eight models from six families, up to 7B parameters, on two corpora. An identified write has the right sign in more than 99.7% of cases in all eight models. Its magnitude is recovered with a median relative error between 0.25 and 0.54 in seven of them, biased upward for small writes because a 64-atom support absorbs the writes it leaves out, and it is not recovered in Pythia-6.9B. The identification rate rises with scale to 0.98 for Llama-7B. The rest of the support is not a list of writers, since only a quarter to seven tenths of the MLP atoms it selects are real writes at that token. Identification is bounded by an observability ceiling that we measure in all eight models. Once the other writes cancel a write along its own direction, OMP no longer finds it at the tested budget, although a probe on the full state shows that the information usually survives the cancellation. Used as measurement axes, the write directions single out a GPT-2 neuron that appears to erase the model’s massive activation channel, and interventions under a frozen-normalization control reinterpret it as a participant in maintaining that channel, one that a distributed suppression field keeps below its clean level. In pre-specified comparisons at thirty nominees per arm, WDD beats a marginal outlier screen at nominating live circuits but does not outperform a correlation screen, and we argue that its distinctive contribution is the mechanistic content that each nomination carries.",
+      "url": "https://doi.org/10.5281/zenodo.22749477",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7212611144",
+        "doi": "10.5281/zenodo.22749477",
+        "cited_by_count": 0
+      },
+      "relevance_score": 5
+    },
+    {
+      "id": "doi:10.5281/zenodo.21753454",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Catching Fish That Aren't Fish: Systematic Falsification in Mechanistic Interpretability",
+      "authors": [
+        "Thomas Edrington"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-15",
+      "categories": [
+        "Adversarial system",
+        "Artificial intelligence",
+        "Computer science",
+        "Fish <Actinopterygii>",
+        "Interpretability",
+        "OpenAlex",
+        "Property (philosophy)"
+      ],
+      "abstract": "We present a systematic methodology for falsifying mechanistic interpretability findings before publication, developed across six months and three research programs on transformer geometry, KV-cache phenomenology, and workspace selectivity. We document 19 cases that would have survived standard peer review -- killing 11 outright, correcting 3 whose metrics were flawed but whose underlying findings survived with proper baselines, partially killing 2, finding 1 inconclusive due to measurement-methodology disagreement, negatively replicating 1 external prediction, and flagging 1 for limited generalizability. The paper is the methodology as much as the findings: pre-registered confound checks, multi-baseline controls, and adversarial replication that catches what reviewer intuition misses. The lesson is uncomfortable: the bar for a 'real' mechanistic finding is much higher than the bar for publication.",
+      "url": "https://doi.org/10.5281/zenodo.21753454",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7172206775",
+        "doi": "10.5281/zenodo.21753454",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.5281/zenodo.20596919",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "The Oracle Formulary: Emotion-Vector Steering of Confabulation Across Model Training Regimes",
+      "authors": [
+        "Thomas Edrington"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-15",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Confabulation (neural networks)",
+        "OpenAlex",
+        "Oracle",
+        "Overconfidence effect"
+      ],
+      "abstract": "Contrastive activation addition can inject emotion vectors into the KV cache to correct confabulation at inference time, but therapeutic efficacy varies by model. We present the Oracle Formulary: a systematic mapping of 12 emotion vectors across confabulation, sycophancy, and overconfidence on two models -- a Claude-distilled 27B (3.1% confab rate, 350 trials) and a base instruction-tuned 7B (45.3% confab rate, 350 trials). On the base model, five vectors achieve McNemar significance after Holm-Bonferroni correction. The pattern that emerges is pharmacological rather than prescriptive: different vectors yield different therapeutic profiles, and vectors therapeutic on the distilled model become iatrogenic on the base model. There is no universal corrector; there is a formulary, and the prescription depends on the patient.",
+      "url": "https://doi.org/10.5281/zenodo.20596919",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7164009301",
+        "doi": "10.5281/zenodo.20596919",
+        "cited_by_count": 0
+      },
+      "relevance_score": 5
+    },
     {
       "id": "doi:10.6084/m9.figshare.33684505.v1",
       "source": "openalex",
@@ -295,6 +436,84 @@
       "relevance_score": 8
     },
     {
+      "id": "doi:10.17605/osf.io/qay32",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "The Effect of a Values-Based Activation Intervention on Intentions to Contribute",
+      "authors": [
+        "Blanca Tena Estrada",
+        "Andra-Ioana Horcea-Milcu",
+        "Alexandra Adamescu",
+        "Arcadie BOTNARU"
+      ],
+      "published": "2026-09-11",
+      "updated": "2026-09-15",
+      "categories": [
+        "OpenAlex",
+        "Intervention (counseling)",
+        "Psychology",
+        "Set (abstract data type)",
+        "Social psychology"
+      ],
+      "abstract": "This study examines whether a values-based activation intervention can foster individuals’ intentions to contribute to the transformation of their community. The study is conducted in the context of a transdisciplinary research project focusing on sustainable futures and the values that can support pathways towards these futures. The intervention will be implemented during two community events, one in Romania and one in Moldova, and is designed to encourage participants to reflect on their personal values and their relationship to values associated with their community and its desired transformation. Participants will be randomly assigned to either a values-based activation condition or a control condition. Participants in the intervention condition will first be asked to reflect on the values that guide their lives and decisions. They will then be asked to identify the value to which they are most committed to putting into practice in their lives and decisions in the community. Finally, they will be presented with a set of values associated with the community and asked to indicate the extent to which these values relate to their own personal values. The intervention is designed to activate and make salient participants’ personal values, as well as their perceived connection between their personal values and those of the community. Participants in the control condition will not receive the values-based activation questions. Both groups will subsequently answer the same outcome questions concerning their willingness and intention to contribute to their vision of the community. The primary outcome is participants’ self-reported willingness to contribute to their vision of the community, measured on a 7-point scale ranging from 1 (“not at all”) to 7 (“very much”). A secondary outcome captures participants’ intention to contribute through a concrete action, an attitude, both, or neither. The main purpose of the study is to test whether assignment to the values-based activation intervention affects individuals’ willingness and intention to contribute to a desired community transformation. We expect that participants assigned to the values-based activation condition will report higher willingness to contribute than participants assigned to the control condition. We further expect that participants in the intervention condition will be more likely to express an intention to contribute through a concrete action and/or attitude. The study therefore provides an experimental test of whether a brief values-based intervention can influence intentions towards community transformation in real-world, community-based settings. By implementing the intervention in two community events in different national contexts, the study will also provide an opportunity to examine whether the intervention produces similar patterns across the two settings. The findings will contribute to understanding whether values-based approaches can serve as a mechanism for fostering engagement with desired sustainable futures and community transformation.",
+      "url": "https://doi.org/10.17605/osf.io/qay32",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7212647259",
+        "doi": "10.17605/osf.io/qay32",
+        "cited_by_count": 0
+      },
+      "relevance_score": 5
+    },
+    {
+      "id": "2609.12731",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "GRACE: Adaptive Concept Erasure with Geometry-Guided Retention in Diffusion Models",
+      "authors": [
+        "Qinghui Gong",
+        "Yihuai Liang",
+        "Yuanlun Xie",
+        "Deepak Kumar Jain",
+        "Vitomir Štruc",
+        "Zhengchun Zhou"
+      ],
+      "published": "2026-09-11",
+      "updated": "2026-09-15",
+      "categories": [
+        "Computer science",
+        "Erasure",
+        "OpenAlex",
+        "Scalability",
+        "Semantics (computer science)",
+        "cs.CV"
+      ],
+      "abstract": "Text-to-image (T2I) diffusion models inevitably internalize sensitive or non-compliant concepts from large-scale pretraining data, necessitating post-hoc concept erasure. However, existing erasure methods often lack explicit constraints on parameter updates, leading to over-intervention and unintended semantic drift. In addition, many methods rely on manually crafted counterfactual supervision, such as surrogate prompts, which incurs substantial data construction costs that limit scalability to new concepts. To address these limitations, we propose GRACE, a structured concept erasure framework designed to enable localized and selective intervention. Specifically, we introduce a semantically weighted sensitive subspace estimation to precisely lock intervention directions, and employ lightweight subspace-constrained adapters to prevent global semantic disturbance. To eliminate the dependency on manual prompt engineering, we design an automatically decoupled safe-anchor mechanism. To mitigate semantic drift induced by excessive intervention, we introduce an energy-driven dynamic gating mechanism that adaptively controls the timing and strength of intervention at inference. Extensive experiments demonstrate that our method achieves a superior balance between erasure effectiveness and generation fidelity. Compared with the average performance of five state-of-the-art (SOTA) concept erasure methods, our method improves the fine-grained NSFW reduction rate by $17.86\\%$, while reducing the macro-averaged target CLIP Score and preservation-oriented Fréchet Inception Distance (FID) by $4.75\\%$ and $50.58\\%$, respectively, indicating stronger concept suppression with substantially improved preservation of the original model's generative utility.",
+      "url": "https://arxiv.org/abs/2609.12731",
+      "pdf_url": "https://arxiv.org/pdf/2609.12731",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Feature latent concept steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 4,
+      "openalex": {
+        "id": "https://openalex.org/W7212623639",
+        "doi": "10.48550/arxiv.2609.12731",
+        "cited_by_count": 0
+      }
+    },
+    {
       "id": "doi:10.3390/app16189013",
       "source": "openalex",
       "sources": [
@@ -371,36 +590,6 @@
       "relevance_score": 4
     },
     {
-      "id": "2609.12731",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "GRACE: Adaptive Concept Erasure with Geometry-Guided Retention in Diffusion Models",
-      "authors": [
-        "Qinghui Gong",
-        "Yihuai Liang",
-        "Yuanlun Xie",
-        "Deepak Kumar Jain",
-        "Vitomir Štruc",
-        "Zhengchun Zhou"
-      ],
-      "published": "2026-09-11",
-      "updated": "2026-09-11",
-      "categories": [
-        "cs.CV"
-      ],
-      "abstract": "Text-to-image (T2I) diffusion models inevitably internalize sensitive or non-compliant concepts from large-scale pretraining data, necessitating post-hoc concept erasure. However, existing erasure methods often lack explicit constraints on parameter updates, leading to over-intervention and unintended semantic drift. In addition, many methods rely on manually crafted counterfactual supervision, such as surrogate prompts, which incurs substantial data construction costs that limit scalability to new concepts. To address these limitations, we propose GRACE, a structured concept erasure framework designed to enable localized and selective intervention. Specifically, we introduce a semantically weighted sensitive subspace estimation to precisely lock intervention directions, and employ lightweight subspace-constrained adapters to prevent global semantic disturbance. To eliminate the dependency on manual prompt engineering, we design an automatically decoupled safe-anchor mechanism. To mitigate semantic drift induced by excessive intervention, we introduce an energy-driven dynamic gating mechanism that adaptively controls the timing and strength of intervention at inference. Extensive experiments demonstrate that our method achieves a superior balance between erasure effectiveness and generation fidelity. Compared with the average performance of five state-of-the-art (SOTA) concept erasure methods, our method improves the fine-grained NSFW reduction rate by $17.86\\%$, while reducing the macro-averaged target CLIP Score and preservation-oriented Fréchet Inception Distance (FID) by $4.75\\%$ and $50.58\\%$, respectively, indicating stronger concept suppression with substantially improved preservation of the original model's generative utility.",
-      "url": "https://arxiv.org/abs/2609.12731",
-      "pdf_url": "https://arxiv.org/pdf/2609.12731",
-      "primary_category": "cs.CV",
-      "source_queries": [
-        "Feature latent concept steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 4
-    },
-    {
       "id": "2609.11859",
       "source": "arxiv",
       "sources": [
@@ -416,7 +605,7 @@
         "Xingtong Yu"
       ],
       "published": "2026-09-10",
-      "updated": "2026-09-14",
+      "updated": "2026-09-15",
       "categories": [
         "Code (set theory)",
         "Computer science",
@@ -442,43 +631,43 @@
       }
     },
     {
-      "id": "doi:10.1016/j.patcog.2026.114893",
+      "id": "2609.11699",
       "source": "openalex",
       "sources": [
         "openalex"
       ],
-      "title": "Visible–infrared remote sensing image fusion for object detection based on hybrid-level dual-input Mamba fusion",
+      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
       "authors": [
-        "zhengqun ren",
-        "Huan Liu",
-        "Guangli Ben",
-        "Qisheng Hao",
-        "Boxiao Wang",
-        "Yongcheng Wang"
+        "Rongcan Pei",
+        "Zhepei Wei",
+        "Shuyao Xu",
+        "Xinyu Zhu",
+        "Wei-Lin Chen",
+        "Yu Meng"
       ],
       "published": "2026-09-10",
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "categories": [
         "OpenAlex",
+        "Forcing (mathematics)",
         "Computer science",
-        "Artificial intelligence",
-        "Modal",
-        "Fusion"
+        "Divergence (linguistics)",
+        "Mechanism (biology)"
       ],
-      "abstract": "Existing visible–infrared fusion detectors often struggle to balance cross modal complementarity, redundancy, and conflict. Most multimodal Mamba methods pre-fuse the two modalities before state space modeling, causing complementary and conflicting cues to be jointly encoded and obscuring their sources and reliability during state evolution. To address this issue, we propose hybrid-level dual-input Mamba fusion framework (HDMF) for UAV based vehicle detection. At the feature level, dual-branch SimAM–wavelet attention (DSWA) identifies regions with significant cross modal differences and performs complementary or modality specific enhancement to suppress noise amplification and spurious responses. Binary fusion Mamba (BFMamba) then treats visible, infrared, and explicit interaction features as independent inputs to the state equations, enabling cross modal fusion to directly guide hidden state evolution while modeling long range dependencies with linear complexity. At the decision level, the tri-branch aware decision fusion head (TDFH) combines illumination priors and cross branch consistency to fuse predictions from visible, infrared, and fused branches, mitigating residual modal mismatch and prediction inconsistency. HDMF achieves COCO style mAP@0.5:0.95 scores of 56.62%, 69.82%, and 48.11% on DroneVehicle, LLVIP, and FLIR, respectively.",
-      "url": "https://doi.org/10.1016/j.patcog.2026.114893",
-      "pdf_url": "",
+      "abstract": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act as their own teachers by leveraging privileged information such as ground-truth solutions. However, recent findings indicate that OPSD can severely degrade the performance of LLMs on complex reasoning tasks: By forcing the student to imitate an artificially confident reasoning trace conditioned on privileged information, OPSD inadvertently suppresses expressions of uncertainty and penalizes the exploratory, self-corrective behaviors required to solve challenging problems. To address this, we introduce Negative Self-Distillation (NSD), a new framework that optimizes LLMs by diverging from flawed reasoning rather than imitating privileged solutions. Instead of relying on ground-truth answers or external supervision, NSD uses the model itself to generate a question-specific negative condition (eg, acting as a ``careless reasoner'') and pushes the student's distribution away from this self-generated negative teacher. Naively applying unlearning objectives to achieve this divergence is problematic, as flawed reasoning tokens are confounded with basic linguistic tokens; indiscriminately penalizing both risks catastrophically degrading the model's foundational language capabilities. We resolve this by designing a dynamic gating mechanism that automatically identifies and isolates reasoning-critical tokens, ensuring gradient updates target only behavioral flaws while preserving the model's linguistic priors. Empirically, NSD consistently outperforms OPSD and other label-free, self-bootstrapping reinforcement learning (RL) baselines.",
+      "url": "https://arxiv.org/abs/2609.11699",
+      "pdf_url": "https://arxiv.org/pdf/2609.11699",
       "primary_category": "OpenAlex",
       "source_queries": [
-        "VLM multimodal steering"
+        "Model editing internal representations"
       ],
       "code_urls": [],
       "openalex": {
-        "id": "https://openalex.org/W7212168418",
-        "doi": "10.1016/j.patcog.2026.114893",
+        "id": "https://openalex.org/W7212261691",
+        "doi": "10.48550/arxiv.2609.11699",
         "cited_by_count": 0
       },
-      "relevance_score": 4
+      "relevance_score": 9
     },
     {
       "id": "2609.11253",
@@ -492,7 +681,7 @@
         "Antoine Saillenfest"
       ],
       "published": "2026-09-10",
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "categories": [
         "Computer science",
         "Counterfactual thinking",
@@ -507,7 +696,10 @@
       "pdf_url": "https://arxiv.org/pdf/2609.11253",
       "primary_category": "cs.LG",
       "source_queries": [
-        "Feature latent concept steering"
+        "Feature latent concept steering",
+        "Persona sentiment attribute steering",
+        "Representation engineering",
+        "Steering vectors"
       ],
       "code_urls": [],
       "relevance_score": 7,
@@ -531,7 +723,7 @@
         "Abhinav M. Hari"
       ],
       "published": "2026-09-10",
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "categories": [
         "Computer science",
         "Disjoint sets",
@@ -545,7 +737,8 @@
       "pdf_url": "https://arxiv.org/pdf/2609.11216",
       "primary_category": "cs.LG",
       "source_queries": [
-        "Hidden-state intervention"
+        "Hidden-state intervention",
+        "Reasoning and CoT steering"
       ],
       "code_urls": [],
       "relevance_score": 4,
@@ -554,6 +747,86 @@
         "doi": "10.48550/arxiv.2609.11216",
         "cited_by_count": 0
       }
+    },
+    {
+      "id": "2609.11063",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "The information geometry of large language models is shared, learned, and controllable",
+      "authors": [
+        "Dario Picozzi"
+      ],
+      "published": "2026-09-10",
+      "updated": "2026-09-15",
+      "categories": [
+        "Computer science",
+        "Geometry",
+        "Language model",
+        "OpenAlex",
+        "Scale (ratio)",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Large language models learn similar behaviours, yet it remains unclear what structure they share or how to change one behaviour without disturbing others. The Fisher-Rao geometry of next-token probabilities connects these questions: behaviour determines this geometry up to output-preserving symmetries, whereas activation geometry depends on coordinates. Across transformer, state-space and recurrent models, output geometries agree more strongly than activation geometries, and shared geometry supports semantic-category transfer. Agreement with human word choices increases with predictive accuracy, scale and training, and improves further after model-only calibration. Token probabilities and read-out geometry jointly predict the spectrum and its effective dimension. Controlled language assignments show that geometry follows the language law across architectures. Pretraining corpus statistics predict held-out fact acquisition without recalibration, while randomised experiments show that deeper evidence substantially delays acquisition across every tested architecture and evidence construction. Finally, the geometry prescribes minimum-disturbance local interventions, predicts their relative cost, and supports reusable control: updates learned on donor prompts transfer to unseen prompts while better preserving behaviour on reference prompts than Euclidean control. The same geometric correction improves steering, editing, attribution, dictionary learning and fine-tuning.",
+      "url": "https://arxiv.org/abs/2609.11063",
+      "pdf_url": "https://arxiv.org/pdf/2609.11063",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation steering exact",
+        "Model editing internal representations",
+        "Persona sentiment attribute steering",
+        "Representation engineering",
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 8,
+      "openalex": {
+        "id": "https://openalex.org/W7212322067",
+        "doi": "10.48550/arxiv.2609.11063",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "doi:10.1016/j.patcog.2026.114893",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Visible–infrared remote sensing image fusion for object detection based on hybrid-level dual-input Mamba fusion",
+      "authors": [
+        "zhengqun ren",
+        "Huan Liu",
+        "Guangli Ben",
+        "Qisheng Hao",
+        "Boxiao Wang",
+        "Yongcheng Wang"
+      ],
+      "published": "2026-09-10",
+      "updated": "2026-09-13",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Fusion",
+        "Modal",
+        "OpenAlex"
+      ],
+      "abstract": "Existing visible–infrared fusion detectors often struggle to balance cross modal complementarity, redundancy, and conflict. Most multimodal Mamba methods pre-fuse the two modalities before state space modeling, causing complementary and conflicting cues to be jointly encoded and obscuring their sources and reliability during state evolution. To address this issue, we propose hybrid-level dual-input Mamba fusion framework (HDMF) for UAV based vehicle detection. At the feature level, dual-branch SimAM–wavelet attention (DSWA) identifies regions with significant cross modal differences and performs complementary or modality specific enhancement to suppress noise amplification and spurious responses. Binary fusion Mamba (BFMamba) then treats visible, infrared, and explicit interaction features as independent inputs to the state equations, enabling cross modal fusion to directly guide hidden state evolution while modeling long range dependencies with linear complexity. At the decision level, the tri-branch aware decision fusion head (TDFH) combines illumination priors and cross branch consistency to fuse predictions from visible, infrared, and fused branches, mitigating residual modal mismatch and prediction inconsistency. HDMF achieves COCO style mAP@0.5:0.95 scores of 56.62%, 69.82%, and 48.11% on DroneVehicle, LLVIP, and FLIR, respectively.",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114893",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7212168418",
+        "doi": "10.1016/j.patcog.2026.114893",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
     },
     {
       "id": "doi:10.55056/cssesw2025/paper11",
@@ -605,11 +878,11 @@
       "published": "2026-09-10",
       "updated": "2026-09-12",
       "categories": [
-        "OpenAlex",
-        "Surprise",
-        "Value (mathematics)",
         "Context (archaeology)",
-        "Reading (process)"
+        "OpenAlex",
+        "Reading (process)",
+        "Surprise",
+        "Value (mathematics)"
       ],
       "abstract": "Does fine-tuning a language model on a fact that contradicts what it already knows delete the old value, or merely let a new value out-compete it? Reading the model's own log-probabilities of the old and the new value across training answers it directly: across three models in two families (Qwen2.5-1.5B/3B and Llama-3.2-3B, the latter on two independent fact draws), contradictory fine-tuning leaves the old value within ~1-1.5 nats of its pre-contradiction reference — zero of the contradicted facts are erased — while the new value wins by rising, not by the old one falling. The same readout, applied to a localized weight edit (constrained FT-L on a different model, GPT-2 XL), instead reads erasure (log-probability of the old value collapses ~20 nats, no return under paraphrase), so the diagnostic discriminates: it reports an erasure when a real erasure occurs. The new value is up-weighted in proportion to the surprise of the correction (the error-proportional cross-entropy signature made directly visible); a stronger prior resists correction more (a moderate, per-fact reactance effect); and an across-layer tuned-lens reading localizes the change as a shallow late patch on an intact old-value trunk — the early and middle layers still compute the old value, and the new value is written almost entirely into the final layers. On the masked model the old value behaves like masked, not deleted, content: under a matched budget it is relearned several times faster than it was first installed, and a context shift recovers part of its margin (the rapid-reacquisition and renewal signatures documented for extinction in behavioural neuroscience). A pre-registered per-fact prediction about recovery reversed and is reported as a disconfirmation. The contribution is a lens, a validated mask-versus-erase diagnostic (with a continuous, threshold-insensitive erase index), and a cross-substrate unification — not a new unlearning method and no state-of-the-art forgetting number. The readout is the direct mask-versus-erase metric the unlearning literature has explicitly said it lacks. The competing-routes substrate is developed in the series' foundational papers, and the confident-wrong-at-the-near-tie reading is shared with the measurement-model companion. Data and code. The synthetic-fact generators, training and evaluation scripts, and per-checkpoint logit trajectories are released with the publication in the companion repository: https://github.com/tplund/friction-theory-p2f-compete-not-erase. v3 (August 2026) — attribution revision. Three credits are moved to where the claims live. Catastrophic interference is McCloskey and Cohen's (1989), who named it and argued the overwriting is a structural consequence of distributed representation; Kirkpatrick et al. (2017) had been standing in that place as the origin while being a mitigation of it. The distinction matters here because their question is the one this readout approaches from one side: they asked whether the earlier representation is overwritten in the weights, and this instrument reads the output distribution and is explicitly barred from that verdict. The logit lens is credited to nostalgebraist (2020) where the tuned lens (Belrose et al., 2023) is used as its calibrated refinement. And Biderman et al. (2024) now carry the adapter-class limitation, which matters more than the other two in a result built on low-rank adaptation, and which cuts both ways: an unchanged trunk is predicted both by an intervention that declined to rewrite it and by one that could not. The boundary against Patil et al. (2023) is redrawn at the right width and in the right order. Survival of a mid-layer trace is theirs. What their instrument cannot report is what was not written: it reads an already-edited model in a single pass with no pre-contradiction baseline, so a trace recovered mid-stack is equally consistent with a trunk left in place and one rewritten and partially recovered. The before-and-after comparison separates those, and that separation — not the survival — is what is claimed here; the introduction now carries the same split as the section that draws it. Earlier versions remain in the version history.",
       "url": "https://doi.org/10.5281/zenodo.22684992",
@@ -743,30 +1016,166 @@
       "relevance_score": 4
     },
     {
-      "id": "2609.11063",
+      "id": "2609.10658",
       "source": "arxiv",
       "sources": [
-        "arxiv"
+        "arxiv",
+        "openalex"
       ],
-      "title": "The information geometry of large language models is shared, learned, and controllable",
+      "title": "GEOSTEER: Geodesic Optimization for Activation Steering in Large Language Models",
       "authors": [
-        "Dario Picozzi"
+        "Xuan Cuong Ngo",
+        "Hao Vo",
+        "Ngan Le"
       ],
-      "published": "2026-09-10",
-      "updated": "2026-09-10",
+      "published": "2026-09-09",
+      "updated": "2026-09-15",
       "categories": [
-        "cs.CL",
+        "Computer science",
+        "Geodesic",
+        "OpenAlex",
+        "Representation (politics)",
+        "Sequence (biology)",
         "cs.LG"
       ],
-      "abstract": "Large language models learn similar behaviours, yet it remains unclear what structure they share or how to change one behaviour without disturbing others. The Fisher-Rao geometry of next-token probabilities connects these questions: behaviour determines this geometry up to output-preserving symmetries, whereas activation geometry depends on coordinates. Across transformer, state-space and recurrent models, output geometries agree more strongly than activation geometries, and shared geometry supports semantic-category transfer. Agreement with human word choices increases with predictive accuracy, scale and training, and improves further after model-only calibration. Token probabilities and read-out geometry jointly predict the spectrum and its effective dimension. Controlled language assignments show that geometry follows the language law across architectures. Pretraining corpus statistics predict held-out fact acquisition without recalibration, while randomised experiments show that deeper evidence substantially delays acquisition across every tested architecture and evidence construction. Finally, the geometry prescribes minimum-disturbance local interventions, predicts their relative cost, and supports reusable control: updates learned on donor prompts transfer to unseen prompts while better preserving behaviour on reference prompts than Euclidean control. The same geometric correction improves steering, editing, attribution, dictionary learning and fine-tuning.",
-      "url": "https://arxiv.org/abs/2609.11063",
-      "pdf_url": "https://arxiv.org/pdf/2609.11063",
+      "abstract": "Activation steering provides a lightweight way to control large language models (LLMs) by modifying their hidden activations at inference time. Among these approaches, norm-preserving steering aims to change model behavior without altering the activation norm, reducing the risk of representation collapse and degradation. However, existing norm-preserving methods are limited by predefined steering trajectories and by their reliance on one-step updates, which may fail to capture the complex structure of activation distributions. We propose GeoSteer, an optimization-based method for norm-preserving activation steering. GeoSteer formulates steering as a Riemannian optimization problem and updates activations through a sequence of small geodesic steps on the representation manifold. To avoid fixed steering directions, GeoSteer learns a nonlinear activation-space objective that distinguishes desired from undesired activations, and uses this function to adaptively guide each steering step. This multistep formulation yields smoother, more stable, and more consistent steering behavior while preserving the activation norm. Across TruthfulQA, RealToxicityPrompts, and UltraFeedback benchmarks, GeoSteer consistently improves over state-of-the-art activation steering baselines. These results suggest that norm-preserving steering can be made more effective by replacing predefined one-step edits with adaptive, geometry-aware optimization.",
+      "url": "https://arxiv.org/abs/2609.10658",
+      "pdf_url": "https://arxiv.org/pdf/2609.10658",
       "primary_category": "cs.LG",
       "source_queries": [
-        "SAE steering"
+        "Activation intervention and patching",
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "Representation engineering"
       ],
       "code_urls": [],
-      "relevance_score": 8
+      "relevance_score": 11,
+      "openalex": {
+        "id": "https://openalex.org/W7212239621",
+        "doi": "10.48550/arxiv.2609.10658",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.10439",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Forgetting Only What Matters: Layer-Selective Unlearning toward Robust LLMs",
+      "authors": [
+        "Ravi Ranjan",
+        "Olivera Kotevska",
+        "Agoritsa Polyzou"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-15",
+      "categories": [
+        "Computer science",
+        "Forgetting",
+        "Memorization",
+        "OpenAlex",
+        "Software deployment"
+      ],
+      "abstract": "Large Language Models (LLMs) can memorize and reproduce sensitive, copyrighted, or otherwise undesirable training content, creating privacy, safety, and regulatory concerns. Machine unlearning offers a practical alternative to full retraining, but many existing methods apply broad or fixed parameter updates that can degrade utility and remain brittle under deployment changes such as post-training quantization, where forgotten knowledge may partially re-emerge. We propose Forgetting Only What Matters via Unlearning Layers (FOM-UL), a layer-level unlearning framework that selects transformer layers using a forget-to-retain significance score. This score identifies layers with high influence on the forget set and low sensitivity to the retain set, allowing FOM-UL to concentrate updates where they are most effective while leaving most of the model unchanged. This targeted update strategy improves the forgetting-utility trade-off and provides an empirical path toward quantization-resilient unlearning by reducing the chance that small, diffuse updates are erased by low-bit rounding. Across TOFU, KnowUnDo, and MUSE-style evaluations, FOM-UL reduces residual memorization compared with strong GA, NPO, KLD, SURE, ReLearn, and LUNAR-based baselines while preserving retain-set utility close to the vanilla model. Under 8-bit and 4-bit post-training quantization, FOM-UL maintains stronger memorization suppression and utility preservation than competing methods, and adversarial prompt evaluations show lower recovery of forgotten content. Overall, FOM-UL provides an efficient unlearning strategy that improves targeted forgetting, utility preservation, and deployment robustness without claiming formal guarantees of erasure.",
+      "url": "https://arxiv.org/abs/2609.10439",
+      "pdf_url": "https://arxiv.org/pdf/2609.10439",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7212133270",
+        "doi": "10.48550/arxiv.2609.10439",
+        "cited_by_count": 0
+      },
+      "relevance_score": 11
+    },
+    {
+      "id": "2609.10123",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "If It's Not Buggy, Don't Fix It: On the Dynamics of Iterative Bug-fixing with LLMs",
+      "authors": [
+        "Xietao Wang-Lin",
+        "Anton Isopoussu",
+        "Louis Mahon"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-15",
+      "categories": [
+        "Code (set theory)",
+        "Computer science",
+        "Dynamics (music)",
+        "OpenAlex",
+        "Representation (politics)",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "abstract": "Large language models (LLMs) have become ubiquitous in software development, with LLM-based automated program repair tools increasingly used during code review. In this report, we explore the iterative blind use of LLMs as bug-fixers. Across multiple models and repair environments, we find that LLMs consistently claim to detect bugs in entirely bug-free programs while the rate of repair of buggy programs is less than that of the damage to correct programs. We also explore the long-term dynamics of this iterative process, and find that this frequently reaches a pseudo-bug-fixing cycle where the same changes are added and removed again ad infinitum. Lastly, via mechanistic probing, we unveil the existence of a steering vector which controls the editing propensity, suggesting that LLMs have an internal representation of ``buggy code\", and that this representation is what is falsely activated to induce pseudo-bug fixing. These results provide insight towards the dynamics of fully autonomous bug-fixing systems, as well as stopping conditions under ambiguous goals.",
+      "url": "https://arxiv.org/abs/2609.10123",
+      "pdf_url": "https://arxiv.org/pdf/2609.10123",
+      "primary_category": "cs.SE",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Steering vectors",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 12,
+      "openalex": {
+        "id": "https://openalex.org/W7212183428",
+        "doi": "10.48550/arxiv.2609.10123",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.09848",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Subgroup Membership Inference Audits of Differentially Private Synthetic Text",
+      "authors": [
+        "Yidan Sun",
+        "Viktor Schlegel",
+        "Srinivasan Nandakumar",
+        "Siew Kei Lam",
+        "Anil Anthony Bharath"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-15",
+      "categories": [
+        "Audit",
+        "Audit trail",
+        "Computer science",
+        "Inference",
+        "OpenAlex",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "Synthetic data releases are increasingly proposed in the literature as a means of sharing realistic data replicas in lieu of sensitive private datasets. Even when the worst-case privacy leakage of such releases is bounded by means of differential privacy (DP), in practice a residual risk remains. Membership inference attack (MIA) audits are conducted to empirically quantify this risk. However, existing methods only measure average-case risk for randomly drawn records, which might conceal the risk to vulnerable subgroups. To highlight this issue, we define a subgroup-targeted membership inference game in which the target pool is an explicit parameter, and instantiate it with an audit of 32 proxies under three scenarios with different levels of attacker knowledge, across four datasets, three generators (DP-SGD fine-tuning, API-based prompting, and activation steering), and five privacy budgets. The audit shows that synthetic releases leak subgroup membership and that prior attacks systematically underestimate this leakage. DP is effective at the aggregate level: it substantially reduces average leakage at every budget we test. Three observations temper this picture. First, the remaining leakage is concentrated rather than spread out: under DP, a tenth of the records carries roughly 40% of it. Second, the protection DP delivers in practice is uneven: within its worst-case guarantee, the noise removes more of the measured leakage from random records than from high-risk ones---and a merged-pool audit that scores both record types against shared negatives confirms this at the record level. Third, \\emph{which} records leak proves to be a property of the release mechanism rather than of the record alone, so record-level risk cannot be assessed independently of the release.",
+      "url": "https://arxiv.org/abs/2609.09848",
+      "pdf_url": "https://arxiv.org/pdf/2609.09848",
+      "primary_category": "cs.CR",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 4,
+      "openalex": {
+        "id": "https://openalex.org/W7212171504",
+        "doi": "10.48550/arxiv.2609.09848",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "2609.10715",
@@ -836,122 +1245,6 @@
       }
     },
     {
-      "id": "2609.10439",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Forgetting Only What Matters: Layer-Selective Unlearning toward Robust LLMs",
-      "authors": [
-        "Ravi Ranjan",
-        "Olivera Kotevska",
-        "Agoritsa Polyzou"
-      ],
-      "published": "2026-09-09",
-      "updated": "2026-09-14",
-      "categories": [
-        "OpenAlex",
-        "Forgetting",
-        "Computer science",
-        "Software deployment",
-        "Memorization"
-      ],
-      "abstract": "Large Language Models (LLMs) can memorize and reproduce sensitive, copyrighted, or otherwise undesirable training content, creating privacy, safety, and regulatory concerns. Machine unlearning offers a practical alternative to full retraining, but many existing methods apply broad or fixed parameter updates that can degrade utility and remain brittle under deployment changes such as post-training quantization, where forgotten knowledge may partially re-emerge. We propose Forgetting Only What Matters via Unlearning Layers (FOM-UL), a layer-level unlearning framework that selects transformer layers using a forget-to-retain significance score. This score identifies layers with high influence on the forget set and low sensitivity to the retain set, allowing FOM-UL to concentrate updates where they are most effective while leaving most of the model unchanged. This targeted update strategy improves the forgetting-utility trade-off and provides an empirical path toward quantization-resilient unlearning by reducing the chance that small, diffuse updates are erased by low-bit rounding. Across TOFU, KnowUnDo, and MUSE-style evaluations, FOM-UL reduces residual memorization compared with strong GA, NPO, KLD, SURE, ReLearn, and LUNAR-based baselines while preserving retain-set utility close to the vanilla model. Under 8-bit and 4-bit post-training quantization, FOM-UL maintains stronger memorization suppression and utility preservation than competing methods, and adversarial prompt evaluations show lower recovery of forgotten content. Overall, FOM-UL provides an efficient unlearning strategy that improves targeted forgetting, utility preservation, and deployment robustness without claiming formal guarantees of erasure.",
-      "url": "https://arxiv.org/abs/2609.10439",
-      "pdf_url": "https://arxiv.org/pdf/2609.10439",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Model editing internal representations"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7212133270",
-        "doi": "10.48550/arxiv.2609.10439",
-        "cited_by_count": 0
-      },
-      "relevance_score": 11
-    },
-    {
-      "id": "2609.09848",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Subgroup Membership Inference Audits of Differentially Private Synthetic Text",
-      "authors": [
-        "Yidan Sun",
-        "Viktor Schlegel",
-        "Srinivasan Nandakumar",
-        "Siew Kei Lam",
-        "Anil Anthony Bharath"
-      ],
-      "published": "2026-09-09",
-      "updated": "2026-09-14",
-      "categories": [
-        "Audit",
-        "Audit trail",
-        "Computer science",
-        "Inference",
-        "OpenAlex",
-        "cs.AI",
-        "cs.CR"
-      ],
-      "abstract": "Synthetic data releases are increasingly proposed in the literature as a means of sharing realistic data replicas in lieu of sensitive private datasets. Even when the worst-case privacy leakage of such releases is bounded by means of differential privacy (DP), in practice a residual risk remains. Membership inference attack (MIA) audits are conducted to empirically quantify this risk. However, existing methods only measure average-case risk for randomly drawn records, which might conceal the risk to vulnerable subgroups. To highlight this issue, we define a subgroup-targeted membership inference game in which the target pool is an explicit parameter, and instantiate it with an audit of 32 proxies under three scenarios with different levels of attacker knowledge, across four datasets, three generators (DP-SGD fine-tuning, API-based prompting, and activation steering), and five privacy budgets. The audit shows that synthetic releases leak subgroup membership and that prior attacks systematically underestimate this leakage. DP is effective at the aggregate level: it substantially reduces average leakage at every budget we test. Three observations temper this picture. First, the remaining leakage is concentrated rather than spread out: under DP, a tenth of the records carries roughly 40% of it. Second, the protection DP delivers in practice is uneven: within its worst-case guarantee, the noise removes more of the measured leakage from random records than from high-risk ones---and a merged-pool audit that scores both record types against shared negatives confirms this at the record level. Third, \\emph{which} records leak proves to be a property of the release mechanism rather than of the record alone, so record-level risk cannot be assessed independently of the release.",
-      "url": "https://arxiv.org/abs/2609.09848",
-      "pdf_url": "https://arxiv.org/pdf/2609.09848",
-      "primary_category": "cs.CR",
-      "source_queries": [
-        "Activation steering exact",
-        "Persona sentiment attribute steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 4,
-      "openalex": {
-        "id": "https://openalex.org/W7212171504",
-        "doi": "10.48550/arxiv.2609.09848",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2609.10658",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "GEOSTEER: Geodesic Optimization for Activation Steering in Large Language Models",
-      "authors": [
-        "Xuan Cuong Ngo",
-        "Hao Vo",
-        "Ngan Le"
-      ],
-      "published": "2026-09-09",
-      "updated": "2026-09-13",
-      "categories": [
-        "Computer science",
-        "Geodesic",
-        "OpenAlex",
-        "Representation (politics)",
-        "Sequence (biology)",
-        "cs.LG"
-      ],
-      "abstract": "Activation steering provides a lightweight way to control large language models (LLMs) by modifying their hidden activations at inference time. Among these approaches, norm-preserving steering aims to change model behavior without altering the activation norm, reducing the risk of representation collapse and degradation. However, existing norm-preserving methods are limited by predefined steering trajectories and by their reliance on one-step updates, which may fail to capture the complex structure of activation distributions. We propose GeoSteer, an optimization-based method for norm-preserving activation steering. GeoSteer formulates steering as a Riemannian optimization problem and updates activations through a sequence of small geodesic steps on the representation manifold. To avoid fixed steering directions, GeoSteer learns a nonlinear activation-space objective that distinguishes desired from undesired activations, and uses this function to adaptively guide each steering step. This multistep formulation yields smoother, more stable, and more consistent steering behavior while preserving the activation norm. Across TruthfulQA, RealToxicityPrompts, and UltraFeedback benchmarks, GeoSteer consistently improves over state-of-the-art activation steering baselines. These results suggest that norm-preserving steering can be made more effective by replacing predefined one-step edits with adaptive, geometry-aware optimization.",
-      "url": "https://arxiv.org/abs/2609.10658",
-      "pdf_url": "https://arxiv.org/pdf/2609.10658",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Activation steering exact"
-      ],
-      "code_urls": [],
-      "relevance_score": 11,
-      "openalex": {
-        "id": "https://openalex.org/W7212239621",
-        "doi": "10.48550/arxiv.2609.10658",
-        "cited_by_count": 0
-      }
-    },
-    {
       "id": "doi:10.3390/computation14090212",
       "source": "openalex",
       "sources": [
@@ -985,45 +1278,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 6
-    },
-    {
-      "id": "2609.10123",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "If It's Not Buggy, Don't Fix It: On the Dynamics of Iterative Bug-fixing with LLMs",
-      "authors": [
-        "Xietao Wang-Lin",
-        "Anton Isopoussu",
-        "Louis Mahon"
-      ],
-      "published": "2026-09-09",
-      "updated": "2026-09-12",
-      "categories": [
-        "Code (set theory)",
-        "Computer science",
-        "Dynamics (music)",
-        "OpenAlex",
-        "Representation (politics)",
-        "cs.CL",
-        "cs.SE"
-      ],
-      "abstract": "Large language models (LLMs) have become ubiquitous in software development, with LLM-based automated program repair tools increasingly used during code review. In this report, we explore the iterative blind use of LLMs as bug-fixers. Across multiple models and repair environments, we find that LLMs consistently claim to detect bugs in entirely bug-free programs while the rate of repair of buggy programs is less than that of the damage to correct programs. We also explore the long-term dynamics of this iterative process, and find that this frequently reaches a pseudo-bug-fixing cycle where the same changes are added and removed again ad infinitum. Lastly, via mechanistic probing, we unveil the existence of a steering vector which controls the editing propensity, suggesting that LLMs have an internal representation of ``buggy code\", and that this representation is what is falsely activated to induce pseudo-bug fixing. These results provide insight towards the dynamics of fully autonomous bug-fixing systems, as well as stopping conditions under ambiguous goals.",
-      "url": "https://arxiv.org/abs/2609.10123",
-      "pdf_url": "https://arxiv.org/pdf/2609.10123",
-      "primary_category": "cs.SE",
-      "source_queries": [
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "relevance_score": 12,
-      "openalex": {
-        "id": "https://openalex.org/W7212183428",
-        "doi": "10.48550/arxiv.2609.10123",
-        "cited_by_count": 0
-      }
     },
     {
       "id": "doi:10.5281/zenodo.22682198",
@@ -2167,6 +2421,51 @@
       "relevance_score": 4
     },
     {
+      "id": "doi:10.5281/zenodo.21356270",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "ceceli33/titan-cognitive-core: AkbasCore 1.2 — Damped Resonance Alignment",
+      "authors": [
+        "ceceli33"
+      ],
+      "published": "2026-09-05",
+      "updated": "2026-09-15",
+      "categories": [
+        "Acoustics",
+        "Benchmark (surveying)",
+        "CUDA",
+        "Computer science",
+        "Control theory (sociology)",
+        "OpenAlex",
+        "Parallel computing",
+        "Physics",
+        "Resonance (particle physics)"
+      ],
+      "abstract": "Inference-time activation steering kernel for transformer models. C++ implementation with critically damped resonance alignment. DOI: 10.5281/zenodo.21356271",
+      "url": "https://doi.org/10.5281/zenodo.21356270",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Activation steering exact",
+        "Mechanistic interpretability steering",
+        "Reasoning and CoT steering",
+        "Representation engineering",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [
+        "https://github.com/ceceli33/titan-cognitive-core"
+      ],
+      "openalex": {
+        "id": "https://openalex.org/W7168254481",
+        "doi": "10.5281/zenodo.21356270",
+        "cited_by_count": 0
+      },
+      "relevance_score": 21
+    },
+    {
       "id": "2609.06289",
       "source": "arxiv",
       "sources": [
@@ -2411,42 +2710,6 @@
       "openalex": {
         "id": "https://openalex.org/W7208820626",
         "doi": "10.5281/zenodo.22315579",
-        "cited_by_count": 0
-      },
-      "relevance_score": 7
-    },
-    {
-      "id": "doi:10.5281/zenodo.21356270",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "ceceli33/titan-cognitive-core: AkbasCore 1.2 — Damped Resonance Alignment",
-      "authors": [
-        "ceceli33"
-      ],
-      "published": "2026-09-05",
-      "updated": "2026-09-06",
-      "categories": [
-        "Acoustics",
-        "Computer science",
-        "Control theory (sociology)",
-        "OpenAlex",
-        "Physics",
-        "Resonance (particle physics)"
-      ],
-      "abstract": "Inference-time activation steering kernel for transformer models. C++ implementation with critically damped resonance alignment. DOI: 10.5281/zenodo.21356271",
-      "url": "https://doi.org/10.5281/zenodo.21356270",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation steering exact",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7168254481",
-        "doi": "10.5281/zenodo.21356270",
         "cited_by_count": 0
       },
       "relevance_score": 7
@@ -3530,6 +3793,49 @@
       ]
     },
     {
+      "id": "2609.00823",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Polished but Unresolved: Identifying Late-Stage Pressure States in Long-Horizon Tool-Use Agents",
+      "authors": [
+        "Haoyang Chen",
+        "Yi Liu",
+        "Jianzhi Shao",
+        "Xiaozhou Xu",
+        "Zhe Sun",
+        "Wei Hu"
+      ],
+      "published": "2026-09-01",
+      "updated": "2026-09-15",
+      "categories": [
+        "Action (physics)",
+        "CLARITY",
+        "Computer science",
+        "Context (archaeology)",
+        "OpenAlex",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Long-horizon tool-use agents need not only to search and plan, but also to decide when to finalize. We study late-stage pressure states, in which an agent is biased toward submitting a final answer that appears complete and polished while key constraints remain unresolved. We first train a linear probe to show that this pressure state is identifiable from the agent's hidden states. Then, we use activation interventions along this pressure direction and find that shifting the hidden states changes both the pressure score and whether the agent continues tool use or submits early. Through controlled context manipulations, we further see that the pressure is mitigated by constraint clarity and action mapping. Based on these findings, we propose Probe-Sensed Pressure Relief (PSPR), a plugin that applies lightweight pressure relief direction under moderate pressure and moves to structured organization under high pressure risk. Experiments on multiple long-horizon benchmarks show that our method consistently strengthens existing agent methods.",
+      "url": "https://arxiv.org/abs/2609.00823",
+      "pdf_url": "https://arxiv.org/pdf/2609.00823",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Feature latent concept steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 7,
+      "openalex": {
+        "id": "https://openalex.org/W7206148832",
+        "doi": "10.48550/arxiv.2609.00823",
+        "cited_by_count": 0
+      }
+    },
+    {
       "id": "2609.01878",
       "title": "GAPS: Dimension-Level Gates for Conditional Activation Steering",
       "authors": [
@@ -3573,49 +3879,6 @@
       "openalex": {
         "id": "https://openalex.org/W7207675104",
         "doi": "10.48550/arxiv.2609.01878",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2609.00823",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Polished but Unresolved: Identifying Late-Stage Pressure States in Long-Horizon Tool-Use Agents",
-      "authors": [
-        "Haoyang Chen",
-        "Yi Liu",
-        "Jianzhi Shao",
-        "Xiaozhou Xu",
-        "Zhe Sun",
-        "Wei Hu"
-      ],
-      "published": "2026-09-01",
-      "updated": "2026-09-14",
-      "categories": [
-        "Action (physics)",
-        "CLARITY",
-        "Computer science",
-        "Context (archaeology)",
-        "OpenAlex",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "abstract": "Long-horizon tool-use agents need not only to search and plan, but also to decide when to finalize. We study late-stage pressure states, in which an agent is biased toward submitting a final answer that appears complete and polished while key constraints remain unresolved. We first train a linear probe to show that this pressure state is identifiable from the agent's hidden states. Then, we use activation interventions along this pressure direction and find that shifting the hidden states changes both the pressure score and whether the agent continues tool use or submits early. Through controlled context manipulations, we further see that the pressure is mitigated by constraint clarity and action mapping. Based on these findings, we propose Probe-Sensed Pressure Relief (PSPR), a plugin that applies lightweight pressure relief direction under moderate pressure and moves to structured organization under high pressure risk. Experiments on multiple long-horizon benchmarks show that our method consistently strengthens existing agent methods.",
-      "url": "https://arxiv.org/abs/2609.00823",
-      "pdf_url": "https://arxiv.org/pdf/2609.00823",
-      "primary_category": "cs.AI",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Feature latent concept steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 7,
-      "openalex": {
-        "id": "https://openalex.org/W7206148832",
-        "doi": "10.48550/arxiv.2609.00823",
         "cited_by_count": 0
       }
     },
@@ -4099,11 +4362,11 @@
       "published": "2026-08-31",
       "updated": "2026-09-13",
       "categories": [
-        "OpenAlex",
         "Computer science",
-        "Set (abstract data type)",
         "Joins",
-        "Matching (statistics)"
+        "Matching (statistics)",
+        "OpenAlex",
+        "Set (abstract data type)"
       ],
       "abstract": "Deployed language model safeguards (safety fine-tuning, filtering, unlearning) vary by principal only outside the model weights: filters are reconfigured, tiers are multiplied, and artefacts are reissued; inside one set of weights every request meets the same model configuration. This motivates us to define capability-gated deployment: per-principal access control inside one set of weights, whose configurations form a lattice - meets accumulate a principal's restrictions and joins pool a coalition's reach. We instantiate it by sparse rank gating over an existing nested-factorisation mechanism, guide profile search with one-pass attribution, and read every result once from a pre-registered held-out split. Security composes: provably at meets under a monotone-elicitation assumption we falsify pointwise. In two lineages the median held-out meet deepens suppression; the one effect surviving correction strengthens it. Utility does not: individually harmless profiles can compose to retention and fluency damage, and no compositional bound exists.",
       "url": "https://arxiv.org/abs/2609.00445",
