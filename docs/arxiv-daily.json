@@ -1,6 +1,192 @@
 {
-  "generated_at": "2026-09-15T08:25:37+00:00",
+  "generated_at": "2026-09-16T08:11:32+00:00",
   "papers": [
+    {
+      "id": "2609.17376",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Large Language Models Develop Belief State Geometry In-Context",
+      "authors": [
+        "Daniel Balcells",
+        "Andrew Jun Lee",
+        "Chirag Rastogi",
+        "Paul M. Riechers",
+        "Adam Shai",
+        "Xavier Poncini"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-15",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Large language models (LLMs) trained on next-token prediction exhibit remarkable in-context learning (ICL) abilities, yet the representations that support ICL remain poorly understood. We consider such representations in a controlled setting: prompting LLMs with data emitted from hidden Markov models (HMMs) and probing for the corresponding belief state -- the posterior distribution over the HMM's hidden states given the observed token history. Across six open-source LLMs prompted with data from 40 HMMs selected for non-trivial belief structure, we find that belief states are linearly decodable from residual stream activations, with peak probe $R^2$-values from 0.83-0.99 across HMM and LLM combinations, ranging from early to late layers. To establish functional relevance, we intervene directly on the probe-identified subspace via patching and steering, resulting in downstream prediction quality on the order of the untampered model, while controls degrade performance substantially. Together, these results provide representation-level evidence that ICL in open-source LLMs approximates optimal Bayesian prediction over a context-inferred generative model. More broadly, our findings extend prior results linking input-distribution structure to activation geometry: from toy networks trained explicitly on HMM data to production-scale LLMs.",
+      "url": "https://arxiv.org/abs/2609.17376",
+      "pdf_url": "https://arxiv.org/pdf/2609.17376",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Hidden-state intervention"
+      ],
+      "code_urls": [],
+      "relevance_score": 10
+    },
+    {
+      "id": "2609.17152",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "ResLRP: The Role of Residual Cancellation in Attribution Instability in Vision Transformers",
+      "authors": [
+        "Jim Berend",
+        "Reduan Achtibat",
+        "Daniel Schäffer",
+        "Alexander Binder",
+        "Wojciech Samek",
+        "Sebastian Lapuschkin",
+        "Maximilian Dreyer"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-15",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Vision Transformers (ViTs) are central to most modern vision models, yet obtaining input attributions that are fine-grained, faithful, and stable remains challenging. Layer-wise Relevance Propagation (LRP) has been adapted to transformer attention, but in ViTs it often produces noisy, unfaithful explanations. We show that the missing ingredient is the treatment of residual connections: cancellation effects in residual pathways lead to attribution explosion. Moreover, we find that these cancellations are substantially stronger in ViTs than in language transformers. To address this issue, we introduce Residual-aware Layer-wise Relevance Propagation (ResLRP), a simple extension of LRP whose propagation rules explicitly account for cancellations in residual branches, are exactly conservative, and provably bound relevance explosion. Causal channel-wise interventions confirm that residual cancellation, not a generic regularization effect, drives the instability. ResLRP substantially improves attribution quality across faithfulness and localization, evaluated on ViT architectures spanning supervised, self-supervised, contrastive, hierarchical, and multimodal families, as well as on the ground-truth-controlled FunnyBirds benchmark. The largest gains arise in modern Vision Language Models (VLMs), with +27-29% localization and up to 3.4x faithfulness scores. Beyond benchmarks, ResLRP localizes Sparse Autoencoder (SAE) features in input space, and our residual amplification measure serves as an architecture-level diagnostic predicting where attribution degrades.",
+      "url": "https://arxiv.org/abs/2609.17152",
+      "pdf_url": "https://arxiv.org/pdf/2609.17152",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 10
+    },
+    {
+      "id": "2609.17076",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+      "authors": [
+        "Fengrui Liu",
+        "Ningxin Shen",
+        "Yi Li",
+        "Yiwei Fu",
+        "Feng Liu",
+        "Jiangmeng Li"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-15",
+      "categories": [
+        "cs.AI",
+        "cs.SD"
+      ],
+      "abstract": "Few-shot audio classifiers may rely on foreground-background co-occurrences and fail when those correlations shift. On SpurAudio, the resulting representation shift is concentrated and class dependent: for ResNet12, the top 10 percent of channels explain 82.80 percent of the null-corrected shift contribution. We propose SAMPLESELECT, which predicts a fixed-budget feature mask independently for each input while keeping the encoder and source classifier frozen. Training uses differentiable Gumbel Top-k selection with foreground classification and cross-background contrastive losses; inference uses deterministic Top-k masks and support-only linear adaptation. Across ResNet12 and Conv64 in 5-way 1-shot and 5-shot evaluation, SAMPLESELECT gives the best OOD accuracy among the compared methods and improves the matched full-representation control by 4.90-8.38 percentage points. Ablations and representation analyses further support the learned selection mechanism. Code is available at https://github.com/Cross-Innovation-Lab/SAMPLESELECT/",
+      "url": "https://arxiv.org/abs/2609.17076",
+      "pdf_url": "https://arxiv.org/pdf/2609.17076",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Representation engineering"
+      ],
+      "code_urls": [
+        "https://github.com/Cross-Innovation-Lab/SAMPLESELECT/"
+      ],
+      "relevance_score": 4
+    },
+    {
+      "id": "2609.16967",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Target-Language Generation in Multilingual Models: Activation Steering and Optimal Control",
+      "authors": [
+        "James A. Michaelov",
+        "Carmen Amo Alonso",
+        "Tyler A. Chang",
+        "Roger P. Levy"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-15",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Ensuring that multilingual language models generate coherent text in a specific target language is a major issue in multilingual language modeling. We develop an optimal control method for target-language text generation as well as a framework for evaluating the quality of generated text in terms of language adherence, linguistic coherence, and semantic coherence. We find that the proposed method performs at least as well as the prominent difference-in-means activation steering method for the majority of models tested, with substantially less hyperparameter tuning required.",
+      "url": "https://arxiv.org/abs/2609.16967",
+      "pdf_url": "https://arxiv.org/pdf/2609.16967",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "relevance_score": 7
+    },
+    {
+      "id": "2609.16927",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Verbalizing Subliminal Learning Effects Using Text Optimization",
+      "authors": [
+        "Nathan Hu",
+        "Sanmi Koyejo",
+        "Christopher Potts"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-15",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Subliminal learning is a phenomenon in which a distillation dataset transmits traits from the teacher model that are not legibly encoded in the dataset itself. This introduces a new challenge for model development and creates new risks from data poisoning. In this work, we use text optimization to detect subliminal learning effects and describe them as legible prompts. Subliminal learning from a prompted teacher motivates our approach. We observe that this is a special case of context distillation and leverage this observation to show that, in theory, the prompted subliminal learning dataset identifies the teacher's prompt. We reduce recovering this prompt to a text optimization problem and present a method to approximately solve it. Our method, SALVE (Search-Aided Latent Verbalization), optimizes a soft prompt, queries the same model to verbalize it as text, and uses beam search to make the verbalization reliable. In the standard subliminal learning setting, SALVE reliably recovers legible prompts that name the teacher's trait, while common text optimization methods fail to do so. In addition, we find that there are settings in which SALVE recovers the teacher's trait from a dataset even when subliminal learning fails, but that modifying student training to improve context distillation can create subliminal learning effects. We lastly show that SALVE detects subliminal learning effects in three additional settings: (1) mixtures of subliminal learning data and unrelated data, (2) data generated when the teacher is biased via activation steering, and (3) subsets of real preference data selected via Logit-Linear Selection. Overall, our results deepen our understanding of subliminal learning and present SALVE as a method to proactively detect subliminal learning effects.",
+      "url": "https://arxiv.org/abs/2609.16927",
+      "pdf_url": "https://arxiv.org/pdf/2609.16927",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "relevance_score": 5
+    },
+    {
+      "id": "2609.16890",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Cascade: Hierarchical Recoverability Control for Large Language Model Unlearning",
+      "authors": [
+        "Qingchen Yu",
+        "Shiying Duan",
+        "Xiaodong Li",
+        "Yuhua Wang",
+        "Zhiyu Li",
+        "Shiji Zhou",
+        "Yifan Sun",
+        "Zhaoxin Fan"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-15",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large Language Model (LLM) unlearning is essential for removing sensitive or copyrighted knowledge while preserving general utility. Existing methods often leave residual knowledge in intermediate representations, which can still be recovered. To address this, we propose Cascade, a hierarchical recoverability control framework that minimizes the internal identifiability of target knowledge. Cascade combines three complementary controls: path-level routing to suppress privacy-associated activation routes, representation-level compression to reduce geometric separability, and decoding-level intervention to limit residual recovery. Experiments on TOFU, MUSE-News, and WMDP, including robustness tests with query reformulation and extraction-style prompts, show that Cascade effectively reduces recoverability while maintaining stable model utility.",
+      "url": "https://arxiv.org/abs/2609.16890",
+      "pdf_url": "https://arxiv.org/pdf/2609.16890",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "relevance_score": 8
+    },
     {
       "id": "doi:10.5281/zenodo.22755390",
       "source": "openalex",
@@ -141,6 +327,247 @@
         "cited_by_count": 0
       },
       "relevance_score": 5
+    },
+    {
+      "id": "2609.16436",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Interpreting and Steering LLM Agents for Social Simulations",
+      "authors": [
+        "Jiayue Gaveal Fan",
+        "Arul Murugan",
+        "Shreyas Krishnan",
+        "Abhishek Nagaraj"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Simulations based on large language models (LLMs) have proven to be powerful for understanding human behavior, making them valuable additions to the social scientific toolkit. However, LLMs are ultimately black boxes based on deep neural networks which limits their value for social science. This is because of a lack of (i) interpretability: i.e. the ability to assign clear mechanisms driving observed behavior; and a lack of (ii) steerability: i.e. the ability to mute or amplify specific theoretically meaningful mechanisms of action to drive specific model behavior. Here, we demonstrate how the black box could be opened up to further enrich LLM-based simulations. Specifically, we compare three types of methods: (1) prompt-based manipulation, (2) SAE-derived feature steering, and (3) probe-based direction steering and examine their utility for LLM-based social scientific simulations. We do so by interpreting and steering two foundational components of human behaviors, namely preferences (risk attitudes, altruism) and capabilities (divergent creativity, product innovation), operationalized using four classic economic and creative tasks implemented as natural-language interactions. Overall, our results show that SAE- and probe-based techniques often outperform basic prompt-based methods for steering LLM agents, although this advantage depends on the specific prompting strategy involved. Together, SAEs and probes constitute an effective pipeline for social scientists seeking to interpret and steer agents in social simulations: SAEs decompose agents' internal representations into human-readable features, after which probes can reliably shift agents' behaviors in specified directions. We discuss implications of these methods for future work using LLM agents for social scientific simulations.",
+      "url": "https://arxiv.org/abs/2609.16436",
+      "pdf_url": "https://arxiv.org/pdf/2609.16436",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Feature latent concept steering",
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 12
+    },
+    {
+      "id": "2609.16247",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
+      "authors": [
+        "Valen Tagliabue",
+        "Leonard Dung",
+        "Cameron Berg"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Large language models sometimes behave in ways resembling human emotional responses, and recent work has identified internal representations that may explain this. We ask whether LLMs represent pain distinctly from fear, sadness, and generic negative valence, and whether this representation functions as pain would be expected to. We build a dataset describing painful situations across five categories: physical, psychological, social, moral, and cognitive. These are paired with controls for fear, negative emotion, negative world states, sadness, non-painful bodily sensation, arousal, numbness, and neutral content. Using denoised difference-in-means, we extract a linear pain direction from 25 open-weight models across five families, ranging from 2B to 72B parameters. We find that this direction separates pain from matched controls in base and instruction-tuned models, is nearly orthogonal to fear and negative valence, and promotes pain-related vocabulary through the unembedding matrix. We then test its functional properties. First, the direction responds to harm targeting the model but not suffering observed in the user; fear and negative-emotion directions show the opposite pattern. Second, adding the pain-direction vector to the model's residual-stream activations during generation produces a consistent progression from vague discomfort to first-person expressions of worthlessness and failure. Third, steered, fine-tuned Qwen 2.5 models choose a pain-relief button even when it worsens their next answer or harms the user. They press it again far less often when the button removes the steering vector than when it does not, even though the models are never told whether the vector is injected or removed. We discuss the implications of these findings for AI safety and welfare.",
+      "url": "https://arxiv.org/abs/2609.16247",
+      "pdf_url": "https://arxiv.org/pdf/2609.16247",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Safety refusal behavior steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 13
+    },
+    {
+      "id": "2609.16229",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Test-Time Unlearning via Sparse Autoencoder",
+      "authors": [
+        "Pingzhi Li",
+        "Jinhao Duan",
+        "Vaishnav Tadiparthi",
+        "Nakul Agarwal",
+        "Kwonjoon Lee",
+        "Ehsan Moradi Pari",
+        "Hossein Nourkhiz Mahjoub",
+        "Sijia Liu",
+        "Tianlong Chen"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Machine unlearning aims to remove specific knowledge from a trained large language model (LLM) without retraining from scratch. Existing methods modify model weights via gradient ascent and its advances. While effective on certain benchmarks, these weight-based approaches exhibit a sharp forget-utility trade-off, where stronger forgetting of target knowledge can degrade model utility, and unlearned knowledge may reappear under post-unlearning fine-tuning or prompt attacks. We propose ARIA (autoencoder-gated inference-time unlearning), a test-time unlearning method that leaves model weights intact and gates access to unwanted knowledge only when generation enters a forget-related state. ARIA uses sparse autoencoder (SAE) latents to train a lightweight linear detector, then applies an interpretable intervention on triggered states with negligible test-time overhead. Empirical evaluations on TOFU, R-TOFU, and WMDP show that ARIA improves the forget-retain trade-off over weight-based baselines across both a thinking model (DeepSeek-R1-Distilled-Qwen-1.5B) and an instruction model (Gemma-3-1B-it), e.g., reducing WMDP-cyber forget-set accuracy significantly while keeping MMLU within 1% of the pre-unlearning model. We further introduce three post-unlearning adversarial attacks targeting weight-space and decoding-space recovery, and find that ARIA remains robust under all three, with forgetting changing by less than 1% under attack. A feature-level case study leveraging the interpretability of ARIA suggests that some retain degradation may reflect response styles underlying the unlearning data rather than leakage of the targeted knowledge itself, highlighting a potential source of bias in unlearning task construction.",
+      "url": "https://arxiv.org/abs/2609.16229",
+      "pdf_url": "https://arxiv.org/pdf/2609.16229",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 11
+    },
+    {
+      "id": "2609.15975",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
+      "authors": [
+        "Shwai He",
+        "Haichao Zhang",
+        "Shen Yan"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Transformer representations evolve through learned additive transformations that either preserve their current direction or redirect it. We study this evolution as a functional geometry, decomposing learned updates into parallel and perpendicular components. Across pretrained models, we find substantial parallel components beyond the residual identity path. We then apply the decomposition in two spaces: to attention and MLP updates relative to the hidden state, and to attention value aggregation relative to the current token's value. Targeted edits reveal a strongly space-dependent asymmetry: exclude-self value-space parallel manipulation is markedly more robust than residual-space and perpendicular counterparts, preserving the direct self message while scaling only the non-self aggregate. The same decomposition gives a component-resolved description of compression-induced update error: perpendicular error separates compression methods more clearly than parallel error. Extensive experiments further demonstrate that full-aggregate parallel suppression during from-scratch pretraining lowers validation-loss trajectories and improves downstream averages, with the value-space variant strongest. Together, these results connect representation geometry to editing robustness, compression diagnosis, and training-time intervention. Code is available in the \\href{https://github.com/Shwai-He/Transformer-Geometry}{project repository}.",
+      "url": "https://arxiv.org/abs/2609.15975",
+      "pdf_url": "https://arxiv.org/pdf/2609.15975",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Hidden-state intervention"
+      ],
+      "code_urls": [
+        "https://github.com/Shwai-He/Transformer-Geometry"
+      ],
+      "relevance_score": 4
+    },
+    {
+      "id": "2609.15654",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Empathy Is Steerable but Multi-Axial: Mechanism Geometry and Persona Effects in LLMs",
+      "authors": [
+        "JuHeon Ha",
+        "Byounghan Lee",
+        "Yunseo Choi",
+        "Kyung-Ah Sohn"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Activation steering has been used to control traits such as honesty, refusal, and sycophancy, yet supportive empathy is evaluated along multiple dimensions that need not correspond to independently controllable activation directions. Using the EPITOME framework, which decomposes supportive empathy into Emotional Reactions, Interpretations, and Explorations, we study three instruction-tuned LLMs and ask whether candidate directions derived from these labels produce distinguishable intervention effects or instead share structure, and how persona prompts interact with those directions. We find that contrastive activation addition yields a stable middle-layer intervention that consistently shifts the EPITOME proxy scores across models, moving empathy analysis beyond response-level scoring. However, the recovered directions are only partially separable: steering one direction induces off-target shifts, and hand-crafted prompting shifts the empathy profile rather than isolating a single dimension. Persona prompts substantially change EPITOME scores, but a paired activation-shift decomposition shows that the recovered subspace captures only approximately 3 percent of persona-induced squared activation-shift magnitude at layer 15. Under this EPITOME-based definition, expressed empathy is steerable but multi-axial, and controlling persona-conditioned empathy requires targeting structure beyond individual mechanism directions.",
+      "url": "https://arxiv.org/abs/2609.15654",
+      "pdf_url": "https://arxiv.org/pdf/2609.15654",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 13
+    },
+    {
+      "id": "2609.15277",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Artificial entrepreneurial cognition: Locating and causally steering an opportunity recognition dial inside large language models (LLMs)",
+      "authors": [
+        "Christian Fisch",
+        "Angela Altmeier",
+        "Martin Obschonka",
+        "Michal Kosinski",
+        "Pin Ni"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Entrepreneurial cognition is a foundation of entrepreneurship research. Yet the growing involvement of large language models (LLMs) in entrepreneurial work extends the cognition question beyond human actors to systems whose internal representations remain largely unexplored. We introduce artificial entrepreneurial cognition, the functional organisation of entrepreneurship-relevant representations and computations inside artificial intelligence (AI) systems. We bring mechanistic interpretability into entrepreneurship research through representation engineering. Focusing on opportunity recognition (OR), we construct 636 matched OR-present and OR-absent scenario pairs and recover an OR direction in Llama 3.1 8B-Instruct. Rather than infer the construct from outputs, we intervene directly on this direction, steering the model up and down along what we call the opportunity recognition dial, and its opportunity judgments shift with it. To our knowledge, this is the first causal intervention on an internal representation of an entrepreneurship construct inside an LLM. Held-out tests, lexical and topical controls, behavioural ablation, and geometric comparisons show that the direction is recoverable, consequential, and distinct from the opportunity evaluation and exploitation directions, although steering it also shifts judgments about these neighbouring stages. Recovery, signed steering, and geometric separation hold across four additional LLMs spanning different scales and families. These results give the contested distinction between opportunity recognition and evaluation a concrete representational form inside AI systems. More broadly, they establish internal representations as a new object of entrepreneurship inquiry and show how entrepreneurship theory can guide their identification, causal manipulation, and interpretation.",
+      "url": "https://arxiv.org/abs/2609.15277",
+      "pdf_url": "https://arxiv.org/pdf/2609.15277",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Mechanistic interpretability steering",
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "relevance_score": 15
+    },
+    {
+      "id": "2609.15126",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "MoME: Mixture-of-Memory Embeddings for Context-Aware Sparse Lookup",
+      "authors": [
+        "Muchen Li",
+        "Leonid Sigal",
+        "Renjie Liao"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Scaling large language models efficiently has motivated sparse capacity mechanisms such as Mixture-of-Experts and, more recently, conditional memory: token-indexed embedding tables that augment the backbone with cheap parametric lookups. Existing memory-embedding methods retrieve via a deterministic function of the surface form, which collapses different contextual senses of the same token (e.g., python the language vs. the animal) into a single fixed entry. We introduce Mixture of Memory Embeddings (MoME), a context-aware memory mechanism that replaces each token's single memory row with a mixture of M slots and uses a learned gate over the hidden state to choose which slots to read at each position. In controlled pretraining experiments across nanochat, Llama-3/MobileLLM, and Qwen3 backbones, MoME improves over Value Embedding, Bigram, and STEM baselines in iso-parameter and iso-training-FLOP settings, shows a more promising memory-size scaling trend at sub-billion scale, and remains efficient in training and inference. Qualitative routing analyses on polysemous tokens further suggest that the learned mixture exhibits a degree of semantic interpretability, dispatching the same surface token to distinct memory slots under different senses.",
+      "url": "https://arxiv.org/abs/2609.15126",
+      "pdf_url": "https://arxiv.org/pdf/2609.15126",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Hidden-state intervention"
+      ],
+      "code_urls": [],
+      "relevance_score": 8
+    },
+    {
+      "id": "2609.15064",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "What Does an LLM Learn from Reinforcement Learning? A Mechanistic Interpretability Perspective with Fixed-SAE Track",
+      "authors": [
+        "Lingheng Du",
+        "Yiming Tang",
+        "Xufeng Duan",
+        "Dianbo Liu"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Reinforcement learning (RL) is widely utilized in large language model training to improve targeted capabilities, yet how RL reshapes a model remains poorly understood. Prior attempts to explain how RL works largely offer behavioral perspectives, leaving open what RL gives a model at the representation level: can RL create genuinely novel features, and which existing features does it enhance or suppress? Recent developments in mechanistic interpretability suggest sparse autoencoders (SAEs) as a promising lens to decompose internal activations into human-interpretable features; however, they cannot be directly applied to tracking change across training. In this work, we introduce Fixed-SAE Track, a framework that trains one shared SAE per considered layer on activations pooled across the base model and all RL checkpoints, holding every feature direction fixed so that representation shifts are rigorously defined through the activations of interpretable SAE latents, including the detection of emerging novel features. Validated across multiple datasets and RL algorithms, we find that RL-induced drift is small, gradual, concept specific, and concentrated in late layers, mainly enhancing the sampling rates of a small set of ladder tokens, formatting scaffolding such as step breaks and answer delimiters, rather than reshaping problem content. Steering these features into the base model recovers around 80% of RL's performance gain, suggesting that RL primarily elicits capabilities the model already possesses, much as steering does. We further design a synthetic benchmark with features known by construction to test whether RL can instill genuinely novel features. We believe Fixed-SAE Track provides a principled approach to tracking representation shifts and offers representational evidence for understanding how reinforcement learning changes the inner representation of LLMs.",
+      "url": "https://arxiv.org/abs/2609.15064",
+      "pdf_url": "https://arxiv.org/pdf/2609.15064",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Mechanistic interpretability steering",
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 10
     },
     {
       "id": "doi:10.6084/m9.figshare.33684505.v1",
@@ -290,6 +717,38 @@
       "relevance_score": 12
     },
     {
+      "id": "2609.14685",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "ViTeGate: Visual-Textual Triggered Knowledge Poisoning for Vision-Language Retrieval-Augmented Generation",
+      "authors": [
+        "Xue Tan",
+        "Xuandi Zeng",
+        "Yu Shao",
+        "Zhongli Fang",
+        "Mingyu Luo",
+        "Xiaoyan Sun",
+        "Ping Chen",
+        "Jun Dai"
+      ],
+      "published": "2026-09-13",
+      "updated": "2026-09-13",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Modern Vision-Language Retrieval-Augmented Generation (VLRAG) systems augment Large Vision-Language Models (LVLMs) with retrieved visual and textual evidence, enabling responses grounded in external knowledge. However, the retrieval pipeline also creates an attack surface: adversaries can inject poisoned image-text pairs into the knowledge corpus to influence model outputs. Existing knowledge poisoning attacks are typically always-on, allowing poisoned evidence to affect generation whenever it is retrieved. This lack of precise activation control makes it difficult to confine malicious behavior to intended inputs, reducing both attack stealth and effectiveness. In this paper, we propose ViTeGate, a visual-textual triggered knowledge poisoning attack for VLRAG systems. ViTeGate uses a visual trigger to conditionally promote poisoned evidence into retrieval results and a textual trigger to induce an attacker-specified response from the retrieved evidence. By coordinating retrieval and generation, ViTeGate reduces poison exposure when the visual trigger is absent and preserves normal responses when the textual trigger is absent. The two-trigger design enables selective attack activation and reduces unintended single-trigger activation. Experiments across multiple query datasets, retrievers, and LVLMs validate the effectiveness of ViTeGate. On InfoSeek, ViTeGate achieves an attack success rate of up to 0.98 while maintaining a clean answer accuracy of up to 0.93.",
+      "url": "https://arxiv.org/abs/2609.14685",
+      "pdf_url": "https://arxiv.org/pdf/2609.14685",
+      "primary_category": "cs.CR",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "relevance_score": 10
+    },
+    {
       "id": "doi:10.5281/zenodo.22727781",
       "source": "openalex",
       "sources": [
@@ -436,6 +895,63 @@
       "relevance_score": 8
     },
     {
+      "id": "2609.14151",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Signatures of Steerability in Activation Space of Language Models",
+      "authors": [
+        "Prajjwal Bhattarai",
+        "Tuka Alhanai"
+      ],
+      "published": "2026-09-12",
+      "updated": "2026-09-12",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Steering language models using a set of contrastive representations has been a canonical and computationally efficient method for controlling model behavior. Despite this success in controlling certain model behaviors, the effectiveness of activation steering varies markedly across concepts; the generalization properties of steering vectors are often considered a function of the dataset used to construct them. We make this dataset-dependence claim more rigorous and show that simple separation metrics strongly correlate with the downstream steerability of language models across diverse settings, even after controlling for layers and dataset effects. Beyond prediction, we provide evidence from a synthetic superposition experiment that separation metrics are strongly correlated with alignment between the empirical and true feature direction. Our results suggest that simple separability statistics can serve as practical diagnostics for when steering vectors are likely to work.",
+      "url": "https://arxiv.org/abs/2609.14151",
+      "pdf_url": "https://arxiv.org/pdf/2609.14151",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation steering exact",
+        "Safety refusal behavior steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 11
+    },
+    {
+      "id": "2609.13745",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Inside VLM Chart Reading: Tracing Value Reading from Vertical Bar Charts Across Space and Depth",
+      "authors": [
+        "Tianhao Niu",
+        "Qingfu Zhu",
+        "Wanxiang Che"
+      ],
+      "published": "2026-09-12",
+      "updated": "2026-09-12",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Vision--language models (VLMs) can answer chart questions accurately, but output accuracy does not show how they combine the evidence needed to recover an exact value. We study vertical-bar value reading with controlled counterfactual activation patching in Qwen2.5VL-7B-Instruct and InternVL3.5-8B. The study connects three analyses: (1) The single-factor results show that the changed bar-top region restores much more answer preference than the unchanged bar body, despite containing fewer visual tokens. Legend- and series-related states also lose local recoverability earlier than bar-geometry and axis-scale states. (2) In the handoff analysis, restoration shifts from visual legend regions in early layers to prompt-series positions in middle layers. Resetting the prompt-series state selectively reduces legend-source rescue, supporting its role as a partial mediator. (3) In the factorial analysis, both models can use geometry and scale states from separate donors to favor the combined target. InternVL performs similarly when the states come from separate donors or one image, while Qwen shows lower restoration for separate donors which suggests higher context sensitivity. Together, these results provide preliminary causal evidence for localizing the internal computations that support exact bar-value reading.",
+      "url": "https://arxiv.org/abs/2609.13745",
+      "pdf_url": "https://arxiv.org/pdf/2609.13745",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation intervention and patching",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 6
+    },
+    {
       "id": "doi:10.17605/osf.io/qay32",
       "source": "openalex",
       "sources": [
@@ -451,8 +967,8 @@
       "published": "2026-09-11",
       "updated": "2026-09-15",
       "categories": [
-        "OpenAlex",
         "Intervention (counseling)",
+        "OpenAlex",
         "Psychology",
         "Set (abstract data type)",
         "Social psychology"
@@ -590,6 +1106,91 @@
       "relevance_score": 4
     },
     {
+      "id": "2609.13556",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Domain-Specific Jargon in Large Language Models: A Comparative Analysis between General-Purpose and Specialist Models",
+      "authors": [
+        "Darin Keng",
+        "Zhewei Sun"
+      ],
+      "published": "2026-09-11",
+      "updated": "2026-09-11",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Large Language Models (LLMs) have shown remarkable proficiency on general-purpose tasks, yet their performance often degrades in highly-specialized technical domains. Moreover, little is known about how parametric knowledge of domain-specific terms is encoded within these models. We address this gap by contributing two novel medical jargon evaluation benchmarks and evaluate a general-purpose Llama-3.1 model against a variant fine-tuned on medical-domain data. Surprisingly, the general-purpose model outperforms the medically fine-tuned model on both tasks. Using mechanistic interpretability tools, we find systematic patterns of miscalibration for the medically fine-tuned model. Instead of reorganizing parametric knowledge, the fine-tuned model places greater emphasis on a small subset of model components associated with jargon-favoring predictions. We find that applying component reweighting strategies against the benchmark tasks successfully suppresses these components and closes the gap with the general-purpose baseline. We also observe that some jargon-sensitive components transfer knowledge to the same tasks involving materials science jargon, suggesting they encode a partially domain-agnostic notion of specialized terminology. Our results provide a case study in which a medically fine-tuned checkpoint does not improve jargon comprehension over its general-purpose counterpart, highlighting that domain adaptation should not be assumed to yield better performance on specialized terminology.",
+      "url": "https://arxiv.org/abs/2609.13556",
+      "pdf_url": "https://arxiv.org/pdf/2609.13556",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 8
+    },
+    {
+      "id": "2609.13393",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Privacy-Preserving Deep Joint Source-Channel Coding with In-Loop Concept Erasure",
+      "authors": [
+        "Rami Eid",
+        "Maria Slim",
+        "Mariette Awad",
+        "Hadi Sarieddeen"
+      ],
+      "published": "2026-09-11",
+      "updated": "2026-09-11",
+      "categories": [
+        "eess.SP",
+        "cs.LG"
+      ],
+      "abstract": "Deep joint source-channel coding (DeepJSCC) transmits learned semantic features efficiently but can leak sensitive attributes such as gender, race, or speaker identity. We propose LEAPSC (LEACE-in-the-loop privacy for semantic communication), whose core contribution is the integration of in-loop least-squares concept erasure (LEACE) within a variational information bottleneck (VIB) encoder. By periodically refitting the projection operator during training, LEAPSC couples the encoder dynamics to the erasure mechanism, driving attribute-conditional mean differences toward zero within each task-label group on the fitting sample. Additional components, namely conditional value-at-risk (CVaR) tail-sensitive privacy, feature-wise linear modulation (FiLM) signal-to-noise ratio conditioning, and Lagrangian dual ascent, improve robustness across channel conditions and over the high-leakage tail of samples. On CelebA, FairFace, and Google Speech Commands, LEAPSC reaches task accuracy of 0.862, 0.755, and 0.925 respectively, with attacker accuracy at or below the label-only floor on CelebA (0.548 vs. floor 0.580) and within 2 percentage points (pp) of chance elsewhere, improving over an information-bottleneck adversarial baseline (IBAL) at a matched 52-epoch budget by +3.6, +2.5, and +1.3 pp (Welch's t-test, p=0.019 on CelebA).",
+      "url": "https://arxiv.org/abs/2609.13393",
+      "pdf_url": "https://arxiv.org/pdf/2609.13393",
+      "primary_category": "eess.SP",
+      "source_queries": [
+        "Feature latent concept steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 4
+    },
+    {
+      "id": "2609.12591",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Where Decoder Cosine Similarity Fails for SAE Feature Flow Discovery",
+      "authors": [
+        "Hendrik Droste",
+        "Christian Medeiros Adriano",
+        "Kathrin Korte",
+        "Holger Giese"
+      ],
+      "published": "2026-09-11",
+      "updated": "2026-09-11",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Foundation models are increasingly adapted through fine-tuning, model editing, and alignment procedures while retaining previously acquired capabilities. Understanding the internal computations that support these adaptations is therefore becoming increasingly important for continual model evolution. Sparse autoencoders (SAEs) provide interpretable feature dictionaries for residual-stream activations and sublayer outputs, but it remains unclear how state features and update features interact to produce downstream residual features. In this work, we focus on MLP updates as a first test case. We construct a transition atlas of triples $s_k + u_j \\rightarrow t_\\ell$, where a residual-state feature and an MLP-update feature jointly predict a target residual feature, and validate candidate triples by ablating the decoded update feature. In a 20M-token Pythia-160M $L_7 \\rightarrow L_8$ run, we find 38,125 strong ablation-effect transitions, but 88.0% have both state-target and update-target decoder cosine similarity below 0.7. As a preliminary cross-model check, a run of 20M-token Gemma-3-4B $L_{21} \\rightarrow L_{22}$ causally validates only the top 30,000 ranked candidate triples by ablating the decoded update feature, and 53.6% of strong-effect triples have both state-target and update-target decoder cosine similarity below 0.7. The Gemma result is directionally consistent with Pythia, but weaker, since update-target cosine recovers many of the strongest Gemma effects and the run is not a full-atlas causal validation. Ultimately, our results suggest that feature flow atlases can serve as diagnostics of representation-update mechanisms and thereby inform tools for steering model updates. Future work will validate more complex patterns across layers, models, and SAE families.",
+      "url": "https://arxiv.org/abs/2609.12591",
+      "pdf_url": "https://arxiv.org/pdf/2609.12591",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 7
+    },
+    {
       "id": "2609.11859",
       "source": "arxiv",
       "sources": [
@@ -648,11 +1249,11 @@
       "published": "2026-09-10",
       "updated": "2026-09-15",
       "categories": [
-        "OpenAlex",
-        "Forcing (mathematics)",
         "Computer science",
         "Divergence (linguistics)",
-        "Mechanism (biology)"
+        "Forcing (mathematics)",
+        "Mechanism (biology)",
+        "OpenAlex"
       ],
       "abstract": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act as their own teachers by leveraging privileged information such as ground-truth solutions. However, recent findings indicate that OPSD can severely degrade the performance of LLMs on complex reasoning tasks: By forcing the student to imitate an artificially confident reasoning trace conditioned on privileged information, OPSD inadvertently suppresses expressions of uncertainty and penalizes the exploratory, self-corrective behaviors required to solve challenging problems. To address this, we introduce Negative Self-Distillation (NSD), a new framework that optimizes LLMs by diverging from flawed reasoning rather than imitating privileged solutions. Instead of relying on ground-truth answers or external supervision, NSD uses the model itself to generate a question-specific negative condition (eg, acting as a ``careless reasoner'') and pushes the student's distribution away from this self-generated negative teacher. Naively applying unlearning objectives to achieve this divergence is problematic, as flawed reasoning tokens are confounded with basic linguistic tokens; indiscriminately penalizing both risks catastrophically degrading the model's foundational language capabilities. We resolve this by designing a dynamic gating mechanism that automatically identifies and isolates reasoning-critical tokens, ensuring gradient updates target only behavioral flaws while preserving the model's linguistic priors. Empirically, NSD consistently outperforms OPSD and other label-free, self-bootstrapping reinforcement learning (RL) baselines.",
       "url": "https://arxiv.org/abs/2609.11699",
@@ -8105,6 +8706,34 @@
       "relevance_score": 5
     },
     {
+      "id": "2608.11025",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Data Attribution of Emergent Misalignment with Persona Features",
+      "authors": [
+        "Clemens Vetter",
+        "David Kaczér",
+        "Lucie Flek",
+        "Florian Mai"
+      ],
+      "published": "2026-08-11",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Emergent misalignment (EM) is the phenomenon where fine-tuning a language model on a narrow task leads to harmful behavior in unrelated domains. A leading mechanistic account attributes EM to persona features: latent directions acquired during pre-training that misaligned fine-tuning amplifies. We ask where these features come from: which pre-training documents activate them, and whether naturally occurring human-written text suffices to induce EM. Using Sparse Autoencoder (SAE) based model diffing across four open-weight models, we find that features related to jailbreak personas, sarcasm, deception, and manipulation are amplified by misalignment fine-tuning, while safety-relevant and assistant-identity features are suppressed. Steering individual features controls EM in both directions: it induces misalignment rates of up to 62% in aligned models -- exceeding the 35% reached by misalignment fine-tuning itself -- and re-aligns misaligned models to near-baseline misalignment rates. Attributing the causal features to a corpus of one million pre-training web documents retrieves semantically relevant narratives about villainous characters, domination, and harmful agency. However, fine-tuning on these human-written documents does not reliably induce EM, even after reformatting into assistant-style responses, whereas synthetic instruction-response pairs derived from the same content do -- and transfer across model families. Semantic relevance alone is therefore not sufficient: response structure or model-generated phrasing plays an important role in inducing EM.",
+      "url": "https://arxiv.org/abs/2608.11025",
+      "pdf_url": "https://arxiv.org/pdf/2608.11025",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 9
+    },
+    {
       "id": "2608.10985",
       "source": "arxiv",
       "sources": [
@@ -8281,34 +8910,6 @@
       "sources": [
         "arxiv"
       ]
-    },
-    {
-      "id": "2608.11025",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Data Attribution of Emergent Misalignment with Persona Features",
-      "authors": [
-        "Clemens Vetter",
-        "David Kaczér",
-        "Lucie Flek",
-        "Florian Mai"
-      ],
-      "published": "2026-08-11",
-      "updated": "2026-08-11",
-      "categories": [
-        "cs.CL"
-      ],
-      "abstract": "Emergent misalignment (EM) is the phenomenon where fine-tuning a language model on a narrow task leads to harmful behavior in unrelated domains. A leading mechanistic account attributes EM to persona features: latent directions acquired during pre-training that misaligned fine-tuning amplifies. We ask where these features come from: which pre-training documents activate them, and whether naturally occurring human-written text suffices to induce EM. Using Sparse Autoencoder (SAE) based model diffing across four open-weight models, we find that features related to jailbreak personas, sarcasm, deception, and manipulation are amplified by misalignment fine-tuning, while safety-relevant and assistant-identity features are suppressed. Steering individual features controls EM in both directions: it induces misalignment rates of up to 62% in aligned models -- exceeding the 35% reached by misalignment fine-tuning itself -- and re-aligns misaligned models to near-baseline misalignment rates. Attributing the causal features to a corpus of one million pre-training web documents retrieves semantically relevant narratives about villainous characters, domination, and harmful agency. However, fine-tuning on these human-written documents does not reliably induce EM, even after reformatting into assistant-style responses, whereas synthetic instruction-response pairs derived from the same content do -- and transfer across model families. Semantic relevance alone is therefore not sufficient: response structure or model-generated phrasing plays an important role in inducing EM.",
-      "url": "https://arxiv.org/abs/2608.11025",
-      "pdf_url": "https://arxiv.org/pdf/2608.11025",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "SAE steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 9
     },
     {
       "id": "2608.10835",
@@ -10173,6 +10774,42 @@
       ]
     },
     {
+      "id": "2607.27617",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Hidden APIs in Language Models: Discovering Reusable Causal Interfaces from Forked Futures",
+      "authors": [
+        "SiYuan Ma",
+        "Yiqin Luo",
+        "Zhangji",
+        "Canran Xiao",
+        "Albert Gao",
+        "Wei-Hsing Huang",
+        "Wei Wang",
+        "Qiwei Wu",
+        "Xinran Li",
+        "Jinfeng Wei",
+        "Qixin Zhang"
+      ],
+      "published": "2026-07-30",
+      "updated": "2026-09-12",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Identical language-model answers can arise from hidden states that support different future computations, so current-answer probes do not establish a reusable internal interface. We introduce forked futures: future operations are sampled only after a prefix state has formed, and states are compared through the response distributions induced by those operations. This yields an empirical causal quotient over hidden states without requiring researcher-specified latent labels. Shared, Local, Mixture, and Distributed interfaces then compete under prequential causal description length subject to future-signature fidelity and matched capacity constraints. In the two detailed model evaluations, Shared has the lowest held-out description length, with gains of 0.216 nats on Qwen2.5-1.5B and 0.294 nats on Llama-3-8B, while maintaining tightly clustered mean future-signature distortion; a five-backbone sweep preserves the positive direction of Sharedness Gain. The figure-aligned transplantation analysis gives Shared the strongest joint target-correctness, locality, copy-preservation, and composite profile, and API-aligned paths mediate 0.749 of the target effect versus 0.150 for matched null paths. In the blind four-class model-organism test, 14/16 architectures are recovered, with one observed non-Shared to Shared error among 12 non-Shared organisms. These results support an economical reusable causal interface within the tested operation banks, while keeping the claim explicitly conditional on the candidate architectures, interventions, and held-out futures.",
+      "url": "https://arxiv.org/abs/2607.27617",
+      "pdf_url": "https://arxiv.org/pdf/2607.27617",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 4
+    },
+    {
       "id": "2607.28008",
       "title": "RepBench: Compiling Benchmarks into Capability Representations for Large Language Models",
       "authors": [
@@ -10333,42 +10970,6 @@
       ],
       "code_urls": [],
       "relevance_score": 5
-    },
-    {
-      "id": "2607.27617",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Hidden APIs in Language Models: Discovering Reusable Causal Interfaces from Forked Futures",
-      "authors": [
-        "SiYuan Ma",
-        "Yiqin Luo",
-        "Zhangji",
-        "Canran Xiao",
-        "Albert Gao",
-        "Wei-Hsing Huang",
-        "Wei Wang",
-        "Qiwei Wu",
-        "Xinran Li",
-        "Jinfeng Wei",
-        "Qixin Zhang"
-      ],
-      "published": "2026-07-30",
-      "updated": "2026-07-30",
-      "categories": [
-        "cs.AI"
-      ],
-      "abstract": "Identical language-model answers can arise from hidden states that support different future computations, so current-answer probes do not establish a reusable internal interface. We introduce forked futures: future operations are sampled only after a prefix state has formed, and states are compared through the response distributions induced by those operations. This yields an empirical causal quotient over hidden states without requiring researcher-specified latent labels. Shared, Local, Mixture, and Distributed interfaces then compete under prequential causal description length subject to future-signature fidelity and matched capacity constraints. In the two detailed model evaluations, Shared has the lowest held-out description length, with gains of 0.216 nats on Qwen2.5-1.5B and 0.294 nats on Llama-3-8B, while maintaining tightly clustered mean future-signature distortion; a five-backbone sweep preserves the positive direction of Sharedness Gain. The figure-aligned transplantation analysis gives Shared the strongest joint target-correctness, locality, copy-preservation, and composite profile, and API-aligned paths mediate 0.749 of the target effect versus 0.150 for matched null paths. In the blind four-class model-organism test, 14/16 architectures are recovered, with one observed non-Shared to Shared error among 12 non-Shared organisms. These results support an economical reusable causal interface within the tested operation banks, while keeping the claim explicitly conditional on the candidate architectures, interventions, and held-out futures.",
-      "url": "https://arxiv.org/abs/2607.27617",
-      "pdf_url": "https://arxiv.org/pdf/2607.27617",
-      "primary_category": "cs.AI",
-      "source_queries": [
-        "Hidden-state intervention",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 4
     },
     {
       "id": "2607.27574",
@@ -12563,6 +13164,37 @@
       "sources": [
         "arxiv"
       ]
+    },
+    {
+      "id": "2609.15994",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Latent Undertow: How Ordinary Typos Break Probes",
+      "authors": [
+        "Elad David",
+        "Max Fomin",
+        "Amit LeVi"
+      ],
+      "published": "2026-07-08",
+      "updated": "2026-07-08",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "LLMs handle ordinary typing variation fluently: a typo or missing punctuation leaves both user intent and the model's response substantively unchanged. Yet probes that detect malicious prompts by reading the model's hidden states tell a different story: the same edit rotates the readout vector by 43--56 at the perturbed token, decaying below 15% within ~10 downstream tokens. Stacking ~3 common typos per message cuts a single-position prompt-injection probe's TPR@FPR$=1% by 12.0pp, a gap recalibration alone cannot close. Multi-position aggregation cures localized perturbations (<= 0.5 loss) but only attenuates distributed ones, where even attention- and max-based aggregators still drop ~3.8pp. For single-position probes, we introduce a KV-cache fork: a short fixed suffix appended after the user message lets the probe read a few tokens downstream of the perturbation, exploiting its rapid spatial decay. This closes 95% of the gap (-0.6pp residual) -- an order of magnitude better than perturbation-augmented training (-3.7pp). The rotation-and-decay geometry replicates on Llama-3.1-8B, Qwen3-8B, and Gemma-4-E4B; probe evaluation is on Llama-3.1-8B. Code: https://github.com/eladd-ai/latent-undertow",
+      "url": "https://arxiv.org/abs/2609.15994",
+      "pdf_url": "https://arxiv.org/pdf/2609.15994",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [
+        "https://github.com/eladd-ai/latent-undertow"
+      ],
+      "relevance_score": 4
     },
     {
       "id": "2607.07903",
@@ -16389,6 +17021,39 @@
       "relevance_score": 14
     },
     {
+      "id": "2606.12234",
+      "title": "On The Effectiveness-Fluency Trade-Off In LLM Conditioning: A Systematic Study",
+      "authors": [
+        "Iuri Macocco",
+        "Pau Rodríguez",
+        "Arno Blaas",
+        "Luca Zappella",
+        "Marco Baroni",
+        "Xavier Suau"
+      ],
+      "published": "2026-06-10",
+      "updated": "2026-09-10",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Controlling the output of Large Language Models (LLMs) is a central challenge for their reliable deployment, yet a clear understanding of the involved trade-offs remains elusive. Current approaches to conditioning are often evaluated with a narrow focus on their effectiveness at injecting or removing a target concept, neglecting generation quality. We systematically investigate a range of conditioning methods in both injection and removal scenarios. We find that efficient steering methods frequently achieve conditioning at a steep cost to fluency. Furthermore, we identify a critical yet previously overlooked interaction with the training paradigm: activation steering methods are far less effective on instruction-tuned models than on their base counterparts. Simple prompting and full-fledged supervised fine-tuning, on the other hand, are viable options for concept injection, but are not as good at concept removal. Finally, cheaply computed textual metrics highly correlate to costly LLM-as-judge scores, and provide insights on the behavior of conditioning methods.",
+      "arxiv_url": "https://arxiv.org/abs/2606.12234",
+      "pdf_url": "https://arxiv.org/pdf/2606.12234",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation steering",
+        "Activation steering exact",
+        "Steering language models"
+      ],
+      "code_urls": [],
+      "source": "arxiv",
+      "relevance_score": 10,
+      "url": "https://arxiv.org/abs/2606.12234",
+      "sources": [
+        "arxiv"
+      ]
+    },
+    {
       "id": "2606.12629",
       "source": "arxiv",
       "sources": [
@@ -16446,39 +17111,6 @@
       ],
       "code_urls": [],
       "relevance_score": 4
-    },
-    {
-      "id": "2606.12234",
-      "title": "On The Effectiveness-Fluency Trade-Off In LLM Conditioning: A Systematic Study",
-      "authors": [
-        "Iuri Macocco",
-        "Pau Rodríguez",
-        "Arno Blaas",
-        "Luca Zappella",
-        "Marco Baroni",
-        "Xavier Suau"
-      ],
-      "published": "2026-06-10",
-      "updated": "2026-06-10",
-      "categories": [
-        "cs.CL"
-      ],
-      "abstract": "Controlling the output of Large Language Models (LLMs) is a central challenge for their reliable deployment, yet a clear understanding of the involved trade-offs remains elusive. Current approaches to conditioning are often evaluated with a narrow focus on their effectiveness at injecting or removing a target concept, neglecting generation quality. We systematically investigate a range of conditioning methods in both injection and removal scenarios. We find that efficient steering methods frequently achieve conditioning at a steep cost to fluency. Furthermore, we identify a critical yet previously overlooked interaction with the training paradigm: activation steering methods are far less effective on instruction-tuned models than on their base counterparts. Simple prompting and full-fledged supervised fine-tuning, on the other hand, are viable options for concept injection, but are not as good at concept removal. Finally, cheaply computed textual metrics highly correlate to costly LLM-as-judge scores, and provide insights on the behavior of conditioning methods.",
-      "arxiv_url": "https://arxiv.org/abs/2606.12234",
-      "pdf_url": "https://arxiv.org/pdf/2606.12234",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Activation steering",
-        "Activation steering exact",
-        "Steering language models"
-      ],
-      "code_urls": [],
-      "source": "arxiv",
-      "relevance_score": 10,
-      "url": "https://arxiv.org/abs/2606.12234",
-      "sources": [
-        "arxiv"
-      ]
     },
     {
       "id": "2606.12088",
@@ -21546,6 +22178,32 @@
       ]
     },
     {
+      "id": "2609.15990",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures",
+      "authors": [
+        "Volodymyr Ovcharov"
+      ],
+      "published": "2026-05-23",
+      "updated": "2026-05-23",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Few-shot prompting sometimes degrades language models instead of helping them, but why this happens is unknown. We evaluate 12 open-weight models on two Ukrainian tasks news classification and legal case outcome prediction and find that the effect is strongly task-dependent: the same models that gain +24 pp on news show only +3.4 pp on legal text, with two models degrading. To understand why, we look inside the models. Prior work measures how much hidden states shift between zero-shot and few-shot modes, but few-shot prompts are much longer, and that length difference alone moves representations. We propose a simple fix: replace demonstrations with length-matched random text to measure the shift caused by prompt length, then subtract it. The resulting metric content delta isolates how much the model's representations change because of what the demonstrations say, not how long they are. This changes the picture entirely: raw shift does not predict whether few-shot helps or hurts (r = 0.20), but content delta does (rho = +0.65, p = 0.043). Models that restructure representations more from demonstration content benefit more the opposite of the intuitive \"distortion\" explanation. Masking demonstrations in Llama 3.3 70B confirms the finding causally, recovering accuracy above the zero-shot baseline.",
+      "url": "https://arxiv.org/abs/2609.15990",
+      "pdf_url": "https://arxiv.org/pdf/2609.15990",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Hidden-state intervention"
+      ],
+      "code_urls": [],
+      "relevance_score": 4
+    },
+    {
       "id": "2605.24577",
       "title": "Polymorphism Is Rotation: Operational Mechanistic Interpretability from a Two-Layer Transformer to Pythia-70m",
       "authors": [
@@ -21689,6 +22347,37 @@
       "primary_category": "cs.AI",
       "source_queries": [
         "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "relevance_score": 12
+    },
+    {
+      "id": "2605.22902",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Transcoders Trace Visual Grounding and Hallucinations in Vision-Language Models",
+      "authors": [
+        "Dimitrios Damianos",
+        "Leon Voukoutis",
+        "Georgios Skyrianos",
+        "Vassilis Katsouros",
+        "Georgios Paraskevopoulos"
+      ],
+      "published": "2026-05-21",
+      "updated": "2026-09-13",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Generative Vision-Language Models (VLMs) perform well on multimodal reasoning, but how visual inputs are transformed to text remains poorly understood. Existing interpretability work on VLMs uses Sparse Autoencoders (SAEs), which decompose static residual representations and miss the functional updates that drive cross-modal interaction. We adopt a function-centric framework based on Transcoders, sparse approximations of MLP sublayers that act as a causal proxy for layer-wise computation. Applied to Gemma 3-4B-IT, the framework decomposes the model into interpretable computational pathways linking image patches to directions in token generation. Transcoder attributions produce stronger and more stable effects on visually grounded tokens under patch ablation than SAE attributions, and align better with semantically relevant image regions. A False Visual Grounding counterfactual analysis confirms that the recovered pathways are specific to vision-language interaction.Finally, we perform a structural analysis of hallucinated generations, by extracting graph-based indicators from circuit traces produced by the transcoders. A logistic classifier over these mechanistic graph features predicts hallucinations at AUC $0.68$. These results show that function-centric circuit decomposition yields interpretable and predictive accounts of multimodal computation in VLMs.",
+      "url": "https://arxiv.org/abs/2605.22902",
+      "pdf_url": "https://arxiv.org/pdf/2605.22902",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "SAE steering"
       ],
       "code_urls": [],
       "relevance_score": 12
@@ -21873,37 +22562,6 @@
       "relevance_score": 11
     },
     {
-      "id": "2605.22902",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Transcoders Trace Visual Grounding and Hallucinations in Vision-Language Models",
-      "authors": [
-        "Dimitrios Damianos",
-        "Leon Voukoutis",
-        "Georgios Skyrianos",
-        "Vassilis Katsouros",
-        "Georgios Paraskevopoulos"
-      ],
-      "published": "2026-05-21",
-      "updated": "2026-05-21",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "abstract": "Generative Vision-Language Models (VLMs) perform well on multimodal reasoning, but how visual inputs are transformed to text remains poorly understood. Existing interpretability work on VLMs uses Sparse Autoencoders (SAEs), which decompose static residual representations and miss the functional updates that drive cross-modal interaction. We adopt a function-centric framework based on Transcoders, sparse approximations of MLP sublayers that act as a causal proxy for layer-wise computation. Applied to Gemma 3-4B-IT, the framework decomposes the model into interpretable computational pathways linking image patches to directions in token generation. Transcoder attributions produce stronger and more stable effects on visually grounded tokens under patch ablation than SAE attributions, and align better with semantically relevant image regions. A False Visual Grounding counterfactual analysis confirms that the recovered pathways are specific to vision-language interaction.Finally, we perform a structural analysis of hallucinated generations, by extracting graph-based indicators from circuit traces produced by the transcoders. A logistic classifier over these mechanistic graph features predicts hallucinations at AUC $0.68$. These results show that function-centric circuit decomposition yields interpretable and predictive accounts of multimodal computation in VLMs.",
-      "url": "https://arxiv.org/abs/2605.22902",
-      "pdf_url": "https://arxiv.org/pdf/2605.22902",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "SAE steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 12
-    },
-    {
       "id": "2605.22658",
       "source": "arxiv",
       "sources": [
@@ -22012,7 +22670,7 @@
         "Maheep Chaudhary"
       ],
       "published": "2026-05-20",
-      "updated": "2026-06-06",
+      "updated": "2026-09-12",
       "categories": [
         "cs.AI",
         "cs.CL",
@@ -22029,7 +22687,7 @@
         "Steering vectors"
       ],
       "code_urls": [],
-      "relevance_score": 10
+      "relevance_score": 14
     },
     {
       "id": "2605.21706",
@@ -23651,7 +24309,7 @@
         "Vijay K. Gurbani"
       ],
       "published": "2026-05-12",
-      "updated": "2026-07-17",
+      "updated": "2026-09-13",
       "categories": [
         "cs.CL"
       ],
@@ -28660,6 +29318,32 @@
       ]
     },
     {
+      "id": "2604.16483",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Dynamic Eraser for Guided Concept Erasure in Diffusion Models",
+      "authors": [
+        "Qinghui Gong"
+      ],
+      "published": "2026-04-13",
+      "updated": "2026-09-12",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Concept erasure in Text-To-Image (T2I) diffusion models is vital for safe content generation, but existing inference-time methods face significant limitations. Feature-correction approaches often cause uncontrolled over-correction, while token-level interventions struggle with semantic granularity and context. Moreover, both types of methods are prone to severe semantic drift or even complete representation collapse. To address these challenges, we present Dynamic Semantic Steering (DSS), a lightweight, training-free framework for interpretable and controllable concept erasure. DSS introduces: 1) Sensitive Semantic Boundary Modeling (SSBM) to automate the discovery of safe semantic anchors, and 2) Sensitive Semantic Guidance (SSG), which leverages cross-attention features for precise detection and performs correction via a closed-form solution derived from a well-posed objective. This ensures optimal suppression of sensitive content while preserving benign semantics. DSS achieves an average erasure rate of 91.0\\%, significantly outperforming SOTA methods (from 18.6\\% to 85.9\\%) with minimal impact on output fidelity.",
+      "url": "https://arxiv.org/abs/2604.16483",
+      "pdf_url": "https://arxiv.org/pdf/2604.16483",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Feature latent concept steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 4
+    },
+    {
       "id": "2604.11284",
       "title": "THEIA: Learning Complete Kleene Three-Valued Logic in a Pure-Neural Modular Architecture",
       "authors": [
@@ -28813,32 +29497,6 @@
       "sources": [
         "arxiv"
       ]
-    },
-    {
-      "id": "2604.16483",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Dynamic Eraser for Guided Concept Erasure in Diffusion Models",
-      "authors": [
-        "Qinghui Gong"
-      ],
-      "published": "2026-04-13",
-      "updated": "2026-04-13",
-      "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "abstract": "Concept erasure in Text-To-Image (T2I) diffusion models is vital for safe content generation, but existing inference-time methods face significant limitations. Feature-correction approaches often cause uncontrolled over-correction, while token-level interventions struggle with semantic granularity and context. Moreover, both types of methods are prone to severe semantic drift or even complete representation collapse. To address these challenges, we present Dynamic Semantic Steering (DSS), a lightweight, training-free framework for interpretable and controllable concept erasure. DSS introduces: 1) Sensitive Semantic Boundary Modeling (SSBM) to automate the discovery of safe semantic anchors, and 2) Sensitive Semantic Guidance (SSG), which leverages cross-attention features for precise detection and performs correction via a closed-form solution derived from a well-posed objective. This ensures optimal suppression of sensitive content while preserving benign semantics. DSS achieves an average erasure rate of 91.0\\%, significantly outperforming SOTA methods (from 18.6\\% to 85.9\\%) with minimal impact on output fidelity.",
-      "url": "https://arxiv.org/abs/2604.16483",
-      "pdf_url": "https://arxiv.org/pdf/2604.16483",
-      "primary_category": "cs.CV",
-      "source_queries": [
-        "Feature latent concept steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 4
     },
     {
       "id": "2604.12119",
@@ -33228,6 +33886,38 @@
       "relevance_score": 8
     },
     {
+      "id": "2603.13359",
+      "title": "From Refusal Tokens to Refusal Control: Discovering and Steering Category-Specific Refusal Directions",
+      "authors": [
+        "Rishab Alagharu",
+        "Ishneet Sukhvinder Singh",
+        "Shaibi Shamsudeen",
+        "Zhen Wu",
+        "Ashwinee Panda"
+      ],
+      "published": "2026-03-09",
+      "updated": "2026-09-14",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Language models are commonly fine-tuned for safety alignment to refuse harmful prompts. One approach fine-tunes them to generate categorical refusal tokens that distinguish different refusal types before responding. In this work, we leverage a version of Llama 3 8B fine-tuned with these categorical refusal tokens to enable inference-time control over fine-grained refusal behavior, improving both safety and reliability. We show that refusal token fine-tuning induces separable, category-aligned directions in the residual stream, which we extract and use to construct categorical steering vectors with a lightweight probe that determines whether to steer toward or away from refusal during inference. In addition, we introduce a learned low-rank combination that mixes these category directions in a whitened, orthonormal steering basis, resulting in a single controllable intervention under activation-space anisotropy, and show that this intervention is transferable across same-architecture model variants without additional training. Across benchmarks, both categorical steering vectors and the low-rank combination consistently reduce over-refusals on benign prompts while increasing refusal rates on harmful prompts, highlighting their utility for multi-category refusal control.",
+      "arxiv_url": "https://arxiv.org/abs/2603.13359",
+      "pdf_url": "https://arxiv.org/pdf/2603.13359",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Activation steering",
+        "Safety refusal behavior steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "source": "arxiv",
+      "relevance_score": 9,
+      "url": "https://arxiv.org/abs/2603.13359",
+      "sources": [
+        "arxiv"
+      ]
+    },
+    {
       "id": "2603.08234",
       "source": "arxiv",
       "sources": [
@@ -33291,38 +33981,6 @@
       ],
       "code_urls": [],
       "relevance_score": 10
-    },
-    {
-      "id": "2603.13359",
-      "title": "From Refusal Tokens to Refusal Control: Discovering and Steering Category-Specific Refusal Directions",
-      "authors": [
-        "Rishab Alagharu",
-        "Ishneet Sukhvinder Singh",
-        "Shaibi Shamsudeen",
-        "Zhen Wu",
-        "Ashwinee Panda"
-      ],
-      "published": "2026-03-09",
-      "updated": "2026-03-09",
-      "categories": [
-        "cs.AI"
-      ],
-      "abstract": "Language models are commonly fine-tuned for safety alignment to refuse harmful prompts. One approach fine-tunes them to generate categorical refusal tokens that distinguish different refusal types before responding. In this work, we leverage a version of Llama 3 8B fine-tuned with these categorical refusal tokens to enable inference-time control over fine-grained refusal behavior, improving both safety and reliability. We show that refusal token fine-tuning induces separable, category-aligned directions in the residual stream, which we extract and use to construct categorical steering vectors with a lightweight probe that determines whether to steer toward or away from refusal during inference. In addition, we introduce a learned low-rank combination that mixes these category directions in a whitened, orthonormal steering basis, resulting in a single controllable intervention under activation-space anisotropy, and show that this intervention is transferable across same-architecture model variants without additional training. Across benchmarks, both categorical steering vectors and the low-rank combination consistently reduce over-refusals on benign prompts while increasing refusal rates on harmful prompts, highlighting their utility for multi-category refusal control.",
-      "arxiv_url": "https://arxiv.org/abs/2603.13359",
-      "pdf_url": "https://arxiv.org/pdf/2603.13359",
-      "primary_category": "cs.AI",
-      "source_queries": [
-        "Activation steering",
-        "Safety refusal behavior steering",
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "source": "arxiv",
-      "relevance_score": 9,
-      "url": "https://arxiv.org/abs/2603.13359",
-      "sources": [
-        "arxiv"
-      ]
     },
     {
       "id": "2603.08869",
@@ -37627,6 +38285,37 @@
       "relevance_score": 12
     },
     {
+      "id": "2602.02132",
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "There Is More to Refusal in Large Language Models than a Single Direction",
+      "authors": [
+        "Faaiz Joad",
+        "Majd Hawasly",
+        "Sabri Boughorbel",
+        "Nadir Durrani",
+        "Husrev Taha Sencar"
+      ],
+      "published": "2026-02-02",
+      "updated": "2026-09-15",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Prior work argues that refusal in large language models is mediated by a single direction, enabling steering and abliteration. We show that this account is incomplete: across diverse refusal and non-compliance categories, refusal behaviors correspond to geometrically distinct directions in activation space. Yet activation steering along any refusal-related direction produces nearly identical refusal--over-refusal trade-offs, acting as a shared one-dimensional control knob. Thus, different directions primarily affect not whether the model refuses, but how it refuses. Using sparse autoencoders, we uncover a structured internal representation of refusal: a reusable core of shared refusal latents supplemented by style- and domain-specific latents. Linear interventions collapse this structure into uniform behavioral control, flattening mechanistic differences across refusal types. Our results reconcile the apparent simplicity of refusal steering with the diversity of refusal behaviors, and clarify the limits of linear interpretability for aligned model behavior.",
+      "url": "https://arxiv.org/abs/2602.02132",
+      "pdf_url": "https://arxiv.org/pdf/2602.02132",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 13
+    },
+    {
       "id": "2602.02326",
       "source": "arxiv",
       "sources": [
@@ -38745,7 +39434,7 @@
         "Ying Zhou"
       ],
       "published": "2026-01-27",
-      "updated": "2026-09-07",
+      "updated": "2026-09-12",
       "categories": [
         "cs.CL"
       ],
