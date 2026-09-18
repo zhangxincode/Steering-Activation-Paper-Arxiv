@@ -4,11 +4,11 @@ A broad, additive collector for activation steering and internal-representation 
 
 ![Papers per month](imgs/monthly-paper-counts.svg)
 
-Last updated: 2026-09-17T08:10:42+00:00
+Last updated: 2026-09-18T07:48:25+00:00
 
-Total papers: **2556**
+Total papers: **2560**
 
-Sources: acl-anthology (500), arxiv (2115), openalex (172), semantic-scholar (6)
+Sources: acl-anthology (500), arxiv (2115), openalex (181), semantic-scholar (6)
 
 ## Papers By Year
 
@@ -16,17 +16,21 @@ Sources: acl-anthology (500), arxiv (2115), openalex (172), semantic-scholar (6)
 
 | Date | Paper | Authors | Categories |
 | --- | --- | --- | --- |
+| 2026-09-16 | [Factores ambientales y sanitarios relacionados con la persistencia del dengue](https://doi.org/10.61616/rvdc.v7i2.1780) / [pdf](https://revistaveritas.org/index.php/veritas/article/download/1780/3412) | Alejandro Antonio Baque Pibaque, Guashpa Rodriguez Marbella Gelena, Paola Maricela Jiménez Álvarez | OpenAlex, Epidemiological surveillance, Geography, Context (archaeology) |
+| 2026-09-16 | [Genolator enables protein function interpretation using a multimodal large language model fusing genomic and structural interpretation with natural language interaction](https://doi.org/10.1186/s13059-026-04274-w) / [pdf](https://link.springer.com/content/pdf/10.1186/s13059-026-04274-w.pdf) | Martin Danner, Tanhim Islam, Matthias Begemann, Florian Kraft, et al. | Computer science, Interpretation (philosophy), Natural language, Natural language processing |
 | 2026-09-16 | [Are LLMs Syllogistic Reasoners? A Mechanistic Interpretation Perspective via Activation Patching](https://doi.org/10.1007/978-3-032-38410-2_42) | Zhidian Huang, Jinxin Liu, Zijun Yao, Weichuan Liu, et al. | Computer science, Deductive reasoning, OpenAlex, Perspective (graphical) |
 | 2026-09-16 | [TransAegis: Cross-Lingual Representation Steering-Based Low Resource Language Jailbreak Defense](https://doi.org/10.1007/978-3-032-38410-2_19) | Wei Li, Feng Wu, Shaowen Yao, Chiquan Chen | Computer science, OpenAlex, Representation (politics), Resource (disambiguation) |
+| 2026-09-15 | [Sample-Conditioned Representation Selection for Audio Few-Shot Learning](https://arxiv.org/abs/2609.17076) / [pdf](https://arxiv.org/pdf/2609.17076) | Fengrui Liu, Ningxin Shen, Yi Li, Yiwei Fu, et al. | Artificial intelligence, Classifier (UML), Computer science, Inference |
+| 2026-09-15 | [Distributionally Robust Linearly Constrained Minimum Variance Beamforming Under Steering-Vector Mismatch](https://arxiv.org/abs/2609.17058) / [pdf](https://arxiv.org/pdf/2609.17058) | Raneem Madani, Abdel Lisser, Zeno Toffano | OpenAlex, Beamforming, Probabilistic logic, Mathematical optimization |
+| 2026-09-15 | [Target-Language Generation in Multilingual Models: Activation Steering and Optimal Control](https://arxiv.org/abs/2609.16967) / [pdf](https://arxiv.org/pdf/2609.16967) | James A. Michaelov, Carmen Amo Alonso, Tyler A. Chang, Roger P. Levy | Artificial intelligence, Computer science, Control (management), Language model |
+| 2026-09-15 | [Verbalizing Subliminal Learning Effects Using Text Optimization](https://arxiv.org/abs/2609.16927) / [pdf](https://arxiv.org/pdf/2609.16927) | Nathan Hu, Sanmi Koyejo, Christopher Potts | Artificial intelligence, Computer science, Context (archaeology), OpenAlex |
+| 2026-09-15 | [Cascade: Hierarchical Recoverability Control for Large Language Model Unlearning](https://arxiv.org/abs/2609.16890) / [pdf](https://arxiv.org/pdf/2609.16890) | Qingchen Yu, Shiying Duan, Xiaodong Li, Yuhua Wang, et al. | Cascade, Computer science, Identifiability, OpenAlex |
 | 2026-09-15 | [First-Order Steering: Translating Finetuning into Steering via First-Order Approximations](https://doi.org/10.6084/m9.figshare.33782812.v1) | Sri Pranav Kunda, Alexander Kurz, Tomáš Dominik, Uri Maoz | Computer science, Control theory (sociology), Converse, OpenAlex |
 | 2026-09-15 | [PREreview of "What Does an LLM Learn from Reinforcement Learning? A Mechanistic Interpretability Perspective with Fixed-SAE Track"](https://doi.org/10.5281/zenodo.22775770) | Sneh Pankajbhai Vora | Artificial intelligence, Benchmark (surveying), Computer science, Interpretability |
 | 2026-09-15 | [CLOSURE MATHEMATICS AND THE CONSTRUCTION OF WORLDS Paper II Closure Mathematics Future-Sufficient Representation, Partial Worlds, Defect, Reclosure, and the Algebra of Reduced Description](https://doi.org/10.5281/zenodo.22761014) | Philip Lilien | Closure (psychology), Focus (optics), Mathematical practice, Mathematics |
 | 2026-09-15 | [Large Language Models Develop Belief State Geometry In-Context](https://arxiv.org/abs/2609.17376) / [pdf](https://arxiv.org/pdf/2609.17376) | Daniel Balcells, Andrew Jun Lee, Chirag Rastogi, Paul M. Riechers, et al. | cs.LG, cs.CL |
 | 2026-09-15 | [ResLRP: The Role of Residual Cancellation in Attribution Instability in Vision Transformers](https://arxiv.org/abs/2609.17152) / [pdf](https://arxiv.org/pdf/2609.17152) | Jim Berend, Reduan Achtibat, Daniel Schäffer, Alexander Binder, et al. | cs.CV, cs.AI, cs.LG |
-| 2026-09-15 | [Sample-Conditioned Representation Selection for Audio Few-Shot Learning](https://arxiv.org/abs/2609.17076) / [pdf](https://arxiv.org/pdf/2609.17076) | Fengrui Liu, Ningxin Shen, Yi Li, Yiwei Fu, et al. | cs.AI, cs.SD |
-| 2026-09-15 | [Target-Language Generation in Multilingual Models: Activation Steering and Optimal Control](https://arxiv.org/abs/2609.16967) / [pdf](https://arxiv.org/pdf/2609.16967) | James A. Michaelov, Carmen Amo Alonso, Tyler A. Chang, Roger P. Levy | cs.CL |
-| 2026-09-15 | [Verbalizing Subliminal Learning Effects Using Text Optimization](https://arxiv.org/abs/2609.16927) / [pdf](https://arxiv.org/pdf/2609.16927) | Nathan Hu, Sanmi Koyejo, Christopher Potts | cs.LG, cs.AI, cs.CL |
-| 2026-09-15 | [Cascade: Hierarchical Recoverability Control for Large Language Model Unlearning](https://arxiv.org/abs/2609.16890) / [pdf](https://arxiv.org/pdf/2609.16890) | Qingchen Yu, Shiying Duan, Xiaodong Li, Yuhua Wang, et al. | cs.CL |
+| 2026-09-14 | [Interpreting and Steering LLM Agents for Social Simulations](https://arxiv.org/abs/2609.16436) / [pdf](https://arxiv.org/pdf/2609.16436) | Jiayue Gaveal Fan, Arul Murugan, Shreyas Krishnan, Abhishek Nagaraj | Action (physics), Black box, Computer science, OpenAlex |
 | 2026-09-14 | [Disentangling Representation Evolution in Transformers through Directional Decomposition](https://arxiv.org/abs/2609.15975) / [pdf](https://arxiv.org/pdf/2609.15975) | Shwai He, Haichao Zhang, Shen Yan | Algorithm, Computer science, OpenAlex, Perpendicular |
 | 2026-09-14 | [Empathy Is Steerable but Multi-Axial: Mechanism Geometry and Persona Effects in LLMs](https://arxiv.org/abs/2609.15654) / [pdf](https://arxiv.org/pdf/2609.15654) | JuHeon Ha, Byounghan Lee, Yunseo Choi, Kyung-Ah Sohn | Empathy, Epitome, OpenAlex, Persona |
 | 2026-09-14 | [MoME: Mixture-of-Memory Embeddings for Context-Aware Sparse Lookup](https://arxiv.org/abs/2609.15126) / [pdf](https://arxiv.org/pdf/2609.15126) | Muchen Li, Leonid Sigal, Renjie Liao | Computer science, Embedding, OpenAlex, Scaling |
@@ -35,7 +39,6 @@ Sources: acl-anthology (500), arxiv (2115), openalex (172), semantic-scholar (6)
 | 2026-09-14 | [Weight-Dictionary Decomposition: Reading a Transformer's Residual Stream with Its Own Writes](https://doi.org/10.5281/zenodo.22749477) | Ronish Bhatt | Algorithm, Computer science, Observability, OpenAlex |
 | 2026-09-14 | [Catching Fish That Aren't Fish: Systematic Falsification in Mechanistic Interpretability](https://doi.org/10.5281/zenodo.21753454) | Thomas Edrington | Adversarial system, Artificial intelligence, Computer science, Fish <Actinopterygii> |
 | 2026-09-14 | [The Oracle Formulary: Emotion-Vector Steering of Confabulation Across Model Training Regimes](https://doi.org/10.5281/zenodo.20596919) | Thomas Edrington | Artificial intelligence, Computer science, Confabulation (neural networks), OpenAlex |
-| 2026-09-14 | [Interpreting and Steering LLM Agents for Social Simulations](https://arxiv.org/abs/2609.16436) / [pdf](https://arxiv.org/pdf/2609.16436) | Jiayue Gaveal Fan, Arul Murugan, Shreyas Krishnan, Abhishek Nagaraj | cs.AI, cs.CL, cs.LG |
 | 2026-09-14 | [The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It](https://arxiv.org/abs/2609.16247) / [pdf](https://arxiv.org/pdf/2609.16247) | Valen Tagliabue, Leonard Dung, Cameron Berg | cs.AI |
 | 2026-09-14 | [Test-Time Unlearning via Sparse Autoencoder](https://arxiv.org/abs/2609.16229) / [pdf](https://arxiv.org/pdf/2609.16229) | Pingzhi Li, Jinhao Duan, Vaishnav Tadiparthi, Nakul Agarwal, et al. | cs.LG, cs.CL |
 | 2026-09-14 | [Artificial entrepreneurial cognition: Locating and causally steering an opportunity recognition dial inside large language models (LLMs)](https://arxiv.org/abs/2609.15277) / [pdf](https://arxiv.org/pdf/2609.15277) | Christian Fisch, Angela Altmeier, Martin Obschonka, Michal Kosinski, et al. | cs.CL, cs.LG |
@@ -53,6 +56,7 @@ Sources: acl-anthology (500), arxiv (2115), openalex (172), semantic-scholar (6)
 | 2026-09-12 | [Latent Steering of Emotional Evidence with Sparse Autoencoders in Language Models](https://doi.org/10.1007/978-3-032-37441-7_13) | Eduardo Ander Quintero-Sánchez, Cristina López-Ramírez, Ricardo Ramos-Aguilar, Jesús García-Ramírez, et al. | Aggregate (composite), Computer science, Language model, Latent variable |
 | 2026-09-11 | [Domain-Specific Jargon in Large Language Models: A Comparative Analysis between General-Purpose and Specialist Models](https://arxiv.org/abs/2609.13556) / [pdf](https://arxiv.org/pdf/2609.13556) | Darin Keng, Zhewei Sun | Comprehension, Computer science, Interpretability, Jargon |
 | 2026-09-11 | [Privacy-Preserving Deep Joint Source-Channel Coding with In-Loop Concept Erasure](https://arxiv.org/abs/2609.13393) / [pdf](https://arxiv.org/pdf/2609.13393) | Rami Eid, Maria Slim, Mariette Awad, Hadi Sarieddeen | Computer science, Decoding methods, Encoder, Erasure |
+| 2026-09-11 | [K-Bench: A Benchmark for LLM Unlearning in Agentic Deployments](https://arxiv.org/abs/2609.12808) / [pdf](https://arxiv.org/pdf/2609.12808) | Guangsheng Yu, Yanna Jiang, Qin Wang, Baihe Ma, et al. | Benchmark (surveying), Computer science, Computer security, Forgetting |
 | 2026-09-11 | [GRACE: Adaptive Concept Erasure with Geometry-Guided Retention in Diffusion Models](https://arxiv.org/abs/2609.12731) / [pdf](https://arxiv.org/pdf/2609.12731) | Qinghui Gong, Yihuai Liang, Yuanlun Xie, Deepak Kumar Jain, et al. | Computer science, Erasure, OpenAlex, Scalability |
 | 2026-09-11 | [Where Decoder Cosine Similarity Fails for SAE Feature Flow Discovery](https://arxiv.org/abs/2609.12591) / [pdf](https://arxiv.org/pdf/2609.12591) | Hendrik Droste, Christian Medeiros Adriano, Kathrin Korte, Holger Giese | Computer science, Cosine similarity, Feature (linguistics), OpenAlex |
 | 2026-09-11 | [The Effect of a Values-Based Activation Intervention on Intentions to Contribute](https://doi.org/10.17605/osf.io/qay32) | Blanca Tena Estrada, Andra-Ioana Horcea-Milcu, Alexandra Adamescu, Arcadie BOTNARU | Intervention (counseling), OpenAlex, Psychology, Set (abstract data type) |

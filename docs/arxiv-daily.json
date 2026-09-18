@@ -1,6 +1,85 @@
 {
-  "generated_at": "2026-09-17T08:10:42+00:00",
+  "generated_at": "2026-09-18T07:48:25+00:00",
   "papers": [
+    {
+      "id": "doi:10.61616/rvdc.v7i2.1780",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Factores ambientales y sanitarios relacionados con la persistencia del dengue",
+      "authors": [
+        "Alejandro Antonio Baque Pibaque",
+        "Guashpa Rodriguez Marbella Gelena",
+        "Paola Maricela Jiménez Álvarez"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-17",
+      "categories": [
+        "OpenAlex",
+        "Epidemiological surveillance",
+        "Geography",
+        "Context (archaeology)",
+        "Dengue fever"
+      ],
+      "abstract": "En la introducción se plantea que el dengue representa uno de los principales desafíos de salud pública en zonas tropicales y subtropicales, con una carga epidemiológica creciente en Ecuador y en la provincia de Manabí, donde las condiciones climáticas y sanitarias favorecen la persistencia del virus. El objetivo consistió en analizar los factores ambientales y sanitarios relacionados con dicha persistencia en el contexto ecuatoriano y manabita, mediante la revisión de evidencia internacional, latinoamericana, nacional y local publicada entre 2022 y 2026. El diseño de estudio correspondió a un enfoque cualitativo, de tipo documental, bajo revisión sistemática de la literatura, con búsqueda en PubMed, Scopus, Scielo y Google Académico, complementada con informes de organismos de salud, con lo cual se seleccionaron 35 investigaciones relevantes. Los resultados muestran que la temperatura, la humedad, la precipitación y la urbanización no planificada se asocian con la proliferación del vector Aedes aegypti, mientras que el acceso deficiente a agua potable, el almacenamiento inadecuado del recurso hídrico y la recolección irregular de residuos agravan la persistencia viral; a nivel clínico se identificaron leucopenia, trombocitopenia y elevación de transaminasas como marcadores frecuentes, junto con mayor sensibilidad diagnóstica de los métodos moleculares frente a los serológicos. Como conclusión, se determinó que la combinación de determinantes climáticos y deficiencias sanitarias explica la persistencia del dengue en Jipijapa y en el territorio manabita, respaldando la necesidad de fortalecer el control vectorial y la capacidad diagnóstica de laboratorio.",
+      "url": "https://doi.org/10.61616/rvdc.v7i2.1780",
+      "pdf_url": "https://revistaveritas.org/index.php/veritas/article/download/1780/3412",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213393941",
+        "doi": "10.61616/rvdc.v7i2.1780",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.1186/s13059-026-04274-w",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Genolator enables protein function interpretation using a multimodal large language model fusing genomic and structural interpretation with natural language interaction",
+      "authors": [
+        "Martin Danner",
+        "Tanhim Islam",
+        "Matthias Begemann",
+        "Florian Kraft",
+        "Miriam Elbracht",
+        "Ingo Kurth",
+        "Jeremias Krause"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-17",
+      "categories": [
+        "Computer science",
+        "Interpretation (philosophy)",
+        "Natural language",
+        "Natural language processing",
+        "OpenAlex"
+      ],
+      "abstract": "Abstract Background Decoding the genetic code to unveil its genome functionality is a monumental task which would greatly advance the understanding of disease mechanisms and development of targeted treatments. Although large language models (LLMs) have transformed natural language processing across diverse domains, translating the complex language of DNA into human-readable form remains challenging due to genomic data complexity and unexplored regions of the human genome. Current language models either are capable of processing natural language or the genomic code. Models fusing both aspects are largely lacking. Results Here we present Genolator, a multimodal large language model that integrates embeddings from DNA sequences, amino acid sequences, and protein structures with natural language queries. Fine-tuned on over 365,000 question–answer pairs generated using abstracted Gene-Ontology (GO) terms, Genolator effectively answers queries regarding protein subcellular localization, molecular function, and biological processes. Evaluation demonstrates high accuracy in confirming or denying protein function associations, outperforming baseline models such as openly available allrounder LLMs like GPT 4.1 as well as smaller domain-specific models integrating knowledge from a protein structure transformer. Explorations of Genolator’s hidden states unveil a biologically and linguistically plausible organization of its learned representations. Analysis of the attention heads of the underlying language model and an ablation study provide evidence for a benefit of the multi-modal approach. Conclusion Genolator enhances accessibility to genomic information by enabling natural language interaction with protein data, facilitating biological discovery, and clinical research. It represents a step towards bridging genomic code and human language through the integration of a multimodal LLM.",
+      "url": "https://doi.org/10.1186/s13059-026-04274-w",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1186/s13059-026-04274-w.pdf",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Reasoning and CoT steering",
+        "Safety refusal behavior steering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213316901",
+        "doi": "10.1186/s13059-026-04274-w",
+        "cited_by_count": 0
+      },
+      "relevance_score": 12
+    },
     {
       "id": "doi:10.1007/978-3-032-38410-2_42",
       "source": "openalex",
@@ -80,6 +159,208 @@
         "cited_by_count": 0
       },
       "relevance_score": 6
+    },
+    {
+      "id": "2609.17076",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+      "authors": [
+        "Fengrui Liu",
+        "Ningxin Shen",
+        "Yi Li",
+        "Yiwei Fu",
+        "Feng Liu",
+        "Jiangmeng Li"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-17",
+      "categories": [
+        "Artificial intelligence",
+        "Classifier (UML)",
+        "Computer science",
+        "Inference",
+        "OpenAlex",
+        "cs.AI",
+        "cs.SD"
+      ],
+      "abstract": "Few-shot audio classifiers may rely on foreground-background co-occurrences and fail when those correlations shift. On SpurAudio, the resulting representation shift is concentrated and class dependent: for ResNet12, the top 10 percent of channels explain 82.80 percent of the null-corrected shift contribution. We propose SAMPLESELECT, which predicts a fixed-budget feature mask independently for each input while keeping the encoder and source classifier frozen. Training uses differentiable Gumbel Top-k selection with foreground classification and cross-background contrastive losses; inference uses deterministic Top-k masks and support-only linear adaptation. Across ResNet12 and Conv64 in 5-way 1-shot and 5-shot evaluation, SAMPLESELECT gives the best OOD accuracy among the compared methods and improves the matched full-representation control by 4.90-8.38 percentage points. Ablations and representation analyses further support the learned selection mechanism. Code is available at https://github.com/Cross-Innovation-Lab/SAMPLESELECT/",
+      "url": "https://arxiv.org/abs/2609.17076",
+      "pdf_url": "https://arxiv.org/pdf/2609.17076",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Representation engineering"
+      ],
+      "code_urls": [
+        "https://github.com/Cross-Innovation-Lab/SAMPLESELECT/"
+      ],
+      "relevance_score": 4,
+      "openalex": {
+        "id": "https://openalex.org/W7213437734",
+        "doi": "10.48550/arxiv.2609.17076",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.17058",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Distributionally Robust Linearly Constrained Minimum Variance Beamforming Under Steering-Vector Mismatch",
+      "authors": [
+        "Raneem Madani",
+        "Abdel Lisser",
+        "Zeno Toffano"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-17",
+      "categories": [
+        "OpenAlex",
+        "Beamforming",
+        "Probabilistic logic",
+        "Mathematical optimization",
+        "Reliability (semiconductor)"
+      ],
+      "abstract": "Linearly constrained minimum variance (LCMV) beamforming is a fundamental technique for controlling the array response toward multiple desired signals while suppressing interference and noise. In practical systems, however, the steering vectors involved in the response constraints are often affected by direction-of-arrival errors, calibration imperfections, and other array uncertainties. Such mismatches may cause constraint violations and substantial performance degradation. This paper investigates multi-signal LCMV beamforming under steering-vector mismatch and develops probabilistic constraints to guarantee a prescribed reliability level for each desired signal. Several uncertainty-information settings are considered. When the exact mismatch distribution is known and belongs to the class of complex elliptically symmetric distributions (CES), a distribution-informed convex safe reformulation is derived using exact CES quantiles. When the mismatch distribution is unknown, and only partial statistical information or empirical data is available, robust probabilistic reformulations are developed under moment-based ambiguity, support-based uncertainty, and Wasserstein data-driven ambiguity, and the resulting deterministic formulations can be expressed as convex second-order cone programs. Numerical experiments show that the proposed designs improve out-of-sample reliability and reduce beam-gain sensitivity to steering-vector mismatch, while maintaining competitive output signal-to-interference-plus-noise (SINR) ratio and robust beampatterns.",
+      "url": "https://arxiv.org/abs/2609.17058",
+      "pdf_url": "https://arxiv.org/pdf/2609.17058",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213435715",
+        "doi": "10.48550/arxiv.2609.17058",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "2609.16967",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Target-Language Generation in Multilingual Models: Activation Steering and Optimal Control",
+      "authors": [
+        "James A. Michaelov",
+        "Carmen Amo Alonso",
+        "Tyler A. Chang",
+        "Roger P. Levy"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-17",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Control (management)",
+        "Language model",
+        "OpenAlex",
+        "cs.CL"
+      ],
+      "abstract": "Ensuring that multilingual language models generate coherent text in a specific target language is a major issue in multilingual language modeling. We develop an optimal control method for target-language text generation as well as a framework for evaluating the quality of generated text in terms of language adherence, linguistic coherence, and semantic coherence. We find that the proposed method performs at least as well as the prominent difference-in-means activation steering method for the majority of models tested, with substantially less hyperparameter tuning required.",
+      "url": "https://arxiv.org/abs/2609.16967",
+      "pdf_url": "https://arxiv.org/pdf/2609.16967",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "relevance_score": 7,
+      "openalex": {
+        "id": "https://openalex.org/W7213403805",
+        "doi": "10.48550/arxiv.2609.16967",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.16927",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Verbalizing Subliminal Learning Effects Using Text Optimization",
+      "authors": [
+        "Nathan Hu",
+        "Sanmi Koyejo",
+        "Christopher Potts"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-17",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Context (archaeology)",
+        "OpenAlex",
+        "Subliminal stimuli",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Subliminal learning is a phenomenon in which a distillation dataset transmits traits from the teacher model that are not legibly encoded in the dataset itself. This introduces a new challenge for model development and creates new risks from data poisoning. In this work, we use text optimization to detect subliminal learning effects and describe them as legible prompts. Subliminal learning from a prompted teacher motivates our approach. We observe that this is a special case of context distillation and leverage this observation to show that, in theory, the prompted subliminal learning dataset identifies the teacher's prompt. We reduce recovering this prompt to a text optimization problem and present a method to approximately solve it. Our method, SALVE (Search-Aided Latent Verbalization), optimizes a soft prompt, queries the same model to verbalize it as text, and uses beam search to make the verbalization reliable. In the standard subliminal learning setting, SALVE reliably recovers legible prompts that name the teacher's trait, while common text optimization methods fail to do so. In addition, we find that there are settings in which SALVE recovers the teacher's trait from a dataset even when subliminal learning fails, but that modifying student training to improve context distillation can create subliminal learning effects. We lastly show that SALVE detects subliminal learning effects in three additional settings: (1) mixtures of subliminal learning data and unrelated data, (2) data generated when the teacher is biased via activation steering, and (3) subsets of real preference data selected via Logit-Linear Selection. Overall, our results deepen our understanding of subliminal learning and present SALVE as a method to proactively detect subliminal learning effects.",
+      "url": "https://arxiv.org/abs/2609.16927",
+      "pdf_url": "https://arxiv.org/pdf/2609.16927",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "relevance_score": 5,
+      "openalex": {
+        "id": "https://openalex.org/W7213413124",
+        "doi": "10.48550/arxiv.2609.16927",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.16890",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Cascade: Hierarchical Recoverability Control for Large Language Model Unlearning",
+      "authors": [
+        "Qingchen Yu",
+        "Shiying Duan",
+        "Xiaodong Li",
+        "Yuhua Wang",
+        "Zhiyu Li",
+        "Shiji Zhou",
+        "Yifan Sun",
+        "Zhaoxin Fan"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-17",
+      "categories": [
+        "Cascade",
+        "Computer science",
+        "Identifiability",
+        "OpenAlex",
+        "Robustness (evolution)",
+        "cs.CL"
+      ],
+      "abstract": "Large Language Model (LLM) unlearning is essential for removing sensitive or copyrighted knowledge while preserving general utility. Existing methods often leave residual knowledge in intermediate representations, which can still be recovered. To address this, we propose Cascade, a hierarchical recoverability control framework that minimizes the internal identifiability of target knowledge. Cascade combines three complementary controls: path-level routing to suppress privacy-associated activation routes, representation-level compression to reduce geometric separability, and decoding-level intervention to limit residual recovery. Experiments on TOFU, MUSE-News, and WMDP, including robustness tests with query reformulation and extraction-style prompts, show that Cascade effectively reduces recoverability while maintaining stable model utility.",
+      "url": "https://arxiv.org/abs/2609.16890",
+      "pdf_url": "https://arxiv.org/pdf/2609.16890",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "relevance_score": 8,
+      "openalex": {
+        "id": "https://openalex.org/W7213436570",
+        "doi": "10.48550/arxiv.2609.16890",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "doi:10.6084/m9.figshare.33782812.v1",
@@ -253,126 +534,46 @@
       "relevance_score": 10
     },
     {
-      "id": "2609.17076",
+      "id": "2609.16436",
       "source": "arxiv",
       "sources": [
-        "arxiv"
+        "arxiv",
+        "openalex"
       ],
-      "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+      "title": "Interpreting and Steering LLM Agents for Social Simulations",
       "authors": [
-        "Fengrui Liu",
-        "Ningxin Shen",
-        "Yi Li",
-        "Yiwei Fu",
-        "Feng Liu",
-        "Jiangmeng Li"
+        "Jiayue Gaveal Fan",
+        "Arul Murugan",
+        "Shreyas Krishnan",
+        "Abhishek Nagaraj"
       ],
-      "published": "2026-09-15",
-      "updated": "2026-09-15",
+      "published": "2026-09-14",
+      "updated": "2026-09-17",
       "categories": [
+        "Action (physics)",
+        "Black box",
+        "Computer science",
+        "OpenAlex",
+        "Operationalization",
         "cs.AI",
-        "cs.SD"
+        "cs.CL",
+        "cs.LG"
       ],
-      "abstract": "Few-shot audio classifiers may rely on foreground-background co-occurrences and fail when those correlations shift. On SpurAudio, the resulting representation shift is concentrated and class dependent: for ResNet12, the top 10 percent of channels explain 82.80 percent of the null-corrected shift contribution. We propose SAMPLESELECT, which predicts a fixed-budget feature mask independently for each input while keeping the encoder and source classifier frozen. Training uses differentiable Gumbel Top-k selection with foreground classification and cross-background contrastive losses; inference uses deterministic Top-k masks and support-only linear adaptation. Across ResNet12 and Conv64 in 5-way 1-shot and 5-shot evaluation, SAMPLESELECT gives the best OOD accuracy among the compared methods and improves the matched full-representation control by 4.90-8.38 percentage points. Ablations and representation analyses further support the learned selection mechanism. Code is available at https://github.com/Cross-Innovation-Lab/SAMPLESELECT/",
-      "url": "https://arxiv.org/abs/2609.17076",
-      "pdf_url": "https://arxiv.org/pdf/2609.17076",
-      "primary_category": "cs.AI",
-      "source_queries": [
-        "Representation engineering"
-      ],
-      "code_urls": [
-        "https://github.com/Cross-Innovation-Lab/SAMPLESELECT/"
-      ],
-      "relevance_score": 4
-    },
-    {
-      "id": "2609.16967",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Target-Language Generation in Multilingual Models: Activation Steering and Optimal Control",
-      "authors": [
-        "James A. Michaelov",
-        "Carmen Amo Alonso",
-        "Tyler A. Chang",
-        "Roger P. Levy"
-      ],
-      "published": "2026-09-15",
-      "updated": "2026-09-15",
-      "categories": [
-        "cs.CL"
-      ],
-      "abstract": "Ensuring that multilingual language models generate coherent text in a specific target language is a major issue in multilingual language modeling. We develop an optimal control method for target-language text generation as well as a framework for evaluating the quality of generated text in terms of language adherence, linguistic coherence, and semantic coherence. We find that the proposed method performs at least as well as the prominent difference-in-means activation steering method for the majority of models tested, with substantially less hyperparameter tuning required.",
-      "url": "https://arxiv.org/abs/2609.16967",
-      "pdf_url": "https://arxiv.org/pdf/2609.16967",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Activation steering exact"
-      ],
-      "code_urls": [],
-      "relevance_score": 7
-    },
-    {
-      "id": "2609.16927",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Verbalizing Subliminal Learning Effects Using Text Optimization",
-      "authors": [
-        "Nathan Hu",
-        "Sanmi Koyejo",
-        "Christopher Potts"
-      ],
-      "published": "2026-09-15",
-      "updated": "2026-09-15",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "abstract": "Subliminal learning is a phenomenon in which a distillation dataset transmits traits from the teacher model that are not legibly encoded in the dataset itself. This introduces a new challenge for model development and creates new risks from data poisoning. In this work, we use text optimization to detect subliminal learning effects and describe them as legible prompts. Subliminal learning from a prompted teacher motivates our approach. We observe that this is a special case of context distillation and leverage this observation to show that, in theory, the prompted subliminal learning dataset identifies the teacher's prompt. We reduce recovering this prompt to a text optimization problem and present a method to approximately solve it. Our method, SALVE (Search-Aided Latent Verbalization), optimizes a soft prompt, queries the same model to verbalize it as text, and uses beam search to make the verbalization reliable. In the standard subliminal learning setting, SALVE reliably recovers legible prompts that name the teacher's trait, while common text optimization methods fail to do so. In addition, we find that there are settings in which SALVE recovers the teacher's trait from a dataset even when subliminal learning fails, but that modifying student training to improve context distillation can create subliminal learning effects. We lastly show that SALVE detects subliminal learning effects in three additional settings: (1) mixtures of subliminal learning data and unrelated data, (2) data generated when the teacher is biased via activation steering, and (3) subsets of real preference data selected via Logit-Linear Selection. Overall, our results deepen our understanding of subliminal learning and present SALVE as a method to proactively detect subliminal learning effects.",
-      "url": "https://arxiv.org/abs/2609.16927",
-      "pdf_url": "https://arxiv.org/pdf/2609.16927",
+      "abstract": "Simulations based on large language models (LLMs) have proven to be powerful for understanding human behavior, making them valuable additions to the social scientific toolkit. However, LLMs are ultimately black boxes based on deep neural networks which limits their value for social science. This is because of a lack of (i) interpretability: i.e. the ability to assign clear mechanisms driving observed behavior; and a lack of (ii) steerability: i.e. the ability to mute or amplify specific theoretically meaningful mechanisms of action to drive specific model behavior. Here, we demonstrate how the black box could be opened up to further enrich LLM-based simulations. Specifically, we compare three types of methods: (1) prompt-based manipulation, (2) SAE-derived feature steering, and (3) probe-based direction steering and examine their utility for LLM-based social scientific simulations. We do so by interpreting and steering two foundational components of human behaviors, namely preferences (risk attitudes, altruism) and capabilities (divergent creativity, product innovation), operationalized using four classic economic and creative tasks implemented as natural-language interactions. Overall, our results show that SAE- and probe-based techniques often outperform basic prompt-based methods for steering LLM agents, although this advantage depends on the specific prompting strategy involved. Together, SAEs and probes constitute an effective pipeline for social scientists seeking to interpret and steer agents in social simulations: SAEs decompose agents' internal representations into human-readable features, after which probes can reliably shift agents' behaviors in specified directions. We discuss implications of these methods for future work using LLM agents for social scientific simulations.",
+      "url": "https://arxiv.org/abs/2609.16436",
+      "pdf_url": "https://arxiv.org/pdf/2609.16436",
       "primary_category": "cs.LG",
       "source_queries": [
-        "Activation steering exact"
+        "Feature latent concept steering",
+        "SAE steering"
       ],
       "code_urls": [],
-      "relevance_score": 5
-    },
-    {
-      "id": "2609.16890",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Cascade: Hierarchical Recoverability Control for Large Language Model Unlearning",
-      "authors": [
-        "Qingchen Yu",
-        "Shiying Duan",
-        "Xiaodong Li",
-        "Yuhua Wang",
-        "Zhiyu Li",
-        "Shiji Zhou",
-        "Yifan Sun",
-        "Zhaoxin Fan"
-      ],
-      "published": "2026-09-15",
-      "updated": "2026-09-15",
-      "categories": [
-        "cs.CL"
-      ],
-      "abstract": "Large Language Model (LLM) unlearning is essential for removing sensitive or copyrighted knowledge while preserving general utility. Existing methods often leave residual knowledge in intermediate representations, which can still be recovered. To address this, we propose Cascade, a hierarchical recoverability control framework that minimizes the internal identifiability of target knowledge. Cascade combines three complementary controls: path-level routing to suppress privacy-associated activation routes, representation-level compression to reduce geometric separability, and decoding-level intervention to limit residual recovery. Experiments on TOFU, MUSE-News, and WMDP, including robustness tests with query reformulation and extraction-style prompts, show that Cascade effectively reduces recoverability while maintaining stable model utility.",
-      "url": "https://arxiv.org/abs/2609.16890",
-      "pdf_url": "https://arxiv.org/pdf/2609.16890",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Model editing internal representations"
-      ],
-      "code_urls": [],
-      "relevance_score": 8
+      "relevance_score": 12,
+      "openalex": {
+        "id": "https://openalex.org/W7213400908",
+        "doi": "10.48550/arxiv.2609.16436",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "2609.15975",
@@ -388,7 +589,7 @@
         "Shen Yan"
       ],
       "published": "2026-09-14",
-      "updated": "2026-09-16",
+      "updated": "2026-09-17",
       "categories": [
         "Algorithm",
         "Computer science",
@@ -403,7 +604,8 @@
       "pdf_url": "https://arxiv.org/pdf/2609.15975",
       "primary_category": "cs.CL",
       "source_queries": [
-        "Hidden-state intervention"
+        "Hidden-state intervention",
+        "Reasoning and CoT steering"
       ],
       "code_urls": [
         "https://github.com/Shwai-He/Transformer-Geometry"
@@ -430,7 +632,7 @@
         "Kyung-Ah Sohn"
       ],
       "published": "2026-09-14",
-      "updated": "2026-09-16",
+      "updated": "2026-09-17",
       "categories": [
         "Empathy",
         "Epitome",
@@ -444,8 +646,12 @@
       "pdf_url": "https://arxiv.org/pdf/2609.15654",
       "primary_category": "cs.CL",
       "source_queries": [
+        "Activation intervention and patching",
         "Activation steering exact",
+        "Feature latent concept steering",
         "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Representation engineering",
         "Safety refusal behavior steering"
       ],
       "code_urls": [],
@@ -470,7 +676,7 @@
         "Renjie Liao"
       ],
       "published": "2026-09-14",
-      "updated": "2026-09-16",
+      "updated": "2026-09-17",
       "categories": [
         "Computer science",
         "Embedding",
@@ -485,7 +691,8 @@
       "pdf_url": "https://arxiv.org/pdf/2609.15126",
       "primary_category": "cs.CL",
       "source_queries": [
-        "Hidden-state intervention"
+        "Hidden-state intervention",
+        "Reasoning and CoT steering"
       ],
       "code_urls": [],
       "relevance_score": 8,
@@ -510,7 +717,7 @@
         "Dianbo Liu"
       ],
       "published": "2026-09-14",
-      "updated": "2026-09-16",
+      "updated": "2026-09-17",
       "categories": [
         "Artificial intelligence",
         "Computer science",
@@ -524,8 +731,10 @@
       "pdf_url": "https://arxiv.org/pdf/2609.15064",
       "primary_category": "cs.LG",
       "source_queries": [
+        "Feature latent concept steering",
         "Mechanistic interpretability steering",
-        "SAE steering"
+        "SAE steering",
+        "VLM multimodal steering"
       ],
       "code_urls": [],
       "relevance_score": 10,
@@ -677,37 +886,6 @@
       "relevance_score": 5
     },
     {
-      "id": "2609.16436",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Interpreting and Steering LLM Agents for Social Simulations",
-      "authors": [
-        "Jiayue Gaveal Fan",
-        "Arul Murugan",
-        "Shreyas Krishnan",
-        "Abhishek Nagaraj"
-      ],
-      "published": "2026-09-14",
-      "updated": "2026-09-14",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "abstract": "Simulations based on large language models (LLMs) have proven to be powerful for understanding human behavior, making them valuable additions to the social scientific toolkit. However, LLMs are ultimately black boxes based on deep neural networks which limits their value for social science. This is because of a lack of (i) interpretability: i.e. the ability to assign clear mechanisms driving observed behavior; and a lack of (ii) steerability: i.e. the ability to mute or amplify specific theoretically meaningful mechanisms of action to drive specific model behavior. Here, we demonstrate how the black box could be opened up to further enrich LLM-based simulations. Specifically, we compare three types of methods: (1) prompt-based manipulation, (2) SAE-derived feature steering, and (3) probe-based direction steering and examine their utility for LLM-based social scientific simulations. We do so by interpreting and steering two foundational components of human behaviors, namely preferences (risk attitudes, altruism) and capabilities (divergent creativity, product innovation), operationalized using four classic economic and creative tasks implemented as natural-language interactions. Overall, our results show that SAE- and probe-based techniques often outperform basic prompt-based methods for steering LLM agents, although this advantage depends on the specific prompting strategy involved. Together, SAEs and probes constitute an effective pipeline for social scientists seeking to interpret and steer agents in social simulations: SAEs decompose agents' internal representations into human-readable features, after which probes can reliably shift agents' behaviors in specified directions. We discuss implications of these methods for future work using LLM agents for social scientific simulations.",
-      "url": "https://arxiv.org/abs/2609.16436",
-      "pdf_url": "https://arxiv.org/pdf/2609.16436",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Feature latent concept steering",
-        "SAE steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 12
-    },
-    {
       "id": "2609.16247",
       "source": "arxiv",
       "sources": [
@@ -814,7 +992,7 @@
         "Henk Wymeersch"
       ],
       "published": "2026-09-13",
-      "updated": "2026-09-16",
+      "updated": "2026-09-17",
       "categories": [
         "Codebook",
         "Computer science",
@@ -827,6 +1005,7 @@
       "pdf_url": "https://arxiv.org/pdf/2609.14801",
       "primary_category": "OpenAlex",
       "source_queries": [
+        "Persona sentiment attribute steering",
         "Steering vectors"
       ],
       "code_urls": [],
@@ -856,7 +1035,7 @@
         "Jun Dai"
       ],
       "published": "2026-09-13",
-      "updated": "2026-09-16",
+      "updated": "2026-09-17",
       "categories": [
         "Computer science",
         "Computer security",
@@ -1040,7 +1219,7 @@
         "Tuka Alhanai"
       ],
       "published": "2026-09-12",
-      "updated": "2026-09-16",
+      "updated": "2026-09-17",
       "categories": [
         "Construct (python library)",
         "Generalization",
@@ -1056,6 +1235,9 @@
       "primary_category": "cs.LG",
       "source_queries": [
         "Activation steering exact",
+        "Feature latent concept steering",
+        "Persona sentiment attribute steering",
+        "Representation engineering",
         "Safety refusal behavior steering",
         "Steering vectors"
       ],
@@ -1081,7 +1263,7 @@
         "Wanxiang Che"
       ],
       "published": "2026-09-12",
-      "updated": "2026-09-16",
+      "updated": "2026-09-17",
       "categories": [
         "Asymptote",
         "Computation",
@@ -1265,7 +1447,7 @@
         "Zhewei Sun"
       ],
       "published": "2026-09-11",
-      "updated": "2026-09-16",
+      "updated": "2026-09-17",
       "categories": [
         "Comprehension",
         "Computer science",
@@ -1281,6 +1463,7 @@
       "pdf_url": "https://arxiv.org/pdf/2609.13556",
       "primary_category": "cs.CL",
       "source_queries": [
+        "Activation intervention and patching",
         "Mechanistic interpretability steering"
       ],
       "code_urls": [],
@@ -1306,7 +1489,7 @@
         "Hadi Sarieddeen"
       ],
       "published": "2026-09-11",
-      "updated": "2026-09-16",
+      "updated": "2026-09-17",
       "categories": [
         "Computer science",
         "Decoding methods",
@@ -1330,6 +1513,48 @@
         "doi": "10.48550/arxiv.2609.13393",
         "cited_by_count": 0
       }
+    },
+    {
+      "id": "2609.12808",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "K-Bench: A Benchmark for LLM Unlearning in Agentic Deployments",
+      "authors": [
+        "Guangsheng Yu",
+        "Yanna Jiang",
+        "Qin Wang",
+        "Baihe Ma",
+        "Xu Wang"
+      ],
+      "published": "2026-09-11",
+      "updated": "2026-09-17",
+      "categories": [
+        "Benchmark (surveying)",
+        "Computer science",
+        "Computer security",
+        "Forgetting",
+        "OpenAlex"
+      ],
+      "abstract": "Unlearning benchmarks such as TOFU and MUSE certify forgetting by reading the model's final answer, where a model that refuses to answer already counts as having forgotten. We show that this model-level certificate does not transfer once the model is deployed as an agent. We introduce K-Bench, a benchmark that scores LLM unlearning under agentic deployment. K-Bench inspects all six channels a ReAct agent exposes, including its chain-of-thought (CoT), tool calls and tool observations, and elicited summary. A query counts as leaked if the secret appears in any of them. Each experiment places the secret in exactly one of the agent's three sources (the weights, the prompt, or the retrieval store). The K-Score is computed separately for each source and credits forgetting only when the agent remains usable. Clearing the answer channel does not make the secret unrecoverable. On structured retrieval, the secret stays verbatim in the tool-observation channel and the aggregate leak rate is unchanged. When the secret lives in the prompt or the retrieval store, TOFU and MUSE report no leakage, while the deployed agent still leaks it on 22--86\\% of queries. When the secret is in the weights, none of the twenty evaluated published methods demonstrably removes it, and only an input-corruption intervention reaches selective forgetting under the evaluated observer. The top-ranked method changes across base models. A refusal-tuning method resists the evaluated extraction without verified knowledge removal.",
+      "url": "https://arxiv.org/abs/2609.12808",
+      "pdf_url": "https://arxiv.org/pdf/2609.12808",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Feature latent concept steering",
+        "Model editing internal representations",
+        "Persona sentiment attribute steering",
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7212904611",
+        "doi": "10.48550/arxiv.2609.12808",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
     },
     {
       "id": "2609.12731",
