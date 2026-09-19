@@ -1,41 +1,148 @@
 {
-  "generated_at": "2026-09-18T07:48:25+00:00",
+  "generated_at": "2026-09-19T07:43:44+00:00",
   "papers": [
     {
-      "id": "doi:10.61616/rvdc.v7i2.1780",
+      "id": "doi:10.20944/preprints202609.1511.v1",
       "source": "openalex",
       "sources": [
         "openalex"
       ],
-      "title": "Factores ambientales y sanitarios relacionados con la persistencia del dengue",
+      "title": "Can an Internal Parameter Be Used to Effectively Regularize MVDR Weights?",
       "authors": [
-        "Alejandro Antonio Baque Pibaque",
-        "Guashpa Rodriguez Marbella Gelena",
-        "Paola Maricela Jiménez Álvarez"
+        "Ramakrishna Sen",
+        "Dhruv Singh",
+        "M Kiran Reddy"
       ],
-      "published": "2026-09-16",
-      "updated": "2026-09-17",
+      "published": "2026-09-17",
+      "updated": "2026-09-19",
       "categories": [
         "OpenAlex",
-        "Epidemiological surveillance",
-        "Geography",
-        "Context (archaeology)",
-        "Dengue fever"
+        "Control theory (sociology)",
+        "Subspace topology",
+        "Mathematics",
+        "Algorithm"
       ],
-      "abstract": "En la introducción se plantea que el dengue representa uno de los principales desafíos de salud pública en zonas tropicales y subtropicales, con una carga epidemiológica creciente en Ecuador y en la provincia de Manabí, donde las condiciones climáticas y sanitarias favorecen la persistencia del virus. El objetivo consistió en analizar los factores ambientales y sanitarios relacionados con dicha persistencia en el contexto ecuatoriano y manabita, mediante la revisión de evidencia internacional, latinoamericana, nacional y local publicada entre 2022 y 2026. El diseño de estudio correspondió a un enfoque cualitativo, de tipo documental, bajo revisión sistemática de la literatura, con búsqueda en PubMed, Scopus, Scielo y Google Académico, complementada con informes de organismos de salud, con lo cual se seleccionaron 35 investigaciones relevantes. Los resultados muestran que la temperatura, la humedad, la precipitación y la urbanización no planificada se asocian con la proliferación del vector Aedes aegypti, mientras que el acceso deficiente a agua potable, el almacenamiento inadecuado del recurso hídrico y la recolección irregular de residuos agravan la persistencia viral; a nivel clínico se identificaron leucopenia, trombocitopenia y elevación de transaminasas como marcadores frecuentes, junto con mayor sensibilidad diagnóstica de los métodos moleculares frente a los serológicos. Como conclusión, se determinó que la combinación de determinantes climáticos y deficiencias sanitarias explica la persistencia del dengue en Jipijapa y en el territorio manabita, respaldando la necesidad de fortalecer el control vectorial y la capacidad diagnóstica de laboratorio.",
-      "url": "https://doi.org/10.61616/rvdc.v7i2.1780",
-      "pdf_url": "https://revistaveritas.org/index.php/veritas/article/download/1780/3412",
+      "abstract": "The Minimum Variance Distortionless Response (MVDR) beamformer offers optimal spatial selectivity but suffers from severe numerical instability in non-stationary acoustic environments. Target encroachment, steering vector mismatch, and finite-snapshot variance cause the spatial covariance matrix (SCM) to become acutely ill-conditioned. As the matrix approaches singularity, the norm of the inverted SCM diverges, leading to unbounded filter weights and a catastrophic collapse in White Noise Gain (WNG). While trace-relative diagonal loading mitigates this instability, utilizing a fixed regularization parameter forces an intractable compromise between spatial selectivity and numerical robustness. This paper proposes a spatially informed, time-frequency adaptive regularization framework for MVDR beamformers. We derive an orthogonal subspace leakage metric that quantifies the projection error between the assumed target steering vector and the dominant spatial subspace of the recursively estimated mixture SCM. This metric serves as a computationally efficient, instantaneous proxy for spatial difficulty. By mapping this leakage through a continuous logistic sigmoid clutch bounded by an empirically validated, array-scaled transition point (1/M), the proposed method continuously adapts the trace-relative loading. Quantitative evaluations across varying array geometries demonstrate that this continuous mapping reduces frame-to-frame filter weight jitter by an order of magnitude compared to binary thresholding. The proposed architecture autonomously navigates the feasible performance frontier, bounding WNG collapse during spatial degradation while preserving maximum selectivity in favorable geometries, all without requiring environment-specific threshold tuning or iterative convex solvers.",
+      "url": "https://doi.org/10.20944/preprints202609.1511.v1",
+      "pdf_url": "",
       "primary_category": "OpenAlex",
       "source_queries": [
         "Steering vectors"
       ],
       "code_urls": [],
       "openalex": {
-        "id": "https://openalex.org/W7213393941",
-        "doi": "10.61616/rvdc.v7i2.1780",
+        "id": "https://openalex.org/W7213544677",
+        "doi": "10.20944/preprints202609.1511.v1",
         "cited_by_count": 0
       },
       "relevance_score": 4
+    },
+    {
+      "id": "doi:10.5281/zenodo.22819401",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Instruments Before Invariants: Fail-Closed Assay Calibration and Out-of-Sample Relational Steering in Qwen2.5-7B",
+      "authors": [
+        "César Castro"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-18",
+      "categories": [
+        "Mathematics",
+        "OpenAlex",
+        "Residual",
+        "Scalar (mathematics)",
+        "Statistics"
+      ],
+      "abstract": "Activation steering usually treats the residual stream as a passive Euclidean space in which intervention effect is governed by how far a vector is moved. That assumption is rarely tested as an instrument. This preprint reports a fail-closed sequence of frozen protocols on open-weight Qwen2.5 models that first diagnosed invalid event worlds, broken answer interfaces, and insufficient target-only prediction, then isolated one bounded confirmatory result. On Qwen2.5-7B-Instruct at decoder layer 20, a convex residual blend of a target state with a donor state (mixing weight 0.25) moved content-scored arithmetic margins by a mean of −0.988 nats without inducing syntactic recurrence. A subsequent target-only predictor associated with finite displacement on 160 held-out items (partial Spearman ρ = 0.288) but missed its frozen effect-size and donor-specificity gates. Replacing that scalar score with a pre-intervention, answer-independent dyadic derivative — the inner product of the clean top-1 versus top-2 decision gradient with the target-to-donor residual — produced a confirmatory pass on 192 fresh targets and 768 causal edges. Mean within-target Kendall τₐ was 0.440 (permutation p = 5.0 × 10⁻⁵; stratified bootstrap 95% CI [0.368, 0.509]). Directional concordance was 0.720. After residualizing ranks on target and donor fixed effects, Spearman ρ = 0.371. A direction-norm baseline was uninformative (τₐ = −0.037). Post-patch accuracy remained 97.7%. A follow-on second-order assay asked whether a mixed directional Hessian could predict nonadditive composition of two donor directions. It stopped on development data: primary τₐ = 0.101, self-curvature positive control τₐ = 0.095 against a 0.30 gate, and low/high-dose rank stability τₐ = −0.010. A post-hoc audit showed that bfloat16 quantized self-margin shifts to 0.125-nat steps while median low-dose Taylor predictions were 0.027 nats. The first-order relational ranking therefore stands; a stable local quadratic regime does not. The contribution is dual. Substantively, finite intervention response in this world is a property of a target–donor pair, not of raw vector energy and not of target susceptibility alone. Methodologically, competence and potency must be shown before geometry is interpreted, and a significant p-value cannot rescue a failed effect-size, specificity, positive-control, or stability gate. No result is offered as evidence of a global residual-stream manifold, a general cognitive architecture, or artificial superintelligence.",
+      "url": "https://doi.org/10.5281/zenodo.22819401",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213509344",
+        "doi": "10.5281/zenodo.22819401",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.5281/zenodo.22808427",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Simulation-based dynamic laser beam shape optimization in powder bed fusion of metals: source code and data",
+      "authors": [
+        "Vijaya Holla",
+        "Philipp Kopp",
+        "Jesse Redford",
+        "Stefan Kollmannsberger"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-18",
+      "categories": [
+        "Computer science",
+        "Laser",
+        "OpenAlex",
+        "Python (programming language)",
+        "Solver"
+      ],
+      "abstract": "Source code, drivers, and data supporting the article Simulation-based dynamic laser beam shape optimization in powder bed fusion of metals. The solver performs an adjoint-based optimisation of the dynamic laser beam intensity profile in laser powder bed fusion of metals, governed by the transient nonlinear heat equation. The beam shape is treated as a space–time control field that evolves along the scan path, rather than as a fixed profile, and is optimised to achieve prescribed temperature targets or melt pool dimensions using various loss functions. Contents src/ — the solver: C++20 header-only helpers built on mlhp, exposed to python through pybind11 as the module optimize_timestep drivers/ — seven python drivers: the verification case, the three-track Gaussian and chair-shaped optimisations, and the static and optimised ten-track forward replays for both shapes results/beam_shapes/ — the optimised intensity profiles as one CSV per time frame, for the three-track optimisations and the ten-track replays built from them results/inputs/ — laser scan paths and per-frame power arrays results/verification/ — convergence history and the converged control vector of the verification case meltpool_results.xlsx — the melt pool width and depth time series, with per-track summaries and charts Building and running CMake 3.12, a C++20 compiler, OpenMP, and python with numpy and scipy. mlhp and pybind11 are included at pinned commits, so the archive builds without fetching submodules. Each driver runs from the build directory, where CMake places the inputs alongside the compiled module. Licensed under the MIT License. Development repository: https://gitlab.com/hpfem/publications/2026_dynamic_laser_beam_shape_optimization_AM",
+      "url": "https://doi.org/10.5281/zenodo.22808427",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [
+        "https://gitlab.com/hpfem/publications/2026_dynamic_laser_beam_shape_optimization_AM"
+      ],
+      "openalex": {
+        "id": "https://openalex.org/W7213503098",
+        "doi": "10.5281/zenodo.22808427",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "openalex:0689931088f93b7c",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "From Training Mixture to Model Voice: Causal Effects of Gender-Associated Linguistic Representation in Language Models — Study Protocol",
+      "authors": [
+        "Marcus Hermansson"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-19",
+      "categories": [
+        "OpenAlex",
+        "Protocol (science)",
+        "Psychology",
+        "Representation (politics)",
+        "Cognitive psychology"
+      ],
+      "abstract": "From Training Mixture to Model Voice is a preregistration-ready study protocol investigating whether gender-associated linguistic representation in language-model training data and user inputs causally influences a model’s default and conditional generative style. The study separates four constructs that are frequently conflated in research on gender and language models: author gender, gender-associated linguistic features, perceived gendered style, and semantic/topic content. It proposes a controlled factorial design in which the effective representation of female-associated training data is varied across multiple training-mixture conditions, while semantically matched inputs are independently manipulated along masculine-coded, neutral, and feminine-coded stylistic dimensions. The primary analyses test: (1) whether training-mixture composition shifts the model’s default perceived style under neutral input; (2) whether meaning-preserving gender-associated linguistic structure in user input shifts response style; and (3) whether training composition moderates the model’s response to those sociolinguistic cues. Secondary mechanistic analyses examine internal representations, probing, mediation, and causal activation interventions. The protocol includes blinded human evaluation, ordinal mixed-effects modelling, multiple independently trained seeds, matched and natural corpus conditions, negative controls, semantic-equivalence checks, capability and factual-stability controls, preregistered falsification criteria, and a reproducibility plan. A descriptive token-weighted analysis of published LLM training mixtures is included as motivation rather than as a claim about the exact demographic composition of proprietary model training data. An optional local geometric interpretation inspired by UFT-LLM is presented separately from the primary empirical methodology so that the study’s causal claims do not depend on acceptance of that framework. Status: Study protocol / preregistration-ready manuscript. No confirmatory results are reported in this version.",
+      "url": "https://osf.io/xeuw8",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213568688",
+        "doi": "",
+        "cited_by_count": 0
+      },
+      "relevance_score": 10
     },
     {
       "id": "doi:10.1186/s13059-026-04274-w",
@@ -54,7 +161,7 @@
         "Jeremias Krause"
       ],
       "published": "2026-09-16",
-      "updated": "2026-09-17",
+      "updated": "2026-09-19",
       "categories": [
         "Computer science",
         "Interpretation (philosophy)",
@@ -79,6 +186,151 @@
         "cited_by_count": 0
       },
       "relevance_score": 12
+    },
+    {
+      "id": "2609.18616",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Learning Array Signal Topologies as Conditional Neural Manifolds",
+      "authors": [
+        "Julian P. Merkofer",
+        "Vincent van de Schaft",
+        "Ruud J. G. van Sloun"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-19",
+      "categories": [
+        "OpenAlex",
+        "Manifold (fluid mechanics)",
+        "Signal subspace",
+        "Subspace topology",
+        "Manifold alignment"
+      ],
+      "abstract": "Subspace methods such as multiple signal classification (MUSIC) achieve super-resolution direction of arrival (DoA) estimation by exploiting the orthogonality between the array manifold and the noise subspace of the measurements. Their accuracy therefore depends on the assumed manifold and degrades under model mismatch, while parameters not identifiable from the spatial manifold cannot be recovered. In this work, we propose the conditional neural manifold (CNM), which replaces the fixed manifold with an observation-conditioned mapping from source parameters to steering vectors. An encoder maps the snapshots to a latent scene representation that conditions a zero-initialized neural field over the parameter space. The manifold is learned without steering-vector supervision by shaping the resulting MUSIC landscape. Since the correction acts on the manifold rather than on the estimator, it can be used by other manifold-based methods without modification. The CNM restores resolution under array imperfections, colored noise, correlated sources, and near-field propagation, and resolves the angle-frequency ambiguity inherent to the nominal spatial manifold.",
+      "url": "https://arxiv.org/abs/2609.18616",
+      "pdf_url": "https://arxiv.org/pdf/2609.18616",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213563764",
+        "doi": "",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "2609.18587",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Label-free steering: Compressing test-time reinforcement learning into bias-only subspaces",
+      "authors": [
+        "Naveen Vakada",
+        "Mingyuan Li",
+        "Shaoxiong Ji"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-19",
+      "categories": [
+        "OpenAlex",
+        "Reinforcement learning",
+        "Linear subspace",
+        "Adaptation (eye)",
+        "Computer science"
+      ],
+      "abstract": "Test-time reinforcement learning (TTRL) enables models to improve their reasoning without relying on labeled training data, but existing approaches typically optimize a large fraction of the model parameters. This raises a natural question: can effective test-time adaptation emerge when both the reward signal and the optimization space are severely restricted? We answer this question with label-free bias-only TTRL, which uses majority-vote pseudo-labels as rewards and optimizes only approximately 100K bias parameters while keeping the pretrained backbone frozen. On MATH-500, our approach reaches 76.67% accuracy, slightly exceeding our own labeled bias-steering reproduction while optimizing 76,000x fewer parameters than full-parameter TTRL. The same training procedure improves performance across vision-language and audio reasoning tasks, including MathVista, AI2D, LogicVista, and MMAU. We further show that the learned steering vectors transfer to 4,500 held-out MATH problems, indicating that the adaptation is not limited to the problems used during test-time optimization. Finally, we analyze why this highly restricted adaptation can work, showing that majority-vote reliability improves with rollout consensus and that bias subspaces with greater accessible gradient energy exhibit stronger downstream trainability. These results demonstrate that substantial test-time adaptation can emerge from optimizing a tiny bias-only subspace using entirely label-free rewards.",
+      "url": "https://arxiv.org/abs/2609.18587",
+      "pdf_url": "https://arxiv.org/pdf/2609.18587",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213512115",
+        "doi": "10.48550/arxiv.2609.18587",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
+      "id": "2609.18533",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "A Probe Shift Is Not a Fairness Fix: The Limits of Representation Steering in Speech Models",
+      "authors": [
+        "Nicolas Bourrel",
+        "Abderrahmane Issam",
+        "Gerasimos Spanakis"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-19",
+      "categories": [
+        "Computer science",
+        "Construct (python library)",
+        "OpenAlex",
+        "Speech recognition",
+        "Task (project management)"
+      ],
+      "abstract": "Automatic speech recognition (ASR) systems exhibit unequal error rates across speaker groups, motivating interventions on their internal representations. We ask whether speaker-linked attributes that are linearly readable from pretrained ASR encoders yield useful directions for reducing group word-error-rate (WER) gaps. Across Whisper-medium, HuBERT-large, and Wav2Vec2-large on Common Voice and the Speech Accent Archive, we probe every encoder layer for metadata-derived sex/gender, age, and native/accent labels; construct centroid and probe-derived directions; inject them at selected layers; and compare downstream probe trajectories with matched WER changes. Sex labels are highly decodable (best macro-F1 0.924--0.941), native/accent labels are also above chance (0.544--0.696), and age is weaker (0.354--0.397). Of 22 post-selected reruns, nine have 95% paired-bootstrap intervals entirely below zero, yet every absolute source-group WER reduction is below 0.7 percentage points. Conversely, a local target-class probe rate can rise from 8.09% to 99.87% while WER worsens. Linear readability is therefore neither evidence of causal use nor a reliable mitigation method. Our results motivate evaluating speech-bias interventions jointly at representation, propagation, and task levels.",
+      "url": "https://arxiv.org/abs/2609.18533",
+      "pdf_url": "https://arxiv.org/pdf/2609.18533",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Persona sentiment attribute steering",
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213525836",
+        "doi": "10.48550/arxiv.2609.18533",
+        "cited_by_count": 0
+      },
+      "relevance_score": 7
+    },
+    {
+      "id": "doi:10.61616/rvdc.v7i2.1780",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Factores ambientales y sanitarios relacionados con la persistencia del dengue",
+      "authors": [
+        "Alejandro Antonio Baque Pibaque",
+        "Guashpa Rodriguez Marbella Gelena",
+        "Paola Maricela Jiménez Álvarez"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-17",
+      "categories": [
+        "Context (archaeology)",
+        "Dengue fever",
+        "Epidemiological surveillance",
+        "Geography",
+        "OpenAlex"
+      ],
+      "abstract": "En la introducción se plantea que el dengue representa uno de los principales desafíos de salud pública en zonas tropicales y subtropicales, con una carga epidemiológica creciente en Ecuador y en la provincia de Manabí, donde las condiciones climáticas y sanitarias favorecen la persistencia del virus. El objetivo consistió en analizar los factores ambientales y sanitarios relacionados con dicha persistencia en el contexto ecuatoriano y manabita, mediante la revisión de evidencia internacional, latinoamericana, nacional y local publicada entre 2022 y 2026. El diseño de estudio correspondió a un enfoque cualitativo, de tipo documental, bajo revisión sistemática de la literatura, con búsqueda en PubMed, Scopus, Scielo y Google Académico, complementada con informes de organismos de salud, con lo cual se seleccionaron 35 investigaciones relevantes. Los resultados muestran que la temperatura, la humedad, la precipitación y la urbanización no planificada se asocian con la proliferación del vector Aedes aegypti, mientras que el acceso deficiente a agua potable, el almacenamiento inadecuado del recurso hídrico y la recolección irregular de residuos agravan la persistencia viral; a nivel clínico se identificaron leucopenia, trombocitopenia y elevación de transaminasas como marcadores frecuentes, junto con mayor sensibilidad diagnóstica de los métodos moleculares frente a los serológicos. Como conclusión, se determinó que la combinación de determinantes climáticos y deficiencias sanitarias explica la persistencia del dengue en Jipijapa y en el territorio manabita, respaldando la necesidad de fortalecer el control vectorial y la capacidad diagnóstica de laboratorio.",
+      "url": "https://doi.org/10.61616/rvdc.v7i2.1780",
+      "pdf_url": "https://revistaveritas.org/index.php/veritas/article/download/1780/3412",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213393941",
+        "doi": "10.61616/rvdc.v7i2.1780",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
     },
     {
       "id": "doi:10.1007/978-3-032-38410-2_42",
@@ -161,6 +413,41 @@
       "relevance_score": 6
     },
     {
+      "id": "2609.17790",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Not All Patches Are Equally Forgettable: Spatially Localized Domain Unlearning in Vision-Language Models",
+      "authors": [
+        "Akanksha Singh",
+        "Vinod K. Kurmi"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-19",
+      "categories": [
+        "OpenAlex",
+        "Robustness (evolution)",
+        "Computer science",
+        "Exploit",
+        "Artificial intelligence"
+      ],
+      "abstract": "Pre-trained vision-language models (VLMs) exhibit strong cross-domain recognition performance even without additional training. However, this robustness can also preserve undesirable domain-specific behavior, as domain-related and semantic information often remain entangled within the learned representation space, making selective domain unlearning challenging. Existing approaches typically address this problem through latent-space disentanglement and prompt- or feature-level interventions, without directly attributing and attenuating individual patch-token contributions. However, here we suggest that rather than uniformly suppressing the full representation, it may be more effective to exploit the spatial structure of vision transformers to localize and suppress patch regions that contribute disproportionately to forget-domain prediction. Patches that strongly influence forget-domain prediction may not be equally important for semantic recognition, suggesting that forgetting should be guided according to the domain contribution of different visual regions. Specifically, we propose a two-stage patch-selective framework that first estimates patch-level domain sensitivity and then selectively attenuates patches whose contribution to forget-domain prediction is stronger than their semantic utility. We evaluate our framework on Office-Home, Mini DomainNet, and DomainNet. Experimental results demonstrate improved forgetting-retention tradeoffs compared to prior methods while improving retained-domain recognition by up to 3.8\\%. Additional evaluations under visually overlapping and unseen-domain settings further demonstrate improved robustness under distribution shift.",
+      "url": "https://arxiv.org/abs/2609.17790",
+      "pdf_url": "https://arxiv.org/pdf/2609.17790",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213507885",
+        "doi": "10.48550/arxiv.2609.17790",
+        "cited_by_count": 0
+      },
+      "relevance_score": 10
+    },
+    {
       "id": "2609.17076",
       "source": "arxiv",
       "sources": [
@@ -219,10 +506,10 @@
       "published": "2026-09-15",
       "updated": "2026-09-17",
       "categories": [
-        "OpenAlex",
         "Beamforming",
-        "Probabilistic logic",
         "Mathematical optimization",
+        "OpenAlex",
+        "Probabilistic logic",
         "Reliability (semiconductor)"
       ],
       "abstract": "Linearly constrained minimum variance (LCMV) beamforming is a fundamental technique for controlling the array response toward multiple desired signals while suppressing interference and noise. In practical systems, however, the steering vectors involved in the response constraints are often affected by direction-of-arrival errors, calibration imperfections, and other array uncertainties. Such mismatches may cause constraint violations and substantial performance degradation. This paper investigates multi-signal LCMV beamforming under steering-vector mismatch and develops probabilistic constraints to guarantee a prescribed reliability level for each desired signal. Several uncertainty-information settings are considered. When the exact mismatch distribution is known and belongs to the class of complex elliptically symmetric distributions (CES), a distribution-informed convex safe reformulation is derived using exact CES quantiles. When the mismatch distribution is unknown, and only partial statistical information or empirical data is available, robust probabilistic reformulations are developed under moment-based ambiguity, support-based uncertainty, and Wasserstein data-driven ambiguity, and the resulting deterministic formulations can be expressed as convex second-order cone programs. Numerical experiments show that the proposed designs improve out-of-sample reliability and reduce beam-gain sensitivity to steering-vector mismatch, while maintaining competitive output signal-to-interference-plus-noise (SINR) ratio and robust beampatterns.",
@@ -534,6 +821,51 @@
       "relevance_score": 10
     },
     {
+      "id": "2609.15654",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Empathy Is Steerable but Multi-Axial: Mechanism Geometry and Persona Effects in LLMs",
+      "authors": [
+        "JuHeon Ha",
+        "Byounghan Lee",
+        "Yunseo Choi",
+        "Kyung-Ah Sohn"
+      ],
+      "published": "2026-09-14",
+      "updated": "2026-09-19",
+      "categories": [
+        "Empathy",
+        "Epitome",
+        "OpenAlex",
+        "Persona",
+        "Psychology",
+        "cs.CL"
+      ],
+      "abstract": "Activation steering has been used to control traits such as honesty, refusal, and sycophancy, yet supportive empathy is evaluated along multiple dimensions that need not correspond to independently controllable activation directions. Using the EPITOME framework, which decomposes supportive empathy into Emotional Reactions, Interpretations, and Explorations, we study three instruction-tuned LLMs and ask whether candidate directions derived from these labels produce distinguishable intervention effects or instead share structure, and how persona prompts interact with those directions. We find that contrastive activation addition yields a stable middle-layer intervention that consistently shifts the EPITOME proxy scores across models, moving empathy analysis beyond response-level scoring. However, the recovered directions are only partially separable: steering one direction induces off-target shifts, and hand-crafted prompting shifts the empathy profile rather than isolating a single dimension. Persona prompts substantially change EPITOME scores, but a paired activation-shift decomposition shows that the recovered subspace captures only approximately 3 percent of persona-induced squared activation-shift magnitude at layer 15. Under this EPITOME-based definition, expressed empathy is steerable but multi-axial, and controlling persona-conditioned empathy requires targeting structure beyond individual mechanism directions.",
+      "url": "https://arxiv.org/abs/2609.15654",
+      "pdf_url": "https://arxiv.org/pdf/2609.15654",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Activation steering exact",
+        "Feature latent concept steering",
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Representation engineering",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 13,
+      "openalex": {
+        "id": "https://openalex.org/W7213288472",
+        "doi": "10.48550/arxiv.2609.15654",
+        "cited_by_count": 0
+      }
+    },
+    {
       "id": "2609.16436",
       "source": "arxiv",
       "sources": [
@@ -614,51 +946,6 @@
       "openalex": {
         "id": "https://openalex.org/W7213373046",
         "doi": "",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2609.15654",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Empathy Is Steerable but Multi-Axial: Mechanism Geometry and Persona Effects in LLMs",
-      "authors": [
-        "JuHeon Ha",
-        "Byounghan Lee",
-        "Yunseo Choi",
-        "Kyung-Ah Sohn"
-      ],
-      "published": "2026-09-14",
-      "updated": "2026-09-17",
-      "categories": [
-        "Empathy",
-        "Epitome",
-        "OpenAlex",
-        "Persona",
-        "Psychology",
-        "cs.CL"
-      ],
-      "abstract": "Activation steering has been used to control traits such as honesty, refusal, and sycophancy, yet supportive empathy is evaluated along multiple dimensions that need not correspond to independently controllable activation directions. Using the EPITOME framework, which decomposes supportive empathy into Emotional Reactions, Interpretations, and Explorations, we study three instruction-tuned LLMs and ask whether candidate directions derived from these labels produce distinguishable intervention effects or instead share structure, and how persona prompts interact with those directions. We find that contrastive activation addition yields a stable middle-layer intervention that consistently shifts the EPITOME proxy scores across models, moving empathy analysis beyond response-level scoring. However, the recovered directions are only partially separable: steering one direction induces off-target shifts, and hand-crafted prompting shifts the empathy profile rather than isolating a single dimension. Persona prompts substantially change EPITOME scores, but a paired activation-shift decomposition shows that the recovered subspace captures only approximately 3 percent of persona-induced squared activation-shift magnitude at layer 15. Under this EPITOME-based definition, expressed empathy is steerable but multi-axial, and controlling persona-conditioned empathy requires targeting structure beyond individual mechanism directions.",
-      "url": "https://arxiv.org/abs/2609.15654",
-      "pdf_url": "https://arxiv.org/pdf/2609.15654",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Activation steering exact",
-        "Feature latent concept steering",
-        "Persona sentiment attribute steering",
-        "Reasoning and CoT steering",
-        "Representation engineering",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 13,
-      "openalex": {
-        "id": "https://openalex.org/W7213288472",
-        "doi": "10.48550/arxiv.2609.15654",
         "cited_by_count": 0
       }
     },
@@ -1219,7 +1506,7 @@
         "Tuka Alhanai"
       ],
       "published": "2026-09-12",
-      "updated": "2026-09-17",
+      "updated": "2026-09-19",
       "categories": [
         "Construct (python library)",
         "Generalization",
@@ -2178,6 +2465,44 @@
       "relevance_score": 4
     },
     {
+      "id": "doi:10.5281/zenodo.22682198",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Thermodynamics of Neural Optimization: Persistent Individual Ballistic Flow with Optimization-Critical Oscillation",
+      "authors": [
+        "Daniel Solis"
+      ],
+      "published": "2026-09-09",
+      "updated": "2026-09-18",
+      "categories": [
+        "Kinematics",
+        "Mathematics",
+        "Metric (unit)",
+        "OpenAlex",
+        "Oscillation (cell signaling)",
+        "Physics",
+        "Redundancy (engineering)",
+        "Statistical physics"
+      ],
+      "abstract": "ABSTRACT Version 10.0 Repository Addendum Notice: This updated repository documentation incorporates live telemetry from MyceliaLM (1.62B parameters) past Step 175,000, formally documenting the discovery of Kinematic-Thermodynamic Decoupling, Spontaneous Symmetry Breaking (Regime C: Individual Ballistic Flow), and predictive zero-crossing dynamics of the Optimization Response Function $\\chi_R$. The ILIAD research programme poses a central question: do ReLU networks possess an intrinsic simplicity bias analogous to Solomonoff induction, and can this bias be characterised through the geometry of the fiber? We argue that this question admits a complementary formulation in the language of continuous-time stochastic differential equations (SDEs) on attention-induced Riemannian manifolds. We present three formal structural mappings between ILIAD's static algebraic-geometric framework (toric encoding maps, fiber volumes, and the Real Log Canonical Threshold) and our continuous-time trajectory telemetry framework (the coordinate-disentangled ANOVA hidden state decomposition, the macroscopic order parameter $R_t$, and the Alpha Potential Well metric scaling regulator). Rather than claiming mathematical identity, we model the Real Log Canonical Threshold (RLCT, $\\lambda$) and the Constructive-Compensatory Ratio ($R_t$) as a conjectured phenomenological correspondence, where $R_t$ acts as a live thermodynamic thermometer of representational complexity, with the Optimization Response Function $\\chi_R = \\partial \\mathcal{L}_{\\text{loss}} / \\partial R_t$ flipping sign. We provide empirical evidence from the closed-loop training of MyceliaLM, a de novo 1.62-billion-parameter self-governing transformer. We document a glorious, controlled singular phase transition (grokking) where the macroscopic order parameter $R_t$ catapults from a stagnant compensatory stasis of $R_t \\approx 0.0$ to a generalised constructive basin of $R_t = 1.174$ (at Step 159,000, with $\\chi_R = -8.8787$), while the attention heads successfully desynchronize (coherence $= 0.0003$, head variance $= 0.6849$) to carve distinct semantic subspaces. Furthermore, we expose and resolve a proxy-gaming loop mapping Goodhart’s Law directly onto the geometric control plane (where attention target norm inflation collapsed $R_t$ to $0.122$) by implementing a context-level soft target correction ($ctx[\\text{\"alpha_norm_target\"}] = \\text{realistic}$), proving that continuous-time geometric telemetry and self-aware governors can predict, prevent, and permanently stabilize representation failures in self-governing architectures. , 1. INTRODUCTION: TWO LANGUAGES FOR ONE PHENOMENON The ILIAD programme [1] identifies a fundamental gap in AI safety: the absence of a sufficiently general, predictive mathematical account of neural network generalisation. Their proposed resolution proceeds through algebraic geometry, specifically, through the toric encoding map $\\Phi_\\theta$, which maps $d$-dimensional real parameter space to $d'$-dimensional real space and reveals the tractable geometric structure of ReLU networks. This structure includes the fiber $F$ of $f$, defined as the set of all parameter configurations $\\theta$ for which the toric encoding map produces identical functional behavior $f$ [2]. Our research programme, the Multiscale Attractor Stability and Stress Inference Framework (MASSIF), proceeds from a complementary direction. Rather than characterising the static algebraic structure of the parameter space, we measure the dynamic trajectory of optimization as it traverses that space during the forward pass. The MASSIF framework [5] equips a transformer with real-time differential-geometric telemetry: a 13-observable kinematic state vector tracking velocity, curvature, torsion, and Lyapunov divergence of the hidden-state trajectory $\\mathbf{h}t$ as it evolves on an attention-induced Riemannian manifold $\\mathcal{M}$) equipped with a covariant metric tensor $g^A{ij}$. These two programmes are not competing. They are dual descriptions of the same underlying physical phenomenon: ILIAD asks: What is the geometry of the space through which learning moves? MASSIF asks: What is the geometry of the movement through that space? The former is a question about the manifold; the latter is a question about the geodesic. Both require differential geometry. Both produce safety-relevant, active observables. And both converge on the same empirical phenomenon: the phase transition from compensatory, high-dimensional brute-force memorization to constructive, low-dimensional structural generalisation, what the broader literature calls grokking [6]. , 2. THE BRIDGE: THREE STRUCTURAL MAPPINGS To formally unite these dual descriptions, we establish three explicit correspondences connecting static algebraic topography with active, continuous-time trajectory telemetry: Mapping 1: Fiber Degeneracies $\\leftrightarrow$ ANOVA Residuals ILIAD Algebraic Concept: The parameter fiber $F(f)$, representing all parameter configurations $\\theta$ yielding identical functional output $f$ [2]. Larger fiber volumes represent higher parameter redundancy. MASSIF Dynamic observable: The squared Euclidean norm of the ANOVA residual vector $|\\mathbf{resid}{c,t}^{(\\ell)}|_2^2$ [10, 174]. The hidden-state residual stream $h{c,t}^{(\\ell)}$ at layer $\\ell$, sequence position $t$, and context $c$, is projected onto coordinate-disentangled subspaces: $$h_{c,t}^{(\\ell)} = \\mu^{(\\ell)} + \\mathbf{pos}t^{(\\ell)} + \\mathbf{ctx}c^{(\\ell)} + \\mathbf{resid}{c,t}^{(\\ell)}$$ By tracking the mutual incoherence between the positional basis and the context basis, we establish a dynamic, online proxy for near fiber volume [10]: $$\\mathrm{incoherence} := \\max{t,c} \\left| \\left\\langle \\frac{\\mathbf{pos}_t}{|\\mathbf{pos}_t|}, \\frac{\\mathbf{ctx}_c}{|\\mathbf{ctx}_c|} \\right\\rangle \\right|$$ When incoherence drops below $0.15$, the coordinate subspaces are cleanly orthogonalized, indicating a minimal parameter representation near an irreducible branch of the fiber [11]. Mapping 2: Real Log Canonical Threshold $\\leftrightarrow$ Order Parameter ($R_t$) ILIAD Algebraic Concept: The Real Log Canonical Threshold (RLCT, $\\lambda$) [3, 4]. In Singular Learning Theory, $\\lambda$ is the fundamental complexity measure governing the asymptotic rate at which the Bayesian posterior concentrates. MASSIF Dynamic Observable: The macroscopic order parameter, the Constructive-Compensatory Ratio ($R_t$), which acts as a live, empirical probe for RLCT transitions [7]: $$R_t = \\frac{\\Pi_\\alpha(t)}{\\Pi_{\\text{FFN}}(t) + \\Pi_{\\text{MPC}}(t)}$$ where $\\Pi_\\alpha$, $\\Pi_{\\text{FFN}}$, and $\\Pi_{\\text{MPC}}$ represent the optimization pressures (stress tensors) exerted by the attention, feed-forward, and model predictive control governors, respectively [7, 105]. Phenomenological Correspondence: Rather than claiming mathematical identity, we model the RLCT ($\\lambda$) and the order parameter ($R_t$) as a conjectured monotonic correspondence across phase boundaries [13]. In the Compensatory Regime ($R_t < 0.8$), the system is trapped in a highly degenerate, high-volume variety carrying extensive padding (memorization) [14, 22]. At the critical point ($R_t \\approx 1.2$), the Optimization Response Function $\\chi_R = \\partial \\mathcal{L}_{\\text{loss}} / \\partial R_t$ decouples ($\\chi_R \\approx 0$) [23]. In the Constructive Regime ($R_t > 1.5$), $\\chi_R$ flips negative, and the model condenses onto a lower-dimensional, highly generalised manifold [23]. Mapping 3: Toric Padding $\\leftrightarrow$ The Alpha Potential Well ILIAD Algebraic Concept: Toric Padding, the algebraic symmetries and scaling redundancies (e.g., group actions) that artificially inflate fiber volume without changing model behavior [15]. MASSIF Dynamic Observable: The Alpha Potential Well, a symmetric quadratic loss term defined over layers $1 \\dots L$ [8]: $$U(\\alpha) = \\lambda_{\\text{well}} \\sum_{\\ell=1}^L \\left[ (\\alpha_{\\text{attn}}^{(\\ell)} - 1.0)^2 + (\\alpha_{\\text{ffn}}^{(\\ell)} - 1.0)^2 \\right]$$ Mathematical Grounding: Under the weight-decay-free Manual Muon optimiser, $U(\\alpha)$ acts as an effective metric scaling constraint [130, 204]. Because self-attention weights directly define the localized attention-induced Riemannian metric tensor $g^A_{ij}$, penalizing deviations of $\\alpha_{\\text{attn}}$ from unity conformally scales the metric. This prevents unchecked scaling degeneracies from blowing up or collapsing local geodesic ball volumes, acting as an effective curvature modulator [17]. , 3. CONTINUOUS-TIME TRAJECTORY KINEMATICS & SDE VALIDATION To model the autoregressive uncertainty of inference, the latent trajectory $\\mathbf{z}_t$ is formulated as an Itô Stochastic Differential Equation (SDE) driven by a semantic velocity field and Brownian noise [793]: $$d\\mathbf{z}t = \\mathbf{v}{\\text{logic}}(\\mathbf{z}_t)dt + \\sigma d\\mathbf{W}_t$$ To rigorously validate whether the empirical hidden states of MyceliaLM exhibit the statistical properties of a true SDE with approximately separable drift and diffusion, we propose the Kramers-Moyal Empirical Verification Protocol [224]. By extracting the transition probability $P(\\mathbf{z}{t+\\Delta t} \\mid \\mathbf{z}t)$ across adjacent layer steps ($\\Delta t = \\Delta \\ell = 1$), we compute the empirical drift vector $\\mathbf{D}^{(1)}$ and diffusion tensor $\\mathbf{D}^{(2)}$ [225]: $$\\mathbf{D}^{(1)}(\\mathbf{z}) = \\lim{\\Delta t \\to 0} \\frac{1}{\\Delta t} \\mathbb{E}[\\mathbf{z}{t+\\Delta t} - \\mathbf{z}t \\mid \\mathbf{z}t = \\mathbf{z}]$$ $$\\mathbf{D}^{(2)}(\\mathbf{z}) = \\lim{\\Delta t \\to 0} \\frac{1}{2\\Delta t} \\mathbb{E}[(\\mathbf{z}{t+\\Delta t} - \\mathbf{z}t)(\\mathbf{z}{t+\\Delta t} - \\mathbf{z}_t)^T \\mid \\mathbf{z}_t = \\mathbf{z}]$$ By evaluating Pawula's Theorem, verifying that the fourth-order Kramers-Moyal coefficient is negligible ($\\mathbf{D}^{(4)} \\to 0$), we can mathematically prove if the latent transitions",
+      "url": "https://doi.org/10.5281/zenodo.22682198",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7212125931",
+        "doi": "10.5281/zenodo.22682198",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
       "id": "2609.10715",
       "source": "arxiv",
       "sources": [
@@ -2437,41 +2762,6 @@
       "openalex": {
         "id": "https://openalex.org/W7212018880",
         "doi": "10.3390/computation14090212",
-        "cited_by_count": 0
-      },
-      "relevance_score": 6
-    },
-    {
-      "id": "doi:10.5281/zenodo.22682198",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Thermodynamics of Neural Optimization: Persistent Individual Ballistic Flow with Optimization-Critical Oscillation",
-      "authors": [
-        "Daniel Solis"
-      ],
-      "published": "2026-09-09",
-      "updated": "2026-09-11",
-      "categories": [
-        "Metric (unit)",
-        "OpenAlex",
-        "Oscillation (cell signaling)",
-        "Physics",
-        "Statistical physics"
-      ],
-      "abstract": "ABSTRACT Version 10.0 Repository Addendum Notice: This updated repository documentation incorporates live telemetry from MyceliaLM (1.62B parameters) past Step 175,000, formally documenting the discovery of Kinematic-Thermodynamic Decoupling, Spontaneous Symmetry Breaking (Regime C: Individual Ballistic Flow), and predictive zero-crossing dynamics of the Optimization Response Function $\\chi_R$. The ILIAD research programme poses a central question: do ReLU networks possess an intrinsic simplicity bias analogous to Solomonoff induction, and can this bias be characterised through the geometry of the fiber? We argue that this question admits a complementary formulation in the language of continuous-time stochastic differential equations (SDEs) on attention-induced Riemannian manifolds. We present three formal structural mappings between ILIAD's static algebraic-geometric framework (toric encoding maps, fiber volumes, and the Real Log Canonical Threshold) and our continuous-time trajectory telemetry framework (the coordinate-disentangled ANOVA hidden state decomposition, the macroscopic order parameter $R_t$, and the Alpha Potential Well metric scaling regulator). Rather than claiming mathematical identity, we model the Real Log Canonical Threshold (RLCT, $\\lambda$) and the Constructive-Compensatory Ratio ($R_t$) as a conjectured phenomenological correspondence, where $R_t$ acts as a live thermodynamic thermometer of representational complexity, with the Optimization Response Function $\\chi_R = \\partial \\mathcal{L}_{\\text{loss}} / \\partial R_t$ flipping sign. We provide empirical evidence from the closed-loop training of MyceliaLM, a de novo 1.62-billion-parameter self-governing transformer. We document a glorious, controlled singular phase transition (grokking) where the macroscopic order parameter $R_t$ catapults from a stagnant compensatory stasis of $R_t \\approx 0.0$ to a generalised constructive basin of $R_t = 1.174$ (at Step 159,000, with $\\chi_R = -8.8787$), while the attention heads successfully desynchronize (coherence $= 0.0003$, head variance $= 0.6849$) to carve distinct semantic subspaces. Furthermore, we expose and resolve a proxy-gaming loop mapping Goodhart’s Law directly onto the geometric control plane (where attention target norm inflation collapsed $R_t$ to $0.122$) by implementing a context-level soft target correction ($ctx[\\text{\"alpha_norm_target\"}] = \\text{realistic}$), proving that continuous-time geometric telemetry and self-aware governors can predict, prevent, and permanently stabilize representation failures in self-governing architectures. , 1. INTRODUCTION: TWO LANGUAGES FOR ONE PHENOMENON The ILIAD programme [1] identifies a fundamental gap in AI safety: the absence of a sufficiently general, predictive mathematical account of neural network generalisation. Their proposed resolution proceeds through algebraic geometry, specifically, through the toric encoding map $\\Phi_\\theta$, which maps $d$-dimensional real parameter space to $d'$-dimensional real space and reveals the tractable geometric structure of ReLU networks. This structure includes the fiber $F$ of $f$, defined as the set of all parameter configurations $\\theta$ for which the toric encoding map produces identical functional behavior $f$ [2]. Our research programme, the Multiscale Attractor Stability and Stress Inference Framework (MASSIF), proceeds from a complementary direction. Rather than characterising the static algebraic structure of the parameter space, we measure the dynamic trajectory of optimization as it traverses that space during the forward pass. The MASSIF framework [5] equips a transformer with real-time differential-geometric telemetry: a 13-observable kinematic state vector tracking velocity, curvature, torsion, and Lyapunov divergence of the hidden-state trajectory $\\mathbf{h}t$ as it evolves on an attention-induced Riemannian manifold $\\mathcal{M}$) equipped with a covariant metric tensor $g^A{ij}$. These two programmes are not competing. They are dual descriptions of the same underlying physical phenomenon: ILIAD asks: What is the geometry of the space through which learning moves? MASSIF asks: What is the geometry of the movement through that space? The former is a question about the manifold; the latter is a question about the geodesic. Both require differential geometry. Both produce safety-relevant, active observables. And both converge on the same empirical phenomenon: the phase transition from compensatory, high-dimensional brute-force memorization to constructive, low-dimensional structural generalisation, what the broader literature calls grokking [6]. , 2. THE BRIDGE: THREE STRUCTURAL MAPPINGS To formally unite these dual descriptions, we establish three explicit correspondences connecting static algebraic topography with active, continuous-time trajectory telemetry: Mapping 1: Fiber Degeneracies $\\leftrightarrow$ ANOVA Residuals ILIAD Algebraic Concept: The parameter fiber $F(f)$, representing all parameter configurations $\\theta$ yielding identical functional output $f$ [2]. Larger fiber volumes represent higher parameter redundancy. MASSIF Dynamic observable: The squared Euclidean norm of the ANOVA residual vector $|\\mathbf{resid}{c,t}^{(\\ell)}|_2^2$ [10, 174]. The hidden-state residual stream $h{c,t}^{(\\ell)}$ at layer $\\ell$, sequence position $t$, and context $c$, is projected onto coordinate-disentangled subspaces: $$h_{c,t}^{(\\ell)} = \\mu^{(\\ell)} + \\mathbf{pos}t^{(\\ell)} + \\mathbf{ctx}c^{(\\ell)} + \\mathbf{resid}{c,t}^{(\\ell)}$$ By tracking the mutual incoherence between the positional basis and the context basis, we establish a dynamic, online proxy for near fiber volume [10]: $$\\mathrm{incoherence} := \\max{t,c} \\left| \\left\\langle \\frac{\\mathbf{pos}_t}{|\\mathbf{pos}_t|}, \\frac{\\mathbf{ctx}_c}{|\\mathbf{ctx}_c|} \\right\\rangle \\right|$$ When incoherence drops below $0.15$, the coordinate subspaces are cleanly orthogonalized, indicating a minimal parameter representation near an irreducible branch of the fiber [11]. Mapping 2: Real Log Canonical Threshold $\\leftrightarrow$ Order Parameter ($R_t$) ILIAD Algebraic Concept: The Real Log Canonical Threshold (RLCT, $\\lambda$) [3, 4]. In Singular Learning Theory, $\\lambda$ is the fundamental complexity measure governing the asymptotic rate at which the Bayesian posterior concentrates. MASSIF Dynamic Observable: The macroscopic order parameter, the Constructive-Compensatory Ratio ($R_t$), which acts as a live, empirical probe for RLCT transitions [7]: $$R_t = \\frac{\\Pi_\\alpha(t)}{\\Pi_{\\text{FFN}}(t) + \\Pi_{\\text{MPC}}(t)}$$ where $\\Pi_\\alpha$, $\\Pi_{\\text{FFN}}$, and $\\Pi_{\\text{MPC}}$ represent the optimization pressures (stress tensors) exerted by the attention, feed-forward, and model predictive control governors, respectively [7, 105]. Phenomenological Correspondence: Rather than claiming mathematical identity, we model the RLCT ($\\lambda$) and the order parameter ($R_t$) as a conjectured monotonic correspondence across phase boundaries [13]. In the Compensatory Regime ($R_t < 0.8$), the system is trapped in a highly degenerate, high-volume variety carrying extensive padding (memorization) [14, 22]. At the critical point ($R_t \\approx 1.2$), the Optimization Response Function $\\chi_R = \\partial \\mathcal{L}_{\\text{loss}} / \\partial R_t$ decouples ($\\chi_R \\approx 0$) [23]. In the Constructive Regime ($R_t > 1.5$), $\\chi_R$ flips negative, and the model condenses onto a lower-dimensional, highly generalised manifold [23]. Mapping 3: Toric Padding $\\leftrightarrow$ The Alpha Potential Well ILIAD Algebraic Concept: Toric Padding, the algebraic symmetries and scaling redundancies (e.g., group actions) that artificially inflate fiber volume without changing model behavior [15]. MASSIF Dynamic Observable: The Alpha Potential Well, a symmetric quadratic loss term defined over layers $1 \\dots L$ [8]: $$U(\\alpha) = \\lambda_{\\text{well}} \\sum_{\\ell=1}^L \\left[ (\\alpha_{\\text{attn}}^{(\\ell)} - 1.0)^2 + (\\alpha_{\\text{ffn}}^{(\\ell)} - 1.0)^2 \\right]$$ Mathematical Grounding: Under the weight-decay-free Manual Muon optimiser, $U(\\alpha)$ acts as an effective metric scaling constraint [130, 204]. Because self-attention weights directly define the localized attention-induced Riemannian metric tensor $g^A_{ij}$, penalizing deviations of $\\alpha_{\\text{attn}}$ from unity conformally scales the metric. This prevents unchecked scaling degeneracies from blowing up or collapsing local geodesic ball volumes, acting as an effective curvature modulator [17]. , 3. CONTINUOUS-TIME TRAJECTORY KINEMATICS & SDE VALIDATION To model the autoregressive uncertainty of inference, the latent trajectory $\\mathbf{z}_t$ is formulated as an Itô Stochastic Differential Equation (SDE) driven by a semantic velocity field and Brownian noise [793]: $$d\\mathbf{z}t = \\mathbf{v}{\\text{logic}}(\\mathbf{z}_t)dt + \\sigma d\\mathbf{W}_t$$ To rigorously validate whether the empirical hidden states of MyceliaLM exhibit the statistical properties of a true SDE with approximately separable drift and diffusion, we propose the Kramers-Moyal Empirical Verification Protocol [224]. By extracting the transition probability $P(\\mathbf{z}{t+\\Delta t} \\mid \\mathbf{z}t)$ across adjacent layer steps ($\\Delta t = \\Delta \\ell = 1$), we compute the empirical drift vector $\\mathbf{D}^{(1)}$ and diffusion tensor $\\mathbf{D}^{(2)}$ [225]: $$\\mathbf{D}^{(1)}(\\mathbf{z}) = \\lim{\\Delta t \\to 0} \\frac{1}{\\Delta t} \\mathbb{E}[\\mathbf{z}{t+\\Delta t} - \\mathbf{z}t \\mid \\mathbf{z}t = \\mathbf{z}]$$ $$\\mathbf{D}^{(2)}(\\mathbf{z}) = \\lim{\\Delta t \\to 0} \\frac{1}{2\\Delta t} \\mathbb{E}[(\\mathbf{z}{t+\\Delta t} - \\mathbf{z}t)(\\mathbf{z}{t+\\Delta t} - \\mathbf{z}_t)^T \\mid \\mathbf{z}_t = \\mathbf{z}]$$ By evaluating Pawula's Theorem, verifying that the fourth-order Kramers-Moyal coefficient is negligible ($\\mathbf{D}^{(4)} \\to 0$), we can mathematically prove if the latent transitions",
-      "url": "https://doi.org/10.5281/zenodo.22682198",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Hidden-state intervention",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7212125931",
-        "doi": "10.5281/zenodo.22682198",
         "cited_by_count": 0
       },
       "relevance_score": 6
