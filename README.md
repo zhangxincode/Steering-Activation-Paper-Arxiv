@@ -4,11 +4,11 @@ A broad, additive collector for activation steering and internal-representation 
 
 ![Papers per month](imgs/monthly-paper-counts.svg)
 
-Last updated: 2026-09-19T07:43:44+00:00
+Last updated: 2026-09-20T08:10:04+00:00
 
-Total papers: **2568**
+Total papers: **2577**
 
-Sources: acl-anthology (500), arxiv (2115), openalex (189), semantic-scholar (6)
+Sources: acl-anthology (500), arxiv (2115), openalex (198), semantic-scholar (6)
 
 ## Papers By Year
 
@@ -16,13 +16,22 @@ Sources: acl-anthology (500), arxiv (2115), openalex (189), semantic-scholar (6)
 
 | Date | Paper | Authors | Categories |
 | --- | --- | --- | --- |
-| 2026-09-17 | [Can an Internal Parameter Be Used to Effectively Regularize MVDR Weights?](https://doi.org/10.20944/preprints202609.1511.v1) | Ramakrishna Sen, Dhruv Singh, M Kiran Reddy | OpenAlex, Control theory (sociology), Subspace topology, Mathematics |
-| 2026-09-17 | [Instruments Before Invariants: Fail-Closed Assay Calibration and Out-of-Sample Relational Steering in Qwen2.5-7B](https://doi.org/10.5281/zenodo.22819401) | César Castro | Mathematics, OpenAlex, Residual, Scalar (mathematics) |
+| 2026-09-18 | [ΨLM-2: A Constitution Bridge and Dual-Channel Operation on a Frozen Language Model](https://doi.org/10.5281/zenodo.22837562) | Ryoji Furui | Language model, McNemar's test, OpenAlex, Set (abstract data type) |
+| 2026-09-18 | [Phase-Locked Dynamic Sampling and Frequency-Domain Adaptation: Attractor-Guided Inference and Spectral Sparsity in LLMs](https://doi.org/10.5281/zenodo.22826288) | Yana Shlyakhova | Benchmark (surveying), Computer science, Estimator, Inference |
+| 2026-09-18 | [Interpreting multimodal speech-vision models with sparse autoencoders](http://hdl.handle.net/2429/95495) | Brian Diep | OpenAlex, Computer science, Dimension (graph theory), Natural language processing |
 | 2026-09-17 | [Simulation-based dynamic laser beam shape optimization in powder bed fusion of metals: source code and data](https://doi.org/10.5281/zenodo.22808427) | Vijaya Holla, Philipp Kopp, Jesse Redford, Stefan Kollmannsberger | Computer science, Laser, OpenAlex, Python (programming language) |
-| 2026-09-16 | [From Training Mixture to Model Voice: Causal Effects of Gender-Associated Linguistic Representation in Language Models — Study Protocol](https://osf.io/xeuw8) | Marcus Hermansson | OpenAlex, Protocol (science), Psychology, Representation (politics) |
+| 2026-09-17 | [Deep Noir: Autonomous Steering Discovery via Architectural Chronometry in Transformer Models](https://doi.org/10.48550/arxiv.2609.20722) | Frank E. Bobe, Gregory D. Vetaw, Darshan Bryner, Matthew Cook, et al. | Artificial intelligence, Computer science, Inference, Inference engine |
+| 2026-09-17 | [Reading Emotions in the Token Space: Discriminative Adaptation of SpeechLLMs for Emotion Recognition](https://doi.org/10.48550/arxiv.2609.20081) | Hasindri Watawana, Sergio Burdisso, Esaú Villatoro-Tello, Manjunath K E, et al. | Computer science, Discriminative model, Mirroring, OpenAlex |
+| 2026-09-17 | [Pretrained Medical Representations for the Practical Screening of Drug Repositioning Candidates](https://doi.org/10.48550/arxiv.2609.19865) | Yuhei Fujioka, Daitaro Misawa, Shingo Fukuma | OpenAlex, Workflow, Computer science, Representation (politics) |
+| 2026-09-17 | [Reproducing Transparent and Scrutable Recommendations: Exploring Open-Weight Models via Natural-Language User Profiles](https://doi.org/10.48550/arxiv.2609.19831) | Noah Mamié, Laurin van den Bergh | Computer science, Context (archaeology), Interpretability, OpenAlex |
+| 2026-09-17 | [LSTM-UT and Recurrent-Depth Transformers on Cellular Automata](https://doi.org/10.48550/arxiv.2609.19521) | Aras Kavuncu | Bounded function, Computation, Computer science, OpenAlex |
+| 2026-09-17 | [Can an Internal Parameter Be Used to Effectively Regularize MVDR Weights?](https://doi.org/10.20944/preprints202609.1511.v1) | Ramakrishna Sen, Dhruv Singh, M Kiran Reddy | Algorithm, Control theory (sociology), Mathematics, OpenAlex |
+| 2026-09-17 | [Instruments Before Invariants: Fail-Closed Assay Calibration and Out-of-Sample Relational Steering in Qwen2.5-7B](https://doi.org/10.5281/zenodo.22819401) | César Castro | Mathematics, OpenAlex, Residual, Scalar (mathematics) |
+| 2026-09-16 | [From Training Mixture to Model Voice: Causal Effects of Gender-Associated Linguistic Representation in Language Models — Study Protocol](https://osf.io/xeuw8) | Marcus Hermansson | Cognitive psychology, OpenAlex, Protocol (science), Psychology |
+| 2026-09-16 | [The Role of Fine-grained Harm Signals in LLM Safety](https://doi.org/10.48550/arxiv.2609.19366) | Soyeon Park, Seokhwan Jeong, Sunwoo Kim, Alice Oh | OpenAlex, Harm, Categorical variable, Representation (politics) |
 | 2026-09-16 | [Genolator enables protein function interpretation using a multimodal large language model fusing genomic and structural interpretation with natural language interaction](https://doi.org/10.1186/s13059-026-04274-w) / [pdf](https://link.springer.com/content/pdf/10.1186/s13059-026-04274-w.pdf) | Martin Danner, Tanhim Islam, Matthias Begemann, Florian Kraft, et al. | Computer science, Interpretation (philosophy), Natural language, Natural language processing |
-| 2026-09-16 | [Learning Array Signal Topologies as Conditional Neural Manifolds](https://arxiv.org/abs/2609.18616) / [pdf](https://arxiv.org/pdf/2609.18616) | Julian P. Merkofer, Vincent van de Schaft, Ruud J. G. van Sloun | OpenAlex, Manifold (fluid mechanics), Signal subspace, Subspace topology |
-| 2026-09-16 | [Label-free steering: Compressing test-time reinforcement learning into bias-only subspaces](https://arxiv.org/abs/2609.18587) / [pdf](https://arxiv.org/pdf/2609.18587) | Naveen Vakada, Mingyuan Li, Shaoxiong Ji | OpenAlex, Reinforcement learning, Linear subspace, Adaptation (eye) |
+| 2026-09-16 | [Learning Array Signal Topologies as Conditional Neural Manifolds](https://arxiv.org/abs/2609.18616) / [pdf](https://arxiv.org/pdf/2609.18616) | Julian P. Merkofer, Vincent van de Schaft, Ruud J. G. van Sloun | Manifold (fluid mechanics), Manifold alignment, OpenAlex, Signal subspace |
+| 2026-09-16 | [Label-free steering: Compressing test-time reinforcement learning into bias-only subspaces](https://arxiv.org/abs/2609.18587) / [pdf](https://arxiv.org/pdf/2609.18587) | Naveen Vakada, Mingyuan Li, Shaoxiong Ji | Adaptation (eye), Computer science, Linear subspace, OpenAlex |
 | 2026-09-16 | [A Probe Shift Is Not a Fairness Fix: The Limits of Representation Steering in Speech Models](https://arxiv.org/abs/2609.18533) / [pdf](https://arxiv.org/pdf/2609.18533) | Nicolas Bourrel, Abderrahmane Issam, Gerasimos Spanakis | Computer science, Construct (python library), OpenAlex, Speech recognition |
 | 2026-09-16 | [Factores ambientales y sanitarios relacionados con la persistencia del dengue](https://doi.org/10.61616/rvdc.v7i2.1780) / [pdf](https://revistaveritas.org/index.php/veritas/article/download/1780/3412) | Alejandro Antonio Baque Pibaque, Guashpa Rodriguez Marbella Gelena, Paola Maricela Jiménez Álvarez | Context (archaeology), Dengue fever, Epidemiological surveillance, Geography |
 | 2026-09-16 | [Are LLMs Syllogistic Reasoners? A Mechanistic Interpretation Perspective via Activation Patching](https://doi.org/10.1007/978-3-032-38410-2_42) | Zhidian Huang, Jinxin Liu, Zijun Yao, Weichuan Liu, et al. | Computer science, Deductive reasoning, OpenAlex, Perspective (graphical) |

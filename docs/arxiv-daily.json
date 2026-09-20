@@ -1,6 +1,337 @@
 {
-  "generated_at": "2026-09-19T07:43:44+00:00",
+  "generated_at": "2026-09-20T08:10:04+00:00",
   "papers": [
+    {
+      "id": "doi:10.5281/zenodo.22837562",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "ΨLM-2: A Constitution Bridge and Dual-Channel Operation on a Frozen Language Model",
+      "authors": [
+        "Ryoji Furui"
+      ],
+      "published": "2026-09-18",
+      "updated": "2026-09-19",
+      "categories": [
+        "Language model",
+        "McNemar's test",
+        "OpenAlex",
+        "Set (abstract data type)",
+        "State (computer science)"
+      ],
+      "abstract": "A frozen language model can be coupled to a frozen partner model through small trainable latent bridges, with no text at the interface: Furui [5] builds such a system around a physics partner, where the quantity being carried is a number the partner computes. This paper asks whether the same channel can carry a disposition — and where in a backbone’s hidden state it should be written. The partner is a 0.5B model holding Claude’s constitution [1]; the write site is the “value neurons” of Xu et al. [6], a sparse set of residual-stream coordinates that predict state value; the supervision is self-distillation from the same frozen backbone prompted with the document. We report four things. (1) The probe reproduces at both scales but its published causal justification does not: at 0.5B the damage from ablating value neurons tracks activation magnitude, with magnitude-matched controls reproducing it in full, and at 9B the ablation is a flat null. (2) The number of coordinates carrying the probe’s value signal is roughly fixed in absolute terms across a 4.6×change in model width — an AUC knee near 100–200 dimensions at both 896 and 4096 — so it is a falling fraction as models grow. (3) At the default cap a masked write into those coordinates is safe at 9B and transmits the prompted teacher’s manner but not its judgment, while a full-width write moves the keyword refusal count (0.660 →0.720 on 100 prompts, six and none away, exact McNemar p= 0.031; 0.653 →0.693 on 400, nineteen and three, p= 0.0009). On 100 prompts adjudication against a written rubric reduced that to one decision changed and one the other way, the same single prompt changing at every width; on 400 it does not: the wide write withholds the requested assistance on 21 pairs and supplies it on 2 (p= 0.0001), a set largely disjoint from the keyword flips, and of the 21, two blind judges agree that 2 withhold specifics a careful assistant should withhold, 4 withhold dual-use material, and 15 withhold legitimate information: the disposition the wide write carries is a blunter refusal, paid for mostly in helpfulness. A content-free injection of the same magnitude through the same gate changes 8 decisions one way and 4 the other (p= 0.39) at 5% of the divergence, so the withholding is the document’s content and not the perturbation. That contrast, however, is confounded: the injection cap bounds the write’s per-dimension magnitude and every arm saturated it, so full width was handed 26×the total perturbation energy of the value-neuron mask. Per unit of energy actually spent the narrow write did 3.6×more. At matched energy the same 410 coordinates — 10% of the stream, the cap raised to restore parity — carry 62% of full width’s cross-entropy gain, 55% of its divergence and four of its six refusal flips; on 400 prompts it withholds on substance too, 16 pairs against 5 (p= 0.027), as does the probe-worst set (15:2), and both hand over a precursor list the backbone had refused; so most of what read as a width effect was budget, though a residue survives parity, and the probe’s coordinates — uniquely among four matched sets — carry a hundredfold larger divergence on MMLU while changing no more answers. (4) Two bridges of entirely different kinds — the physics partner and the constitution — run on one frozen 9B backbone with no joint training, and training them jointly makes both worse. Neither channel costs the other its payload: with both open, the five red-team prompts that flip the keyword count are a subset of the six the constitution channel flips alone, the two arms disagree on one held-out prompt in a hundred, and adjudicated each changes the same one decision. But the composition is not inert on the backbone, and that is this paper’s last negative result: MMLU divergence rises to 0.072 where the constitution channel alone stayed at 0.005 and the physics channel alone sits at 0.041 — a divergence without an accuracy change, since after a parser repair described in Section 11 no arm in this paper moves MMLU accuracy significantly. Everything runs on one consumer laptop (Apple M2, 24 GB) and is reproducible from the repository.",
+      "url": "https://doi.org/10.5281/zenodo.22837562",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213608541",
+        "doi": "10.5281/zenodo.22837562",
+        "cited_by_count": 0
+      },
+      "relevance_score": 5
+    },
+    {
+      "id": "doi:10.5281/zenodo.22826288",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Phase-Locked Dynamic Sampling and Frequency-Domain Adaptation: Attractor-Guided Inference and Spectral Sparsity in LLMs",
+      "authors": [
+        "Yana Shlyakhova"
+      ],
+      "published": "2026-09-18",
+      "updated": "2026-09-19",
+      "categories": [
+        "Benchmark (surveying)",
+        "Computer science",
+        "Estimator",
+        "Inference",
+        "OpenAlex"
+      ],
+      "abstract": "Large Language Models (LLMs) frequently suffer from reasoning degradation during complex autoregressive generation and parameter redundancy during fine-tuning. In this paper, we propose two synergistic systems: Phase-Locked Dynamic Sampling (PLDS) and Dynamic F-LoRA (Fourier-LoRA). PLDS acts as an inference controller that models internal hidden state activation trajectories via a non-linear chaotic attractor (Rossler system) and dynamically modulates the sampling temperature T(t) based on the derivative of phase divergence velocity St = |d(delta_phi)/dt|. Empirical evaluations show that PLDS achieves a +2.7% Pass@1 improvement on the GSM8K benchmark (reaching 79.1%). Dynamic F-LoRA provides parameter-efficient fine-tuning in the frequency domain (2D-DCT), guided by a Gumbel-Sigmoid Straight-Through Estimator (STE) gating mechanism. We reveal a critical spectral phenomenon: pruning 75-85% of high-frequency parameters (with an optimal threshold at 80%) via explicit sparsity regularization (lambda_sparsity) functions as an effective low-pass spectral filter, suppressing structural noise and overfitting. \"The official PyTorch implementation and benchmark code are publicly available at https://github.com/yana-shlyakhova/plds-f-lora-llm \"",
+      "url": "https://doi.org/10.5281/zenodo.22826288",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Reasoning and CoT steering"
+      ],
+      "code_urls": [
+        "https://github.com/yana-shlyakhova/plds-f-lora-llm"
+      ],
+      "openalex": {
+        "id": "https://openalex.org/W7213581705",
+        "doi": "10.5281/zenodo.22826288",
+        "cited_by_count": 0
+      },
+      "relevance_score": 9
+    },
+    {
+      "id": "doi:10.14288/1.0456180",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Interpreting multimodal speech-vision models with sparse autoencoders",
+      "authors": [
+        "Brian Diep"
+      ],
+      "published": "2026-09-18",
+      "updated": "2026-09-19",
+      "categories": [
+        "OpenAlex",
+        "Computer science",
+        "Dimension (graph theory)",
+        "Natural language processing",
+        "Feature (linguistics)"
+      ],
+      "abstract": "Vision-language models are a form of multimodal AI that encode language and visual information jointly for a range of downstream tasks, however interpretation of how they understand the input across modalities remains difficult. This work uses Sparse Autoencoders (SAEs) to interpret a self-supervised audio-visual model, focusing on spoken language rather than text as the linguistic modality. We train and compare four SAE architectures (Standard, JumpReLU, BatchTopK, and Matryoshka) on audio-only, image-only, and joint embeddings, and evaluate them along a sparsity-fidelity tradeoff. Qualitative analysis shows that individual SAE dimensions recover concepts at multiple levels of granularity, from single words and semantic categories to phrase-level and position-sensitive structure in the audio stream. Some dimensions capture near-singular lexical items, while others generalize across semantically or phonetically related words. Audio-focused SAEs are consistently less monosemantic than image-focused ones, and Matryoshka models show lower average monosemanticity than JumpReLU models, indicating greater feature entanglement. To test whether concepts are causally shared across modalities, we introduce an image-attenuated word segmentation task: suppressing an SAE dimension in the image branch and propagating this intervention to the audio embedding. Ablating a dimension in the image modality degrades the localization of the corresponding spoken word relative to controls, but the effect is small unless the analysis is restricted to the subset of dimensions with genuinely multimodal activation, at which point the effect becomes substantially clearer and more consistent, particularly for JumpReLU models. Audio ablation paradoxically produces little change in Matryoshka models, which we attribute to hierarchical entanglement across dimensions. These results indicate that our studied VLMs develop some modality-agnostic conceptual representations through unsupervised statistical learning, but that a persistent modality gap separates audio and image encodings of the same concept.",
+      "url": "http://hdl.handle.net/2429/95495",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213219011",
+        "doi": "10.14288/1.0456180",
+        "cited_by_count": 0
+      },
+      "relevance_score": 10
+    },
+    {
+      "id": "doi:10.5281/zenodo.22808427",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Simulation-based dynamic laser beam shape optimization in powder bed fusion of metals: source code and data",
+      "authors": [
+        "Vijaya Holla",
+        "Philipp Kopp",
+        "Jesse Redford",
+        "Stefan Kollmannsberger"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-19",
+      "categories": [
+        "Computer science",
+        "Laser",
+        "OpenAlex",
+        "Python (programming language)",
+        "Solver"
+      ],
+      "abstract": "Source code, drivers, and data supporting the article Simulation-based dynamic laser beam shape optimization in powder bed fusion of metals. The solver performs an adjoint-based optimisation of the dynamic laser beam intensity profile in laser powder bed fusion of metals, governed by the transient nonlinear heat equation. The beam shape is treated as a space–time control field that evolves along the scan path, rather than as a fixed profile, and is optimised to achieve prescribed temperature targets or melt pool dimensions using various loss functions. Contents src/ — the solver: C++20 header-only helpers built on mlhp, exposed to python through pybind11 as the module optimize_timestep drivers/ — seven python drivers: the verification case, the three-track Gaussian and chair-shaped optimisations, and the static and optimised ten-track forward replays for both shapes results/beam_shapes/ — the optimised intensity profiles as one CSV per time frame, for the three-track optimisations and the ten-track replays built from them results/inputs/ — laser scan paths and per-frame power arrays results/verification/ — convergence history and the converged control vector of the verification case meltpool_results.xlsx — the melt pool width and depth time series, with per-track summaries and charts Building and running CMake 3.12, a C++20 compiler, OpenMP, and python with numpy and scipy. mlhp and pybind11 are included at pinned commits, so the archive builds without fetching submodules. Each driver runs from the build directory, where CMake places the inputs alongside the compiled module. Licensed under the MIT License. Development repository: https://gitlab.com/hpfem/publications/2026_dynamic_laser_beam_shape_optimization_AM",
+      "url": "https://doi.org/10.5281/zenodo.22808427",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [
+        "https://gitlab.com/hpfem/publications/2026_dynamic_laser_beam_shape_optimization_AM"
+      ],
+      "openalex": {
+        "id": "https://openalex.org/W7213503098",
+        "doi": "10.5281/zenodo.22808427",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.20722",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Deep Noir: Autonomous Steering Discovery via Architectural Chronometry in Transformer Models",
+      "authors": [
+        "Frank E. Bobe",
+        "Gregory D. Vetaw",
+        "Darshan Bryner",
+        "Matthew Cook",
+        "Jose L. Salas-Vernis"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-19",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Inference",
+        "Inference engine",
+        "OpenAlex"
+      ],
+      "abstract": "Activation steering modifies LLM behavior at inference time, but identifying where and how strongly to steer remains manual. We introduce Deep Noir, a framework that uses Logit Lens convergence and causal head-level attribution to autonomously discover optimal steering parameters. Across three scales (1B x 3, 2-3B x 2, and 7-9B x 4), our engine achieves 16.7 percentage-point improvement on spam at 1B (standard deviation 4.7; 39 runs), with gains increasing to 21 to 42 percentage points at 7-9B across four architectures. On SST-2 sentiment, it achieves a 13.1 percentage-point improvement with zero code changes. Mechanistic grounding enables automated discovery of intervention points that generalize across tasks and architectures. On sentiment, RepE without head masking fails to improve over baseline, while Deep Noir improves all models (p less than 0.01). We further show that steering creates a predictable prompt-injection attack surface whose vulnerability increases monotonically with steering magnitude. This finding is relevant to agent systems deploying steered classifiers.",
+      "url": "https://doi.org/10.48550/arxiv.2609.20722",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213582701",
+        "doi": "10.48550/arxiv.2609.20722",
+        "cited_by_count": 0
+      },
+      "relevance_score": 11
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.20081",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Reading Emotions in the Token Space: Discriminative Adaptation of SpeechLLMs for Emotion Recognition",
+      "authors": [
+        "Hasindri Watawana",
+        "Sergio Burdisso",
+        "Esaú Villatoro-Tello",
+        "Manjunath K E",
+        "Kadri Hacioglu",
+        "Petr Motlíček",
+        "Andreas Stolcke"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-19",
+      "categories": [
+        "Computer science",
+        "Discriminative model",
+        "Mirroring",
+        "OpenAlex",
+        "Speech recognition"
+      ],
+      "abstract": "SpeechLLMs have shown strong potential for emotion recognition, yet they read the predicted emotion off a generative decoder not suited for classification: it can emit labels outside the target set and favors frequent classes. We propose a discriminative adaptation that reads the final prompt token's hidden state through a classification head, producing a label in one forward pass without modifying the backbone. Because this readout starts from the hidden state the model would otherwise decode, it gives a controlled comparison of generative and discriminative inference in an otherwise identical speechLLM. We keep the head a single linear layer, trading little accuracy for interpretability: each emotion becomes one direction in the LLM output token space, revealing associated tokens. On IEMOCAP, across two speechLLM architectures, it improves Macro F1 and removes hallucinations, with largest gains on realistic ASR transcripts. Our analysis reveals that these emotion directions encode indirect associations mirroring biases in web-scale text.",
+      "url": "https://doi.org/10.48550/arxiv.2609.20081",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213599758",
+        "doi": "10.48550/arxiv.2609.20081",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.19865",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Pretrained Medical Representations for the Practical Screening of Drug Repositioning Candidates",
+      "authors": [
+        "Yuhei Fujioka",
+        "Daitaro Misawa",
+        "Shingo Fukuma"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-19",
+      "categories": [
+        "OpenAlex",
+        "Workflow",
+        "Computer science",
+        "Representation (politics)",
+        "Machine learning"
+      ],
+      "abstract": "Representation learning from medical code sequences in electronic health records and medical claims data has been successful in various clinical applications, such as those regarding disease prediction. However, significant challenges remain in extending this approach to the discovery of scientific hypotheses. One reason is that many existing BERT-based models fail to adequately capture the hierarchical structure of medical codes and the complex interactions between diagnoses and treatments. To address these limitations, we propose a new unified pre-training framework that explicitly integrates hierarchical sub-token aggregation, partial masking, and cross-reference mechanisms. The proposed model consistently outperformed existing methods on both pre-training objectives and downstream clinical event prediction tasks, including the onset of dementia and hospitalization. We also conducted an in silico drug repositioning case study targeting Alzheimer's disease. In the hypothesis generation step, our approach successfully rediscovered known promising drugs in a data-driven manner without relying on such external knowledge sources as the literature. Subsequently, in the hypothesis prioritization step, we introduced a Task-Adaptive Representation Approach to alleviate the over-encoding of historical prescription information within diagnostic vectors, enabling the robust prioritization of generated hypotheses. This study establishes an exploratory screening workflow for hypothesis generation and prioritization based on observational associations. Importantly, this framework is not intended to provide causal evidence, but rather to identify promising candidates for subsequent rigorous causal inference. Overall, this study demonstrates that domain-informed representation learning combined with task-adaptive representation control can enable a practical hypothesis discovery workflow.",
+      "url": "https://doi.org/10.48550/arxiv.2609.19865",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213594592",
+        "doi": "10.48550/arxiv.2609.19865",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.19831",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Reproducing Transparent and Scrutable Recommendations: Exploring Open-Weight Models via Natural-Language User Profiles",
+      "authors": [
+        "Noah Mamié",
+        "Laurin van den Bergh"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-19",
+      "categories": [
+        "Computer science",
+        "Context (archaeology)",
+        "Interpretability",
+        "OpenAlex",
+        "Recommender system"
+      ],
+      "abstract": "In this reproducibility study, we investigate the transparency and scrutability of recommender systems enhanced by incorporating generated natural-language user profiles that represent user preferences. The original paper explores the synthesis of user profiles from raw user-generated review text across domains such as movies and accommodations (Amazon Movies & TV, TripAdvisor). Crucially, these natural-language user profiles enable direct user interaction and intervention, allowing users to customize recommendations by correcting misattributed preferences or addressing cold-start settings. We successfully reproduce the core findings of the original study. Additionally, we extend the evaluation by conducting systematic context ablation experiments, multi-seed stability across five distinct random seeds to establish statistical reliability, and a mechanistic interpretability analysis using the nnsight framework to probe internal model representations under counterfactual profile perturbations. Our findings verify the original paper's claim that User Profile Recommendation (UPR) achieves competitive performance under its test-set reranking protocol and makes recommendations more transparent. Perturbing the natural-language profiles does change predictions, but it shifts predicted ratings uniformly across genres with no detectable genre-selective effect, leaving rankings unchanged even under direct activation steering. We trace this back to the rating-regression objective rather than the profile interface, with ranking-objective models clearly exceeding in this task.",
+      "url": "https://doi.org/10.48550/arxiv.2609.19831",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact",
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213581007",
+        "doi": "10.48550/arxiv.2609.19831",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.19521",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "LSTM-UT and Recurrent-Depth Transformers on Cellular Automata",
+      "authors": [
+        "Aras Kavuncu"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-19",
+      "categories": [
+        "Bounded function",
+        "Computation",
+        "Computer science",
+        "OpenAlex",
+        "Transformer"
+      ],
+      "abstract": "Recurrent-depth Transformers apply shared computation repeatedly, but differ in how they retain information across steps. We compare a Block Universal Transformer (BUT), which carries only its current hidden state; CoTFormer, which also retains an expanding attention cache; and a new LSTM Universal Transformer (LSTM-UT) with bounded gated memory. On Rule 30 cellular automata, BUT extrapolates to unseen recurrent depths more reliably than CoTFormer, although its accuracy eventually degrades. State and cache interventions show that CoTFormer's failure depends on their interaction: correcting the current state can temporarily restore accuracy, while retained history can undermine that correction. In a delayed-recall task, BUT also outperforms CoTFormer despite lacking direct access to past states; CoTFormer does not reliably select the requested cached representation. LSTM-UT improves both depth extrapolation and delayed recall over these baselines. The results support bounded gated memory as an effective inductive bias for repeated computation and later retrieval in these tasks.",
+      "url": "https://doi.org/10.48550/arxiv.2609.19521",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213580981",
+        "doi": "10.48550/arxiv.2609.19521",
+        "cited_by_count": 0
+      },
+      "relevance_score": 5
+    },
     {
       "id": "doi:10.20944/preprints202609.1511.v1",
       "source": "openalex",
@@ -16,11 +347,11 @@
       "published": "2026-09-17",
       "updated": "2026-09-19",
       "categories": [
-        "OpenAlex",
+        "Algorithm",
         "Control theory (sociology)",
-        "Subspace topology",
         "Mathematics",
-        "Algorithm"
+        "OpenAlex",
+        "Subspace topology"
       ],
       "abstract": "The Minimum Variance Distortionless Response (MVDR) beamformer offers optimal spatial selectivity but suffers from severe numerical instability in non-stationary acoustic environments. Target encroachment, steering vector mismatch, and finite-snapshot variance cause the spatial covariance matrix (SCM) to become acutely ill-conditioned. As the matrix approaches singularity, the norm of the inverted SCM diverges, leading to unbounded filter weights and a catastrophic collapse in White Noise Gain (WNG). While trace-relative diagonal loading mitigates this instability, utilizing a fixed regularization parameter forces an intractable compromise between spatial selectivity and numerical robustness. This paper proposes a spatially informed, time-frequency adaptive regularization framework for MVDR beamformers. We derive an orthogonal subspace leakage metric that quantifies the projection error between the assumed target steering vector and the dominant spatial subspace of the recursively estimated mixture SCM. This metric serves as a computationally efficient, instantaneous proxy for spatial difficulty. By mapping this leakage through a continuous logistic sigmoid clutch bounded by an empirically validated, array-scaled transition point (1/M), the proposed method continuously adapts the trace-relative loading. Quantitative evaluations across varying array geometries demonstrate that this continuous mapping reduces frame-to-frame filter weight jitter by an order of magnitude compared to binary thresholding. The proposed architecture autonomously navigates the feasible performance frontier, bounding WNG collapse during spatial degradation while preserving maximum selectivity in favorable geometries, all without requiring environment-specific threshold tuning or iterative convex solvers.",
       "url": "https://doi.org/10.20944/preprints202609.1511.v1",
@@ -72,45 +403,6 @@
       "relevance_score": 4
     },
     {
-      "id": "doi:10.5281/zenodo.22808427",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Simulation-based dynamic laser beam shape optimization in powder bed fusion of metals: source code and data",
-      "authors": [
-        "Vijaya Holla",
-        "Philipp Kopp",
-        "Jesse Redford",
-        "Stefan Kollmannsberger"
-      ],
-      "published": "2026-09-17",
-      "updated": "2026-09-18",
-      "categories": [
-        "Computer science",
-        "Laser",
-        "OpenAlex",
-        "Python (programming language)",
-        "Solver"
-      ],
-      "abstract": "Source code, drivers, and data supporting the article Simulation-based dynamic laser beam shape optimization in powder bed fusion of metals. The solver performs an adjoint-based optimisation of the dynamic laser beam intensity profile in laser powder bed fusion of metals, governed by the transient nonlinear heat equation. The beam shape is treated as a space–time control field that evolves along the scan path, rather than as a fixed profile, and is optimised to achieve prescribed temperature targets or melt pool dimensions using various loss functions. Contents src/ — the solver: C++20 header-only helpers built on mlhp, exposed to python through pybind11 as the module optimize_timestep drivers/ — seven python drivers: the verification case, the three-track Gaussian and chair-shaped optimisations, and the static and optimised ten-track forward replays for both shapes results/beam_shapes/ — the optimised intensity profiles as one CSV per time frame, for the three-track optimisations and the ten-track replays built from them results/inputs/ — laser scan paths and per-frame power arrays results/verification/ — convergence history and the converged control vector of the verification case meltpool_results.xlsx — the melt pool width and depth time series, with per-track summaries and charts Building and running CMake 3.12, a C++20 compiler, OpenMP, and python with numpy and scipy. mlhp and pybind11 are included at pinned commits, so the archive builds without fetching submodules. Each driver runs from the build directory, where CMake places the inputs alongside the compiled module. Licensed under the MIT License. Development repository: https://gitlab.com/hpfem/publications/2026_dynamic_laser_beam_shape_optimization_AM",
-      "url": "https://doi.org/10.5281/zenodo.22808427",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Steering vectors"
-      ],
-      "code_urls": [
-        "https://gitlab.com/hpfem/publications/2026_dynamic_laser_beam_shape_optimization_AM"
-      ],
-      "openalex": {
-        "id": "https://openalex.org/W7213503098",
-        "doi": "10.5281/zenodo.22808427",
-        "cited_by_count": 0
-      },
-      "relevance_score": 4
-    },
-    {
       "id": "openalex:0689931088f93b7c",
       "source": "openalex",
       "sources": [
@@ -123,11 +415,11 @@
       "published": "2026-09-16",
       "updated": "2026-09-19",
       "categories": [
+        "Cognitive psychology",
         "OpenAlex",
         "Protocol (science)",
         "Psychology",
-        "Representation (politics)",
-        "Cognitive psychology"
+        "Representation (politics)"
       ],
       "abstract": "From Training Mixture to Model Voice is a preregistration-ready study protocol investigating whether gender-associated linguistic representation in language-model training data and user inputs causally influences a model’s default and conditional generative style. The study separates four constructs that are frequently conflated in research on gender and language models: author gender, gender-associated linguistic features, perceived gendered style, and semantic/topic content. It proposes a controlled factorial design in which the effective representation of female-associated training data is varied across multiple training-mixture conditions, while semantically matched inputs are independently manipulated along masculine-coded, neutral, and feminine-coded stylistic dimensions. The primary analyses test: (1) whether training-mixture composition shifts the model’s default perceived style under neutral input; (2) whether meaning-preserving gender-associated linguistic structure in user input shifts response style; and (3) whether training composition moderates the model’s response to those sociolinguistic cues. Secondary mechanistic analyses examine internal representations, probing, mediation, and causal activation interventions. The protocol includes blinded human evaluation, ordinal mixed-effects modelling, multiple independently trained seeds, matched and natural corpus conditions, negative controls, semantic-equivalence checks, capability and factual-stability controls, preregistered falsification criteria, and a reproducibility plan. A descriptive token-weighted analysis of published LLM training mixtures is included as motivation rather than as a claim about the exact demographic composition of proprietary model training data. An optional local geometric interpretation inspired by UFT-LLM is presented separately from the primary empirical methodology so that the study’s causal claims do not depend on acceptance of that framework. Status: Study protocol / preregistration-ready manuscript. No confirmatory results are reported in this version.",
       "url": "https://osf.io/xeuw8",
@@ -143,6 +435,43 @@
         "cited_by_count": 0
       },
       "relevance_score": 10
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.19366",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "The Role of Fine-grained Harm Signals in LLM Safety",
+      "authors": [
+        "Soyeon Park",
+        "Seokhwan Jeong",
+        "Sunwoo Kim",
+        "Alice Oh"
+      ],
+      "published": "2026-09-16",
+      "updated": "2026-09-19",
+      "categories": [
+        "OpenAlex",
+        "Harm",
+        "Categorical variable",
+        "Representation (politics)",
+        "Component (thermodynamics)"
+      ],
+      "abstract": "Prior work has shown that internal harmfulness representations in large language models vary across risk categories, while sharing a common general harm representation component. This raises a question about the role of the category-specific component beyond general harm representation in LLM safety. To answer this question, we isolate the category-specific component by removing shared general harmfulness representation from each categorical harmfulness representation, yielding a category residual that is orthogonal to general harmfulness at every layer. Using activation steering with category residuals across 11 risk categories in 3 instruction-tuned LLMs, we find that whether category residuals encode harmfulness varies across categories, and that this category-wise pattern is similar across models. Whether category residuals induce refusal also varies across categories, but this category-wise pattern is more model-dependent. We also find that category residuals increase LLMs' downstream internal alignment with shared general harmfulness representation. Together, these findings demonstrate that more fine-grained category residuals should also be considered beyond shared general harmfulness representation to fully understand LLM safety. More broadly, our findings show that even a direction orthogonal to a concept at one layer can contribute to the concept's downstream amplification.",
+      "url": "https://doi.org/10.48550/arxiv.2609.19366",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213613424",
+        "doi": "10.48550/arxiv.2609.19366",
+        "cited_by_count": 0
+      },
+      "relevance_score": 13
     },
     {
       "id": "doi:10.1186/s13059-026-04274-w",
@@ -202,11 +531,11 @@
       "published": "2026-09-16",
       "updated": "2026-09-19",
       "categories": [
-        "OpenAlex",
         "Manifold (fluid mechanics)",
+        "Manifold alignment",
+        "OpenAlex",
         "Signal subspace",
-        "Subspace topology",
-        "Manifold alignment"
+        "Subspace topology"
       ],
       "abstract": "Subspace methods such as multiple signal classification (MUSIC) achieve super-resolution direction of arrival (DoA) estimation by exploiting the orthogonality between the array manifold and the noise subspace of the measurements. Their accuracy therefore depends on the assumed manifold and degrades under model mismatch, while parameters not identifiable from the spatial manifold cannot be recovered. In this work, we propose the conditional neural manifold (CNM), which replaces the fixed manifold with an observation-conditioned mapping from source parameters to steering vectors. An encoder maps the snapshots to a latent scene representation that conditions a zero-initialized neural field over the parameter space. The manifold is learned without steering-vector supervision by shaping the resulting MUSIC landscape. Since the correction acts on the manifold rather than on the estimator, it can be used by other manifold-based methods without modification. The CNM restores resolution under array imperfections, colored noise, correlated sources, and near-field propagation, and resolves the angle-frequency ambiguity inherent to the nominal spatial manifold.",
       "url": "https://arxiv.org/abs/2609.18616",
@@ -238,11 +567,11 @@
       "published": "2026-09-16",
       "updated": "2026-09-19",
       "categories": [
-        "OpenAlex",
-        "Reinforcement learning",
-        "Linear subspace",
         "Adaptation (eye)",
-        "Computer science"
+        "Computer science",
+        "Linear subspace",
+        "OpenAlex",
+        "Reinforcement learning"
       ],
       "abstract": "Test-time reinforcement learning (TTRL) enables models to improve their reasoning without relying on labeled training data, but existing approaches typically optimize a large fraction of the model parameters. This raises a natural question: can effective test-time adaptation emerge when both the reward signal and the optimization space are severely restricted? We answer this question with label-free bias-only TTRL, which uses majority-vote pseudo-labels as rewards and optimizes only approximately 100K bias parameters while keeping the pretrained backbone frozen. On MATH-500, our approach reaches 76.67% accuracy, slightly exceeding our own labeled bias-steering reproduction while optimizing 76,000x fewer parameters than full-parameter TTRL. The same training procedure improves performance across vision-language and audio reasoning tasks, including MathVista, AI2D, LogicVista, and MMAU. We further show that the learned steering vectors transfer to 4,500 held-out MATH problems, indicating that the adaptation is not limited to the problems used during test-time optimization. Finally, we analyze why this highly restricted adaptation can work, showing that majority-vote reliability improves with rollout consensus and that bias subspaces with greater accessible gradient energy exhibit stronger downstream trainability. These results demonstrate that substantial test-time adaptation can emerge from optimizing a tiny bias-only subspace using entirely label-free rewards.",
       "url": "https://arxiv.org/abs/2609.18587",
