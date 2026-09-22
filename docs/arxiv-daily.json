@@ -1,6 +1,120 @@
 {
-  "generated_at": "2026-09-21T08:24:00+00:00",
+  "generated_at": "2026-09-22T08:09:25+00:00",
   "papers": [
+    {
+      "id": "doi:10.5281/zenodo.22854895",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "MOME: Metamorphic Evidence as a Runtime Reliability Signal for Small Language Models",
+      "authors": [
+        "Bongjin Jung",
+        "Joongho Chang"
+      ],
+      "published": "2026-09-20",
+      "updated": "2026-09-21",
+      "categories": [
+        "Algorithm",
+        "Computer science",
+        "OpenAlex",
+        "Reliability (semiconductor)",
+        "State (computer science)"
+      ],
+      "abstract": "A black-box, label-free runtime gate for quantized small language models. Each problem is perturbed in two directions by rule -- a restatement whose answer must hold and an edit whose answer must change -- and the responses form a metamorphic fingerprint that a fixed predictor turns into a serve/verify/decline decision. No hidden state is read and no correct answer is used at inference.",
+      "url": "https://doi.org/10.5281/zenodo.22854895",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213761656",
+        "doi": "10.5281/zenodo.22854895",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.5281/zenodo.22853631",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Beyond the Linear Illusion: Multi-Scale Time and Attractor Synchronization in LLMs",
+      "authors": [
+        "Yana Shlyakhova"
+      ],
+      "published": "2026-09-20",
+      "updated": "2026-09-21",
+      "categories": [
+        "Attractor",
+        "Bounded function",
+        "Chaotic",
+        "Computer science",
+        "OpenAlex"
+      ],
+      "abstract": "Current Large Language Model (LLM) architectures rely on a discrete, linear sequence of tokens (delta t = 1), leading to high computational costs and contextual decay. This work introduces a continuous-time alternative: a Multi-Scale Time Framework that maps latent state space activation dynamics directly onto the 3D topology of a Rössler attractor. By formalizing knowledge acquisition through Frequency Modulation (FM) and phase-locking (delta phi -> 0), we demonstrate how emergent cognitive structures transition from fast micro-contextual spiraling (tau_micro) to macro-structural phase shifts (T_macro) via deterministic Z-axis pulse dynamics. The framework bridges Transformer attention mechanisms with mechanistic interpretability, and reformulates AI alignment not as static guardrails, but as bounded chaotic orbits governed by controlled Lyapunov spectra (lambda_1 > 0).",
+      "url": "https://doi.org/10.5281/zenodo.22853631",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213748812",
+        "doi": "10.5281/zenodo.22853631",
+        "cited_by_count": 0
+      },
+      "relevance_score": 11
+    },
+    {
+      "id": "doi:10.1038/s44387-026-00160-9",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Mechanistic control of large language models as simulated participants via linear representation",
+      "authors": [
+        "Ruikang Zhang",
+        "Tong Xu",
+        "Derong Xu",
+        "Sirui Zhao",
+        "Yuzhan Hang",
+        "Wei Wu",
+        "En-Hong Chen"
+      ],
+      "published": "2026-09-19",
+      "updated": "2026-09-21",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Control (management)",
+        "OpenAlex",
+        "Representation (politics)"
+      ],
+      "abstract": "Large Language Models (LLMs) have garnered significant attention within psychology due to their potential to simulate human participants. However, recent studies often rely on simple prompt engineering that elicits behavioral patterns without directly manipulating internal model states. We introduce a novel simulation method, hypothesizing that high-level psychological traits correspond to specific directional vectors within the LLM’s activation space. We extract activation-space vectors corresponding to 18 clinically relevant cognitive schemas, known as early maladaptive schemas (EMS) in schema therapy. Our experiments demonstrate that projection onto these vectors is associated with externally evaluated EMS expression in LLM outputs. Linear manipulation of these vectors further induced EMS expression. Our work offers a mechanistically informed complement to prompt-based simulation and represents a step toward building more stable, controllable, and interpretable simulated participants.",
+      "url": "https://doi.org/10.1038/s44387-026-00160-9",
+      "pdf_url": "https://www.nature.com/articles/s44387-026-00160-9_reference.pdf",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact",
+        "Hidden-state intervention",
+        "Mechanistic interpretability steering",
+        "Persona sentiment attribute steering",
+        "Representation engineering",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213623260",
+        "doi": "10.1038/s44387-026-00160-9",
+        "cited_by_count": 0
+      },
+      "relevance_score": 8
+    },
     {
       "id": "doi:10.5281/zenodo.22847373",
       "source": "openalex",
@@ -141,6 +255,163 @@
       "relevance_score": 10
     },
     {
+      "id": "doi:10.5281/zenodo.22808427",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Simulation-based dynamic laser beam shape optimization in powder bed fusion of metals: source code and data",
+      "authors": [
+        "Vijaya Holla",
+        "Philipp Kopp",
+        "Jesse Redford",
+        "Stefan Kollmannsberger"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-21",
+      "categories": [
+        "Computer science",
+        "Laser",
+        "OpenAlex",
+        "Python (programming language)",
+        "Solver"
+      ],
+      "abstract": "Source code, drivers, and data supporting the article Simulation-based dynamic laser beam shape optimization in powder bed fusion of metals. The solver performs an adjoint-based optimisation of the dynamic laser beam intensity profile in laser powder bed fusion of metals, governed by the transient nonlinear heat equation. The beam shape is treated as a space–time control field that evolves along the scan path, rather than as a fixed profile, and is optimised to achieve prescribed temperature targets or melt pool dimensions using various loss functions. Contents src/ — the solver: C++20 header-only helpers built on mlhp, exposed to python through pybind11 as the module optimize_timestep drivers/ — seven python drivers: the verification case, the three-track Gaussian and chair-shaped optimisations, and the static and optimised ten-track forward replays for both shapes results/beam_shapes/ — the optimised intensity profiles as one CSV per time frame, for the three-track optimisations and the ten-track replays built from them results/inputs/ — laser scan paths and per-frame power arrays results/verification/ — convergence history and the converged control vector of the verification case meltpool_results.xlsx — the melt pool width and depth time series, with per-track summaries and charts Building and running CMake 3.12, a C++20 compiler, OpenMP, and python with numpy and scipy. mlhp and pybind11 are included at pinned commits, so the archive builds without fetching submodules. Each driver runs from the build directory, where CMake places the inputs alongside the compiled module. Licensed under the MIT License. Development repository: https://gitlab.com/hpfem/publications/2026_dynamic_laser_beam_shape_optimization_AM",
+      "url": "https://doi.org/10.5281/zenodo.22808427",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [
+        "https://gitlab.com/hpfem/publications/2026_dynamic_laser_beam_shape_optimization_AM"
+      ],
+      "openalex": {
+        "id": "https://openalex.org/W7213503098",
+        "doi": "10.5281/zenodo.22808427",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.19865",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Pretrained Medical Representations for the Practical Screening of Drug Repositioning Candidates",
+      "authors": [
+        "Yuhei Fujioka",
+        "Daitaro Misawa",
+        "Shingo Fukuma"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-21",
+      "categories": [
+        "Computer science",
+        "Machine learning",
+        "OpenAlex",
+        "Representation (politics)",
+        "Workflow"
+      ],
+      "abstract": "Representation learning from medical code sequences in electronic health records and medical claims data has been successful in various clinical applications, such as those regarding disease prediction. However, significant challenges remain in extending this approach to the discovery of scientific hypotheses. One reason is that many existing BERT-based models fail to adequately capture the hierarchical structure of medical codes and the complex interactions between diagnoses and treatments. To address these limitations, we propose a new unified pre-training framework that explicitly integrates hierarchical sub-token aggregation, partial masking, and cross-reference mechanisms. The proposed model consistently outperformed existing methods on both pre-training objectives and downstream clinical event prediction tasks, including the onset of dementia and hospitalization. We also conducted an in silico drug repositioning case study targeting Alzheimer's disease. In the hypothesis generation step, our approach successfully rediscovered known promising drugs in a data-driven manner without relying on such external knowledge sources as the literature. Subsequently, in the hypothesis prioritization step, we introduced a Task-Adaptive Representation Approach to alleviate the over-encoding of historical prescription information within diagnostic vectors, enabling the robust prioritization of generated hypotheses. This study establishes an exploratory screening workflow for hypothesis generation and prioritization based on observational associations. Importantly, this framework is not intended to provide causal evidence, but rather to identify promising candidates for subsequent rigorous causal inference. Overall, this study demonstrates that domain-informed representation learning combined with task-adaptive representation control can enable a practical hypothesis discovery workflow.",
+      "url": "https://doi.org/10.48550/arxiv.2609.19865",
+      "pdf_url": "https://arxiv.org/pdf/2609.19865",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213594592",
+        "doi": "10.48550/arxiv.2609.19865",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "2609.20530",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Relational Attention for Data-Efficient Language Modeling",
+      "authors": [
+        "Adrian Brasoveanu",
+        "Ece Takmaz",
+        "Jakub Dotlačil"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-21",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "OpenAlex",
+        "Relational database",
+        "Transformer"
+      ],
+      "abstract": "We present Relational BabyLM, a system submission to the BabyLM 2026 challenge that combines two cognitively motivated inductive biases in a single decoder-only Transformer. Architecturally, we replace standard self-attention with a Dual Attention Transformer (DAT), which separates the routing of object-level (\"sensory\") lexical features from structural/relational information (Altabaa and Lafferty, 2025; Altabaa et al., 2024; Webb et al., 2024; Kerg et al., 2022; Webb et al., 2021). Relational attention (RA) disentangled from self-attention greatly increases data efficiency and out-of-training-sample generalization on purely relational tasks, but language modeling requires object-level and relational information to be integrated as well as disentangled, and RA-based LMs have remained largely unexplored. BabyLM's data-constrained training and comprehensive evaluation is an ideal testing ground for whether that data efficiency transfers. As a training intervention, we add a Next-Latent Prediction (NextLat; Teoh et al. 2026) objective that encourages hidden states to compress history incrementally into a dense belief state. Architecture is the dominant factor for structural linguistic generalization; the objective is secondary but still significant. DAT's three relational attention types (full RA vs. the simpler RCA and DisRCA variants) are largely interchangeable at 10M words; full RA pulls ahead at 100M. We also introduce a novel symbol-retrieval mechanism (RoPE-based, as opposed to learned, relative symbols) that matches learned symbol libraries while adding no parameters. On the strict (100M-word) track, our best model ranks 6th of 55 overall and 3rd of 55 on the leaderboard's NLP-task subset at the time of writing; our two strongest models outperform the GPT-2 baseline on most benchmarks, with one attaining the highest EWoK score among strict-track entries.",
+      "url": "https://arxiv.org/abs/2609.20530",
+      "pdf_url": "https://arxiv.org/pdf/2609.20530",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Reasoning and CoT steering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213577941",
+        "doi": "10.48550/arxiv.2609.20530",
+        "cited_by_count": 0
+      },
+      "relevance_score": 7
+    },
+    {
+      "id": "2609.20408",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Xeno-Interpretability: Investigating the Alien Minds of LLMs",
+      "authors": [
+        "F. Pierucci",
+        "M. Bracale Syrnikov",
+        "M. Prandi",
+        "M. Galisai",
+        "Giarrusso F.",
+        "P. Bisconti"
+      ],
+      "published": "2026-09-17",
+      "updated": "2026-09-21",
+      "categories": [
+        "Interpretability",
+        "OpenAlex",
+        "Representation (politics)",
+        "Sketch",
+        "Space (punctuation)"
+      ],
+      "abstract": "Large language models are usually interpreted through concepts that humans already possess: truthfulness, refusal, deception, personality, harmfulness, and related categories. This paper asks whether models may also represent and use distinctions for which no adequate human concept exists. We call such internal structures xeno-representations, and their study xeno-interpretability. We distinguish the human-interpretable semantic space from the xeno-semantic space: the region of model-native representations for which no adequate human conceptual counterpart is available. We show that the space of possible internal distinctions in an LLM is substantially larger than the space available through finite human descriptions. We then separate experimental identification from semantic interpretation: an internal representation may be reproducibly located, geometrically characterized, causally manipulated, and linked to downstream behaviour even when its semantic content cannot be adequately expressed in human terms. On this basis, we sketch an empirical programme to identify xeno-representations. We finally examine the implications for AI safety and multi-agent systems, where model-native representations may propagate and stabilize across interacting agents while remaining only partially visible through human-readable communication. Xeno-interpretability therefore shifts the aim of interpretability from finding human concepts inside models toward discovering and characterizing the representational structures that are native to the models themselves and might affect their behaviour in unpredictable ways.",
+      "url": "https://arxiv.org/abs/2609.20408",
+      "pdf_url": "https://arxiv.org/pdf/2609.20408",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Activation steering exact",
+        "Mechanistic interpretability steering",
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Steering vectors",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213584657",
+        "doi": "10.48550/arxiv.2609.20408",
+        "cited_by_count": 0
+      },
+      "relevance_score": 13
+    },
+    {
       "id": "doi:10.48550/arxiv.2609.20722",
       "source": "openalex",
       "sources": [
@@ -221,42 +492,6 @@
       "relevance_score": 6
     },
     {
-      "id": "doi:10.48550/arxiv.2609.19865",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Pretrained Medical Representations for the Practical Screening of Drug Repositioning Candidates",
-      "authors": [
-        "Yuhei Fujioka",
-        "Daitaro Misawa",
-        "Shingo Fukuma"
-      ],
-      "published": "2026-09-17",
-      "updated": "2026-09-20",
-      "categories": [
-        "Computer science",
-        "Machine learning",
-        "OpenAlex",
-        "Representation (politics)",
-        "Workflow"
-      ],
-      "abstract": "Representation learning from medical code sequences in electronic health records and medical claims data has been successful in various clinical applications, such as those regarding disease prediction. However, significant challenges remain in extending this approach to the discovery of scientific hypotheses. One reason is that many existing BERT-based models fail to adequately capture the hierarchical structure of medical codes and the complex interactions between diagnoses and treatments. To address these limitations, we propose a new unified pre-training framework that explicitly integrates hierarchical sub-token aggregation, partial masking, and cross-reference mechanisms. The proposed model consistently outperformed existing methods on both pre-training objectives and downstream clinical event prediction tasks, including the onset of dementia and hospitalization. We also conducted an in silico drug repositioning case study targeting Alzheimer's disease. In the hypothesis generation step, our approach successfully rediscovered known promising drugs in a data-driven manner without relying on such external knowledge sources as the literature. Subsequently, in the hypothesis prioritization step, we introduced a Task-Adaptive Representation Approach to alleviate the over-encoding of historical prescription information within diagnostic vectors, enabling the robust prioritization of generated hypotheses. This study establishes an exploratory screening workflow for hypothesis generation and prioritization based on observational associations. Importantly, this framework is not intended to provide causal evidence, but rather to identify promising candidates for subsequent rigorous causal inference. Overall, this study demonstrates that domain-informed representation learning combined with task-adaptive representation control can enable a practical hypothesis discovery workflow.",
-      "url": "https://doi.org/10.48550/arxiv.2609.19865",
-      "pdf_url": "https://arxiv.org/pdf/2609.19865",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Representation engineering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7213594592",
-        "doi": "10.48550/arxiv.2609.19865",
-        "cited_by_count": 0
-      },
-      "relevance_score": 4
-    },
-    {
       "id": "doi:10.48550/arxiv.2609.19831",
       "source": "openalex",
       "sources": [
@@ -326,45 +561,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 5
-    },
-    {
-      "id": "doi:10.5281/zenodo.22808427",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Simulation-based dynamic laser beam shape optimization in powder bed fusion of metals: source code and data",
-      "authors": [
-        "Vijaya Holla",
-        "Philipp Kopp",
-        "Jesse Redford",
-        "Stefan Kollmannsberger"
-      ],
-      "published": "2026-09-17",
-      "updated": "2026-09-19",
-      "categories": [
-        "Computer science",
-        "Laser",
-        "OpenAlex",
-        "Python (programming language)",
-        "Solver"
-      ],
-      "abstract": "Source code, drivers, and data supporting the article Simulation-based dynamic laser beam shape optimization in powder bed fusion of metals. The solver performs an adjoint-based optimisation of the dynamic laser beam intensity profile in laser powder bed fusion of metals, governed by the transient nonlinear heat equation. The beam shape is treated as a space–time control field that evolves along the scan path, rather than as a fixed profile, and is optimised to achieve prescribed temperature targets or melt pool dimensions using various loss functions. Contents src/ — the solver: C++20 header-only helpers built on mlhp, exposed to python through pybind11 as the module optimize_timestep drivers/ — seven python drivers: the verification case, the three-track Gaussian and chair-shaped optimisations, and the static and optimised ten-track forward replays for both shapes results/beam_shapes/ — the optimised intensity profiles as one CSV per time frame, for the three-track optimisations and the ten-track replays built from them results/inputs/ — laser scan paths and per-frame power arrays results/verification/ — convergence history and the converged control vector of the verification case meltpool_results.xlsx — the melt pool width and depth time series, with per-track summaries and charts Building and running CMake 3.12, a C++20 compiler, OpenMP, and python with numpy and scipy. mlhp and pybind11 are included at pinned commits, so the archive builds without fetching submodules. Each driver runs from the build directory, where CMake places the inputs alongside the compiled module. Licensed under the MIT License. Development repository: https://gitlab.com/hpfem/publications/2026_dynamic_laser_beam_shape_optimization_AM",
-      "url": "https://doi.org/10.5281/zenodo.22808427",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Steering vectors"
-      ],
-      "code_urls": [
-        "https://gitlab.com/hpfem/publications/2026_dynamic_laser_beam_shape_optimization_AM"
-      ],
-      "openalex": {
-        "id": "https://openalex.org/W7213503098",
-        "doi": "10.5281/zenodo.22808427",
-        "cited_by_count": 0
-      },
-      "relevance_score": 4
     },
     {
       "id": "doi:10.20944/preprints202609.1511.v1",
@@ -776,6 +972,87 @@
       "relevance_score": 6
     },
     {
+      "id": "2609.17790",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Not All Patches Are Equally Forgettable: Spatially Localized Domain Unlearning in Vision-Language Models",
+      "authors": [
+        "Akanksha Singh",
+        "Vinod K. Kurmi"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-21",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Exploit",
+        "OpenAlex",
+        "Robustness (evolution)"
+      ],
+      "abstract": "Pre-trained vision-language models (VLMs) exhibit strong cross-domain recognition performance even without additional training. However, this robustness can also preserve undesirable domain-specific behavior, as domain-related and semantic information often remain entangled within the learned representation space, making selective domain unlearning challenging. Existing approaches typically address this problem through latent-space disentanglement and prompt- or feature-level interventions, without directly attributing and attenuating individual patch-token contributions. However, here we suggest that rather than uniformly suppressing the full representation, it may be more effective to exploit the spatial structure of vision transformers to localize and suppress patch regions that contribute disproportionately to forget-domain prediction. Patches that strongly influence forget-domain prediction may not be equally important for semantic recognition, suggesting that forgetting should be guided according to the domain contribution of different visual regions. Specifically, we propose a two-stage patch-selective framework that first estimates patch-level domain sensitivity and then selectively attenuates patches whose contribution to forget-domain prediction is stronger than their semantic utility. We evaluate our framework on Office-Home, Mini DomainNet, and DomainNet. Experimental results demonstrate improved forgetting-retention tradeoffs compared to prior methods while improving retained-domain recognition by up to 3.8\\%. Additional evaluations under visually overlapping and unseen-domain settings further demonstrate improved robustness under distribution shift.",
+      "url": "https://arxiv.org/abs/2609.17790",
+      "pdf_url": "https://arxiv.org/pdf/2609.17790",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213507885",
+        "doi": "10.48550/arxiv.2609.17790",
+        "cited_by_count": 0
+      },
+      "relevance_score": 10
+    },
+    {
+      "id": "2609.16890",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Cascade: Hierarchical Recoverability Control for Large Language Model Unlearning",
+      "authors": [
+        "Qingchen Yu",
+        "Shiying Duan",
+        "Xiaodong Li",
+        "Yuhua Wang",
+        "Zhiyu Li",
+        "Shiji Zhou",
+        "Yifan Sun",
+        "Zhaoxin Fan"
+      ],
+      "published": "2026-09-15",
+      "updated": "2026-09-21",
+      "categories": [
+        "Cascade",
+        "Computer science",
+        "Identifiability",
+        "OpenAlex",
+        "Robustness (evolution)",
+        "cs.CL"
+      ],
+      "abstract": "Large Language Model (LLM) unlearning is essential for removing sensitive or copyrighted knowledge while preserving general utility. Existing methods often leave residual knowledge in intermediate representations, which can still be recovered. To address this, we propose Cascade, a hierarchical recoverability control framework that minimizes the internal identifiability of target knowledge. Cascade combines three complementary controls: path-level routing to suppress privacy-associated activation routes, representation-level compression to reduce geometric separability, and decoding-level intervention to limit residual recovery. Experiments on TOFU, MUSE-News, and WMDP, including robustness tests with query reformulation and extraction-style prompts, show that Cascade effectively reduces recoverability while maintaining stable model utility.",
+      "url": "https://arxiv.org/abs/2609.16890",
+      "pdf_url": "https://arxiv.org/pdf/2609.16890",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Diffusion language model steering",
+        "Feature latent concept steering",
+        "Model editing internal representations",
+        "Reasoning and CoT steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 8,
+      "openalex": {
+        "id": "https://openalex.org/W7213436570",
+        "doi": "10.48550/arxiv.2609.16890",
+        "cited_by_count": 0
+      }
+    },
+    {
       "id": "doi:10.5281/zenodo.22761014",
       "source": "openalex",
       "sources": [
@@ -808,41 +1085,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 5
-    },
-    {
-      "id": "2609.17790",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Not All Patches Are Equally Forgettable: Spatially Localized Domain Unlearning in Vision-Language Models",
-      "authors": [
-        "Akanksha Singh",
-        "Vinod K. Kurmi"
-      ],
-      "published": "2026-09-15",
-      "updated": "2026-09-19",
-      "categories": [
-        "Artificial intelligence",
-        "Computer science",
-        "Exploit",
-        "OpenAlex",
-        "Robustness (evolution)"
-      ],
-      "abstract": "Pre-trained vision-language models (VLMs) exhibit strong cross-domain recognition performance even without additional training. However, this robustness can also preserve undesirable domain-specific behavior, as domain-related and semantic information often remain entangled within the learned representation space, making selective domain unlearning challenging. Existing approaches typically address this problem through latent-space disentanglement and prompt- or feature-level interventions, without directly attributing and attenuating individual patch-token contributions. However, here we suggest that rather than uniformly suppressing the full representation, it may be more effective to exploit the spatial structure of vision transformers to localize and suppress patch regions that contribute disproportionately to forget-domain prediction. Patches that strongly influence forget-domain prediction may not be equally important for semantic recognition, suggesting that forgetting should be guided according to the domain contribution of different visual regions. Specifically, we propose a two-stage patch-selective framework that first estimates patch-level domain sensitivity and then selectively attenuates patches whose contribution to forget-domain prediction is stronger than their semantic utility. We evaluate our framework on Office-Home, Mini DomainNet, and DomainNet. Experimental results demonstrate improved forgetting-retention tradeoffs compared to prior methods while improving retained-domain recognition by up to 3.8\\%. Additional evaluations under visually overlapping and unseen-domain settings further demonstrate improved robustness under distribution shift.",
-      "url": "https://arxiv.org/abs/2609.17790",
-      "pdf_url": "https://arxiv.org/pdf/2609.17790",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Model editing internal representations"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7213507885",
-        "doi": "10.48550/arxiv.2609.17790",
-        "cited_by_count": 0
-      },
-      "relevance_score": 10
     },
     {
       "id": "2609.17076",
@@ -1000,49 +1242,6 @@
       "openalex": {
         "id": "https://openalex.org/W7213413124",
         "doi": "10.48550/arxiv.2609.16927",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2609.16890",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Cascade: Hierarchical Recoverability Control for Large Language Model Unlearning",
-      "authors": [
-        "Qingchen Yu",
-        "Shiying Duan",
-        "Xiaodong Li",
-        "Yuhua Wang",
-        "Zhiyu Li",
-        "Shiji Zhou",
-        "Yifan Sun",
-        "Zhaoxin Fan"
-      ],
-      "published": "2026-09-15",
-      "updated": "2026-09-17",
-      "categories": [
-        "Cascade",
-        "Computer science",
-        "Identifiability",
-        "OpenAlex",
-        "Robustness (evolution)",
-        "cs.CL"
-      ],
-      "abstract": "Large Language Model (LLM) unlearning is essential for removing sensitive or copyrighted knowledge while preserving general utility. Existing methods often leave residual knowledge in intermediate representations, which can still be recovered. To address this, we propose Cascade, a hierarchical recoverability control framework that minimizes the internal identifiability of target knowledge. Cascade combines three complementary controls: path-level routing to suppress privacy-associated activation routes, representation-level compression to reduce geometric separability, and decoding-level intervention to limit residual recovery. Experiments on TOFU, MUSE-News, and WMDP, including robustness tests with query reformulation and extraction-style prompts, show that Cascade effectively reduces recoverability while maintaining stable model utility.",
-      "url": "https://arxiv.org/abs/2609.16890",
-      "pdf_url": "https://arxiv.org/pdf/2609.16890",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Model editing internal representations"
-      ],
-      "code_urls": [],
-      "relevance_score": 8,
-      "openalex": {
-        "id": "https://openalex.org/W7213436570",
-        "doi": "10.48550/arxiv.2609.16890",
         "cited_by_count": 0
       }
     },
@@ -1897,6 +2096,45 @@
       "relevance_score": 12
     },
     {
+      "id": "2609.13745",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Inside VLM Chart Reading: Tracing Value Reading from Vertical Bar Charts Across Space and Depth",
+      "authors": [
+        "Tianhao Niu",
+        "Qingfu Zhu",
+        "Wanxiang Che"
+      ],
+      "published": "2026-09-12",
+      "updated": "2026-09-21",
+      "categories": [
+        "Asymptote",
+        "Computation",
+        "Context (archaeology)",
+        "Counterfactual thinking",
+        "OpenAlex",
+        "cs.CL"
+      ],
+      "abstract": "Vision--language models (VLMs) can answer chart questions accurately, but output accuracy does not show how they combine the evidence needed to recover an exact value. We study vertical-bar value reading with controlled counterfactual activation patching in Qwen2.5VL-7B-Instruct and InternVL3.5-8B. The study connects three analyses: (1) The single-factor results show that the changed bar-top region restores much more answer preference than the unchanged bar body, despite containing fewer visual tokens. Legend- and series-related states also lose local recoverability earlier than bar-geometry and axis-scale states. (2) In the handoff analysis, restoration shifts from visual legend regions in early layers to prompt-series positions in middle layers. Resetting the prompt-series state selectively reduces legend-source rescue, supporting its role as a partial mediator. (3) In the factorial analysis, both models can use geometry and scale states from separate donors to favor the combined target. InternVL performs similarly when the states come from separate donors or one image, while Qwen shows lower restoration for separate donors which suggests higher context sensitivity. Together, these results provide preliminary causal evidence for localizing the internal computations that support exact bar-value reading.",
+      "url": "https://arxiv.org/abs/2609.13745",
+      "pdf_url": "https://arxiv.org/pdf/2609.13745",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation intervention and patching",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 6,
+      "openalex": {
+        "id": "https://openalex.org/W7213373422",
+        "doi": "",
+        "cited_by_count": 0
+      }
+    },
+    {
       "id": "2609.14151",
       "source": "arxiv",
       "sources": [
@@ -1936,45 +2174,6 @@
       "openalex": {
         "id": "https://openalex.org/W7213265334",
         "doi": "10.48550/arxiv.2609.14151",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2609.13745",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Inside VLM Chart Reading: Tracing Value Reading from Vertical Bar Charts Across Space and Depth",
-      "authors": [
-        "Tianhao Niu",
-        "Qingfu Zhu",
-        "Wanxiang Che"
-      ],
-      "published": "2026-09-12",
-      "updated": "2026-09-17",
-      "categories": [
-        "Asymptote",
-        "Computation",
-        "Context (archaeology)",
-        "Counterfactual thinking",
-        "OpenAlex",
-        "cs.CL"
-      ],
-      "abstract": "Vision--language models (VLMs) can answer chart questions accurately, but output accuracy does not show how they combine the evidence needed to recover an exact value. We study vertical-bar value reading with controlled counterfactual activation patching in Qwen2.5VL-7B-Instruct and InternVL3.5-8B. The study connects three analyses: (1) The single-factor results show that the changed bar-top region restores much more answer preference than the unchanged bar body, despite containing fewer visual tokens. Legend- and series-related states also lose local recoverability earlier than bar-geometry and axis-scale states. (2) In the handoff analysis, restoration shifts from visual legend regions in early layers to prompt-series positions in middle layers. Resetting the prompt-series state selectively reduces legend-source rescue, supporting its role as a partial mediator. (3) In the factorial analysis, both models can use geometry and scale states from separate donors to favor the combined target. InternVL performs similarly when the states come from separate donors or one image, while Qwen shows lower restoration for separate donors which suggests higher context sensitivity. Together, these results provide preliminary causal evidence for localizing the internal computations that support exact bar-value reading.",
-      "url": "https://arxiv.org/abs/2609.13745",
-      "pdf_url": "https://arxiv.org/pdf/2609.13745",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Activation intervention and patching",
-        "VLM multimodal steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 6,
-      "openalex": {
-        "id": "https://openalex.org/W7213373422",
-        "doi": "",
         "cited_by_count": 0
       }
     },
@@ -2442,6 +2641,43 @@
       "relevance_score": 4
     },
     {
+      "id": "doi:10.55056/cssesw2025/paper11",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Noise reduction by using more reference signals in GSC beamformer",
+      "authors": [
+        "Quan Trong The",
+        "Nguyen Thi Huyen Chau",
+        "Nguyen Manh Son"
+      ],
+      "published": "2026-09-10",
+      "updated": "2026-09-21",
+      "categories": [
+        "Adaptive beamformer",
+        "Beamforming",
+        "Computer science",
+        "Noise-canceling microphone",
+        "OpenAlex"
+      ],
+      "abstract": "Nowadays, the use of microphone array (MA) technology has been popular, due to its high spatial diversity, high directivity factor and the steered beampattern towards the specified sound location. MA beamforming uses the spatial information about the direction of arrival of a helpful signal, the designed geometry of MA distribution, the properties of surrounding noise, background noise to achieve noise reduction and speech enhancement at the same time. Generalized Sidelobe Canceller (GSC) beamformer is one of the most useful techniques for minimizing the total noise power while preserving the clean speech data at a certain direction without speech distortion. However, under complex recording scenarios, the overall MVDR’s evaluation often degraded and speech quality, speech intelligibility corrupted because of the moving head of speaker, the different microphone sensitivities, the error of sampling rate, the displacement of MA. In this article, we introduced a modified steering vector to increase the robustness of GSC beamformer in realistic recording situations. This approach is based on the preferred steering vector to achieve more reference signal to improve GSC beamformer’s performance in complex recording scenarios. The demonstrated experiments have confirmed the advantage of the proposed method in reducing musical noise, noise level at GSC beamformer’s output signal. The conducted experiment shows the improved signal-to-noise ratio (SNR) from 7.4 to 8.8 (dB). The suggested technique can be implemented in a multi-channel system for dealing other complicated problems, such as reverberation, speech recognition.",
+      "url": "https://doi.org/10.55056/cssesw2025/paper11",
+      "pdf_url": "https://doi.org/10.55056/cssesw2025/paper11",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Persona sentiment attribute steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7212163310",
+        "doi": "10.55056/cssesw2025/paper11",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
       "id": "2609.11063",
       "source": "arxiv",
       "sources": [
@@ -2676,43 +2912,6 @@
       "openalex": {
         "id": "https://openalex.org/W7212168418",
         "doi": "10.1016/j.patcog.2026.114893",
-        "cited_by_count": 0
-      },
-      "relevance_score": 4
-    },
-    {
-      "id": "doi:10.55056/cssesw2025/paper11",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Noise reduction by using more reference signals in GSC beamformer",
-      "authors": [
-        "Quan Trong The",
-        "Nguyen Thi Huyen Chau",
-        "Nguyen Manh Son"
-      ],
-      "published": "2026-09-10",
-      "updated": "2026-09-12",
-      "categories": [
-        "Adaptive beamformer",
-        "Beamforming",
-        "Computer science",
-        "Noise-canceling microphone",
-        "OpenAlex"
-      ],
-      "abstract": "Nowadays, the use of microphone array (MA) technology has been popular, due to its high spatial diversity, high directivity factor and the steered beampattern towards the specified sound location. MA beamforming uses the spatial information about the direction of arrival of a helpful signal, the designed geometry of MA distribution, the properties of surrounding noise, background noise to achieve noise reduction and speech enhancement at the same time. Generalized Sidelobe Canceller (GSC) beamformer is one of the most useful techniques for minimizing the total noise power while preserving the clean speech data at a certain direction without speech distortion. However, under complex recording scenarios, the overall MVDR’s evaluation often degraded and speech quality, speech intelligibility corrupted because of the moving head of speaker, the different microphone sensitivities, the error of sampling rate, the displacement of MA. In this article, we introduced a modified steering vector to increase the robustness of GSC beamformer in realistic recording situations. This approach is based on the preferred steering vector to achieve more reference signal to improve GSC beamformer’s performance in complex recording scenarios. The demonstrated experiments have confirmed the advantage of the proposed method in reducing musical noise, noise level at GSC beamformer’s output signal. The conducted experiment shows the improved signal-to-noise ratio (SNR) from 7.4 to 8.8 (dB). The suggested technique can be implemented in a multi-channel system for dealing other complicated problems, such as reverberation, speech recognition.",
-      "url": "https://doi.org/10.55056/cssesw2025/paper11",
-      "pdf_url": "https://doi.org/10.55056/cssesw2025/paper11",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Persona sentiment attribute steering",
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7212163310",
-        "doi": "10.55056/cssesw2025/paper11",
         "cited_by_count": 0
       },
       "relevance_score": 4
@@ -3704,6 +3903,130 @@
       "relevance_score": 6
     },
     {
+      "id": "doi:10.1007/978-3-032-37274-1_6",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "MARS: LLM Toxicity Mitigation via Multi-dimensional Adaptive Representation Steering",
+      "authors": [
+        "Hongfeng Zhou",
+        "Chunhe Xia",
+        "Chen Chen",
+        "Changnan Jiang",
+        "Xinjun Liu",
+        "Tianbo Wang"
+      ],
+      "published": "2026-09-07",
+      "updated": "2026-09-21",
+      "categories": [
+        "Computer science",
+        "OpenAlex",
+        "Perplexity",
+        "Representation (politics)",
+        "Visualization"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1007/978-3-032-37274-1_6",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Feature latent concept steering",
+        "Representation engineering",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7211915169",
+        "doi": "10.1007/978-3-032-37274-1_6",
+        "cited_by_count": 0
+      },
+      "relevance_score": 7
+    },
+    {
+      "id": "2609.07037",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Disentangling Steering Vectors",
+      "authors": [
+        "Takeru Hiramatsu",
+        "Kyohei Atarashi",
+        "Koh Takeuchi",
+        "Hisashi Kashima"
+      ],
+      "published": "2026-09-07",
+      "updated": "2026-09-21",
+      "categories": [
+        "Autoencoder",
+        "Computer science",
+        "Control (management)",
+        "OpenAlex",
+        "Set (abstract data type)",
+        "cs.LG"
+      ],
+      "abstract": "Activation steering has emerged as a lightweight, inference-time approach to control the behavior of Large Language Models (LLMs). However, traditional steering vectors used to intervene in LLMs' activations, such as those derived from the difference-in-means method, tend to entangle multiple semantic and stylistic concepts into a single composite direction, leading to unpredictable steering effects. Our core objective is to disentangle this composite direction into its constituent concepts. To this end, we propose Steering Vector Dissection, a framework to explicitly isolate individual and semantically consistent features from these composite directions. Specifically, we pair positive and negative activations and take their differences to generate a set of instance-level steering vectors, and train a dedicated Sparse Autoencoder (SAE) directly on them. Quantitative evaluations across two datasets, two models, and two intervention depths show that our method yields a set of semantically consistent basis vectors whose steering effects are mutually distinguishable. Furthermore, we show that this disentanglement enables precise control over model behaviors.",
+      "url": "https://arxiv.org/abs/2609.07037",
+      "pdf_url": "https://arxiv.org/pdf/2609.07037",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation steering exact",
+        "Feature latent concept steering",
+        "Persona sentiment attribute steering",
+        "Representation engineering",
+        "SAE steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 16,
+      "openalex": {
+        "id": "https://openalex.org/W7212078628",
+        "doi": "10.48550/arxiv.2609.07037",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.06922",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "BEFORE THE FLIP: Measuring Hidden Score Shifts In Quantized Vision Language Models Before The Answer Changes for Visual Question Answering",
+      "authors": [
+        "Sourajit Saha",
+        "Shubhashis Roy Dipta",
+        "Shaswati Saha",
+        "Nobin Sarwar",
+        "Yuxuan Jiang"
+      ],
+      "published": "2026-09-07",
+      "updated": "2026-09-21",
+      "categories": [
+        "Computer science",
+        "Measure (data warehouse)",
+        "OpenAlex",
+        "Quantization (signal processing)",
+        "Question answering"
+      ],
+      "abstract": "Quantization makes vision language models (VLMs) cheaper to store and run by using fewer bits to represent their weights. While unchanged answers on visual question answering (VQA) after compression are an expected behavior, they can still hide changes in the underlying scores (log probabilities). For example, a model may still answer yes after compression, even as the score gap between yes and no shrinks. We introduce BEFORE THE FLIP to measure these hidden changes. Our method compares the score change caused by compression with the change caused by replacing the image's internal representations, or image tokens, with one fixed average token. We then increase the precision of one weight group at a time to identify where extra bits help, and test whether choosing different groups for each question offers benefits beyond shuffled controls. Among 8,277 LLaVA questions where image token replacement measurably affects the scores, 4-bit compression shifts the yes or no score gap farther toward the replacement output than 8-bit compression. Qwen shows the same pattern, but with a smaller difference. Yet only 265 of 9,000 LLaVA answers change at 4 bits. In a separate study of 1,024 calibration questions, choosing weight groups separately for each question does not outperform both shuffled controls at any tested storage budget. These findings show that compression can alter the scores behind unchanged answers, but do not establish a reliable benefit from adjusting precision for each question.",
+      "url": "https://arxiv.org/abs/2609.06922",
+      "pdf_url": "https://arxiv.org/pdf/2609.06922",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Feature latent concept steering",
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7212087109",
+        "doi": "10.48550/arxiv.2609.06922",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
       "id": "2609.07746",
       "source": "arxiv",
       "sources": [
@@ -3836,89 +4159,6 @@
       }
     },
     {
-      "id": "2609.06922",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "BEFORE THE FLIP: Measuring Hidden Score Shifts In Quantized Vision Language Models Before The Answer Changes for Visual Question Answering",
-      "authors": [
-        "Sourajit Saha",
-        "Shubhashis Roy Dipta",
-        "Shaswati Saha",
-        "Nobin Sarwar",
-        "Yuxuan Jiang"
-      ],
-      "published": "2026-09-07",
-      "updated": "2026-09-14",
-      "categories": [
-        "Computer science",
-        "Measure (data warehouse)",
-        "OpenAlex",
-        "Quantization (signal processing)",
-        "Question answering"
-      ],
-      "abstract": "Quantization makes vision language models (VLMs) cheaper to store and run by using fewer bits to represent their weights. While unchanged answers on visual question answering (VQA) after compression are an expected behavior, they can still hide changes in the underlying scores (log probabilities). For example, a model may still answer yes after compression, even as the score gap between yes and no shrinks. We introduce BEFORE THE FLIP to measure these hidden changes. Our method compares the score change caused by compression with the change caused by replacing the image's internal representations, or image tokens, with one fixed average token. We then increase the precision of one weight group at a time to identify where extra bits help, and test whether choosing different groups for each question offers benefits beyond shuffled controls. Among 8,277 LLaVA questions where image token replacement measurably affects the scores, 4-bit compression shifts the yes or no score gap farther toward the replacement output than 8-bit compression. Qwen shows the same pattern, but with a smaller difference. Yet only 265 of 9,000 LLaVA answers change at 4 bits. In a separate study of 1,024 calibration questions, choosing weight groups separately for each question does not outperform both shuffled controls at any tested storage budget. These findings show that compression can alter the scores behind unchanged answers, but do not establish a reliable benefit from adjusting precision for each question.",
-      "url": "https://arxiv.org/abs/2609.06922",
-      "pdf_url": "https://arxiv.org/pdf/2609.06922",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Feature latent concept steering",
-        "Model editing internal representations"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7212087109",
-        "doi": "10.48550/arxiv.2609.06922",
-        "cited_by_count": 0
-      },
-      "relevance_score": 6
-    },
-    {
-      "id": "2609.07037",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Disentangling Steering Vectors",
-      "authors": [
-        "Takeru Hiramatsu",
-        "Kyohei Atarashi",
-        "Koh Takeuchi",
-        "Hisashi Kashima"
-      ],
-      "published": "2026-09-07",
-      "updated": "2026-09-13",
-      "categories": [
-        "Autoencoder",
-        "Computer science",
-        "Control (management)",
-        "OpenAlex",
-        "Set (abstract data type)",
-        "cs.LG"
-      ],
-      "abstract": "Activation steering has emerged as a lightweight, inference-time approach to control the behavior of Large Language Models (LLMs). However, traditional steering vectors used to intervene in LLMs' activations, such as those derived from the difference-in-means method, tend to entangle multiple semantic and stylistic concepts into a single composite direction, leading to unpredictable steering effects. Our core objective is to disentangle this composite direction into its constituent concepts. To this end, we propose Steering Vector Dissection, a framework to explicitly isolate individual and semantically consistent features from these composite directions. Specifically, we pair positive and negative activations and take their differences to generate a set of instance-level steering vectors, and train a dedicated Sparse Autoencoder (SAE) directly on them. Quantitative evaluations across two datasets, two models, and two intervention depths show that our method yields a set of semantically consistent basis vectors whose steering effects are mutually distinguishable. Furthermore, we show that this disentanglement enables precise control over model behaviors.",
-      "url": "https://arxiv.org/abs/2609.07037",
-      "pdf_url": "https://arxiv.org/pdf/2609.07037",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Activation steering exact",
-        "Feature latent concept steering",
-        "Persona sentiment attribute steering",
-        "Representation engineering",
-        "SAE steering",
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "relevance_score": 16,
-      "openalex": {
-        "id": "https://openalex.org/W7212078628",
-        "doi": "10.48550/arxiv.2609.07037",
-        "cited_by_count": 0
-      }
-    },
-    {
       "id": "doi:10.1038/s42256-026-01293-x",
       "source": "openalex",
       "sources": [
@@ -3995,47 +4235,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 12
-    },
-    {
-      "id": "doi:10.1007/978-3-032-37274-1_6",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "MARS: LLM Toxicity Mitigation via Multi-dimensional Adaptive Representation Steering",
-      "authors": [
-        "Hongfeng Zhou",
-        "Chunhe Xia",
-        "Chen Chen",
-        "Changnan Jiang",
-        "Xinjun Liu",
-        "Tianbo Wang"
-      ],
-      "published": "2026-09-07",
-      "updated": "2026-09-08",
-      "categories": [
-        "Computer science",
-        "OpenAlex",
-        "Perplexity",
-        "Representation (politics)",
-        "Visualization"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1007/978-3-032-37274-1_6",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Feature latent concept steering",
-        "Representation engineering",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7211915169",
-        "doi": "10.1007/978-3-032-37274-1_6",
-        "cited_by_count": 0
-      },
-      "relevance_score": 7
     },
     {
       "id": "2609.07876",
