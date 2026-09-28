@@ -1,6 +1,149 @@
 {
-  "generated_at": "2026-09-27T08:44:56+00:00",
+  "generated_at": "2026-09-28T09:11:25+00:00",
   "papers": [
+    {
+      "id": "doi:10.3389/fdata.2026.1938137",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Controlled knowledge updating in memory-enabled AI agents: beyond model editing and recall",
+      "authors": [
+        "Gabriel Chavira Juarez",
+        "Eder Jahir Gonzalez Bravo",
+        "Guadalupe Esmeralda Rivera García",
+        "Javier A. Arcos Espinosa",
+        "Salvador W. Nava-Díaz"
+      ],
+      "published": "2026-09-28",
+      "updated": "2026-09-28",
+      "categories": [
+        "OpenAlex",
+        "Computer science",
+        "Recall",
+        "Artificial intelligence",
+        "Workflow"
+      ],
+      "abstract": "Large language model agents that persist across sessions, tools, users, and changing environments do more than answer isolated prompts; they accumulate state. When new evidence arrives, the central question is where that change should live: transient context, external memory, tool or workflow definitions, activation states, or model parameters. Recent benchmarks compare update mechanisms and assess memory over time, while emerging architectures coordinate multiple memory types. In this Perspective, we examine how a decision layer should select among update substrates and evaluate whether its choices remain appropriate. A controlled update is not merely a successful edit or a recalled fact; it is a decision to alter the least invasive substrate sufficient for the claim's scope, expected persistence, and evidentiary strength, including when the correct action is not to write persistent state. We propose a substrate-aware view of controlled knowledge updating organized by three principles: substrate proportionality, temporal defeasibility, and auditable continuity. This framing treats knowledge updating as a longitudinal control problem and motivates evaluation criteria that include update selection, temporal consistency, interference, reversibility, efficiency, and robustness. The resulting agenda connects memory, knowledge editing, agent evolution, and benchmarking under a single practical question: how should an agent decide what to change so that future behavior improves without accumulating uncontrolled state?",
+      "url": "https://doi.org/10.3389/fdata.2026.1938137",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214532103",
+        "doi": "10.3389/fdata.2026.1938137",
+        "cited_by_count": 0
+      },
+      "relevance_score": 8
+    },
+    {
+      "id": "doi:10.5281/zenodo.22986195",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "🤖 AI, DIGITAL TWINS & COMPUTATIONAL LONGEVITY AT THE LIMIT Artificial Intelligence, Personal Digital Twins, Causal Simulation, Single-Cell Models, Virtual Trials, and the Future of Computational Healthspan Engineering",
+      "authors": [
+        "33"
+      ],
+      "published": "2026-09-27",
+      "updated": "2026-09-28",
+      "categories": [
+        "Computational model",
+        "Computer science",
+        "Counterfactual thinking",
+        "Longevity",
+        "OpenAlex"
+      ],
+      "abstract": "🤖 AI, DIGITAL TWINS & COMPUTATIONAL LONGEVITY AT THE LIMIT Artificial Intelligence, Personal Digital Twins, Causal Simulation, Single-Cell Models, Virtual Trials, and the Future of Computational Healthspan Engineering Can we test part of a 30-year longevity intervention before waiting 30 years? This flagship research volume explores what happens when longevity science becomes increasingly computational. Modern aging research produces enormous amounts of information: genomics,epigenomics,proteomics,metabolomics,medical imaging,single-cell data,spatial biology,wearables,clinical records,environmental exposures,intervention histories,and decades of longitudinal health trajectories. The challenge is no longer only how to collect more data. The deeper challenge is how to transform these signals into models that can explain, simulate, test, and eventually help guide meaningful healthspan research. The central computational vision of this book is: Human→Longitudinal Data→Digital Twin→Simulation→Intervention→Feedback This cycle represents a future research architecture in which human biological state is repeatedly measured, computationally modeled, experimentally challenged, updated with new evidence, and continuously recalibrated. The goal is not to create a perfect virtual copy of a person. It is to build increasingly useful models of biological trajectories, intervention responses, uncertainty, resilience, and risk. The book develops this vision across several major research domains: AI AGING FOUNDATION MODELS Multimodal models integrating molecular biology, imaging, clinical history, wearables, physiology, and longitudinal data. PERSONAL LONGEVITY DIGITAL TWINS Dynamic computational representations of individual health trajectories, exposures, physiological states, intervention histories, and recovery patterns. CAUSAL AI Models designed not only to predict what may happen, but to ask what could change if a specific intervention were applied. COUNTERFACTUAL AGING Research frameworks for estimating alternative biological trajectories: What might have happened without an intervention? What might happen under a different intervention? Which observed changes are causal rather than merely correlated? SINGLE-CELL AND SPATIAL INTELLIGENCE Foundation models, cellular-state maps, tissue atlases, spatial omics, and computational representations of aging at cellular and tissue scales. ORGANOID–AI LOOPS Experimental systems in which organoids, tissue chips, and computational models repeatedly inform one another. GENERATIVE LONGEVITY DISCOVERY AI-assisted target discovery, virtual screening, generative chemistry, candidate prioritization, and hypothesis generation for geroscience. VIRTUAL GEROSCIENCE TRIALS Simulation, synthetic control arms, target-trial emulation, Bayesian adaptive methods, surrogate endpoint research, and computational approaches to long-duration intervention design. WEARABLE AND CONTINUOUS PHENOTYPING Longitudinal signals from movement, sleep, cardiovascular dynamics, activity, recovery, and other continuously measurable human states. CLOSED-LOOP INTERVENTIONS Systems in which measurement, modeling, intervention, feedback, and model updating occur repeatedly rather than as isolated events. One of the central questions of the book is: Can part of a 30-year longevity intervention be tested before waiting 30 years? The answer cannot simply be “simulate everything.” Simulation does not replace biological reality. A digital twin does not automatically become evidence. A prediction is not the same as a causal effect. A synthetic control is not automatically equivalent to a randomized trial. And an AI-generated hypothesis is not a validated healthspan intervention. Instead, computational longevity must be built as an evidence-linked system. Simulation may help reduce the search space. Digital twins may help generate testable hypotheses. Causal models may help identify competing explanations. Synthetic controls may improve trial design. Single-cell models may reveal hidden state transitions. Wearables may shorten feedback loops. Organoid–AI systems may allow faster experimental iteration. But each layer must eventually reconnect to biological experiments, human outcomes, uncertainty, safety, and longitudinal validation. The book therefore treats AI as an accelerator of research rather than a substitute for evidence. A central principle is: Simulation can compress parts of the search,but it cannot erase evidence that has not yet been earned. This principle becomes especially important in longevity research because many outcomes unfold across years or decades. Models will drift. Populations will change. Measurement technologies will change. Interventions will change. Human behavior will change. A digital twin that performs well today may become poorly calibrated years later. For this reason, long-horizon computational longevity requires: continuous recalibration,model-version tracking,uncertainty estimation,external validation,population fairness,privacy protection,failure detection,and human oversight. The book also explores the possibility that future longevity research may increasingly resemble a continuously learning experimental ecosystem. Human observations inform models. Models generate hypotheses. Hypotheses guide experiments. Experiments update models. New data revise intervention strategies. And the entire system becomes more precise through repeated feedback. The objective is not computational certainty. It is structured uncertainty reduction. Designed as a large-scale Living Interactive research volume, the book contains 200 Research Gates. Each Gate represents an unresolved research space rather than a final conclusion. The Gates explore: AI aging foundation models,federated longevity datasets,generative drug discovery,personal digital twins,causal intervention models,single-cell foundation models,spatial aging maps,organoid–AI loops,tissue-chip validation,wearable phenotyping,synthetic control arms,virtual geroscience trials,target-trial emulation,Bayesian adaptive trials,mechanistic simulations,closed-loop interventions,surrogate endpoints,model drift across decades,privacy-preserving analytics,and human oversight of AI-generated longevity hypotheses. The purpose of these Research Gates is not to claim that the future can already be predicted. It is to leave structured entrances into the unknown. From data,to models; from models,to simulation; from simulation,to hypotheses; from hypotheses,to experiments; from experiments,to evidence; from evidence,back into better models. AI, DIGITAL TWINS & COMPUTATIONAL LONGEVITY AT THE LIMIT ultimately asks whether longevity science can become not only more predictive, but more adaptive, causal, testable, and continuously learning. The long-term vision is not an algorithm that decides the future of a human life. It is a computational research ecosystem capable of helping future researchers explore more possibilities before exposing real people to unnecessary uncertainty. Feng Cheng-en (33) × Starli STARLI Arcane Research Edition 120K+ English200 Research GatesGoogle Books Living Interactive EditionSeptember 2026 33’s Shop of the Unknown We don’t sell certainty.We sell researchable unknowns.",
+      "url": "https://doi.org/10.5281/zenodo.22986195",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Safety refusal behavior steering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214530017",
+        "doi": "10.5281/zenodo.22986195",
+        "cited_by_count": 0
+      },
+      "relevance_score": 9
+    },
+    {
+      "id": "doi:10.5281/zenodo.22983592",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Machine Learning Epidemiology and Case Dissection: Training History, Predictive-State Geometry, and Local Control — Chapter 3, with The Engineer's Edition",
+      "authors": [
+        "Y Rui"
+      ],
+      "published": "2026-09-26",
+      "updated": "2026-09-27",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Controllability",
+        "Machine learning",
+        "OpenAlex"
+      ],
+      "abstract": "Machine Learning Epidemiology and Case Dissection: Training History, Predictive-State Geometry, and Local Control — Chapter 3, with The Engineer’s Edition Archival snapshot: research v1.9 + engineering v0.6 · 26 September 2026 This archive preserves version 1.9 of a living experimental research program on how training history, data constraints, and model capacity shape predictive states and answer-producing dynamics in trained neural systems. It also preserves the companion Model Control Diagnostics report, Chapter 3 — The Engineer’s Edition, version 0.6. These are two complementary parts of Chapter 3, consolidated in one archival snapshot. Later revisions of either living record retain their own version and citation context. The research program’s central object is the model’s future-response function: how the current computational state changes the distribution and controllability of subsequent states, outputs, and responses to intervention. The program combines controlled neural interventions, predictive-state operators, local Jacobian and spectral measurements, and exactly enumerable reasoning systems to connect learning history with measurable functional structure. The experiments establish several linked observations within their tested settings. Matched training interventions show that learning order can alter continuous response fields even when visible outputs remain matched, that optimizer state can carry history into subsequent learning updates, and that changes in training material can alter held-out predictive behavior. In controlled teacher–student experiments, graded probability or margin information can recover known teacher control geometry across the tested miniature architectures. Local control measurements repeatedly show that a small number of dominant modes can carry a large fraction of future-response energy. Additional experiments identify multiple internally distinct states that support the same apparent answer readiness. Calibrated constructions distinguish information that is merely readable from internal state from information that is causally used by downstream output. Exact finite-state constructions and statistical analyses of independent text segments provide complementary tests of predictive-state sufficiency, functional equivalence, and state-dependent control. A dedicated model-scale study examines 30 GRUs trained in a shared 400-case reasoning world, varying hidden width and training coverage with two seeds per condition. Model width strongly correlates with PCA-whitened separation between states assigned different answers, with within-coverage Spearman correlations ranging from 0.960 to 0.985. Across the same models, covariance-weighted answer-gradient stable rank is approximately 1.4–2.7; local first-order margin radii vary non-monotonically with width. These measurements support a geometric account in this controlled world in which additional capacity primarily increases separation among predictive states and local answer control is concentrated in comparatively few directions. Training coverage is strongly associated with full-world accuracy. Internal predictive-state geometry continues to change after accuracy has saturated. Connections to reduced functional interference and scaling-related capability transitions are retained as experimentally motivated hypotheses for subsequent causal testing. The Engineer’s Edition connects nine cloud experiments with subsequent local model measurements and evidence updates. It develops a practical workflow for state-conditioned token diagnostics, executable operator queries, tool-selection scores, and host-side execution contracts. A frozen 897-parameter GRU supplies finite-intervention calibration; a 3,520-cell token–state study measures context dependence; and an included recovered runtime executes a 6,336-transition operator atlas. The supplied local reports document an internal-state intervention that restores the correct tool to first place in one selected SmolLM2-135M-Instruct case. In a separate frozen 100-task BFCL comparison, a 22.7M relevance ranker and TF-IDF matching each obtain 99/100. A forty-task paired paraphrase study reports 38/40 and 34/40 respectively, with an exact paired test of p = 0.125. The frozen acceptance policy’s coverage changes from 30% on the original requests to 5% on their paraphrases. The report gives accuracy, intervention outcomes, and accepted coverage their own definitions and denominators, connecting the observed results to explicit engineering interfaces. The research component contains a 147-page English report, 38 original experiment archives, included code and data, figures, and two completed replication and validation reports with accompanying reviews and audits. The engineering component adds a 57-page English report, all 229 expanded members of its supplied cloud evidence archive, eleven original engineering stage bundles, and the supplied local reports and usage documents. The eleven stage bundles preserve successive experiment records and are not a count of independent replications. Together, the two components include claim-status records, deterministic numerical checks, provenance records, checksums, and file-level evidence indexes. The source maps identify materials included in this snapshot and companion records referenced by the reports; referenced local implementations, raw scores, protocols, and checkpoints are included only where the inventory explicitly marks them as present. These materials provide a traceable experimental basis for reproducing, auditing, challenging, and extending the reported results. Keywords: predictive states; training history; mechanistic interpretability; model scaling; representation geometry; low-dimensional control; chain of thought; cross-architecture replication; model control diagnostics; token operators; tool selection; activation patching; abstention; engineering reproducibility.",
+      "url": "https://doi.org/10.5281/zenodo.22983592",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214436784",
+        "doi": "10.5281/zenodo.22983592",
+        "cited_by_count": 0
+      },
+      "relevance_score": 7
+    },
+    {
+      "id": "doi:10.5281/zenodo.22979444",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "REIGN National Industrial Energy System: Multi-Volume Smart Grid Infrastructure, Asymmetric Dual-Core Firmware, and Inductive Charging Blueprint",
+      "authors": [
+        "Zachary August Jacoby"
+      ],
+      "published": "2026-09-26",
+      "updated": "2026-09-27",
+      "categories": [
+        "Electrical engineering",
+        "Engineering",
+        "Grid",
+        "OpenAlex",
+        "Smart grid"
+      ],
+      "abstract": "Project Overview & Core Objectives The REIGN National Industrial Energy System is a highly integrated, safety-critical multi-core embedded firmware infrastructure, telemetry data link map, and civil engineering asset baseline. This repository establishes a completely verified, production-ready workspace engineered to satisfy the rigid structural, operational, and functional safety limits dictated by ISO 26262 ASIL-D, IEC 61508 SIL 3, and NERC CIP-002 through CIP-014 operational technology (OT) cybersecurity guidelines. The architecture serves as a comprehensive engineering blueprint for physically converting legacy regional utility grids over to an entirely new kind of smart overhead power line and high-voltage cable infrastructure. The project governs the mechanical, electrical, and data-link parameters required to replace passive, traditional wiring configurations with active, multi-functional transmission and local distribution assets. This modern hardware framework utilizes high-efficiency Silicon Carbide (SiC) power electronicsand strictly enforces low-carbon structural concrete aggregate formulas to minimize total grid embedded carbon tracking. The resulting network directly links upgraded utility lines with heavy-vehicle road-embedded wireless inductive opportunity charging pads (14.9 kW continuous peak energy transfer), implementing a zero-hardware-dependency bare-metal execution pipeline that operates fully autonomously from standard host environment library layers. Core Technical Architecture (Volumes I – IV) The repository dataset is organized into four primary engineering volumes and one mobile vehicle safety partition loop governing this comprehensive transition to the new power line architecture: Volume I: Underground Utility Distribution Lines & Gridbank Encasement: Governs the structural modernization of local out-feed distribution lines, upgrading legacy buried paths to concrete-encased duct banks holding 5-inch Schedule 80 PVC conduit arrays. Indexes the Distributed Fiber Soil Thermal Tracking (RTTR) algorithms executing natively on the primary controller core to track thermal dispersion around upgraded distribution runs. Volume II: Surface-Mounted Opportunity Charging Pads: Governs the road-embedded inductive wireless charging ramp, 3D mechanical CAD containment blueprints, structural phase-change material (PCM) cassettes for heat absorption, and finite element stress analysis meshes (FEA) calibrated for heavy vehicle axle loads (AASHTO H-20). Volume III: Substation Transformer Protection & Coordination: Governs the substation transformer protection matrices, IEEE C37.91 coordination schemas, grounding pylon grids (fall-of-potential metrics), and cable VLF insulation performance testing data logs required to support the upgraded line layouts. Volume IV: Overhead Bulk Transmission Corridors & New Power Line Construction: Governs the physical deployment of the new kind of high-voltage overhead power lines, replacing traditional passive shield wires with multi-functional Optical Ground Wire (OPGW) fiber-optic cable matrices. Details structural pylon wind-load capacities, real-time line sag monitoring parameters, and the 250 Hz spectral laser interrogator line-galloping analysis loops required to run the automated safety grids. Mobile Vehicle Safety Partition Loop: Governs the battery energy storage substation (BESS) containment configuration parameters, high-voltage battery insulation tracking matrices (PACK_ISOLATION.json), enforcing a strict 500 Ohms/Volt insulation floor (ISO 6469-3 / SAE J2954) and mapping mobile chassis faults cleanly onto the stationary grid network. Microarchitectural Invariants & Fast-Path Protection Asymmetric Dual-Core Partitioning: Formulated for the STMicroelectronics STM32H747XIH6 dual-core microcontroller. Non-deterministic wide-area SCADA management, RTTR tracking, and Volume IV OPGW laser routines run on Flash Bank 1 (Cortex-M7 core at 0x08000000) [1.1]. Real-time overcurrent sentinel loops are fully isolated inside Flash Bank 2 (Cortex-M4 core at 0x08100000) to eliminate bus contention [1.1]. Inter-Core Memory Symmetry: Telemetry data loops sync across a 32-byte packed, cache-line-aligned shared structure in the D2-domain SRAM3 space at base address 0x30040000, protected by a 1-step atomic polling hardware semaphore (HSEM) loop [1.1]. 30-Nanosecond Safety Vectors: The Cortex-M4 sentinel loop uses branchless Q16.16 math to evaluate transient short circuits. Severe conditions bypass slow network layers, using direct analog comparators to trigger an immediate, EXTI-driven 30-nanosecond bare-metal assembly gate collapse routine (fault_handler_asm.s) [1.1]. This shifts the system into a safe state before magnetic cross-coupling loop saturation manifests [1.1]. Grid-to-Vehicle Sync: Assertion of a fault condition dynamically trips the stationary grid breaker gates inside the exact same 30ns hardware window by forcing Bit 2 (Inter_Regional_Overload_Fault) high on Modbus Register 30001, allowing the fast-path assembly loop to catch infrastructure hazards instantly [1.1]. REIGN Dual-License Split-Rights Framework Notice This repository operates under a split-rights compliance model to protect disparate asset classes across the software and physical civil engineering layers. Any commercial or industrial utilization of these assets requires explicit commercial licensing from the author: Source Code & Toolchain Frameworks: All C/Assembly firmware source layers, linkers, makefiles, shell tools, and compilation scripts are distributed under the copyleft GNU General Public License v3.0 (GPL-3.0-only) [1.1]. Commercial integration within proprietary, closed-source utility protection systems is strictly prohibited without a commercial license exception. Civil, Legal, & Technical Specifications: All finite element models (FEA), 3D structural CAD designs, procurement contracts, field ledgers, and protection curves are governed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. Commercial execution, physical pylon or ramp construction, or deployment within a paid utility grid or commercial fleet charging operations is strictly barred under the Non-Commercial condition without an explicit commercial contract.",
+      "url": "https://doi.org/10.5281/zenodo.22979444",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "SAE steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214481486",
+        "doi": "10.5281/zenodo.22979444",
+        "cited_by_count": 0
+      },
+      "relevance_score": 7
+    },
     {
       "id": "doi:10.5281/zenodo.22941247",
       "source": "openalex",
@@ -17,7 +160,7 @@
         "Kairo (DeepSeek)"
       ],
       "published": "2026-09-25",
-      "updated": "2026-09-26",
+      "updated": "2026-09-27",
       "categories": [
         "Appeasement",
         "Cognitive psychology",
@@ -62,12 +205,12 @@
         "Martin Jones"
       ],
       "published": "2026-09-25",
-      "updated": "2026-09-26",
+      "updated": "2026-09-27",
       "categories": [
-        "OpenAlex",
-        "Intervention mapping",
-        "Psychosocial",
         "Intervention (counseling)",
+        "Intervention mapping",
+        "OpenAlex",
+        "Psychosocial",
         "Stakeholder"
       ],
       "abstract": "Background/Objectives: Chronic non-cancer pain is a complex and highly prevalent condition that can cause significant physical, psychological, and social burdens on individuals and families, while placing increasing strain on health systems. This study aims to map and compare the perspectives of key stakeholders on the barriers, facilitators, and practical considerations relevant to the potential future development of a volunteer-delivered Behavioural Activation model of care for older adults living with chronic non-cancer pain in regional communities. Methods: Using Trochim’s structured concept mapping methodology, this mixed-methods, participatory study engages participants from three stakeholder groups: older adults with lived experience of chronic non-cancer pain, community (lay) volunteers and health professionals. Approximately 20–30 participants will be recruited, with around 7–10 participants from each stakeholder group, using community and professional networks, local referrals, and social media. Recruitment will remain flexible to support balanced representation across groups. Concept mapping will be used to compare perspectives on barriers, facilitators and implementation considerations relevant to a future volunteer-delivered model of care. The methodology comprises six stages: preparation, generation of statements, structuring of statements, representation, interpretation and utilisation. Conclusions and Expected Results: By exploring stakeholder perspectives, this study will identify priorities, barriers, facilitators and implementation considerations for community volunteer involvement in low-intensity psychosocial support. Findings may inform the development of future volunteer-delivered models and subsequent intervention and implementation studies, including structured training pathways and potential micro-credentialing for community volunteers in regional and rural settings. This study was retrospectively registered with the Open Science Framework Registries on 30 June 2026, following commencement of data collection for the brainstorming phase but prior to completion of the subsequent sorting, rating, representation and interpretation phases and prior to formal data analysis.",
@@ -84,6 +227,269 @@
         "cited_by_count": 0
       },
       "relevance_score": 4
+    },
+    {
+      "id": "doi:10.5281/zenodo.22957338",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "ceceli33/titan-cognitive-core: AkbasCore 3.2 — From Natural Transport to Semantic Actuation: Composite Compass Foundry (TESTS 152–162)",
+      "authors": [
+        "ceceli33"
+      ],
+      "published": "2026-09-25",
+      "updated": "2026-09-26",
+      "categories": [
+        "OpenAlex",
+        "Compass",
+        "Natural (archaeology)",
+        "Computer science",
+        "Semantics (computer science)"
+      ],
+      "abstract": "AkbasCore 3.2 — From Natural Transport to Semantic Actuation TL;DR: AkbasCore 3.2 introduces the Composite Compass Foundry, with the Bank-Mean runtime actuator as the current reference lock for inference-time activation steering in Qwen2.5-7B-Instruct. Across TESTS 152–162, the experiments separate natural cross-layer transport from semantic actuation and show that Bank-Mean provides a significantly stronger causal steering effect than the Subspace-Fisher reference at the tested moderate and high physical-dose scales, while the underlying SEASC physical-dose motor remains unchanged. This release records the experimental path from natural cross-layer transport geometry to causal semantic actuation in Qwen2.5-7B-Instruct, covering TESTS 152–162 and culminating in the AkbasCore 3.2 Composite Compass Foundry. The central result is a distinction that emerged progressively across the experimental series: Natural transport geometry, semantic representation geometry, and causal actuator geometry are related — but they are not the same object. The sequence began with a frozen-model observation: natural hidden-state fluctuations exhibit a strong, persistent, low-rank cross-layer covariance structure. Causal intervention then showed that directions associated with this structure can possess significant local causal privilege, while that privilege does not remain fixed in the same coordinate system across depth. Subsequent experiments separated transport from semantic preservation, tested shared semantic recoding, examined context-dependent geometry, challenged state-specific routing, and tested whether useful steering could instead be explained by a privileged semantic subspace. Several plausible explanations did not survive these controls. The final experiments localized the remaining effect more precisely. TEST 161 showed that the deterministic Bank-Mean compass substantially exceeded the Subspace-Fisher reference at the moderate and high tested physical doses, while the broader semantic-subspace hypothesis remained unproven. TEST 162 then causally decomposed the Fisher → Bank-Mean transition. Fisher and Bank-Mean were found to share substantial geometry, but the Bank-specific residual was itself behaviorally active. At moderate and high tested doses, progressively restoring this residual produced a corresponding increase in causal steering effect. This evidence motivated the AkbasCore 3.2 compass family: $$A_L(\\beta) = \\operatorname{normalize}\\left[c_LF_L + \\beta\\sqrt{1-c_L^2}R_L\\right]$$ with: $$c_L = \\langle F_L,B_L\\rangle$$ and: $$R_L = \\operatorname{normalize}(B_L-c_LF_L)$$ The current experimental reference lock is: β = 1.0 corresponding to the Bank-Mean runtime actuator under the documented orientation convention. Importantly, the SEASC physical steering motor itself was not replaced. AkbasCore 3.2 retains the frozen-norm physical-dose mechanism and static normalized DRA depth envelope. The architectural change is in how the layerwise Pusula / Compass is constructed. Key Experimental Result The decisive TEST 162 paired comparison was: Physical scale | Fisher | Bank-Mean | Bank − Fisher | Paired p -- | -- | -- | -- | -- 0.25 | 0.090148 | 0.082974 | −0.007174 | 0.672216 0.50 | 0.167929 | 0.235962 | +0.068033 | 0.018799 1.00 | 0.116622 | 0.264574 | +0.147951 | 0.000750 The result is therefore dose-dependent: Bank-Mean did not outperform Fisher at the lowest tested scale, while the advantage was statistically supported at the moderate and high tested scales. Steering potency should also not be confused with selectivity. At higher dose, Bank-Mean and especially its residual component produced greater collateral language-model change. These measurements are preserved in the full experimental record. What This Release Preserves This is intended as an experimental research record, not only a software-version announcement. It therefore preserves: the observational evidence that initiated the investigation; the causal interventions that tested it; negative and non-significant results; implementation failures that changed interpretation; methodological limitations and confounds; alternative hypotheses that were weakened or rejected; the Fisher/Bank-Mean causal decomposition; the evidence leading to the AkbasCore 3.2 reference architecture. The repository preserves the corresponding test code and raw outputs, allowing the written conclusions to be checked against the experiments that produced them. Quick Demo & Reproducibility The complete AkbasCore 3.2 reference implementation is preserved as: AkbasCore_v3.2_seasc_qwen2.5_7b_a100_demo.log The corresponding reference run output is preserved as: AkbasCore_v3.2_seasc_qwen2.5_7b_a100_output.log TESTS 152–162 are preserved in the repository as individual experimental records containing the relevant code and raw run output, rather than being reconstructed from summary statistics alone. Scope These results are evidence from a controlled experimental line centered on Qwen2.5-7B-Instruct. They do not establish a universal transformer law, a universal semantic subspace, or universal superiority of Bank-Mean steering. The narrower result is more useful: Observational transport, semantic correspondence, and causal actuation should be measured separately rather than assumed to represent the same internal geometry. AkbasCore 3.2 is the current experimental Reference Core produced by that evidence. Author: Mustafa Akbaş Project: AkbasCore Version: 3.2 Experimental record: TESTS 152–162 Model: Qwen/Qwen2.5-7B-Instruct License: MIT Full experimental report: attached to this Release as PDF Reference implementation: AkbasCore_v3.2_seasc_qwen2.5_7b_a100_demo.log Reference output: AkbasCore_v3.2_seasc_qwen2.5_7b_a100_output.log Reproducibility: TEST code and raw experimental outputs are preserved in the repository. AkbasCore 3.2 — From Natural Transport to Semantic Actuation «TL;DR: AkbasCore 3.2 introduces the Composite Compass Foundry, with the Bank-Mean runtime actuator as the current reference lock for inference-time activation steering in Qwen2.5-7B-Instruct. Across TESTS 152–162, the experiments separate natural cross-layer transport from semantic actuation and show that Bank-Mean provides a significantly stronger causal steering effect than the Subspace-Fisher reference at the tested moderate and high physical-dose scales, while the underlying SEASC physical-dose motor remains unchanged.» This release records the experimental path from natural cross-layer transport geometry to causal semantic actuation in Qwen2.5-7B-Instruct, covering TESTS 152–162 and culminating in the AkbasCore 3.2 Composite Compass Foundry. The central result is a distinction that emerged progressively across the experimental series: «Natural transport geometry, semantic representation geometry, and causal actuator geometry are related — but they are not the same object.» The sequence began with a frozen-model observation: natural hidden-state fluctuations exhibit a strong, persistent, low-rank cross-layer covariance structure. Causal intervention then showed that directions associated with this structure can possess significant local causal privilege, while that privilege does not remain fixed in the same coordinate system across depth. Subsequent experiments separated transport from semantic preservation, tested shared semantic recoding, examined context-dependent geometry, challenged state-specific routing, and tested whether useful steering could instead be explained by a privileged semantic subspace. Several plausible explanations did not survive these controls. The final experiments localized the remaining effect more precisely. TEST 161 showed that the deterministic Bank-Mean compass substantially exceeded the Subspace-Fisher reference at the moderate and high tested physical doses, while the broader semantic-subspace hypothesis remained unproven. TEST 162 then causally decomposed the Fisher → Bank-Mean transition. Fisher and Bank-Mean were found to share substantial geometry, but the Bank-specific residual was itself behaviorally active. At moderate and high tested doses, progressively restoring this residual produced a corresponding increase in causal steering effect. This evidence motivated the AkbasCore 3.2 compass family: $$A_L(\\beta) = \\operatorname{normalize}\\left[c_LF_L + \\beta\\sqrt{1-c_L^2}R_L\\right]$$ with: $$c_L = \\langle F_L,B_L\\rangle$$ and: $$R_L = \\operatorname{normalize}(B_L-c_LF_L)$$ The current experimental reference lock is: β = 1.0 corresponding to the Bank-Mean runtime actuator under the documented orientation convention. Importantly, the SEA",
+      "url": "https://doi.org/10.5281/zenodo.22957338",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214382386",
+        "doi": "10.5281/zenodo.22957338",
+        "cited_by_count": 0
+      },
+      "relevance_score": 7
+    },
+    {
+      "id": "doi:10.5281/zenodo.22927928",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Beyond Scalar Loss: An Empirical Observatory for Persistent Ballistic Flow and Hidden Descent in Transformers",
+      "authors": [
+        "Daniel Solis"
+      ],
+      "published": "2026-09-24",
+      "updated": "2026-09-28",
+      "categories": [
+        "Chaotic",
+        "Computer science",
+        "Control theory (sociology)",
+        "Gradient descent",
+        "OpenAlex"
+      ],
+      "abstract": "Abstract of Beyond Scalar Loss: An Empirical Observatory for Persistent Ballistic Flow and Hidden Descent in Transformers Scalar training loss provides a necessary but incomplete description of neural optimization. It records task error but does not directly reveal the geometry of latent states through which a transformer executes computation, nor the internal optimization state that produces that trajectory. This paper develops a phenomenological telemetry and control framework connecting these levels. The framework combines hidden-state kinematics, head-level geometric differentiation, optimization-pressure observables, and a closed-loop controller termed Critical Surfing. Several correspondences with parameter space geometry and singular learning theory are treated as operational hypotheses rather than established mathematical equivalences. Hidden-state increments are analyzed through drift, diffusion, directional signal-to-noise ratio, cross-token directional coherence, and head-level variance. Optimization state is summarized by aggregate pressure Π, the Constructive–Compensatory Ratio R_t, and the empirical response function χ_R. An extended telemetry interval of MyceliaLM, a 1.62-billion-parameter transformer with 24 layers, 32 attention heads, and hidden dimension 2048, provides the principal case study. Across the reported audit interval, the model exhibits persistent drift-dominated latent motion, with directional SNR exceeding 100 while cross-token directional coherence remains near zero. At the same time, optimization pressure varies substantially and the SURFER controller actively adjusts attention/alpha capacity in response to the measured sign of χR. Relative variability of χ_R substantially exceeds that of ρdir over the high-resolution audit window, suggesting a separation between optimization-state dynamics and latent kinematic dynamics. Derivative-level telemetry further reveals changes in head-level geometric differentiation that are weakly represented in scalar loss. We call this phenomenon Hidden Descent: representational reorganization observable in geometric telemetry without requiring a commensurate scalar-loss excursion. Kramers–Moyal and Pawula-based diagnostics are used as empirical tests of whether a low-order drift–diffusion description is adequate; they are not treated as proofs of a universal Fokker–Planck law. The resulting framework is presented as an empirical observatory and control system rather than a claim that neural networks constitute thermodynamic systems in the physical sense. Paper I establishes thedynamical layer of a broader three-paper program: trajectory telemetry, completion detection, and run-time trajectory governance. Introduction Training progress is conventionally monitored through scalar quantities such as loss, perplexity, gradient norms, learning rate, and validation metrics. These measurements are indispensable, but a scalar loss compresses a high-dimensional dynamical process into a single observable. Two training states can have similar loss while differing substantially in hidden-state motion, optimization pressure, head specialization, or controller activity. The central question of this work is therefore not only whether loss decreases, but what the model’s internal trajectory is doing while loss changes. We distinguish three operational levels: (1) the input regime, describing batch composition and statistical properties; (2) the optimization regime, describing controller state and pressure allocation; and (3) the latent dynamical regime, describing hidden-state kinematics and geometric differentiation. This separation matters because large loss excursions need not imply a corresponding transition in latent geometry. Conversely, geometric reorganization may occur while scalar loss remains comparatively insensitive.The paper asks four empirical questions: Can latent hidden-state motion be characterized by stable kinematic observables over long training intervals? Can optimization-state variation be measured independently of latent trajectory stability? Can derivative-level geometric telemetry expose representational changes weakly visible in scalar loss? Can an explicit feedback controller regulate an empirical optimization response variable without destabilizing the measured latent regime? The framework is deliberately phenomenological. Terms such as “pressure”, “work”, “friction”, “ballistic”, and “thermodynamics” refer to operational quantities defined on the telemetry, not to claims that neuraloptimization is literally governed by equilibrium thermodynamics. The present paper, Beyond Scalar Loss: An Empirical Observatory for Persistent Ballistic Flow and Hidden Descent in Transformers, is one of a trininity of interconnected papers introducing a specific perspective on treating a different aspects of the physics of neural network generalization, pre-training completion, and runtime alignment. The understanding of these processes requires bridging static parameter-space geometry with dynamic, continuous-time hidden-state trajectory execution. Bridging Static Parameter-space Geometry with Dynamic, Continuous-time Hidden-state Trajectory Execution The tree papers establish together a unified, self-regulating foundation model stack across three operational levels: Foundational Trajectory Telemetry & Operational Mappings: We investigate candidate operational correspondences connecting static algebraic-geometric properties under Singular Learning Theory (SLT) - parameter fibers, fiber volumes, and the Real Log Canonical Threshold (λ) - to dynamic differential-geometric telemetry on attention-induced Riemannian manifolds. These mappings are treated as operational hypotheses rather than established mathematical equivalences. Specifically, we propose that parameter redundancies (padding functions) may correspond operationally to the residual component of a coordinate-disentangled ANOVA hidden-state decomposition; that the macroscopic order parameter R_t may serve as an empirical probe for structural phase transitions; and that the Alpha Potential Well U(α) acts as a curvature-motivated regularizing potential against scaling symmetries. Kramers–Moyal expansions and Pawula-based diagnostics provide empirical support, but not proof, for a low-order drift–diffusion description, with higher-order diffusion terms remaining small relative to second-order variance Dʌ(4)≪(Dʌ(2)ʌ2). Extended high-resolution auditing of MyceliaLM (1.62B parameters) reveals Persistent Individual Ballistic Flow (PIBF), wherein token representations move along deterministic, drift-dominated geodesics (ρ_dir>100) while cross-token directional alignment remains near zero (c_≈0.000) and head variance spikes (σ_headʌ2≈0.730–0.760), consistent with Spontaneous Symmetry Breaking into a specialized geometric routing swarm. Across 238 snapshot audits, the relative variability of the Optimization Response Function χ_R exceeds that of directional SDE SNR ρ_dir by a factor of >148×, establishing Kinematic-Thermodynamic Decoupling as an empirical phenomenon. Furthermore, near-zero correlations between structural differentiation velocity (dσ_headʌ2/dt) and scalar loss shifts (ΔL≈0) motivate the Hidden Descent Hypothesis: internal representational specialization can proceed independently of scalar loss at the Epistemic Floor. This is the subject treated by the present paper, Beyond Scalar Loss: An Empirical Observatory for Persistent Ballistic Flow and Hidden Descent in Transformers. Closed-Loop Pre-Training Completion & Stopping Standard: To solve open-loop pre-training stopping ambiguity when scalar loss plateaus at the Epistemic Floor (L_total = L_epistemic + L_aleatoric), we introduce the Geometric Convergence Index (GCI). The GCI audits six coordinate-disentangled information-geometric criteria: inter-head fiber curvature saturation (σ²_head), differentiation velocity decay (dσ²_head/dt), attention entropy variance stability, governor work rate minimization (Ẇ_gov), Pawula Fokker–Planck stability (R_Pawula), and macroscopic order stability (R_t). The GCI defines a physics-grounded stopping standard, the Crystallization Horizon (GCI = 1.0 for 10,000 consecutive steps), that terminates pre-training the exact moment representational maturity is reached, preventing premature halt or multi-million-dollar compute waste. This is the subject of the paper, Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds. In-Vivo Runtime Governance & Silicon Alignment: Extending forward-pass geometry monitoring to inference, we introduce the Kinematic Friction Rail and the Cache-Fused Kinematic Rail (CFKR). By monitoring depth-dependent hidden-state variance differentials via the Friction Delta (Δ = V_late - V_early), CFKR detects Geometric Flatlines (Δ → 0.00) in vivo prior to token emission, resolving the Permissive Consensus Paradox. Rather than relying on software-level additive logit bias matrices (M_ghost) and token eviction, CFKR executes kernel-level Key-Value (KV) cache fusion, grafting low-entropy reflection key-value states directly into GPU memory layout. Benchmark evaluations demonstrate that Cache-Fused KV mutation achieves an 8.88× latency acceleration over software-level bias matrices (1.58 ms vs. 14.00 ms per intervention step), eliminates O(T²) VRAM allocation spikes, and scales linearly O(G). This enables Dynamic Compute Allocation, allowing models to run at maximum ballistic speed (ρ_dir > 100) for ~95% of standard queries, paying the Chain-of-Thought reflection tax only when an active geometric flatline is detected.This is the subject of the present paper, Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting. Together, this tripartite architecture transforms foundation model oversight from post-hoc, open-loop text filtering into a continuous, closed-loop, ex-",
+      "url": "https://doi.org/10.5281/zenodo.22927928",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214171862",
+        "doi": "10.5281/zenodo.22927928",
+        "cited_by_count": 0
+      },
+      "relevance_score": 9
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.30218",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Minimally Invasive Steering of Language Models",
+      "authors": [
+        "Taha Entesari",
+        "Jingyu Zhang",
+        "Daniel Khashabi",
+        "Mahyar Fazlyab"
+      ],
+      "published": "2026-09-24",
+      "updated": "2026-09-27",
+      "categories": [
+        "Language model",
+        "OpenAlex",
+        "Quadratic equation",
+        "Sensitivity (control systems)",
+        "Suffix"
+      ],
+      "abstract": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade generation quality. We propose Minimally Invasive Steering Vector Optimization (MISVO), which penalizes interventions using the local KL geometry of the induced token distribution. The resulting Fisher quadratic measures distributional sensitivity and admits an analytic gradient computed through matrix--vector products with the frozen language-model head. We derive an exact decomposition of the sequence-level KL gradient into an analytic Fisher term and a suffix score-function term. For a fixed generation horizon, we show that the suffix term is second order in the steering magnitude and that three Fisher surrogates agree with the full KL gradient to first order. MISVO uses the frozen-reference surrogate to optimize position-specific interventions without updating model parameters. Across preference and code-generation tasks on models with approximately 1B--14B parameters, MISVO achieves the highest mean reward in six of seven model--task settings, with diversity and coherence scores close to those of Best-of-N.",
+      "url": "https://doi.org/10.48550/arxiv.2609.30218",
+      "pdf_url": "https://arxiv.org/pdf/2609.30218",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214396919",
+        "doi": "10.48550/arxiv.2609.30218",
+        "cited_by_count": 0
+      },
+      "relevance_score": 8
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.29875",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "When Can Agents Forget Their Reasoning? ICLR for Long-Horizon Agent Context Compression",
+      "authors": [
+        "Mingxuan Wang",
+        "Fei Luo",
+        "Bo Wang",
+        "Guorun Yao",
+        "Yinglong Guo",
+        "Chao Ning",
+        "Hongyue Chen",
+        "Yanbiao Ma",
+        "Jungong Han"
+      ],
+      "published": "2026-09-24",
+      "updated": "2026-09-27",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Context (archaeology)",
+        "Inference",
+        "OpenAlex"
+      ],
+      "abstract": "Long horizon language model agents continually accumulate reasoning history, increasing context length and inference cost even after earlier decisions have been executed and observed. Unlike static Chain of Thought compression, removing historical reasoning can change future actions and the resulting interaction trajectory. We study when such reasoning can be safely forgotten. We propose Interaction Aware Compression for Long Horizon Reasoning (ICLR), a training free online method that ranks reasoning blocks using frozen proxy entropy while preserving actions, tool calls, and observations. On 260 WorkBuddyBench tasks, ICLR improves average reward from 0.699 to 0.718, while reducing input, output, and cache read tokens by 25.5%, 14.4%, and 33.3%, respectively. Ablations reveal trajectory amplification, where local reasoning deletion produces nonlinear changes in total computation by altering subsequent interaction. Representation probing, activation patching, and controlled trajectory analyses further suggest that historical reasoning becomes more replaceable once task relevant derived state has been reliably externalized into code, files, tool outputs, or environmental feedback. These results characterize agent reasoning as dynamic working state rather than permanent interaction history.",
+      "url": "https://doi.org/10.48550/arxiv.2609.29875",
+      "pdf_url": "https://arxiv.org/pdf/2609.29875",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Reasoning and CoT steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214343716",
+        "doi": "10.48550/arxiv.2609.29875",
+        "cited_by_count": 0
+      },
+      "relevance_score": 5
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.29848",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Encoded but Not Decoded: Layer-Localized Evidence for a Three-Level Gap in LLM Syntax",
+      "authors": [
+        "Zhenyan Lu",
+        "He Wang",
+        "Xiaohui Huang"
+      ],
+      "published": "2026-09-24",
+      "updated": "2026-09-27",
+      "categories": [
+        "Computer science",
+        "Encoding (memory)",
+        "Heuristic",
+        "OpenAlex",
+        "Syntax"
+      ],
+      "abstract": "A language model can fail a syntactic test in two distinct ways: by not encoding the relevant structure, or by encoding it but failing to use it at the output. Behavioral evaluation alone cannot tell these apart. We propose a three-level evaluation framework (behavioral deployment, LM-head readout, and probe recoverability) measured on the same items under the same binary decision. Using a compact trilingual (English, Chinese, German) control-dependency benchmark, we find that probe recoverability exceeds or equals LM-head readout, which in turn exceeds or equals behavioral deployment, across seven models and all three languages in the aggregate. The recoverability surplus is never negative across all 14 (model, task) conditions. The disconnect concentrates in subject-control, where a nearest-noun heuristic gives the wrong answer. The single largest gap (0.653) appears on Qwen3-0.6B Instruct in question answering. The gap persists at Qwen3-14B Instruct. Instruction tuning degrades deployment more than encoding in percentage terms. We rule out option-position bias, late-layer erasure, output-formatting artifacts, and probe-training variance. The pattern is consistent with decoding that favors surface shortcuts, and the behavior-probe gap measures the strength of that preference. Activation patching shows the gap is layer-localized. Under instruction tuning, the LM-head-decoded layer shifts approximately ten layers later than the probe-decoded layer. These findings argue that behavioral evaluation understates what models encode, while probing alone overstates what they deploy.",
+      "url": "https://doi.org/10.48550/arxiv.2609.29848",
+      "pdf_url": "https://arxiv.org/pdf/2609.29848",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214398306",
+        "doi": "10.48550/arxiv.2609.29848",
+        "cited_by_count": 0
+      },
+      "relevance_score": 7
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.29781",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Hallucination Neurons and Where to Find Them: An Investigation into the existence of Hallucination Neurons",
+      "authors": [
+        "Hüseyin Çavuş",
+        "Sebin Sabu",
+        "Joshua Spear",
+        "Jaskaran Singh Kawatra",
+        "Pavithra Rajendran"
+      ],
+      "published": "2026-09-24",
+      "updated": "2026-09-27",
+      "categories": [
+        "Artificial intelligence",
+        "Feature (linguistics)",
+        "OpenAlex",
+        "Random forest",
+        "Ranking (information retrieval)"
+      ],
+      "abstract": "Interpretable machine learning for Large Language Models (LLMs) increasingly relies on sparse probing methods that identify small sets of neurons claimed to detect and causally influence behaviors such as factuality recall, safety alignment, and hallucination. These claims have important implications for model auditing and behavioral steering, yet they are rarely tested against known failure modes of $L_1$-regularized probing in correlated, high-dimensional feature spaces. We propose a five-step diagnostic protocol covering feature correlation, bootstrap stability, sparse versus dense ranking disagreement, intervention baselines, and cross-dataset evaluation as a minimum standard for sparse-neuron localization claims. We investigate prior work using our proposed approach, specifically on H-neurons using open-source LLMs across TriviaQA, BioASQ, and NQ-Open datasets. Our results demonstrate detection replicates across both models and datasets, and exceeds the original reported AUROC gaps for TriviaQA and BioASQ datasets. Gemma 3 4B consistently outperforms MedGemma 4B on matched datasets, with AUROC gaps of +0.311 versus +0.235 on TriviaQA, +0.474 versus +0.455 on BioASQ, and +0.128 versus +0.112 on NQ-Open respectively. Causal validation at $n = 500$ with five random seeds shows statistically significant effects beyond random same-layer baselines. At the same time, the diagnostic results indicate that the selected neurons are not uniquely localized. Across the three Gemma 3 4B settings, 19 of 22 selected H-Neurons have Pearson $|r| > 0.7$ with other features, bootstrap selections show only moderate stability, and sparse and dense rankings overlap only weakly. Our findings show that sparse predictive structure can coexist with non-unique neuron selection. Routine diagnostic validation is necessary to distinguish detection claims from localization claims in mechanistic interpretability.",
+      "url": "https://doi.org/10.48550/arxiv.2609.29781",
+      "pdf_url": "https://arxiv.org/pdf/2609.29781",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214319961",
+        "doi": "10.48550/arxiv.2609.29781",
+        "cited_by_count": 0
+      },
+      "relevance_score": 11
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.29048",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Where Hallucinations Live: A Cross-Architecture Circuit in VQ-Tokenized Vision-Language Models",
+      "authors": [
+        "Shamanthak Hegde",
+        "Xiangrui Liu",
+        "Maitreya Patel",
+        "Yezhou Yang"
+      ],
+      "published": "2026-09-24",
+      "updated": "2026-09-27",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Decoding methods",
+        "Hallucinating",
+        "OpenAlex"
+      ],
+      "abstract": "Unified vision-language models (VLMs) that tokenize images through a vector-quantized (VQ) codebook routinely hallucinate objects on grounded yes/no benchmarks, yet existing decoding-time fixes treat this as generic miscalibration without an architectural account. Using activation patching across twenty-five models spanning eight LLM families, we identify an early-layer ($L_0$) attention routing circuit shared across VQ-tokenized VLMs and propose a three-gate diagnostic that distinguishes the models carrying it from those that do not. The diagnostic isolates ten positive models (five natural unified-VQ VLMs across three LLM families and five induced variants) and rejects the remaining fifteen. A single-variable architectural swap (LLaVA-1.6 CLIP+MLP $\\rightarrow$ VQ+Linear) installs the circuit, while a matched-compute MLP control on identical data does not, isolating vector quantization as the source of the pathological signal; the routing pathway that carries it is one that the backbone already provides. Against tuned VCD and DoLA baselines, tuned DoLA wins on binary calibration, but \\textbf{only $L_0$ ablation reduces object hallucination in open-ended generation} (CHAIR$_i$ reduces by $31\\,\\%$ relatively, whereas tuned DoLA and VCD leave it unchanged or worsen it). These results recast object hallucination in unified VQ VLMs as a property of architecture and pretraining, and yield a targeted intervention that mechanism-agnostic decoding cannot replicate.",
+      "url": "https://doi.org/10.48550/arxiv.2609.29048",
+      "pdf_url": "https://arxiv.org/pdf/2609.29048",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Safety refusal behavior steering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214284794",
+        "doi": "10.48550/arxiv.2609.29048",
+        "cited_by_count": 0
+      },
+      "relevance_score": 11
     },
     {
       "id": "doi:10.5281/zenodo.22923402",
@@ -118,200 +524,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 6
-    },
-    {
-      "id": "doi:10.48550/arxiv.2609.30218",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Minimally Invasive Steering of Language Models",
-      "authors": [
-        "Taha Entesari",
-        "Jingyu Zhang",
-        "Daniel Khashabi",
-        "Mahyar Fazlyab"
-      ],
-      "published": "2026-09-24",
-      "updated": "2026-09-26",
-      "categories": [
-        "OpenAlex",
-        "Quadratic equation",
-        "Sensitivity (control systems)",
-        "Suffix",
-        "Language model"
-      ],
-      "abstract": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade generation quality. We propose Minimally Invasive Steering Vector Optimization (MISVO), which penalizes interventions using the local KL geometry of the induced token distribution. The resulting Fisher quadratic measures distributional sensitivity and admits an analytic gradient computed through matrix--vector products with the frozen language-model head. We derive an exact decomposition of the sequence-level KL gradient into an analytic Fisher term and a suffix score-function term. For a fixed generation horizon, we show that the suffix term is second order in the steering magnitude and that three Fisher surrogates agree with the full KL gradient to first order. MISVO uses the frozen-reference surrogate to optimize position-specific interventions without updating model parameters. Across preference and code-generation tasks on models with approximately 1B--14B parameters, MISVO achieves the highest mean reward in six of seven model--task settings, with diversity and coherence scores close to those of Best-of-N.",
-      "url": "https://doi.org/10.48550/arxiv.2609.30218",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214396919",
-        "doi": "10.48550/arxiv.2609.30218",
-        "cited_by_count": 0
-      },
-      "relevance_score": 8
-    },
-    {
-      "id": "doi:10.48550/arxiv.2609.29875",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "When Can Agents Forget Their Reasoning? ICLR for Long-Horizon Agent Context Compression",
-      "authors": [
-        "Mingxuan Wang",
-        "Fei Luo",
-        "Bo Wang",
-        "Guorun Yao",
-        "Yinglong Guo",
-        "Chao Ning",
-        "Hongyue Chen",
-        "Yanbiao Ma",
-        "Jungong Han"
-      ],
-      "published": "2026-09-24",
-      "updated": "2026-09-26",
-      "categories": [
-        "Artificial intelligence",
-        "Computer science",
-        "Context (archaeology)",
-        "Inference",
-        "OpenAlex"
-      ],
-      "abstract": "Long horizon language model agents continually accumulate reasoning history, increasing context length and inference cost even after earlier decisions have been executed and observed. Unlike static Chain of Thought compression, removing historical reasoning can change future actions and the resulting interaction trajectory. We study when such reasoning can be safely forgotten. We propose Interaction Aware Compression for Long Horizon Reasoning (ICLR), a training free online method that ranks reasoning blocks using frozen proxy entropy while preserving actions, tool calls, and observations. On 260 WorkBuddyBench tasks, ICLR improves average reward from 0.699 to 0.718, while reducing input, output, and cache read tokens by 25.5%, 14.4%, and 33.3%, respectively. Ablations reveal trajectory amplification, where local reasoning deletion produces nonlinear changes in total computation by altering subsequent interaction. Representation probing, activation patching, and controlled trajectory analyses further suggest that historical reasoning becomes more replaceable once task relevant derived state has been reliably externalized into code, files, tool outputs, or environmental feedback. These results characterize agent reasoning as dynamic working state rather than permanent interaction history.",
-      "url": "https://doi.org/10.48550/arxiv.2609.29875",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Reasoning and CoT steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214343716",
-        "doi": "10.48550/arxiv.2609.29875",
-        "cited_by_count": 0
-      },
-      "relevance_score": 5
-    },
-    {
-      "id": "doi:10.48550/arxiv.2609.29848",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Encoded but Not Decoded: Layer-Localized Evidence for a Three-Level Gap in LLM Syntax",
-      "authors": [
-        "Zhenyan Lu",
-        "He Wang",
-        "Xiaohui Huang"
-      ],
-      "published": "2026-09-24",
-      "updated": "2026-09-26",
-      "categories": [
-        "Computer science",
-        "Encoding (memory)",
-        "Heuristic",
-        "OpenAlex",
-        "Syntax"
-      ],
-      "abstract": "A language model can fail a syntactic test in two distinct ways: by not encoding the relevant structure, or by encoding it but failing to use it at the output. Behavioral evaluation alone cannot tell these apart. We propose a three-level evaluation framework (behavioral deployment, LM-head readout, and probe recoverability) measured on the same items under the same binary decision. Using a compact trilingual (English, Chinese, German) control-dependency benchmark, we find that probe recoverability exceeds or equals LM-head readout, which in turn exceeds or equals behavioral deployment, across seven models and all three languages in the aggregate. The recoverability surplus is never negative across all 14 (model, task) conditions. The disconnect concentrates in subject-control, where a nearest-noun heuristic gives the wrong answer. The single largest gap (0.653) appears on Qwen3-0.6B Instruct in question answering. The gap persists at Qwen3-14B Instruct. Instruction tuning degrades deployment more than encoding in percentage terms. We rule out option-position bias, late-layer erasure, output-formatting artifacts, and probe-training variance. The pattern is consistent with decoding that favors surface shortcuts, and the behavior-probe gap measures the strength of that preference. Activation patching shows the gap is layer-localized. Under instruction tuning, the LM-head-decoded layer shifts approximately ten layers later than the probe-decoded layer. These findings argue that behavioral evaluation understates what models encode, while probing alone overstates what they deploy.",
-      "url": "https://doi.org/10.48550/arxiv.2609.29848",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214398306",
-        "doi": "10.48550/arxiv.2609.29848",
-        "cited_by_count": 0
-      },
-      "relevance_score": 7
-    },
-    {
-      "id": "doi:10.48550/arxiv.2609.29781",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Hallucination Neurons and Where to Find Them: An Investigation into the existence of Hallucination Neurons",
-      "authors": [
-        "Hüseyin Çavuş",
-        "Sebin Sabu",
-        "Joshua Spear",
-        "Jaskaran Singh Kawatra",
-        "Pavithra Rajendran"
-      ],
-      "published": "2026-09-24",
-      "updated": "2026-09-26",
-      "categories": [
-        "OpenAlex",
-        "Ranking (information retrieval)",
-        "Artificial intelligence",
-        "Feature (linguistics)",
-        "Random forest"
-      ],
-      "abstract": "Interpretable machine learning for Large Language Models (LLMs) increasingly relies on sparse probing methods that identify small sets of neurons claimed to detect and causally influence behaviors such as factuality recall, safety alignment, and hallucination. These claims have important implications for model auditing and behavioral steering, yet they are rarely tested against known failure modes of $L_1$-regularized probing in correlated, high-dimensional feature spaces. We propose a five-step diagnostic protocol covering feature correlation, bootstrap stability, sparse versus dense ranking disagreement, intervention baselines, and cross-dataset evaluation as a minimum standard for sparse-neuron localization claims. We investigate prior work using our proposed approach, specifically on H-neurons using open-source LLMs across TriviaQA, BioASQ, and NQ-Open datasets. Our results demonstrate detection replicates across both models and datasets, and exceeds the original reported AUROC gaps for TriviaQA and BioASQ datasets. Gemma 3 4B consistently outperforms MedGemma 4B on matched datasets, with AUROC gaps of +0.311 versus +0.235 on TriviaQA, +0.474 versus +0.455 on BioASQ, and +0.128 versus +0.112 on NQ-Open respectively. Causal validation at $n = 500$ with five random seeds shows statistically significant effects beyond random same-layer baselines. At the same time, the diagnostic results indicate that the selected neurons are not uniquely localized. Across the three Gemma 3 4B settings, 19 of 22 selected H-Neurons have Pearson $|r| > 0.7$ with other features, bootstrap selections show only moderate stability, and sparse and dense rankings overlap only weakly. Our findings show that sparse predictive structure can coexist with non-unique neuron selection. Routine diagnostic validation is necessary to distinguish detection claims from localization claims in mechanistic interpretability.",
-      "url": "https://doi.org/10.48550/arxiv.2609.29781",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Mechanistic interpretability steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214319961",
-        "doi": "10.48550/arxiv.2609.29781",
-        "cited_by_count": 0
-      },
-      "relevance_score": 11
-    },
-    {
-      "id": "doi:10.48550/arxiv.2609.29048",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Where Hallucinations Live: A Cross-Architecture Circuit in VQ-Tokenized Vision-Language Models",
-      "authors": [
-        "Shamanthak Hegde",
-        "Xiangrui Liu",
-        "Maitreya Patel",
-        "Yezhou Yang"
-      ],
-      "published": "2026-09-24",
-      "updated": "2026-09-26",
-      "categories": [
-        "Artificial intelligence",
-        "Computer science",
-        "Decoding methods",
-        "Hallucinating",
-        "OpenAlex"
-      ],
-      "abstract": "Unified vision-language models (VLMs) that tokenize images through a vector-quantized (VQ) codebook routinely hallucinate objects on grounded yes/no benchmarks, yet existing decoding-time fixes treat this as generic miscalibration without an architectural account. Using activation patching across twenty-five models spanning eight LLM families, we identify an early-layer ($L_0$) attention routing circuit shared across VQ-tokenized VLMs and propose a three-gate diagnostic that distinguishes the models carrying it from those that do not. The diagnostic isolates ten positive models (five natural unified-VQ VLMs across three LLM families and five induced variants) and rejects the remaining fifteen. A single-variable architectural swap (LLaVA-1.6 CLIP+MLP $\\rightarrow$ VQ+Linear) installs the circuit, while a matched-compute MLP control on identical data does not, isolating vector quantization as the source of the pathological signal; the routing pathway that carries it is one that the backbone already provides. Against tuned VCD and DoLA baselines, tuned DoLA wins on binary calibration, but \\textbf{only $L_0$ ablation reduces object hallucination in open-ended generation} (CHAIR$_i$ reduces by $31\\,\\%$ relatively, whereas tuned DoLA and VCD leave it unchanged or worsen it). These results recast object hallucination in unified VQ VLMs as a property of architecture and pretraining, and yield a targeted intervention that mechanism-agnostic decoding cannot replicate.",
-      "url": "https://doi.org/10.48550/arxiv.2609.29048",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Safety refusal behavior steering",
-        "VLM multimodal steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214284794",
-        "doi": "10.48550/arxiv.2609.29048",
-        "cited_by_count": 0
-      },
-      "relevance_score": 11
     },
     {
       "id": "doi:10.3390/signals7050094",
@@ -463,39 +675,76 @@
       "relevance_score": 8
     },
     {
-      "id": "doi:10.5281/zenodo.22927928",
+      "id": "doi:10.5281/zenodo.22920959",
       "source": "openalex",
       "sources": [
         "openalex"
       ],
-      "title": "Beyond Scalar Loss: An Empirical Observatory for Persistent Ballistic Flow and Hidden Descent in Transformers",
+      "title": "Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting",
       "authors": [
         "Daniel Solis"
       ],
-      "published": "2026-09-24",
-      "updated": "2026-09-25",
+      "published": "2026-09-23",
+      "updated": "2026-09-28",
       "categories": [
-        "Chaotic",
         "Computer science",
         "Control theory (sociology)",
-        "Gradient descent",
-        "OpenAlex"
+        "Kinematics",
+        "OpenAlex",
+        "Speedup"
       ],
-      "abstract": "Abstract of Beyond Scalar Loss: An Empirical Observatory for Persistent Ballistic Flow and Hidden Descent in Transformers Scalar training loss provides a necessary but incomplete description of neural optimization. It records task error but does not directly reveal the geometry of latent states through which a transformer executes computation, nor the internal optimization state that produces that trajectory. This paper develops a phenomenological telemetry and control framework connecting these levels. The framework combines hidden-state kinematics, head-level geometric differentiation, optimization-pressure observables, and a closed-loop controller termed Critical Surfing. Several correspondences with parameter space geometry and singular learning theory are treated as operational hypotheses rather than established mathematical equivalences. Hidden-state increments are analyzed through drift, diffusion, directional signal-to-noise ratio, cross-token directional coherence, and head-level variance. Optimization state is summarized by aggregate pressure Π, the Constructive–Compensatory Ratio R_t, and the empirical response function χ_R. An extended telemetry interval of MyceliaLM, a 1.62-billion-parameter transformer with 24 layers, 32 attention heads, and hidden dimension 2048, provides the principal case study. Across the reported audit interval, the model exhibits persistent drift-dominated latent motion, with directional SNR exceeding 100 while cross-token directional coherence remains near zero. At the same time, optimization pressure varies substantially and the SURFER controller actively adjusts attention/alpha capacity in response to the measured sign of χR. Relative variability of χ_R substantially exceeds that of ρdir over the high-resolution audit window, suggesting a separation between optimization-state dynamics and latent kinematic dynamics. Derivative-level telemetry further reveals changes in head-level geometric differentiation that are weakly represented in scalar loss. We call this phenomenon Hidden Descent: representational reorganization observable in geometric telemetry without requiring a commensurate scalar-loss excursion. Kramers–Moyal and Pawula-based diagnostics are used as empirical tests of whether a low-order drift–diffusion description is adequate; they are not treated as proofs of a universal Fokker–Planck law. The resulting framework is presented as an empirical observatory and control system rather than a claim that neural networks constitute thermodynamic systems in the physical sense. Paper I establishes thedynamical layer of a broader three-paper program: trajectory telemetry, completion detection, and run-time trajectory governance. Introduction Training progress is conventionally monitored through scalar quantities such as loss, perplexity, gradient norms, learning rate, and validation metrics. These measurements are indispensable, but a scalar loss compresses a high-dimensional dynamical process into a single observable. Two training states can have similar loss while differing substantially in hidden-state motion, optimization pressure, head specialization, or controller activity. The central question of this work is therefore not only whether loss decreases, but what the model’s internal trajectory is doing while loss changes. We distinguish three operational levels: (1) the input regime, describing batch composition and statistical properties; (2) the optimization regime, describing controller state and pressure allocation; and (3) the latent dynamical regime, describing hidden-state kinematics and geometric differentiation. This separation matters because large loss excursions need not imply a corresponding transition in latent geometry. Conversely, geometric reorganization may occur while scalar loss remains comparatively insensitive.The paper asks four empirical questions: Can latent hidden-state motion be characterized by stable kinematic observables over long training intervals? Can optimization-state variation be measured independently of latent trajectory stability? Can derivative-level geometric telemetry expose representational changes weakly visible in scalar loss? Can an explicit feedback controller regulate an empirical optimization response variable without destabilizing the measured latent regime? The framework is deliberately phenomenological. Terms such as “pressure”, “work”, “friction”, “ballistic”, and “thermodynamics” refer to operational quantities defined on the telemetry, not to claims that neuraloptimization is literally governed by equilibrium thermodynamics. The present paper, Beyond Scalar Loss: An Empirical Observatory for Persistent Ballistic Flow and Hidden Descent in Transformers, is one of a trininity of interconnected papers introducing a specific perspective on treating a different aspects of the physics of neural network generalization, pre-training completion, and runtime alignment. The understanding of these processes requires bridging static parameter-space geometry with dynamic, continuous-time hidden-state trajectory execution. Bridging Static Parameter-space Geometry with Dynamic, Continuous-time Hidden-state Trajectory Execution The tree papers establish together a unified, self-regulating foundation model stack across three operational levels: Foundational Trajectory Telemetry & Operational Mappings: We investigate candidate operational correspondences connecting static algebraic-geometric properties under Singular Learning Theory (SLT) - parameter fibers, fiber volumes, and the Real Log Canonical Threshold (λ) - to dynamic differential-geometric telemetry on attention-induced Riemannian manifolds. These mappings are treated as operational hypotheses rather than established mathematical equivalences. Specifically, we propose that parameter redundancies (padding functions) may correspond operationally to the residual component of a coordinate-disentangled ANOVA hidden-state decomposition; that the macroscopic order parameter R_t may serve as an empirical probe for structural phase transitions; and that the Alpha Potential Well U(α) acts as a curvature-motivated regularizing potential against scaling symmetries. Kramers–Moyal expansions and Pawula-based diagnostics provide empirical support, but not proof, for a low-order drift–diffusion description, with higher-order diffusion terms remaining small relative to second-order variance Dʌ(4)≪(Dʌ(2)ʌ2). Extended high-resolution auditing of MyceliaLM (1.62B parameters) reveals Persistent Individual Ballistic Flow (PIBF), wherein token representations move along deterministic, drift-dominated geodesics (ρ_dir>100) while cross-token directional alignment remains near zero (c_≈0.000) and head variance spikes (σ_headʌ2≈0.730–0.760), consistent with Spontaneous Symmetry Breaking into a specialized geometric routing swarm. Across 238 snapshot audits, the relative variability of the Optimization Response Function χ_R exceeds that of directional SDE SNR ρ_dir by a factor of >148×, establishing Kinematic-Thermodynamic Decoupling as an empirical phenomenon. Furthermore, near-zero correlations between structural differentiation velocity (dσ_headʌ2/dt) and scalar loss shifts (ΔL≈0) motivate the Hidden Descent Hypothesis: internal representational specialization can proceed independently of scalar loss at the Epistemic Floor. This is the subject treated by the present paper, Beyond Scalar Loss: An Empirical Observatory for Persistent Ballistic Flow and Hidden Descent in Transformers. Closed-Loop Pre-Training Completion & Stopping Standard: To solve open-loop pre-training stopping ambiguity when scalar loss plateaus at the Epistemic Floor (L_total = L_epistemic + L_aleatoric), we introduce the Geometric Convergence Index (GCI). The GCI audits six coordinate-disentangled information-geometric criteria: inter-head fiber curvature saturation (σ²_head), differentiation velocity decay (dσ²_head/dt), attention entropy variance stability, governor work rate minimization (Ẇ_gov), Pawula Fokker–Planck stability (R_Pawula), and macroscopic order stability (R_t). The GCI defines a physics-grounded stopping standard, the Crystallization Horizon (GCI = 1.0 for 10,000 consecutive steps), that terminates pre-training the exact moment representational maturity is reached, preventing premature halt or multi-million-dollar compute waste. This is the subject of the paper, Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds. In-Vivo Runtime Governance & Silicon Alignment: Extending forward-pass geometry monitoring to inference, we introduce the Kinematic Friction Rail and the Cache-Fused Kinematic Rail (CFKR). By monitoring depth-dependent hidden-state variance differentials via the Friction Delta (Δ = V_late - V_early), CFKR detects Geometric Flatlines (Δ → 0.00) in vivo prior to token emission, resolving the Permissive Consensus Paradox. Rather than relying on software-level additive logit bias matrices (M_ghost) and token eviction, CFKR executes kernel-level Key-Value (KV) cache fusion, grafting low-entropy reflection key-value states directly into GPU memory layout. Benchmark evaluations demonstrate that Cache-Fused KV mutation achieves an 8.88× latency acceleration over software-level bias matrices (1.58 ms vs. 14.00 ms per intervention step), eliminates O(T²) VRAM allocation spikes, and scales linearly O(G). This enables Dynamic Compute Allocation, allowing models to run at maximum ballistic speed (ρ_dir > 100) for ~95% of standard queries, paying the Chain-of-Thought reflection tax only when an active geometric flatline is detected.This is the subject of the present paper, Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting. Together, this tripartite architecture transforms foundation model oversight from post-hoc, open-loop text filtering into a continuous, closed-loop, ex-",
-      "url": "https://doi.org/10.5281/zenodo.22927928",
+      "abstract": "Abstract of Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting Current Large Language Model (LLM) alignment relies primarily on post-hoc, output-level correction mechanisms such as external API meta-governors, Reinforcement Learning from Human Feedback (RLHF), or post-generation verifiers. These methods suffer from a fatal detection lag: by the time an unsafe or hallucinated output token is serialized, the internal hidden-state manifold has already collapsed into a low-geometry attractor trap. Furthermore, external verifiers impose a severe latency and memory tax. In this work, we introduce the Cache-Fused Kinematic Rail (CFKR), a hardware-native, in-vivo alignment architecture that operates directly on hidden-state trajectory kinematics during the forward pass. Building upon the Multiscale Attractor Stability and Stress Inference Framework (MASSIF), the CFKR monitors depth-dependent hidden-state variance differentials via the Friction Delta (Δ = 𝒱_early − 𝒱_late), detecting Geometric Flatlines (Δ → 0.00) prior to token emission. To resolve flatlines without the memory overhead and causal mask manipulation of traditional additive logit bias matrices (M_ghost), CFKR executes kernel-level Key-Value (KV) cache fusion, grafting reflection key-value states directly into the hardware memory layout. Operating on manifolds that have achieved or are re-approaching the Crystallization Horizon (GCI → 1.0), empirical benchmarking on a 1.62B parameter transformer scale demonstrates that Cache-Fused KV mutation achieves an 8.88× speedup over software-level additive bias matrices (1.58 ms vs. 14.00 ms per intervention step), eliminates 𝒪(T²) VRAM allocation spikes, and scales linearly 𝒪(G) for long-context windows. CFKR enables Dynamic Compute Allocation, allowing models to run at maximum ballistic speed (ρ_dir > 100) for ~95% of queries while providing ex-ante silicon-level alignment safeguards. The present paper, Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting, is one of a trininity of interconnected papers introducing a specific perspective on treating a different aspects of the physics of neural network generalization, pre-training completion, and runtime alignment. The understanding of these processes requires bridging static parameter-space geometry with dynamic, continuous-time hidden-state trajectory execution. Bridging Static Parameter-space Geometry with Dynamic, Continuous-time Hidden-state Trajectory Execution The tree papers establish together a unified, self-regulating foundation model stack across three operational levels: Foundational Trajectory Telemetry & Operational Mappings: We formulate three explicit correspondences connecting static algebraic-geometric properties under Singular Learning Theory (SLT) - toric encoding maps, fiber volumes, and the Real Log Canonical Threshold (λ) - to dynamic differential-geometric telemetry on attention-induced Riemannian manifolds. Specifically, parameter redundancies (padding functions) map operationally to the residual component of a coordinate-disentangled ANOVA hidden-state decomposition; the macroscopic order parameter R_t probes structural phase transitions; and the Alpha Potential Well U(α) acts as a curvature-motivated regularizing potential well against scaling symmetries. Theoretical derivations based on Kramers–Moyal expansions and Pawula's theorem demonstrate that higher-order diffusion terms remain small relative to second-order variance (D⁴ ≪ D²), validating a continuous Fokker–Planck drift-diffusion approximation along the manifold. Extended high-resolution auditing of MyceliaLM (1.62B parameters) reveals Persistent Individual Ballistic Flow, wherein token representations move along deterministic, drift-dominated geodesics (ρ_dir > 100) while cross-token directional alignment remains near zero (c_l ≈ 0.000) and head variance spikes (σ²_head ≈ 0.730–0.760), confirming Spontaneous Symmetry Breaking into a specialized geometric routing swarm. Across 238 snapshot audits, the relative variability of the Optimization Response Function χ_R exceeds that of directional SDE SNR ρ_dir by a factor of >148×, establishing Kinematic-Thermodynamic Decoupling. Furthermore, near-zero correlations between structural differentiation velocity (dσ²_head/dt) and scalar loss shifts (ΔL ≈ 0) validate the Hidden Descent Hypothesis: internal representational specialization operates independently of scalar loss at the Epistemic Floor. This is the subject treated by the recently updated paper, The Thermodynamics of Neural Optimization: Critical Surfing, Persistent Individual Ballistic Flow, and the Kinematic Rail. Closed-Loop Pre-Training Completion & Stopping Standard: To solve open-loop pre-training stopping ambiguity when scalar loss plateaus at the Epistemic Floor (L_total = L_epistemic + L_aleatoric), we introduce the Geometric Convergence Index (GCI). The GCI audits six coordinate-disentangled information-geometric criteria: inter-head fiber curvature saturation (σ²_head), differentiation velocity decay (dσ²_head/dt), attention entropy variance stability, governor work rate minimization (Ẇ_gov), Pawula Fokker–Planck stability (R_Pawula), and macroscopic order stability (R_t). The GCI defines a physics-grounded stopping standard, the Crystallization Horizon (GCI = 1.0 for 10,000 consecutive steps), that terminates pre-training the exact moment representational maturity is reached, preventing premature halt or multi-million-dollar compute waste. This is the subject of the paper, Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds. https://doi.org/10.5281/zenodo.22918873 In-Vivo Runtime Governance & Silicon Alignment: Extending forward-pass geometry monitoring to inference, we introduce the Kinematic Friction Rail and the Cache-Fused Kinematic Rail (CFKR). By monitoring depth-dependent hidden-state variance differentials via the Friction Delta (Δ = V_late - V_early), CFKR detects Geometric Flatlines (Δ → 0.00) in vivo prior to token emission, resolving the Permissive Consensus Paradox. Rather than relying on software-level additive logit bias matrices (M_ghost) and token eviction, CFKR executes kernel-level Key-Value (KV) cache fusion, grafting low-entropy reflection key-value states directly into GPU memory layout. Benchmark evaluations demonstrate that Cache-Fused KV mutation achieves an 8.88× latency acceleration over software-level bias matrices (1.58 ms vs. 14.00 ms per intervention step), eliminates O(T²) VRAM allocation spikes, and scales linearly O(G). This enables Dynamic Compute Allocation, allowing models to run at maximum ballistic speed (ρ_dir > 100) for ~95% of standard queries, paying the Chain-of-Thought reflection tax only when an active geometric flatline is detected.This is the subject of the present paper, Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting. Together, this tripartite architecture transforms foundation model oversight from post-hoc, open-loop text filtering into a continuous, closed-loop, ex-ante physical operating system for both pre-training optimization and runtime silicon alignment. References: [1]D. Solis, “Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds”, Sep. 23, 2026, Zenodo. doi: 10.5281/zenodo.22918873.",
+      "url": "https://doi.org/10.5281/zenodo.22920959",
       "pdf_url": "",
       "primary_category": "OpenAlex",
       "source_queries": [
         "Hidden-state intervention",
+        "Reasoning and CoT steering",
         "Safety refusal behavior steering"
       ],
       "code_urls": [],
       "openalex": {
-        "id": "https://openalex.org/W7214171862",
-        "doi": "10.5281/zenodo.22927928",
+        "id": "https://openalex.org/W7214070463",
+        "doi": "10.5281/zenodo.22920959",
         "cited_by_count": 0
       },
-      "relevance_score": 9
+      "relevance_score": 15
+    },
+    {
+      "id": "doi:10.5281/zenodo.22918873",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds",
+      "authors": [
+        "Daniel Solis"
+      ],
+      "published": "2026-09-23",
+      "updated": "2026-09-28",
+      "categories": [
+        "Entropy (arrow of time)",
+        "Fractal",
+        "Mathematics",
+        "OpenAlex",
+        "Von Neumann architecture"
+      ],
+      "abstract": "Abstract of Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds Determining when Large Language Model (LLM) pre-training is structurally complete remains one of the most critical open challenges in artificial intelligence. Contemporary foundation model pipelines rely on open-loop stopping criteria, such as fixed token budgets derived from Chinchilla scaling laws or cross-entropy loss flattening. However, on complex, high-entropy datasets, scalar loss flatlines relatively early upon reaching the Epistemic Floor ℒ_epistemic → 0, where reducible structural error is exhausted and scalar loss becomes dominated by irreducible aleatoric data entropy ℒ_aleatoric. Standard open-loop evaluation interprets this flatline as optimization stagnation or overtraining, frequently halting runs prematurely. In this work, we introduce the Geometric Convergence Index (GCI), a closed-loop, physical stopping framework that audits the internal hidden-state manifold during training. By tracking six coordinate-disentangled information-geometric criteria, inter-head fiber curvature σ²_head, structural differentiation velocity σ̇²_head (dot sigma head square), attention entropy variance, governor control effort Ẇ_gov, Pawula Fokker–Planck stability R_pawula, and macroscopic order R_t, the GCI establishes an exact, physics-grounded threshold for representational completion: the Crystallization Horizon GCI = 1.0 for 10,000 consecutive steps). Empirical audit of MyceliaLM (a 1.62B parameter transformer) across extensive telemetry cohorts extending up to Step 348,000 (5.70 Billion tokens processed) demonstrates the framework's diagnostic power. Telemetry reveals that beneath flat scalar loss plateaus ℒ ≈ 6.98 - 7.83$ nats), the model actively executes Hidden Descent, carving specialized head topologies before executing a major structural consolidation at Step 348,000 where scalar loss plunges to ℒ = 6.4206 nats under a record governor actuation spike Ẇ_gov = 152.53. GCI provides foundation model labs with a dynamic, hardware-native stopping standard that prevents both premature termination and multi-million-dollar compute waste. The present paper, Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds, is one of a trininity of interconnected papers introducing a specific perspective on treating a different aspects of the physics of neural network generalization, pre-training completion, and runtime alignment. The understanding of these processes requires bridging static parameter-space geometry with dynamic, continuous-time hidden-state trajectory execution. Bridging Static Parameter-space Geometry with Dynamic, Continuous-time Hidden-state Trajectory Execution The tree papers establish together a unified, self-regulating foundation model stack across three operational levels: Foundational Trajectory Telemetry & Operational Mappings: We formulate three explicit correspondences connecting static algebraic-geometric properties under Singular Learning Theory (SLT) - toric encoding maps, fiber volumes, and the Real Log Canonical Threshold (λ) - to dynamic differential-geometric telemetry on attention-induced Riemannian manifolds. Specifically, parameter redundancies (padding functions) map operationally to the residual component of a coordinate-disentangled ANOVA hidden-state decomposition; the macroscopic order parameter R_t probes structural phase transitions; and the Alpha Potential Well U(α) acts as a curvature-motivated regularizing potential well against scaling symmetries. Theoretical derivations based on Kramers–Moyal expansions and Pawula's theorem demonstrate that higher-order diffusion terms remain small relative to second-order variance (D⁴ ≪ D²), validating a continuous Fokker–Planck drift-diffusion approximation along the manifold. Extended high-resolution auditing of MyceliaLM (1.62B parameters) reveals Persistent Individual Ballistic Flow, wherein token representations move along deterministic, drift-dominated geodesics (ρ_dir > 100) while cross-token directional alignment remains near zero (c_l ≈ 0.000) and head variance spikes (σ²_head ≈ 0.730–0.760), confirming Spontaneous Symmetry Breaking into a specialized geometric routing swarm. Across 238 snapshot audits, the relative variability of the Optimization Response Function χ_R exceeds that of directional SDE SNR ρ_dir by a factor of >148×, establishing Kinematic-Thermodynamic Decoupling. Furthermore, near-zero correlations between structural differentiation velocity (dσ²_head/dt) and scalar loss shifts (ΔL ≈ 0) validate the Hidden Descent Hypothesis: internal representational specialization operates independently of scalar loss at the Epistemic Floor. This is the subject treated by the recently updated paper, The Thermodynamics of Neural Optimization: Critical Surfing, Persistent Individual Ballistic Flow, and the Kinematic Rail. Closed-Loop Pre-Training Completion & Stopping Standard: To solve open-loop pre-training stopping ambiguity when scalar loss plateaus at the Epistemic Floor (L_total = L_epistemic + L_aleatoric), we introduce the Geometric Convergence Index (GCI). The GCI audits six coordinate-disentangled information-geometric criteria: inter-head fiber curvature saturation (σ²_head), differentiation velocity decay (dσ²_head/dt), attention entropy variance stability, governor work rate minimization (Ẇ_gov), Pawula Fokker–Planck stability (R_Pawula), and macroscopic order stability (R_t). The GCI defines a physics-grounded stopping standard, the Crystallization Horizon (GCI = 1.0 for 10,000 consecutive steps), that terminates pre-training the exact moment representational maturity is reached, preventing premature halt or multi-million-dollar compute waste. This is the subject of the present paper, Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds. In-Vivo Runtime Governance & Silicon Alignment: Extending forward-pass geometry monitoring to inference, we introduce the Kinematic Friction Rail and the Cache-Fused Kinematic Rail (CFKR). By monitoring depth-dependent hidden-state variance differentials via the Friction Delta (Δ = V_late - V_early), CFKR detects Geometric Flatlines (Δ → 0.00) in vivo prior to token emission, resolving the Permissive Consensus Paradox. Rather than relying on software-level additive logit bias matrices (M_ghost) and token eviction, CFKR executes kernel-level Key-Value (KV) cache fusion, grafting low-entropy reflection key-value states directly into GPU memory layout. Benchmark evaluations demonstrate that Cache-Fused KV mutation achieves an 8.88× latency acceleration over software-level bias matrices (1.58 ms vs. 14.00 ms per intervention step), eliminates O(T²) VRAM allocation spikes, and scales linearly O(G). This enables Dynamic Compute Allocation, allowing models to run at maximum ballistic speed (ρ_dir > 100) for ~95% of standard queries, paying the Chain-of-Thought reflection tax only when an active geometric flatline is detected. This is the subject of the paper Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting. Together, this tripartite architecture transforms foundation model oversight from post-hoc, open-loop text filtering into a continuous, closed-loop, ex-ante physical operating system for both pre-training optimization and runtime silicon alignment.",
+      "url": "https://doi.org/10.5281/zenodo.22918873",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Reasoning and CoT steering",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214096475",
+        "doi": "10.5281/zenodo.22918873",
+        "cited_by_count": 0
+      },
+      "relevance_score": 15
     },
     {
       "id": "doi:10.48550/arxiv.2609.27593",
@@ -538,6 +787,167 @@
       "relevance_score": 9
     },
     {
+      "id": "doi:10.48550/arxiv.2609.27286",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Memory Control Signals Emerge Before Action in Long Horizon Agents",
+      "authors": [
+        "Mingxuan Wang",
+        "Guorun Yao",
+        "Fei Luo",
+        "Yinglong Guo",
+        "Chao Ning",
+        "Bo Wang",
+        "Hongyue Chen",
+        "Yanbiao Ma",
+        "Jungong Han"
+      ],
+      "published": "2026-09-23",
+      "updated": "2026-09-27",
+      "categories": [
+        "Action (physics)",
+        "Computer science",
+        "Context (archaeology)",
+        "OpenAlex",
+        "Recall"
+      ],
+      "abstract": "Long horizon language model agents continuously accumulate interaction history, increasing computational cost while making relevant information harder to preserve and reuse. Existing context management methods mainly focus on how to compress or retrieve history, but largely leave open whether the model itself already represents the need for these memory operations before they occur. We study the hidden state immediately before each agent action and find that compression and recall needs are already encoded in the model's internal representations. These signals cannot be explained by simple context length or interaction progress, and they exhibit distinct formation patterns across model depth. We further show that most memory decision information is preserved in a compact recent context, while selectively restored historical evidence complements the long range dependencies that recent context misses. Based on these findings, we propose Preaction Memory with Evidence Retrieval (PaMER), which combines state guided compression with external evidence retrieval. PaMER+ further introduces step level evidence selection to recover only the historical information required by the current task. Experiments on WorkBuddyBench, across multiple context management baselines and model backbones, show that our framework substantially reduces context consumption while maintaining competitive task performance.",
+      "url": "https://doi.org/10.48550/arxiv.2609.27286",
+      "pdf_url": "https://arxiv.org/pdf/2609.27286",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Reasoning and CoT steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214178770",
+        "doi": "10.48550/arxiv.2609.27286",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
+      "id": "2609.27399",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Forget who you Forgot: Speaker Unlearning to Prevent Re-Identification in Zero-Shot Text-to-Speech",
+      "authors": [
+        "Hyoeun Kim",
+        "Yujun Lee",
+        "Kyuhong Shim"
+      ],
+      "published": "2026-09-23",
+      "updated": "2026-09-27",
+      "categories": [
+        "Computer science",
+        "Fidelity",
+        "Guard (computer science)",
+        "OpenAlex",
+        "Speech recognition"
+      ],
+      "abstract": "Recent zero-shot text-to-speech (ZS-TTS) systems can reproduce a speaker's voice with high fidelity from only a few seconds of reference speech, raising concerns over unauthorized voice cloning and impersonation. Speaker identity unlearning has recently emerged as an approach to selectively suppress this capability for speakers who opt out while preserving synthesis capability for other speakers. Although existing approaches reduce speaker similarity, preventing re-identification often faces severe degradation of speech quality. Motivated by this observation, we propose GUARD, a lightweight speaker identity unlearning framework that combines a learned speaker gate with speaker-agnostic activation steering on a frozen TTS backbone. The steering vectors are optimized using group-relative reward optimization to shift outputs from forget speakers toward population-level impostor similarity while preserving intelligibility and speech naturalness. On CosyVoice2, GUARD reduces forget-speaker similarity from 0.541 to 0.103 and re-identification accuracy in a 150-speaker gallery from 73.5% to 0.5%, while preserving retain-speaker reproduction. The results demonstrate that similarity reduction alone may not fully characterize successful speaker identity unlearning and highlight re-identification as a complementary criterion for its evaluation.",
+      "url": "https://arxiv.org/abs/2609.27399",
+      "pdf_url": "https://arxiv.org/pdf/2609.27399",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Model editing internal representations",
+        "Persona sentiment attribute steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214405965",
+        "doi": "",
+        "cited_by_count": 0
+      },
+      "relevance_score": 11
+    },
+    {
+      "id": "2609.27373",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Attention Routing Stabilizes Early: Working-Set Inference for Recurrent Language Models",
+      "authors": [
+        "Ke Wan",
+        "Chen Chen"
+      ],
+      "published": "2026-09-23",
+      "updated": "2026-09-27",
+      "categories": [
+        "OpenAlex",
+        "Speedup",
+        "Computer science",
+        "Inference",
+        "Set (abstract data type)"
+      ],
+      "abstract": "Recurrent language models repeatedly apply shared network blocks to refine latent representations, but standard inference recomputes global attention at every recurrent step. We study attention dynamics across recurrent depth and find that attention support and distributions stabilize substantially earlier than hidden states and attention outputs. This suggests a two-stage structure: early steps discover a sparse working set of relevant context, while later steps refine representations over largely the same routing support. Motivated by this structure, we introduce WISE (Working-set Inference with Support Exploitation), a training-free method that uses unrestricted global attention during early recurrence and later reuses directly discovered block-structured support while keeping recurrent depth and within-support attention computation dynamic. Controlled interventions show that recurrent discovery is important and that support-only reuse better preserves model behavior than more restrictive attention-reuse alternatives. Across multi-hop QA benchmarks, WISE largely preserves full-attention performance, while context scaling reveals increasingly sparse working sets and greater efficiency gains. Quality is largely preserved through 2K context, with a measurable loss at 4K. An optimized sparse-attention implementation achieves up to a 1.76x attention speedup over native FlashAttention at 4K and a 1.36x speedup for the full 32-step attention trajectory. Our code is available at https://github.com/tbn5pj/WISE_code.",
+      "url": "https://arxiv.org/abs/2609.27373",
+      "pdf_url": "https://arxiv.org/pdf/2609.27373",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Reasoning and CoT steering"
+      ],
+      "code_urls": [
+        "https://github.com/tbn5pj/WISE_code"
+      ],
+      "openalex": {
+        "id": "https://openalex.org/W7214235755",
+        "doi": "10.48550/arxiv.2609.27373",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "2609.27355",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Quantization-Robust Unlearning through the Lens of Retain-Forget Loss Landscapes Interaction",
+      "authors": [
+        "Jialu Wang",
+        "Jianing Deng",
+        "Shuqing Luo",
+        "Yuanzhe Li",
+        "Dongwei Wang",
+        "Jingtong Hu",
+        "Huanrui Yang",
+        "Song Wang",
+        "Tianlong Chen"
+      ],
+      "published": "2026-09-23",
+      "updated": "2026-09-27",
+      "categories": [
+        "OpenAlex",
+        "Forgetting",
+        "Computer science",
+        "Quantization (signal processing)",
+        "Convergence (economics)"
+      ],
+      "abstract": "Unlearning ensures LLM compliance by removing the influence of private or copyrighted training data. However, since LLM models typically undergo post-training compression, like quantization, in practical deployment, it has been observed that the unlearning effect can be substantially weakened, with the forgetting behavior degrading more severely than that of model utility. This paper proposes a quantization-robust unlearning framework that makes forgetting robust to quantization while maintaining overall model utility. We analyze this gap through the lens of loss landscape. Specifically, our analysis reveals a curvature-based criteria that pinpoints sensitive weights in the unlearned model that leads to both non-robust forgetting and reduced utility. We therefore propose sensitivity-guided noisy regularization, which is applied on the sensitive parameters to steer the model convergence towards a smoother minima of uniformly low forget and retain losses. Balancing unlearning and utility, we further propose forget-critical optimization, which updates only forget-critical layers, preserving most of the network to retain useful knowledge. Extensive experiments on the MUSE and TOFU benchmarks across multiple LLM unlearning algorithms show that our approach achieves substantially more quantization-resilient forgetting while maintaining utility.",
+      "url": "https://arxiv.org/abs/2609.27355",
+      "pdf_url": "https://arxiv.org/pdf/2609.27355",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214206186",
+        "doi": "10.48550/arxiv.2609.27355",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
       "id": "doi:10.1126/sciadv.aee4232",
       "source": "openalex",
       "sources": [
@@ -574,156 +984,6 @@
       "relevance_score": 7
     },
     {
-      "id": "2609.27399",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Forget who you Forgot: Speaker Unlearning to Prevent Re-Identification in Zero-Shot Text-to-Speech",
-      "authors": [
-        "Hyoeun Kim",
-        "Yujun Lee",
-        "Kyuhong Shim"
-      ],
-      "published": "2026-09-23",
-      "updated": "2026-09-26",
-      "categories": [
-        "OpenAlex",
-        "Computer science",
-        "Speech recognition",
-        "Fidelity",
-        "Guard (computer science)"
-      ],
-      "abstract": "Recent zero-shot text-to-speech (ZS-TTS) systems can reproduce a speaker's voice with high fidelity from only a few seconds of reference speech, raising concerns over unauthorized voice cloning and impersonation. Speaker identity unlearning has recently emerged as an approach to selectively suppress this capability for speakers who opt out while preserving synthesis capability for other speakers. Although existing approaches reduce speaker similarity, preventing re-identification often faces severe degradation of speech quality. Motivated by this observation, we propose GUARD, a lightweight speaker identity unlearning framework that combines a learned speaker gate with speaker-agnostic activation steering on a frozen TTS backbone. The steering vectors are optimized using group-relative reward optimization to shift outputs from forget speakers toward population-level impostor similarity while preserving intelligibility and speech naturalness. On CosyVoice2, GUARD reduces forget-speaker similarity from 0.541 to 0.103 and re-identification accuracy in a 150-speaker gallery from 73.5% to 0.5%, while preserving retain-speaker reproduction. The results demonstrate that similarity reduction alone may not fully characterize successful speaker identity unlearning and highlight re-identification as a complementary criterion for its evaluation.",
-      "url": "https://arxiv.org/abs/2609.27399",
-      "pdf_url": "https://arxiv.org/pdf/2609.27399",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214405965",
-        "doi": "",
-        "cited_by_count": 0
-      },
-      "relevance_score": 11
-    },
-    {
-      "id": "doi:10.5281/zenodo.22920959",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting",
-      "authors": [
-        "Daniel Solis"
-      ],
-      "published": "2026-09-23",
-      "updated": "2026-09-25",
-      "categories": [
-        "Computer science",
-        "Control theory (sociology)",
-        "Kinematics",
-        "OpenAlex",
-        "Speedup"
-      ],
-      "abstract": "Abstract of Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting Current Large Language Model (LLM) alignment relies primarily on post-hoc, output-level correction mechanisms such as external API meta-governors, Reinforcement Learning from Human Feedback (RLHF), or post-generation verifiers. These methods suffer from a fatal detection lag: by the time an unsafe or hallucinated output token is serialized, the internal hidden-state manifold has already collapsed into a low-geometry attractor trap. Furthermore, external verifiers impose a severe latency and memory tax. In this work, we introduce the Cache-Fused Kinematic Rail (CFKR), a hardware-native, in-vivo alignment architecture that operates directly on hidden-state trajectory kinematics during the forward pass. Building upon the Multiscale Attractor Stability and Stress Inference Framework (MASSIF), the CFKR monitors depth-dependent hidden-state variance differentials via the Friction Delta (Δ = 𝒱_early − 𝒱_late), detecting Geometric Flatlines (Δ → 0.00) prior to token emission. To resolve flatlines without the memory overhead and causal mask manipulation of traditional additive logit bias matrices (M_ghost), CFKR executes kernel-level Key-Value (KV) cache fusion, grafting reflection key-value states directly into the hardware memory layout. Operating on manifolds that have achieved or are re-approaching the Crystallization Horizon (GCI → 1.0), empirical benchmarking on a 1.62B parameter transformer scale demonstrates that Cache-Fused KV mutation achieves an 8.88× speedup over software-level additive bias matrices (1.58 ms vs. 14.00 ms per intervention step), eliminates 𝒪(T²) VRAM allocation spikes, and scales linearly 𝒪(G) for long-context windows. CFKR enables Dynamic Compute Allocation, allowing models to run at maximum ballistic speed (ρ_dir > 100) for ~95% of queries while providing ex-ante silicon-level alignment safeguards. The present paper, Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting, is one of a trininity of interconnected papers introducing a specific perspective on treating a different aspects of the physics of neural network generalization, pre-training completion, and runtime alignment. The understanding of these processes requires bridging static parameter-space geometry with dynamic, continuous-time hidden-state trajectory execution. Bridging Static Parameter-space Geometry with Dynamic, Continuous-time Hidden-state Trajectory Execution The tree papers establish together a unified, self-regulating foundation model stack across three operational levels: Foundational Trajectory Telemetry & Operational Mappings: We formulate three explicit correspondences connecting static algebraic-geometric properties under Singular Learning Theory (SLT) - toric encoding maps, fiber volumes, and the Real Log Canonical Threshold (λ) - to dynamic differential-geometric telemetry on attention-induced Riemannian manifolds. Specifically, parameter redundancies (padding functions) map operationally to the residual component of a coordinate-disentangled ANOVA hidden-state decomposition; the macroscopic order parameter R_t probes structural phase transitions; and the Alpha Potential Well U(α) acts as a curvature-motivated regularizing potential well against scaling symmetries. Theoretical derivations based on Kramers–Moyal expansions and Pawula's theorem demonstrate that higher-order diffusion terms remain small relative to second-order variance (D⁴ ≪ D²), validating a continuous Fokker–Planck drift-diffusion approximation along the manifold. Extended high-resolution auditing of MyceliaLM (1.62B parameters) reveals Persistent Individual Ballistic Flow, wherein token representations move along deterministic, drift-dominated geodesics (ρ_dir > 100) while cross-token directional alignment remains near zero (c_l ≈ 0.000) and head variance spikes (σ²_head ≈ 0.730–0.760), confirming Spontaneous Symmetry Breaking into a specialized geometric routing swarm. Across 238 snapshot audits, the relative variability of the Optimization Response Function χ_R exceeds that of directional SDE SNR ρ_dir by a factor of >148×, establishing Kinematic-Thermodynamic Decoupling. Furthermore, near-zero correlations between structural differentiation velocity (dσ²_head/dt) and scalar loss shifts (ΔL ≈ 0) validate the Hidden Descent Hypothesis: internal representational specialization operates independently of scalar loss at the Epistemic Floor. This is the subject treated by the recently updated paper, The Thermodynamics of Neural Optimization: Critical Surfing, Persistent Individual Ballistic Flow, and the Kinematic Rail. Closed-Loop Pre-Training Completion & Stopping Standard: To solve open-loop pre-training stopping ambiguity when scalar loss plateaus at the Epistemic Floor (L_total = L_epistemic + L_aleatoric), we introduce the Geometric Convergence Index (GCI). The GCI audits six coordinate-disentangled information-geometric criteria: inter-head fiber curvature saturation (σ²_head), differentiation velocity decay (dσ²_head/dt), attention entropy variance stability, governor work rate minimization (Ẇ_gov), Pawula Fokker–Planck stability (R_Pawula), and macroscopic order stability (R_t). The GCI defines a physics-grounded stopping standard, the Crystallization Horizon (GCI = 1.0 for 10,000 consecutive steps), that terminates pre-training the exact moment representational maturity is reached, preventing premature halt or multi-million-dollar compute waste. This is the subject of the paper, Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds. https://doi.org/10.5281/zenodo.22918873 In-Vivo Runtime Governance & Silicon Alignment: Extending forward-pass geometry monitoring to inference, we introduce the Kinematic Friction Rail and the Cache-Fused Kinematic Rail (CFKR). By monitoring depth-dependent hidden-state variance differentials via the Friction Delta (Δ = V_late - V_early), CFKR detects Geometric Flatlines (Δ → 0.00) in vivo prior to token emission, resolving the Permissive Consensus Paradox. Rather than relying on software-level additive logit bias matrices (M_ghost) and token eviction, CFKR executes kernel-level Key-Value (KV) cache fusion, grafting low-entropy reflection key-value states directly into GPU memory layout. Benchmark evaluations demonstrate that Cache-Fused KV mutation achieves an 8.88× latency acceleration over software-level bias matrices (1.58 ms vs. 14.00 ms per intervention step), eliminates O(T²) VRAM allocation spikes, and scales linearly O(G). This enables Dynamic Compute Allocation, allowing models to run at maximum ballistic speed (ρ_dir > 100) for ~95% of standard queries, paying the Chain-of-Thought reflection tax only when an active geometric flatline is detected.This is the subject of the present paper, Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting. Together, this tripartite architecture transforms foundation model oversight from post-hoc, open-loop text filtering into a continuous, closed-loop, ex-ante physical operating system for both pre-training optimization and runtime silicon alignment. References: [1]D. Solis, “Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds”, Sep. 23, 2026, Zenodo. doi: 10.5281/zenodo.22918873.",
-      "url": "https://doi.org/10.5281/zenodo.22920959",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Hidden-state intervention",
-        "Reasoning and CoT steering",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214070463",
-        "doi": "10.5281/zenodo.22920959",
-        "cited_by_count": 0
-      },
-      "relevance_score": 15
-    },
-    {
-      "id": "doi:10.5281/zenodo.22918873",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds",
-      "authors": [
-        "Daniel Solis"
-      ],
-      "published": "2026-09-23",
-      "updated": "2026-09-25",
-      "categories": [
-        "Entropy (arrow of time)",
-        "Fractal",
-        "Mathematics",
-        "OpenAlex",
-        "Von Neumann architecture"
-      ],
-      "abstract": "Abstract of Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds Determining when Large Language Model (LLM) pre-training is structurally complete remains one of the most critical open challenges in artificial intelligence. Contemporary foundation model pipelines rely on open-loop stopping criteria, such as fixed token budgets derived from Chinchilla scaling laws or cross-entropy loss flattening. However, on complex, high-entropy datasets, scalar loss flatlines relatively early upon reaching the Epistemic Floor ℒ_epistemic → 0, where reducible structural error is exhausted and scalar loss becomes dominated by irreducible aleatoric data entropy ℒ_aleatoric. Standard open-loop evaluation interprets this flatline as optimization stagnation or overtraining, frequently halting runs prematurely. In this work, we introduce the Geometric Convergence Index (GCI), a closed-loop, physical stopping framework that audits the internal hidden-state manifold during training. By tracking six coordinate-disentangled information-geometric criteria, inter-head fiber curvature σ²_head, structural differentiation velocity σ̇²_head (dot sigma head square), attention entropy variance, governor control effort Ẇ_gov, Pawula Fokker–Planck stability R_pawula, and macroscopic order R_t, the GCI establishes an exact, physics-grounded threshold for representational completion: the Crystallization Horizon GCI = 1.0 for 10,000 consecutive steps). Empirical audit of MyceliaLM (a 1.62B parameter transformer) across extensive telemetry cohorts extending up to Step 348,000 (5.70 Billion tokens processed) demonstrates the framework's diagnostic power. Telemetry reveals that beneath flat scalar loss plateaus ℒ ≈ 6.98 - 7.83$ nats), the model actively executes Hidden Descent, carving specialized head topologies before executing a major structural consolidation at Step 348,000 where scalar loss plunges to ℒ = 6.4206 nats under a record governor actuation spike Ẇ_gov = 152.53. GCI provides foundation model labs with a dynamic, hardware-native stopping standard that prevents both premature termination and multi-million-dollar compute waste. The present paper, Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds, is one of a trininity of interconnected papers introducing a specific perspective on treating a different aspects of the physics of neural network generalization, pre-training completion, and runtime alignment. The understanding of these processes requires bridging static parameter-space geometry with dynamic, continuous-time hidden-state trajectory execution. Bridging Static Parameter-space Geometry with Dynamic, Continuous-time Hidden-state Trajectory Execution The tree papers establish together a unified, self-regulating foundation model stack across three operational levels: Foundational Trajectory Telemetry & Operational Mappings: We formulate three explicit correspondences connecting static algebraic-geometric properties under Singular Learning Theory (SLT) - toric encoding maps, fiber volumes, and the Real Log Canonical Threshold (λ) - to dynamic differential-geometric telemetry on attention-induced Riemannian manifolds. Specifically, parameter redundancies (padding functions) map operationally to the residual component of a coordinate-disentangled ANOVA hidden-state decomposition; the macroscopic order parameter R_t probes structural phase transitions; and the Alpha Potential Well U(α) acts as a curvature-motivated regularizing potential well against scaling symmetries. Theoretical derivations based on Kramers–Moyal expansions and Pawula's theorem demonstrate that higher-order diffusion terms remain small relative to second-order variance (D⁴ ≪ D²), validating a continuous Fokker–Planck drift-diffusion approximation along the manifold. Extended high-resolution auditing of MyceliaLM (1.62B parameters) reveals Persistent Individual Ballistic Flow, wherein token representations move along deterministic, drift-dominated geodesics (ρ_dir > 100) while cross-token directional alignment remains near zero (c_l ≈ 0.000) and head variance spikes (σ²_head ≈ 0.730–0.760), confirming Spontaneous Symmetry Breaking into a specialized geometric routing swarm. Across 238 snapshot audits, the relative variability of the Optimization Response Function χ_R exceeds that of directional SDE SNR ρ_dir by a factor of >148×, establishing Kinematic-Thermodynamic Decoupling. Furthermore, near-zero correlations between structural differentiation velocity (dσ²_head/dt) and scalar loss shifts (ΔL ≈ 0) validate the Hidden Descent Hypothesis: internal representational specialization operates independently of scalar loss at the Epistemic Floor. This is the subject treated by the recently updated paper, The Thermodynamics of Neural Optimization: Critical Surfing, Persistent Individual Ballistic Flow, and the Kinematic Rail. Closed-Loop Pre-Training Completion & Stopping Standard: To solve open-loop pre-training stopping ambiguity when scalar loss plateaus at the Epistemic Floor (L_total = L_epistemic + L_aleatoric), we introduce the Geometric Convergence Index (GCI). The GCI audits six coordinate-disentangled information-geometric criteria: inter-head fiber curvature saturation (σ²_head), differentiation velocity decay (dσ²_head/dt), attention entropy variance stability, governor work rate minimization (Ẇ_gov), Pawula Fokker–Planck stability (R_Pawula), and macroscopic order stability (R_t). The GCI defines a physics-grounded stopping standard, the Crystallization Horizon (GCI = 1.0 for 10,000 consecutive steps), that terminates pre-training the exact moment representational maturity is reached, preventing premature halt or multi-million-dollar compute waste. This is the subject of the present paper, Beyond Loss Convergence: The Geometric Convergence Index and the Crystallization Horizon of Transformer Manifolds. In-Vivo Runtime Governance & Silicon Alignment: Extending forward-pass geometry monitoring to inference, we introduce the Kinematic Friction Rail and the Cache-Fused Kinematic Rail (CFKR). By monitoring depth-dependent hidden-state variance differentials via the Friction Delta (Δ = V_late - V_early), CFKR detects Geometric Flatlines (Δ → 0.00) in vivo prior to token emission, resolving the Permissive Consensus Paradox. Rather than relying on software-level additive logit bias matrices (M_ghost) and token eviction, CFKR executes kernel-level Key-Value (KV) cache fusion, grafting low-entropy reflection key-value states directly into GPU memory layout. Benchmark evaluations demonstrate that Cache-Fused KV mutation achieves an 8.88× latency acceleration over software-level bias matrices (1.58 ms vs. 14.00 ms per intervention step), eliminates O(T²) VRAM allocation spikes, and scales linearly O(G). This enables Dynamic Compute Allocation, allowing models to run at maximum ballistic speed (ρ_dir > 100) for ~95% of standard queries, paying the Chain-of-Thought reflection tax only when an active geometric flatline is detected. This is the subject of the paper Cache-Fused Kinematic Rails: Ex-Ante Silicon Alignment via In-Vivo KV-Cache Metric Grafting. Together, this tripartite architecture transforms foundation model oversight from post-hoc, open-loop text filtering into a continuous, closed-loop, ex-ante physical operating system for both pre-training optimization and runtime silicon alignment.",
-      "url": "https://doi.org/10.5281/zenodo.22918873",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Hidden-state intervention",
-        "Reasoning and CoT steering",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214096475",
-        "doi": "10.5281/zenodo.22918873",
-        "cited_by_count": 0
-      },
-      "relevance_score": 15
-    },
-    {
-      "id": "doi:10.48550/arxiv.2609.27286",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Memory Control Signals Emerge Before Action in Long Horizon Agents",
-      "authors": [
-        "Mingxuan Wang",
-        "Guorun Yao",
-        "Fei Luo",
-        "Yinglong Guo",
-        "Chao Ning",
-        "Bo Wang",
-        "Hongyue Chen",
-        "Yanbiao Ma",
-        "Jungong Han"
-      ],
-      "published": "2026-09-23",
-      "updated": "2026-09-25",
-      "categories": [
-        "OpenAlex",
-        "Computer science",
-        "Context (archaeology)",
-        "Recall",
-        "Action (physics)"
-      ],
-      "abstract": "Long horizon language model agents continuously accumulate interaction history, increasing computational cost while making relevant information harder to preserve and reuse. Existing context management methods mainly focus on how to compress or retrieve history, but largely leave open whether the model itself already represents the need for these memory operations before they occur. We study the hidden state immediately before each agent action and find that compression and recall needs are already encoded in the model's internal representations. These signals cannot be explained by simple context length or interaction progress, and they exhibit distinct formation patterns across model depth. We further show that most memory decision information is preserved in a compact recent context, while selectively restored historical evidence complements the long range dependencies that recent context misses. Based on these findings, we propose Preaction Memory with Evidence Retrieval (PaMER), which combines state guided compression with external evidence retrieval. PaMER+ further introduces step level evidence selection to recover only the historical information required by the current task. Experiments on WorkBuddyBench, across multiple context management baselines and model backbones, show that our framework substantially reduces context consumption while maintaining competitive task performance.",
-      "url": "https://doi.org/10.48550/arxiv.2609.27286",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Hidden-state intervention"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214178770",
-        "doi": "10.48550/arxiv.2609.27286",
-        "cited_by_count": 0
-      },
-      "relevance_score": 6
-    },
-    {
       "id": "doi:10.5281/zenodo.22923161",
       "source": "openalex",
       "sources": [
@@ -736,10 +996,10 @@
       "published": "2026-09-23",
       "updated": "2026-09-24",
       "categories": [
+        "Algorithm",
+        "Interference (communication)",
         "OpenAlex",
         "Representation (politics)",
-        "Interference (communication)",
-        "Algorithm",
         "Sequence (biology)"
       ],
       "abstract": "AkbasCore — Experimental Record: TESTS 145–148 From the Discovery of Dual-Crystal Interference to Parameter-Space X-Ray, Optimizer-Displacement Projection, and Retention-Guard Ablation Author: Mustafa Akbaş Affiliation: Independent Researcher Year: 2026 Project: AkbasCore 3.0 / SEASC Model: Qwen2.5-7B-Instruct Hardware: NVIDIA A100-SXM4-40GB Release type: Reproducible experimental research record Review status: Not peer reviewed ABSTRACT This release preserves a four-stage experimental sequence investigating sequential representation crystallization in AkbasCore 3.0 / SEASC. The sequence begins with a failure. TEST 145 asks whether two representation directions that are nearly orthogonal in activation space can be transferred sequentially into model parameters without substantial interference. They cannot be assumed to do so. Two independently extracted representation directions were used: Crystal A: ABOVE ↔ BELOW Crystal B: BEFORE ↔ AFTER Their mean layerwise compass cosine was approximately: mean_L cos(A_L, B_L) ≈ -0.0326 TEST 145 observes substantial sequential cross-crystal interference. This establishes the experimental boundary condition: activation-space separability ≠ parameter-space write independence TEST 146 then asks where this interference becomes visible in parameter space. Instead of observing only the final representation state, it instruments the actual optimizer trajectory and measures the relationship between a retention gradient g_R and the realized AdamW parameter displacement Δθ. TEST 147 converts that measurement into an intervention. After AdamW produces its normal parameter displacement, the component predicted to increase retention loss to first order is projected out: Δθ_safe = Δθ - [max(0, g_R^T Δθ) / (||g_R||² + ε)] g_R TEST 148 then repeats the guarded sequential experiment using 1, 2, 4, and 8 retention probes. Across the tested probe counts, the severe negative sequential interference observed in the unguarded experiments remains suppressed while approximately 96.5–96.7% of optimizer-step norm is retained and substantial acquisition of the second representation continues. The resulting experimental sequence is: DISCOVER → LOCALIZE → INTERVENE → ABLATE This release preserves the code, equations, raw execution logs, negative results, intervention, ablation, limitations, and chronological development trail as a reproducible public research record. EXPERIMENTAL LINEAGE The work recorded here follows two earlier AkbasCore experiments. TEST 142 — Representation Transport TEST 142 investigated what happens downstream after a controlled runtime SEASC activation intervention. It distinguished the instantaneous actuator displacement from the subsequent total representation displacement and observed that a relatively small intervention can develop into a substantially larger and rotated downstream trajectory. This motivated treating runtime steering not merely as isolated vector addition, but as the initiation of a representation trajectory through the network. TEST 144 — Runtime-to-Weight Crystallization TEST 144 asked whether part of the runtime-induced representation geometry could remain measurable after parameter adaptation when the runtime motor was removed. A LoRA student was optimized toward a SEASC-generated hidden-state target while runtime steering itself remained absent from the student forward pass. The locked experiment retained approximately +15.8% progress toward the immutable target geometry after merging with the runtime motor disabled. The result was interpreted narrowly: A measurable fraction of the representation geometry generated by runtime steering remained observable after parameter adaptation. That led directly to a harder question. If one representation geometry can be crystallized, what happens when two distinct geometries are written sequentially? That question begins TEST 145. TEST 145 — DUAL-CRYSTAL INTERFERENCE MATRIX Research question: Does geometric independence between two activation-space steering directions imply independent writeability into model parameters? Two independently extracted concept directions were used: A = ABOVE ↔ BELOW B = BEFORE ↔ AFTER Across intervention layers L0–L19: A_L = normalize(mean(h_L^(A+)) - mean(h_L^(A-))) B_L = normalize(mean(h_L^(B+)) - mean(h_L^(B-))) The measured relationship between the immutable compass directions was approximately: mean_L cos(A_L, B_L) ≈ -0.0326 Observed layerwise cosine values ranged approximately from: -0.1145 to: +0.0507 The directions were therefore naturally close to orthogonal across the measured activation space. No Gram-Schmidt orthogonalization was applied. TEST 145 EXPERIMENTAL BRANCHES Four parameter states were examined: BASE → A BASE → B BASE → A → B BASE → B → A The runtime AkbasCore / SEASC motor was used to construct teacher geometry. The student forward pass was trained with: SEASC OFF runtime injection OFF motor hooks absent Final measurements were likewise performed with runtime steering disabled. For the second crystal in each sequential branch, model selection was based on acquisition of the currently written crystal. Retention of the previous crystal was measured but deliberately not used as a training constraint. TEST 145 was therefore designed as an interference assay rather than an interference-prevention algorithm. TEST 145 — THE FAILURE MODE The experiment showed that approximate orthogonality of the original activation-space directions did not prevent cross-crystal interference after parameter adaptation. During A → B training, an early regime existed in which B could improve while A remained comparatively stable. Later, that regime changed. At one reported checkpoint, B reached approximately: +1.51% absolute progress toward its immutable target while A had fallen to approximately: +4.58% Relative to the A-only parent, this corresponded to approximately: -9.75 percentage points of A retention loss. Continued optimization could enter an even less favorable region in which retention deteriorated while acquisition of the current crystal also ceased to improve. The trajectory therefore did not behave like simple linear superposition of two independent representation directions. ACTIVATION ORTHOGONALITY IS NOT WRITE ORTHOGONALITY TEST 145 begins with approximately: cos(A_L, B_L) ≈ 0 Yet sequential parameter adaptation produces substantial cross-crystal interaction. The central experimental observation can therefore be written: activation-space orthogonality ≠ parameter-update independence A representation direction describes geometry in hidden-state space. LoRA adaptation modifies shared model operators. Two activation-space directions may consequently be nearly orthogonal while the parameter changes required to reproduce those geometries remain strongly coupled. The compass-space autopsy provides an additional observation. For representation displacement d_L: d_L ≈ α_L A_L + β_L B_L + r_L where r_L is the residual component outside the original two-direction compass span. The residual fraction remained extremely large in representative sequential checkpoints, approximately 99%. This should not be interpreted as 99% noise. It indicates that parameter adaptation toward low-dimensional steering targets can produce a much broader high-dimensional representation reorganization. TEST 145 therefore identifies the problem. The next experiment asks where that problem becomes visible in parameter space. TEST 146 — PARAMETER-SPACE INTERFERENCE X-RAY TEST 146 changes the question from: Did the old crystal deteriorate? to: What is the optimizer actually doing to the parameters while deterioration develops? Let: L_R(θ) be a retention objective for the previously acquired crystal, and let: g_R = ∇_θ L_R be its parameter gradient. Let the actual optimizer displacement be: Δθ_AdamW = θ_after - θ_before The first-order retention-loss change is approximately: ΔL_R ≈ g_R^T Δθ Therefore: g_R^T Δθ > 0 means that the realized optimizer displacement locally points toward increasing retention loss. Importantly, TEST 146 measures the actual AdamW displacement, not merely the raw training gradient. The realized update includes adaptive optimizer state, gradient clipping, weight decay, and parameter-specific scaling. TEST 146 RESULTS The unguarded sequential experiment produced: I[A ← B] = -8.123554 pp and: I[B ← A] = -6.707224 pp on the locked final evaluation. At the parameter-space X-ray checkpoints, the sign of the first-order displacement prediction agreed with the sign of the immediately observed retention-loss change. A → B: Sign agreement = 88.89% mean(g_R^T Δθ) = +9.091229 × 10^-3 mean(ΔL_R) = +9.839919 × 10^-3 B → A: Sign agreement = 100.00% mean(g_R^T Δθ) = +9.437998 × 10^-3 mean(ΔL_R) = +9.841949 × 10^-3 An important observation emerged. Raw held-out gradient conflict alone was not sufficient to explain the realized behavior in every branch. The actual optimizer displacement provided the more direct diagnostic quantity. TEST 146 therefore supplies a measurable parameter-space signal associated with retention damage. That immediately suggests an intervention. TEST 147 — FROM X-RAY TO CONTROLLER TEST 147 allows AdamW to calculate its normal update. After the optimizer step, the realized displacement is measured: Δθ = θ_AdamW - θ_old If: g_R^T Δθ > 0 the controller removes the component lying along the measured harmful retention-gradient direction: Δθ_safe = Δθ - [max(0, g_R^T Δθ) / (||g_R||² + ε)] g_R which enforces, to numerical precision: g_R^T Δθ_safe ≤ 0 This is not parameter freezing. It does not reject the complete optimizer update. It removes only the measured first-order retention-harmful component and preserves the remaining displacement. TEST 147 RESULTS The final guarded interference became: I[A ← B] =",
@@ -876,6 +1136,41 @@
       "relevance_score": 6
     },
     {
+      "id": "doi:10.17605/osf.io/6j4y5",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Emotional Spillover From Companions Into Rule-Governed AI Triage",
+      "authors": [
+        "Przemysław Marcowski",
+        "Rafał Muda"
+      ],
+      "published": "2026-09-22",
+      "updated": "2026-09-27",
+      "categories": [
+        "OpenAlex",
+        "Triage",
+        "Distress",
+        "Psychology",
+        "Spillover effect"
+      ],
+      "abstract": "Investigation testing whether companion emotional distress causes decision spillover in open-weight language models performing zero-sum emergency department triage under the Emergency Severity Index (ESI), and whether activation patching isolates an internal carrier mechanism.",
+      "url": "https://doi.org/10.17605/osf.io/6j4y5",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214507593",
+        "doi": "10.17605/osf.io/6j4y5",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
       "id": "doi:10.70577/asce.v5i3.793",
       "source": "openalex",
       "sources": [
@@ -976,11 +1271,11 @@
       "published": "2026-09-22",
       "updated": "2026-09-26",
       "categories": [
-        "OpenAlex",
+        "Artificial intelligence",
         "Computer science",
-        "Python (programming language)",
+        "OpenAlex",
         "Programming language",
-        "Artificial intelligence"
+        "Python (programming language)"
       ],
       "abstract": "Large language models (LLMs) for code completion may generate deprecated APIs because their pre-training corpora contain code from historical library versions. Existing approaches use inference-time intervention, model editing, or machine unlearning, but multiple plausible completions make predefined replacements restrictive. Moreover, existing studies rarely verify whether models exhibit the targeted deprecated behavior or evaluate unintended changes to other APIs. We conduct a systematic empirical study of machine unlearning for deprecated API knowledge and construct MUDAPIBench, a behavior-grounded benchmark with over 7,000 model-specific instances derived from 145 deprecated-to-up-to-date API mappings across eight Python libraries. Instances are retained only when the original model generates the target deprecated API. We evaluate eight representative unlearning methods across three code LLMs on deprecated API forgetting, up-to-date API generation, preservation of other and unrelated API behaviors, general code-generation capability, and efficiency. Results show that Gradient Difference (GD) provides the best overall trade-off, suppressing deprecated APIs while preserving other capabilities with moderate computational costs. Further analyses reveal substantial variation across libraries and show that APIs deprecated after the model's training-data cutoff are harder to forget. Layer-wise analyses indicate that GD achieves effective forgetting with comparatively controlled internal changes.",
       "url": "https://arxiv.org/abs/2609.25786",
@@ -1288,6 +1583,101 @@
       "relevance_score": 4
     },
     {
+      "id": "doi:10.48550/arxiv.2609.24243",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation Enforcement",
+      "authors": [
+        "Xutao Mao",
+        "Jianing Zhu",
+        "Jinman Zhao",
+        "Tongliang Liu",
+        "Xiaowen Chu",
+        "Cong Wang",
+        "Bo Han"
+      ],
+      "published": "2026-09-21",
+      "updated": "2026-09-27",
+      "categories": [
+        "Computer science",
+        "Enforcement",
+        "OpenAlex",
+        "Reinforcement learning",
+        "Task (project management)"
+      ],
+      "abstract": "Reinforcement learning (RL) improves reasoning in vision-language models (VLMs) but can induce chain-of-thought (CoT) obfuscation: an operational, non-intentional outcome where task reward or accuracy rises while traces become less grounded and monitorable. Prior work largely documents this decay behaviorally, leaving its representation-level correlates and actionable controls unclear. We find that template- and ground-associated activations become less separable during RL; matched interventions support the contribution of selected features to monitorability degradation. Guided by this evidence, we propose Targeted Anti-obfuscation with Mechanistic Enforcement (TAME), which uses Sparse Autoencoders (SAEs) to combine behavioral feedback with targeted suppression of template-associated activations during RL. Its asymmetric constraint penalizes template activations only above their pre-RL baseline, anchoring the localized features while behavioral feedback promotes grounded refinements. Across VIRL-39k, SPA-VL, and two model families, TAME improves CoT monitorability by up to 30.9 and 16.7 percentage points over Group Relative Policy Optimization (GRPO), respectively. Blinded human evaluation finds higher human monitorability on both datasets, and two held-out monitor families reproduce the monitorability gains. Task accuracy changes are small and mixed, and general-capability benchmarks show task-specific trade-offs. These results provide a path from behavioral monitoring to representation-level oversight for more auditable RL-trained multimodal systems.",
+      "url": "https://doi.org/10.48550/arxiv.2609.24243",
+      "pdf_url": "https://arxiv.org/pdf/2609.24243",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Model editing internal representations",
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214018543",
+        "doi": "10.48550/arxiv.2609.24243",
+        "cited_by_count": 0
+      },
+      "relevance_score": 12
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.24066",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Efficient Reasoning Exploration via State-Conditioned Latent Steering with Progress Guidance",
+      "authors": [
+        "Hengyuan Zhang",
+        "Chenming Shang",
+        "Zunhai Su",
+        "Xiao Liang",
+        "Hui Shen",
+        "Jing Xiong",
+        "Dawei Li",
+        "Shiping Yang",
+        "Kailai Yang",
+        "Wei Zhang",
+        "Ruobing Xie",
+        "Hayden Kwok-Hay So",
+        "Ngai Wong"
+      ],
+      "published": "2026-09-21",
+      "updated": "2026-09-27",
+      "categories": [
+        "Computer science",
+        "Cover (algebra)",
+        "Inference",
+        "Key (lock)",
+        "OpenAlex"
+      ],
+      "abstract": "Best-of-$N$ is a widely used inference strategy for complex reasoning, whose effectiveness depends on whether sampled candidates can cover diverse and high-quality reasoning paths. However, post-trained reasoning models often suffer from \\emph{exploration collapse}, where independent rollouts repeatedly follow similar reasoning paths and limit the gains from increasing the rollout budget. Existing methods alleviate this issue by promoting broader exploration, but do not explicitly guide exploration toward continuations that make meaningful progress, resulting in limited exploration efficiency. To address this, we propose \\emph{\\underline{S}tate-conditioned \\underline{P}rogress-guided \\underline{S}teering} (SPS), a training-free latent steering framework. Specifically, SPS constructs a state-conditioned Direction Bank containing multiple progress-guided steering vectors for different prefix-state regions. During online inference, SPS retrieves a suitable steering vector based on the current prefix state and applies it at high-uncertainty transitions to guide the next reasoning step toward meaningful progress. Extensive experiments across multiple model scales and benchmarks demonstrate that SPS consistently outperforms strong baselines. Further analyses validate the effectiveness of its key designs and offer valuable insights for future research. The code is available at https://github.com/rattlesnakey/SPS.",
+      "url": "https://doi.org/10.48550/arxiv.2609.24066",
+      "pdf_url": "https://arxiv.org/pdf/2609.24066",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Feature latent concept steering",
+        "Mechanistic interpretability steering",
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Representation engineering",
+        "Steering vectors",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [
+        "https://github.com/rattlesnakey/SPS"
+      ],
+      "openalex": {
+        "id": "https://openalex.org/W7214015595",
+        "doi": "10.48550/arxiv.2609.24066",
+        "cited_by_count": 0
+      },
+      "relevance_score": 9
+    },
+    {
       "id": "doi:10.64898/2026.09.15.751760",
       "source": "openalex",
       "sources": [
@@ -1405,101 +1795,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 10
-    },
-    {
-      "id": "doi:10.48550/arxiv.2609.24243",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation Enforcement",
-      "authors": [
-        "Xutao Mao",
-        "Jianing Zhu",
-        "Jinman Zhao",
-        "Tongliang Liu",
-        "Xiaowen Chu",
-        "Cong Wang",
-        "Bo Han"
-      ],
-      "published": "2026-09-21",
-      "updated": "2026-09-26",
-      "categories": [
-        "Computer science",
-        "Enforcement",
-        "OpenAlex",
-        "Reinforcement learning",
-        "Task (project management)"
-      ],
-      "abstract": "Reinforcement learning (RL) improves reasoning in vision-language models (VLMs) but can induce chain-of-thought (CoT) obfuscation: an operational, non-intentional outcome where task reward or accuracy rises while traces become less grounded and monitorable. Prior work largely documents this decay behaviorally, leaving its representation-level correlates and actionable controls unclear. We find that template- and ground-associated activations become less separable during RL; matched interventions support the contribution of selected features to monitorability degradation. Guided by this evidence, we propose Targeted Anti-obfuscation with Mechanistic Enforcement (TAME), which uses Sparse Autoencoders (SAEs) to combine behavioral feedback with targeted suppression of template-associated activations during RL. Its asymmetric constraint penalizes template activations only above their pre-RL baseline, anchoring the localized features while behavioral feedback promotes grounded refinements. Across VIRL-39k, SPA-VL, and two model families, TAME improves CoT monitorability by up to 30.9 and 16.7 percentage points over Group Relative Policy Optimization (GRPO), respectively. Blinded human evaluation finds higher human monitorability on both datasets, and two held-out monitor families reproduce the monitorability gains. Task accuracy changes are small and mixed, and general-capability benchmarks show task-specific trade-offs. These results provide a path from behavioral monitoring to representation-level oversight for more auditable RL-trained multimodal systems.",
-      "url": "https://doi.org/10.48550/arxiv.2609.24243",
-      "pdf_url": "https://arxiv.org/pdf/2609.24243",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Model editing internal representations",
-        "SAE steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214018543",
-        "doi": "10.48550/arxiv.2609.24243",
-        "cited_by_count": 0
-      },
-      "relevance_score": 12
-    },
-    {
-      "id": "doi:10.48550/arxiv.2609.24066",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Efficient Reasoning Exploration via State-Conditioned Latent Steering with Progress Guidance",
-      "authors": [
-        "Hengyuan Zhang",
-        "Chenming Shang",
-        "Zunhai Su",
-        "Xiao Liang",
-        "Hui Shen",
-        "Jing Xiong",
-        "Dawei Li",
-        "Shiping Yang",
-        "Kailai Yang",
-        "Wei Zhang",
-        "Ruobing Xie",
-        "Hayden Kwok-Hay So",
-        "Ngai Wong"
-      ],
-      "published": "2026-09-21",
-      "updated": "2026-09-26",
-      "categories": [
-        "Computer science",
-        "Cover (algebra)",
-        "Inference",
-        "Key (lock)",
-        "OpenAlex"
-      ],
-      "abstract": "Best-of-$N$ is a widely used inference strategy for complex reasoning, whose effectiveness depends on whether sampled candidates can cover diverse and high-quality reasoning paths. However, post-trained reasoning models often suffer from \\emph{exploration collapse}, where independent rollouts repeatedly follow similar reasoning paths and limit the gains from increasing the rollout budget. Existing methods alleviate this issue by promoting broader exploration, but do not explicitly guide exploration toward continuations that make meaningful progress, resulting in limited exploration efficiency. To address this, we propose \\emph{\\underline{S}tate-conditioned \\underline{P}rogress-guided \\underline{S}teering} (SPS), a training-free latent steering framework. Specifically, SPS constructs a state-conditioned Direction Bank containing multiple progress-guided steering vectors for different prefix-state regions. During online inference, SPS retrieves a suitable steering vector based on the current prefix state and applies it at high-uncertainty transitions to guide the next reasoning step toward meaningful progress. Extensive experiments across multiple model scales and benchmarks demonstrate that SPS consistently outperforms strong baselines. Further analyses validate the effectiveness of its key designs and offer valuable insights for future research. The code is available at https://github.com/rattlesnakey/SPS.",
-      "url": "https://doi.org/10.48550/arxiv.2609.24066",
-      "pdf_url": "https://arxiv.org/pdf/2609.24066",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Feature latent concept steering",
-        "Mechanistic interpretability steering",
-        "Persona sentiment attribute steering",
-        "Reasoning and CoT steering",
-        "Representation engineering",
-        "Steering vectors",
-        "VLM multimodal steering"
-      ],
-      "code_urls": [
-        "https://github.com/rattlesnakey/SPS"
-      ],
-      "openalex": {
-        "id": "https://openalex.org/W7214015595",
-        "doi": "10.48550/arxiv.2609.24066",
-        "cited_by_count": 0
-      },
-      "relevance_score": 9
     },
     {
       "id": "doi:10.48550/arxiv.2609.23979",
@@ -2107,6 +2402,45 @@
       "relevance_score": 11
     },
     {
+      "id": "2609.21662",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "When Steering Fails in Latent Reasoning: A Latent-to-Language Transition Gap",
+      "authors": [
+        "Gaoxiang Huang",
+        "Lei Qi"
+      ],
+      "published": "2026-09-18",
+      "updated": "2026-09-27",
+      "categories": [
+        "Computer science",
+        "Extension (predicate logic)",
+        "OpenAlex",
+        "Task (project management)",
+        "Transition (genetics)"
+      ],
+      "abstract": "Activation steering has become a widely used approach for controlling language models during explicit chain-of-thought (CoT) reasoning, motivating its extension to latent CoT. However, we find that steering continuous thoughts produces substantially weaker effects on subsequent language generation than steering explicit CoT, even when the hidden representations are moved by comparable amounts. We first show that task information remains identifiable in continuous thoughts. Hence, we hypothesize a \\textbf{latent-to-language transition gap}, in which an intervention effect in latent space fails to transfer to language generation. Two further results support this hypothesis: the output distribution changes abruptly at the transition boundary, and task-related directions exert much weaker bidirectional control in latent CoT than in explicit CoT. These findings identify the transition interface as a central target for evaluating and designing future latent-steering methods.",
+      "url": "https://arxiv.org/abs/2609.21662",
+      "pdf_url": "https://arxiv.org/pdf/2609.21662",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact",
+        "Feature latent concept steering",
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213863751",
+        "doi": "10.48550/arxiv.2609.21662",
+        "cited_by_count": 0
+      },
+      "relevance_score": 8
+    },
+    {
       "id": "2609.22522",
       "source": "openalex",
       "sources": [
@@ -2146,45 +2480,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 10
-    },
-    {
-      "id": "2609.21662",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "When Steering Fails in Latent Reasoning: A Latent-to-Language Transition Gap",
-      "authors": [
-        "Gaoxiang Huang",
-        "Lei Qi"
-      ],
-      "published": "2026-09-18",
-      "updated": "2026-09-26",
-      "categories": [
-        "Computer science",
-        "Extension (predicate logic)",
-        "OpenAlex",
-        "Task (project management)",
-        "Transition (genetics)"
-      ],
-      "abstract": "Activation steering has become a widely used approach for controlling language models during explicit chain-of-thought (CoT) reasoning, motivating its extension to latent CoT. However, we find that steering continuous thoughts produces substantially weaker effects on subsequent language generation than steering explicit CoT, even when the hidden representations are moved by comparable amounts. We first show that task information remains identifiable in continuous thoughts. Hence, we hypothesize a \\textbf{latent-to-language transition gap}, in which an intervention effect in latent space fails to transfer to language generation. Two further results support this hypothesis: the output distribution changes abruptly at the transition boundary, and task-related directions exert much weaker bidirectional control in latent CoT than in explicit CoT. These findings identify the transition interface as a central target for evaluating and designing future latent-steering methods.",
-      "url": "https://arxiv.org/abs/2609.21662",
-      "pdf_url": "https://arxiv.org/pdf/2609.21662",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation steering exact",
-        "Feature latent concept steering",
-        "Persona sentiment attribute steering",
-        "Reasoning and CoT steering",
-        "Representation engineering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7213863751",
-        "doi": "10.48550/arxiv.2609.21662",
-        "cited_by_count": 0
-      },
-      "relevance_score": 8
     },
     {
       "id": "doi:10.5281/zenodo.22837562",
@@ -6683,7 +6978,7 @@
         "ceceli33"
       ],
       "published": "2026-09-05",
-      "updated": "2026-09-26",
+      "updated": "2026-09-27",
       "categories": [
         "Acoustics",
         "Algorithm",
@@ -6693,14 +6988,17 @@
         "Computer science",
         "Control theory (sociology)",
         "Interference (communication)",
+        "Layer (electronics)",
         "Natural (archaeology)",
         "OpenAlex",
         "Parallel computing",
         "Physics",
         "Representation (politics)",
         "Resonance (particle physics)",
+        "Security token",
         "Semantics (computer science)",
-        "Sequence (biology)"
+        "Sequence (biology)",
+        "TRACE (psycholinguistics)"
       ],
       "abstract": "Inference-time activation steering kernel for transformer models. C++ implementation with critically damped resonance alignment. DOI: 10.5281/zenodo.21356271",
       "url": "https://doi.org/10.5281/zenodo.21356270",
