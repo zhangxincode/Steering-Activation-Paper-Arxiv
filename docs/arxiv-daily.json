@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-10-03T08:46:42+00:00",
+  "generated_at": "2026-10-04T08:57:32+00:00",
   "papers": [
+    {
+      "id": "doi:10.64898/2026.09.27.754758",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Auditing Protein-Protein Interaction Signals with Sparse Autoencoder Fingerprints",
+      "authors": [
+        "Weimin Zhu",
+        "Shengfan Wang",
+        "Xiaojian Liu",
+        "Yiming Xue",
+        "Hong-Bin Shen",
+        "Badong Chen",
+        "Xiaoyong Pan"
+      ],
+      "published": "2026-10-02",
+      "updated": "2026-10-03",
+      "categories": [
+        "OpenAlex",
+        "Computer science",
+        "Benchmark (surveying)",
+        "Feature (linguistics)",
+        "Benchmarking"
+      ],
+      "abstract": "Protein language models have become a dominant foundation for sequence-based protein-protein interaction (PPI) prediction, but their generalization remains limited under stringent evaluation, and benchmark accuracy alone cannot reveal whether a PPI predictor learns partner-specific biological signals or exploits contextual shortcuts. Here we introduce AuditPPI, an interpretable framework that transforms sparse-autoencoder (SAE) features from a frozen protein language model into order-invariant pair fingerprints, recasting PPI prediction as an auditable tabular-learning problem. AuditPPI achieves competitive predictive performance across diverse PPI benchmarks while enabling multiscale auditing of the information supporting its predictions. Protein-level audits show that partner-independent participation signals remain substantial in conventional benchmarks, including protein-disjoint benchmark, but are largely insufficient for pair-level discrimination in topology- and degree-controlled benchmark. Pair-level analyses further show that removing protein identity overlap does not eliminate contextual structure: protein-disjoint benchmarking retains strong subcellular co-localization signals and benchmark-dependent feature matching captured by SAE co-activation and absolute-difference. Structural analyses, however, provide little evidence that these predictive signals are specifically grounded in PPI interfaces: feature enrichment at interfaces for protein-disjoint benchmark was no longer detectable after controlling for surface exposure, and contact-specific enrichment was observed for only a small fraction of testable SAE feature pairs. AuditPPI therefore separates predictive success from mechanistic fidelity and provides a practical framework for evaluating whether sequence-based PPI predictors capture partner-specific biological signals instead of contextual shortcuts.",
+      "url": "https://doi.org/10.64898/2026.09.27.754758",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7216499603",
+        "doi": "10.64898/2026.09.27.754758",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
     {
       "id": "doi:10.5281/zenodo.23073389",
       "source": "openalex",
@@ -12,7 +52,7 @@
         "Yoko Hasebe"
       ],
       "published": "2026-10-01",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Computer science",
         "Eavesdropping",
@@ -36,6 +76,40 @@
       "relevance_score": 7
     },
     {
+      "id": "doi:10.5281/zenodo.21137825",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Interference modes: a blind-predictive input law for sparse-autoencoder feature interference, tested across transformer families",
+      "authors": [
+        "Nathan Ryan Young"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-03",
+      "categories": [
+        "OpenAlex",
+        "Feature (linguistics)",
+        "Interference (communication)",
+        "Algorithm",
+        "Statistic"
+      ],
+      "abstract": "This paper takes the resummed interference law of the companion papers out of designed worlds and into real language models: the feature activations of sparse autoencoders (SAEs) on GPT-2-small (two SAE families), Pythia-70m, and Gemma-2-2b. Everything is measured input statistics; nothing is ever fitted to a loss curve; every numeric prediction is committed to a hash-verifiable git record before measurement. Three results. First, a universal mean law with a named boundary: an eight-regime doubly-stochastic input summary (~50 numbers plus marginals) blind-predicts the mean interference curve to 8.3%, 14.8%, and 4.5% on the GPT-2 and Gemma families, but fails on Pythia-70m by 37%, reproducibly -- and diagnostics locate the failure exactly (the top 1% of tokens carry 88-99% of all interference energy; the mean is the tail). Second, an exclusion set: six pre-registered mechanisms for that tail structure (pairwise co-firing, a shared probit factor, rank-1 count loadings, a token-global Gaussian value copula, Gram-cluster value copulas killed by a random-cluster control, and count-conditioned marginals) all fail, several while demonstrably reproducing the statistic they were built to inject. Third, the repair, blind: the extreme tokens of a 70m model compress into ~16 recurring interference modes (joint activation-value prototypes), and a 64-mode-per-regime mixture predicts the full interference curve on a virgin document slice -- predictions sealed before harvest, feature geometry regenerated bit-exactly (max|dG|=0) -- to 0.6% (GPT-2, shape r 1.0000) and 3.8% (Pythia, r 0.9999), where the plain law gives 6.4% and 38.1%. Modes are input physics, not overfitting: fitted on one slice of text they transfer to unseen text at sub-percent accuracy and repair the law's one known boundary. One object remains open and is stated with its exclusions: the per-token median (typical-token interference), whose live signature is geometry-aligned value tail dependence at 3.6x independence. Six of fourteen experiments ended in kills, all published with post-mortems. Author contribution and use of AI: designs, diagnostic batteries, harness code, and manuscript developed in collaboration with Claude (Anthropic) under the author's direction; a stopping rule and framing corrections imposed by external critique are banked verbatim in the record. The author is responsible for the content.",
+      "url": "https://doi.org/10.5281/zenodo.21137825",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7167052947",
+        "doi": "10.5281/zenodo.21137825",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
       "id": "doi:10.3390/a19100839",
       "source": "openalex",
       "sources": [
@@ -54,13 +128,13 @@
         "Wu Bo"
       ],
       "published": "2026-10-01",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
-        "OpenAlex",
-        "Evolutionary algorithm",
         "Computer science",
         "Core (optical fiber)",
-        "Key (lock)"
+        "Evolutionary algorithm",
+        "Key (lock)",
+        "OpenAlex"
       ],
       "abstract": "Large-scale multi-objective optimization problems involve high-dimensional decision variables, vast search spaces, and conflicting objectives, which often lead to slow convergence, premature convergence, and poorly distributed solutions when conventional evolutionary algorithms operate under limited evaluation budgets. To address these challenges, this study proposes DT-MLCEA (Digital Twin-Multi-Layer Cooperative Evolutionary Algorithm), a digital twin-driven, multi-layer cooperative evolutionary algorithm. The method uses evolutionary search as its core and introduces a search-state-oriented digital twin feedback mechanism that jointly models convergence trends, diversity, distribution sparsity, stagnation, and state confidence. A multi-source adaptive control vector (MACV) is then generated to adjust key search parameters dynamically. The digital twin layer further integrates Mini-RL, Mini-AE, and Mini-Meta to refine its control recommendations and balance global exploration with local exploitation. DT-MLCEA is evaluated against LMEA, QLMGO, AMSLMOEA, and MOEA/D-RDG on LSMOP1-LSMOP9 with 100, 500, 1000, and 5000 decision variables. Across 36 problem-dimension combinations, DT-MLCEA significantly outperforms the competing algorithms in terms of HV and IGD in 28 and 24 combinations, respectively. Extended experiments on LSMOP1-LSMOP3 indicate stable performance with up to 50,000 variables. Ablation, noisy-evaluation, and parameter-sensitivity analyses further demonstrate the effectiveness of the collaborative modules.",
       "url": "https://doi.org/10.3390/a19100839",
@@ -93,7 +167,7 @@
         "David Lo"
       ],
       "published": "2026-10-01",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Code (set theory)",
         "Computer science",
@@ -136,13 +210,13 @@
         "Xiuzhen Cheng"
       ],
       "published": "2026-10-01",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
-        "OpenAlex",
-        "Computer science",
+        "Artificial intelligence",
         "Bottleneck",
-        "Vulnerability (computing)",
-        "Artificial intelligence"
+        "Computer science",
+        "OpenAlex",
+        "Vulnerability (computing)"
       ],
       "abstract": "Software vulnerabilities are a primary threat to modern infrastructure. While static analysis and Graph Neural Networks have long served as the foundation for vulnerability detection, the emergence of Large Language Models (LLMs) has introduced a transformative paradigm driven by superior semantic reasoning and cross-environment generalization. However, in the context of LLM-based vulnerability detection, we identify a fundamental bottleneck in these models termed Signal Submersion : a state where features related to vulnerability are activated internally but numerically overwhelmed by dominant functional semantics. To address this, we propose SAGE ( S ignal- A mplified G uided E mbeddings), a framework that shifts from passive signal submersion to active signal recovery. SAGE integrates task-conditional Sparse Autoencoders (SAEs) to isolate and amplify these faint vulnerability signals. Extensive evaluations on BigVul, PrimeVul, and PreciseBugs demonstrate that SAGE achieves state-of-the-art performance. Notably, SAGE mitigates Signal Submersion by increasing the internal Signal-to-Noise Ratio (SNR) by 12.7× via sparse manifold projection. This mechanistic intervention enables a 7B model to achieve up to 318% Matthews Correlation Coefficient (MCC) gains on unseen distributions and a 319% gain on classic datasets. By maintaining robust performance across 13 programming languages and outperforming 34B baselines, SAGE establishes a more efficient and scalable path to software security than simple parameter scaling.",
       "url": "https://doi.org/10.1145/3832141",
@@ -160,45 +234,6 @@
       "relevance_score": 9
     },
     {
-      "id": "doi:10.1145/3832130",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Don’t Use a Cannon to Kill a Fly: Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations",
-      "authors": [
-        "Guancheng Lin",
-        "Xiao Yu",
-        "Jacky Keung",
-        "Xing Hu",
-        "Xin Xia",
-        "Alex X. Liu"
-      ],
-      "published": "2026-10-01",
-      "updated": "2026-10-02",
-      "categories": [
-        "OpenAlex",
-        "Computer science",
-        "Python (programming language)",
-        "Programming language",
-        "Code (set theory)"
-      ],
-      "abstract": "Pre-trained or fine-tuned on large code corpora, Large Language Models (LLMs) have demonstrated strong performance in code completion tasks. However, their embedded knowledge is constrained by the timeliness of training data, which often includes code using deprecated APIs. Consequently, LLMs frequently generate deprecated APIs that will no longer be supported in future versions of third-party libraries. While retraining LLMs on updated codebases could refresh their API knowledge, this approach is computationally expensive. Recently, lightweight model editing methods have emerged to efficiently correct specific knowledge in LLMs. However, it remains unclear whether these methods can effectively update deprecated API knowledge and enable edited models to generate up-to-date APIs. To address this gap, we conduct the first systematic study applying 10 state-of-the-art model editing techniques to update deprecated API knowledge in three LLMs: Qwen2.5-Coder, CodeGemma, and DeepSeek-Coder. We introduce EDAPIBench, a dedicated benchmark featuring over 70 deprecated APIs from 8 popular Python libraries, with more than 3,000 editing instances. Our results show that the parameter-efficient fine-tuning method AdaLoRA achieves the best performance in enabling edited models to generate correct, up-to-date APIs, but falls short in Specificity (i.e., the editing influences untargeted knowledge). To resolve this, we propose AdaLoRA-L, which defines \"Common API Layers\" (layers within the LLMs with high importance across all APIs, storing general knowledge and excluded from editing) and restricts edits exclusively to \"Specific API Layers\" (layers with high importance only for the target API, storing the API-specific knowledge). Experimental results demonstrate that AdaLoRA-L significantly improves Specificity while maintaining comparable performance across other evaluation metrics.",
-      "url": "https://doi.org/10.1145/3832130",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Model editing internal representations"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W4416784159",
-        "doi": "10.1145/3832130",
-        "cited_by_count": 0
-      },
-      "relevance_score": 8
-    },
-    {
       "id": "doi:10.1016/j.compbiolchem.2026.109438",
       "source": "openalex",
       "sources": [
@@ -209,7 +244,7 @@
         "Ihor Kendiukhov"
       ],
       "published": "2026-10-01",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Artificial intelligence",
         "Interpretability",
@@ -248,7 +283,7 @@
         "Shengguo Shi"
       ],
       "published": "2026-10-01",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Calibration",
         "Capon",
@@ -276,7 +311,8 @@
       "id": "2610.02189",
       "source": "arxiv",
       "sources": [
-        "arxiv"
+        "arxiv",
+        "openalex"
       ],
       "title": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
       "authors": [
@@ -292,8 +328,13 @@
         "Grant M. Rotskoff"
       ],
       "published": "2026-10-01",
-      "updated": "2026-10-01",
+      "updated": "2026-10-03",
       "categories": [
+        "Artificial intelligence",
+        "Autoencoder",
+        "Computer science",
+        "OpenAlex",
+        "Sequence (biology)",
         "cs.LG"
       ],
       "abstract": "Intrinsically disordered protein regions (IDRs) play central roles in cellular processes such as transcriptional regulation, signal transduction, and subcellular localization, yet their functional design remains challenging. Structure-based design methods do not readily apply to IDRs, and existing protein language models are trained on full-length protein sequences, thus learning a prior that is biased towards folded domains. Here, we present IDiom, an autoregressive protein language model trained on IDiom-DB, a dataset of 54 million predicted IDRs curated from the AlphaFold Database. IDiom generates diverse sequences that recapitulate the composition, patterning, motifs, and predicted disorder of natural IDRs. To control function-associated sequence patterns, we also introduce reinforcement learning with sparse autoencoder features (RL-SAE), a post-training method that rewards the generation of sequences that activate specified feature sets. Across eight IDR design tasks, RL-SAE sequences activate, on average, 90% of 30 targeted features, compared to 24% for activation steering. We demonstrate that RL-SAE improves the predicted subcellular localization and transcriptional activity of generated IDRs compared to steering and supervised fine-tuning, and enables features associated with distinct biological functions to be combined within individual sequences. Thus, IDiom and RL-SAE enable interpretable and composable IDR design through explicit control of function-associated sequence features. More broadly, RL-SAE could extend to other protein design settings where interpretable features provide useful design targets. Code is available at https://github.com/rotskoff-group/idiom.",
@@ -302,18 +343,25 @@
       "primary_category": "cs.LG",
       "source_queries": [
         "Activation steering exact",
-        "SAE steering"
+        "SAE steering",
+        "Safety refusal behavior steering"
       ],
       "code_urls": [
         "https://github.com/rotskoff-group/idiom"
       ],
-      "relevance_score": 11
+      "relevance_score": 11,
+      "openalex": {
+        "id": "https://openalex.org/W7216359772",
+        "doi": "10.48550/arxiv.2610.02189",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "2610.01989",
       "source": "arxiv",
       "sources": [
-        "arxiv"
+        "arxiv",
+        "openalex"
       ],
       "title": "Continual Concept Erasure in Diffusion Models by Suppressing Cross-Edit Interference",
       "authors": [
@@ -325,8 +373,13 @@
         "Yaoyao Liu"
       ],
       "published": "2026-10-01",
-      "updated": "2026-10-01",
+      "updated": "2026-10-03",
       "categories": [
+        "Computer science",
+        "Erasure",
+        "Interference (communication)",
+        "OpenAlex",
+        "Subspace topology",
         "cs.CV"
       ],
       "abstract": "Concept erasure removes copyright-protected, privacy-sensitive, or otherwise undesirable concepts from pretrained text-to-image diffusion models to support content governance and compliance. As erasure requests arrive over time, models must remove new targets without undoing prior erasures. Existing methods do not constrain interference across edits: residual perturbations outside the retain set interact and accumulate, degrading unrelated generations and sometimes collapsing previously erased targets into noise. We propose CEASE (Continual Erasure via Adaptive Subspace Editing), a training-free method that imposes two subspace constraints on a closed-form solver. CEASE adds the token representation of the shared replacement to the solver's invariance matrix and, when interference is detected, projects the current update onto the orthogonal complement of dominant output directions extracted from cumulative past updates. A closed-form decomposition attributes the accumulated interference to repeated activation of the shared replacement and overlap between successive update directions, showing that the two constraints suppress these respective sources. Across continual erasure of celebrities, artistic styles, and instances, CEASE achieves the most consistent erase-preserve trade-off, while existing methods either degrade general generation or insufficiently erase targets.",
@@ -337,13 +390,19 @@
         "Feature latent concept steering"
       ],
       "code_urls": [],
-      "relevance_score": 4
+      "relevance_score": 4,
+      "openalex": {
+        "id": "https://openalex.org/W7216028756",
+        "doi": "10.48550/arxiv.2610.01989",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "2610.01969",
       "source": "arxiv",
       "sources": [
-        "arxiv"
+        "arxiv",
+        "openalex"
       ],
       "title": "RASteer: Retain-Aware Activation Steering for Concept Erasure in Diffusion Models",
       "authors": [
@@ -355,8 +414,13 @@
         "Yaoyao Liu"
       ],
       "published": "2026-10-01",
-      "updated": "2026-10-01",
+      "updated": "2026-10-03",
       "categories": [
+        "Computer science",
+        "Erasure",
+        "OpenAlex",
+        "Representation (politics)",
+        "Subspace topology",
         "cs.CV"
       ],
       "abstract": "Concept erasure aims to remove a target concept, such as a copyrighted style, a recognizable character, or unsafe content, from a pretrained text-to-image diffusion model while preserving its ability to generate other content. Existing activation steering methods build an erasure direction mainly from the target concept and adjust model activations along it at inference time. However, target and retained concepts often overlap in the model's representation space, so this direction also contains shared components that retained concepts rely on. Steering directly along this direction can therefore suppress retained concepts and harm the generation of non-target content. To address this issue, we propose Retain-aware Activation Steering (RASteer), a training-free method. RASteer first builds a retain subspace from the concepts to preserve. Retain-Orthogonal Steering (ROS) then removes components aligned with this subspace from the erasure direction, making steering more specific to the target. Since fully removing the shared components can weaken erasure, we further introduce Overlap-Adaptive Calibration (OAC). At each layer and denoising step, OAC uses the overlap between the erasure direction and the retain subspace to control how much of each shared component is removed, balancing target erasure and concept preservation. Experiments on unsafe-content, instance, and artistic-style erasure across multiple backbones and benchmarks show that RASteer matches or outperforms the activation steering and weight editing baselines we evaluate, achieving a better balance between erasure and preservation.",
@@ -370,6 +434,300 @@
         "Safety refusal behavior steering"
       ],
       "code_urls": [],
+      "relevance_score": 8,
+      "openalex": {
+        "id": "https://openalex.org/W7216036359",
+        "doi": "10.48550/arxiv.2610.01969",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.01595",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Before It Fades: Reinforcing Temporal Representations at Inference Time in VideoLLMs",
+      "authors": [
+        "Youngwoo Shin",
+        "Yusung Ro",
+        "Minseo Kim",
+        "Junmo Kim"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-03",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Divergence (linguistics)",
+        "Inference",
+        "OpenAlex",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Video Large Language Models (VideoLLMs) receive frames in sequential order and interpret how visual content evolves along the temporal axis, yet temporal reasoning remains a persistent weakness across architectures. Reversing the frame order of a video, a transformation that should invert temporal answers, often leaves the final prediction unchanged. We investigate where this failure originates by defining the temporal divergence vector $τ_l$, the layer-wise representational difference induced by reversing temporal order. Tracking its magnitude across layers reveals a consistent temporal divergence profile where the divergence peaks at intermediate layers and progressively diminishes toward the output. We confirm this peak is specific to temporal reasoning and functionally critical for predictions, establishing that VideoLLMs acquire temporal information at intermediate layers but fail to maintain it to the output. This progressive fading motivates our method, Temporal Activation Injection (TAI), which extracts $τ_l$ at the peak of the profile for each input and reinjects it into subsequent layers following the measured decay. TAI requires no training and consistently improves temporal reasoning across three VideoLLMs and four benchmarks with negligible impact on non-temporal tasks. Code is available at https://github.com/Youngwoo-git/Before-It-Fades.",
+      "url": "https://arxiv.org/abs/2610.01595",
+      "pdf_url": "https://arxiv.org/pdf/2610.01595",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Activation intervention and patching"
+      ],
+      "code_urls": [
+        "https://github.com/Youngwoo-git/Before-It-Fades"
+      ],
+      "relevance_score": 11,
+      "openalex": {
+        "id": "https://openalex.org/W7216080200",
+        "doi": "10.48550/arxiv.2610.01595",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.01522",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Langevin-Informed Transfer Learning: Replacing Target Samples by Black-Box Feedback",
+      "authors": [
+        "Vladimir R. Kostic",
+        "Karim Lounici",
+        "Hélène Halconruy",
+        "Timothée Devergne",
+        "Michele Parrinello",
+        "Massimiliano Pontil"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-03",
+      "categories": [
+        "Computer science",
+        "Generalization",
+        "Generator (circuit theory)",
+        "OpenAlex",
+        "Representation (politics)",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "Many scientific and machine learning systems, from molecular dynamics to diffusion models and beyond, are governed by stochastic dynamics with low-dimensional structure, evolving on slow timescales. However, target trajectories, used to identify and interpret such dynamics, are often inaccessible: only biased or static samples that explore the underlying manifold are available. We introduce Langevin-Informed Transfer Learning (LITL), a framework for recovering target Langevin dynamics from biased source samples using only black-box feedback. LITL learns the leading spectral structure of the target infinitesimal generator and the projected drift through Dirichlet representation learning, enabling kinetic reconstruction in spectral form and slow-manifold gradient field estimation. We further introduce a spherical variant well suited to steering normalized latent representations commonly used in learning systems toward desired objectives. We establish finite-sample guarantees for eigenvalue, eigenfunction, and projected drift estimation in Sobolev norms, thereby ensuring generalization of these quantities and their first-order derivatives. Empirically, LITL recovers physical transition timescales from biased molecular simulations, builds kinetic structure from static samples of generative models, reconstructs spherical symmetries of physical systems, and enables post-hoc latent steering of trained neural networks under black-box feedback. Together, these results position spectral operator learning as a practical framework for recovering stochastic dynamics under distribution shift and unlock applications across machine learning and the physical sciences.",
+      "url": "https://arxiv.org/abs/2610.01522",
+      "pdf_url": "https://arxiv.org/pdf/2610.01522",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Feature latent concept steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 7,
+      "openalex": {
+        "id": "https://openalex.org/W7216343143",
+        "doi": "10.48550/arxiv.2610.01522",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.01302",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "STAGE: Subspace-Targeted Affine Generative Erasure for Text-to-3D Models",
+      "authors": [
+        "Karol Dziekan",
+        "Przemysław Spurek",
+        "Dawid Malarz"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-03",
+      "categories": [
+        "Affine transformation",
+        "Computer science",
+        "Erasure",
+        "Object (grammar)",
+        "OpenAlex",
+        "cs.CV"
+      ],
+      "abstract": "Concept erasure suppresses a target concept while preserving behavior on unrelated inputs. Existing closed-form methods were designed for 2D image diffusion and assume a single generative pathway, so one edit must cover geometry and texture at once. Native 3D generators, which synthesize structured 3D representations directly rather than by lifting 2D samples, violate this assumption. We show that shape and object concepts must be erased in the structural stage of the pipeline and material concepts in the appearance stage. We therefore formulate erasure in native text-to-3D as a stage-aware editing problem and introduce STAGE, a training-free, closed-form framework. STAGE confines each edit to the low-dimensional subspace spanned by the differences between erase and anchor embeddings, and relaxes the norm-preserving (orthogonal) constraint of prior editors into a least-squares affine correction that maps target activations onto safe anchors subject to a penalty on the displacement of retained prompts. The correction applies to the structural stage, the appearance stage, or both. We find that the stage an edit must reach is determined by concept type. On TRELLIS, the standard open native 3D generator, across 15 shape, material, and object concepts, STAGE reaches 66.7 on a composite score that balances forgetting the target concept against preserving everything else, aggregating CLIP-based semantic and physical metrics, versus 53.2 for the strongest adapted baseline. Code: https://github.com/gmum/STAGE/ Project Page https://gmum.github.io/STAGE/",
+      "url": "https://arxiv.org/abs/2610.01302",
+      "pdf_url": "https://arxiv.org/pdf/2610.01302",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Feature latent concept steering"
+      ],
+      "code_urls": [
+        "https://github.com/gmum/STAGE/"
+      ],
+      "relevance_score": 4,
+      "openalex": {
+        "id": "https://openalex.org/W7216422386",
+        "doi": "10.48550/arxiv.2610.01302",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.01170",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "HeadEdit: Calibrating Language Model Behavior Through the Frozen Unembedding Matrix",
+      "authors": [
+        "Zirui He",
+        "Haiyan Zhao",
+        "Jingyu Hu",
+        "Yinghao Wu",
+        "Chenxi Yuan",
+        "Yingcong Li",
+        "Yandong Bai",
+        "Mengnan Du"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-03",
+      "categories": [
+        "Computer science",
+        "Inference",
+        "OpenAlex",
+        "Representation (politics)",
+        "Subspace topology",
+        "cs.CL"
+      ],
+      "abstract": "Alignment does not eliminate behavioral errors in language models. Models may still refuse benign requests, call unnecessary tools, or yield to false user claims. Current methods mitigate such errors as a computation problem, and rarely explore if the desired behavior is already encoded in the model's representation. Motivated by the observation that behavior-relevant information remains linearly decodable from the final hidden state even when the resulting logits produce the undesired behavior, we introduce HeadEdit, a gradient-free method that calibrates model behavior through the unembedding matrix. HeadEdit extracts a low-rank behavioral subspace from paired completions and uses each prompt's coordinates within it to generate a vocabulary-wide correction, thereby implementing implicitly adaptive steering without manually specified target tokens or parameter updates. HeadEdit improves all nine experimental settings across three tasks and three model families, with negligible inference overhead and no systematic loss of general capabilities. It also reveals a connection to gradient-based alignment. HeadEdit's low-dimensional representation partly predicts how preference tuning changes output logits on unseen prompts. The subspace learned from the model can also be reused after tuning, improving performance without re-extracting or retuning. These results show that HeadEdit provides a practical, lightweight, and interpretable way to calibrate model behavior through the unembedding matrix.",
+      "url": "https://arxiv.org/abs/2610.01170",
+      "pdf_url": "https://arxiv.org/pdf/2610.01170",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 5,
+      "openalex": {
+        "id": "https://openalex.org/W7216234783",
+        "doi": "10.48550/arxiv.2610.01170",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.01062",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Kernelized Activation Steering",
+      "authors": [
+        "Laziz U. Abdullaev",
+        "Minh-Hieu Pham",
+        "Bach Do",
+        "Khoat Than",
+        "Tan M. Nguyen"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-03",
+      "categories": [
+        "Computer science",
+        "Kernel (algebra)",
+        "Limiting",
+        "OpenAlex",
+        "Position (finance)",
+        "cs.LG"
+      ],
+      "abstract": "Activation steering provides a simple, training-free mechanism for controlling attributes of generative models such as sentiment, style, and helpfulness. However, standard approaches such as Difference-in-Means apply a single input-independent steering vector across all activations, limiting expressivity and ignoring the local geometry of the activation space. We propose Kernelized Activation Steering (KAS), a unifying framework that lifts activation steering into a reproducing kernel Hilbert space. KAS formulates steering as an optimization problem expressed purely via kernel evaluations, yielding an implicit, activation-dependent steering score without constructing explicit feature maps. Unlike DiM, KAS induces locally adaptive steering: each activation is modified according to its relative position with respect to source and target reference sets, producing a nonlinear steering field over the representation space. Importantly, DiM is recovered as a special case under a linear kernel, while richer kernels enable geometry-aware interventions. Across standard activation steering tasks, including jailbreaking LLMs and image style control, KAS outperforms or is on par with the existing methods.",
+      "url": "https://arxiv.org/abs/2610.01062",
+      "pdf_url": "https://arxiv.org/pdf/2610.01062",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "Safety refusal behavior steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 14,
+      "openalex": {
+        "id": "https://openalex.org/W7216442303",
+        "doi": "10.48550/arxiv.2610.01062",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.00910",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "The Geometry of Contextual Relations: Language Models Address Facts by Order of Mention",
+      "authors": [
+        "Yufa Zhou"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-03",
+      "categories": [
+        "Computer science",
+        "Context (archaeology)",
+        "OpenAlex",
+        "Order (exchange)",
+        "State (computer science)",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Human reasoning depends on how objects are related within propositions. \\textit{How do relations organize the language representations of contextual contents?} We give an LLM a list of facts in its context (e.g., \\emph{Alice eats an apple. Bob eats a pear.}) and measure how its hidden state changes when the question switches from what Alice eats to what Bob eats. Averaged over many lists, this change is a steering vector, which we call the \\emph{ordinal vector}. It points to a fact by its \\emph{order of mention}, the order in which the facts were stated in the context. We find that LLMs represent the fact a question asks about by its order of mention, not by the name the question contains. We state this as the \\textit{ordinal addressing hypothesis}: each order of mention has a \\emph{fact address} in the model's state, shared by all contexts, and a question moves the state to the fact address of the fact it asks about, while the context supplies what that fact says. Across Qwen, Gemma, and Llama, fact addresses are (1) \\emph{ordered by mention}: query states are organized by the order of facts, not of names, even when one fact has multiple subjects; (2) \\emph{steerable}: added to a question about the first fact of a new list, the ordinal vector makes the model answer with the second fact of that list; (3) \\emph{low-rank}: they span a low-rank subspace in which the first-mentioned fact is the easiest to reach, surprisingly similar to human recall; and (4) \\emph{emergent}: they are shared in late-middle layers, hold from 1.5B to 32B parameters, and form early in pretraining. Language models reach a stated fact by where it was mentioned, deepening our understanding of LLM reasoning.",
+      "url": "https://arxiv.org/abs/2610.00910",
+      "pdf_url": "https://arxiv.org/pdf/2610.00910",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Reasoning and CoT steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 11,
+      "openalex": {
+        "id": "https://openalex.org/W7215783744",
+        "doi": "10.48550/arxiv.2610.00910",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "doi:10.1145/3832130",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Don’t Use a Cannon to Kill a Fly: Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations",
+      "authors": [
+        "Guancheng Lin",
+        "Xiao Yu",
+        "Jacky Keung",
+        "Xing Hu",
+        "Xin Xia",
+        "Alex X. Liu"
+      ],
+      "published": "2026-10-01",
+      "updated": "2026-10-02",
+      "categories": [
+        "Code (set theory)",
+        "Computer science",
+        "OpenAlex",
+        "Programming language",
+        "Python (programming language)"
+      ],
+      "abstract": "Pre-trained or fine-tuned on large code corpora, Large Language Models (LLMs) have demonstrated strong performance in code completion tasks. However, their embedded knowledge is constrained by the timeliness of training data, which often includes code using deprecated APIs. Consequently, LLMs frequently generate deprecated APIs that will no longer be supported in future versions of third-party libraries. While retraining LLMs on updated codebases could refresh their API knowledge, this approach is computationally expensive. Recently, lightweight model editing methods have emerged to efficiently correct specific knowledge in LLMs. However, it remains unclear whether these methods can effectively update deprecated API knowledge and enable edited models to generate up-to-date APIs. To address this gap, we conduct the first systematic study applying 10 state-of-the-art model editing techniques to update deprecated API knowledge in three LLMs: Qwen2.5-Coder, CodeGemma, and DeepSeek-Coder. We introduce EDAPIBench, a dedicated benchmark featuring over 70 deprecated APIs from 8 popular Python libraries, with more than 3,000 editing instances. Our results show that the parameter-efficient fine-tuning method AdaLoRA achieves the best performance in enabling edited models to generate correct, up-to-date APIs, but falls short in Specificity (i.e., the editing influences untargeted knowledge). To resolve this, we propose AdaLoRA-L, which defines \"Common API Layers\" (layers within the LLMs with high importance across all APIs, storing general knowledge and excluded from editing) and restricts edits exclusively to \"Specific API Layers\" (layers with high importance only for the target API, storing the API-specific knowledge). Experimental results demonstrate that AdaLoRA-L significantly improves Specificity while maintaining comparable performance across other evaluation metrics.",
+      "url": "https://doi.org/10.1145/3832130",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W4416784159",
+        "doi": "10.1145/3832130",
+        "cited_by_count": 0
+      },
       "relevance_score": 8
     },
     {
@@ -433,228 +791,6 @@
       "relevance_score": 7
     },
     {
-      "id": "2610.01595",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Before It Fades: Reinforcing Temporal Representations at Inference Time in VideoLLMs",
-      "authors": [
-        "Youngwoo Shin",
-        "Yusung Ro",
-        "Minseo Kim",
-        "Junmo Kim"
-      ],
-      "published": "2026-10-01",
-      "updated": "2026-10-01",
-      "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "abstract": "Video Large Language Models (VideoLLMs) receive frames in sequential order and interpret how visual content evolves along the temporal axis, yet temporal reasoning remains a persistent weakness across architectures. Reversing the frame order of a video, a transformation that should invert temporal answers, often leaves the final prediction unchanged. We investigate where this failure originates by defining the temporal divergence vector $τ_l$, the layer-wise representational difference induced by reversing temporal order. Tracking its magnitude across layers reveals a consistent temporal divergence profile where the divergence peaks at intermediate layers and progressively diminishes toward the output. We confirm this peak is specific to temporal reasoning and functionally critical for predictions, establishing that VideoLLMs acquire temporal information at intermediate layers but fail to maintain it to the output. This progressive fading motivates our method, Temporal Activation Injection (TAI), which extracts $τ_l$ at the peak of the profile for each input and reinjects it into subsequent layers following the measured decay. TAI requires no training and consistently improves temporal reasoning across three VideoLLMs and four benchmarks with negligible impact on non-temporal tasks. Code is available at https://github.com/Youngwoo-git/Before-It-Fades.",
-      "url": "https://arxiv.org/abs/2610.01595",
-      "pdf_url": "https://arxiv.org/pdf/2610.01595",
-      "primary_category": "cs.CV",
-      "source_queries": [
-        "Activation intervention and patching"
-      ],
-      "code_urls": [
-        "https://github.com/Youngwoo-git/Before-It-Fades"
-      ],
-      "relevance_score": 11
-    },
-    {
-      "id": "2610.01522",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Langevin-Informed Transfer Learning: Replacing Target Samples by Black-Box Feedback",
-      "authors": [
-        "Vladimir R. Kostic",
-        "Karim Lounici",
-        "Hélène Halconruy",
-        "Timothée Devergne",
-        "Michele Parrinello",
-        "Massimiliano Pontil"
-      ],
-      "published": "2026-10-01",
-      "updated": "2026-10-01",
-      "categories": [
-        "cs.LG",
-        "stat.ML"
-      ],
-      "abstract": "Many scientific and machine learning systems, from molecular dynamics to diffusion models and beyond, are governed by stochastic dynamics with low-dimensional structure, evolving on slow timescales. However, target trajectories, used to identify and interpret such dynamics, are often inaccessible: only biased or static samples that explore the underlying manifold are available. We introduce Langevin-Informed Transfer Learning (LITL), a framework for recovering target Langevin dynamics from biased source samples using only black-box feedback. LITL learns the leading spectral structure of the target infinitesimal generator and the projected drift through Dirichlet representation learning, enabling kinetic reconstruction in spectral form and slow-manifold gradient field estimation. We further introduce a spherical variant well suited to steering normalized latent representations commonly used in learning systems toward desired objectives. We establish finite-sample guarantees for eigenvalue, eigenfunction, and projected drift estimation in Sobolev norms, thereby ensuring generalization of these quantities and their first-order derivatives. Empirically, LITL recovers physical transition timescales from biased molecular simulations, builds kinetic structure from static samples of generative models, reconstructs spherical symmetries of physical systems, and enables post-hoc latent steering of trained neural networks under black-box feedback. Together, these results position spectral operator learning as a practical framework for recovering stochastic dynamics under distribution shift and unlock applications across machine learning and the physical sciences.",
-      "url": "https://arxiv.org/abs/2610.01522",
-      "pdf_url": "https://arxiv.org/pdf/2610.01522",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Feature latent concept steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 7
-    },
-    {
-      "id": "2610.01302",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "STAGE: Subspace-Targeted Affine Generative Erasure for Text-to-3D Models",
-      "authors": [
-        "Karol Dziekan",
-        "Przemysław Spurek",
-        "Dawid Malarz"
-      ],
-      "published": "2026-10-01",
-      "updated": "2026-10-01",
-      "categories": [
-        "cs.CV"
-      ],
-      "abstract": "Concept erasure suppresses a target concept while preserving behavior on unrelated inputs. Existing closed-form methods were designed for 2D image diffusion and assume a single generative pathway, so one edit must cover geometry and texture at once. Native 3D generators, which synthesize structured 3D representations directly rather than by lifting 2D samples, violate this assumption. We show that shape and object concepts must be erased in the structural stage of the pipeline and material concepts in the appearance stage. We therefore formulate erasure in native text-to-3D as a stage-aware editing problem and introduce STAGE, a training-free, closed-form framework. STAGE confines each edit to the low-dimensional subspace spanned by the differences between erase and anchor embeddings, and relaxes the norm-preserving (orthogonal) constraint of prior editors into a least-squares affine correction that maps target activations onto safe anchors subject to a penalty on the displacement of retained prompts. The correction applies to the structural stage, the appearance stage, or both. We find that the stage an edit must reach is determined by concept type. On TRELLIS, the standard open native 3D generator, across 15 shape, material, and object concepts, STAGE reaches 66.7 on a composite score that balances forgetting the target concept against preserving everything else, aggregating CLIP-based semantic and physical metrics, versus 53.2 for the strongest adapted baseline. Code: https://github.com/gmum/STAGE/ Project Page https://gmum.github.io/STAGE/",
-      "url": "https://arxiv.org/abs/2610.01302",
-      "pdf_url": "https://arxiv.org/pdf/2610.01302",
-      "primary_category": "cs.CV",
-      "source_queries": [
-        "Feature latent concept steering"
-      ],
-      "code_urls": [
-        "https://github.com/gmum/STAGE/"
-      ],
-      "relevance_score": 4
-    },
-    {
-      "id": "2610.01170",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "HeadEdit: Calibrating Language Model Behavior Through the Frozen Unembedding Matrix",
-      "authors": [
-        "Zirui He",
-        "Haiyan Zhao",
-        "Jingyu Hu",
-        "Yinghao Wu",
-        "Chenxi Yuan",
-        "Yingcong Li",
-        "Yandong Bai",
-        "Mengnan Du"
-      ],
-      "published": "2026-10-01",
-      "updated": "2026-10-01",
-      "categories": [
-        "cs.CL"
-      ],
-      "abstract": "Alignment does not eliminate behavioral errors in language models. Models may still refuse benign requests, call unnecessary tools, or yield to false user claims. Current methods mitigate such errors as a computation problem, and rarely explore if the desired behavior is already encoded in the model's representation. Motivated by the observation that behavior-relevant information remains linearly decodable from the final hidden state even when the resulting logits produce the undesired behavior, we introduce HeadEdit, a gradient-free method that calibrates model behavior through the unembedding matrix. HeadEdit extracts a low-rank behavioral subspace from paired completions and uses each prompt's coordinates within it to generate a vocabulary-wide correction, thereby implementing implicitly adaptive steering without manually specified target tokens or parameter updates. HeadEdit improves all nine experimental settings across three tasks and three model families, with negligible inference overhead and no systematic loss of general capabilities. It also reveals a connection to gradient-based alignment. HeadEdit's low-dimensional representation partly predicts how preference tuning changes output logits on unseen prompts. The subspace learned from the model can also be reused after tuning, improving performance without re-extracting or retuning. These results show that HeadEdit provides a practical, lightweight, and interpretable way to calibrate model behavior through the unembedding matrix.",
-      "url": "https://arxiv.org/abs/2610.01170",
-      "pdf_url": "https://arxiv.org/pdf/2610.01170",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Hidden-state intervention",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 5
-    },
-    {
-      "id": "2610.01062",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Kernelized Activation Steering",
-      "authors": [
-        "Laziz U. Abdullaev",
-        "Minh-Hieu Pham",
-        "Bach Do",
-        "Khoat Than",
-        "Tan M. Nguyen"
-      ],
-      "published": "2026-10-01",
-      "updated": "2026-10-01",
-      "categories": [
-        "cs.LG"
-      ],
-      "abstract": "Activation steering provides a simple, training-free mechanism for controlling attributes of generative models such as sentiment, style, and helpfulness. However, standard approaches such as Difference-in-Means apply a single input-independent steering vector across all activations, limiting expressivity and ignoring the local geometry of the activation space. We propose Kernelized Activation Steering (KAS), a unifying framework that lifts activation steering into a reproducing kernel Hilbert space. KAS formulates steering as an optimization problem expressed purely via kernel evaluations, yielding an implicit, activation-dependent steering score without constructing explicit feature maps. Unlike DiM, KAS induces locally adaptive steering: each activation is modified according to its relative position with respect to source and target reference sets, producing a nonlinear steering field over the representation space. Importantly, DiM is recovered as a special case under a linear kernel, while richer kernels enable geometry-aware interventions. Across standard activation steering tasks, including jailbreaking LLMs and image style control, KAS outperforms or is on par with the existing methods.",
-      "url": "https://arxiv.org/abs/2610.01062",
-      "pdf_url": "https://arxiv.org/pdf/2610.01062",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Activation steering exact",
-        "Persona sentiment attribute steering",
-        "Safety refusal behavior steering",
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "relevance_score": 14
-    },
-    {
-      "id": "2610.00910",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "The Geometry of Contextual Relations: Language Models Address Facts by Order of Mention",
-      "authors": [
-        "Yufa Zhou"
-      ],
-      "published": "2026-10-01",
-      "updated": "2026-10-01",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "abstract": "Human reasoning depends on how objects are related within propositions. \\textit{How do relations organize the language representations of contextual contents?} We give an LLM a list of facts in its context (e.g., \\emph{Alice eats an apple. Bob eats a pear.}) and measure how its hidden state changes when the question switches from what Alice eats to what Bob eats. Averaged over many lists, this change is a steering vector, which we call the \\emph{ordinal vector}. It points to a fact by its \\emph{order of mention}, the order in which the facts were stated in the context. We find that LLMs represent the fact a question asks about by its order of mention, not by the name the question contains. We state this as the \\textit{ordinal addressing hypothesis}: each order of mention has a \\emph{fact address} in the model's state, shared by all contexts, and a question moves the state to the fact address of the fact it asks about, while the context supplies what that fact says. Across Qwen, Gemma, and Llama, fact addresses are (1) \\emph{ordered by mention}: query states are organized by the order of facts, not of names, even when one fact has multiple subjects; (2) \\emph{steerable}: added to a question about the first fact of a new list, the ordinal vector makes the model answer with the second fact of that list; (3) \\emph{low-rank}: they span a low-rank subspace in which the first-mentioned fact is the easiest to reach, surprisingly similar to human recall; and (4) \\emph{emergent}: they are shared in late-middle layers, hold from 1.5B to 32B parameters, and form early in pretraining. Language models reach a stated fact by where it was mentioned, deepening our understanding of LLM reasoning.",
-      "url": "https://arxiv.org/abs/2610.00910",
-      "pdf_url": "https://arxiv.org/pdf/2610.00910",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Hidden-state intervention",
-        "Reasoning and CoT steering",
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "relevance_score": 11
-    },
-    {
-      "id": "doi:10.5281/zenodo.22119498",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Artificial Worlds as Experimental Systems for Psychological Theory",
-      "authors": [
-        "Arthur Su"
-      ],
-      "published": "2026-09-30",
-      "updated": "2026-10-02",
-      "categories": [
-        "Artificial intelligence",
-        "Cognitive psychology",
-        "Cognitive science",
-        "Counterfactual thinking",
-        "Falsifiability",
-        "OpenAlex",
-        "Psychological Theory",
-        "Psychology",
-        "Representation (politics)"
-      ],
-      "abstract": "Psychology has largely approached latent psychological mechanisms through an inverse problem: behavior is observed and mechanisms are inferred. Artificial agents, social world models, and increasingly persistent artificial societies create a complementary possibility. Psychological theories can be made executable: candidate mechanisms can be instantiated within agents, allowed to unfold recursively through time and interaction, and studied through the individual and collective worlds they generate. The same environments may also support the reverse direction, in which recurrent or unexpected artificial-world phenomena suggest candidate mechanisms for subsequent formalization and testing. We develop this bidirectional view of artificial worlds as experimental systems for psychological theory. Recent work on psychologically structured agents, latent psychological trajectories, social world models, artificial societies, and internal representation steering increasingly supplies the necessary substrate. We argue that this creates new possibilities for composing psychological mechanisms, tracing micropsychological processes into macro-social organization, studying path-dependent trajectories and counterfactual worlds, and discovering candidate mechanisms that were not explicitly programmed. We then illustrate the proposal using one previously developed dynamical corpus spanning latent state, transformation, regulation, adaptive observation, trajectory representation, and interpersonal propagation. Artificial-world results do not by themselves establish human psychological mechanisms; rather, they create an intermediate experimental space between formal theory and human evidence. The broader opportunity is a science in which psychological theories are not only used to explain observed behavior, but can be instantiated, allowed to generate worlds, and revised in response to what those worlds reveal.",
-      "url": "https://doi.org/10.5281/zenodo.22119498",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Representation engineering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7204440044",
-        "doi": "10.5281/zenodo.22119498",
-        "cited_by_count": 0
-      },
-      "relevance_score": 7
-    },
-    {
       "id": "doi:10.37394/23206.2026.25.43",
       "source": "openalex",
       "sources": [
@@ -667,7 +803,7 @@
         "Jean-Paul Bécar"
       ],
       "published": "2026-09-30",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Conic section",
         "Hyperbola",
@@ -677,7 +813,7 @@
       ],
       "abstract": "The authors propose a new approach of the Steiner problem. The Steiner problem consists in constructing a conic tangent to three sides of a triangle—possibly extended sides-. The method in use is based on Bézier curves with control mass points. Bézier curves with control mass points generalize classical rational Bézier curves by introducing control vectors in addition to control points. Here, any quadratic rational Bézier curves with three control mass points model conic arcs, semi-ellipses, and hyperbola branches while preserving rational parameterizations with any homographic parameter change. This method simplifies the construction and avoids implicit conic equations, solving systems of five linear equations in five unknowns, or reducing the implicit form of a conic. All conic features can be obtained by reparametrizations.",
       "url": "https://doi.org/10.37394/23206.2026.25.43",
-      "pdf_url": "",
+      "pdf_url": "https://wseas.com/journals/mathematics/2026/a865106-019(2026).pdf",
       "primary_category": "OpenAlex",
       "source_queries": [
         "Steering vectors"
@@ -701,7 +837,7 @@
         "Jaekeol Choi"
       ],
       "published": "2026-09-30",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Computer science",
         "Decoding methods",
@@ -711,10 +847,17 @@
       ],
       "abstract": "",
       "url": "https://doi.org/10.21203/rs.3.rs-10973324/v1",
-      "pdf_url": "",
+      "pdf_url": "https://www.researchsquare.com/article/rs-10973324/latest.pdf",
       "primary_category": "OpenAlex",
       "source_queries": [
-        "Hidden-state intervention"
+        "Activation intervention and patching",
+        "Activation steering exact",
+        "Feature latent concept steering",
+        "Hidden-state intervention",
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Representation engineering",
+        "Steering vectors"
       ],
       "code_urls": [],
       "openalex": {
@@ -723,45 +866,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 4
-    },
-    {
-      "id": "doi:10.1145/3831999",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "After Talking with 1,000 Personas: Learning Preference-Aligned Proactive Assistants from Large-Scale Simulated Persona Interactions",
-      "authors": [
-        "Ziyi Xuan",
-        "Yiwen Wu",
-        "Zhaoyang Yan",
-        "Vinod Namboodiri",
-        "Yu Yang"
-      ],
-      "published": "2026-09-30",
-      "updated": "2026-10-02",
-      "categories": [
-        "Computer science",
-        "Human–computer interaction",
-        "OpenAlex",
-        "Persona",
-        "Quality (philosophy)"
-      ],
-      "abstract": "Smart assistants increasingly act proactively, yet mistimed or intrusive behavior often causes users to lose trust and disable these features. Learning user preferences for proactive assistance is difficult because real-world studies are costly, limited in scale, and rarely capture how preferences change across multiple interaction sessions. Large language model-based generative agents offer a way to simulate realistic interactions, but existing synthetic datasets remain limited in temporal depth, diverse personas, and multi-dimensional preferences. They also provide little support for transferring population-level insights to individual users under on-device constraints. We present a population-to-individual learning framework for preference-aligned proactive assistants that operates under on-device and privacy constraints. Our approach uses large-scale interaction simulation with 1,000 diverse personas to learn shared structure in how users express preferences across recurring dimensions such as timing, autonomy, and communication style, providing a strong cold start without relying on real user logs. The assistant then adapts to individual users on device through lightweight activation-based steering driven by simple interaction feedback, without model retraining or cloud-side updates. We evaluate the framework using controlled simulations with 1,000 simulated personas and a human-subject study with 34 participants. Results show improved timing decisions and perceived interaction quality over untuned and direct-response baselines, while on-device activation steering achieves performance comparable to reinforcement learning from human feedback. Participants also report higher satisfaction, trust, and comfort as the assistant adapts over multiple interaction sessions.",
-      "url": "https://doi.org/10.1145/3831999",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation steering exact",
-        "Persona sentiment attribute steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214977246",
-        "doi": "10.1145/3831999",
-        "cited_by_count": 0
-      },
-      "relevance_score": 9
     },
     {
       "id": "2609.39902",
@@ -777,7 +881,7 @@
         "Wentao Chen"
       ],
       "published": "2026-09-30",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Code (set theory)",
         "Computer science",
@@ -817,7 +921,7 @@
         "Muhan Zhang"
       ],
       "published": "2026-09-30",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Computation",
         "Computer science",
@@ -863,7 +967,7 @@
         "Jiantao Zhou"
       ],
       "published": "2026-09-30",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Computer science",
         "Downstream (manufacturing)",
@@ -903,7 +1007,7 @@
         "Hao Wang"
       ],
       "published": "2026-09-30",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Artificial intelligence",
         "Computer science",
@@ -946,7 +1050,7 @@
         "Jonas Fischer"
       ],
       "published": "2026-09-30",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Computer science",
         "Generalization",
@@ -989,7 +1093,7 @@
         "Kailong Wang"
       ],
       "published": "2026-09-30",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Computer science",
         "Exploit",
@@ -1027,7 +1131,7 @@
         "Minjie Chen"
       ],
       "published": "2026-09-30",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Benchmark (surveying)",
         "Intervention (counseling)",
@@ -1042,6 +1146,7 @@
       "primary_category": "cs.LG",
       "source_queries": [
         "Activation intervention and patching",
+        "Mechanistic interpretability steering",
         "Safety refusal behavior steering"
       ],
       "code_urls": [],
@@ -1069,7 +1174,7 @@
         "Haibo Hu"
       ],
       "published": "2026-09-30",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Benchmark (surveying)",
         "Computer science",
@@ -1096,6 +1201,43 @@
       }
     },
     {
+      "id": "2609.38958",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Targeted Retrieval, Compact Representations: How CoT Reasoning Improves Long-Context Counting",
+      "authors": [
+        "Liang Twist Shan",
+        "Tianyu Hu",
+        "Hao Yan",
+        "Yiqiao Zhong"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-10-03",
+      "categories": [
+        "OpenAlex",
+        "Computer science",
+        "Representation (politics)",
+        "TRACE (psycholinguistics)",
+        "Artificial intelligence"
+      ],
+      "abstract": "Large language models (LLMs) have been rapidly improving in long-context tasks, powered by Chain-of-Thought (CoT) reasoning. However, the internal mechanisms underlying this improvement remain unclear. We investigate these mechanisms through a needle-in-a-haystack (NIAH) counting task, where an LLM is asked to count the number of records dispersed in a long text. Across twelve model comparison groups, Thinking (or reasoning) improves counting accuracy over Non-thinking, with pronounced gains at larger counts. This motivates our mechanistic analysis, which identifies two contrasting mechanisms: (i) broad retrieval, where Non-thinking models broadly attend to multiple needles; (ii) targeted retrieval, where Thinking models use enumeration in CoT traces to successively retrieve needles. Targeted retrieval concentrates attention on individual needles and is accompanied by more compact internal representations. Moreover, causal intervention analysis suggests that Thinking models use the CoT trace to maintain and update an internal counter as needles are successively retrieved, even without explicit numbering. In small controlled experiments, both retrieval mechanisms and counter states emerge under standard autoregressive training. Together, our results connect long-context retrieval with representation geometry of counting, supporting a state-tracking account of CoT reasoning.",
+      "url": "https://arxiv.org/abs/2609.38958",
+      "pdf_url": "https://arxiv.org/pdf/2609.38958",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7215028948",
+        "doi": "10.48550/arxiv.2609.38958",
+        "cited_by_count": 0
+      },
+      "relevance_score": 11
+    },
+    {
       "id": "2609.38717",
       "source": "arxiv",
       "sources": [
@@ -1113,7 +1255,7 @@
         "Dongxiao Zhu"
       ],
       "published": "2026-09-30",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Artificial intelligence",
         "Computer science",
@@ -1142,6 +1284,83 @@
         "doi": "10.48550/arxiv.2609.38717",
         "cited_by_count": 0
       }
+    },
+    {
+      "id": "doi:10.5281/zenodo.22119498",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Artificial Worlds as Experimental Systems for Psychological Theory",
+      "authors": [
+        "Arthur Su"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-10-02",
+      "categories": [
+        "Artificial intelligence",
+        "Cognitive psychology",
+        "Cognitive science",
+        "Counterfactual thinking",
+        "Falsifiability",
+        "OpenAlex",
+        "Psychological Theory",
+        "Psychology",
+        "Representation (politics)"
+      ],
+      "abstract": "Psychology has largely approached latent psychological mechanisms through an inverse problem: behavior is observed and mechanisms are inferred. Artificial agents, social world models, and increasingly persistent artificial societies create a complementary possibility. Psychological theories can be made executable: candidate mechanisms can be instantiated within agents, allowed to unfold recursively through time and interaction, and studied through the individual and collective worlds they generate. The same environments may also support the reverse direction, in which recurrent or unexpected artificial-world phenomena suggest candidate mechanisms for subsequent formalization and testing. We develop this bidirectional view of artificial worlds as experimental systems for psychological theory. Recent work on psychologically structured agents, latent psychological trajectories, social world models, artificial societies, and internal representation steering increasingly supplies the necessary substrate. We argue that this creates new possibilities for composing psychological mechanisms, tracing micropsychological processes into macro-social organization, studying path-dependent trajectories and counterfactual worlds, and discovering candidate mechanisms that were not explicitly programmed. We then illustrate the proposal using one previously developed dynamical corpus spanning latent state, transformation, regulation, adaptive observation, trajectory representation, and interpersonal propagation. Artificial-world results do not by themselves establish human psychological mechanisms; rather, they create an intermediate experimental space between formal theory and human evidence. The broader opportunity is a science in which psychological theories are not only used to explain observed behavior, but can be instantiated, allowed to generate worlds, and revised in response to what those worlds reveal.",
+      "url": "https://doi.org/10.5281/zenodo.22119498",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7204440044",
+        "doi": "10.5281/zenodo.22119498",
+        "cited_by_count": 0
+      },
+      "relevance_score": 7
+    },
+    {
+      "id": "doi:10.1145/3831999",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "After Talking with 1,000 Personas: Learning Preference-Aligned Proactive Assistants from Large-Scale Simulated Persona Interactions",
+      "authors": [
+        "Ziyi Xuan",
+        "Yiwen Wu",
+        "Zhaoyang Yan",
+        "Vinod Namboodiri",
+        "Yu Yang"
+      ],
+      "published": "2026-09-30",
+      "updated": "2026-10-02",
+      "categories": [
+        "Computer science",
+        "Human–computer interaction",
+        "OpenAlex",
+        "Persona",
+        "Quality (philosophy)"
+      ],
+      "abstract": "Smart assistants increasingly act proactively, yet mistimed or intrusive behavior often causes users to lose trust and disable these features. Learning user preferences for proactive assistance is difficult because real-world studies are costly, limited in scale, and rarely capture how preferences change across multiple interaction sessions. Large language model-based generative agents offer a way to simulate realistic interactions, but existing synthetic datasets remain limited in temporal depth, diverse personas, and multi-dimensional preferences. They also provide little support for transferring population-level insights to individual users under on-device constraints. We present a population-to-individual learning framework for preference-aligned proactive assistants that operates under on-device and privacy constraints. Our approach uses large-scale interaction simulation with 1,000 diverse personas to learn shared structure in how users express preferences across recurring dimensions such as timing, autonomy, and communication style, providing a strong cold start without relying on real user logs. The assistant then adapts to individual users on device through lightweight activation-based steering driven by simple interaction feedback, without model retraining or cloud-side updates. We evaluate the framework using controlled simulations with 1,000 simulated personas and a human-subject study with 34 participants. Results show improved timing decisions and perceived interaction quality over untuned and direct-response baselines, while on-device activation steering achieves performance comparable to reinforcement learning from human feedback. Participants also report higher satisfaction, trust, and comfort as the assistant adapts over multiple interaction sessions.",
+      "url": "https://doi.org/10.1145/3831999",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214977246",
+        "doi": "10.1145/3831999",
+        "cited_by_count": 0
+      },
+      "relevance_score": 9
     },
     {
       "id": "doi:10.5281/zenodo.23044424",
@@ -1178,6 +1397,255 @@
         "cited_by_count": 0
       },
       "relevance_score": 8
+    },
+    {
+      "id": "doi:10.48550/arxiv.2609.36783",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "A Heckler in the Hidden State: Correctness Signals in Diffusion Language Models",
+      "authors": [
+        "Angad Miglani",
+        "Samrath Singh Chadha",
+        "Kevin Li",
+        "Manas Venkata Sai Ravulapalli"
+      ],
+      "published": "2026-09-29",
+      "updated": "2026-10-03",
+      "categories": [
+        "Algorithm",
+        "Code (set theory)",
+        "Computer science",
+        "Correctness",
+        "OpenAlex",
+        "Point (geometry)"
+      ],
+      "abstract": "Diffusion language models generate code by repeatedly updating a partially masked sequence. We ask whether their internal activations encode code correctness and whether that information can improve generation. Across six diffusion models, linear probes distinguish passing from failing attempts, with the strongest reads generally appearing beyond the early layers. Controls using small semantic mutations support a connection to correctness rather than surface style alone. In comparisons with model confidence, probe point estimates offer no consistent advantage. Adding a probe-derived direction to the residual stream does not yield a dependable improvement in the tested steering settings, while the opposite direction degrades performance. We distinguish these observations from claims about statistical significance or a general inability to steer. Supplementary methods, archived results, and code document the tested interventions and the limits of their statistical calibration and reproducibility.",
+      "url": "https://doi.org/10.48550/arxiv.2609.36783",
+      "pdf_url": "https://arxiv.org/pdf/2609.36783",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Diffusion language model steering",
+        "Hidden-state intervention"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214952839",
+        "doi": "10.48550/arxiv.2609.36783",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
+      "id": "2609.38342",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Activation-Conditioned Self-Distillation",
+      "authors": [
+        "Zhexi Lu",
+        "Subhajit Chaudhury",
+        "Tejaswini Pedapati",
+        "Keerthiram Murugesan",
+        "Lei Yu"
+      ],
+      "published": "2026-09-29",
+      "updated": "2026-10-03",
+      "categories": [
+        "Artificial intelligence",
+        "Base (topology)",
+        "Computer science",
+        "OpenAlex",
+        "Outcome (game theory)",
+        "cs.LG"
+      ],
+      "abstract": "On-policy self-distillation uses a model as its own teacher to provide dense supervision for reasoning, often through reference-solution conditioning. Providing privileged information does not by itself ensure effective token-level supervision throughout long responses. We introduce Activation-Conditioned Self-Distillation (ACSD), which extracts a steering vector by contrasting activations of self-generated trajectories that reach verified correct answers within a generation budget with those of all remaining trajectories. A frozen copy of the base model applies this vector at each prediction position, and the student learns from its next-token distributions on student-generated prefixes. Outcome verification is used for direction construction and calibration; distillation requires neither problem-specific reference text nor teacher parameter updates. The distilled student is used alone at inference. On each of five models, ACSD achieves the highest mean accuracy over four mathematical benchmarks among the evaluated methods. On DeepSeek-R1-0528-Qwen3-8B, mean mathematical accuracy reaches 71.9\\% and LiveCodeBench v6 pass@12 reaches 70.9\\%, compared with 69.0\\% and 66.3\\% for the reference-conditioned OPSD baseline. Contrasts among correct trajectories also support distillation, and extracted directions can be reused across mathematical training datasets. On fixed student trajectories, ACSD maintains more stable late-position logit-update magnitudes than OPSD.",
+      "url": "https://arxiv.org/abs/2609.38342",
+      "pdf_url": "https://arxiv.org/pdf/2609.38342",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation steering exact",
+        "Reasoning and CoT steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 5,
+      "openalex": {
+        "id": "https://openalex.org/W7215111713",
+        "doi": "10.48550/arxiv.2609.38342",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.38098",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning",
+      "authors": [
+        "Ruiyu Yan",
+        "Bowen Chen",
+        "Shaowen Wan",
+        "Lin Zhao"
+      ],
+      "published": "2026-09-29",
+      "updated": "2026-10-03",
+      "categories": [
+        "Computer science",
+        "Interpretability",
+        "Neural coding",
+        "OpenAlex",
+        "Vocabulary",
+        "cs.AI"
+      ],
+      "abstract": "Current vision-language models (VLMs) encode visual information in dense hidden states where object identity, spatial layout, and local attributes are implicitly entangled rather than explicitly disentangled, limiting their ability to isolate and modulate the specific visual evidence required by a given language query. Inspired by sparse population coding and top-down modulation in biological vision, we introduce NeuronEye, a plug-in framework that constructs a sparse, concept-level neuron vocabulary from intermediate VLM representations and selectively activates query-relevant visual concepts during inference. NeuronEye decomposes vision-token states into an overcomplete sparse basis organized by concept-level clusters, uses the language query to activate relevant clusters and localize the patches where selected concepts are expressed, and injects the focused evidence back into vision tokens. A complementary suppression mechanism attenuates dominant perceptual directions to preserve weaker but relevant cues. All operations run in a single forward pass over a frozen VLM backbone. On Qwen2.5-VL-7B, NeuronEye raises CV-Bench overall accuracy by +3.1 with gains of +9.5 on Distance, and improves BLINK Multi-view by +8.3, with similar trends on LLaVA-1.6-7B. These results suggest that sparse neuron vocabularies can serve not only as post-hoc interpretability tools but also as active interfaces for concept-level visual reasoning.",
+      "url": "https://arxiv.org/abs/2609.38098",
+      "pdf_url": "https://arxiv.org/pdf/2609.38098",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Activation steering exact",
+        "Hidden-state intervention",
+        "Reasoning and CoT steering",
+        "Representation engineering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 10,
+      "openalex": {
+        "id": "https://openalex.org/W7214913076",
+        "doi": "10.48550/arxiv.2609.38098",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.37858",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Storage Is Not Strategy: State-Conditioned Support Control for LLM Unlearning",
+      "authors": [
+        "Tianhao Qian",
+        "Ziming Hong",
+        "Chongyang Gao",
+        "Kezhen Chen",
+        "Lixu Wang"
+      ],
+      "published": "2026-09-29",
+      "updated": "2026-10-03",
+      "categories": [
+        "Baseline (sea)",
+        "Intervention (counseling)",
+        "OpenAlex",
+        "Preference",
+        "Range (aeronautics)"
+      ],
+      "abstract": "Many localized large language model (LLM) unlearning methods select a small parameter subset from a localization signal and keep it fixed during optimization. The parameters most associated with a target, however, need not be the best ones to update, and candidate interventions can change value as optimization proceeds. In a controlled experiment, a storage-localization score reaches an area under the receiver operating characteristic curve (AUROC) of 0.981, yet storage identity agrees with the better intervention on only 17/36 targets, while low-rank adaptation (LoRA) wins 35/36. We introduce Intervention Score, which ranks editable groups by the predicted effect of the actual unlearning update while accounting for collateral damage, and use it to form the static intervention-value baseline (Static-IV). We then introduce selective dynamic intervention re-ranking (DIR-R), which revisits that subset only when a calibrated probe justifies the comparison. On the Natural-TOFU dataset, our method has positive descriptive margins in 19/20 comparisons between methods and objectives, although several are near zero. On the LACUNA localization-precision benchmark, our mean terminal utility is higher in all six negative preference optimization (NPO) and SimNPO comparisons: NPO margins range from +0.431 to +0.848, and SimNPO margins range from +0.503 to +0.571. The gradient-difference (GradDiff) objective reveals substantial field dependence. Relative to Static-IV, the primary four-field GradDiff evaluation has six wins, six ties, and no losses, with mean and median paired gains of +0.165 and +0.0025. The evidence supports separating localization, initial intervention selection, and checkpoint-dependent support revision.",
+      "url": "https://arxiv.org/abs/2609.37858",
+      "pdf_url": "https://arxiv.org/pdf/2609.37858",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7214940056",
+        "doi": "10.48550/arxiv.2609.37858",
+        "cited_by_count": 0
+      },
+      "relevance_score": 8
+    },
+    {
+      "id": "2609.37700",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Locating Answer-Correctness Signals in Frozen Large Language Models",
+      "authors": [
+        "Yuansen Liu",
+        "Yixuan Tang",
+        "Anthony Kum Hoe Tung"
+      ],
+      "published": "2026-09-29",
+      "updated": "2026-10-03",
+      "categories": [
+        "Commit",
+        "Computer science",
+        "Context (archaeology)",
+        "Correctness",
+        "OpenAlex",
+        "cs.AI"
+      ],
+      "abstract": "Language models expose internal signals that predict whether an answer is correct, readable from a single forward pass of a frozen model without additional generations. Yet existing probes often commit to one signal family or layer and can be brittle under distribution shift; in retrieval-augmented settings, many specialized detectors instead target passage faithfulness, which can diverge from correctness when retrieved evidence is unhelpful or conflicting. We therefore ask where answer correctness is readable, which internal signal families carry it, and how they should be combined. We search over hidden states, token probabilities, residual-stream features, attention, and their fusion, treating the selected readouts as a predictive measurement rather than a mechanistic localization. We run this analysis separately in closed-book and with-context settings, since context can change which readouts are informative. A consistent anatomy emerges: correctness concentrates in the answer span, recovered from the answer tokens even under retrieval, and the families carry it complementarily, so fusing them helps most out of distribution, where a single signal is weakest. The protocol is effective across two backbones and gates a retrieval controller as one downstream use.",
+      "url": "https://arxiv.org/abs/2609.37700",
+      "pdf_url": "https://arxiv.org/pdf/2609.37700",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Mechanistic interpretability steering",
+        "Reasoning and CoT steering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 6,
+      "openalex": {
+        "id": "https://openalex.org/W7215133724",
+        "doi": "",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.37283",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "SAM Meets VLM: Parameter-Decoupled Full-Parameter Training for Unified Medical Reasoning and Segmentation",
+      "authors": [
+        "Xuyang Cao",
+        "Enyou Liu",
+        "Jun Zhao",
+        "Zhuoyun Liu",
+        "Jintao Fei",
+        "Leo"
+      ],
+      "published": "2026-09-29",
+      "updated": "2026-10-03",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "OpenAlex",
+        "Representation (politics)",
+        "Segmentation",
+        "cs.CV"
+      ],
+      "abstract": "Medical multimodal large language models (MLLMs) are increasingly expected not only to answer clinical questions, but also to localize the visual evidence behind their predictions. A common strategy connects a vision--language model (VLM) with SAM-style segmentation through a special <SEG> token, yet full-parameter training of this unified architecture is difficult because image-level reasoning and pixel-level segmentation impose different requirements on the shared representation space. To address this issue, we propose a parameter-decoupled training framework for unified medical reasoning and segmentation. The framework treats the <SEG> hidden state as a semantic-to-spatial prompt for the mask decoder and encourages it to become separable from generic language states, reducing ambiguous segmentation prompts and potential disruption to reasoning representations. It first performs medical shallow alignment to adapt visual features to clinical language without disturbing the LLM; then controlled instruction tuning shapes separable <SEG> prompt states, monitored by the Davies--Bouldin Index (DBI), while scaling segmentation gradients entering the language backbone; finally, the SAM branch is specialized with the VLM frozen to improve mask precision without altering reasoning parameters. Experiments on medical referring segmentation, grounding, visual QA, and textual QA benchmarks show that our framework achieves strong language-conditioned segmentation while preserving competitive reasoning ability. Ablations show that two-phase instruction tuning, gradient scaling, and segmentation specialization all contribute to the model.",
+      "url": "https://arxiv.org/abs/2609.37283",
+      "pdf_url": "https://arxiv.org/pdf/2609.37283",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Reasoning and CoT steering",
+        "Safety refusal behavior steering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 14,
+      "openalex": {
+        "id": "https://openalex.org/W7214936770",
+        "doi": "10.48550/arxiv.2609.37283",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "doi:10.64898/2026.09.24.754164",
@@ -1226,44 +1694,6 @@
       "relevance_score": 5
     },
     {
-      "id": "doi:10.48550/arxiv.2609.36783",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "A Heckler in the Hidden State: Correctness Signals in Diffusion Language Models",
-      "authors": [
-        "Angad Miglani",
-        "Samrath Singh Chadha",
-        "Kevin Li",
-        "Manas Venkata Sai Ravulapalli"
-      ],
-      "published": "2026-09-29",
-      "updated": "2026-10-02",
-      "categories": [
-        "Algorithm",
-        "Code (set theory)",
-        "Computer science",
-        "Correctness",
-        "OpenAlex"
-      ],
-      "abstract": "Diffusion language models generate code by repeatedly updating a partially masked sequence. We ask whether their internal activations encode code correctness and whether that information can improve generation. Across six diffusion models, linear probes distinguish passing from failing attempts, with the strongest reads generally appearing beyond the early layers. Controls using small semantic mutations support a connection to correctness rather than surface style alone. In comparisons with model confidence, probe point estimates offer no consistent advantage. Adding a probe-derived direction to the residual stream does not yield a dependable improvement in the tested steering settings, while the opposite direction degrades performance. We distinguish these observations from claims about statistical significance or a general inability to steer. Supplementary methods, archived results, and code document the tested interventions and the limits of their statistical calibration and reproducibility.",
-      "url": "https://doi.org/10.48550/arxiv.2609.36783",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Diffusion language model steering",
-        "Hidden-state intervention"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7214952839",
-        "doi": "10.48550/arxiv.2609.36783",
-        "cited_by_count": 0
-      },
-      "relevance_score": 6
-    },
-    {
       "id": "2609.38389",
       "source": "arxiv",
       "sources": [
@@ -1299,46 +1729,6 @@
       "openalex": {
         "id": "https://openalex.org/W7215068597",
         "doi": "10.48550/arxiv.2609.38389",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2609.38342",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Activation-Conditioned Self-Distillation",
-      "authors": [
-        "Zhexi Lu",
-        "Subhajit Chaudhury",
-        "Tejaswini Pedapati",
-        "Keerthiram Murugesan",
-        "Lei Yu"
-      ],
-      "published": "2026-09-29",
-      "updated": "2026-10-02",
-      "categories": [
-        "Artificial intelligence",
-        "Base (topology)",
-        "Computer science",
-        "OpenAlex",
-        "Outcome (game theory)",
-        "cs.LG"
-      ],
-      "abstract": "On-policy self-distillation uses a model as its own teacher to provide dense supervision for reasoning, often through reference-solution conditioning. Providing privileged information does not by itself ensure effective token-level supervision throughout long responses. We introduce Activation-Conditioned Self-Distillation (ACSD), which extracts a steering vector by contrasting activations of self-generated trajectories that reach verified correct answers within a generation budget with those of all remaining trajectories. A frozen copy of the base model applies this vector at each prediction position, and the student learns from its next-token distributions on student-generated prefixes. Outcome verification is used for direction construction and calibration; distillation requires neither problem-specific reference text nor teacher parameter updates. The distilled student is used alone at inference. On each of five models, ACSD achieves the highest mean accuracy over four mathematical benchmarks among the evaluated methods. On DeepSeek-R1-0528-Qwen3-8B, mean mathematical accuracy reaches 71.9\\% and LiveCodeBench v6 pass@12 reaches 70.9\\%, compared with 69.0\\% and 66.3\\% for the reference-conditioned OPSD baseline. Contrasts among correct trajectories also support distillation, and extracted directions can be reused across mathematical training datasets. On fixed student trajectories, ACSD maintains more stable late-position logit-update magnitudes than OPSD.",
-      "url": "https://arxiv.org/abs/2609.38342",
-      "pdf_url": "https://arxiv.org/pdf/2609.38342",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "relevance_score": 5,
-      "openalex": {
-        "id": "https://openalex.org/W7215111713",
-        "doi": "10.48550/arxiv.2609.38342",
         "cited_by_count": 0
       }
     },
@@ -1458,6 +1848,7 @@
       "primary_category": "cs.CR",
       "source_queries": [
         "Activation intervention and patching",
+        "Mechanistic interpretability steering",
         "Safety refusal behavior steering"
       ],
       "code_urls": [],
@@ -1505,50 +1896,6 @@
       "openalex": {
         "id": "https://openalex.org/W7214956542",
         "doi": "10.48550/arxiv.2609.37717",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2609.37283",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "SAM Meets VLM: Parameter-Decoupled Full-Parameter Training for Unified Medical Reasoning and Segmentation",
-      "authors": [
-        "Xuyang Cao",
-        "Enyou Liu",
-        "Jun Zhao",
-        "Zhuoyun Liu",
-        "Jintao Fei",
-        "Leo"
-      ],
-      "published": "2026-09-29",
-      "updated": "2026-10-02",
-      "categories": [
-        "Artificial intelligence",
-        "Computer science",
-        "OpenAlex",
-        "Representation (politics)",
-        "Segmentation",
-        "cs.CV"
-      ],
-      "abstract": "Medical multimodal large language models (MLLMs) are increasingly expected not only to answer clinical questions, but also to localize the visual evidence behind their predictions. A common strategy connects a vision--language model (VLM) with SAM-style segmentation through a special <SEG> token, yet full-parameter training of this unified architecture is difficult because image-level reasoning and pixel-level segmentation impose different requirements on the shared representation space. To address this issue, we propose a parameter-decoupled training framework for unified medical reasoning and segmentation. The framework treats the <SEG> hidden state as a semantic-to-spatial prompt for the mask decoder and encourages it to become separable from generic language states, reducing ambiguous segmentation prompts and potential disruption to reasoning representations. It first performs medical shallow alignment to adapt visual features to clinical language without disturbing the LLM; then controlled instruction tuning shapes separable <SEG> prompt states, monitored by the Davies--Bouldin Index (DBI), while scaling segmentation gradients entering the language backbone; finally, the SAM branch is specialized with the VLM frozen to improve mask precision without altering reasoning parameters. Experiments on medical referring segmentation, grounding, visual QA, and textual QA benchmarks show that our framework achieves strong language-conditioned segmentation while preserving competitive reasoning ability. Ablations show that two-phase instruction tuning, gradient scaling, and segmentation specialization all contribute to the model.",
-      "url": "https://arxiv.org/abs/2609.37283",
-      "pdf_url": "https://arxiv.org/pdf/2609.37283",
-      "primary_category": "cs.CV",
-      "source_queries": [
-        "Hidden-state intervention",
-        "Reasoning and CoT steering",
-        "Safety refusal behavior steering",
-        "VLM multimodal steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 14,
-      "openalex": {
-        "id": "https://openalex.org/W7214936770",
-        "doi": "10.48550/arxiv.2609.37283",
         "cited_by_count": 0
       }
     },
@@ -1926,63 +2273,6 @@
       "relevance_score": 8
     },
     {
-      "id": "2609.38098",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning",
-      "authors": [
-        "Ruiyu Yan",
-        "Bowen Chen",
-        "Shaowen Wan",
-        "Lin Zhao"
-      ],
-      "published": "2026-09-29",
-      "updated": "2026-09-29",
-      "categories": [
-        "cs.AI"
-      ],
-      "abstract": "Current vision-language models (VLMs) encode visual information in dense hidden states where object identity, spatial layout, and local attributes are implicitly entangled rather than explicitly disentangled, limiting their ability to isolate and modulate the specific visual evidence required by a given language query. Inspired by sparse population coding and top-down modulation in biological vision, we introduce NeuronEye, a plug-in framework that constructs a sparse, concept-level neuron vocabulary from intermediate VLM representations and selectively activates query-relevant visual concepts during inference. NeuronEye decomposes vision-token states into an overcomplete sparse basis organized by concept-level clusters, uses the language query to activate relevant clusters and localize the patches where selected concepts are expressed, and injects the focused evidence back into vision tokens. A complementary suppression mechanism attenuates dominant perceptual directions to preserve weaker but relevant cues. All operations run in a single forward pass over a frozen VLM backbone. On Qwen2.5-VL-7B, NeuronEye raises CV-Bench overall accuracy by +3.1 with gains of +9.5 on Distance, and improves BLINK Multi-view by +8.3, with similar trends on LLaVA-1.6-7B. These results suggest that sparse neuron vocabularies can serve not only as post-hoc interpretability tools but also as active interfaces for concept-level visual reasoning.",
-      "url": "https://arxiv.org/abs/2609.38098",
-      "pdf_url": "https://arxiv.org/pdf/2609.38098",
-      "primary_category": "cs.AI",
-      "source_queries": [
-        "Hidden-state intervention",
-        "Reasoning and CoT steering",
-        "VLM multimodal steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 10
-    },
-    {
-      "id": "2609.37700",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Locating Answer-Correctness Signals in Frozen Large Language Models",
-      "authors": [
-        "Yuansen Liu",
-        "Yixuan Tang",
-        "Anthony Kum Hoe Tung"
-      ],
-      "published": "2026-09-29",
-      "updated": "2026-09-29",
-      "categories": [
-        "cs.AI"
-      ],
-      "abstract": "Language models expose internal signals that predict whether an answer is correct, readable from a single forward pass of a frozen model without additional generations. Yet existing probes often commit to one signal family or layer and can be brittle under distribution shift; in retrieval-augmented settings, many specialized detectors instead target passage faithfulness, which can diverge from correctness when retrieved evidence is unhelpful or conflicting. We therefore ask where answer correctness is readable, which internal signal families carry it, and how they should be combined. We search over hidden states, token probabilities, residual-stream features, attention, and their fusion, treating the selected readouts as a predictive measurement rather than a mechanistic localization. We run this analysis separately in closed-book and with-context settings, since context can change which readouts are informative. A consistent anatomy emerges: correctness concentrates in the answer span, recovered from the answer tokens even under retrieval, and the families carry it complementarily, so fusing them helps most out of distribution, where a single signal is weakest. The protocol is effective across two backbones and gates a retrieval controller as one downstream use.",
-      "url": "https://arxiv.org/abs/2609.37700",
-      "pdf_url": "https://arxiv.org/pdf/2609.37700",
-      "primary_category": "cs.AI",
-      "source_queries": [
-        "Hidden-state intervention"
-      ],
-      "code_urls": [],
-      "relevance_score": 6
-    },
-    {
       "id": "2609.36577",
       "source": "arxiv",
       "sources": [
@@ -2069,7 +2359,7 @@
         "Xinjie Shen"
       ],
       "published": "2026-09-28",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Coherence (philosophical gambling strategy)",
         "Expression (computer science)",
@@ -2084,13 +2374,58 @@
       "primary_category": "cs.AI",
       "source_queries": [
         "Activation steering exact",
-        "Persona sentiment attribute steering"
+        "Persona sentiment attribute steering",
+        "Representation engineering"
       ],
       "code_urls": [],
       "relevance_score": 11,
       "openalex": {
         "id": "https://openalex.org/W7214977243",
         "doi": "10.48550/arxiv.2609.36388",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2609.36294",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "When Trees Are Not Enough: Learning Mixed-Topology Feature Graphs with Adaptive Graph Sparse Autoencoders",
+      "authors": [
+        "Xiaozuo Shen",
+        "Yifei Cai",
+        "Tian Tan",
+        "Rui Ning",
+        "Chunsheng Xin",
+        "Hongyi Wu"
+      ],
+      "published": "2026-09-28",
+      "updated": "2026-10-03",
+      "categories": [
+        "Autoencoder",
+        "Computer science",
+        "Feature (linguistics)",
+        "OpenAlex",
+        "Spurious relationship",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Sparse autoencoders (SAEs) expose interpretable features in large language model activations, yet existing structured SAEs impose single-parent trees or forests, while post-hoc graphs permit multiple parents but neither guide feature learning nor ensure reliable relation recovery. We introduce the Adaptive Graph Sparse Autoencoder (AG-SAE), a structure-guided training paradigm that treats each feature's complete parent set as an atomic structural hypothesis and lets evidence select zero, one, or multiple parents. By competing complete parent sets against null, subset, and alternative explanations, AG-SAE identifies jointly necessary multi-parent relations while rejecting redundant or spurious alternatives and verifying that each child contributes beyond its parents. The induced topology over SAE features then defines a differentiable structural loss that guides SAE training, while topology-guided refinement mitigates feature absorption and uses persistent reconstruction gaps exposed by the learned structure to initialize new features. The entire graph is then induced again from the revised dictionary by reassessing every feature's complete parent set, closing the dictionary-graph self-consistency cycle. Experiments demonstrate exact mixed-topology recovery in a controlled toy model, greater relational reliability and semantic validity than structured and post-hoc baselines on real LLM activations, and stronger feature-level causal interventions than conventional SAE features. AG-SAE thereby turns recovered mixed-topology feature structure into an unsupervised training signal that improves the dictionary, enables reliable feature organization beyond the topological limitations of trees, and exhibits stronger causal control beyond reconstruction.",
+      "url": "https://arxiv.org/abs/2609.36294",
+      "pdf_url": "https://arxiv.org/pdf/2609.36294",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Feature latent concept steering",
+        "Mechanistic interpretability steering",
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 9,
+      "openalex": {
+        "id": "https://openalex.org/W7214941767",
+        "doi": "10.48550/arxiv.2609.36294",
         "cited_by_count": 0
       }
     },
@@ -3092,37 +3427,6 @@
       "relevance_score": 6
     },
     {
-      "id": "2609.36294",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "When Trees Are Not Enough: Learning Mixed-Topology Feature Graphs with Adaptive Graph Sparse Autoencoders",
-      "authors": [
-        "Xiaozuo Shen",
-        "Yifei Cai",
-        "Tian Tan",
-        "Rui Ning",
-        "Chunsheng Xin",
-        "Hongyi Wu"
-      ],
-      "published": "2026-09-28",
-      "updated": "2026-09-28",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "abstract": "Sparse autoencoders (SAEs) expose interpretable features in large language model activations, yet existing structured SAEs impose single-parent trees or forests, while post-hoc graphs permit multiple parents but neither guide feature learning nor ensure reliable relation recovery. We introduce the Adaptive Graph Sparse Autoencoder (AG-SAE), a structure-guided training paradigm that treats each feature's complete parent set as an atomic structural hypothesis and lets evidence select zero, one, or multiple parents. By competing complete parent sets against null, subset, and alternative explanations, AG-SAE identifies jointly necessary multi-parent relations while rejecting redundant or spurious alternatives and verifying that each child contributes beyond its parents. The induced topology over SAE features then defines a differentiable structural loss that guides SAE training, while topology-guided refinement mitigates feature absorption and uses persistent reconstruction gaps exposed by the learned structure to initialize new features. The entire graph is then induced again from the revised dictionary by reassessing every feature's complete parent set, closing the dictionary-graph self-consistency cycle. Experiments demonstrate exact mixed-topology recovery in a controlled toy model, greater relational reliability and semantic validity than structured and post-hoc baselines on real LLM activations, and stronger feature-level causal interventions than conventional SAE features. AG-SAE thereby turns recovered mixed-topology feature structure into an unsupervised training signal that improves the dictionary, enables reliable feature organization beyond the topological limitations of trees, and exhibits stronger causal control beyond reconstruction.",
-      "url": "https://arxiv.org/abs/2609.36294",
-      "pdf_url": "https://arxiv.org/pdf/2609.36294",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "SAE steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 9
-    },
-    {
       "id": "2609.35913",
       "source": "arxiv",
       "sources": [
@@ -3589,6 +3893,48 @@
       "relevance_score": 8
     },
     {
+      "id": "2609.32355",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Gradients for Interventions and Activations for Detection: Targeted Feature Learning in Language Models",
+      "authors": [
+        "Jonathan Drechsel",
+        "Steffen Herbold"
+      ],
+      "published": "2026-09-26",
+      "updated": "2026-10-03",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Feature (linguistics)",
+        "Interpretability",
+        "OpenAlex",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Model-internal features can be studied through both their ability to identify a specified concept and their causal effect when manipulated, e.g., through steering or weight editing. A prominent approach to feature learning is Sparse Autoencoders (SAEs), which learn broad feature dictionaries whose relation to particular concepts is typically identified post hoc. However, many interpretability questions are instead hypothesis-driven and concern a concept specified in advance. We study this setting as targeted feature learning, where a single feature is constructed for such a predefined concept. We present a controlled comparison across three model signals (activation values, activation gradients, and parameter gradients) and two estimators (contrastive mean and a learned one-dimensional encoder-decoder), yielding six targeted methods, with CAA and GRADIEND as existing instances and four new methods covering the remaining combinations. We compare these methods against pretrained SAEs across 15 tasks and three language models, evaluating both detection and causal intervention. Across models, the strongest detection performance is achieved by contrastive activation value methods, whereas the strongest intervention performance is achieved by gradient-based methods. Overall, our results show that targeted feature quality depends jointly on the model signal and estimator, with detection and intervention capturing complementary properties.",
+      "url": "https://arxiv.org/abs/2609.32355",
+      "pdf_url": "https://arxiv.org/pdf/2609.32355",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation steering exact",
+        "Feature latent concept steering",
+        "Persona sentiment attribute steering",
+        "Representation engineering",
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 5,
+      "openalex": {
+        "id": "https://openalex.org/W7214718021",
+        "doi": "10.48550/arxiv.2609.32355",
+        "cited_by_count": 0
+      }
+    },
+    {
       "id": "doi:10.5281/zenodo.22983592",
       "source": "openalex",
       "sources": [
@@ -3873,33 +4219,6 @@
       ],
       "code_urls": [],
       "relevance_score": 10
-    },
-    {
-      "id": "2609.32355",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Gradients for Interventions and Activations for Detection: Targeted Feature Learning in Language Models",
-      "authors": [
-        "Jonathan Drechsel",
-        "Steffen Herbold"
-      ],
-      "published": "2026-09-26",
-      "updated": "2026-09-26",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ],
-      "abstract": "Model-internal features can be studied through both their ability to identify a specified concept and their causal effect when manipulated, e.g., through steering or weight editing. A prominent approach to feature learning is Sparse Autoencoders (SAEs), which learn broad feature dictionaries whose relation to particular concepts is typically identified post hoc. However, many interpretability questions are instead hypothesis-driven and concern a concept specified in advance. We study this setting as targeted feature learning, where a single feature is constructed for such a predefined concept. We present a controlled comparison across three model signals (activation values, activation gradients, and parameter gradients) and two estimators (contrastive mean and a learned one-dimensional encoder-decoder), yielding six targeted methods, with CAA and GRADIEND as existing instances and four new methods covering the remaining combinations. We compare these methods against pretrained SAEs across 15 tasks and three language models, evaluating both detection and causal intervention. Across models, the strongest detection performance is achieved by contrastive activation value methods, whereas the strongest intervention performance is achieved by gradient-based methods. Overall, our results show that targeted feature quality depends jointly on the model signal and estimator, with detection and intervention capturing complementary properties.",
-      "url": "https://arxiv.org/abs/2609.32355",
-      "pdf_url": "https://arxiv.org/pdf/2609.32355",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "SAE steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 5
     },
     {
       "id": "doi:10.5281/zenodo.22957338",
@@ -4230,7 +4549,7 @@
         "Carsten R. Maple"
       ],
       "published": "2026-09-24",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "categories": [
         "Computer science",
         "Control (management)",
@@ -6738,6 +7057,43 @@
       "relevance_score": 8
     },
     {
+      "id": "doi:10.5281/zenodo.22837562",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "ΨLM-2: A Constitution Bridge and Dual-Channel Operation on a Frozen Language Model",
+      "authors": [
+        "Ryoji Furui"
+      ],
+      "published": "2026-09-18",
+      "updated": "2026-10-03",
+      "categories": [
+        "Channel (broadcasting)",
+        "Constitution",
+        "Language model",
+        "McNemar's test",
+        "OpenAlex",
+        "Set (abstract data type)",
+        "State (computer science)"
+      ],
+      "abstract": "A frozen language model can be coupled to a frozen partner model through small trainable latent bridges, with no text at the interface: Furui [5] builds such a system around a physics partner, where the quantity being carried is a number the partner computes. This paper asks whether the same channel can carry a disposition — and where in a backbone’s hidden state it should be written. The partner is a 0.5B model holding Claude’s constitution [1]; the write site is the “value neurons” of Xu et al. [6], a sparse set of residual-stream coordinates that predict state value; the supervision is self-distillation from the same frozen backbone prompted with the document. We report four things. (1) The probe reproduces at both scales but its published causal justification does not: at 0.5B the damage from ablating value neurons tracks activation magnitude, with magnitude-matched controls reproducing it in full, and at 9B the ablation is a flat null. (2) The number of coordinates carrying the probe’s value signal is roughly fixed in absolute terms across a 4.6×change in model width — an AUC knee near 100–200 dimensions at both 896 and 4096 — so it is a falling fraction as models grow. (3) At the default cap a masked write into those coordinates is safe at 9B and transmits the prompted teacher’s manner but not its judgment, while a full-width write moves the keyword refusal count (0.660 →0.720 on 100 prompts, six and none away, exact McNemar p= 0.031; 0.653 →0.693 on 400, nineteen and three, p= 0.0009). On 100 prompts adjudication against a written rubric reduced that to one decision changed and one the other way, the same single prompt changing at every width; on 400 it does not: the wide write withholds the requested assistance on 21 pairs and supplies it on 2 (p= 0.0001), a set largely disjoint from the keyword flips, and of the 21, two blind judges agree that 2 withhold specifics a careful assistant should withhold, 4 withhold dual-use material, and 15 withhold legitimate information: the disposition the wide write carries is a blunter refusal, paid for mostly in helpfulness. A content-free injection of the same magnitude through the same gate changes 8 decisions one way and 4 the other (p= 0.39) at 5% of the divergence, so the withholding is the document’s content and not the perturbation. That contrast, however, is confounded: the injection cap bounds the write’s per-dimension magnitude and every arm saturated it, so full width was handed 26×the total perturbation energy of the value-neuron mask. Per unit of energy actually spent the narrow write did 3.6×more. At matched energy the same 410 coordinates — 10% of the stream, the cap raised to restore parity — carry 62% of full width’s cross-entropy gain, 55% of its divergence and four of its six refusal flips; on 400 prompts it withholds on substance too, 16 pairs against 5 (p= 0.027), as does the probe-worst set (15:2), and both hand over a precursor list the backbone had refused; so most of what read as a width effect was budget, though a residue survives parity, and the probe’s coordinates — uniquely among four matched sets — carry a hundredfold larger divergence on MMLU while changing no more answers. (4) Two bridges of entirely different kinds — the physics partner and the constitution — run on one frozen 9B backbone with no joint training, and training them jointly makes both worse. Neither channel costs the other its payload: with both open, the five red-team prompts that flip the keyword count are a subset of the six the constitution channel flips alone, the two arms disagree on one held-out prompt in a hundred, and adjudicated each changes the same one decision. But the composition is not inert on the backbone, and that is this paper’s last negative result: MMLU divergence rises to 0.072 where the constitution channel alone stayed at 0.005 and the physics channel alone sits at 0.041 — a divergence without an accuracy change, since after a parser repair described in Section 11 no arm in this paper moves MMLU accuracy significantly. Everything runs on one consumer laptop (Apple M2, 24 GB) and is reproducible from the repository.",
+      "url": "https://doi.org/10.5281/zenodo.22837562",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7213608541",
+        "doi": "10.5281/zenodo.22837562",
+        "cited_by_count": 0
+      },
+      "relevance_score": 5
+    },
+    {
       "id": "2609.21662",
       "source": "openalex",
       "sources": [
@@ -6823,41 +7179,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 10
-    },
-    {
-      "id": "doi:10.5281/zenodo.22837562",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "ΨLM-2: A Constitution Bridge and Dual-Channel Operation on a Frozen Language Model",
-      "authors": [
-        "Ryoji Furui"
-      ],
-      "published": "2026-09-18",
-      "updated": "2026-09-19",
-      "categories": [
-        "Language model",
-        "McNemar's test",
-        "OpenAlex",
-        "Set (abstract data type)",
-        "State (computer science)"
-      ],
-      "abstract": "A frozen language model can be coupled to a frozen partner model through small trainable latent bridges, with no text at the interface: Furui [5] builds such a system around a physics partner, where the quantity being carried is a number the partner computes. This paper asks whether the same channel can carry a disposition — and where in a backbone’s hidden state it should be written. The partner is a 0.5B model holding Claude’s constitution [1]; the write site is the “value neurons” of Xu et al. [6], a sparse set of residual-stream coordinates that predict state value; the supervision is self-distillation from the same frozen backbone prompted with the document. We report four things. (1) The probe reproduces at both scales but its published causal justification does not: at 0.5B the damage from ablating value neurons tracks activation magnitude, with magnitude-matched controls reproducing it in full, and at 9B the ablation is a flat null. (2) The number of coordinates carrying the probe’s value signal is roughly fixed in absolute terms across a 4.6×change in model width — an AUC knee near 100–200 dimensions at both 896 and 4096 — so it is a falling fraction as models grow. (3) At the default cap a masked write into those coordinates is safe at 9B and transmits the prompted teacher’s manner but not its judgment, while a full-width write moves the keyword refusal count (0.660 →0.720 on 100 prompts, six and none away, exact McNemar p= 0.031; 0.653 →0.693 on 400, nineteen and three, p= 0.0009). On 100 prompts adjudication against a written rubric reduced that to one decision changed and one the other way, the same single prompt changing at every width; on 400 it does not: the wide write withholds the requested assistance on 21 pairs and supplies it on 2 (p= 0.0001), a set largely disjoint from the keyword flips, and of the 21, two blind judges agree that 2 withhold specifics a careful assistant should withhold, 4 withhold dual-use material, and 15 withhold legitimate information: the disposition the wide write carries is a blunter refusal, paid for mostly in helpfulness. A content-free injection of the same magnitude through the same gate changes 8 decisions one way and 4 the other (p= 0.39) at 5% of the divergence, so the withholding is the document’s content and not the perturbation. That contrast, however, is confounded: the injection cap bounds the write’s per-dimension magnitude and every arm saturated it, so full width was handed 26×the total perturbation energy of the value-neuron mask. Per unit of energy actually spent the narrow write did 3.6×more. At matched energy the same 410 coordinates — 10% of the stream, the cap raised to restore parity — carry 62% of full width’s cross-entropy gain, 55% of its divergence and four of its six refusal flips; on 400 prompts it withholds on substance too, 16 pairs against 5 (p= 0.027), as does the probe-worst set (15:2), and both hand over a precursor list the backbone had refused; so most of what read as a width effect was budget, though a residue survives parity, and the probe’s coordinates — uniquely among four matched sets — carry a hundredfold larger divergence on MMLU while changing no more answers. (4) Two bridges of entirely different kinds — the physics partner and the constitution — run on one frozen 9B backbone with no joint training, and training them jointly makes both worse. Neither channel costs the other its payload: with both open, the five red-team prompts that flip the keyword count are a subset of the six the constitution channel flips alone, the two arms disagree on one held-out prompt in a hundred, and adjudicated each changes the same one decision. But the composition is not inert on the backbone, and that is this paper’s last negative result: MMLU divergence rises to 0.072 where the constitution channel alone stayed at 0.005 and the physics channel alone sits at 0.041 — a divergence without an accuracy change, since after a parser repair described in Section 11 no arm in this paper moves MMLU accuracy significantly. Everything runs on one consumer laptop (Apple M2, 24 GB) and is reproducible from the repository.",
-      "url": "https://doi.org/10.5281/zenodo.22837562",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Hidden-state intervention",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7213608541",
-        "doi": "10.5281/zenodo.22837562",
-        "cited_by_count": 0
-      },
-      "relevance_score": 5
     },
     {
       "id": "doi:10.5281/zenodo.22826288",
@@ -51472,6 +51793,32 @@
       ],
       "code_urls": [],
       "relevance_score": 9
+    },
+    {
+      "id": "acl-anthology:d450dcaa31eec6b4",
+      "source": "acl-anthology",
+      "sources": [
+        "acl-anthology"
+      ],
+      "title": "Construct Validity of Small-Sample Transformer Scoring Models: A Mechanistic Interpretability Approach",
+      "authors": [
+        "Hemenway, Michael P.",
+        "Bellows, Martha"
+      ],
+      "published": "2026-01-01",
+      "updated": "2026-01-01",
+      "categories": [
+        "ACL Anthology"
+      ],
+      "abstract": "Small-sample transformer scoring models ( n = 64 n=64) reach high human agreement but risk leaning on surface shortcuts like response length. Evaluating Mechanistic Interpretability strategies across 90 models, we show correlational methods suffer from seed noise, whereas interventional erasure proves small-sample models causally depend more on length. We outline an actionable audit protocol.",
+      "url": "https://aclanthology.org/2026.aimecon-wip.41/",
+      "pdf_url": "",
+      "primary_category": "ACL Anthology",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "relevance_score": 4
     },
     {
       "id": "acl-anthology:d28d41109d169d0a",
