@@ -1,6 +1,411 @@
 {
-  "generated_at": "2026-10-24T07:50:10+00:00",
+  "generated_at": "2026-10-25T08:04:39+00:00",
   "papers": [
+    {
+      "id": "doi:10.5281/zenodo.23587521",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "LENS: Localized updates facilitate patient-level unlearning in clinical large language models",
+      "authors": [
+        "Minkyoung Kim",
+        "Jiye Han",
+        "Young‐Hak Kim",
+        "Sanghyun Park",
+        "Tae Joon Jun"
+      ],
+      "published": "2026-10-23",
+      "updated": "2026-10-24",
+      "categories": [
+        "Computer science",
+        "Language model",
+        "Natural language processing",
+        "OpenAlex",
+        "Window (computing)"
+      ],
+      "abstract": "Reference implementation of LENS, patient-level unlearning in a LoRA-fine-tuned clinical language model that updates only a window of decoder layers, with data-construction prompt templates, supervised fine-tuning, activation patching, adapter-ablation window scoring, and evaluation code (ROUGE-L, Truth Ratio, response types, prompt variations, benchmarks). No data, generated text or model weights are included. The data in the article are derived from MIMIC-III and are available only to credentialed PhysioNet users.",
+      "url": "https://doi.org/10.5281/zenodo.23587521",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7223357778",
+        "doi": "10.5281/zenodo.23587521",
+        "cited_by_count": 0
+      },
+      "relevance_score": 8
+    },
+    {
+      "id": "doi:10.14288/ujemi.v6.204182",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Cloning EDTA monooxygenase as a Model Protein to Characterize the Effects of Flavin oxidoreductase on Solubility of Proteins in Protein Overexpression Systems",
+      "authors": [
+        "MIKAMEH KAZEM"
+      ],
+      "published": "2026-10-23",
+      "updated": "2026-10-24",
+      "categories": [
+        "OpenAlex",
+        "Flavin group",
+        "Oxidoreductase",
+        "Biochemistry",
+        "Escherichia coli"
+      ],
+      "abstract": "Escherichia coli thiol reductase has been utilized by Novagen to create an expression system for insoluble and poorly soluble proteins which normally form aggregates when overexpressed and become inactivated. Believing that the redox state maybe responsible for the solubilizing mechanism, we conducted the following study to assess the role of E. coli flavin oxidoreductase in increasing solubility of such proteins. Primers were designed for amplification of E. coli flavin oxidoreductase. We attempted replacing the thiol reductase sequence in the Novagen vector with the amplified sequence. Due to time limitations, we were only able to construct a control vector with an insoluble protein sequence, EDTA monooxygenase A. Construction of other vectors were attempted but failed due to specific properties of restriction enzymes used. Further work is required to complete the constructs necessary to fully examine the effects of flavin oxidoreductase on protein solubility.",
+      "url": "https://doi.org/10.14288/ujemi.v6.204182",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7223316396",
+        "doi": "10.14288/ujemi.v6.204182",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.14288/ujemi.v6.204181",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Preparing Plasmid Constructs to Investigate the Characteristics of Thiol Reductase and Flavin Reductase With Regard to Solubilizing Insoluble Proteinase Inhibitor 2 in Bacterial Protein Overexpression Systems",
+      "authors": [
+        "Neha Shah"
+      ],
+      "published": "2026-10-23",
+      "updated": "2026-10-24",
+      "categories": [
+        "OpenAlex",
+        "Reductase",
+        "Fusion protein",
+        "Plasmid",
+        "Biochemistry"
+      ],
+      "abstract": "Some proteins produced in bacterial expression systems can be insoluble and aggregated making them difficult to study. One possible solution to solubilizing such insoluble proteins is to create a fusion protein containing the protein of interest coupled with a thioreductase protein. (Yasukawa et al. J. Biol. Chem. 270, 25328-25331 (1995)) In this study we intended to assess whether thiol reductase or flavin reductase would both be equally effective at solubilizing the protein of interest; proteinase inhibitor 2. We attempted to create fusion protein constructs using the Novagen plasmid pET32a as a cloning vector since the pET32a contains thiol reductase. To compare reductase proteins, a flavin reductase gene was obtained for cloning. Due to shortage of time for this experiment, the constructs were not produced, however all of the fragments to be cloned and the control vector were produced. Additional time and resources would ensure that the constructs are produced and protein expression and analysis can be carried out to test the solubilizing properties of thiol and flavin reductases on proteinase inhibitor 2.",
+      "url": "https://doi.org/10.14288/ujemi.v6.204181",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W2186059154",
+        "doi": "10.14288/ujemi.v6.204181",
+        "cited_by_count": 2
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.1007/s44163-026-02593-2",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Paired response final divergence signatures of jailbreak vulnerability in large language models",
+      "authors": [
+        "Heba Ismail"
+      ],
+      "published": "2026-10-23",
+      "updated": "2026-10-24",
+      "categories": [
+        "Context (archaeology)",
+        "Divergence (linguistics)",
+        "Framing (construction)",
+        "OpenAlex",
+        "Variation (astronomy)"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly deployed in safety-critical applications, making their susceptibility to jailbreak attacks a critical concern. While prior work has investigated factors affecting model safety, the representational mechanisms underlying variation in jailbreak vulnerability remain poorly understood. This paper introduces a paired response-final divergence framework that characterizes jailbreak-induced representational displacement between same-goal direct and jailbreak responses using hidden states extracted at the final generated token. This framework is applied to 15 open-source LLMs spanning different model families, four alignment strategies, and four attack types. The framework yields three principal findings: First, Difference-in-Means refusal direction suppression showed the largest observed cross-model association with jailbreak amplification among the evaluated representational measures. Second, family-averaged divergence profiles reveal early-onset representational separation in LLM families like Vicuna, while LLaMA models exhibit comparatively lower and more gradual divergence than Vicuna across normalized layer depth. Third, divergence–ΔASR correlation is attack-type-specific: authority framing ( r = 0.836) and context manipulation ( r = 0.712) produce stronger model-family discrimination, whereas roleplay-based attacks do not. These findings yield a three-profile representational taxonomy: structurally resistant, early-displaced vulnerable, and ceiling-compromised, that provides a representational grounding for the behavioral patterns observed in the evaluated LLM set, with direct implications for safety evaluation design and model selection in high-stakes deployment.",
+      "url": "https://doi.org/10.1007/s44163-026-02593-2",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44163-026-02593-2.pdf",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact",
+        "Hidden-state intervention",
+        "Safety refusal behavior steering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7223303167",
+        "doi": "10.1007/s44163-026-02593-2",
+        "cited_by_count": 0
+      },
+      "relevance_score": 12
+    },
+    {
+      "id": "doi:10.1007/s11235-026-01525-w",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Nelder–Mead enhanced MUSIC algorithm for efficient position estimation in ISAC systems",
+      "authors": [
+        "Bruno Felipe Costa",
+        "Taufik Abrão"
+      ],
+      "published": "2026-10-23",
+      "updated": "2026-10-24",
+      "categories": [
+        "OpenAlex",
+        "Computer science",
+        "Algorithm",
+        "Estimator",
+        "Position (finance)"
+      ],
+      "abstract": "Abstract Accurate user-position estimation is essential in integrated sensing and communication systems, where sensing accuracy must be balanced against sampling and computational costs. This paper considers two-dimensional localization of a single ground-plane user through a known elevated uniform rectangular array and the multiple signal classification pseudo-spectrum. The proposed Nelder–Mead MUSIC method combines a uniform coarse search with derivative-free simplex refinement, thereby avoiding an exhaustive fine-grid evaluation of the complete search region. Exact Euclidean antenna–user distances and free-space amplitude decay are retained in the steering vector so that the pseudo-spectrum depends on the candidate position rather than only on direction of arrival. A Cramér–Rao bound that accounts for the unknown signal phase and amplitude is derived as a theoretical performance benchmark, and Monte Carlo simulations examine the effects of signal-to-noise ratio, sample count, array elevation, coarse-grid density, and refinement iterations. The numerical results indicate that, under the modeled line-of-sight single-user conditions, the estimator approaches the adopted bound at sufficiently high signal-to-noise ratios for well-conditioned user geometries, while requiring substantially fewer pseudo-spectrum evaluations than a dense exhaustive search.",
+      "url": "https://doi.org/10.1007/s11235-026-01525-w",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7223348691",
+        "doi": "10.1007/s11235-026-01525-w",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.5281/zenodo.23579919",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Data Physics in Edge AI Architecture - Part XII: The Hydrodynamic Paradox of Edge AI: Venturi Effect in SLM Quantization and Neuro-Symbolic Ejector Architectures.",
+      "authors": [
+        "Rajmund Olszewski"
+      ],
+      "published": "2026-10-22",
+      "updated": "2026-10-24",
+      "categories": [
+        "OpenAlex",
+        "Computer science",
+        "Venturi effect",
+        "Solver",
+        "Theoretical computer science"
+      ],
+      "abstract": "Title: The Hydrodynamic Paradox of Edge AI: A Neuro-Symbolic L0 Architecture for Critical Infrastructure Abstract: Deploying probabilistic, cloud-based artificial intelligence models (LLMs) in critical infrastructure systems (OT, e.g., mCDU liquid cooling loops, tactical DC microgrids) faces fundamental barriers: unacceptable latency, exceeding strict power budgets (often < 5W), and a lack of mathematical determinism in execution layers (\"hallucinations\"). This publication introduces the concept of Data Physics and presents the Sovereign L0 Edge Oracle (v3.1 SIL-Ready)—a unified neuro-symbolic architecture that solves this problem through a direct isomorphism of fluid mechanics principles at the codebase level. Utilizing the computational equivalent of the \"Hydrodynamic Paradox,\" the system processes nonlinear semantic chaos into a hard, deterministic control vector. The architecture is divided into two coupled stages: Venturi Constriction (Probabilistic Layer): The application of a quantized small language model (4-bit SLM) combined with a strict GBNF grammar mask. From the perspective of information theory, the forced reduction of the token space acts as a hydrodynamic restrictor—it deliberately annihilates semantic noise, drastically reduces VRAM pressure, and maximizes the speed of intent extraction (throughput time < 300 ms). Ejector Suction (Deterministic Layer): The highly accelerated, reduced data vector is drawn directly into a statically pre-allocated formal verification SMT engine (Z3-Solver). The solver utilizes Linear Real Arithmetic (LRA) approximation to verify the physical laws of the target domain (e.g., cavitation curves, pressure drops) in hard real-time (response < 10 ms), establishing an impenetrable safety guardrail against AI-induced errors. Version 3.1 introduces an architecture ready for SIL-2/3 rigor, implementing hardware separation of intent from measurement (Sensor Fusion Guard), time-to-live (TTL) telemetry validation, memory management in the critical section (GC locks), and IEEE 754 floating-point safety boundaries. This work proves the feasibility of integrating hybrid AI systems with classical PLC/OT control loops without relying on cloud computing. Concurrently, the provided code and technical documentation constitute a formal defensive publication (establishing Prior Art, ref. UPRP P.454742), legally preventing the commercial appropriation of this design pattern. Keywords: Edge AI, Neuro-Symbolic AI, Z3-Solver, Contested Logistics, Data Physics, SMT, L0 Critical Infrastructure, Defensive Publishing, Prior Art.",
+      "url": "https://doi.org/10.5281/zenodo.23579919",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7223326922",
+        "doi": "10.5281/zenodo.23579919",
+        "cited_by_count": 0
+      },
+      "relevance_score": 10
+    },
+    {
+      "id": "doi:10.47606/acven/mv0359",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Cultura ambiental y desarrollo sostenible en salud en américa latina: una revisión sistemática",
+      "authors": [
+        "Sheyla Llamoga Cuenca",
+        "Pedro Otoniel Morales-Salazar"
+      ],
+      "published": "2026-10-22",
+      "updated": "2026-10-24",
+      "categories": [
+        "Context (archaeology)",
+        "Humanities",
+        "OpenAlex",
+        "Political science",
+        "Welfare economics"
+      ],
+      "abstract": "Introducción: La cultura ambiental constituye un componente fundamental para promover prácticas sostenibles que contribuyan a la protección del ambiente y al bienestar de las poblaciones latinoamericanas. Objetivo: Analizar la relación entre la cultura ambiental y el desarrollo sostenible en salud en América Latina mediante una revisión sistemática de la evidencia científica disponible. Materiales y métodos: Se realizó una revisión sistemática siguiendo las directrices PRISMA 2020. La búsqueda bibliográfica se efectuó el 12 de mayo de 2026 en Scopus, Web of Science, SciELO, Biblioteca Virtual en Salud y LILACS, sin restricciones temporales. Dos revisores independientes seleccionaron los estudios mediante Rayyan, resolviendo las discrepancias por consenso o mediante un tercer evaluador. La calidad metodológica se valoró utilizando el instrumento Mixed Methods Appraisal Tool. Resultados: Se identificaron 321 registros, de los cuales se eliminaron 53 duplicados. Posteriormente, se examinaron 268 títulos y resúmenes, se evaluaron 33 textos completos y se incluyeron 14 estudios publicados entre 2002 y 2026, procedentes de siete países latinoamericanos. Los principales componentes analizados fueron la educación ambiental, la conciencia ecológica, la percepción de riesgos, las actitudes proambientales y la participación comunitaria, vinculados con diferentes dimensiones de la salud y la sostenibilidad. Conclusiones: La evidencia revisada sugiere que la cultura ambiental puede contribuir al desarrollo sostenible en salud mediante el fortalecimiento de prácticas relacionadas con la promoción de la salud, el saneamiento, la gestión de residuos, el control vectorial, la seguridad alimentaria y el bienestar comunitario. Estos hallazgos destacan su relevancia para orientar estrategias integrales de salud pública y sostenibilidad ambiental en América Latina.",
+      "url": "https://doi.org/10.47606/acven/mv0359",
+      "pdf_url": "https://acvenisproh.com/revistas/index.php/masvita/article/download/1407/3023",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7223218382",
+        "doi": "10.47606/acven/mv0359",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "2610.31576",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
+      "authors": [
+        "Jinya Sakurai",
+        "Xun Xu",
+        "Jaehong Yoon"
+      ],
+      "published": "2026-10-22",
+      "updated": "2026-10-24",
+      "categories": [
+        "Complement (music)",
+        "Computer science",
+        "Matching (statistics)",
+        "Offset (computer science)",
+        "OpenAlex",
+        "cs.AI"
+      ],
+      "abstract": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, inputs, and capacity, obscuring which choices matter. We view supervised policies as distilling a decoding procedure through a teacher and examine independently what the teacher labels as committable, on which states the policy imitates it, what the policy observes, and how much the number of function evaluations (NFE) must decrease to offset policy overhead. We find that labeling predictions matching the final output is overly permissive at low NFE, and hidden states are weak alone but can complement confidence. About a 10% NFE reduction suffices to offset policy overhead for policies up to 7.5M parameters across tested settings. We therefore train a policy on trajectory-contraction targets, which accept only commitments staying on a reference trajectory, using confidence and hidden states. On LLaDA-8B-Instruct, the resulting 856K-parameter policy achieves the best accuracy--NFE frontier and highest throughput on GSM8K, is competitive at moderate targets on MATH-500 and HumanEval, and largely transfers to Dream-7B-Instruct.",
+      "url": "https://arxiv.org/abs/2610.31576",
+      "pdf_url": "https://arxiv.org/pdf/2610.31576",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Diffusion language model steering",
+        "Hidden-state intervention"
+      ],
+      "code_urls": [],
+      "relevance_score": 6,
+      "openalex": {
+        "id": "https://openalex.org/W7223308843",
+        "doi": "10.48550/arxiv.2610.31576",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.31520",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "The Geometry of Metaphor: Probing and Steering Metaphor Representations in Large Language Models",
+      "authors": [
+        "Shihui Li",
+        "Mette Andersen",
+        "Martha Lewis"
+      ],
+      "published": "2026-10-22",
+      "updated": "2026-10-24",
+      "categories": [
+        "Computer science",
+        "Control (management)",
+        "Interpretability",
+        "Metaphor",
+        "OpenAlex",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Metaphor is a crucial aspect of human cognition. As such, we would like to understand how it is represented in large language models (LLMs) and how it might be controlled. We use mechanistic interpretability techniques to identify causal subspaces in a range of LLMs covering different architectures and sizes. We show that we are able to steer output on classification tasks across different parts of speech. We are also able to steer output on generation tasks, indicating that these techniques can be used to control the metaphoricity of LLM output.",
+      "url": "https://arxiv.org/abs/2610.31520",
+      "pdf_url": "https://arxiv.org/pdf/2610.31520",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 8,
+      "openalex": {
+        "id": "https://openalex.org/W7223350631",
+        "doi": "10.48550/arxiv.2610.31520",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.31407",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Same Entity, Different Script: Diagnosing Cross-Script Entity Matching Failures in Language Models",
+      "authors": [
+        "Athira Gopal",
+        "Patil Prathamesh Pravin",
+        "Ankush Kadu",
+        "Arpit Jain",
+        "Ashwanth Krishnan"
+      ],
+      "published": "2026-10-22",
+      "updated": "2026-10-24",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Devanagari",
+        "Marathi",
+        "OpenAlex",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Multilingual language models can give different identity judgments when the same people's names are written in different scripts. We study this effect using 601 audited identity pairs with attested Devanagari and Latin forms, holding the question and relation fixed. Qwen2.5-7B's same-person accuracy falls from 35.1% in Latin to 8.5% in Devanagari under Marathi prompts, while different-person accuracy remains above 98%. Evaluation across five models reveals distinct response biases, and reduced tokenization fragmentation does not reliably close the gap. Replicating the design on 374 audited Malayalam pairs built from the same entities reproduces the effect in a second script and language family: same-person accuracy falls to 5.3%, about half the matched Devanagari rate, while the margin still ranks matching above non-matching names at 0.925 AUROC. Latin-trained probes recover label information from Devanagari states, exceeding a string-feature baseline under similarity-matched negatives. Scalar calibration recovers 87% of the raw model-probe balanced-accuracy gap, identifying decision criterion placement as a major contributor. Activation patching localises causal sensitivity to the second entity in Qwen's middle layers; one shared sensitivity direction transfers about half the full-state margin correction. A fact-independent intervention at this site raises held-out Marathi same-person accuracy from 6.5% to 33.5%, with 98.5% different-person accuracy. Together, these results distinguish script-dependent discrimination from criterion placement and identify a causal site for improving identity judgments.",
+      "url": "https://arxiv.org/abs/2610.31407",
+      "pdf_url": "https://arxiv.org/pdf/2610.31407",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 6,
+      "openalex": {
+        "id": "https://openalex.org/W7223327100",
+        "doi": "10.48550/arxiv.2610.31407",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.30938",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "The Geometry of Meaning in Neural Manifolds",
+      "authors": [
+        "Valentino Maiorca"
+      ],
+      "published": "2026-10-22",
+      "updated": "2026-10-24",
+      "categories": [
+        "Artificial intelligence",
+        "Artificial neural network",
+        "Computer science",
+        "Generative model",
+        "OpenAlex",
+        "cs.AI"
+      ],
+      "abstract": "Just as different languages express the same concept through different words, neural networks express similar functions through incompatible coordinate systems. Different architectures, random initializations, and optimization trajectories produce incompatible parameterizations in extrinsic coordinates, obscuring functional relationships between independently trained models. When models independently solve similar tasks on related data, do their learned representations share exploitable structure despite incompatible coordinates? This thesis shows that semantic correspondence is a fundamental primitive revealing shared geometric structure beneath incompatible parameterizations. By identifying which elements refer to the same semantic content, correspondence breaks the symmetry of arbitrary implementation choices, anchoring incompatible systems to a shared semantic frame and revealing the intrinsic geometry that enables zero-shot transformation between independently trained models. Building on this principle, fourteen contributions explore correspondence-based alignment across zero-shot model stitching, cross-modal translation, policy transfer, activation steering, and neural decoding. They span domains (vision, language, reinforcement learning, neuroscience), architectures (CNNs, Transformers, graph networks), and scales (from small supervised models to billion-parameter generative systems). Each exploits different geometric properties (angular, metric, spectral, sparse, or distributional), yet all instantiate the same principle. It extends beyond artificial systems: fMRI data show that different human brains processing identical stimuli exhibit alignable geometric structure. By revealing intrinsic geometric structure beneath extrinsic parameterization, semantic correspondence transforms model isolation into interoperability.",
+      "url": "https://arxiv.org/abs/2610.30938",
+      "pdf_url": "https://arxiv.org/pdf/2610.30938",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Activation steering exact",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 7,
+      "openalex": {
+        "id": "https://openalex.org/W7215416919",
+        "doi": "10.48550/arxiv.2610.30938",
+        "cited_by_count": 0
+      }
+    },
     {
       "id": "doi:10.5463/thesis.1845",
       "source": "openalex",
@@ -38,97 +443,6 @@
       "relevance_score": 11
     },
     {
-      "id": "doi:10.47606/acven/mv0359",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Cultura ambiental y desarrollo sostenible en salud en américa latina: una revisión sistemática",
-      "authors": [
-        "Sheyla Llamoga Cuenca",
-        "Pedro Otoniel Morales-Salazar"
-      ],
-      "published": "2026-10-22",
-      "updated": "2026-10-23",
-      "categories": [
-        "OpenAlex",
-        "Political science",
-        "Context (archaeology)",
-        "Humanities",
-        "Welfare economics"
-      ],
-      "abstract": "Introducción: La cultura ambiental constituye un componente fundamental para promover prácticas sostenibles que contribuyan a la protección del ambiente y al bienestar de las poblaciones latinoamericanas. Objetivo: Analizar la relación entre la cultura ambiental y el desarrollo sostenible en salud en América Latina mediante una revisión sistemática de la evidencia científica disponible. Materiales y métodos: Se realizó una revisión sistemática siguiendo las directrices PRISMA 2020. La búsqueda bibliográfica se efectuó el 12 de mayo de 2026 en Scopus, Web of Science, SciELO, Biblioteca Virtual en Salud y LILACS, sin restricciones temporales. Dos revisores independientes seleccionaron los estudios mediante Rayyan, resolviendo las discrepancias por consenso o mediante un tercer evaluador. La calidad metodológica se valoró utilizando el instrumento Mixed Methods Appraisal Tool. Resultados: Se identificaron 321 registros, de los cuales se eliminaron 53 duplicados. Posteriormente, se examinaron 268 títulos y resúmenes, se evaluaron 33 textos completos y se incluyeron 14 estudios publicados entre 2002 y 2026, procedentes de siete países latinoamericanos. Los principales componentes analizados fueron la educación ambiental, la conciencia ecológica, la percepción de riesgos, las actitudes proambientales y la participación comunitaria, vinculados con diferentes dimensiones de la salud y la sostenibilidad. Conclusiones: La evidencia revisada sugiere que la cultura ambiental puede contribuir al desarrollo sostenible en salud mediante el fortalecimiento de prácticas relacionadas con la promoción de la salud, el saneamiento, la gestión de residuos, el control vectorial, la seguridad alimentaria y el bienestar comunitario. Estos hallazgos destacan su relevancia para orientar estrategias integrales de salud pública y sostenibilidad ambiental en América Latina.",
-      "url": "https://doi.org/10.47606/acven/mv0359",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7223218382",
-        "doi": "10.47606/acven/mv0359",
-        "cited_by_count": 0
-      },
-      "relevance_score": 4
-    },
-    {
-      "id": "2610.31576",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
-      "authors": [
-        "Jinya Sakurai",
-        "Xun Xu",
-        "Jaehong Yoon"
-      ],
-      "published": "2026-10-22",
-      "updated": "2026-10-22",
-      "categories": [
-        "cs.AI"
-      ],
-      "abstract": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, inputs, and capacity, obscuring which choices matter. We view supervised policies as distilling a decoding procedure through a teacher and examine independently what the teacher labels as committable, on which states the policy imitates it, what the policy observes, and how much the number of function evaluations (NFE) must decrease to offset policy overhead. We find that labeling predictions matching the final output is overly permissive at low NFE, and hidden states are weak alone but can complement confidence. About a 10% NFE reduction suffices to offset policy overhead for policies up to 7.5M parameters across tested settings. We therefore train a policy on trajectory-contraction targets, which accept only commitments staying on a reference trajectory, using confidence and hidden states. On LLaDA-8B-Instruct, the resulting 856K-parameter policy achieves the best accuracy--NFE frontier and highest throughput on GSM8K, is competitive at moderate targets on MATH-500 and HumanEval, and largely transfers to Dream-7B-Instruct.",
-      "url": "https://arxiv.org/abs/2610.31576",
-      "pdf_url": "https://arxiv.org/pdf/2610.31576",
-      "primary_category": "cs.AI",
-      "source_queries": [
-        "Diffusion language model steering",
-        "Hidden-state intervention"
-      ],
-      "code_urls": [],
-      "relevance_score": 6
-    },
-    {
-      "id": "2610.31520",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "The Geometry of Metaphor: Probing and Steering Metaphor Representations in Large Language Models",
-      "authors": [
-        "Shihui Li",
-        "Mette Andersen",
-        "Martha Lewis"
-      ],
-      "published": "2026-10-22",
-      "updated": "2026-10-22",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "abstract": "Metaphor is a crucial aspect of human cognition. As such, we would like to understand how it is represented in large language models (LLMs) and how it might be controlled. We use mechanistic interpretability techniques to identify causal subspaces in a range of LLMs covering different architectures and sizes. We show that we are able to steer output on classification tasks across different parts of speech. We are also able to steer output on generation tasks, indicating that these techniques can be used to control the metaphoricity of LLM output.",
-      "url": "https://arxiv.org/abs/2610.31520",
-      "pdf_url": "https://arxiv.org/pdf/2610.31520",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Mechanistic interpretability steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 8
-    },
-    {
       "id": "2610.31438",
       "source": "arxiv",
       "sources": [
@@ -161,60 +475,205 @@
       "relevance_score": 7
     },
     {
-      "id": "2610.31407",
-      "source": "arxiv",
+      "id": "doi:10.3390/computation14100261",
+      "source": "openalex",
       "sources": [
-        "arxiv"
+        "openalex"
       ],
-      "title": "Same Entity, Different Script: Diagnosing Cross-Script Entity Matching Failures in Language Models",
+      "title": "Amplifying Latent Safety in Large Language Models via Gated Activation Steering",
       "authors": [
-        "Athira Gopal",
-        "Patil Prathamesh Pravin",
-        "Ankush Kadu",
-        "Arpit Jain",
-        "Ashwanth Krishnan"
+        "Roman Prosvirnin",
+        "Andrey Suslov",
+        "Aleksei Soldatov",
+        "Anna Kutishcheva",
+        "Pavel Litikov",
+        "Vladimir Bashun"
       ],
-      "published": "2026-10-22",
-      "updated": "2026-10-22",
+      "published": "2026-10-21",
+      "updated": "2026-10-24",
       "categories": [
-        "cs.AI",
-        "cs.CL"
+        "Classifier (UML)",
+        "Computer science",
+        "Inference",
+        "Language model",
+        "OpenAlex"
       ],
-      "abstract": "Multilingual language models can give different identity judgments when the same people's names are written in different scripts. We study this effect using 601 audited identity pairs with attested Devanagari and Latin forms, holding the question and relation fixed. Qwen2.5-7B's same-person accuracy falls from 35.1% in Latin to 8.5% in Devanagari under Marathi prompts, while different-person accuracy remains above 98%. Evaluation across five models reveals distinct response biases, and reduced tokenization fragmentation does not reliably close the gap. Replicating the design on 374 audited Malayalam pairs built from the same entities reproduces the effect in a second script and language family: same-person accuracy falls to 5.3%, about half the matched Devanagari rate, while the margin still ranks matching above non-matching names at 0.925 AUROC. Latin-trained probes recover label information from Devanagari states, exceeding a string-feature baseline under similarity-matched negatives. Scalar calibration recovers 87% of the raw model-probe balanced-accuracy gap, identifying decision criterion placement as a major contributor. Activation patching localises causal sensitivity to the second entity in Qwen's middle layers; one shared sensitivity direction transfers about half the full-state margin correction. A fact-independent intervention at this site raises held-out Marathi same-person accuracy from 6.5% to 33.5%, with 98.5% different-person accuracy. Together, these results distinguish script-dependent discrimination from criterion placement and identify a causal site for improving identity judgments.",
-      "url": "https://arxiv.org/abs/2610.31407",
-      "pdf_url": "https://arxiv.org/pdf/2610.31407",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Activation intervention and patching"
-      ],
-      "code_urls": [],
-      "relevance_score": 6
-    },
-    {
-      "id": "2610.30938",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "The Geometry of Meaning in Neural Manifolds",
-      "authors": [
-        "Valentino Maiorca"
-      ],
-      "published": "2026-10-22",
-      "updated": "2026-10-22",
-      "categories": [
-        "cs.AI"
-      ],
-      "abstract": "Just as different languages express the same concept through different words, neural networks express similar functions through incompatible coordinate systems. Different architectures, random initializations, and optimization trajectories produce incompatible parameterizations in extrinsic coordinates, obscuring functional relationships between independently trained models. When models independently solve similar tasks on related data, do their learned representations share exploitable structure despite incompatible coordinates? This thesis shows that semantic correspondence is a fundamental primitive revealing shared geometric structure beneath incompatible parameterizations. By identifying which elements refer to the same semantic content, correspondence breaks the symmetry of arbitrary implementation choices, anchoring incompatible systems to a shared semantic frame and revealing the intrinsic geometry that enables zero-shot transformation between independently trained models. Building on this principle, fourteen contributions explore correspondence-based alignment across zero-shot model stitching, cross-modal translation, policy transfer, activation steering, and neural decoding. They span domains (vision, language, reinforcement learning, neuroscience), architectures (CNNs, Transformers, graph networks), and scales (from small supervised models to billion-parameter generative systems). Each exploits different geometric properties (angular, metric, spectral, sparse, or distributional), yet all instantiate the same principle. It extends beyond artificial systems: fMRI data show that different human brains processing identical stimuli exhibit alignable geometric structure. By revealing intrinsic geometric structure beneath extrinsic parameterization, semantic correspondence transforms model isolation into interoperability.",
-      "url": "https://arxiv.org/abs/2610.30938",
-      "pdf_url": "https://arxiv.org/pdf/2610.30938",
-      "primary_category": "cs.AI",
+      "abstract": "Safety-aligned language models often encode that a request is harmful yet still comply with it. We turn this gap between internal recognition and observable behavior into an inference-time defense. The proposed activation-steering method uses a multiplicative operator that amplifies the residual-stream component along a harm-recognition direction. Intervention strength scales with the model’s own assessment of the request. A second additive term steers activations along the refusal direction when harm is not internally recognized. Two linear probes computed from the model’s activations gate both components. The model weights remain unchanged, and inference requires neither fine-tuning nor calls to an external model. An external safety classifier is used only before deployment to provide training targets for the second probe. We evaluate five models from three families, Qwen3-1.7B, Qwen3-4B, Qwen3-8B, Gemma-2-9B-it, and Mistral-7B-Instruct, in BF16 and NF4. Successful attacks on SORRY-Bench decrease by 40 to 68%. Without hyperparameter retuning, the method removes 67 to 79% of the harmful responses on HarmBench. MMLU accuracy decreases by at most 0.7 percentage points, while over-refusal on lexically hazardous benign prompts increases by 4 to 8 points. Steered NF4 models produce 36 to 62% fewer harmful responses than their unmodified BF16 counterparts.",
+      "url": "https://doi.org/10.3390/computation14100261",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
       "source_queries": [
         "Activation steering exact",
         "Safety refusal behavior steering"
       ],
       "code_urls": [],
-      "relevance_score": 7
+      "openalex": {
+        "id": "https://openalex.org/W7223185045",
+        "doi": "10.3390/computation14100261",
+        "cited_by_count": 0
+      },
+      "relevance_score": 10
+    },
+    {
+      "id": "doi:10.2196/preprints.115028",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Assessing the Costs of Deploying a Digital Platform for Supervising Frontline Providers Delivering Task-Shared Depression Care: Time-Driven Activity-Based Costing Study (Preprint)",
+      "authors": [
+        "Laura Bond",
+        "Keshini Saggar",
+        "Yun Xian Ho",
+        "Delta-Marie Lewis",
+        "Srijanani Pillai",
+        "Marisol Vargas-Vilugron",
+        "Benjamin F. Miller",
+        "John A. Naslund"
+      ],
+      "published": "2026-10-21",
+      "updated": "2026-10-24",
+      "categories": [
+        "Activity-based costing",
+        "Business",
+        "Cost driver",
+        "OpenAlex",
+        "Total cost"
+      ],
+      "abstract": "BACKGROUND Task-shared depression care supported by quality assurance approaches, such as peer supervision, has the potential to address the treatment gap in depression care. However, scaling and sustaining task-shared depression care requires practical, affordable solutions. Shared, web-based training platforms offer promise, yet a more detailed understanding of costs for implementation and ongoing delivery is needed to inform their adoption and sustainability within health systems. OBJECTIVE This study presents a costing exercise of the implementation of a digitally-supported Measurement-Based Peer Supervision (MBPS) program for a task-shared behavioral activation intervention for depression. METHODS We estimated the cost of usage of a web-based MPBS application using a bottom-up, time-driven activity-based costing approach that identified activities associated with usage. Costs were estimated from the perspective of the implementing health system. For each identified activity, we estimated frequency, time per each occurrence, and required personnel and their associated costs. We estimated other fixed costs and presented our results across four modeled implementation scenarios in which the number of providers (25 and 50 non-specialist providers) and length of time (6- and 12-months) of application usage varied. We also presented the formula we used to enable future organizations to estimate costs tailored to their specific implementation model and settings. RESULTS Total digitally-assisted MBPS program costs ranged from US $29,940 (6 months, 25 providers) to US $104,054 (12 months, 50 providers). Human resources on the implementer side accounted for 80% to 88.5% of total costs, driven primarily by provider time spent reviewing and rating recorded Behavioral Activation sessions and participating in supervision. Technology costs (platform subscription and licensing at US $1000 per month) represented 11.3%–20% of total costs. Increasing either the number of providers or the implementation period raised total costs proportionally. The total cost per patient was similar across each scenario as we increased the length of implementation period and number of providers ($208.12 to $255.72). We derived a generalizable formula that allows organizations to input key parameters (number of providers, patients, sessions, supervision frequency, wages, and months of platform use) to estimate MBPS-related costs. CONCLUSIONS Our study has implications for guiding implementing organizations and health payors seeking to deliver task-shared psychological interventions, such as behavioral activation, for depression. Human resource costs accounted for the majority of costs incurred, most of which are inherent to the peer supervision model rather than to the application itself. While some activities require human-led coordination and management (e.g., session management), automation of other regular tasks may potentially provide cost savings opportunities. Future research should examine the cost-effectiveness of an MBPS application and compare cost savings for task-shared depression care with and without the MBPS application. CLINICALTRIAL ClinicalTrials.gov NCT07082010, registered July 24, 2025 at https://clinicaltrials.gov/study/NCT07082010",
+      "url": "https://doi.org/10.2196/preprints.115028",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7223175104",
+        "doi": "10.2196/preprints.115028",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "2610.30363",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Probing and Steering for Safety-Relevant Behaviours in Large Language Models",
+      "authors": [
+        "Nimun Bajwa",
+        "Massimo Poesio"
+      ],
+      "published": "2026-10-21",
+      "updated": "2026-10-24",
+      "categories": [
+        "Computer science",
+        "Layer (electronics)",
+        "OpenAlex",
+        "Pooling",
+        "Task (project management)",
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "abstract": "Activation probes are computed directions in a language model's residual stream, used both to detect safety-relevant behaviours and, by adding their direction back into the stream, to steer them. We explore how the main design choices behind such probes interact, within one pipeline, on one model (Llama-3.1-8B-Instruct), and across three behaviours: deception, high-stakes awareness and sycophancy. The pipeline crosses two estimators (difference-of-means and logistic regression) with three token-pooling schemes (last, mean and learned attention), selects appropriate layers to detect or steer a behaviour, and evaluates every direction twice: as a detector of the behaviour, and as a steering vector to push outputs towards the behaviour. Prior work read together suggests a read/write dissociation, in which logistic regression reads (detects) best but difference-of-means directions write (steer) best. We find that it holds for deception and high-stakes but not for sycophancy, where the pattern reverses. The reversal appears to follow partially from the data rather than from the estimators. The best pooling technique and the layer choice depend on the behaviour and data, and the layer that steers best can sit well before the layer that detects best. The right steering metric to use between changing a model's perception and eliciting behaviour depends on the task - and the two can disagree outright. The exported probes and directions power an interactive interface through which a user can score and steer text directly.",
+      "url": "https://arxiv.org/abs/2610.30363",
+      "pdf_url": "https://arxiv.org/pdf/2610.30363",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Safety refusal behavior steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 11,
+      "openalex": {
+        "id": "https://openalex.org/W7223262358",
+        "doi": "10.48550/arxiv.2610.30363",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.29778",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Geometry-Conditioned Target Speaker Extraction based on spatial features incorporating acoustic propagation principles",
+      "authors": [
+        "Jiatong Li",
+        "Simon Doclo"
+      ],
+      "published": "2026-10-21",
+      "updated": "2026-10-24",
+      "categories": [
+        "Computer science",
+        "Microphone",
+        "Microphone array",
+        "OpenAlex",
+        "Spatial filter",
+        "eess.AS"
+      ],
+      "abstract": "Recently, spatially selective non-linear filter (SSF) was proposed for target speaker extraction, utilizing the direction-of-arrival (DOA) of the target speaker as a spatial cue. To overcome its dependency on a fixed microphone array geometry, geometry-conditioned SSF (GCSSF) was proposed, which maps the target DOA and the microphone positions into abstract high-dimensional embeddings using positional encoding. As an alternative to these high-dimensional embeddings, in this paper we propose utilizing two spatial features incorporating acoustic propagation principles for geometry conditioning: 1) the steering vector of the target speaker, which captures inter-microphone phase differences, and 2) a spatial mask based on GCC-PHAT, which quantifies presence of the target speaker per time-frequency bin. These features are used as input to a geometry-conditioning encoder and integrated via a FiLM layer into the GCSSF system. Experimental results on circular and random arrays demonstrate that conditioning with spatial features improves target extraction performance compared to abstract high-dimensional embeddings, maintaining a clear performance advantage across a wide range of target DOA errors.",
+      "url": "https://arxiv.org/abs/2610.29778",
+      "pdf_url": "https://arxiv.org/pdf/2610.29778",
+      "primary_category": "eess.AS",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 4,
+      "openalex": {
+        "id": "https://openalex.org/W7223252060",
+        "doi": "10.48550/arxiv.2610.29778",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.29129",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Mitigating Reward Hacking in Realistic Scenarios Through Representation Engineering",
+      "authors": [
+        "Austin Meek",
+        "Kyle Cox",
+        "Matthew Nguyen",
+        "Austin J. Brockmeier",
+        "Steven Basart"
+      ],
+      "published": "2026-10-21",
+      "updated": "2026-10-24",
+      "categories": [
+        "Coding (social sciences)",
+        "Coherence (philosophical gambling strategy)",
+        "Computer science",
+        "Hacker",
+        "OpenAlex",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Reward hacking is a major problem in current production machine learning systems, resulting in costly and dangerous failures. Here we study how to monitor for and mitigate reward hacking in realistic settings, including tool calls and long contexts. We apply a dynamic intervention to steering directions obtained by three different methods: difference-in-means vectors from labeled rollouts, gradient optimization-based vectors, and vectors extracted when models reference an anti-reward-hacking model spec. This dynamic intervention perturbs model representations less than uniform steering vector addition to the residual stream, allowing for more precise edits. We find that we are able to cheaply and significantly reduce reward hacking without correspondingly significant costs to model coherence or capability, and that steering vectors originally extracted from coding environments also generalize to reducing reward hacking in other domains. Our results pave the way towards latent space monitoring and control over realistic production systems.",
+      "url": "https://arxiv.org/abs/2610.29129",
+      "pdf_url": "https://arxiv.org/pdf/2610.29129",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Representation engineering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 8,
+      "openalex": {
+        "id": "https://openalex.org/W7223231329",
+        "doi": "10.48550/arxiv.2610.29129",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "doi:10.5281/zenodo.23537663",
@@ -322,166 +781,6 @@
       "relevance_score": 7
     },
     {
-      "id": "doi:10.3390/computation14100261",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Amplifying Latent Safety in Large Language Models via Gated Activation Steering",
-      "authors": [
-        "Roman Prosvirnin",
-        "Andrey Suslov",
-        "Aleksei Soldatov",
-        "Anna Kutishcheva",
-        "Pavel Litikov",
-        "Vladimir Bashun"
-      ],
-      "published": "2026-10-21",
-      "updated": "2026-10-23",
-      "categories": [
-        "Classifier (UML)",
-        "Computer science",
-        "Inference",
-        "Language model",
-        "OpenAlex"
-      ],
-      "abstract": "Safety-aligned language models often encode that a request is harmful yet still comply with it. We turn this gap between internal recognition and observable behavior into an inference-time defense. The proposed activation-steering method uses a multiplicative operator that amplifies the residual-stream component along a harm-recognition direction. Intervention strength scales with the model’s own assessment of the request. A second additive term steers activations along the refusal direction when harm is not internally recognized. Two linear probes computed from the model’s activations gate both components. The model weights remain unchanged, and inference requires neither fine-tuning nor calls to an external model. An external safety classifier is used only before deployment to provide training targets for the second probe. We evaluate five models from three families, Qwen3-1.7B, Qwen3-4B, Qwen3-8B, Gemma-2-9B-it, and Mistral-7B-Instruct, in BF16 and NF4. Successful attacks on SORRY-Bench decrease by 40 to 68%. Without hyperparameter retuning, the method removes 67 to 79% of the harmful responses on HarmBench. MMLU accuracy decreases by at most 0.7 percentage points, while over-refusal on lexically hazardous benign prompts increases by 4 to 8 points. Steered NF4 models produce 36 to 62% fewer harmful responses than their unmodified BF16 counterparts.",
-      "url": "https://doi.org/10.3390/computation14100261",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation steering exact",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7223185045",
-        "doi": "10.3390/computation14100261",
-        "cited_by_count": 0
-      },
-      "relevance_score": 10
-    },
-    {
-      "id": "doi:10.2196/preprints.115028",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Assessing the Costs of Deploying a Digital Platform for Supervising Frontline Providers Delivering Task-Shared Depression Care: Time-Driven Activity-Based Costing Study (Preprint)",
-      "authors": [
-        "Laura Bond",
-        "Keshini Saggar",
-        "Yun Xian Ho",
-        "Delta-Marie Lewis",
-        "Srijanani Pillai",
-        "Marisol Vargas-Vilugron",
-        "Benjamin F. Miller",
-        "John A. Naslund"
-      ],
-      "published": "2026-10-21",
-      "updated": "2026-10-23",
-      "categories": [
-        "Activity-based costing",
-        "Business",
-        "Cost driver",
-        "OpenAlex",
-        "Total cost"
-      ],
-      "abstract": "BACKGROUND Task-shared depression care supported by quality assurance approaches, such as peer supervision, has the potential to address the treatment gap in depression care. However, scaling and sustaining task-shared depression care requires practical, affordable solutions. Shared, web-based training platforms offer promise, yet a more detailed understanding of costs for implementation and ongoing delivery is needed to inform their adoption and sustainability within health systems. OBJECTIVE This study presents a costing exercise of the implementation of a digitally-supported Measurement-Based Peer Supervision (MBPS) program for a task-shared behavioral activation intervention for depression. METHODS We estimated the cost of usage of a web-based MPBS application using a bottom-up, time-driven activity-based costing approach that identified activities associated with usage. Costs were estimated from the perspective of the implementing health system. For each identified activity, we estimated frequency, time per each occurrence, and required personnel and their associated costs. We estimated other fixed costs and presented our results across four modeled implementation scenarios in which the number of providers (25 and 50 non-specialist providers) and length of time (6- and 12-months) of application usage varied. We also presented the formula we used to enable future organizations to estimate costs tailored to their specific implementation model and settings. RESULTS Total digitally-assisted MBPS program costs ranged from US $29,940 (6 months, 25 providers) to US $104,054 (12 months, 50 providers). Human resources on the implementer side accounted for 80% to 88.5% of total costs, driven primarily by provider time spent reviewing and rating recorded Behavioral Activation sessions and participating in supervision. Technology costs (platform subscription and licensing at US $1000 per month) represented 11.3%–20% of total costs. Increasing either the number of providers or the implementation period raised total costs proportionally. The total cost per patient was similar across each scenario as we increased the length of implementation period and number of providers ($208.12 to $255.72). We derived a generalizable formula that allows organizations to input key parameters (number of providers, patients, sessions, supervision frequency, wages, and months of platform use) to estimate MBPS-related costs. CONCLUSIONS Our study has implications for guiding implementing organizations and health payors seeking to deliver task-shared psychological interventions, such as behavioral activation, for depression. Human resource costs accounted for the majority of costs incurred, most of which are inherent to the peer supervision model rather than to the application itself. While some activities require human-led coordination and management (e.g., session management), automation of other regular tasks may potentially provide cost savings opportunities. Future research should examine the cost-effectiveness of an MBPS application and compare cost savings for task-shared depression care with and without the MBPS application. CLINICALTRIAL ClinicalTrials.gov NCT07082010, registered July 24, 2025 at https://clinicaltrials.gov/study/NCT07082010",
-      "url": "https://doi.org/10.2196/preprints.115028",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation intervention and patching"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7223175104",
-        "doi": "10.2196/preprints.115028",
-        "cited_by_count": 0
-      },
-      "relevance_score": 4
-    },
-    {
-      "id": "2610.29778",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Geometry-Conditioned Target Speaker Extraction based on spatial features incorporating acoustic propagation principles",
-      "authors": [
-        "Jiatong Li",
-        "Simon Doclo"
-      ],
-      "published": "2026-10-21",
-      "updated": "2026-10-23",
-      "categories": [
-        "Computer science",
-        "Microphone",
-        "Microphone array",
-        "OpenAlex",
-        "Spatial filter",
-        "eess.AS"
-      ],
-      "abstract": "Recently, spatially selective non-linear filter (SSF) was proposed for target speaker extraction, utilizing the direction-of-arrival (DOA) of the target speaker as a spatial cue. To overcome its dependency on a fixed microphone array geometry, geometry-conditioned SSF (GCSSF) was proposed, which maps the target DOA and the microphone positions into abstract high-dimensional embeddings using positional encoding. As an alternative to these high-dimensional embeddings, in this paper we propose utilizing two spatial features incorporating acoustic propagation principles for geometry conditioning: 1) the steering vector of the target speaker, which captures inter-microphone phase differences, and 2) a spatial mask based on GCC-PHAT, which quantifies presence of the target speaker per time-frequency bin. These features are used as input to a geometry-conditioning encoder and integrated via a FiLM layer into the GCSSF system. Experimental results on circular and random arrays demonstrate that conditioning with spatial features improves target extraction performance compared to abstract high-dimensional embeddings, maintaining a clear performance advantage across a wide range of target DOA errors.",
-      "url": "https://arxiv.org/abs/2610.29778",
-      "pdf_url": "https://arxiv.org/pdf/2610.29778",
-      "primary_category": "eess.AS",
-      "source_queries": [
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "relevance_score": 4,
-      "openalex": {
-        "id": "https://openalex.org/W7223252060",
-        "doi": "10.48550/arxiv.2610.29778",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2610.29129",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Mitigating Reward Hacking in Realistic Scenarios Through Representation Engineering",
-      "authors": [
-        "Austin Meek",
-        "Kyle Cox",
-        "Matthew Nguyen",
-        "Austin J. Brockmeier",
-        "Steven Basart"
-      ],
-      "published": "2026-10-21",
-      "updated": "2026-10-23",
-      "categories": [
-        "Coding (social sciences)",
-        "Coherence (philosophical gambling strategy)",
-        "Computer science",
-        "Hacker",
-        "OpenAlex",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "abstract": "Reward hacking is a major problem in current production machine learning systems, resulting in costly and dangerous failures. Here we study how to monitor for and mitigate reward hacking in realistic settings, including tool calls and long contexts. We apply a dynamic intervention to steering directions obtained by three different methods: difference-in-means vectors from labeled rollouts, gradient optimization-based vectors, and vectors extracted when models reference an anti-reward-hacking model spec. This dynamic intervention perturbs model representations less than uniform steering vector addition to the residual stream, allowing for more precise edits. We find that we are able to cheaply and significantly reduce reward hacking without correspondingly significant costs to model coherence or capability, and that steering vectors originally extracted from coding environments also generalize to reducing reward hacking in other domains. Our results pave the way towards latent space monitoring and control over realistic production systems.",
-      "url": "https://arxiv.org/abs/2610.29129",
-      "pdf_url": "https://arxiv.org/pdf/2610.29129",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Representation engineering",
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "relevance_score": 8,
-      "openalex": {
-        "id": "https://openalex.org/W7223231329",
-        "doi": "10.48550/arxiv.2610.29129",
-        "cited_by_count": 0
-      }
-    },
-    {
       "id": "2610.30450",
       "source": "arxiv",
       "sources": [
@@ -516,70 +815,6 @@
       "relevance_score": 5
     },
     {
-      "id": "2610.30363",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Probing and Steering for Safety-Relevant Behaviours in Large Language Models",
-      "authors": [
-        "Nimun Bajwa",
-        "Massimo Poesio"
-      ],
-      "published": "2026-10-21",
-      "updated": "2026-10-21",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.CY",
-        "cs.LG"
-      ],
-      "abstract": "Activation probes are computed directions in a language model's residual stream, used both to detect safety-relevant behaviours and, by adding their direction back into the stream, to steer them. We explore how the main design choices behind such probes interact, within one pipeline, on one model (Llama-3.1-8B-Instruct), and across three behaviours: deception, high-stakes awareness and sycophancy. The pipeline crosses two estimators (difference-of-means and logistic regression) with three token-pooling schemes (last, mean and learned attention), selects appropriate layers to detect or steer a behaviour, and evaluates every direction twice: as a detector of the behaviour, and as a steering vector to push outputs towards the behaviour. Prior work read together suggests a read/write dissociation, in which logistic regression reads (detects) best but difference-of-means directions write (steer) best. We find that it holds for deception and high-stakes but not for sycophancy, where the pattern reverses. The reversal appears to follow partially from the data rather than from the estimators. The best pooling technique and the layer choice depend on the behaviour and data, and the layer that steers best can sit well before the layer that detects best. The right steering metric to use between changing a model's perception and eliciting behaviour depends on the task - and the two can disagree outright. The exported probes and directions power an interactive interface through which a user can score and steer text directly.",
-      "url": "https://arxiv.org/abs/2610.30363",
-      "pdf_url": "https://arxiv.org/pdf/2610.30363",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Safety refusal behavior steering",
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "relevance_score": 11
-    },
-    {
-      "id": "doi:10.5281/zenodo.23488415",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Computer-assisted proofs of attracting periodic orbits of a transformer language-model feedback map",
-      "authors": [
-        "Timothy Jones"
-      ],
-      "published": "2026-10-20",
-      "updated": "2026-10-23",
-      "categories": [
-        "Ball (mathematics)",
-        "Keystream",
-        "Mathematical proof",
-        "Mathematics",
-        "OpenAlex"
-      ],
-      "abstract": "Certificate evidence and verification code for the computer-assisted proofs in T. D. Jones, \"Chaos and bifurcations in continuous language-model feedback\" (pending arXiv, 2026). The map. The soft-token feedback map of Qwen2.5-0.5B-Instruct: the model reads a fixed 37-token chat prefix followed by one continuous input embedding x in R^896, and the map returns the expected next-token embedding under the full 151,936-token softmax distribution at temperature T, with a steering vector added at layer 12 with strength alpha. Parameters are read as exact binary64 rationals. What is proved.1. At alpha = 0.071674 and log10 T = -0.115, the map has a primitive period-8 orbit that is the unique multiple-shooting root in a product of eight boxes of coordinate radius 2^-640, and the orbit is locally attracting.2. At alpha = 0.06468 and log10 T = -0.148, the map has a primitive period-2 orbit and a primitive period-3 orbit, each the unique shooting root in its product of boxes of radius 2^-640 and each locally attracting. Method. Ball arithmetic (Arb through python-flint) encloses the map and its Jacobian over each box; a Krawczyk-type inclusion gives existence and uniqueness; separation from the points after each proper divisor of the period gives primitivity; a norm bound below one on a power of the enclosed monodromy gives local attraction. An independent checker recombined the saved inequalities in exact rational arithmetic. Contents. The complete evidence of both proofs (failed and superseded attempts included, unchanged), the verification code and release records, the steering vectors, a file listing for each archive and SHA-256 checksums. The model weights are not redistributed (Hugging Face Qwen/Qwen2.5-0.5B-Instruct; the checkpoint's SHA-256 is in README.md, which also gives the checking procedure). Data and records: CC BY 4.0. Code: MIT.",
-      "url": "https://doi.org/10.5281/zenodo.23488415",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7223107988",
-        "doi": "10.5281/zenodo.23488415",
-        "cited_by_count": 0
-      },
-      "relevance_score": 6
-    },
-    {
       "id": "2610.28992",
       "source": "arxiv",
       "sources": [
@@ -598,7 +833,7 @@
         "Yanjun Gao"
       ],
       "published": "2026-10-20",
-      "updated": "2026-10-23",
+      "updated": "2026-10-24",
       "categories": [
         "Aphasia",
         "Computer science",
@@ -638,7 +873,7 @@
         "Adam Al Gharib"
       ],
       "published": "2026-10-20",
-      "updated": "2026-10-23",
+      "updated": "2026-10-24",
       "categories": [
         "Computer science",
         "Construct (python library)",
@@ -684,7 +919,7 @@
         "Bernhard Kainz"
       ],
       "published": "2026-10-20",
-      "updated": "2026-10-23",
+      "updated": "2026-10-24",
       "categories": [
         "Adaptation (eye)",
         "Artificial intelligence",
@@ -725,7 +960,7 @@
         "Ryohei Sasano"
       ],
       "published": "2026-10-20",
-      "updated": "2026-10-23",
+      "updated": "2026-10-24",
       "categories": [
         "Arithmetic",
         "Computer science",
@@ -739,7 +974,9 @@
       "pdf_url": "https://arxiv.org/pdf/2610.27790",
       "primary_category": "cs.CL",
       "source_queries": [
-        "Mechanistic interpretability steering"
+        "Activation intervention and patching",
+        "Mechanistic interpretability steering",
+        "Reasoning and CoT steering"
       ],
       "code_urls": [],
       "relevance_score": 8,
@@ -748,6 +985,40 @@
         "doi": "10.48550/arxiv.2610.27790",
         "cited_by_count": 0
       }
+    },
+    {
+      "id": "doi:10.5281/zenodo.23488415",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Computer-assisted proofs of attracting periodic orbits of a transformer language-model feedback map",
+      "authors": [
+        "Timothy Jones"
+      ],
+      "published": "2026-10-20",
+      "updated": "2026-10-23",
+      "categories": [
+        "Ball (mathematics)",
+        "Keystream",
+        "Mathematical proof",
+        "Mathematics",
+        "OpenAlex"
+      ],
+      "abstract": "Certificate evidence and verification code for the computer-assisted proofs in T. D. Jones, \"Chaos and bifurcations in continuous language-model feedback\" (pending arXiv, 2026). The map. The soft-token feedback map of Qwen2.5-0.5B-Instruct: the model reads a fixed 37-token chat prefix followed by one continuous input embedding x in R^896, and the map returns the expected next-token embedding under the full 151,936-token softmax distribution at temperature T, with a steering vector added at layer 12 with strength alpha. Parameters are read as exact binary64 rationals. What is proved.1. At alpha = 0.071674 and log10 T = -0.115, the map has a primitive period-8 orbit that is the unique multiple-shooting root in a product of eight boxes of coordinate radius 2^-640, and the orbit is locally attracting.2. At alpha = 0.06468 and log10 T = -0.148, the map has a primitive period-2 orbit and a primitive period-3 orbit, each the unique shooting root in its product of boxes of radius 2^-640 and each locally attracting. Method. Ball arithmetic (Arb through python-flint) encloses the map and its Jacobian over each box; a Krawczyk-type inclusion gives existence and uniqueness; separation from the points after each proper divisor of the period gives primitivity; a norm bound below one on a power of the enclosed monodromy gives local attraction. An independent checker recombined the saved inequalities in exact rational arithmetic. Contents. The complete evidence of both proofs (failed and superseded attempts included, unchanged), the verification code and release records, the steering vectors, a file listing for each archive and SHA-256 checksums. The model weights are not redistributed (Hugging Face Qwen/Qwen2.5-0.5B-Instruct; the checkpoint's SHA-256 is in README.md, which also gives the checking procedure). Data and records: CC BY 4.0. Code: MIT.",
+      "url": "https://doi.org/10.5281/zenodo.23488415",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7223107988",
+        "doi": "10.5281/zenodo.23488415",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
     },
     {
       "id": "2610.27736",
@@ -1419,10 +1690,10 @@
       "published": "2026-10-19",
       "updated": "2026-10-23",
       "categories": [
-        "OpenAlex",
-        "Hazardous waste",
         "Computer science",
+        "Hazardous waste",
         "Masking (illustration)",
+        "OpenAlex",
         "Set (abstract data type)"
       ],
       "abstract": "Large language models acquire broad knowledge from web-scale corpora during pretraining, including knowledge that could be hazardous if misused. Removing such knowledge from the model itself without degrading general capability is desirable but difficult, as it is deeply entangled with general capability within the same parameters. Existing safety alignment and unlearning methods typically adjust these shared parameters, tending to suppress the expression of hazardous knowledge rather than remove it. As a result, the knowledge remains in the model and is readily recoverable by subsequent fine-tuning. To address this limitation, we propose REX (Relocating into Removable EXperts), a knowledge relocation method that separates hazardous knowledge from general capability at the architectural level. Exploiting the modular structure of Mixture-of-Experts models, REX expands the model with a set of new, physically removable experts designated to hold hazardous knowledge. Through expert expansion, selective gradient masking and routing differentiation, it relocates hazardous knowledge out of the original experts and concentrates it in the new ones. Excising these new experts yields a model suitable for public release. This removal holds consistently across Intern-S2, Qwen3.5-35B-A3B and Gemma-4-26B-A4B; on Qwen3.5-35B-A3B, for instance, excision lowers WMDP-Bio accuracy by 48.4 points while MMLU changes by less than 3 points. The excised model matches the strongest of nine unlearning baselines in removing hazardous knowledge, and it is the only one that preserves this removal under subsequent fine-tuning. After 250M tokens of standard fine-tuning on Qwen3.5, the best baseline rebounds on WMDP-Bio from 44.1% to 78.3%, whereas REX rises only from 32.4% to 42.8%.",
@@ -1460,11 +1731,11 @@
       "published": "2026-10-19",
       "updated": "2026-10-23",
       "categories": [
-        "OpenAlex",
-        "Forgetting",
-        "Software deployment",
         "Computer science",
-        "Robustness (evolution)"
+        "Forgetting",
+        "OpenAlex",
+        "Robustness (evolution)",
+        "Software deployment"
       ],
       "abstract": "LLM unlearning is essential for removing sensitive or unwanted knowledge while preserving useful capabilities. As LLM teams are increasingly used to solve complex problems, forgetting must remain effective during collaboration. Despite advances in forgetting effectiveness, efficiency, and robustness to relearning, team deployment remains underexplored. We find that collaboration weakens forgetting: final-answer evaluations miss recoverable evidence in team messages, including complementary clues supporting joint recovery. We establish theoretically and confirm empirically that controlling final answers or individual messages does not ensure low recovery from their combination. To address this challenge, we propose Aggregation-Conditioned Unlearning (ACU). ACU trains a shared model using reconstruction feedback from individual and pooled messages, prioritizes views with higher recovery risk, and uses replacement-based credit assignment while protecting direct and collaborative utility. TOFU evaluates trajectory-level recovery, while WMDP-bio tests native forgetting and retained utility. On TOFU, ACU lowers full-trajectory recovery from 41.8% to 19.3% in ROUGE-L recall and factual recovery from 34.2% to 18.7% versus output-supervised training, with comparable retained-task performance. These results demonstrate that ACU curbs information leakage in LLM teams and generalizes across team sizes and readers.",
       "url": "https://arxiv.org/abs/2610.25731",
@@ -2165,7 +2436,7 @@
         "Hitomi Yanaka"
       ],
       "published": "2026-10-17",
-      "updated": "2026-10-23",
+      "updated": "2026-10-24",
       "categories": [
         "Computation",
         "Computer science",
@@ -2491,6 +2762,42 @@
       "relevance_score": 5
     },
     {
+      "id": "doi:10.1073/pnas.2609978123",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Efficient and accurate steering of large language models through attention-guided feature learning",
+      "authors": [
+        "Parmida Davarmanesh",
+        "Ashia Wilson",
+        "Adityanarayanan Radhakrishnan"
+      ],
+      "published": "2026-10-16",
+      "updated": "2026-10-24",
+      "categories": [
+        "Artificial intelligence",
+        "Benchmark (surveying)",
+        "Computer science",
+        "OpenAlex",
+        "Selection (genetic algorithm)"
+      ],
+      "abstract": "Activation steering, or direct manipulation of internal activations to guide large language model (LLM) responses toward specific semantic concepts, is emerging as a promising avenue for both understanding how semantic concepts are stored within LLMs and advancing LLM capabilities. Yet, existing steering methods are remarkably brittle, with seemingly nonsteerable concepts becoming completely steerable based on subtle algorithmic choices in how concept-related features are extracted. In this work, we introduce an attention-guided framework for activation steering that overcomes three core challenges associated with steering: 1) automatic selection of relevant token embeddings for extracting concept-related features; 2) accounting for heterogeneity of concept-related features across LLM activations; and 3) identification of layers most relevant for steering. Across a steering benchmark of 512 semantic concepts, our framework substantially improved steering over previous state-of-the-art (nearly doubling the number of successfully steered concepts) across model architectures and sizes (up to 70 billion parameter models). Furthermore, we use our framework to shed light on the distribution of concept-specific features across LLM layers. Overall, our framework opens further avenues for developing efficient, highly scalable fine-tuning algorithms for industry-scale LLMs.",
+      "url": "https://doi.org/10.1073/pnas.2609978123",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7127326285",
+        "doi": "10.1073/pnas.2609978123",
+        "cited_by_count": 0
+      },
+      "relevance_score": 10
+    },
+    {
       "id": "2610.24118",
       "source": "arxiv",
       "sources": [
@@ -2773,42 +3080,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 13
-    },
-    {
-      "id": "doi:10.1073/pnas.2609978123",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Efficient and accurate steering of large language models through attention-guided feature learning",
-      "authors": [
-        "Parmida Davarmanesh",
-        "Ashia Wilson",
-        "Adityanarayanan Radhakrishnan"
-      ],
-      "published": "2026-10-16",
-      "updated": "2026-10-18",
-      "categories": [
-        "Artificial intelligence",
-        "Benchmark (surveying)",
-        "Computer science",
-        "OpenAlex",
-        "Selection (genetic algorithm)"
-      ],
-      "abstract": "Activation steering, or direct manipulation of internal activations to guide large language model (LLM) responses toward specific semantic concepts, is emerging as a promising avenue for both understanding how semantic concepts are stored within LLMs and advancing LLM capabilities. Yet, existing steering methods are remarkably brittle, with seemingly nonsteerable concepts becoming completely steerable based on subtle algorithmic choices in how concept-related features are extracted. In this work, we introduce an attention-guided framework for activation steering that overcomes three core challenges associated with steering: 1) automatic selection of relevant token embeddings for extracting concept-related features; 2) accounting for heterogeneity of concept-related features across LLM activations; and 3) identification of layers most relevant for steering. Across a steering benchmark of 512 semantic concepts, our framework substantially improved steering over previous state-of-the-art (nearly doubling the number of successfully steered concepts) across model architectures and sizes (up to 70 billion parameter models). Furthermore, we use our framework to shed light on the distribution of concept-specific features across LLM layers. Overall, our framework opens further avenues for developing efficient, highly scalable fine-tuning algorithms for industry-scale LLMs.",
-      "url": "https://doi.org/10.1073/pnas.2609978123",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Activation steering exact"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7127326285",
-        "doi": "10.1073/pnas.2609978123",
-        "cited_by_count": 0
-      },
-      "relevance_score": 10
     },
     {
       "id": "doi:10.1016/j.optlastec.2026.116714",
