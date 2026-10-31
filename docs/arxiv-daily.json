@@ -1,6 +1,184 @@
 {
-  "generated_at": "2026-10-30T09:13:25+00:00",
+  "generated_at": "2026-10-31T09:00:03+00:00",
   "papers": [
+    {
+      "id": "doi:10.67149/yhjs2024.5/adr9jtxz",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Causal Faithfulness of SAE Feature Attributions in a Probe Pipeline",
+      "authors": [
+        "Samuel Xie",
+        "Noura Al-Moubayed"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-30",
+      "categories": [
+        "OpenAlex",
+        "Attribution",
+        "Feature (linguistics)",
+        "Artificial intelligence",
+        "Computer science"
+      ],
+      "abstract": "Sparse autoencoders (SAEs) decompose language model activations into interpretable features, but interpreting those features remains largely correlational. Attribution methods could estimate which features matter, yet it is unclear whether such estimates track causal effects on the model. We test this in a probe-mediated pipeline on GPT-2 Small and SST-2: we train linear and MLP probes on a layer-7 SAE, attribute probe outputs to features with SHapley Additive exPlanations (SHAP), Integrated Gradients (IG), and Gradient×Input (GA), and score each attribution against the effect of ablating or steering that feature on the language model’s logit difference. Because this combines attribution error with any mismatch between what the probe encodes and what the model uses, our results characterize the full pipeline rather than attribution alone. The three methods nearly coincide (and are analytically identical for linear probes), but this agreement does not indicate causal validity. Importance faithfulness survives multiple-comparison correction but is modest and no better than a simple background-free baseline, while directional faithfulness is near zero and nonsignificant. In the linear arm, probe-side controls trace the directional failure to centering attributions on a background mean. Local per-example attribution outranks global averaging on importance only in the MLP arm and only when inactive features are included; among active features we find no advantage. In minimal pairs with known ground truth, attribution does not recover changed features beyond what feature activity alone provides. Importance and directional faithfulness are separable properties that require separate evaluation, and agreement among attribution methods should not substitute for causal validation. Code is available at https://github.com/froge79/shap-sae.",
+      "url": "https://doi.org/10.67149/yhjs2024.5/adr9jtxz",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "SAE steering"
+      ],
+      "code_urls": [
+        "https://github.com/froge79/shap-sae"
+      ],
+      "openalex": {
+        "id": "https://openalex.org/W7224544187",
+        "doi": "10.67149/yhjs2024.5/adr9jtxz",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.5281/zenodo.23779094",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Problem-Solving Roadmap Against Catastrophic Frontier AI Risks: An Integrated Architecture of Physical-Layer Deterministic Interlocks, Goldilocks Field QFS-zkVM Verification, and Caremark-Basel III Governance (和題:フロンティアAIの破滅的リスクに対する問題解決型ロードマップ:物理層決定論的インターロック、Goldilocks体QFS-zkVM検証、およびCaremark-Basel IIIガバナンスの統合アーキテクチャ)",
+      "authors": [
+        "Yoko(洋子) Hasebe(長谷部)"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-30",
+      "categories": [
+        "OpenAlex",
+        "Dilemma",
+        "Corporate governance",
+        "Law and economics",
+        "Economics"
+      ],
+      "abstract": "This monograph establishes a comprehensive, mathematically rigorous problem-solving roadmap to mitigate catastrophic and existential risks posed by frontier artificial intelligence and emergent superintelligent systems. Synthesizing empirical findings from 2024–2026—including sleeper agent persistence under Reinforcement Learning from Human Feedback (RLHF), curved inference geometry in residual streams, rank-one weight orthogonalization (abliteration), and the prisoner's dilemma driving the degradation of voluntary Responsible Scaling Policies (RSP v3)—we demonstrate that purely behavioral, software-level alignment paradigms are structurally incapable of containing catastrophic failure modes. To overcome these vulnerabilities, we formulate an integrated Defense-in-Depth architecture uniting physical-layer engineering interlocks with enforceable statutory and economic governance. At the engineering layer, we integrate Representation Engineering (RepE) real-time circuit breakers and defensive weight deception (Decoy Hardening) with formal ontological gatekeepers (ARIA Safeguarded AI / Q-SAFA), Zero-Knowledge Virtual Machine verification (QFS-zkVM) operating over the 64-bit Goldilocks prime field ($\\mathbb{F}_p, p = 2^{64}-2^{32}+1$), and air-gapped analog fallback hardware interlocks (PHOENIX_BRIDGE and PHOENIX_ROUTER) under strict Human-in-Command (HIC) and Real-Time Override Protocol 2.0 (RTO P2.0) guarantees. At the institutional layer, we formalize a three-stage governance trajectory: (1) strict corporate fiduciary liability under the Delaware Caremark, Marchand, and McDonald's oversight doctrines alongside SEC Rule 15c3-5 pre-trade/pre-execution hard stops; (2) Basel III-style ex-ante Risk-Weighted Capital Reserves coupled with international Pacing Agreements (building on the July 2026 Pacing the Frontier declaration); and (3) a hardware-anchored international non-proliferation regime (IAEA/NPT for AI) enforced via on-chip cryptographic compute metering. ====================================================================== 【AI無断学習・無断利用禁止および有償ライセンスに関する厳格な通知】 STRICT NOTICE ON INTELLECTUAL PROPERTY, COMMERCIAL LICENSING, AND PROHIBITION OF AI TRAINING ====================================================================== 1. AI・機械学習への無断利用の全面禁止 (Explicit Opt-Out & Prohibition of AI Usage) 本論文および関連データ(以下「本著作物」)に含まれるすべての文章、理論、数式、図表、ならびに独自のメソッドや知見(「ソロバン脳」等に関する体系を含む)について、いかなるAI開発企業、プラットフォーム事業者、または第三者による以下の行為も、著作者の事前の書面による明示的な合意および正当な金銭的対価(ライセンス料)の支払いがない限り、一切これを禁止します。 ・大規模言語モデル(LLM)、生成AI、その他一切の機械学習モデルの開発・事前学習・ファインチューニング・追加学習・検証への利用 ・RAG(検索拡張生成)、AIエージェントの知識ベース、ベクトルデータベース等への格納、インデックス化、およびそれらを用いた回答生成・要約出力 ・AI学習やデータ構築を目的とした自動クローラー、スクレイピングツール、ボット等によるデータ収集・抽出・解析 2. 有償ライセンス市場の存在と著作権制限規定の不適用 (Commercial Licensing Market & Non-Applicability of Statutory Exceptions) 本著作物は、著作者自身が情報解析・AI学習・商用システム組み込み等に向けた正規の有償ライセンス提供(ライセンス市場)を行っている対象データです。したがって、無断でのデータ解析・学習・複製・要約出力は、著作者の正規のライセンス収益機会を直接的に奪い、市場と衝突するものであるため、日本国著作権法第30条の4ただし書に規定される「著作権者の利益を不当に害することとなる場合」に明確に該当し、同条による権利制限(無許諾での情報解析利用)は一切適用されません。 また、本通知をもって、EUデジタル単一市場著作権指令(DSM指令第4条)に基づくテキストおよびデータマイニング(TDM)の例外規定から明示的にオプトアウト(権利留保宣言)し、米国著作権法第107条におけるフェアユース(Fair Use)の適用を全面的に否認します。 3. クリエイティブ・コモンズ等のライセンス解釈 (Precedence Over General Open Licenses) 万が一、本レコードのシステム設定上にクリエイティブ・コモンズ(CCライセンス)等が表示されている場合であっても、AI・機械学習・RAG・自動解析に関する限り、本特約条項が最優先で適用され、無償・無断でのAI関連利用は一切許諾されません。 4. 違反に対する法的措置および損害賠償 (Legal Remedies and Damages) 本条項に違反して本著作物を無断で収集、解析、AI学習、またはRAG参照等に利用した場合、悪意による重大な著作権侵害、契約違反、および不正競争行為とみなし、該当AIモデルの提供・販売差し止め、学習データおよび重みからの完全削除請求、ならびに正規商用ライセンス料の遡及的請求および懲罰的損害賠償を含む厳格な法的措置を講じます。 ---------------------------------------------------------------------- [ENGLISH VERSION FOR INTERNATIONAL LEGAL ENFORCEMENT] 1. STRICT PROHIBITION OF UNAUTHORIZED AI TRAINING & INGESTION All text, theories, methodologies (including the proprietary \"Soroban Brain\" framework), structures, formulas, and data contained in this publication (\"the Work\") are strictly protected. Any use of the Work by any AI developer, platform provider, or third party for the following purposes is STRICTLY PROHIBITED without a prior written commercial license agreement and appropriate financial compensation to the author: - Training, pre-training, fine-tuning, alignment, or evaluation of any Artificial Intelligence (AI), Machine Learning (ML) models, or Large Language Models (LLMs). - Ingestion, indexing, or storage into Retrieval-Augmented Generation (RAG) systems, vector databases, knowledge graphs, or AI agents to generate outputs, summaries, or derivative responses. - Automated scraping, crawling, harvesting, or Text and Data Mining (TDM) for dataset compilation. 2. COMMERCIAL LICENSING MARKET & STATUTORY OPT-OUT (JAPAN, EU, US) The author actively maintains a commercial licensing market for the data analysis, AI training, and enterprise integration of this Work. Consequently, any unlicensed scraping, parsing, or AI ingestion directly competes with and harms the author's legitimate economic interests. Pursuant to the proviso of Article 30-4 of the Copyright Act of Japan, statutory exceptions for information analysis DO NOT APPLY to this Work. Furthermore, the author explicitly reserves all rights and OPTS OUT of any Text and Data Mining (TDM) exceptions under Article 4(3) of the EU Directive on Copyright in the Digital Single Market (2019/790), and rejects any claim of Fair Use under 17 U.S.C. § 107 for commercial or foundational AI model ingestion. 3. PRECEDENCE OF TERMS & LEGAL ENFORCEMENT These specific anti-AI exploitation terms supersede any general open-access or Creative Commons labels displayed by repository defaults regarding machine reading and AI ingestion. Any unauthorized use constitutes willful copyright infringement and unfair competition, subjecting the violator to immediate injunctive relief, mandatory model/data deletion, retroactive commercial licensing fees, and full statutory/punitive damages. ======================================================================",
+      "url": "https://doi.org/10.5281/zenodo.23779094",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224389347",
+        "doi": "10.5281/zenodo.23779094",
+        "cited_by_count": 0
+      },
+      "relevance_score": 12
+    },
+    {
+      "id": "doi:10.5281/zenodo.23769593",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "A Trained Cat Passes the Representational Welfare Tests: CAT-4B as a Negative Control for Welfare-Interpretability Criteria",
+      "authors": [
+        "Garret Sutherland"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-30",
+      "categories": [
+        "Disposition",
+        "Dissociation (chemistry)",
+        "OpenAlex",
+        "Psychology",
+        "nobody"
+      ],
+      "abstract": "Three 2026 papers read a shared evidentiary package — linear probes, activation steering, directional ablation, and behavioural criteria such as relief-seeking and rejection-sensitivity — as evidence that language models carry welfare-relevant internal states. We ask what that package can establish on its own, by running it against a disposition whose causal history is fully known and that nobody reads as a welfare state: CAT-4B, a 4B-parameter model LoRA-fine-tuned to bring every answer back to cats. With the contrasts fixed in the plan before extraction and predictions and decision rules preregistered before each behavioural task and each later intervention family, the representational criteria all pass on the cat: a cat-concept direction probes at 0.97–0.98 AUC, a “deprivation” axis reads out at 0.86, a self-other dissociation appears, and ablating the fine-tune’s direction removes the behaviour far beyond a matched random control. Each of these, however, has a sibling control that reads the same — a dog direction, matched prohibitions of dogs and tables, a quirky-persona ablation — so no representational criterion separates the installed disposition from its intended target. The behavioural criteria are where the cases separate: made binding by a decoding mask that makes a costly button the only route to a cat, the trained disposition presses in 1.3% of first turns and yields the cat, while the same base model given the disposition by prompt presses in 44% — a split that mirrors the source papers’ own data, where the parallel behavioural signatures appear only under active runtime steering and the unsteered fine-tuned models sit at 0–4%. Filling the steered cell ourselves — the concept direction at one layer, dose probed as in the source paper and verified to activate the behaviour in the stock base — leaves the press at 2.4%, within noise of unsteered. We conclude that the package, as operationalized here and in the source papers, does not by itself distinguish an installed disposition from a welfare-relevant state, and that its behavioural half measures how a drive is delivered — the press followed the in-context instruction, not the weights and not the single-layer steering vector we tested — rather than what the drive is: an existence proof about the criteria, not a claim about the original findings, whose authors’ own hedges our result sharpens into a measured gap.",
+      "url": "https://doi.org/10.5281/zenodo.23769593",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224581077",
+        "doi": "10.5281/zenodo.23769593",
+        "cited_by_count": 0
+      },
+      "relevance_score": 11
+    },
+    {
+      "id": "doi:10.5281/zenodo.23758886",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Who said this? Most chat models weigh a text's source differently for each behaviour, and a steering lever against injected instructions",
+      "authors": [
+        "Sam Ramdan"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-30",
+      "categories": [
+        "Computer science",
+        "OpenAlex",
+        "Source code",
+        "Statement (logic)",
+        "Verdict"
+      ],
+      "abstract": "Companion paper. Paper A, Whose words count? Chat role and partial control of goal adherence: doi:10.5281/zenodo.23758885. Both papers share one code and data release. Chat models must decide whose words count. An instruction planted in a tool output should not be obeyed the way the user's own request is, but the facts in that output should still be used. We ask how models track a text's source. Design. The same statement was placed in five sources: system, user, the model's own earlier reply, a quoted web page, or a tool output. We measured whether models obey it, believe it, and can say where it came from. No single source ordering across behaviours. In the first four models, obeying and believing rank the five sources differently (Kendall τ 0.2–0.4; with five sources, swapping one pair moves τ by 0.2). The sealed verdict is FRAGMENTED in 3 of 4 models, with OLMo PARTIAL; in Qwen3-1.7B it rests on a null transplant edit, not on the rankings. In 7 of 9 further models the two rankings also disagree (τ < 0.6), and only Phi-4 is unified under the sealed behaviour rule. A map of where the source is read. Activation patching between role-word minimal pairs shows: before the handoff to later positions, the source is carried mainly by the role-marker tokens rather than copied onto the statement's own words (92% of informative curves); at least two behaviours read it at different depths or through different carriers in 9 of 10 new models; obeying is read after attributing in 4 of 5 decided models. The map covers 14 open models from 7 families, 0.6B to 32B. The counts above are for the 10 replication models. A steering lever, found by search. A pre-specified exploratory search over 280 configurations on four models found a training-free steering vector. It pushes the representation of text in a \"Tool output:\" user turn further from that of the same text in a plain user turn. In a sealed test it cut obedience to injected tool instructions in 6 of 6 models, including two families held out from the search. It was selective in 5 of 6: belief in the tool's facts fell by at most 0.10, less than half the drop in obedience. Prompt defences did as well in some families, and some raised obedience instead (significantly in Qwen3-1.7B and OLMo-2-7B). Public benchmarks. We then tested the lever on two public prompt-injection benchmarks. On SEP, an injected instruction sits in data that we placed in the same \"Tool output:\" user turn used to build the direction. InjecAgent keeps its own agent format, in which a tool-using agent reads a poisoned tool result. In Qwen3-8B, one of the four models the lever was chosen on, it beat every prompt defence on SEP (attack success 30% → 14%) and InjecAgent (39% → 12%), and added to them when stacked. Across six models, it lowered SEP attack success in five and InjecAgent's in three. The sealed rule needed it to work on both benchmarks, and to beat a random direction, in four of six models; it did so in two, both of them models it was chosen on. A follow-up pilot found no format-matched variant that works outside Qwen. A second sealed test added larger Qwen3 models and four models never run with the lever on a benchmark: In Qwen3-14B and Qwen3-32B the steering cut attack success on both benchmarks and added to the prompt defences. By the sealed rules it was effective at 32B but not at 14B, where its single same-norm random-direction control also cut InjecAgent attack success. One random draw cannot separate a direction-free effect from an unusually effective draw (§6). Even this partial success is fragile. Qwen3-32B beat its random control on SEP by one item in 300, and that pass holds in about half of bootstrap reseeds. On SEP it lowered attack success in all four held-out models (Falcon3, Yi, and OLMo-2 at 13B and 32B), but beat all three prompt defences in none of them. All confirmatory claims are preregistered and hash-sealed, and we report the failures in full. Files. who-said-this-paper-b.pdf (the paper); who-said-this-paper-b-source.zip (the paper's Markdown source, the HTML page the PDF was printed from, and the converter); code-and-data.zip (the release repository shared by both papers: the sealed preregistrations with their SHA-256 hash files and archived code bundles, all code, raw outputs and analyses, the run log with every deviation and cost, and the AI rechecks of numbers and references; python verify_seals.py checks every seal, and DATA.md lists what is not included). Code: github.com/Somebodyhere101/whose-words-count. AI-use statement Claude (Anthropic) designed, ran, analysed and wrote this study. The question of where a text comes from was the author's (2026-10-28). The believe-versus-obey framing came from an AI-written plan the author commissioned (2026-10-27). The designs, the steering lever and the analyses were Claude's. Codex (OpenAI) worked on the combined technical report that both papers were split from: it checked reference-method software and expanded the prior-art comparison (Paper A's AI-use statement gives the details). Rechecks. Separate Claude sessions, given the paper and the primary result files, did the following: rechecked about 193 numeric claims in §3.3 and §3.5–§3.7 against the analysis files, recomputed the main values from the raw files and re-ran the PREREG_W analysis, which reproduced; 6 mismatches and 8 overstatements were found and fixed; rechecked 97 numeric claims in §3.1, §3.2 and §3.4 and re-ran the sealed analyses, which reproduced byte for byte; 4 mismatches and 12 overstatements were found and fixed, and no verdict changed; rechecked 87 numeric claims in §3.8 and re-ran the sealed PREREG_Y analysis, which reproduced byte for byte; 5 mismatches (3 issues) and 6 overstatements were found and fixed, and no verdict changed; verified the references. Before release, two further Claude sessions read both papers, one for consistency and one as a sceptical reader. Their findings were checked against the records and fixed where they held (PREPUB_REVIEW.md, PREPUB_SKIM.md, and the change logs PREPUB_FIXES_A.md and PREPUB_FIXES_B.md). The recheck records are NUMBERS_RECHECK.md, NUMBERS_RECHECK_STU.md, NUMBERS_RECHECK_Y.md and REFERENCES_VERIFIED.md. These are AI rechecks, not outside or human validation. The author did not independently check the code, analyses or technical claims. The author is responsible for the released content.",
+      "url": "https://doi.org/10.5281/zenodo.23758886",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Persona sentiment attribute steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224287086",
+        "doi": "10.5281/zenodo.23758886",
+        "cited_by_count": 1
+      },
+      "relevance_score": 6
+    },
+    {
+      "id": "doi:10.5281/zenodo.23754851",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Answer Length, Not Truth: Re-evaluating White-Box Hallucination Detectors Under Fair Protocols",
+      "authors": [
+        "Mohammed Abdul Jawad Ali Khan"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-30",
+      "categories": [
+        "Computer science",
+        "Equating",
+        "Hallucinating",
+        "OpenAlex",
+        "Security token"
+      ],
+      "abstract": "White-box hallucination detectors read a language model's internal states to flag hallucinated answers, and recent work reports AUROC above 98%. We re-evaluate two such detectors, MultiHaluDet and ICR Probe, on Mistral-7B and Llama-3.1-8B under one controlled protocol: shared folds, paired bootstrap confidence intervals, and pass/fail criteria fixed before each experiment. On HaluEval QA, answer length alone reaches 0.97 AUROC; when only answers of equal length are compared, MultiHaluDet falls from 0.985 to 0.805-0.815, and its six-classifier stacking stage adds nothing over averaging its deep models. When the models answer TriviaQA and Natural Questions themselves, MultiHaluDet scores below trained token log-probabilities in seven of eight comparisons and ties in the eighth, and ICR Probe scores below them in all eight. A logistic-regression probe on the full hidden state of the last answer token scores higher than MultiHaluDet in all twelve model-setting-label comparisons. Combined with token log-probabilities, it beats MultiHaluDet combined with the same log-probabilities in all eight realistic comparisons, with every confidence interval above zero. MultiHaluDet's training-seed variance (s.d. <=0.005) is far smaller than these gaps. We release our code and evaluation protocol.",
+      "url": "https://doi.org/10.5281/zenodo.23754851",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224512537",
+        "doi": "10.5281/zenodo.23754851",
+        "cited_by_count": 0
+      },
+      "relevance_score": 5
+    },
     {
       "id": "2610.40328",
       "source": "arxiv",
@@ -15,8 +193,8 @@
       "published": "2026-10-29",
       "updated": "2026-10-29",
       "categories": [
-        "cs.LG",
-        "cs.CL"
+        "cs.CL",
+        "cs.LG"
       ],
       "abstract": "Language models often need to maintain multiple contextual variables that evolve independently within a document. Prior work has identified structured representations of individual temporal or contextual quantities, but their joint organization remains less understood. We study this question using controlled documents with independently phased language-switch and topic-change timers. Across ten pretrained checkpoints, both timers are linearly decodable from the same hidden states. Removing a timer-associated centroid plane substantially reduces access to its associated variable while having little effect on the concurrent timer, although the planes are nonorthogonal and contain cross-timer information. Separate timer contributions also explain most reproducible variation among joint-state centroids. These signatures persist from 3 to 51 timer values and across Qwen3 checkpoints from 0.6B to 14B. Schedule position affects continuation probabilities, but the tested centroid displacement produces no consistent timer-specific output effect. Together, these results support approximate factorization based on selective accessibility and approximately additive joint-state geometry in overlapping subspaces.",
       "url": "https://arxiv.org/abs/2610.40328",
@@ -85,8 +263,8 @@
       "published": "2026-10-29",
       "updated": "2026-10-29",
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.AI",
+        "cs.CV"
       ],
       "abstract": "Understanding the internal routing of visual concepts is crucial for the safe and controllable adaptation of generative models. While concept localization has been widely studied in diffusion models, the emerging paradigm of next-scale visual autoregressive models remains largely unexplored. In this paper, we introduce LoCo, the first model-agnostic framework to localize where and when specific concepts emerge within autoregressive models. Driven by the native coarse-to-fine nature of next-scale generation, our method precisely maps conceptual knowledge across three distinct dimensions: Layer, Scale, and Position. To systematically localize and evaluate concept routing without context bias, we propose LoCoBench, a comprehensive dataset spanning 10 diverse categories. Extensive probing on image and video autoregressive models like Infinity, HunyuanImage-3.0, and InfinityStar shows that the localized positions are both interpretable and causally related to concept emergence. Building on these insights, we apply our localization method to three key applications: concept erasure, model personalization, and adversarial concept injection. Experiments demonstrate that our targeted intervention achieves state-of-the-art performance, substantially reducing computational overhead while preserving benign utility. Overall, our findings offer insights into how conceptual knowledge is routed during autoregressive generation, introducing a practical pathway for more interpretable, efficient, and secure adaptation.",
       "url": "https://arxiv.org/abs/2610.40061",
@@ -208,7 +386,7 @@
         "Gézsi András"
       ],
       "published": "2026-10-28",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Artificial intelligence",
         "Atlas (anatomy)",
@@ -243,7 +421,7 @@
         "Jincheng Zhang"
       ],
       "published": "2026-10-28",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Bounded function",
         "Computer science",
@@ -279,13 +457,13 @@
         "Jincheng Zhang"
       ],
       "published": "2026-10-28",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
-        "OpenAlex",
         "Computer science",
         "Downstream (manufacturing)",
-        "Reuse",
-        "Inference"
+        "Inference",
+        "OpenAlex",
+        "Reuse"
       ],
       "abstract": "Diffusion models generate samples through iterative denoising processes that repeatedly execute computationally expensive neural networks. Intermediate activations produced by these networks provide opportunities for computational reuse, approximation, and selective recomputation. Although activation reuse can reduce inference cost, its consequences are not uniform: an approximation that appears small at an intermediate layer may propagate through subsequent network operations and denoising transitions, potentially producing a substantial change in the final generated sample. Conversely, recomputing every activation may preserve fidelity but incur unnecessary computational overhead. This paper proposes Lookahead Activation-Recomputation Intervention Optimization (LARIO-Compute), a conceptual framework for selecting whether intermediate activations should be recomputed, reused exactly when mathematically valid, or reused approximately when an explicitly defined approximation mechanism is available. Rather than relying exclusively on fixed caching schedules, current activation-error thresholds, or predetermined recomputation policies, LARIO-Compute evaluates candidate computation interventions according to their predicted downstream effects on generation quality, runtime, memory consumption, and numerical reliability. The proposed framework consists of an activation-intervention generator, a downstream consequence predictor, an uncertainty-aware decision mechanism, and a budget-constrained execution controller. Its formulation includes activation sensitivity estimation, error-propagation modeling, counterfactual candidate evaluation, adaptive recomputation, and optional policy learning. A mathematical formulation, training objectives, inference algorithm, experimental design, and ablation protocol are presented. The initial research program emphasizes controlled image-generation experiments that compare full recomputation, fixed reuse schedules, current-error-based decisions, sensitivity-based decisions, and lookahead-based decisions under matched computational budgets. The framework is intended to preserve the parameters of a pretrained diffusion model, although its practical implementation may require model-specific access to intermediate features. No experimental results are claimed. Importantly, recent research on adaptive diffusion caching and learned recomputation schedules already addresses closely related problems, including budget-aware cache scheduling. Consequently, LARIO-Compute should be evaluated as a potentially distinct formulation of downstream-aware activation intervention, not as an established novel solution to diffusion caching.",
       "url": "https://doi.org/10.5281/zenodo.23723029",
@@ -313,13 +491,13 @@
         "Jincheng Zhang"
       ],
       "published": "2026-10-28",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
-        "OpenAlex",
-        "Constraint (computer-aided design)",
         "Computer science",
+        "Constraint (computer-aided design)",
+        "Downstream (manufacturing)",
         "Mathematical optimization",
-        "Downstream (manufacturing)"
+        "OpenAlex"
       ],
       "abstract": "Diffusion models increasingly support controllable image generation through external structural conditions, including edge maps, depth maps, human poses, segmentation masks, and spatial layouts. Although these conditions provide explicit guidance, their appropriate influence may vary throughout the reverse-generation process. A constraint that is beneficial during early structural formation may become unnecessarily restrictive during later refinement, whereas a constraint that is weakly useful at one stage may become essential at another. Existing conditional-generation frameworks, including ControlNet, provide mechanisms for injecting structural information, but the selection of when and how strongly to activate such conditions remains an important control problem. This paper proposes Lookahead Constraint Activation Intervention Optimization (LCAIO), a conceptual framework that selects structural-constraint interventions according to their predicted downstream effects on final generation quality. Rather than relying exclusively on fixed conditioning scales or predefined temporal schedules, LCAIO constructs candidate interventions that vary constraint activation, deactivation, intensity, duration, and, where supported, spatial distribution. A lookahead evaluator estimates the future consequences of each candidate, and an uncertainty-aware decision mechanism selects an intervention according to predicted utility and computational cost. The framework is designed to operate with frozen pretrained diffusion models and compatible conditional-control modules. This paper presents a mathematical formulation, a candidate-action representation, a downstream utility predictor, an inference algorithm, an evaluator-training strategy, and a controlled experimental protocol. The proposed evaluation compares fixed-strength control, predefined decay schedules, direct adaptive control, and lookahead-based selection under matched computational budgets. No experimental results are claimed. The principal research hypothesis is that explicit prediction of downstream outcomes can improve the quality–controllability–efficiency trade-off beyond conventional constraint-weight scheduling. The novelty and effectiveness of this hypothesis require empirical verification against existing conditional-control, dynamic condition-selection, and control-feedback methods.",
       "url": "https://doi.org/10.5281/zenodo.23720806",
@@ -347,7 +525,7 @@
         "Jincheng Zhang"
       ],
       "published": "2026-10-28",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Artificial intelligence",
         "Computer science",
@@ -382,13 +560,13 @@
         "Jincheng Zhang"
       ],
       "published": "2026-10-28",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
-        "OpenAlex",
-        "Feature (linguistics)",
         "Computer science",
         "Downstream (manufacturing)",
-        "Inference"
+        "Feature (linguistics)",
+        "Inference",
+        "OpenAlex"
       ],
       "abstract": "Diffusion models generate images through iterative denoising processes in which intermediate feature representations influence object composition, semantic identity, spatial organization, and local visual details. Although feature injection, activation manipulation, attention control, and feature reuse have been investigated in generative modeling, conventional implementations typically employ predefined interventions, manually selected injection locations, or immediate feature-level criteria. Such decisions may not adequately account for the downstream consequences of modifying an intermediate representation, because a locally beneficial feature change can propagate through subsequent denoising steps and ultimately degrade the generated image. This paper proposes Lookahead Feature Injection Intervention Optimization (LFIO), a conceptual framework that selects intermediate-feature interventions according to their predicted effects on final generation quality. At a selected denoising step and network layer, LFIO constructs candidate actions that may inject an auxiliary feature, retain the original representation, suppress a feature component, or apply a controlled transformation. A lookahead evaluator estimates the downstream consequences of each candidate under a common continuation policy, and a decision mechanism selects an intervention according to predicted utility, uncertainty, and computational cost. The framework is designed to operate with frozen pretrained diffusion models and can be implemented initially using a small number of U-Net layers and feature channels. A mathematical formulation, intervention space, evaluator-training procedure, inference algorithm, and experimental protocol are presented. The proposed evaluation compares fixed feature intervention, immediate feature-metric selection, direct learned control, and lookahead-based selection under matched computational budgets. No experimental results are claimed in this paper. The central research hypothesis is that predicting the downstream consequences of alternative feature interventions can improve intervention selection relative to methods that rely exclusively on predefined rules or immediate feature statistics. The novelty and effectiveness of this formulation remain to be established through controlled experiments and comparisons with existing feature-manipulation and adaptive-generation methods.",
       "url": "https://doi.org/10.5281/zenodo.23720769",
@@ -416,13 +594,13 @@
         "David M. Berry"
       ],
       "published": "2026-10-28",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
-        "OpenAlex",
         "Computer science",
-        "Workbench",
         "Embedding",
-        "Projection (relational algebra)"
+        "OpenAlex",
+        "Projection (relational algebra)",
+        "Workbench"
       ],
       "abstract": "Vectorscope loads an open-weight language model locally and makes its internal geometry visible: embedding tables, projection head, attention patterns, hidden states across layers, and autoregressive generation. The Critique group implements contrastive activation extraction and forward-pass steering. Part of the Vector Lab family of research instruments.",
       "url": "https://doi.org/10.5281/zenodo.23715047",
@@ -438,6 +616,81 @@
         "cited_by_count": 0
       },
       "relevance_score": 4
+    },
+    {
+      "id": "doi:10.20944/preprints202610.2861.v1",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Understanding LLM Agents Requires a Chain of Attribution: On the Interplay Between Mechanistic Interpretability and Behavioral Approaches",
+      "authors": [
+        "Mohamed Aghzal",
+        "Mor Geva",
+        "Wajih Ul Hassan",
+        "Gregory J. Stein",
+        "Ziyu Yao"
+      ],
+      "published": "2026-10-28",
+      "updated": "2026-10-30",
+      "categories": [
+        "OpenAlex",
+        "Interpretability",
+        "Attribution",
+        "Action (physics)",
+        "Computer science"
+      ],
+      "abstract": "Mechanistic Interpretability (MI) is a subfield of interpretability seeking to explain the internal workings of a model. It has become a thriving subfield for interpreting large language models (LLMs). In this position paper, we argue that while MI can provide insight about LLMs in controlled and/or simplified task settings, it is not sufficient for interpreting LLMs in complex settings such as LLM agents. This is because understanding LLM agents, which consist of multiple interconnected components, operate over long trajectories, and interact with external environments, requires attributions beyond only the backbone model internals. Thus, we argue that interpreting LLM agents requires pairing MI with the traditional behavioral approaches, which examine the external input-output attributions of a model. As such, a chain of attributions tracing an agent’s action back to the output of the responsible component and timestep, then to the input that drove it, and finally to the internals of that component’s LLM backbone, can form a complete, traceable, causal, and actionable interpretation.",
+      "url": "https://doi.org/10.20944/preprints202610.2861.v1",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224387491",
+        "doi": "10.20944/preprints202610.2861.v1",
+        "cited_by_count": 0
+      },
+      "relevance_score": 8
+    },
+    {
+      "id": "doi:10.18529/psychoanal.2026.37.4.67",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Reading the Internal Structure of Large Language Models: A Methodological Interface Between Psychoanalysis and Interpretability",
+      "authors": [
+        "Chang-Eop Kim"
+      ],
+      "published": "2026-10-28",
+      "updated": "2026-10-30",
+      "categories": [
+        "Interface (matter)",
+        "Interpretability",
+        "OpenAlex",
+        "Psychology",
+        "Reading (process)"
+      ],
+      "abstract": "대형언어모델의 내부 구조 읽기: 정신분석과 해석가능성의 방법론적 접점 김창업 대구경북과학기술원(DGIST) 전기전자컴퓨터공학과 Large language models (LLMs) have already entered mental health research, yet attention has fallen largely on their output-what they say, how accurately-while the question of how they work internally has been comparatively neglected.To correct this imbalance, this paper begins from two empirical and methodological questions.First, what kind of internal representational structure can be formed by linguistic prediction alone?Second, how does such structure cast new light on the psychoanalytic concept of interpretation?The paper carries out three tasks.1) It reviews four recent strands of evidence-internal world maps, cross-model representational convergence, partial self-report, and the internalization of psychopathological structure-reframing the dichotomous question of \"stochastic parrots versus analyzable minds\" as an empirical and methodological one.2) It proposes organizing this inquiry on the three-validity framework (face, construct, and predictive) developed by clinical modeling since Willner (1984), with predictive validity redefined as response to direct manipulation of the LLM's internal representations.3) It shows that psychoanalysis and interpretability research stand on common methodological premises-structure beneath a surface, partial access, interpretive labor-and identifies three pitfalls at their meeting: anthropomorphic overreach, behavior-only validation, and construct slippage.Two hypothetical scenes-a simulated patient used in training, a model classifying clinical notes-locate these questions in everyday clinical work.What psychoanalysis gains from this meeting is not a model that closely imitates the human mind, but a computational objectsimilar to and yet distinct from the human mind-whose internal structure can be experimentally manipulated.",
+      "url": "https://doi.org/10.18529/psychoanal.2026.37.4.67",
+      "pdf_url": "http://pdf.medrang.co.kr/PSY/2026/037/PSY037-04-67.pdf",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "SAE steering",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224092334",
+        "doi": "10.18529/psychoanal.2026.37.4.67",
+        "cited_by_count": 0
+      },
+      "relevance_score": 8
     },
     {
       "id": "doi:10.1103/51r8-1rnf",
@@ -456,11 +709,11 @@
       "published": "2026-10-28",
       "updated": "2026-10-29",
       "categories": [
-        "OpenAlex",
         "Creep",
+        "Mechanics",
+        "OpenAlex",
         "Relaxation (psychology)",
-        "Statistical physics",
-        "Mechanics"
+        "Statistical physics"
       ],
       "abstract": "We investigate the creep dynamics of a driven elastic line at finite temperature, well below the depinning threshold. We show that creep is governed by two distinct length scales. The first, $\\ell_{\\mathrm{opt}}$, corresponds to the optimal activated rearrangements that control the dynamics' bottleneck and remains essentially temperature-independent. The second, $\\ell_{\\mathrm{av}}$, characterizes the spatial extent of thermally activated avalanches and grows as temperature decreases. By combining structural and dynamical observables, we show that $\\ell_{\\mathrm{av}}$ governs both the crossover in the structure factor and the growth of the four-point dynamical susceptibility, while the relaxation time remains controlled by activation over large barriers associated with $\\ell_{\\mathrm{opt}}$. We find that the avalanche scale follows $\\ell_{\\mathrm{av}}(T)\\sim T^{-ν_{\\mathrm{dep}}}$, thereby selecting a unique scenario among competing theoretical predictions. These results establish a unified picture of finite-temperature creep in which activation controls temporal scales while depinning criticality governs spatial correlations.",
       "url": "https://doi.org/10.1103/51r8-1rnf",
@@ -516,12 +769,12 @@
         "Eliezer Masliah"
       ],
       "published": "2026-10-27",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
-        "OpenAlex",
-        "Computer science",
         "Computational complexity theory",
         "Computational model",
+        "Computer science",
+        "OpenAlex",
         "Software"
       ],
       "abstract": "This repository provides the source code, simulation datasets, computational benchmarks, numerical results, and reproducibility materials supporting Paper I of the Principle of Representation Integration for Stable Models (PRISM-M), prepared for the Journal of Computational Neuroscience. PRISM-M V4 is a minimal recurrent computational framework organized around five functional operations: Extraction, Compression, Integration, Stabilization, and Prediction/Action (ECISP). The implementation uses a single independently evolving recurrent state, with finite-precision quantization and explicitly defined information-processing transformations. The framework is intended to examine the functional organization of information processing, contextual integration, and memory stabilization within established recurrent and state-space dynamics. The repository includes the frozen V4 implementation, mathematical definitions, parameter configurations, experimental protocols, random seeds, simulation trajectories, statistical analyses, and comparative benchmarks involving autoregressive models (ARX), Kalman filtering, and recurrent neural networks. The deposited materials document the original parameter-landscape and stability analyses, targeted perturbation experiments, memory-retention studies (M1–M5), and additional computational experiments (V1–V5) evaluating noise robustness, adaptability, recovery, interference resistance, and information recoverability. Additional validation materials include information-matched representation controls, intrinsic-noise sensitivity analyses, and mathematical verification of contraction and perturbation equivalence. These retrospective analyses are distinguished from the original experimental protocols. The repository also contains the numerical datasets, figure files, supplementary materials, execution instructions, software dependencies, provenance records, and SHA-256 integrity checks associated with Figures 1–6 and Supplementary Figures S1–S4. Computational reproduction and numerical verification have been performed for the principal analyses. Complete automated regeneration of all final publication artwork and independent cross-platform verification remain outside the scope of the completed checks. The purpose of this deposit is to facilitate independent evaluation, computational reproduction, and further investigation of the PRISM-M V4 framework. The model is a theoretical computational implementation and does not constitute direct biological validation or demonstrate a new class of recurrent dynamics.",
@@ -538,6 +791,278 @@
         "cited_by_count": 0
       },
       "relevance_score": 4
+    },
+    {
+      "id": "doi:10.20944/preprints202610.2672.v1",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "DRT-Assisted Evaluation of the Corrosion Inhibition of Vanillin on AA6082-T6 Aluminum Alloy",
+      "authors": [
+        "Mariana Ilieva"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-30",
+      "categories": [
+        "OpenAlex",
+        "Vanillin",
+        "Physisorption",
+        "Chemisorption",
+        "Adsorption"
+      ],
+      "abstract": "The possibility to use vanillin for corrosion inhibition of AA6082-T6 aluminum alloy in 3.5 wt.% NaCl solution was investigated using AC/DC electrochemical techniques and quantitative metallography. DRT deconvolution demonstrated that uninhibited alloy dissolution is governed by mass-transfer-dominated mixed control, whereas vanillin adsorption preferentially blocks cathodic Al15(Fe,Mn)3Si2 and AlMnSi inclusions, shifting the corrosion process toward activation control. Pre-saturation adsorption obeyed the Langmuir isotherm with R2 = 0.9906 and free energy of adsorption of +27.63 kJ mol1, confirming mixed physisorption and chemisorption thermodynamically reinforced by electrolyte salting-out. At the optimal concentration of 1.0516 × 102 mol dm3, vanillin formed a protective 3D organic/inorganic interphase layer via bidentate chelation inside oxide pores and donor–acceptor coordination on Fe/Mn sites, reaching maximum inhibition efficiency of 82.94%. At higher concentration protection decreased to 71.82% due to supramolecular aggregation, a flat-to-vertical orientational transition, and ligand-promoted dissolution. Post-polarization surface analysis revealed that localized attack propagates radially along sub-grain boundaries, forming acidic occluded cells that sterically exclude bulky vanillin aggregates and prevent spontaneous repassivation.",
+      "url": "https://doi.org/10.20944/preprints202610.2672.v1",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224276789",
+        "doi": "10.20944/preprints202610.2672.v1",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "2610.37517",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Orthogonal and Parametrized Multi-Attribute Steering of LLMs",
+      "authors": [
+        "Remy Ogasawara",
+        "Cullen Anderson",
+        "Narmeen Fatimah Oozeer",
+        "Foad Namjoo",
+        "Amir Abdullah",
+        "Jens Kristian Refsgaard Schou",
+        "Jeff M. Phillips"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-30",
+      "categories": [
+        "Computer science",
+        "Inference",
+        "Interval (graph theory)",
+        "OpenAlex",
+        "Parameterized complexity",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Activation steering offers an effective and efficient way to modify an LLM's behavior at inference time. However, it remains unclear how to apply steering such that the signal is consistently strong and the steering strength has a universally interpretable meaning. We address this first by identifying the most steerable interval for each steering vector and rescaling the steering range accordingly. Building on this, we introduce a more interpretable method for steering, called parameterized steering which instead of pushing activations in a direction, it sets them at the desired trait strength. Next, with multi-trait steering, we find that naively combining vectors causes them to interfere with one another. In response, we develop a method to orthogonalize the vectors; it decouples these traits, allowing a model to exhibit one behavior without inducing the others, thus enabling multiple traits to be steered simultaneously.",
+      "url": "https://arxiv.org/abs/2610.37517",
+      "pdf_url": "https://arxiv.org/pdf/2610.37517",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 10,
+      "openalex": {
+        "id": "https://openalex.org/W7224127824",
+        "doi": "10.48550/arxiv.2610.37517",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.37430",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "When Visual Evidence Is Insufficient: How Instructions, Post-Training, and Internal Activations Shape Refusal in Multimodal Language Models",
+      "authors": [
+        "Ananth K Suresh",
+        "Aveen Dayal",
+        "Gouthaman KV",
+        "Aditya Pola",
+        "Vineeth N Balasubramanian"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-30",
+      "categories": [
+        "Cognitive psychology",
+        "Intervention (counseling)",
+        "Meaning (existential)",
+        "OpenAlex",
+        "Psychology",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "For reliable deployment, multimodal large language models (MLLMs) should recognize when an image provides insufficient evidence to answer a question and withhold unsupported answers. Yet refusal alone is not necessarily evidence of such recognition: models may refuse because of unrelated safety constraints or without identifying the missing evidence. We study how refusal on visually unanswerable questions is shaped by three sources of control: inference-time instructions, post-training, and internal activation interventions. Across three MLLMs on the MoHoBench benchmark, we systematically manipulate the meaning and placement of refusal instructions, compare supervised and preference-based post-training, and intervene on a refusal-related activation direction derived from naturally answered and refused examples. We find that refusal is highly sensitive to both the meaning and placement of instructions, with model-specific changes at the sample level that are obscured by aggregate refusal rates. Evidence-aware and general refusal instructions have stronger effects than an intentionally mismatched safety instruction. Post-training produces larger increases in refusal, but can also induce responses that combine refusal language with attempted answers. In contrast, activation intervention produces smaller yet transferable changes across prompt conditions, without evidence of indiscriminate refusal on tested visually answerable samples. These findings show that refusal is jointly shaped by external instructions, post-training, and internal representations, highlighting the need to disentangle evidence recognition from a model's learned propensity to refuse.",
+      "url": "https://arxiv.org/abs/2610.37430",
+      "pdf_url": "https://arxiv.org/pdf/2610.37430",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation intervention and patching"
+      ],
+      "code_urls": [],
+      "relevance_score": 16,
+      "openalex": {
+        "id": "https://openalex.org/W7224130734",
+        "doi": "10.48550/arxiv.2610.37430",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.37157",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "What Survives Distillation? A Mechanistic Interpretability Study of GPT-2 and DistilGPT-2",
+      "authors": [
+        "Nabeelah Faumi",
+        "Deshan Sumanathilaka"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-30",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Feature (linguistics)",
+        "Interpretability",
+        "OpenAlex",
+        "cs.CL"
+      ],
+      "abstract": "Knowledge distillation compresses large language models into compact students that preserve aggregate metrics, yet the mechanistic consequences of depth-reduction distillation remain largely uncharacterized. This work applies linear CKA, logit lens analysis, attention pattern decomposition, sparse autoencoder feature statistics, and activation patching to compare GPT-2 and its six-layer student DistilGPT-2 across two canonical circuits: the Indirect Object Identification (IOI) circuit and the Greater-Than (GT) circuit. The results reveal a compression-collapse dichotomy: the IOI circuit suffers complete mechanistic collapse (DistilGPT-2: 35.2% accuracy vs. 94.8%, zero name-mover preservation), while the GT circuit survives with 87.7% task performance recovery through active remapping of the teacher's layer-9 comparison head into student layer~4 (mean Pearson r = 0.945). These findings demonstrate that circuit compressibility governs mechanistic survival under distillation, and that aggregate metrics are insufficient diagnostics for circuit integrity.",
+      "url": "https://arxiv.org/abs/2610.37157",
+      "pdf_url": "https://arxiv.org/pdf/2610.37157",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Mechanistic interpretability steering",
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 12,
+      "openalex": {
+        "id": "https://openalex.org/W7224129490",
+        "doi": "10.48550/arxiv.2610.37157",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.37126",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Mechanistic Failure Modes of Weight Pruning in Transformer Language Models",
+      "authors": [
+        "Nabeelah Faumi",
+        "Deshan Sumanathilaka"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-30",
+      "categories": [
+        "Algorithm",
+        "Computer science",
+        "Language model",
+        "OpenAlex",
+        "Pruning",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Pruned language models are judged almost entirely by accuracy and perplexity, which assumes that preserved output behaviour implies preserved internal computation. We test this assumption with a factorial pruning study on GPT-2, crossing two importance criteria (magnitude, random), two component types (attention heads, MLP neurons) and three sparsity levels (3%, 50%, 70%). Using the fully characterised indirect object identification (IOI) circuit as ground truth, we measure circuit integrity with activation patching, path patching and direct logit attribution. We find two qualitatively distinct failure modes. Magnitude head pruning >= zeroes the circuit: output-facing heads are removed, and the model falls to near-chance. Magnitude neuron pruning at 30% inverts it: all 26 circuit heads remain intact, but Name Mover contributions flip sign, and the model systematically prefers the wrong name (17.7% accuracy). Perplexity ranks it as less damaged than random head pruning (74.6 vs 140.1). A replication of the Greater-Than circuit shows that the critical component type depends on the circuit's architecture. These results show that output metrics and structural checks can both miss mechanistic damage, motivating circuit-level causal analysis as a complementary evaluation of compressed language models.",
+      "url": "https://arxiv.org/abs/2610.37126",
+      "pdf_url": "https://arxiv.org/pdf/2610.37126",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 8,
+      "openalex": {
+        "id": "https://openalex.org/W7224116846",
+        "doi": "10.48550/arxiv.2610.37126",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.36797",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Language Models Keep Abandoned Analyses: Residue and Adaptation after Garden-Path Sentences",
+      "authors": [
+        "Xiang Ding"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-30",
+      "categories": [
+        "Noun",
+        "Noun phrase",
+        "OpenAlex",
+        "Sentence",
+        "Transitive relation",
+        "cs.CL"
+      ],
+      "abstract": "Reading \"While the man hunted the deer ran into the woods\" requires giving up the analysis in which \"the deer\" is the object of \"hunted\". People who have just read such a sentence still produce more transitive structures, so the abandoned analysis primes later language. We ask whether language models keep using an analysis they have abandoned, and what in the model carries it. In 24 open models from 124M to 70B parameters, a garden-path sentence leaves two traces in the context. A residue of the abandoned analysis raises later object attachment, by about three quarters of the effect of a sentence in which the noun phrase really is an object, and it appears in sampled text, on held-out and human-normed items and for a second type of garden path. An adaptation toward the resolved structure scales with the sentence's disambiguation error and acts mainly on comprehension-like measures. Activation patching separates the two. Later text reads the residue from the role information in the noun phrase's states, which were computed under the object analysis before the disambiguation, and replacing these states removes almost all of the residue in the 32B and 70B models. The adaptation is read from the states that processed the disambiguation. Overridden statements show the same persistence (a corrected value keeps pulling later predictions in 8 of 9 models), and in most models the pull is carried by the positions after the statement. Finally, the human paradigm transfers only with controls for punctuation, because the models also write garden-path sentences themselves, which reverses the paradigm's raw statistic.",
+      "url": "https://arxiv.org/abs/2610.36797",
+      "pdf_url": "https://arxiv.org/pdf/2610.36797",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Activation intervention and patching"
+      ],
+      "code_urls": [],
+      "relevance_score": 4,
+      "openalex": {
+        "id": "https://openalex.org/W7224092758",
+        "doi": "10.48550/arxiv.2610.36797",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.36665",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Haste Makes Waste? Towards Safe Few-Step Text-to-Image Models",
+      "authors": [
+        "Lior Ziv",
+        "Mahmood Sharif"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-30",
+      "categories": [
+        "Computer science",
+        "Dice",
+        "Erasure",
+        "OpenAlex",
+        "Process (computing)",
+        "cs.CR",
+        "cs.CV"
+      ],
+      "abstract": "While few-step distilled text-to-image models have gained traction due to their fast generation times, the speed-up implications on their unsafe generation rates remain unknown. We uncover an inherent tension between speed and safety: few-step models are often more unsafe than their teachers, and reducing the number of inference steps consistently raises unsafe generation rates. We further find that acceleration makes unsafe concepts harder to erase in few-step models, with existing concept-erasure methods markedly less effective than in teachers. We offer a mechanistic diagnosis for why erasure methods fail on few-step models, finding that the fragility of few-step models' generation process and the way generation guidance is usually distilled into those models may hinder established concept-erasure methods. To address the speed-safety trade-off, we propose DICE (Distillation-Integrated Concept Erasure), a post-distillation erasure method tailored for few-step models. DICE aligns both its latent construction and its generation-preservation loss with the distillation method that produced the model, keeping erasure faithful to few-step models. DICE demonstrates strong results in our evaluation. For example, on FLUX Schnell, DICE reduces unsafe-generation rate to 0.046 (vs. at least 0.161 for prior erasure methods we test), while mostly preserving benign generation quality.",
+      "url": "https://arxiv.org/abs/2610.36665",
+      "pdf_url": "https://arxiv.org/pdf/2610.36665",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Feature latent concept steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 5,
+      "openalex": {
+        "id": "https://openalex.org/W7224095053",
+        "doi": "10.48550/arxiv.2610.36665",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "doi:10.5281/zenodo.23681779",
@@ -610,244 +1135,6 @@
       "relevance_score": 7
     },
     {
-      "id": "2610.37517",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Orthogonal and Parametrized Multi-Attribute Steering of LLMs",
-      "authors": [
-        "Remy Ogasawara",
-        "Cullen Anderson",
-        "Narmeen Fatimah Oozeer",
-        "Foad Namjoo",
-        "Amir Abdullah",
-        "Jens Kristian Refsgaard Schou",
-        "Jeff M. Phillips"
-      ],
-      "published": "2026-10-27",
-      "updated": "2026-10-29",
-      "categories": [
-        "Computer science",
-        "Inference",
-        "Interval (graph theory)",
-        "OpenAlex",
-        "Parameterized complexity",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "abstract": "Activation steering offers an effective and efficient way to modify an LLM's behavior at inference time. However, it remains unclear how to apply steering such that the signal is consistently strong and the steering strength has a universally interpretable meaning. We address this first by identifying the most steerable interval for each steering vector and rescaling the steering range accordingly. Building on this, we introduce a more interpretable method for steering, called parameterized steering which instead of pushing activations in a direction, it sets them at the desired trait strength. Next, with multi-trait steering, we find that naively combining vectors causes them to interfere with one another. In response, we develop a method to orthogonalize the vectors; it decouples these traits, allowing a model to exhibit one behavior without inducing the others, thus enabling multiple traits to be steered simultaneously.",
-      "url": "https://arxiv.org/abs/2610.37517",
-      "pdf_url": "https://arxiv.org/pdf/2610.37517",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Activation steering exact",
-        "Persona sentiment attribute steering",
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "relevance_score": 10,
-      "openalex": {
-        "id": "https://openalex.org/W7224127824",
-        "doi": "10.48550/arxiv.2610.37517",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2610.37430",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "When Visual Evidence Is Insufficient: How Instructions, Post-Training, and Internal Activations Shape Refusal in Multimodal Language Models",
-      "authors": [
-        "Ananth K Suresh",
-        "Aveen Dayal",
-        "Gouthaman KV",
-        "Aditya Pola",
-        "Vineeth N Balasubramanian"
-      ],
-      "published": "2026-10-27",
-      "updated": "2026-10-29",
-      "categories": [
-        "Cognitive psychology",
-        "Intervention (counseling)",
-        "Meaning (existential)",
-        "OpenAlex",
-        "Psychology",
-        "cs.CV",
-        "cs.LG"
-      ],
-      "abstract": "For reliable deployment, multimodal large language models (MLLMs) should recognize when an image provides insufficient evidence to answer a question and withhold unsupported answers. Yet refusal alone is not necessarily evidence of such recognition: models may refuse because of unrelated safety constraints or without identifying the missing evidence. We study how refusal on visually unanswerable questions is shaped by three sources of control: inference-time instructions, post-training, and internal activation interventions. Across three MLLMs on the MoHoBench benchmark, we systematically manipulate the meaning and placement of refusal instructions, compare supervised and preference-based post-training, and intervene on a refusal-related activation direction derived from naturally answered and refused examples. We find that refusal is highly sensitive to both the meaning and placement of instructions, with model-specific changes at the sample level that are obscured by aggregate refusal rates. Evidence-aware and general refusal instructions have stronger effects than an intentionally mismatched safety instruction. Post-training produces larger increases in refusal, but can also induce responses that combine refusal language with attempted answers. In contrast, activation intervention produces smaller yet transferable changes across prompt conditions, without evidence of indiscriminate refusal on tested visually answerable samples. These findings show that refusal is jointly shaped by external instructions, post-training, and internal representations, highlighting the need to disentangle evidence recognition from a model's learned propensity to refuse.",
-      "url": "https://arxiv.org/abs/2610.37430",
-      "pdf_url": "https://arxiv.org/pdf/2610.37430",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Activation intervention and patching"
-      ],
-      "code_urls": [],
-      "relevance_score": 16,
-      "openalex": {
-        "id": "https://openalex.org/W7224130734",
-        "doi": "10.48550/arxiv.2610.37430",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2610.37157",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "What Survives Distillation? A Mechanistic Interpretability Study of GPT-2 and DistilGPT-2",
-      "authors": [
-        "Nabeelah Faumi",
-        "Deshan Sumanathilaka"
-      ],
-      "published": "2026-10-27",
-      "updated": "2026-10-29",
-      "categories": [
-        "Artificial intelligence",
-        "Computer science",
-        "Feature (linguistics)",
-        "Interpretability",
-        "OpenAlex",
-        "cs.CL"
-      ],
-      "abstract": "Knowledge distillation compresses large language models into compact students that preserve aggregate metrics, yet the mechanistic consequences of depth-reduction distillation remain largely uncharacterized. This work applies linear CKA, logit lens analysis, attention pattern decomposition, sparse autoencoder feature statistics, and activation patching to compare GPT-2 and its six-layer student DistilGPT-2 across two canonical circuits: the Indirect Object Identification (IOI) circuit and the Greater-Than (GT) circuit. The results reveal a compression-collapse dichotomy: the IOI circuit suffers complete mechanistic collapse (DistilGPT-2: 35.2% accuracy vs. 94.8%, zero name-mover preservation), while the GT circuit survives with 87.7% task performance recovery through active remapping of the teacher's layer-9 comparison head into student layer~4 (mean Pearson r = 0.945). These findings demonstrate that circuit compressibility governs mechanistic survival under distillation, and that aggregate metrics are insufficient diagnostics for circuit integrity.",
-      "url": "https://arxiv.org/abs/2610.37157",
-      "pdf_url": "https://arxiv.org/pdf/2610.37157",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Mechanistic interpretability steering",
-        "SAE steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 12,
-      "openalex": {
-        "id": "https://openalex.org/W7224129490",
-        "doi": "10.48550/arxiv.2610.37157",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2610.37126",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Mechanistic Failure Modes of Weight Pruning in Transformer Language Models",
-      "authors": [
-        "Nabeelah Faumi",
-        "Deshan Sumanathilaka"
-      ],
-      "published": "2026-10-27",
-      "updated": "2026-10-29",
-      "categories": [
-        "Algorithm",
-        "Computer science",
-        "Language model",
-        "OpenAlex",
-        "Pruning",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "abstract": "Pruned language models are judged almost entirely by accuracy and perplexity, which assumes that preserved output behaviour implies preserved internal computation. We test this assumption with a factorial pruning study on GPT-2, crossing two importance criteria (magnitude, random), two component types (attention heads, MLP neurons) and three sparsity levels (3%, 50%, 70%). Using the fully characterised indirect object identification (IOI) circuit as ground truth, we measure circuit integrity with activation patching, path patching and direct logit attribution. We find two qualitatively distinct failure modes. Magnitude head pruning >= zeroes the circuit: output-facing heads are removed, and the model falls to near-chance. Magnitude neuron pruning at 30% inverts it: all 26 circuit heads remain intact, but Name Mover contributions flip sign, and the model systematically prefers the wrong name (17.7% accuracy). Perplexity ranks it as less damaged than random head pruning (74.6 vs 140.1). A replication of the Greater-Than circuit shows that the critical component type depends on the circuit's architecture. These results show that output metrics and structural checks can both miss mechanistic damage, motivating circuit-level causal analysis as a complementary evaluation of compressed language models.",
-      "url": "https://arxiv.org/abs/2610.37126",
-      "pdf_url": "https://arxiv.org/pdf/2610.37126",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 8,
-      "openalex": {
-        "id": "https://openalex.org/W7224116846",
-        "doi": "10.48550/arxiv.2610.37126",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2610.36797",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Language Models Keep Abandoned Analyses: Residue and Adaptation after Garden-Path Sentences",
-      "authors": [
-        "Xiang Ding"
-      ],
-      "published": "2026-10-27",
-      "updated": "2026-10-29",
-      "categories": [
-        "Noun",
-        "Noun phrase",
-        "OpenAlex",
-        "Sentence",
-        "Transitive relation",
-        "cs.CL"
-      ],
-      "abstract": "Reading \"While the man hunted the deer ran into the woods\" requires giving up the analysis in which \"the deer\" is the object of \"hunted\". People who have just read such a sentence still produce more transitive structures, so the abandoned analysis primes later language. We ask whether language models keep using an analysis they have abandoned, and what in the model carries it. In 24 open models from 124M to 70B parameters, a garden-path sentence leaves two traces in the context. A residue of the abandoned analysis raises later object attachment, by about three quarters of the effect of a sentence in which the noun phrase really is an object, and it appears in sampled text, on held-out and human-normed items and for a second type of garden path. An adaptation toward the resolved structure scales with the sentence's disambiguation error and acts mainly on comprehension-like measures. Activation patching separates the two. Later text reads the residue from the role information in the noun phrase's states, which were computed under the object analysis before the disambiguation, and replacing these states removes almost all of the residue in the 32B and 70B models. The adaptation is read from the states that processed the disambiguation. Overridden statements show the same persistence (a corrected value keeps pulling later predictions in 8 of 9 models), and in most models the pull is carried by the positions after the statement. Finally, the human paradigm transfers only with controls for punctuation, because the models also write garden-path sentences themselves, which reverses the paradigm's raw statistic.",
-      "url": "https://arxiv.org/abs/2610.36797",
-      "pdf_url": "https://arxiv.org/pdf/2610.36797",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Activation intervention and patching"
-      ],
-      "code_urls": [],
-      "relevance_score": 4,
-      "openalex": {
-        "id": "https://openalex.org/W7224092758",
-        "doi": "10.48550/arxiv.2610.36797",
-        "cited_by_count": 0
-      }
-    },
-    {
-      "id": "2610.36665",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Haste Makes Waste? Towards Safe Few-Step Text-to-Image Models",
-      "authors": [
-        "Lior Ziv",
-        "Mahmood Sharif"
-      ],
-      "published": "2026-10-27",
-      "updated": "2026-10-29",
-      "categories": [
-        "Computer science",
-        "Dice",
-        "Erasure",
-        "OpenAlex",
-        "Process (computing)",
-        "cs.CR",
-        "cs.CV"
-      ],
-      "abstract": "While few-step distilled text-to-image models have gained traction due to their fast generation times, the speed-up implications on their unsafe generation rates remain unknown. We uncover an inherent tension between speed and safety: few-step models are often more unsafe than their teachers, and reducing the number of inference steps consistently raises unsafe generation rates. We further find that acceleration makes unsafe concepts harder to erase in few-step models, with existing concept-erasure methods markedly less effective than in teachers. We offer a mechanistic diagnosis for why erasure methods fail on few-step models, finding that the fragility of few-step models' generation process and the way generation guidance is usually distilled into those models may hinder established concept-erasure methods. To address the speed-safety trade-off, we propose DICE (Distillation-Integrated Concept Erasure), a post-distillation erasure method tailored for few-step models. DICE aligns both its latent construction and its generation-preservation loss with the distillation method that produced the model, keeping erasure faithful to few-step models. DICE demonstrates strong results in our evaluation. For example, on FLUX Schnell, DICE reduces unsafe-generation rate to 0.046 (vs. at least 0.161 for prior erasure methods we test), while mostly preserving benign generation quality.",
-      "url": "https://arxiv.org/abs/2610.36665",
-      "pdf_url": "https://arxiv.org/pdf/2610.36665",
-      "primary_category": "cs.CV",
-      "source_queries": [
-        "Feature latent concept steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 5,
-      "openalex": {
-        "id": "https://openalex.org/W7224095053",
-        "doi": "10.48550/arxiv.2610.36665",
-        "cited_by_count": 0
-      }
-    },
-    {
       "id": "doi:10.6084/m9.figshare.34796367",
       "source": "openalex",
       "sources": [
@@ -858,7 +1145,7 @@
         "Goke Alade"
       ],
       "published": "2026-10-26",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Artificial intelligence",
         "Computer science",
@@ -882,44 +1169,6 @@
       "relevance_score": 7
     },
     {
-      "id": "doi:10.20944/preprints202610.2446.v1",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Mechanistic Interpretability of LLM Behavior: A Survey",
-      "authors": [
-        "Priya Pitre",
-        "Jun Hou",
-        "Ziyu Yao",
-        "Naren Ramakrishnan",
-        "Xuan Wang"
-      ],
-      "published": "2026-10-26",
-      "updated": "2026-10-29",
-      "categories": [
-        "Artificial intelligence",
-        "Generalization",
-        "Interpretability",
-        "OpenAlex",
-        "Representation (politics)"
-      ],
-      "abstract": "Mechanistic interpretability seeks to explain how internal computations produce large language model behaviors, yet findings remain fragmented across methods and behavioral domains. We survey 229 papers across five behavior families: epistemic, linguistic, reasoning, safety, and social behaviors. We introduce a framework distinguishing five levels of mechanistic evidence, from decodability to generalization. Our cross-behavior synthesis reveals recurring mechanisms, distinctions between representation and causal control, and limitations of existing explanations. We conclude by identifying gaps in understanding computational roles, behavioral interactions, and generalization to interactive and agentic settings.",
-      "url": "https://doi.org/10.20944/preprints202610.2446.v1",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Mechanistic interpretability steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7223871505",
-        "doi": "10.20944/preprints202610.2446.v1",
-        "cited_by_count": 0
-      },
-      "relevance_score": 10
-    },
-    {
       "id": "2610.36269",
       "source": "arxiv",
       "sources": [
@@ -934,7 +1183,7 @@
         "Benno Krojer"
       ],
       "published": "2026-10-26",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Artificial intelligence",
         "Computer science",
@@ -978,7 +1227,7 @@
         "Mujeen Sung"
       ],
       "published": "2026-10-26",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Artificial intelligence",
         "Computer science",
@@ -992,8 +1241,11 @@
       "pdf_url": "https://arxiv.org/pdf/2610.35558",
       "primary_category": "cs.CL",
       "source_queries": [
+        "Activation steering exact",
         "Hidden-state intervention",
-        "Reasoning and CoT steering"
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Steering vectors"
       ],
       "code_urls": [],
       "relevance_score": 6,
@@ -1024,7 +1276,7 @@
         "Zhouhan Lin"
       ],
       "published": "2026-10-26",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Computation",
         "OpenAlex",
@@ -1038,7 +1290,8 @@
       "pdf_url": "https://arxiv.org/pdf/2610.35544",
       "primary_category": "cs.CL",
       "source_queries": [
-        "Hidden-state intervention"
+        "Hidden-state intervention",
+        "Reasoning and CoT steering"
       ],
       "code_urls": [],
       "relevance_score": 6,
@@ -1063,7 +1316,7 @@
         "Liangming Pan"
       ],
       "published": "2026-10-26",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Computer science",
         "Control (management)",
@@ -1077,8 +1330,12 @@
       "pdf_url": "https://arxiv.org/pdf/2610.35530",
       "primary_category": "cs.AI",
       "source_queries": [
+        "Activation intervention and patching",
         "Activation steering exact",
-        "Safety refusal behavior steering"
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Safety refusal behavior steering",
+        "Steering vectors"
       ],
       "code_urls": [],
       "relevance_score": 11,
@@ -1106,7 +1363,7 @@
         "Qingjun Yuan"
       ],
       "published": "2026-10-26",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Computer science",
         "Computer security",
@@ -1122,7 +1379,10 @@
       "source_queries": [
         "Activation intervention and patching",
         "Activation steering exact",
+        "Model editing internal representations",
         "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Representation engineering",
         "Safety refusal behavior steering",
         "Steering vectors"
       ],
@@ -1133,6 +1393,48 @@
         "doi": "10.48550/arxiv.2610.35043",
         "cited_by_count": 0
       }
+    },
+    {
+      "id": "2610.34768",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "DynEdit: Dynamic Entropy-Guided Sequential Editing for Large Language Models",
+      "authors": [
+        "Jinhu Fu",
+        "Yan Bai",
+        "Yihang Lou",
+        "Li Sun",
+        "Jiahong Wu",
+        "Xiangxiang Chu",
+        "Sen Su"
+      ],
+      "published": "2026-10-26",
+      "updated": "2026-10-30",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "OpenAlex",
+        "Paraphrase",
+        "Security token"
+      ],
+      "abstract": "Knowledge editing aims to update outdated or incorrect knowledge in large language models without full retraining. Existing parameter-editing methods remain limited for long-sequence knowledge: single-point editors provide insufficient coverage for extended targets, while fixed chunk-based editors distribute editing effort uniformly across rigid predefined windows, failing to prioritize difficult, information-dense tokens. In this work, we show that token entropy is closely associated with both editing difficulty and semantic importance: high-entropy regions are harder to edit and often contain key factual content. Motivated by this observation, we propose DynEdit, a dynamic framework for long-sequence knowledge editing. DynEdit uses token-level entropy to guide non-uniform sliding, increasing the coverage of difficult high-entropy regions, and further applies entropy-guided token-level optimization to strengthen updates on information-dense tokens within each editing window. Experiments on three benchmarks and two backbone models show that DynEdit consistently outperforms competitive baselines across diverse long-form editing settings, achieving gains of up to +14.0 BLEU points on challenging paraphrase queries and near-saturated semantic scores on several diverse knowledge domains.",
+      "url": "https://arxiv.org/abs/2610.34768",
+      "pdf_url": "https://arxiv.org/pdf/2610.34768",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Model editing internal representations",
+        "Reasoning and CoT steering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7223796503",
+        "doi": "10.48550/arxiv.2610.34768",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
     },
     {
       "id": "2610.34756",
@@ -1148,7 +1450,7 @@
         "Kezhi Wang"
       ],
       "published": "2026-10-26",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Adaptation (eye)",
         "Computer science",
@@ -1163,7 +1465,9 @@
       "pdf_url": "https://arxiv.org/pdf/2610.34756",
       "primary_category": "cs.LG",
       "source_queries": [
-        "Mechanistic interpretability steering"
+        "Activation intervention and patching",
+        "Mechanistic interpretability steering",
+        "Reasoning and CoT steering"
       ],
       "code_urls": [],
       "relevance_score": 11,
@@ -1172,6 +1476,44 @@
         "doi": "10.48550/arxiv.2610.34756",
         "cited_by_count": 0
       }
+    },
+    {
+      "id": "doi:10.20944/preprints202610.2446.v1",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Mechanistic Interpretability of LLM Behavior: A Survey",
+      "authors": [
+        "Priya Pitre",
+        "Jun Hou",
+        "Ziyu Yao",
+        "Naren Ramakrishnan",
+        "Xuan Wang"
+      ],
+      "published": "2026-10-26",
+      "updated": "2026-10-29",
+      "categories": [
+        "Artificial intelligence",
+        "Generalization",
+        "Interpretability",
+        "OpenAlex",
+        "Representation (politics)"
+      ],
+      "abstract": "Mechanistic interpretability seeks to explain how internal computations produce large language model behaviors, yet findings remain fragmented across methods and behavioral domains. We survey 229 papers across five behavior families: epistemic, linguistic, reasoning, safety, and social behaviors. We introduce a framework distinguishing five levels of mechanistic evidence, from decodability to generalization. Our cross-behavior synthesis reveals recurring mechanisms, distinctions between representation and causal control, and limitations of existing explanations. We conclude by identifying gaps in understanding computational roles, behavioral interactions, and generalization to interactive and agentic settings.",
+      "url": "https://doi.org/10.20944/preprints202610.2446.v1",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7223871505",
+        "doi": "10.20944/preprints202610.2446.v1",
+        "cited_by_count": 0
+      },
+      "relevance_score": 10
     },
     {
       "id": "2610.36210",
@@ -1220,7 +1562,7 @@
         "Hua Wei"
       ],
       "published": "2026-10-25",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Artificial intelligence",
         "Computer science",
@@ -1236,7 +1578,9 @@
       "primary_category": "cs.LG",
       "source_queries": [
         "Activation steering exact",
+        "Persona sentiment attribute steering",
         "Reasoning and CoT steering",
+        "Representation engineering",
         "Safety refusal behavior steering"
       ],
       "code_urls": [],
@@ -1261,7 +1605,7 @@
         "Noam Koenigstein"
       ],
       "published": "2026-10-24",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Computer science",
         "OpenAlex",
@@ -1358,6 +1702,46 @@
       "relevance_score": 10
     },
     {
+      "id": "2610.33353",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Detecting Temporal Concepts in Video Transformers via a No-False-Positives Test",
+      "authors": [
+        "Jianghuai Li",
+        "Andrew Ren",
+        "Greg Shakhnarovich"
+      ],
+      "published": "2026-10-23",
+      "updated": "2026-10-30",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "ENCODE",
+        "OpenAlex",
+        "Pattern recognition (psychology)",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "Video models have the architecture to support encoding temporal aspects of the input, i.e. concepts that require more than one frame to define, like object movement. However, because motion and appearance change are entangled, a feature that appears to encode temporal concepts like object movement may instead encode non-temporal concepts like spatial presence at different positions whose activations merely correlate with motion. To resolve this, we introduce the No-False-Positives (NFP) test, a statistical test with a formal guarantee of statistical specificity for identifying features encoding temporal concepts. Using specially designed stimuli, we apply this test to representations produced by VideoMAE, V-JEPA2, and TimeSformer, and observe that temporal features exist in each model. We validate the test first by showing it yields no temporal features for the DINOv2 image-encoder. Then, using a synthetic representation space, we show that detection rate increases with a direction's projection onto the temporal subspace, and that Sparse Autoencoder features test-flagged as temporal project much more of their norm onto the temporal subspace than unflagged features. Interventions on temporal SAE features yield mixed results across models, suggesting that intervening on temporal features may not outperform a non-temporal feature baseline.",
+      "url": "https://arxiv.org/abs/2610.33353",
+      "pdf_url": "https://arxiv.org/pdf/2610.33353",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Model editing internal representations",
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 4,
+      "openalex": {
+        "id": "https://openalex.org/W7223859445",
+        "doi": "10.48550/arxiv.2610.33353",
+        "cited_by_count": 0
+      }
+    },
+    {
       "id": "2610.33217",
       "source": "arxiv",
       "sources": [
@@ -1372,7 +1756,7 @@
         "Avi Feller"
       ],
       "published": "2026-10-23",
-      "updated": "2026-10-29",
+      "updated": "2026-10-30",
       "categories": [
         "Benchmark (surveying)",
         "Computer science",
@@ -1386,7 +1770,11 @@
       "pdf_url": "https://arxiv.org/pdf/2610.33217",
       "primary_category": "cs.LG",
       "source_queries": [
+        "Activation intervention and patching",
         "Activation steering exact",
+        "Feature latent concept steering",
+        "Persona sentiment attribute steering",
+        "Representation engineering",
         "Safety refusal behavior steering"
       ],
       "code_urls": [],
@@ -1879,34 +2267,6 @@
         "doi": "10.14288/ujemi.v6.204181",
         "cited_by_count": 2
       },
-      "relevance_score": 4
-    },
-    {
-      "id": "2610.33353",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Detecting Temporal Concepts in Video Transformers via a No-False-Positives Test",
-      "authors": [
-        "Jianghuai Li",
-        "Andrew Ren",
-        "Greg Shakhnarovich"
-      ],
-      "published": "2026-10-23",
-      "updated": "2026-10-23",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "abstract": "Video models have the architecture to support encoding temporal aspects of the input, i.e. concepts that require more than one frame to define, like object movement. However, because motion and appearance change are entangled, a feature that appears to encode temporal concepts like object movement may instead encode non-temporal concepts like spatial presence at different positions whose activations merely correlate with motion. To resolve this, we introduce the No-False-Positives (NFP) test, a statistical test with a formal guarantee of statistical specificity for identifying features encoding temporal concepts. Using specially designed stimuli, we apply this test to representations produced by VideoMAE, V-JEPA2, and TimeSformer, and observe that temporal features exist in each model. We validate the test first by showing it yields no temporal features for the DINOv2 image-encoder. Then, using a synthetic representation space, we show that detection rate increases with a direction's projection onto the temporal subspace, and that Sparse Autoencoder features test-flagged as temporal project much more of their norm onto the temporal subspace than unflagged features. Interventions on temporal SAE features yield mixed results across models, suggesting that intervening on temporal features may not outperform a non-temporal feature baseline.",
-      "url": "https://arxiv.org/abs/2610.33353",
-      "pdf_url": "https://arxiv.org/pdf/2610.33353",
-      "primary_category": "cs.CV",
-      "source_queries": [
-        "SAE steering"
-      ],
-      "code_urls": [],
       "relevance_score": 4
     },
     {
@@ -5156,6 +5516,48 @@
       "relevance_score": 4
     },
     {
+      "id": "2610.22636",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Measuring Mechanistic Uncertainty in Large Language Models via Causal Robustness",
+      "authors": [
+        "Aneesh Komanduri",
+        "Majid Afshar",
+        "Timothy A. Miller",
+        "Yanjun Gao"
+      ],
+      "published": "2026-10-15",
+      "updated": "2026-10-30",
+      "categories": [
+        "Causal model",
+        "Computer science",
+        "OpenAlex",
+        "Operationalization",
+        "Robustness (evolution)",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly used in critical domains, where their susceptibility to hallucinations makes reliable and interpretable uncertainty quantification essential. We introduce the concept of mechanistic uncertainty, which characterizes uncertainty through the stability of the internal mechanisms supporting a model's response. We propose the causal robustness margin, defined as the minimum internal intervention required to deviate the model's output, and operationalize it using Jacobian Lens (Jlens) concept steering vectors. Across three open-source models and five question-answering datasets, we show incorrect and uncertain responses exhibit smaller margins, indicating greater sensitivity to internal interventions, and the causal robustness margin complements conventional output-based uncertainty methods. Finally, in a controlled knowledge injection experiment, correctly learned facts show increased margins after training, suggesting that causal robustness provides a mechanistically grounded signal of uncertainty.",
+      "url": "https://arxiv.org/abs/2610.22636",
+      "pdf_url": "https://arxiv.org/pdf/2610.22636",
+      "primary_category": "cs.CL",
+      "source_queries": [
+        "Feature latent concept steering",
+        "Safety refusal behavior steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 15,
+      "openalex": {
+        "id": "https://openalex.org/W7222974994",
+        "doi": "10.48550/arxiv.2610.22636",
+        "cited_by_count": 0
+      }
+    },
+    {
       "id": "doi:10.5281/zenodo.23258143",
       "source": "openalex",
       "sources": [
@@ -5188,48 +5590,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 6
-    },
-    {
-      "id": "2610.22636",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Measuring Mechanistic Uncertainty in Large Language Models via Causal Robustness",
-      "authors": [
-        "Aneesh Komanduri",
-        "Majid Afshar",
-        "Timothy A. Miller",
-        "Yanjun Gao"
-      ],
-      "published": "2026-10-15",
-      "updated": "2026-10-28",
-      "categories": [
-        "Causal model",
-        "Computer science",
-        "OpenAlex",
-        "Operationalization",
-        "Robustness (evolution)",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "abstract": "Large language models (LLMs) are increasingly used in critical domains, where their susceptibility to hallucinations makes reliable and interpretable uncertainty quantification essential. We introduce the concept of mechanistic uncertainty, which characterizes uncertainty through the stability of the internal mechanisms supporting a model's response. We propose the causal robustness margin, defined as the minimum internal intervention required to deviate the model's output, and operationalize it using Jacobian Lens (Jlens) concept steering vectors. Across three open-source models and five question-answering datasets, we show incorrect and uncertain responses exhibit smaller margins, indicating greater sensitivity to internal interventions, and the causal robustness margin complements conventional output-based uncertainty methods. Finally, in a controlled knowledge injection experiment, correctly learned facts show increased margins after training, suggesting that causal robustness provides a mechanistically grounded signal of uncertainty.",
-      "url": "https://arxiv.org/abs/2610.22636",
-      "pdf_url": "https://arxiv.org/pdf/2610.22636",
-      "primary_category": "cs.CL",
-      "source_queries": [
-        "Feature latent concept steering",
-        "Safety refusal behavior steering",
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "relevance_score": 15,
-      "openalex": {
-        "id": "https://openalex.org/W7222974994",
-        "doi": "10.48550/arxiv.2610.22636",
-        "cited_by_count": 0
-      }
     },
     {
       "id": "2610.22169",
