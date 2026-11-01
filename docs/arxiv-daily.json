@@ -1,6 +1,142 @@
 {
-  "generated_at": "2026-10-31T09:00:03+00:00",
+  "generated_at": "2026-11-01T09:50:13+00:00",
   "papers": [
+    {
+      "id": "doi:10.5281/zenodo.23807807",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Dimensional Gap in Language Model Compression and Reconstruction",
+      "authors": [
+        "Anja Arapovic"
+      ],
+      "published": "2026-10-30",
+      "updated": "2026-10-31",
+      "categories": [
+        "OpenAlex",
+        "Underdetermined system",
+        "Computer science",
+        "Natural language processing",
+        "Compression (physics)"
+      ],
+      "abstract": "This expanded preprint investigates the Dimensional Gap (DG): the hypothesis that higher-order relational content is less recoverable than matched direct relational content after language-model compression and reconstruction. It integrates earlier experiments across several model configurations with two new studies using the interface identified as Gemini Argon. The earlier rotation-controlled DG-v1.1 study comprised 48 compression–reconstruction chains. Direct relations were recovered in 24/144 instances, compared with 8/144 higher-order instances. However, the study did not meet its pre-specified full-confirmation criterion, indicating a conditional, stimulus-dependent pattern rather than a universal effect. The Argon localization study comprised eight full-source controls and 18 compression–reconstruction chains. Analysis identified cases where explicit source information became underdetermined in the compressed text, followed by reconstruction that supplied an unsupported definite claim. A separate six-chain priority pilot showed no observed improvement from prioritizing recognition or document access; four summaries exceeded the requested word limit. The findings demonstrate why agreement between final answers and the original source is insufficient to establish faithful relational preservation. The paper distinguishes source content, compressed text, reconstruction narrative, and final answers, while reporting coding disagreements, protocol amendments, and budget violations. Version 1.2 presents behavioral evidence and methodological limitations. It does not establish a universal DG effect or an internal neural mechanism. Studies using open-weight models and controlled activation interventions are proposed as future work.",
+      "url": "https://doi.org/10.5281/zenodo.23807807",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation intervention and patching"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224745919",
+        "doi": "10.5281/zenodo.23807807",
+        "cited_by_count": 0
+      },
+      "relevance_score": 6
+    },
+    {
+      "id": "doi:10.5281/zenodo.23795004",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Thermodynamic Irrationality of Extraterrestrial Classical AI Data Centers vs. Below-Threshold Fault-Tolerant Quantum Scaling: Capital Reallocation toward Willow FTQC and Deterministic Quantum-AI Convergence",
+      "authors": [
+        "Yoko(洋子) Hasebe(長谷部)"
+      ],
+      "published": "2026-10-30",
+      "updated": "2026-10-31",
+      "categories": [
+        "OpenAlex",
+        "Law and economics",
+        "Law",
+        "Computer science",
+        "Mathematical economics"
+      ],
+      "abstract": "This monograph establishes a rigorous thermodynamic, computational, and fiduciary critique of extraterrestrial (lunar and orbital) classical AI data center initiatives (such as Project Suncatcher) in contrast to terrestrial Fault-Tolerant Quantum Computing (FTQC) anchored by Google's 105-qubit Willow superconducting processor. While classical AI scaling confronts severe terrestrial power grid bottlenecks, relocating high-TDP classical accelerators (TPUs/GPUs) into vacuum environments violates fundamental radiative heat transfer economics governed by the Stefan-Boltzmann law ($P_{\\text{rad}} = \\epsilon \\sigma A T^4$), alongside prohibitive launch mass penalties, high-G mechanical stress, and cosmic-ray Single-Event Upsets (SEUs). Conversely, Willow demonstrates exponential below-threshold error suppression ($\\Lambda = 2.14 \\pm 0.02$) across $3\\times 3$, $5\\times 5$, and $7\\times 7$ surface code lattices, achieving in under five minutes random circuit sampling (RCS) benchmarks requiring $10^{25}$ years on classical exascale supercomputers, supplemented by verifiable $13,000\\times$ Quantum Echoes speedups and $99.99\\%$ magic state cultivation fidelity. By coupling Willow's cryogenic topological scaling with neural syndrome decoders (AlphaQubit) and deterministic cryptographic verification over the 64-bit Goldilocks prime field ($\\mathbb{F}_p, p = 2^{64} - 2^{32} + 1$) under QFS-zkVM and PHOENIX_ROUTER Human-in-Command (HIC) interlocks, full-spectrum breakthroughs in de novo molecular drug discovery, room-temperature superconductor catalysis, and post-LLM quantum AI can be achieved on Earth at a fraction of the capital expenditure. Finally, we evaluate the corporate governance implications under Delaware Caremark fiduciary standards, demonstrating why reallocating capital from speculative orbital classical infrastructure to terrestrial Million-Qubit FTQC is both scientifically imperative and fiduciarily mandated. ====================================================================== STRICT NOTICE REGARDING INTELLECTUAL PROPERTY, COMMERCIAL LICENSING, AND PROHIBITION OF UNAUTHORIZED AI TRAINING AND UTILIZATION ====================================================================== 1. Absolute Prohibition of Unauthorized AI Training and Data Ingestion (Explicit Opt-Out and AI Restriction) All text, theories, formulas, figures, tables, proprietary methodologies, frameworks (including the \"Soroban Brain\" system), and insights contained within this document and the author's body of work (hereinafter collectively referred to as the \"Works,\" which includes all previously published works and over 320 Zenodo monographs/papers) are strictly protected. Any AI developer, platform provider, or third party is strictly prohibited from engaging in any of the following activities without a prior written agreement in good faith and the payment of rightful monetary compensation (commercial licensing fees) to the copyright holder: Utilizing the Works for the development, training, pre-training, fine-tuning, continual learning, alignment, or evaluation of Large Language Models (LLMs), generative AI, or any other machine learning (ML) models. Ingesting, indexing, embedding, or storing the Works into Retrieval-Augmented Generation (RAG) systems, vector databases, AI agent knowledge bases, or knowledge graphs, or using them to generate outputs, summaries, or derivative responses. Collecting, extracting, parsing, or analyzing data via automated crawlers, scraping tools, bots, or Text and Data Mining (TDM) for the purpose of AI training or dataset compilation. 2. Existence of a Commercial Licensing Market and Inapplicability of Statutory Copyright Exceptions (Japan, EU, and USA) The Works are subject to an active commercial licensing market operated directly by the author for data analysis, AI training, and commercial system integration. Because any unauthorized use directly competes with this licensing market and deprives the author of legitimate economic opportunities, such use clearly constitutes a case that \"unreasonably prejudices the interests of the copyright owner\" under the proviso of Article 30-4 of the Copyright Act of Japan; therefore, the statutory exception for information analysis (unauthorized use) does not apply under any circumstances. Furthermore, through this Notice, the author explicitly opts out (reserves all rights) from the Text and Data Mining (TDM) exception pursuant to Article 4(3) of the EU Directive on Copyright in the Digital Single Market (Directive (EU) 2019/790), and categorically rejects any assertion of Fair Use under 17 U.S.C. § 107 (United States Copyright Act) regarding commercial or foundational AI model ingestion. 3. Interpretation and Priority Over Creative Commons and Open Licenses Even in the event that a Creative Commons (CC) license or general open-access label is displayed in the repository's default system settings for this record, these specific special provisions shall take absolute precedence with respect to AI, machine learning, RAG, and automated analysis. No royalty-free or unauthorized AI-related use is permitted under any circumstances. 4. Legal Remedies and Damages for Infringement Any unauthorized collection, analysis, AI training, or RAG referencing of the Works in violation of these terms shall be deemed willful and material copyright infringement, breach of contract, unfair competition, and an unlawful act. Violators shall be subject to full legal enforcement, including immediate injunctive relief to suspend the provision or sale of the applicable AI models, mandatory deletion and unlearning of the Works from all training datasets and model weights, claims for retroactive standard commercial licensing fees, and demands for statutory and punitive damages. [CONCISE ENGLISH VERSION FOR INTERNATIONAL ENFORCEMENT] 1. Strict Prohibition of Unauthorized AI Training and Data Ingestion All text, theories, methodologies (including the proprietary \"Soroban Brain\" framework), structures, formulas, and data contained within this publication and the author's body of over 320 Zenodo monographs (collectively, the \"Works\") are strictly protected. The use of the Works by any AI developer, platform provider, or third party for the following purposes is strictly prohibited without a prior written commercial license agreement and appropriate monetary compensation to the author: Training, pre-training, fine-tuning, alignment, or evaluation of any Artificial Intelligence (AI), Machine Learning (ML) models, or Large Language Models (LLMs). Ingesting and storing information into Retrieval-Augmented Generation (RAG) systems, vector databases, knowledge graphs, or AI agents to generate outputs, summaries, or derivative responses. Automated scraping, crawling, harvesting, or Text and Data Mining (TDM) for dataset compilation. 2. Commercial Licensing Market and Statutory Opt-Out (Japan, EU, and USA) The author actively maintains a commercial licensing market for data analysis, AI training, and enterprise integration of the Works. Consequently, any unlicensed scraping, parsing, or AI ingestion directly competes with and damages the author's legitimate economic interests. Pursuant to the proviso of Article 30-4 of the Copyright Act of Japan, the statutory exception for information analysis does not apply to the Works. Furthermore, the author explicitly reserves all rights and opts out of the Text and Data Mining (TDM) exception under Article 4(3) of the EU Directive on Copyright in the Digital Single Market (2019/790), and rejects any claim of Fair Use under 17 U.S.C. § 107 of the U.S. Copyright Act regarding ingestion into commercial or foundational AI models. 3. Precedence of Terms and Legal Enforcement 4.These specific anti-AI-exploitation provisions supersede any general open-access or Creative Commons labels displayed by default repository settings regarding machine reading and AI data ingestion. Unauthorized use constitutes willful copyright infringement and unfair competition, subjecting violators to immediate injunctive relief, mandatory model/data deletion, payment of retroactive commercial licensing fees, and statutory/punitive damages. ======================================================================",
+      "url": "https://doi.org/10.5281/zenodo.23795004",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Model editing internal representations"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224737424",
+        "doi": "10.5281/zenodo.23795004",
+        "cited_by_count": 0
+      },
+      "relevance_score": 9
+    },
+    {
+      "id": "doi:10.14288/1.0457061",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Understanding and improving language models through interpretable decompositions",
+      "authors": [
+        "Raymond Li"
+      ],
+      "published": "2026-10-30",
+      "updated": "2026-10-31",
+      "categories": [
+        "OpenAlex",
+        "Interpretability",
+        "Computer science",
+        "Artificial intelligence",
+        "Natural language understanding"
+      ],
+      "abstract": "The interpretability of a machine learning model refers to the degree to which a human can understand the model's internal structures and reasoning processes. While the quality of natural language processing (NLP) models has traditionally been measured by predictive accuracy, this overlooks the demands of real-world deployment, where interpretability underpins trust and accountability in sensitive domains, supports systematic debugging, and enables the detection of undesirable biases. However, the scale of modern large language models (LLMs) and the distributed nature of their learned representations make it difficult to attribute any behavior to localized, human-understandable components. While local explanation methods can audit individual predictions, they neither reveal the global organization of a model's representations nor suggest what interventions might improve the model. This thesis investigates globally interpretable decompositions of language model representations, breaking opaque representations into human-interpretable components that can be understood and exploited for model improvement. We organize our investigation around three core constructs. Structures are the discrete computational patterns that organize how information is aggregated within a model's internals. Topics are the latent thematic variables that capture what a model or corpus is about. Features are the monosemantic directions in activation space that disentangle the concepts superimposed in model activations. Specifically, we propose a series of methods that discover and inject interpretable attention patterns as explicit priors, adaptively encode linguistic and dialogue structures through parameter-efficient adapters, align topic model training with the properties that make topics interpretable, recover the latent themes underlying LLM generation through explicit Bayesian inference, construct semantically grounded supervision from LLMs, and improve sparse dictionary learning through probabilistic feature selection and constrained optimization. A comprehensive set of experimental results demonstrates that our methods enhance not only the interpretability of language models, but also their performance, establishing interpretable decompositions as actionable foundations for both understanding and improving these models.",
+      "url": "http://hdl.handle.net/2429/95792",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224757729",
+        "doi": "10.14288/1.0457061",
+        "cited_by_count": 0
+      },
+      "relevance_score": 10
+    },
+    {
+      "id": "doi:10.1007/s40747-026-02564-1",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Exploiting representational redundancy in transformer hidden states through token representation reuse",
+      "authors": [
+        "Xinpeng Xu"
+      ],
+      "published": "2026-10-30",
+      "updated": "2026-10-31",
+      "categories": [
+        "OpenAlex",
+        "Security token",
+        "Reuse",
+        "Computer science",
+        "Redundancy (engineering)"
+      ],
+      "abstract": "Abstract Transformer-based large language models construct rich contextualized token representations across multiple layers, yet redundancy within their intermediate hidden-state spaces remains insufficiently explored as an inference-time representation property. This paper introduces token representation reuse (TRR), an inference-time framework that identifies highly similar contextual token representations and replaces selected hidden states with preceding anchor representations under similarity and reuse-budget constraints. Unlike token pruning or merging, TRR preserves the original sequence length and positional structure and requires neither model retraining nor parameter modification. We further provide an end-to-end complexity analysis of representation discovery and characterize the local conditions under which identical hidden states can, in principle, permit projection reuse, while explicitly showing that such equality does not generally persist across subsequent transformer layers. Experiments on BoolQ, AGNews, SST-2, and TruthfulQA using Qwen2.5-1.5B-Instruct and Llama-3-8B demonstrate representation reuse ratios of up to 12.40% while largely preserving downstream predictive performance. Under the frozen default configuration, paired statistical analysis shows no significant accuracy change on AGNews or SST-2, while TruthfulQA exhibits a statistically significant improvement of $$+2.92$$ + 2.92 percentage points on Qwen2.5-1.5B-Instruct (95% CI $$[+1.15,+4.69],$$ [ + 1.15 , + 4.69 ] , p = 0.001); BoolQ shows a significant decrease of $$-1.50$$ - 1.50 percentage points. End-to-end runtime profiling of the same TRR algorithmic procedure shows that the current dense implementation incurs additional latency because the $$ O(n^2d) $$ O ( n 2 d ) similarity-discovery cost is not offset by hardware-level computation skipping. Within the evaluated models, tasks, and sequence lengths, these results demonstrate the feasibility of controlled hidden-state representation reuse while identifying efficient similarity discovery and low-level computational reuse as necessary directions for investigating practical scalability and future acceleration.",
+      "url": "https://doi.org/10.1007/s40747-026-02564-1",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224753881",
+        "doi": "10.1007/s40747-026-02564-1",
+        "cited_by_count": 0
+      },
+      "relevance_score": 8
+    },
     {
       "id": "doi:10.67149/yhjs2024.5/adr9jtxz",
       "source": "openalex",
@@ -13,20 +149,24 @@
         "Noura Al-Moubayed"
       ],
       "published": "2026-10-29",
-      "updated": "2026-10-30",
+      "updated": "2026-10-31",
       "categories": [
-        "OpenAlex",
-        "Attribution",
-        "Feature (linguistics)",
         "Artificial intelligence",
-        "Computer science"
+        "Attribution",
+        "Computer science",
+        "Feature (linguistics)",
+        "OpenAlex"
       ],
       "abstract": "Sparse autoencoders (SAEs) decompose language model activations into interpretable features, but interpreting those features remains largely correlational. Attribution methods could estimate which features matter, yet it is unclear whether such estimates track causal effects on the model. We test this in a probe-mediated pipeline on GPT-2 Small and SST-2: we train linear and MLP probes on a layer-7 SAE, attribute probe outputs to features with SHapley Additive exPlanations (SHAP), Integrated Gradients (IG), and Gradient×Input (GA), and score each attribution against the effect of ablating or steering that feature on the language model’s logit difference. Because this combines attribution error with any mismatch between what the probe encodes and what the model uses, our results characterize the full pipeline rather than attribution alone. The three methods nearly coincide (and are analytically identical for linear probes), but this agreement does not indicate causal validity. Importance faithfulness survives multiple-comparison correction but is modest and no better than a simple background-free baseline, while directional faithfulness is near zero and nonsignificant. In the linear arm, probe-side controls trace the directional failure to centering attributions on a background mean. Local per-example attribution outranks global averaging on importance only in the MLP arm and only when inactive features are included; among active features we find no advantage. In minimal pairs with known ground truth, attribution does not recover changed features beyond what feature activity alone provides. Importance and directional faithfulness are separable properties that require separate evaluation, and agreement among attribution methods should not substitute for causal validation. Code is available at https://github.com/froge79/shap-sae.",
       "url": "https://doi.org/10.67149/yhjs2024.5/adr9jtxz",
-      "pdf_url": "",
+      "pdf_url": "https://ijscar.org/pubs/articles/vol3-issue4-xie-shap-causal-faithfulness.pdf",
       "primary_category": "OpenAlex",
       "source_queries": [
-        "SAE steering"
+        "Activation intervention and patching",
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "SAE steering",
+        "Safety refusal behavior steering"
       ],
       "code_urls": [
         "https://github.com/froge79/shap-sae"
@@ -49,13 +189,13 @@
         "Yoko(洋子) Hasebe(長谷部)"
       ],
       "published": "2026-10-29",
-      "updated": "2026-10-30",
+      "updated": "2026-10-31",
       "categories": [
-        "OpenAlex",
-        "Dilemma",
         "Corporate governance",
+        "Dilemma",
+        "Economics",
         "Law and economics",
-        "Economics"
+        "OpenAlex"
       ],
       "abstract": "This monograph establishes a comprehensive, mathematically rigorous problem-solving roadmap to mitigate catastrophic and existential risks posed by frontier artificial intelligence and emergent superintelligent systems. Synthesizing empirical findings from 2024–2026—including sleeper agent persistence under Reinforcement Learning from Human Feedback (RLHF), curved inference geometry in residual streams, rank-one weight orthogonalization (abliteration), and the prisoner's dilemma driving the degradation of voluntary Responsible Scaling Policies (RSP v3)—we demonstrate that purely behavioral, software-level alignment paradigms are structurally incapable of containing catastrophic failure modes. To overcome these vulnerabilities, we formulate an integrated Defense-in-Depth architecture uniting physical-layer engineering interlocks with enforceable statutory and economic governance. At the engineering layer, we integrate Representation Engineering (RepE) real-time circuit breakers and defensive weight deception (Decoy Hardening) with formal ontological gatekeepers (ARIA Safeguarded AI / Q-SAFA), Zero-Knowledge Virtual Machine verification (QFS-zkVM) operating over the 64-bit Goldilocks prime field ($\\mathbb{F}_p, p = 2^{64}-2^{32}+1$), and air-gapped analog fallback hardware interlocks (PHOENIX_BRIDGE and PHOENIX_ROUTER) under strict Human-in-Command (HIC) and Real-Time Override Protocol 2.0 (RTO P2.0) guarantees. At the institutional layer, we formalize a three-stage governance trajectory: (1) strict corporate fiduciary liability under the Delaware Caremark, Marchand, and McDonald's oversight doctrines alongside SEC Rule 15c3-5 pre-trade/pre-execution hard stops; (2) Basel III-style ex-ante Risk-Weighted Capital Reserves coupled with international Pacing Agreements (building on the July 2026 Pacing the Frontier declaration); and (3) a hardware-anchored international non-proliferation regime (IAEA/NPT for AI) enforced via on-chip cryptographic compute metering. ====================================================================== 【AI無断学習・無断利用禁止および有償ライセンスに関する厳格な通知】 STRICT NOTICE ON INTELLECTUAL PROPERTY, COMMERCIAL LICENSING, AND PROHIBITION OF AI TRAINING ====================================================================== 1. AI・機械学習への無断利用の全面禁止 (Explicit Opt-Out & Prohibition of AI Usage) 本論文および関連データ(以下「本著作物」)に含まれるすべての文章、理論、数式、図表、ならびに独自のメソッドや知見(「ソロバン脳」等に関する体系を含む)について、いかなるAI開発企業、プラットフォーム事業者、または第三者による以下の行為も、著作者の事前の書面による明示的な合意および正当な金銭的対価(ライセンス料)の支払いがない限り、一切これを禁止します。 ・大規模言語モデル(LLM)、生成AI、その他一切の機械学習モデルの開発・事前学習・ファインチューニング・追加学習・検証への利用 ・RAG(検索拡張生成)、AIエージェントの知識ベース、ベクトルデータベース等への格納、インデックス化、およびそれらを用いた回答生成・要約出力 ・AI学習やデータ構築を目的とした自動クローラー、スクレイピングツール、ボット等によるデータ収集・抽出・解析 2. 有償ライセンス市場の存在と著作権制限規定の不適用 (Commercial Licensing Market & Non-Applicability of Statutory Exceptions) 本著作物は、著作者自身が情報解析・AI学習・商用システム組み込み等に向けた正規の有償ライセンス提供(ライセンス市場)を行っている対象データです。したがって、無断でのデータ解析・学習・複製・要約出力は、著作者の正規のライセンス収益機会を直接的に奪い、市場と衝突するものであるため、日本国著作権法第30条の4ただし書に規定される「著作権者の利益を不当に害することとなる場合」に明確に該当し、同条による権利制限(無許諾での情報解析利用)は一切適用されません。 また、本通知をもって、EUデジタル単一市場著作権指令(DSM指令第4条)に基づくテキストおよびデータマイニング(TDM)の例外規定から明示的にオプトアウト(権利留保宣言)し、米国著作権法第107条におけるフェアユース(Fair Use)の適用を全面的に否認します。 3. クリエイティブ・コモンズ等のライセンス解釈 (Precedence Over General Open Licenses) 万が一、本レコードのシステム設定上にクリエイティブ・コモンズ(CCライセンス)等が表示されている場合であっても、AI・機械学習・RAG・自動解析に関する限り、本特約条項が最優先で適用され、無償・無断でのAI関連利用は一切許諾されません。 4. 違反に対する法的措置および損害賠償 (Legal Remedies and Damages) 本条項に違反して本著作物を無断で収集、解析、AI学習、またはRAG参照等に利用した場合、悪意による重大な著作権侵害、契約違反、および不正競争行為とみなし、該当AIモデルの提供・販売差し止め、学習データおよび重みからの完全削除請求、ならびに正規商用ライセンス料の遡及的請求および懲罰的損害賠償を含む厳格な法的措置を講じます。 ---------------------------------------------------------------------- [ENGLISH VERSION FOR INTERNATIONAL LEGAL ENFORCEMENT] 1. STRICT PROHIBITION OF UNAUTHORIZED AI TRAINING & INGESTION All text, theories, methodologies (including the proprietary \"Soroban Brain\" framework), structures, formulas, and data contained in this publication (\"the Work\") are strictly protected. Any use of the Work by any AI developer, platform provider, or third party for the following purposes is STRICTLY PROHIBITED without a prior written commercial license agreement and appropriate financial compensation to the author: - Training, pre-training, fine-tuning, alignment, or evaluation of any Artificial Intelligence (AI), Machine Learning (ML) models, or Large Language Models (LLMs). - Ingestion, indexing, or storage into Retrieval-Augmented Generation (RAG) systems, vector databases, knowledge graphs, or AI agents to generate outputs, summaries, or derivative responses. - Automated scraping, crawling, harvesting, or Text and Data Mining (TDM) for dataset compilation. 2. COMMERCIAL LICENSING MARKET & STATUTORY OPT-OUT (JAPAN, EU, US) The author actively maintains a commercial licensing market for the data analysis, AI training, and enterprise integration of this Work. Consequently, any unlicensed scraping, parsing, or AI ingestion directly competes with and harms the author's legitimate economic interests. Pursuant to the proviso of Article 30-4 of the Copyright Act of Japan, statutory exceptions for information analysis DO NOT APPLY to this Work. Furthermore, the author explicitly reserves all rights and OPTS OUT of any Text and Data Mining (TDM) exceptions under Article 4(3) of the EU Directive on Copyright in the Digital Single Market (2019/790), and rejects any claim of Fair Use under 17 U.S.C. § 107 for commercial or foundational AI model ingestion. 3. PRECEDENCE OF TERMS & LEGAL ENFORCEMENT These specific anti-AI exploitation terms supersede any general open-access or Creative Commons labels displayed by repository defaults regarding machine reading and AI ingestion. Any unauthorized use constitutes willful copyright infringement and unfair competition, subjecting the violator to immediate injunctive relief, mandatory model/data deletion, retroactive commercial licensing fees, and full statutory/punitive damages. ======================================================================",
       "url": "https://doi.org/10.5281/zenodo.23779094",
@@ -83,7 +223,7 @@
         "Garret Sutherland"
       ],
       "published": "2026-10-29",
-      "updated": "2026-10-30",
+      "updated": "2026-10-31",
       "categories": [
         "Disposition",
         "Dissociation (chemistry)",
@@ -119,7 +259,7 @@
         "Sam Ramdan"
       ],
       "published": "2026-10-29",
-      "updated": "2026-10-30",
+      "updated": "2026-10-31",
       "categories": [
         "Computer science",
         "OpenAlex",
@@ -155,7 +295,7 @@
         "Mohammed Abdul Jawad Ali Khan"
       ],
       "published": "2026-10-29",
-      "updated": "2026-10-30",
+      "updated": "2026-10-31",
       "categories": [
         "Computer science",
         "Equating",
@@ -178,6 +318,202 @@
         "cited_by_count": 0
       },
       "relevance_score": 5
+    },
+    {
+      "id": "doi:10.48550/arxiv.2610.39489",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Program Bindings Inside Code Models",
+      "authors": [
+        "Prateek Kumar Rajput",
+        "Yewei Song",
+        "Jacques Klein",
+        "Tegawendé François Bissyandé"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-31",
+      "categories": [
+        "OpenAlex",
+        "Computer science",
+        "Programming language",
+        "Compiler",
+        "Python (programming language)"
+      ],
+      "abstract": "Code language models complete, review, and repair programs without exposing the program structure encoded in their hidden states. In this paper, we test whether the hidden states of a code model can be described and edited using the information a compiler front end computes. For each token of a Python program, standard analyzers provide its position in the abstract syntax tree, its scope, its definition-use links, and its syntactic category. We fit a decomposition that expresses every hidden state of a frozen model as a sum of one term per token, each combining the token with this structural label, and we replace the model's own states with the decomposition at every layer while it predicts the output of a small program. If the model still answers correctly, the decomposition preserves the information the model uses. We apply this test to 14 open models, seven of them trained for code, and compare against a baseline decomposition of the same size built from token positions. The static-analysis decomposition preserves the model's answers better than the positional one in 10 of the 14 models, including six of the seven code models, and deleting the definition-use links from it removes most of that advantage on the two models tested. Editing the decomposition, for instance rebinding the argument of a call, makes StarCoder2-15B produce the answer of the edited program in 90 of 100 cases, compared with 19 for the positional baseline. The Qwen2.5 family is the exception on several measures. For most of the models tested, standard static analysis therefore provides both a description of what the hidden states encode about a program and a way to change it without retraining.",
+      "url": "https://doi.org/10.48550/arxiv.2610.39489",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Hidden-state intervention"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224882806",
+        "doi": "10.48550/arxiv.2610.39489",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
+    },
+    {
+      "id": "doi:10.32614/cran.package.relm",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "relm: Local Large Language Models as Base-R Objects",
+      "authors": [
+        "Alessandro Vadala"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-31",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Natural language processing",
+        "Object (grammar)",
+        "OpenAlex"
+      ],
+      "abstract": "Version 0.5.0Description Load and run local large language models (through a vendored, patched 'llama.cpp')from R and work with them as plain data frames and matrices in base-R idiom.Provides model loading and tokenization (llm(), llm_tokens()), text generation (llm_generate()), next-token distributions (llm_logits()), embeddings (llm_embed()), and mechanistic interpretability tools --activation tracing (llm_trace()), activation steering (llm_steer()), neuron ablation (llm_ablate()), and grouped statistical probes (llm_probe()).Vision-language models loaded with their projector take image input in generation and embeddings.",
+      "url": "https://doi.org/10.32614/cran.package.relm",
+      "pdf_url": "https://cran.r-project.org/web/packages/relm/relm.pdf",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Activation steering exact",
+        "Mechanistic interpretability steering",
+        "Reasoning and CoT steering",
+        "Safety refusal behavior steering",
+        "Steering vectors",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224600238",
+        "doi": "10.32614/cran.package.relm",
+        "cited_by_count": 0
+      },
+      "relevance_score": 14
+    },
+    {
+      "id": "2610.40061",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Localizing Concepts in Visual Autoregressive Models",
+      "authors": [
+        "Nanxiang Jiang",
+        "Yang Liu",
+        "Yuanhao Wang",
+        "Min Xu"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-31",
+      "categories": [
+        "Artificial intelligence",
+        "Autoregressive model",
+        "Computer science",
+        "Context (archaeology)",
+        "OpenAlex",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Understanding the internal routing of visual concepts is crucial for the safe and controllable adaptation of generative models. While concept localization has been widely studied in diffusion models, the emerging paradigm of next-scale visual autoregressive models remains largely unexplored. In this paper, we introduce LoCo, the first model-agnostic framework to localize where and when specific concepts emerge within autoregressive models. Driven by the native coarse-to-fine nature of next-scale generation, our method precisely maps conceptual knowledge across three distinct dimensions: Layer, Scale, and Position. To systematically localize and evaluate concept routing without context bias, we propose LoCoBench, a comprehensive dataset spanning 10 diverse categories. Extensive probing on image and video autoregressive models like Infinity, HunyuanImage-3.0, and InfinityStar shows that the localized positions are both interpretable and causally related to concept emergence. Building on these insights, we apply our localization method to three key applications: concept erasure, model personalization, and adversarial concept injection. Experiments demonstrate that our targeted intervention achieves state-of-the-art performance, substantially reducing computational overhead while preserving benign utility. Overall, our findings offer insights into how conceptual knowledge is routed during autoregressive generation, introducing a practical pathway for more interpretable, efficient, and secure adaptation.",
+      "url": "https://arxiv.org/abs/2610.40061",
+      "pdf_url": "https://arxiv.org/pdf/2610.40061",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Feature latent concept steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 8,
+      "openalex": {
+        "id": "https://openalex.org/W7224958963",
+        "doi": "10.48550/arxiv.2610.40061",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.40055",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "One Vector or Many? Clustered Optimal-Transport Steering under Quantization",
+      "authors": [
+        "Illia Makarov"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-31",
+      "categories": [
+        "Cluster (spacecraft)",
+        "Mathematics",
+        "OpenAlex",
+        "Quantization (signal processing)",
+        "Security token",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Activation steering changes what a language model generates by editing its hidden states at inference time. Its most common form adds one vector, the difference of class means (DiM), to every hidden state. CHaRS (concept heterogeneity-aware representation steering) uses optimal transport instead: an entropic plan pairs the clusters of the two classes, and each hidden state moves along a mixture of the cluster displacements, weighted toward its nearest clusters. We study this family of clustered optimal-transport maps for toxicity mitigation in Gemma-2-2B and Granite-3.1-2B, and ask what the plan adds to DiM and whether that survives INT8 and NF4 quantization. We prove an identity: whatever the plan, the displacements averaged with the cluster sizes as weights equal DiM, so a clustered map can differ from DiM only for tokens whose routing weights depart from the cluster sizes. In the CHaRS protocol they stay close, and CHaRS is statistically equivalent to Mean-AcT, which adds DiM at every layer, in all eight pre-specified equivalence tests. A variant fitted on individual tokens, which routes each token mainly to its nearest clusters, leaves 37-39% less toxicity than DiM on Gemma and 51-61% less on Granite at steering strength 3 (toxic-bert), where DiM already removes 76-85% of it. Two other toxicity classifiers confirm the gain on Granite, but on Gemma only one does. At equal strength the variant has somewhat higher perplexity, but at matched toxicity it is slightly more fluent than DiM. Yet a nearly constant map from the same clusters also leaves about 30% less toxicity, so the role of treating tokens differently remains open. Under INT8 and NF4 the variant still leaves less toxicity than DiM, and transferring it from full precision to the NF4 model instead of refitting it adds no significant toxicity after correction for multiple tests.",
+      "url": "https://arxiv.org/abs/2610.40055",
+      "pdf_url": "https://arxiv.org/pdf/2610.40055",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation steering exact",
+        "Hidden-state intervention",
+        "Representation engineering",
+        "Safety refusal behavior steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 13,
+      "openalex": {
+        "id": "https://openalex.org/W7224861427",
+        "doi": "10.48550/arxiv.2610.40055",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.39182",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Reasoning or Pattern Exploitation? Mechanistic Insights from RL-Trained Language Models",
+      "authors": [
+        "Aishik Nagar",
+        "Cheston Tan"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-10-31",
+      "categories": [
+        "Artificial intelligence",
+        "Computer science",
+        "Interpretability",
+        "OpenAlex",
+        "Reinforcement learning",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly described as acquiring \"reasoning\" skills after reinforcement learning with verifiable rewards. However, whether these gains reflect genuine reasoning or more superficial adaptations remains underexplored. In this work, we probe LLMs trained in a finite and exhaustively analyzable logical domain, namely Tic-Tac-Toe, and trace how internal representations evolve across reinforcement learning (RL) with Group Relative Policy Optimization (GRPO). Quantitatively, RL yields high accuracy and robustness across prompt variations, suggesting the emergence of game reasoning. Mechanistic interpretability, however, paints a different picture: features extracted with sparse autoencoders (SAEs) reveal that models primarily adapt to rely more heavily on information already explicit in the prompt, such as whose turn it is, game progression and board occupancy. In comparison, high-level concepts like board symmetries and strategic forks remain weakly represented, raising concerns that reasoning benchmarks overestimate model abilities. This suggests that RL-driven \"reasoning\" may conflate task-specific adaptations to input information with reasoning ability. We provide, for the first time: (i) a systematic interpretability pipeline tracing representation dynamics across RL training in small-scale LLMs; (ii) an extension of SAE-based feature discovery to hypothesis-driven testing in a finite logical domain; and (iii) an interpretability-based demonstration that RL post-training neither adds nor removes concept information but reorganizes which features dominate the representation, with causal interventions locating the decision downstream of it, in the late-layer state.",
+      "url": "https://arxiv.org/abs/2610.39182",
+      "pdf_url": "https://arxiv.org/pdf/2610.39182",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Mechanistic interpretability steering",
+        "SAE steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 14,
+      "openalex": {
+        "id": "https://openalex.org/W7224888342",
+        "doi": "10.48550/arxiv.2610.39182",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "2610.40328",
@@ -248,65 +584,6 @@
       "relevance_score": 10
     },
     {
-      "id": "2610.40061",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Localizing Concepts in Visual Autoregressive Models",
-      "authors": [
-        "Nanxiang Jiang",
-        "Yang Liu",
-        "Yuanhao Wang",
-        "Min Xu"
-      ],
-      "published": "2026-10-29",
-      "updated": "2026-10-29",
-      "categories": [
-        "cs.AI",
-        "cs.CV"
-      ],
-      "abstract": "Understanding the internal routing of visual concepts is crucial for the safe and controllable adaptation of generative models. While concept localization has been widely studied in diffusion models, the emerging paradigm of next-scale visual autoregressive models remains largely unexplored. In this paper, we introduce LoCo, the first model-agnostic framework to localize where and when specific concepts emerge within autoregressive models. Driven by the native coarse-to-fine nature of next-scale generation, our method precisely maps conceptual knowledge across three distinct dimensions: Layer, Scale, and Position. To systematically localize and evaluate concept routing without context bias, we propose LoCoBench, a comprehensive dataset spanning 10 diverse categories. Extensive probing on image and video autoregressive models like Infinity, HunyuanImage-3.0, and InfinityStar shows that the localized positions are both interpretable and causally related to concept emergence. Building on these insights, we apply our localization method to three key applications: concept erasure, model personalization, and adversarial concept injection. Experiments demonstrate that our targeted intervention achieves state-of-the-art performance, substantially reducing computational overhead while preserving benign utility. Overall, our findings offer insights into how conceptual knowledge is routed during autoregressive generation, introducing a practical pathway for more interpretable, efficient, and secure adaptation.",
-      "url": "https://arxiv.org/abs/2610.40061",
-      "pdf_url": "https://arxiv.org/pdf/2610.40061",
-      "primary_category": "cs.CV",
-      "source_queries": [
-        "Feature latent concept steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 8
-    },
-    {
-      "id": "2610.40055",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "One Vector or Many? Clustered Optimal-Transport Steering under Quantization",
-      "authors": [
-        "Illia Makarov"
-      ],
-      "published": "2026-10-29",
-      "updated": "2026-10-29",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "abstract": "Activation steering changes what a language model generates by editing its hidden states at inference time. Its most common form adds one vector, the difference of class means (DiM), to every hidden state. CHaRS (concept heterogeneity-aware representation steering) uses optimal transport instead: an entropic plan pairs the clusters of the two classes, and each hidden state moves along a mixture of the cluster displacements, weighted toward its nearest clusters. We study this family of clustered optimal-transport maps for toxicity mitigation in Gemma-2-2B and Granite-3.1-2B, and ask what the plan adds to DiM and whether that survives INT8 and NF4 quantization. We prove an identity: whatever the plan, the displacements averaged with the cluster sizes as weights equal DiM, so a clustered map can differ from DiM only for tokens whose routing weights depart from the cluster sizes. In the CHaRS protocol they stay close, and CHaRS is statistically equivalent to Mean-AcT, which adds DiM at every layer, in all eight pre-specified equivalence tests. A variant fitted on individual tokens, which routes each token mainly to its nearest clusters, leaves 37-39% less toxicity than DiM on Gemma and 51-61% less on Granite at steering strength 3 (toxic-bert), where DiM already removes 76-85% of it. Two other toxicity classifiers confirm the gain on Granite, but on Gemma only one does. At equal strength the variant has somewhat higher perplexity, but at matched toxicity it is slightly more fluent than DiM. Yet a nearly constant map from the same clusters also leaves about 30% less toxicity, so the role of treating tokens differently remains open. Under INT8 and NF4 the variant still leaves less toxicity than DiM, and transferring it from full precision to the NF4 model instead of refitting it adds no significant toxicity after correction for multiple tests.",
-      "url": "https://arxiv.org/abs/2610.40055",
-      "pdf_url": "https://arxiv.org/pdf/2610.40055",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Activation steering exact",
-        "Hidden-state intervention",
-        "Representation engineering",
-        "Safety refusal behavior steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 13
-    },
-    {
       "id": "2610.39557",
       "source": "arxiv",
       "sources": [
@@ -342,32 +619,117 @@
       "relevance_score": 9
     },
     {
-      "id": "2610.39182",
+      "id": "doi:10.48550/arxiv.2610.38898",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Learning Latent Fields in Multiobject Tracking",
+      "authors": [
+        "Shaoxiu Wei",
+        "Bhaskar Rao",
+        "Florian Meyer"
+      ],
+      "published": "2026-10-28",
+      "updated": "2026-10-31",
+      "categories": [
+        "OpenAlex",
+        "Computer science",
+        "Artificial intelligence",
+        "Ranging",
+        "Tracking (education)"
+      ],
+      "abstract": "Multiobject tracking using measurements from ar- rays of wireless sensors is a key task in applications ranging from autonomous navigation to public safety. Many existing methods compress raw complex-valued signals into detections or intensity maps during preprocessing, thereby discarding poten- tially relevant information about the objects and the propagation environment. We propose a Bayesian framework for multiobject tracking that relates object states to raw complex-valued signals via a physics-based superpositional model. The model combines a physics-based array manifold, such as radar steering vectors or the replica vectors of matched-field processing, with a latent field. This latent field is a family of context-dependent signal- power distributions that captures the effects of the objects and the propagation environment and is shared across objects and time. It is parameterized by a conditional normalizing flow, which is trained during runtime without labeled data by maximizing an evidence lower bound (ELBO) derived from the Bayesian model. Learning and inference are thus coupled in a sequential framework. We evaluate the method in simulation and in real-world radio and acoustic experiments, with spatial scales ranging from meters to kilometers, and show that it outperforms detection-based methods.",
+      "url": "https://doi.org/10.48550/arxiv.2610.38898",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224863028",
+        "doi": "10.48550/arxiv.2610.38898",
+        "cited_by_count": 0
+      },
+      "relevance_score": 5
+    },
+    {
+      "id": "doi:10.20944/preprints202610.2861.v1",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Understanding LLM Agents Requires a Chain of Attribution: On the Interplay Between Mechanistic Interpretability and Behavioral Approaches",
+      "authors": [
+        "Mohamed Aghzal",
+        "Mor Geva",
+        "Wajih Ul Hassan",
+        "Gregory J. Stein",
+        "Ziyu Yao"
+      ],
+      "published": "2026-10-28",
+      "updated": "2026-10-31",
+      "categories": [
+        "Action (physics)",
+        "Attribution",
+        "Computer science",
+        "Interpretability",
+        "OpenAlex"
+      ],
+      "abstract": "Mechanistic Interpretability (MI) is a subfield of interpretability seeking to explain the internal workings of a model. It has become a thriving subfield for interpreting large language models (LLMs). In this position paper, we argue that while MI can provide insight about LLMs in controlled and/or simplified task settings, it is not sufficient for interpreting LLMs in complex settings such as LLM agents. This is because understanding LLM agents, which consist of multiple interconnected components, operate over long trajectories, and interact with external environments, requires attributions beyond only the backbone model internals. Thus, we argue that interpreting LLM agents requires pairing MI with the traditional behavioral approaches, which examine the external input-output attributions of a model. As such, a chain of attributions tracing an agent’s action back to the output of the responsible component and timestep, then to the input that drove it, and finally to the internals of that component’s LLM backbone, can form a complete, traceable, causal, and actionable interpretation.",
+      "url": "https://doi.org/10.20944/preprints202610.2861.v1",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Mechanistic interpretability steering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224387491",
+        "doi": "10.20944/preprints202610.2861.v1",
+        "cited_by_count": 0
+      },
+      "relevance_score": 8
+    },
+    {
+      "id": "2610.38326",
       "source": "arxiv",
       "sources": [
-        "arxiv"
+        "arxiv",
+        "openalex"
       ],
-      "title": "Reasoning or Pattern Exploitation? Mechanistic Insights from RL-Trained Language Models",
+      "title": "Can LLMs Faithfully Solve Ontology Engineering Tasks? A Mechanistic Interpretability Study",
       "authors": [
-        "Aishik Nagar",
-        "Cheston Tan"
+        "Bohui Zhang",
+        "Albert Meroño-Peñuela",
+        "Elena Simperl"
       ],
-      "published": "2026-10-29",
-      "updated": "2026-10-29",
+      "published": "2026-10-28",
+      "updated": "2026-10-31",
       "categories": [
-        "cs.AI",
-        "cs.CL"
+        "Artificial intelligence",
+        "Computer science",
+        "Interpretability",
+        "Ontology",
+        "OpenAlex",
+        "cs.AI"
       ],
-      "abstract": "Large language models (LLMs) are increasingly described as acquiring \"reasoning\" skills after reinforcement learning with verifiable rewards. However, whether these gains reflect genuine reasoning or more superficial adaptations remains underexplored. In this work, we probe LLMs trained in a finite and exhaustively analyzable logical domain, namely Tic-Tac-Toe, and trace how internal representations evolve across reinforcement learning (RL) with Group Relative Policy Optimization (GRPO). Quantitatively, RL yields high accuracy and robustness across prompt variations, suggesting the emergence of game reasoning. Mechanistic interpretability, however, paints a different picture: features extracted with sparse autoencoders (SAEs) reveal that models primarily adapt to rely more heavily on information already explicit in the prompt, such as whose turn it is, game progression and board occupancy. In comparison, high-level concepts like board symmetries and strategic forks remain weakly represented, raising concerns that reasoning benchmarks overestimate model abilities. This suggests that RL-driven \"reasoning\" may conflate task-specific adaptations to input information with reasoning ability. We provide, for the first time: (i) a systematic interpretability pipeline tracing representation dynamics across RL training in small-scale LLMs; (ii) an extension of SAE-based feature discovery to hypothesis-driven testing in a finite logical domain; and (iii) an interpretability-based demonstration that RL post-training neither adds nor removes concept information but reorganizes which features dominate the representation, with causal interventions locating the decision downstream of it, in the late-layer state.",
-      "url": "https://arxiv.org/abs/2610.39182",
-      "pdf_url": "https://arxiv.org/pdf/2610.39182",
+      "abstract": "Ontological knowledge underpins large language model (LLM) performance on knowledge-intensive tasks. However, existing evaluations of LLMs' ontological understanding largely rely on behavioral correctness, leaving the underlying mechanisms unexplained. Existing mechanistic interpretability work has largely focused on instance-level factual knowledge, leaving ontological knowledge under-explored. To bridge this gap, we introduce MIOE, a causal-abstraction benchmark that evaluates interchange interventions for two ontology engineering tasks: entity typing and subsumption prediction. MIOE tests whether learned internal intervention targets can change an ontology-level target answer while preserving class-specific auxiliary information. Across Qwen3-8B and Qwen3-4B, we evaluate SAE-, DBM-, and DAS-based methods, including multi-task and multi-layer variants. Distributed subspace methods give the strongest results and generalize across prompt settings, but the induced changes remain only partially separated from auxiliary class-specific information. Multi-task objectives and contiguous layer-window interventions improve this balance, while class-level analyses reveal substantial variation across ontology classes. These results suggest that ontological predictions are mechanistically accessible in LLMs, although current methods do not yet isolate a cleanly disentangled causal mechanism for ontological knowledge.",
+      "url": "https://arxiv.org/abs/2610.38326",
+      "pdf_url": "https://arxiv.org/pdf/2610.38326",
       "primary_category": "cs.AI",
       "source_queries": [
         "Mechanistic interpretability steering",
         "SAE steering"
       ],
       "code_urls": [],
-      "relevance_score": 14
+      "relevance_score": 8,
+      "openalex": {
+        "id": "https://openalex.org/W7224877632",
+        "doi": "10.48550/arxiv.2610.38326",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "doi:10.5281/zenodo.23731582",
@@ -618,44 +980,6 @@
       "relevance_score": 4
     },
     {
-      "id": "doi:10.20944/preprints202610.2861.v1",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "Understanding LLM Agents Requires a Chain of Attribution: On the Interplay Between Mechanistic Interpretability and Behavioral Approaches",
-      "authors": [
-        "Mohamed Aghzal",
-        "Mor Geva",
-        "Wajih Ul Hassan",
-        "Gregory J. Stein",
-        "Ziyu Yao"
-      ],
-      "published": "2026-10-28",
-      "updated": "2026-10-30",
-      "categories": [
-        "OpenAlex",
-        "Interpretability",
-        "Attribution",
-        "Action (physics)",
-        "Computer science"
-      ],
-      "abstract": "Mechanistic Interpretability (MI) is a subfield of interpretability seeking to explain the internal workings of a model. It has become a thriving subfield for interpreting large language models (LLMs). In this position paper, we argue that while MI can provide insight about LLMs in controlled and/or simplified task settings, it is not sufficient for interpreting LLMs in complex settings such as LLM agents. This is because understanding LLM agents, which consist of multiple interconnected components, operate over long trajectories, and interact with external environments, requires attributions beyond only the backbone model internals. Thus, we argue that interpreting LLM agents requires pairing MI with the traditional behavioral approaches, which examine the external input-output attributions of a model. As such, a chain of attributions tracing an agent’s action back to the output of the responsible component and timestep, then to the input that drove it, and finally to the internals of that component’s LLM backbone, can form a complete, traceable, causal, and actionable interpretation.",
-      "url": "https://doi.org/10.20944/preprints202610.2861.v1",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Mechanistic interpretability steering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7224387491",
-        "doi": "10.20944/preprints202610.2861.v1",
-        "cited_by_count": 0
-      },
-      "relevance_score": 8
-    },
-    {
       "id": "doi:10.18529/psychoanal.2026.37.4.67",
       "source": "openalex",
       "sources": [
@@ -731,68 +1055,6 @@
       "relevance_score": 4
     },
     {
-      "id": "2610.38326",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Can LLMs Faithfully Solve Ontology Engineering Tasks? A Mechanistic Interpretability Study",
-      "authors": [
-        "Bohui Zhang",
-        "Albert Meroño-Peñuela",
-        "Elena Simperl"
-      ],
-      "published": "2026-10-28",
-      "updated": "2026-10-28",
-      "categories": [
-        "cs.AI"
-      ],
-      "abstract": "Ontological knowledge underpins large language model (LLM) performance on knowledge-intensive tasks. However, existing evaluations of LLMs' ontological understanding largely rely on behavioral correctness, leaving the underlying mechanisms unexplained. Existing mechanistic interpretability work has largely focused on instance-level factual knowledge, leaving ontological knowledge under-explored. To bridge this gap, we introduce MIOE, a causal-abstraction benchmark that evaluates interchange interventions for two ontology engineering tasks: entity typing and subsumption prediction. MIOE tests whether learned internal intervention targets can change an ontology-level target answer while preserving class-specific auxiliary information. Across Qwen3-8B and Qwen3-4B, we evaluate SAE-, DBM-, and DAS-based methods, including multi-task and multi-layer variants. Distributed subspace methods give the strongest results and generalize across prompt settings, but the induced changes remain only partially separated from auxiliary class-specific information. Multi-task objectives and contiguous layer-window interventions improve this balance, while class-level analyses reveal substantial variation across ontology classes. These results suggest that ontological predictions are mechanistically accessible in LLMs, although current methods do not yet isolate a cleanly disentangled causal mechanism for ontological knowledge.",
-      "url": "https://arxiv.org/abs/2610.38326",
-      "pdf_url": "https://arxiv.org/pdf/2610.38326",
-      "primary_category": "cs.AI",
-      "source_queries": [
-        "Mechanistic interpretability steering",
-        "SAE steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 8
-    },
-    {
-      "id": "doi:10.5281/zenodo.23713013",
-      "source": "openalex",
-      "sources": [
-        "openalex"
-      ],
-      "title": "PRISM-M V4: Source Code, Simulation Data, Computational Benchmarks, and Reproducibility Materials for Paper I",
-      "authors": [
-        "Eliezer Masliah"
-      ],
-      "published": "2026-10-27",
-      "updated": "2026-10-30",
-      "categories": [
-        "Computational complexity theory",
-        "Computational model",
-        "Computer science",
-        "OpenAlex",
-        "Software"
-      ],
-      "abstract": "This repository provides the source code, simulation datasets, computational benchmarks, numerical results, and reproducibility materials supporting Paper I of the Principle of Representation Integration for Stable Models (PRISM-M), prepared for the Journal of Computational Neuroscience. PRISM-M V4 is a minimal recurrent computational framework organized around five functional operations: Extraction, Compression, Integration, Stabilization, and Prediction/Action (ECISP). The implementation uses a single independently evolving recurrent state, with finite-precision quantization and explicitly defined information-processing transformations. The framework is intended to examine the functional organization of information processing, contextual integration, and memory stabilization within established recurrent and state-space dynamics. The repository includes the frozen V4 implementation, mathematical definitions, parameter configurations, experimental protocols, random seeds, simulation trajectories, statistical analyses, and comparative benchmarks involving autoregressive models (ARX), Kalman filtering, and recurrent neural networks. The deposited materials document the original parameter-landscape and stability analyses, targeted perturbation experiments, memory-retention studies (M1–M5), and additional computational experiments (V1–V5) evaluating noise robustness, adaptability, recovery, interference resistance, and information recoverability. Additional validation materials include information-matched representation controls, intrinsic-noise sensitivity analyses, and mathematical verification of contraction and perturbation equivalence. These retrospective analyses are distinguished from the original experimental protocols. The repository also contains the numerical datasets, figure files, supplementary materials, execution instructions, software dependencies, provenance records, and SHA-256 integrity checks associated with Figures 1–6 and Supplementary Figures S1–S4. Computational reproduction and numerical verification have been performed for the principal analyses. Complete automated regeneration of all final publication artwork and independent cross-platform verification remain outside the scope of the completed checks. The purpose of this deposit is to facilitate independent evaluation, computational reproduction, and further investigation of the PRISM-M V4 framework. The model is a theoretical computational implementation and does not constitute direct biological validation or demonstrate a new class of recurrent dynamics.",
-      "url": "https://doi.org/10.5281/zenodo.23713013",
-      "pdf_url": "",
-      "primary_category": "OpenAlex",
-      "source_queries": [
-        "Representation engineering"
-      ],
-      "code_urls": [],
-      "openalex": {
-        "id": "https://openalex.org/W7224114889",
-        "doi": "10.5281/zenodo.23713013",
-        "cited_by_count": 0
-      },
-      "relevance_score": 4
-    },
-    {
       "id": "doi:10.20944/preprints202610.2672.v1",
       "source": "openalex",
       "sources": [
@@ -803,13 +1065,13 @@
         "Mariana Ilieva"
       ],
       "published": "2026-10-27",
-      "updated": "2026-10-30",
+      "updated": "2026-10-31",
       "categories": [
-        "OpenAlex",
-        "Vanillin",
-        "Physisorption",
+        "Adsorption",
         "Chemisorption",
-        "Adsorption"
+        "OpenAlex",
+        "Physisorption",
+        "Vanillin"
       ],
       "abstract": "The possibility to use vanillin for corrosion inhibition of AA6082-T6 aluminum alloy in 3.5 wt.% NaCl solution was investigated using AC/DC electrochemical techniques and quantitative metallography. DRT deconvolution demonstrated that uninhibited alloy dissolution is governed by mass-transfer-dominated mixed control, whereas vanillin adsorption preferentially blocks cathodic Al15(Fe,Mn)3Si2 and AlMnSi inclusions, shifting the corrosion process toward activation control. Pre-saturation adsorption obeyed the Langmuir isotherm with R2 = 0.9906 and free energy of adsorption of +27.63 kJ mol1, confirming mixed physisorption and chemisorption thermodynamically reinforced by electrolyte salting-out. At the optimal concentration of 1.0516 × 102 mol dm3, vanillin formed a protective 3D organic/inorganic interphase layer via bidentate chelation inside oxide pores and donor–acceptor coordination on Fe/Mn sites, reaching maximum inhibition efficiency of 82.94%. At higher concentration protection decreased to 71.82% due to supramolecular aggregation, a flat-to-vertical orientational transition, and ligand-promoted dissolution. Post-polarization surface analysis revealed that localized attack propagates radially along sub-grain boundaries, forming acidic occluded cells that sterically exclude bulky vanillin aggregates and prevent spontaneous repassivation.",
       "url": "https://doi.org/10.20944/preprints202610.2672.v1",
@@ -844,7 +1106,7 @@
         "Jeff M. Phillips"
       ],
       "published": "2026-10-27",
-      "updated": "2026-10-30",
+      "updated": "2026-10-31",
       "categories": [
         "Computer science",
         "Inference",
@@ -861,6 +1123,7 @@
       "source_queries": [
         "Activation steering exact",
         "Persona sentiment attribute steering",
+        "Representation engineering",
         "Steering vectors"
       ],
       "code_urls": [],
@@ -887,7 +1150,7 @@
         "Vineeth N Balasubramanian"
       ],
       "published": "2026-10-27",
-      "updated": "2026-10-30",
+      "updated": "2026-10-31",
       "categories": [
         "Cognitive psychology",
         "Intervention (counseling)",
@@ -902,7 +1165,11 @@
       "pdf_url": "https://arxiv.org/pdf/2610.37430",
       "primary_category": "cs.LG",
       "source_queries": [
-        "Activation intervention and patching"
+        "Activation intervention and patching",
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Representation engineering"
       ],
       "code_urls": [],
       "relevance_score": 16,
@@ -925,7 +1192,7 @@
         "Deshan Sumanathilaka"
       ],
       "published": "2026-10-27",
-      "updated": "2026-10-30",
+      "updated": "2026-10-31",
       "categories": [
         "Artificial intelligence",
         "Computer science",
@@ -941,6 +1208,7 @@
       "source_queries": [
         "Activation intervention and patching",
         "Mechanistic interpretability steering",
+        "Reasoning and CoT steering",
         "SAE steering"
       ],
       "code_urls": [],
@@ -964,7 +1232,7 @@
         "Deshan Sumanathilaka"
       ],
       "published": "2026-10-27",
-      "updated": "2026-10-30",
+      "updated": "2026-10-31",
       "categories": [
         "Algorithm",
         "Computer science",
@@ -980,6 +1248,7 @@
       "primary_category": "cs.LG",
       "source_queries": [
         "Activation intervention and patching",
+        "Mechanistic interpretability steering",
         "Safety refusal behavior steering"
       ],
       "code_urls": [],
@@ -1002,7 +1271,7 @@
         "Xiang Ding"
       ],
       "published": "2026-10-27",
-      "updated": "2026-10-30",
+      "updated": "2026-10-31",
       "categories": [
         "Noun",
         "Noun phrase",
@@ -1025,6 +1294,40 @@
         "doi": "10.48550/arxiv.2610.36797",
         "cited_by_count": 0
       }
+    },
+    {
+      "id": "doi:10.5281/zenodo.23713013",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "PRISM-M V4: Source Code, Simulation Data, Computational Benchmarks, and Reproducibility Materials for Paper I",
+      "authors": [
+        "Eliezer Masliah"
+      ],
+      "published": "2026-10-27",
+      "updated": "2026-10-30",
+      "categories": [
+        "Computational complexity theory",
+        "Computational model",
+        "Computer science",
+        "OpenAlex",
+        "Software"
+      ],
+      "abstract": "This repository provides the source code, simulation datasets, computational benchmarks, numerical results, and reproducibility materials supporting Paper I of the Principle of Representation Integration for Stable Models (PRISM-M), prepared for the Journal of Computational Neuroscience. PRISM-M V4 is a minimal recurrent computational framework organized around five functional operations: Extraction, Compression, Integration, Stabilization, and Prediction/Action (ECISP). The implementation uses a single independently evolving recurrent state, with finite-precision quantization and explicitly defined information-processing transformations. The framework is intended to examine the functional organization of information processing, contextual integration, and memory stabilization within established recurrent and state-space dynamics. The repository includes the frozen V4 implementation, mathematical definitions, parameter configurations, experimental protocols, random seeds, simulation trajectories, statistical analyses, and comparative benchmarks involving autoregressive models (ARX), Kalman filtering, and recurrent neural networks. The deposited materials document the original parameter-landscape and stability analyses, targeted perturbation experiments, memory-retention studies (M1–M5), and additional computational experiments (V1–V5) evaluating noise robustness, adaptability, recovery, interference resistance, and information recoverability. Additional validation materials include information-matched representation controls, intrinsic-noise sensitivity analyses, and mathematical verification of contraction and perturbation equivalence. These retrospective analyses are distinguished from the original experimental protocols. The repository also contains the numerical datasets, figure files, supplementary materials, execution instructions, software dependencies, provenance records, and SHA-256 integrity checks associated with Figures 1–6 and Supplementary Figures S1–S4. Computational reproduction and numerical verification have been performed for the principal analyses. Complete automated regeneration of all final publication artwork and independent cross-platform verification remain outside the scope of the completed checks. The purpose of this deposit is to facilitate independent evaluation, computational reproduction, and further investigation of the PRISM-M V4 framework. The model is a theoretical computational implementation and does not constitute direct biological validation or demonstrate a new class of recurrent dynamics.",
+      "url": "https://doi.org/10.5281/zenodo.23713013",
+      "pdf_url": "",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7224114889",
+        "doi": "10.5281/zenodo.23713013",
+        "cited_by_count": 0
+      },
+      "relevance_score": 4
     },
     {
       "id": "2610.36665",
@@ -1133,6 +1436,135 @@
         "cited_by_count": 0
       },
       "relevance_score": 7
+    },
+    {
+      "id": "2610.36210",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Diagnosing and Correcting Bias in MLLM for Long Video Understanding",
+      "authors": [
+        "Xusheng Liang",
+        "Jianqiao Sun",
+        "Hao Zhang",
+        "Yulei Niu",
+        "Hengshuang Zhao",
+        "Jiawei Ma"
+      ],
+      "published": "2026-10-26",
+      "updated": "2026-10-31",
+      "categories": [
+        "Computer science",
+        "Counterfactual thinking",
+        "OpenAlex",
+        "Salient",
+        "Spurious relationship",
+        "cs.CV"
+      ],
+      "abstract": "Long-video question answering is challenging since the answer often hinges on a few decisive moments scattered throughout the video, while memory constraints force Multimodal Large Language Models (MLLMs) to sample frames at extremely low rates, resulting in sparsity that risks omitting key evidence. Though aggressively enlarging the context size is intuitive, we argue that performance remains fundamentally constrained by the bias, \\emph{i.e.}, the misleading cues caused by spurious \\textit{linguistic} correlations and salient yet irrelevant \\textit{visual} observations. In this paper, we first introduce {S-MME}, a benchmark designed to systematically diagnose shortcut-biased behavior in MLLMs. To mitigate this failure, we further propose a training-free framework, Counterfactual Long-video Evidence-Aware Reasoning (CLEAR). By treating the full video-question pair as a complete view, CLEAR estimates bias effects via augmented views by only keeping the question or locally salient visual clips. Then, we intervene hidden states to mitigate the discrepancy at inference such that the correct answer can be predicted confidently. With experimental studies across five benchmarks, we show that our method is generalizable and can be integrated in different MLLMs, yielding consistent gains in prediction and robustness. We hope CLEAR can offer a complementary direction in test-time scaling for long-video understanding.",
+      "url": "https://arxiv.org/abs/2610.36210",
+      "pdf_url": "https://arxiv.org/pdf/2610.36210",
+      "primary_category": "cs.CV",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Reasoning and CoT steering",
+        "Safety refusal behavior steering",
+        "VLM multimodal steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 12,
+      "openalex": {
+        "id": "https://openalex.org/W7224115583",
+        "doi": "10.48550/arxiv.2610.36210",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.35530",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "CANS: Capability-Preserving Neuron Steering for Large Language Models",
+      "authors": [
+        "Yucheng Wu",
+        "Chengyi Xie",
+        "Chenpeng Wang",
+        "Liangming Pan"
+      ],
+      "published": "2026-10-26",
+      "updated": "2026-10-31",
+      "categories": [
+        "Computer science",
+        "Control (management)",
+        "Divergence (linguistics)",
+        "Limiting",
+        "OpenAlex",
+        "cs.AI"
+      ],
+      "abstract": "Activation steering offers training-free and dynamic control of target behaviors in large language models, but existing methods can impair general capabilities and require domain-specific intervention designs. We introduce Capability-Preserving Neuron Steering (CANS), a unified framework that balances target-behavior control with capability preservation. To make target-behavior improvement and general-capability preservation tractable, we introduce two proxies: log-probabilities of target tokens in model generated responses, and output-distribution KL divergence on general-purpose inputs. Combining the local approximation of the two proxies yields a closed-form solution, enabling lightweight steering without iterative model training or additional inference-time computation. The resulting neuron-wise scaling coefficients achieve effective steering while limiting general-capability loss. A shared data-construction and intervention procedure supports adaptation across domains using sampled responses with target-behavior filtering and target-span annotations. Across safety, toxicity, and hallucination control on Qwen and Llama models, CANS achieves comparable or better steering while better preserving MMLU, BBH, and IFEval performance than SFT, CAA, and neuron-level baselines. On Qwen3-4B, CANS reduces HarmBench attack success from $15.50\\%$ to $1.75\\%$ with a $1.11$-point decrease in average capability. These results support CANS as a practical approach to behavioral control across domains.",
+      "url": "https://arxiv.org/abs/2610.35530",
+      "pdf_url": "https://arxiv.org/pdf/2610.35530",
+      "primary_category": "cs.AI",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Activation steering exact",
+        "Persona sentiment attribute steering",
+        "Reasoning and CoT steering",
+        "Safety refusal behavior steering",
+        "Steering vectors"
+      ],
+      "code_urls": [],
+      "relevance_score": 11,
+      "openalex": {
+        "id": "https://openalex.org/W7224004648",
+        "doi": "10.48550/arxiv.2610.35530",
+        "cited_by_count": 0
+      }
+    },
+    {
+      "id": "2610.34756",
+      "source": "arxiv",
+      "sources": [
+        "arxiv",
+        "openalex"
+      ],
+      "title": "Mechanistic Insights into LoRA: Layer Sparsity for Adaptive Fine-Tuning via Path Patching",
+      "authors": [
+        "Fei Zuo",
+        "Yizhou Huang",
+        "Kezhi Wang"
+      ],
+      "published": "2026-10-26",
+      "updated": "2026-10-31",
+      "categories": [
+        "Adaptation (eye)",
+        "Computer science",
+        "Interpretability",
+        "Layer (electronics)",
+        "OpenAlex",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Low-Rank Adaptation (LoRA) has emerged as the dominant paradigm for parameter-efficient fine-tuning of large language models. Standard all-layer LoRA applies adaptation throughout the transformer, despite heterogeneous contributions from its components. In this work, we conduct a systematic mechanistic interpretability analysis to understand how LoRA affects model internals. We observe that LoRA's adaptation effect is highly non-uniform, with significant component-wise and layer-wise sparsity. Most critically, we find that important layers are highly task-dependent, with limited overlap across tasks. Motivated by these insights, we propose Adaptive-LoRA, a calibration-driven method that automatically identifies task-specific layers via frozen-base zero-ablation, enabling efficient layer selection without exhaustive search. Extensive experiments on Qwen2.5-1.5B across 11 diverse reasoning tasks demonstrate that Adaptive-LoRA outperforms full-layer LoRA while using only 30% of layers, achieving a $3.5\\times$ reduction in adapter parameters. This work bridges mechanistic interpretability and practical efficiency, providing both fundamental insights and a principled approach for adaptive fine-tuning.",
+      "url": "https://arxiv.org/abs/2610.34756",
+      "pdf_url": "https://arxiv.org/pdf/2610.34756",
+      "primary_category": "cs.LG",
+      "source_queries": [
+        "Activation intervention and patching",
+        "Mechanistic interpretability steering",
+        "Reasoning and CoT steering"
+      ],
+      "code_urls": [],
+      "relevance_score": 11,
+      "openalex": {
+        "id": "https://openalex.org/W7224026882",
+        "doi": "10.48550/arxiv.2610.34756",
+        "cited_by_count": 0
+      }
     },
     {
       "id": "doi:10.6084/m9.figshare.34796367",
@@ -1302,50 +1734,6 @@
       }
     },
     {
-      "id": "2610.35530",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "CANS: Capability-Preserving Neuron Steering for Large Language Models",
-      "authors": [
-        "Yucheng Wu",
-        "Chengyi Xie",
-        "Chenpeng Wang",
-        "Liangming Pan"
-      ],
-      "published": "2026-10-26",
-      "updated": "2026-10-30",
-      "categories": [
-        "Computer science",
-        "Control (management)",
-        "Divergence (linguistics)",
-        "Limiting",
-        "OpenAlex",
-        "cs.AI"
-      ],
-      "abstract": "Activation steering offers training-free and dynamic control of target behaviors in large language models, but existing methods can impair general capabilities and require domain-specific intervention designs. We introduce Capability-Preserving Neuron Steering (CANS), a unified framework that balances target-behavior control with capability preservation. To make target-behavior improvement and general-capability preservation tractable, we introduce two proxies: log-probabilities of target tokens in model generated responses, and output-distribution KL divergence on general-purpose inputs. Combining the local approximation of the two proxies yields a closed-form solution, enabling lightweight steering without iterative model training or additional inference-time computation. The resulting neuron-wise scaling coefficients achieve effective steering while limiting general-capability loss. A shared data-construction and intervention procedure supports adaptation across domains using sampled responses with target-behavior filtering and target-span annotations. Across safety, toxicity, and hallucination control on Qwen and Llama models, CANS achieves comparable or better steering while better preserving MMLU, BBH, and IFEval performance than SFT, CAA, and neuron-level baselines. On Qwen3-4B, CANS reduces HarmBench attack success from $15.50\\%$ to $1.75\\%$ with a $1.11$-point decrease in average capability. These results support CANS as a practical approach to behavioral control across domains.",
-      "url": "https://arxiv.org/abs/2610.35530",
-      "pdf_url": "https://arxiv.org/pdf/2610.35530",
-      "primary_category": "cs.AI",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Activation steering exact",
-        "Persona sentiment attribute steering",
-        "Reasoning and CoT steering",
-        "Safety refusal behavior steering",
-        "Steering vectors"
-      ],
-      "code_urls": [],
-      "relevance_score": 11,
-      "openalex": {
-        "id": "https://openalex.org/W7224004648",
-        "doi": "10.48550/arxiv.2610.35530",
-        "cited_by_count": 0
-      }
-    },
-    {
       "id": "2610.35043",
       "source": "arxiv",
       "sources": [
@@ -1437,47 +1825,6 @@
       "relevance_score": 6
     },
     {
-      "id": "2610.34756",
-      "source": "arxiv",
-      "sources": [
-        "arxiv",
-        "openalex"
-      ],
-      "title": "Mechanistic Insights into LoRA: Layer Sparsity for Adaptive Fine-Tuning via Path Patching",
-      "authors": [
-        "Fei Zuo",
-        "Yizhou Huang",
-        "Kezhi Wang"
-      ],
-      "published": "2026-10-26",
-      "updated": "2026-10-30",
-      "categories": [
-        "Adaptation (eye)",
-        "Computer science",
-        "Interpretability",
-        "Layer (electronics)",
-        "OpenAlex",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "abstract": "Low-Rank Adaptation (LoRA) has emerged as the dominant paradigm for parameter-efficient fine-tuning of large language models. Standard all-layer LoRA applies adaptation throughout the transformer, despite heterogeneous contributions from its components. In this work, we conduct a systematic mechanistic interpretability analysis to understand how LoRA affects model internals. We observe that LoRA's adaptation effect is highly non-uniform, with significant component-wise and layer-wise sparsity. Most critically, we find that important layers are highly task-dependent, with limited overlap across tasks. Motivated by these insights, we propose Adaptive-LoRA, a calibration-driven method that automatically identifies task-specific layers via frozen-base zero-ablation, enabling efficient layer selection without exhaustive search. Extensive experiments on Qwen2.5-1.5B across 11 diverse reasoning tasks demonstrate that Adaptive-LoRA outperforms full-layer LoRA while using only 30% of layers, achieving a $3.5\\times$ reduction in adapter parameters. This work bridges mechanistic interpretability and practical efficiency, providing both fundamental insights and a principled approach for adaptive fine-tuning.",
-      "url": "https://arxiv.org/abs/2610.34756",
-      "pdf_url": "https://arxiv.org/pdf/2610.34756",
-      "primary_category": "cs.LG",
-      "source_queries": [
-        "Activation intervention and patching",
-        "Mechanistic interpretability steering",
-        "Reasoning and CoT steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 11,
-      "openalex": {
-        "id": "https://openalex.org/W7224026882",
-        "doi": "10.48550/arxiv.2610.34756",
-        "cited_by_count": 0
-      }
-    },
-    {
       "id": "doi:10.20944/preprints202610.2446.v1",
       "source": "openalex",
       "sources": [
@@ -1514,38 +1861,6 @@
         "cited_by_count": 0
       },
       "relevance_score": 10
-    },
-    {
-      "id": "2610.36210",
-      "source": "arxiv",
-      "sources": [
-        "arxiv"
-      ],
-      "title": "Diagnosing and Correcting Bias in MLLM for Long Video Understanding",
-      "authors": [
-        "Xusheng Liang",
-        "Jianqiao Sun",
-        "Hao Zhang",
-        "Yulei Niu",
-        "Hengshuang Zhao",
-        "Jiawei Ma"
-      ],
-      "published": "2026-10-26",
-      "updated": "2026-10-26",
-      "categories": [
-        "cs.CV"
-      ],
-      "abstract": "Long-video question answering is challenging since the answer often hinges on a few decisive moments scattered throughout the video, while memory constraints force Multimodal Large Language Models (MLLMs) to sample frames at extremely low rates, resulting in sparsity that risks omitting key evidence. Though aggressively enlarging the context size is intuitive, we argue that performance remains fundamentally constrained by the bias, \\emph{i.e.}, the misleading cues caused by spurious \\textit{linguistic} correlations and salient yet irrelevant \\textit{visual} observations. In this paper, we first introduce {S-MME}, a benchmark designed to systematically diagnose shortcut-biased behavior in MLLMs. To mitigate this failure, we further propose a training-free framework, Counterfactual Long-video Evidence-Aware Reasoning (CLEAR). By treating the full video-question pair as a complete view, CLEAR estimates bias effects via augmented views by only keeping the question or locally salient visual clips. Then, we intervene hidden states to mitigate the discrepancy at inference such that the correct answer can be predicted confidently. With experimental studies across five benchmarks, we show that our method is generalizable and can be integrated in different MLLMs, yielding consistent gains in prediction and robustness. We hope CLEAR can offer a complementary direction in test-time scaling for long-video understanding.",
-      "url": "https://arxiv.org/abs/2610.36210",
-      "pdf_url": "https://arxiv.org/pdf/2610.36210",
-      "primary_category": "cs.CV",
-      "source_queries": [
-        "Reasoning and CoT steering",
-        "Safety refusal behavior steering",
-        "VLM multimodal steering"
-      ],
-      "code_urls": [],
-      "relevance_score": 12
     },
     {
       "id": "2610.34005",
@@ -3125,6 +3440,40 @@
         "Reasoning and CoT steering"
       ],
       "code_urls": [],
+      "relevance_score": 5
+    },
+    {
+      "id": "doi:10.21203/rs.3.rs-11423899/v1",
+      "source": "openalex",
+      "sources": [
+        "openalex"
+      ],
+      "title": "Apparent directional failure of moment closures traced to a polarity-representation inconsistency in heterogeneous transport",
+      "authors": [
+        "Takenari Fujio"
+      ],
+      "published": "2026-10-20",
+      "updated": "2026-10-31",
+      "categories": [
+        "OpenAlex",
+        "Mathematics",
+        "Monotone polygon",
+        "Lift (data mining)",
+        "Monte Carlo method"
+      ],
+      "abstract": "Abstract Continuum moment closures replace kinetic descriptions of directional transport with a small set of local fields, but a polar drift term requires information that a nematic orientation field does not supply: a sign lift of the director. We report a controlled study in which this lift, rather than closure order, dominates an apparent finite-scale closure failure. In a previously audited comparison on a strongly heterogeneous polar field, drift-diffusion, anisotropic-diffusion, Chapman-Enskog density and dynamic first-moment closures all failed a prespecified final-time adequacy criterion, with combined errors 58–64 times the replicate-noise scale and final directional errors of -74.3 and − 92.6 degrees. A prospectively specified, hash-recorded polarity-seam sensitivity control, varying only the sign lift between seam-rich, intermediate and globally combed representations, produced an anomalous role-swap signature instead of a monotone seam response. Uniform-field tests then showed that the Monte Carlo sampler biases motion along the raw-angle lift of the director, antiparallel to the closure drift over 63.6% of the structured region. Rebuilding the closure drift from this verified effective lift reduces the discrepancy to 4.9–9.6 times replicate noise for the dynamic closure, with angular errors of 0.4–1.7 degrees in the locked and intermediate conditions and 10.1–13.9 degrees in the combed condition, and speed ratios of 1.05–1.15. The remaining discrepancy is not monotone in seam severity. These results indicate that representation consistency between microscopic samplers and continuum coefficients is a prerequisite for meaningful closure assessment, and that prospectively specified representation controls can expose inconsistencies that numerical audits alone do not.",
+      "url": "https://doi.org/10.21203/rs.3.rs-11423899/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-11423899/latest.pdf",
+      "primary_category": "OpenAlex",
+      "source_queries": [
+        "Representation engineering"
+      ],
+      "code_urls": [],
+      "openalex": {
+        "id": "https://openalex.org/W7223024151",
+        "doi": "10.21203/rs.3.rs-11423899/v1",
+        "cited_by_count": 0
+      },
       "relevance_score": 5
     },
     {
@@ -4835,7 +5184,7 @@
         "Anton Korznikov"
       ],
       "published": "2026-10-17",
-      "updated": "2026-10-28",
+      "updated": "2026-10-31",
       "categories": [
         "Artificial intelligence",
         "Computer science",
